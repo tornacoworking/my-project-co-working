@@ -3,6 +3,7 @@ import Homepage from './home/Homepage';
 import Navbar from './navbar/Navbar';
 import { getDehliOfficeCardById } from './pages/delhi/delhiData';
 import { getPuneOfficeCardById } from './pages/pune/puneData';
+import { getGurugramOfficeCardById } from './pages/gurugram/gurugramData';
 import { getIndoreOfficeCardById } from './pages/indore/indoreData';
 import { getBhubaneshwarOfficeCardById } from './pages/bhubaneswar/bhubaneswarData';
 import WhatsAppButton from './components/WhatsAppButton';
@@ -18,6 +19,7 @@ import DelhiPage from './pages/delhi/Delhi';
 import DelhiOfficeDetails from './pages/delhi/DelhiOfficeDetails';
 import GoaPage from './pages/goa/Goa';
 import GurugramPage from './pages/gurugram/Gurugram';
+import GurugramOfficeDetail from './pages/gurugram/GurugramOfficialDetail';
 import HyderabadPage from './pages/hyderabad/Hyderabad';
 import IndorePage from './pages/indore/Indore';
 import IndoreOfficeDetails from './pages/indore/Indoreofficedetails';
@@ -39,6 +41,7 @@ const OfficeRoute = () => {
   if (getDehliOfficeCardById(id)) return <DelhiOfficeDetails />;
   if (getPuneOfficeCardById(id)) return <PuneOfficeDetail />;
   if (getAhmedabadOfficeCardById(id)) return <AhmedabadOfficeDetails />;
+  if (getGurugramOfficeCardById(id)) return <GurugramOfficeDetail />;
   if (getIndoreOfficeCardById(id)) return <IndoreOfficeDetails />;
   if (getBhubaneshwarOfficeCardById(id)) return <BhubaneshwarOfficeDetail />;
   return <Homepage />;
@@ -64,6 +67,7 @@ const App = () => {
         <Route path="/coworking/delhi/:id" element={<DelhiOfficeDetails />} />
         <Route path="/coworking/goa" element={<GoaPage />} />
         <Route path="/coworking/gurugram" element={<GurugramPage />} />
+        <Route path="/coworking/gurugram/:id" element={<GurugramOfficeDetail />} />
         <Route path="/coworking/hyderabad" element={<HyderabadPage />} />
         <Route path="/coworking/indore" element={<IndorePage />} />
         <Route path="/coworking/indore/:id" element={<IndoreOfficeDetails />} />
