@@ -98,7 +98,7 @@ const OfficeCard = ({ space }) => {
       onClick={handleCardClick}
       className="group bg-white rounded-xl border border-slate-100 shadow-xs hover:shadow-md transition-shadow duration-300 flex flex-col overflow-hidden cursor-pointer"
     >
-      {/* Media slider block */}
+      {/* Media slider block */
       <figure className="relative w-full aspect-[16/10] overflow-hidden bg-slate-100 select-none">
         {/* Absolute badge overlay */}
         {space.badge && (
