@@ -1,7 +1,31 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import {
-  
+  getDehliOfficeSlug,
+  dehliNeighborhoods,
+  dehliOfficeCards,
+  moreDehliOfficeCards,
+  finalDehliOfficeCards, 
+  featuredDehliOfficeCards,
+  pageTwoDehliOfficeCards, 
+  pageTwoMoreDehliOfficeCards, 
+  pageTwoFinalDehliOfficeCards, 
+  pageTwoFeaturedDehliOfficeCards, 
+  perfectWorkspaceBanner, 
+  customizedOfficeBanner,
+  stillNotFindingBanner,
+  paginationData,
+  pageThreeDehliOfficeCards,
+  pageThreeMoreDehliOfficeCards,
+  pageThreeFinalDehliOfficeCards,
+  pageThreeFeaturedDehliOfficeCards,
+  pageFourDehliOfficeCards,
+  pageFiveDehliOfficeCards,
+  pageSixDehliOfficeCards,
+  pageSevenDehliOfficeCards,
+  pageEightDehliOfficeCards,
+  topDehliCoworkingLocations,
+  areaExtraOfficeCards,
 } from './delhiData.js';
 import QuoteModal from '../../components/QuoteModal.jsx';
 
