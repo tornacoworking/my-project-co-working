@@ -15,7 +15,7 @@ export const puneNeighborhoods = [
   "Nirman Nagar",
   "Subhash Nagar",
   "Shyam Nagar"
-]
+];
 
 
 export const puneOfficeCards = [
