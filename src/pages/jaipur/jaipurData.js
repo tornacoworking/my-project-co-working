@@ -1595,13 +1595,252 @@ export const pageFourJaipurOfficeCards = [];
 // NOTE: These cards are ONLY shown when a specific area filter button is clicked.
 // They are real nearby Jaipur coworking listings (true area/location kept) added to the selected area.
 export const areaExtraOfficeCards = {
-  "Vaishali Nagar": [],
-  "Mansarovar": [],
-  "Tonk Road": [],
-  "Lalkothi": [],
+  "Vaishali Nagar": [
+    {
+      id: 102,
+      name: "Hashtag",
+      badge: null,
+      rating: null,
+      area: "Vaishali Nagar",
+      location: "Vaishali Nagar, Jaipur",
+      price: "₹5,800",
+      period: "/ Month",
+      priceFormatted: "₹5,800 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/original/cd2e5b1125d30c5bd945872f420a425b20a7e778.jpg",
+        "https://img.cofynd.com/images/original/4dce17ec6e7ca27bc99b0eb0116cbd542ea9c90e.jpg",
+        "https://img.cofynd.com/images/original/756a5bfef20209755ed9b8185ecc8d11cbd3b348.jpg",
+        "https://img.cofynd.com/images/original/92c4e106a9699fd16df7562dbf6a2df5b95cdefc.jpg",
+        "https://img.cofynd.com/images/original/223603a6cc5c4bb4665ca4d8a3d160645d6af83b.jpg"
+      ]
+    },
+    {
+      id: 103,
+      name: "Suits Coworking Spaces",
+      badge: null,
+      rating: null,
+      area: "Vaishali Nagar",
+      location: "Vaishali Nagar, Jaipur",
+      price: "₹5,000",
+      period: "/ Month",
+      priceFormatted: "₹5,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/original/fe2f70ac5c77f8a734f9d4e9695216bf502e4245.jpg",
+        "https://img.cofynd.com/images/original/26b712725534c445a5d052c95f84d3ceda3b4659.jpg",
+        "https://img.cofynd.com/images/original/a08431034760a46eab04f8d72157ee0c5dfa824f.jpg",
+        "https://img.cofynd.com/images/original/7e72a63b286ca2d7fdcc88d33aa7f2cf82688d29.jpg",
+        "https://img.cofynd.com/images/original/1e19d9a01f0748146ea103b7a5315b371b758755.jpg",
+        "https://img.cofynd.com/images/original/1c6b3bdb3a1ae90d0a3daecb0157654249b8ea8c.jpg"
+      ]
+    },
+    {
+      id: 104,
+      name: "Creware Coworks",
+      badge: null,
+      rating: null,
+      area: "Vaishali Nagar",
+      location: "Vaishali Nagar, Jaipur",
+      price: "₹6,000",
+      period: "/ Month",
+      priceFormatted: "₹6,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/latest_images_2024/07bb37baff192903fc12f6a744d8986827044679.webp",
+        "https://img.cofynd.com/images/latest_images_2024/e8e474d0cd4e2ae9c4cedffad95350b531a79511.webp",
+        "https://img.cofynd.com/images/latest_images_2024/d33ceff6ece1685a3f4b327002c23693ec442dec.webp",
+        "https://img.cofynd.com/images/latest_images_2024/6d69afb410c73d3f549a6b7acc0103aff4eb0612.webp",
+        "https://img.cofynd.com/images/latest_images_2024/cf20380a3a58e9a38df9fa5d8b96cda2fd4e4b48.webp",
+        "https://img.cofynd.com/images/latest_images_2024/f779a91fe78895a4dcae38c0d725c6ce8bf935c7.webp"
+      ]
+    }
+  ],
+  "Mansarovar": [
+    {
+      id: 84,
+      name: "White Polar Spaces",
+      badge: null,
+      rating: null,
+      area: "Mansarovar",
+      location: "Mansarovar, Jaipur",
+      price: "₹5,499",
+      period: "/ Month",
+      priceFormatted: "₹5,499 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/latest_images_2024/40827c5b9414304400137175cb58c3a02d0c982b.webp",
+        "https://img.cofynd.com/images/latest_images_2024/5d0aa7a8137cff1f1de30749553f36cde253a4a1.webp",
+        "https://img.cofynd.com/images/latest_images_2024/2cf884b48b61e486a160a85459d2b4ab4e7b8e2e.webp",
+        "https://img.cofynd.com/images/latest_images_2024/b07215ca36b9b03715d9ff9c1d90309f27a70620.webp",
+        "https://img.cofynd.com/images/latest_images_2024/ddc0107c0b662db072bdcc15ff6fc414143efe9a.webp"
+      ]
+    },
+    {
+      id: 92,
+      name: "Co-work Town",
+      badge: null,
+      rating: null,
+      area: "Mansarovar",
+      location: "Mansarovar, Jaipur",
+      price: "₹4,499",
+      period: "/ Month",
+      priceFormatted: "₹4,499 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/latest_images_2024/904612013872dc01e167c66b44d1955166a51889.webp",
+        "https://img.cofynd.com/images/latest_images_2024/69ff476064d60bdcb16bfc8d624a7c63e5329d53.webp",
+        "https://img.cofynd.com/images/latest_images_2024/780587274dad3a8e6686aa7b4b2d705bcbdd5205.webp",
+        "https://img.cofynd.com/images/latest_images_2024/2b8c2a861b3238227e6e3a27970503eebc5ed626.webp",
+        "https://img.cofynd.com/images/latest_images_2024/2b2823870050fcc9dd2294c5d0cff3bd4a484241.webp",
+        "https://img.cofynd.com/images/latest_images_2024/ebb65950d4258376a0dd320f549f5be9018e017e.webp"
+      ]
+    },
+    {
+      id: 93,
+      name: "Arvian Coworking",
+      badge: null,
+      rating: null,
+      area: "Mansarovar",
+      location: "Mansarovar, Jaipur",
+      price: "₹4,000",
+      period: "/ Month",
+      priceFormatted: "₹4,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/original/ed814edb4c1b70ab96fcbdcbcea5f37669742e3f.jpg",
+        "https://img.cofynd.com/images/original/30d2eec8fab9da3d14f08ce3a93ce04992224f3e.jpg",
+        "https://img.cofynd.com/images/original/0bfe283e7b78ca7213886bc27300c693b7864577.jpg",
+        "https://img.cofynd.com/images/original/7cf5b55a54e9d4e5ebda417c05ba7c62e46fde9c.jpg",
+        "https://img.cofynd.com/images/original/be8f4897f59ffc6d8388a1b9d557071d75d78cce.jpg",
+        "https://img.cofynd.com/images/original/807f56370f707bc9e60c588bd1d6b5f4d443a0ec.jpg"
+      ]
+    },
+    {
+      id: 94,
+      name: "Jaipur Co-Working",
+      badge: null,
+      rating: null,
+      area: "Mansarovar",
+      location: "Mansarovar, Jaipur",
+      price: "₹3,499",
+      period: "/ Month",
+      priceFormatted: "₹3,499 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/latest_images_2024/f4a8cc25485cca193bbd0a4ad026235a898ebb19.webp",
+        "https://img.cofynd.com/images/latest_images_2024/c05704f2d0b10875fe74082f9ae9bca6e57a0784.webp",
+        "https://img.cofynd.com/images/latest_images_2024/faec0cda489cc1af80a8119dd3486c36a0f4d1c9.webp",
+        "https://img.cofynd.com/images/latest_images_2024/16c1899ea84913fe1d94dc40ed72d6a2d3cf63de.webp",
+        "https://img.cofynd.com/images/latest_images_2024/c0547d93fee91be5aa485d3da4920cb614118230.webp"
+      ]
+    },
+    {
+      id: 95,
+      name: "Jaipur Coworking Space",
+      badge: null,
+      rating: null,
+      area: "Mansarovar",
+      location: "Mansarovar, Jaipur",
+      price: "₹5,000",
+      period: "/ Month",
+      priceFormatted: "₹5,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/latest_images_2024/ccb65a7970e8088734cce02b740d636d71d0d907.webp",
+        "https://img.cofynd.com/images/latest_images_2024/b91fe4a826cf9198f48d6c32e2df60c3fe066933.webp",
+        "https://img.cofynd.com/images/latest_images_2024/47a07d1764a1483195d315d30484890e4ad6673e.webp",
+        "https://img.cofynd.com/images/latest_images_2024/014f5b587f9c1a893c34874303528d1a649d5fa8.webp",
+        "https://img.cofynd.com/images/latest_images_2024/09d37738dad44c2868e02c40d08143513dd58b69.webp",
+        "https://img.cofynd.com/images/latest_images_2024/0523a1bd84814506811fdff1f39068587f639d52.webp"
+      ]
+    },
+    {
+      id: 96,
+      name: "Go4 My Desk",
+      badge: null,
+      rating: null,
+      area: "Mansarovar",
+      location: "Mansarovar, Jaipur",
+      price: "₹5,999",
+      period: "/ Month",
+      priceFormatted: "₹5,999 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/latest_images_2024/c6d386adbee8374af51423c55ec17cb14052b1a7.webp",
+        "https://img.cofynd.com/images/latest_images_2024/bcd02218cea9cac23c2ae7687f63ea75e862f0c7.webp",
+        "https://img.cofynd.com/images/latest_images_2024/ac334e8a72d8344d8b430267eec631d22dcd27b9.webp",
+        "https://img.cofynd.com/images/latest_images_2024/9fb6b901219097013d0cbd89265f48cd534976a2.webp",
+        "https://img.cofynd.com/images/latest_images_2024/d52cbe4bf2b5cb2f991163895a966ebea5981460.webp"
+      ]
+    }
+  ],
+  "Tonk Road": [
+    {
+      id: 98,
+      name: "Make It Worth Digital",
+      badge: null,
+      rating: null,
+      area: "Tonk Road",
+      location: "Tonk Road, Jaipur",
+      price: "₹8,000",
+      period: "/ Month",
+      priceFormatted: "₹8,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/latest_images_2024/7b89779fa0677d5b3c0cb690a893ccf1e753497f.webp",
+        "https://img.cofynd.com/images/latest_images_2024/3b907cc8cf5fa940e23e0ee8bfcb9b2cff6c5efd.webp",
+        "https://img.cofynd.com/images/latest_images_2024/3cc3b9b8950b46776e530c0bff85cb264b51f8cd.webp",
+        "https://img.cofynd.com/images/latest_images_2024/17acef4aebc77e485ce2224680372140ac9f97c9.webp",
+        "https://img.cofynd.com/images/latest_images_2024/35992be12dd4e89d4c26fbceea86c5b7fe295bc7.webp"
+      ]
+    }
+  ],
+  "Lalkothi": [
+    {
+      id: 80,
+      name: "Best Desk Cove",
+      badge: null,
+      rating: null,
+      area: "Lalkothi",
+      location: "Lalkothi, Jaipur",
+      price: "₹7,999",
+      period: "/ Month",
+      priceFormatted: "₹7,999 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/latest_images_2024/906a396314d03659e8be14d8f36e1de630b0db87.webp",
+        "https://img.cofynd.com/images/latest_images_2024/a88fd979d5035041db8f2e825d73d69f48b88f87.webp",
+        "https://img.cofynd.com/images/latest_images_2024/8822d9461d433cc3402e6d7dc83fcf38556fd43d.webp",
+        "https://img.cofynd.com/images/latest_images_2024/0508b697c2d3fad0c13a42f0c5aaabf78c1d99ba.webp",
+        "https://img.cofynd.com/images/latest_images_2024/39be93ad6e5418f5e320b8f95bec40c90114a7d1.webp",
+        "https://img.cofynd.com/images/latest_images_2024/2111cb3deb71a5481a891fd2117950b7b82e8f70.webp"
+      ]
+    }
+  ],
   "Indrapuri": [],
   "Ganpati Nagar": [],
-  "Pratap Nagar": [],
+  "Pratap Nagar": [
+    {
+      id: 97,
+      name: "Co Desk",
+      badge: null,
+      rating: null,
+      area: "Pratap Nagar",
+      location: "Pratap Nagar, Jaipur",
+      price: "₹5,000",
+      period: "/ Month",
+      priceFormatted: "₹5,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/latest_images_2024/4733e3720fa8b0479dd29e2bc559df21d49215ea.webp",
+        "https://img.cofynd.com/images/latest_images_2024/0136e941b5f97518fea9cb95b2590d035c2cf255.webp",
+        "https://img.cofynd.com/images/latest_images_2024/681126863cd427e8a2fe456d1718f01f833ae25c.webp",
+        "https://img.cofynd.com/images/latest_images_2024/15d24002c59421b32518b9f11b9d5d5a5e0fb0b0.webp",
+        "https://img.cofynd.com/images/latest_images_2024/1bb73e6980f005e2ca241d51bbe5c9b08f8cd516.webp"
+      ]
+    }
+  ],
   "Nirman Nagar": [],
   "Subhash Nagar": [],
   "Shyam Nagar": []
