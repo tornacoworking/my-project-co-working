@@ -6,24 +6,12 @@ import { findOfficeBySlug, officePath } from "../../common/slug.js";
  */
 
 export const puneNeighborhoods = [
-  'Baner',
-  'Kharadi',
-  'Viman Nagar',
-  'Koregaon Park',
-  'Wakad',
-  'Balewadi',
-  'Hinjewadi',
-  'Kothrud',
-  'Aundh',
-  'Pimple Saudagar',
-  'Kalyani Nagar',
-  'Bavdhan',
-  'Magarpatta',
-  'Hadapsar',
-  'Pimpri Chinchwad',
-  'Yerwada',
-  'Karve Nagar',
-  'Shivaji Nagar'
+"All",
+  "Sector 17",
+  "Sector 34",
+  "Sector 8",
+  "Industrial Area Phase 1",
+  "IT Park"
 ];
 
 export const puneOfficeCards = [
