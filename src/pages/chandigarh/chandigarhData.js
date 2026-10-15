@@ -1,11 +1,6 @@
 // Data store for Chandigarh
 export const chandigarhAreas = [
-  "All",
-  "Sector 17",
-  "Sector 34",
-  "Sector 8",
-  "Industrial Area Phase 1",
-  "IT Park"
+  
 ];
 
 export const chandigarhSpaces = [
