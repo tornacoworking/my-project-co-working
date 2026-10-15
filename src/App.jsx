@@ -13,6 +13,8 @@ import AhmedabadPage from './pages/ahmedabad/Ahmedabad';
 import BangalorePage from './pages/bangalore/Bangalore';
 import BhubaneswarPage from './pages/bhubaneswar/Bhubaneswar';
 import ChandigarhPage from './pages/chandigarh/Chandigarh';
+import ChandigarhOfficeDetail from './pages/chandigarh/ChandigarhOfficeDetail';
+import { getChandigarhOfficeCardById } from './pages/chandigarh/chandigarhData';
 import ChennaiPage from './pages/chennai/Chennai';
 import CoimbatorePage from './pages/coimbatore/Coimbatore';
 import DelhiPage from './pages/delhi/Delhi';
@@ -42,6 +44,7 @@ const OfficeRoute = () => {
   const { id } = useParams();
   if (getDehliOfficeCardById(id)) return <DelhiOfficeDetails />;
   if (getPuneOfficeCardById(id)) return <PuneOfficeDetail />;
+  if (getChandigarhOfficeCardById(id)) return <ChandigarhOfficeDetail />;
   if (getJaipurOfficeCardById(id)) return <JaipurOfficeDetail />;
   if (getAhmedabadOfficeCardById(id)) return <AhmedabadOfficeDetails />;
   if (getGurugramOfficeCardById(id)) return <GurugramOfficeDetail />;
@@ -64,6 +67,7 @@ const App = () => {
         <Route path="/coworking/bhubaneshwar/:id" element={<BhubaneshwarOfficeDetail />} />
         <Route path="/coworking/bhubaneswar/:id" element={<BhubaneshwarOfficeDetail />} />
         <Route path="/coworking/chandigarh" element={<ChandigarhPage />} />
+        <Route path="/coworking/chandigarh/:id" element={<ChandigarhOfficeDetail />} />
         <Route path="/coworking/chennai" element={<ChennaiPage />} />
         <Route path="/coworking/coimbatore" element={<CoimbatorePage />} />
         <Route path="/coworking/delhi" element={<DelhiPage />} />
