@@ -26,3 +26,20 @@ export const chandigarhSpaces = [
 export const areas = chandigarhAreas;
 export const spaces = chandigarhSpaces;
 export default { areas: chandigarhAreas, spaces: chandigarhSpaces };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
