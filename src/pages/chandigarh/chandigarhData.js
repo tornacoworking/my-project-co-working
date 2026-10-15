@@ -9,7 +9,11 @@ export const chandigarhNeighborhoods = [
   "Sector 34",
   "Sector 8",
   "Industrial Area Phase 1",
-  "IT Park"
+  "IT Park",
+  "Industrial Area Phase 2",
+  "Madhya Marg",
+  "Sector 37",
+  "Sector 26"
 ];
 
 export const chandigarhOfficeCards = [
@@ -834,7 +838,11 @@ export const areaExtraOfficeCards = {
   "Sector 34": [],
   "Sector 8": [],
   "Industrial Area Phase 1": [],
-  "IT Park": []
+  "IT Park": [],
+  "Industrial Area Phase 2": [],
+  "Madhya Marg": [],
+  "Sector 37": [],
+  "Sector 26": []
 };
 
 export const similarChandigarhOfficeCards = [
@@ -1071,6 +1079,34 @@ export const topChandigarhCoworkingLocations = [
     name: "IT Park",
     title: "Coworking Space in IT Park",
     image: "https://img.cofynd.com/images/latest_images_2024/2745367b4f6a12aff27779e258e32b0c087e3adb.webp",
+    ctaText: "Explore Spaces"
+  },
+  {
+    id: "loc-industrial-area-phase-2",
+    name: "Industrial Area Phase 2",
+    title: "Coworking Space in Industrial Area Phase 2",
+    image: "https://img.cofynd.com/images/latest_images_2024/a106cfcd3771bef4f059498877d87416aa686e22.webp",
+    ctaText: "Explore Spaces"
+  },
+  {
+    id: "loc-madhya-marg",
+    name: "Madhya Marg",
+    title: "Coworking Space in Madhya Marg",
+    image: "https://img.cofynd.com/images/original/4d9055b9fbf5162cdf5251d5bfacdb835f16bd89.jpg",
+    ctaText: "Explore Spaces"
+  },
+  {
+    id: "loc-sector-37",
+    name: "Sector 37",
+    title: "Coworking Space in Sector 37",
+    image: "https://img.cofynd.com/images/original/adec9fc05a0a733407fbcaa72f6e2f7e9e564e71.jpg",
+    ctaText: "Explore Spaces"
+  },
+  {
+    id: "loc-sector-26",
+    name: "Sector 26",
+    title: "Coworking Space in Sector 26",
+    image: "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1711530747/nuladm6oew9f64myw8l9.webp",
     ctaText: "Explore Spaces"
   }
 ];
