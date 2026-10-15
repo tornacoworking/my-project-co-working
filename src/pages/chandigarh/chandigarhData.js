@@ -13,7 +13,10 @@ export const chandigarhNeighborhoods = [
   "Industrial Area Phase 2",
   "Madhya Marg",
   "Sector 37",
-  "Sector 26"
+  "Sector 26",
+  "Sector 35",
+  "Sector 11",
+  "Sector 7"
 ];
 
 export const chandigarhOfficeCards = [
@@ -732,10 +735,7 @@ export const pageTwoChandigarhOfficeCards = [
       "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1647863945/tshv5q21iy3g6ovtaa85.webp",
       "https://qdesq.imagekit.io/tr:h-181,w-325/image/upload/v1647863945/tshv5q21iy3g6ovtaa85.webp"
     ]
-  }
-];
-
-export const pageTwoMoreChandigarhOfficeCards = [
+  },
   {
     id: 35,
     name: "WORKAHOLICS",
@@ -775,10 +775,7 @@ export const pageTwoMoreChandigarhOfficeCards = [
       "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1701600331/ts9el7fvscrnngaw3yb5.jpg",
       "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1701686322/tq9nxiosyq3fjxuhzs6z.webp"
     ]
-  }
-];
-
-export const pageTwoFinalChandigarhOfficeCards = [
+  },
   {
     id: 37,
     name: "Arium Workspaces",
@@ -798,7 +795,10 @@ export const pageTwoFinalChandigarhOfficeCards = [
       "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1708517767/f8nbsuo8yrhez0zhrzov.webp",
       "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1708517769/ufhpka1nwxmvjajsjrm8.webp"
     ]
-  },
+  }
+];
+
+export const pageTwoMoreChandigarhOfficeCards = [
   {
     id: 38,
     name: "Launchyard Cowork",
@@ -817,10 +817,264 @@ export const pageTwoFinalChandigarhOfficeCards = [
       "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1595845589/taoq8wugokerz6ndrdar.webp",
       "https://qdesq.imagekit.io/img/tr:h-181,w-325/image/upload/v1595845627/akbjwoqiqo1iifxpbfuh.webp"
     ]
+  },
+  {
+    id: 39,
+    name: "Work Yard Chandigarh",
+    badge: null,
+    rating: null,
+    area: "Industrial Area Phase 2",
+    location: "Industrial Area Phase 2, Chandigarh",
+    price: "₹3,999",
+    period: "/ Month",
+    priceFormatted: "₹3,999 / Month",
+    ctaText: "Get Quote",
+    images: [
+      "https://cdn.daftar.com/image-fc437c8b-0be2-430f-a990-e3b1a42e7cdb-large-1200x1200.jpg",
+      "https://cdn.daftar.com/image-50ec0769-d235-41c4-aff4-c583f28dca5e-large-1200x1200.jpg",
+      "https://cdn.daftar.com/image-dd7f1537-d544-4f3b-a03b-bf75f872ab7b-large-1200x1200.jpg",
+      "https://cdn.daftar.com/image-9442bc42-3f86-4c52-a315-26702c796fe3-large-1200x1200.jpg",
+      "https://cdn.daftar.com/image-01-E09eKwTq-large-1600x1200.jpg",
+      "https://cdn.daftar.com/image-02-RHy99Skh-large-1600x1200.jpg"
+    ]
+  },
+  {
+    id: 40,
+    name: "MyBranch Chandigarh",
+    badge: null,
+    rating: null,
+    area: "Sector 8",
+    location: "Sector 8, Chandigarh",
+    price: "₹7,500",
+    period: "/ Month",
+    priceFormatted: "₹7,500 / Month",
+    ctaText: "Get Quote",
+    images: [
+      "https://cdn.daftar.com/image-9bad0398-8485-4098-87cf-f00bddc3a024-large-1200x1200.jpg",
+      "https://cdn.daftar.com/image-9bc606f4-37e9-427b-8a07-f3254541e38b-large-1200x1200.jpg",
+      "https://cdn.daftar.com/image-05-VAuppvUw-large-1600x1200.jpg",
+      "https://cdn.daftar.com/image-06-6kb0v6L9-large-1600x1200.jpg",
+      "https://cdn.daftar.com/image-07-k87pR02g-large-1600x1200.jpg",
+      "https://cdn.daftar.com/image-01-Gz2QTK5O-large-1600x1200.jpg"
+    ]
+  },
+  {
+    id: 41,
+    name: "TRIAM CENTRE CHANDIGARH",
+    badge: null,
+    rating: null,
+    area: "Sector 7",
+    location: "Sector 7, Chandigarh",
+    price: "₹7,500",
+    period: "/ Month",
+    priceFormatted: "₹7,500 / Month",
+    ctaText: "Get Quote",
+    images: [
+      "https://cdn.daftar.com/image-ec42147e-8d53-47ea-9bed-b4440750a2d6-large-1200x1200.jpg",
+      "https://cdn.daftar.com/image-c449378b-c129-4d69-957f-a086180720b7-large-1200x1200.jpg",
+      "https://cdn.daftar.com/image-c2cc5c56-c0ce-441b-aad5-c028924b3b55-large-1200x1200.jpg",
+      "https://cdn.daftar.com/image-01-w2kULaP2-large-1600x1200.jpg",
+      "https://cdn.daftar.com/image-02-BrZPae-K-large-1600x1200.jpg"
+    ]
+  },
+  {
+    id: 42,
+    name: "Qowork",
+    badge: null,
+    rating: null,
+    area: "Sector 26",
+    location: "Sector 26, Chandigarh",
+    price: "₹9,999",
+    period: "/ Month",
+    priceFormatted: "₹9,999 / Month",
+    ctaText: "Get Quote",
+    images: [
+      "https://cdn.daftar.com/image-82984cf3-7237-4018-aa87-a701ab72e74d-large-1200x1200.jpg",
+      "https://cdn.daftar.com/image-85caccca-bc37-4405-b7e4-7cc93e0d0089-large-1200x1200.jpg",
+      "https://cdn.daftar.com/image-3db685eb-8cfa-4ffe-a579-d00ca71adbb1-large-1200x1200.jpg",
+      "https://cdn.daftar.com/image-dd73c1dd-a3c9-4e0c-9b12-f5bbf861f8a2-large-1200x1200.jpg",
+      "https://cdn.daftar.com/image-3b4381c0-41be-4124-bfd2-62b095b3d7b9-large-1200x1200.webp"
+    ]
   }
 ];
 
-export const pageTwoFeaturedChandigarhOfficeCards = [];
+export const pageTwoFinalChandigarhOfficeCards = [
+  {
+    id: 43,
+    name: "HQ Coworking",
+    badge: null,
+    rating: null,
+    area: "Sector 26",
+    location: "Sector 26, Chandigarh",
+    price: "₹4,500",
+    period: "/ Month",
+    priceFormatted: "₹4,500 / Month",
+    ctaText: "Get Quote",
+    images: [
+      "https://cdn.daftar.com/image-874142d4-ed90-43f3-8d6b-ddf808f540b4-large-1200x1200.jpg",
+      "https://cdn.daftar.com/image-b09accd1-2103-45d4-a8e2-a61f12c8f283-large-1200x1200.jpg",
+      "https://cdn.daftar.com/image-6e07a51e-76c3-47fd-874e-204a7a6e9b2c-large-1200x1200.jpg",
+      "https://cdn.daftar.com/image-02ec48eb-2147-4956-a52b-cb91dad1c742-large-1200x1200.jpg",
+      "https://cdn.daftar.com/image-74bfcc8b-24d9-4baf-bb28-21e0eeda1695-large-1200x1200.jpg"
+    ]
+  },
+  {
+    id: 44,
+    name: "Fullcircle HD",
+    badge: null,
+    rating: null,
+    area: "Sector 11",
+    location: "Sector 11, Chandigarh",
+    price: "₹5,000",
+    period: "/ Month",
+    priceFormatted: "₹5,000 / Month",
+    ctaText: "Get Quote",
+    images: [
+      "https://cdn.daftar.com/image-cec49ab5-bacd-48b8-a2ac-238888dece06-large-1200x1200.webp",
+      "https://cdn.daftar.com/image-67bd8c82-e004-4a77-a98f-7a03c4c23d42-large-1200x1200.webp",
+      "https://cdn.daftar.com/image-d5001b15-fa49-44fc-b270-c9e0e72eb143-large-1200x1200.webp",
+      "https://cdn.daftar.com/image-a938609e-734a-4944-8c90-11f69ff89864-large-1200x1200.webp",
+      "https://cdn.daftar.com/image-2e539689-077f-441b-92a5-20a086bb004f-large-1200x1200.webp"
+    ]
+  },
+  {
+    id: 45,
+    name: "IDEA Coworking Chandigarh",
+    badge: null,
+    rating: null,
+    area: "Sector 17",
+    location: "Sector 17, Chandigarh",
+    price: "₹3,999",
+    period: "/ Month",
+    priceFormatted: "₹3,999 / Month",
+    ctaText: "Get Quote",
+    images: [
+      "https://cdn.daftar.com/image-794a9c93-3cad-43bb-bafa-7394c47f81fc-large-1200x1200.png",
+      "https://cdn.daftar.com/image-a3a50f95-6501-43ce-8786-9739a6964288-large-1200x1200.jpg",
+      "https://cdn.daftar.com/image-4ffccb55-6797-4a2d-bcd9-c18e2345d399-large-1200x1200.jpg",
+      "https://cdn.daftar.com/image-54b4068b-4469-4c46-9c9a-814a2f844fb7-large-1200x1200.jpg",
+      "https://cdn.daftar.com/image-a3d5cf13-0ea5-4cc3-8021-bf6e0137c306-large-1200x1200.jpg",
+      "https://cdn.daftar.com/image-0b548209-364f-4568-8ed4-eddc4754e594-large-1200x1200.jpg"
+    ]
+  },
+  {
+    id: 46,
+    name: "SpaceJam Chandigarh",
+    badge: null,
+    rating: null,
+    area: "Sector 34",
+    location: "Sector 34, Chandigarh",
+    price: "₹6,000",
+    period: "/ Month",
+    priceFormatted: "₹6,000 / Month",
+    ctaText: "Get Quote",
+    images: [
+      "https://cdn.daftar.com/image-33e02ec0-e1c5-40d8-9058-ae07be2a1f25-large-1200x1200.jpg",
+      "https://cdn.daftar.com/image-494a3d96-f6b8-4c10-a726-f93144415fd8-large-1200x1200.jpg",
+      "https://cdn.daftar.com/image-ed5827c5-2f9d-4293-9274-152e90000e74-large-1200x1200.jpg",
+      "https://cdn.daftar.com/image-217f6010-2bd8-4ef9-867a-aa5411af37bb-large-1200x1200.jpg",
+      "https://cdn.daftar.com/image-b6dbd862-602a-493a-aab5-737b04a7ab83-large-1200x1200.jpg",
+      "https://cdn.daftar.com/image-a075dbfc-da7c-4154-915d-0ba65f0d8b28-large-1200x1200.jpg"
+    ]
+  },
+  {
+    id: 47,
+    name: "Workcave Coworking Sector 37",
+    badge: null,
+    rating: null,
+    area: "Sector 37",
+    location: "Sector 37, Chandigarh",
+    price: "₹5,000",
+    period: "/ Month",
+    priceFormatted: "₹5,000 / Month",
+    ctaText: "Get Quote",
+    images: [
+      "https://cdn.daftar.com/image-8ddc702e-384f-4364-9736-65bfc249a21a-large-1200x1200.jpg",
+      "https://cdn.daftar.com/image-2c39696b-966b-4c57-a1a1-0245f0ad2407-large-1200x1200.jpg",
+      "https://cdn.daftar.com/image-4c2daaca-a184-448f-8a52-30ffa22b8455-large-1200x1200.jpg",
+      "https://cdn.daftar.com/image-d2faa6e2-10aa-49ac-a4a2-3b509d75fbeb-large-1200x1200.jpg",
+      "https://cdn.daftar.com/image-05-SJSlZWD4-large-1600x1200.jpg",
+      "https://cdn.daftar.com/image-06-lW47EJpj-large-1600x1200.jpg"
+    ]
+  }
+];
+
+export const pageTwoFeaturedChandigarhOfficeCards = [
+  {
+    id: 48,
+    name: "Archorganic",
+    badge: null,
+    rating: null,
+    area: "Sector 11",
+    location: "Sector 11, Chandigarh",
+    price: "₹7,000",
+    period: "/ Month",
+    priceFormatted: "₹7,000 / Month",
+    ctaText: "Get Quote",
+    images: [
+      "https://cdn.daftar.com/image-ca50c73b-0d79-4b50-bf13-cc474478aa8d-large-1200x1200.jpg",
+      "https://cdn.daftar.com/image-956d9920-f34a-43f3-847c-b0ced4ba5de8-large-1200x1200.jpg"
+    ]
+  },
+  {
+    id: 49,
+    name: "Flexi Daftar",
+    badge: null,
+    rating: null,
+    area: "Sector 17",
+    location: "Sector 17, Chandigarh",
+    price: "₹8,000",
+    period: "/ Month",
+    priceFormatted: "₹8,000 / Month",
+    ctaText: "Get Quote",
+    images: [
+      "https://cdn.daftar.com/image-af5b9695-4e90-468b-a009-a23ec16efb9b-large-1200x1200.webp",
+      "https://cdn.daftar.com/image-e5a34940-b326-4ebb-a843-e5b6cf78d17a-large-1200x1200.webp",
+      "https://cdn.daftar.com/image-fdbb02a1-617d-4dd0-a4af-493d123caf01-large-1200x1200.webp",
+      "https://cdn.daftar.com/image-a895264d-a6df-48fb-815e-4488b0cab482-large-1200x1200.webp",
+      "https://cdn.daftar.com/image-f4719c80-b90d-4151-92fd-43ee7da6b8c9-large-1200x1200.webp",
+      "https://cdn.daftar.com/image-0bbc8913-214a-4205-a15f-1281181ae933-large-1200x1200.webp"
+    ]
+  },
+  {
+    id: 50,
+    name: "Barista - Sector 35",
+    badge: null,
+    rating: null,
+    area: "Sector 35",
+    location: "Sector 35, Chandigarh",
+    price: "₹300",
+    period: "/ Month",
+    priceFormatted: "₹300 / Month",
+    ctaText: "Get Quote",
+    images: [
+      "https://cdn.daftar.com/image-db77790a-f5dc-4afb-9cf8-eafac6cdfe15-large-1200x1200.webp",
+      "https://cdn.daftar.com/image-fea5ff0c-c863-4d64-8cd3-da550ebbd0db-large-1200x1200.webp",
+      "https://cdn.daftar.com/image-ff4da52d-c1dd-46fb-ab95-f025c6987241-large-1200x1200.webp",
+      "https://cdn.daftar.com/image-d313df80-4f6a-4519-8af0-27a749d7a33d-large-1200x1200.webp",
+      "https://cdn.daftar.com/image-01-xDO-3f9n-large-1600x1200.jpg",
+      "https://cdn.daftar.com/image-02-9GwjNnHP-large-1600x1200.jpg"
+    ]
+  },
+  {
+    id: 51,
+    name: "UT Coworking Spaces",
+    badge: null,
+    rating: null,
+    area: "Sector 17",
+    location: "Sector 17, Chandigarh",
+    price: "₹40,000",
+    period: "/ Month",
+    priceFormatted: "₹40,000 / Month",
+    ctaText: "Get Quote",
+    images: [
+      "https://cdn.daftar.com/image-87f39705-b23f-4c03-a857-3ae1ff8e9797-large-1600x1200.jpg",
+      "https://cdn.daftar.com/image-de1c5353-fb16-4104-8ee1-e79bedba5e20-large-1600x1200.jpg",
+      "https://cdn.daftar.com/image-7dfc34c6-9ed7-41cb-b6af-f9f493906d5b-large-1600x1200.jpg",
+      "https://cdn.daftar.com/image-6547054b-3f12-4f73-8de6-be093bffcca9-large-1600x1200.jpg"
+    ]
+  }
+];
 
 export const pageThreeChandigarhOfficeCards = [];
 
@@ -842,7 +1096,10 @@ export const areaExtraOfficeCards = {
   "Industrial Area Phase 2": [],
   "Madhya Marg": [],
   "Sector 37": [],
-  "Sector 26": []
+  "Sector 26": [],
+  "Sector 35": [],
+  "Sector 11": [],
+  "Sector 7": []
 };
 
 export const similarChandigarhOfficeCards = [
@@ -1107,6 +1364,27 @@ export const topChandigarhCoworkingLocations = [
     name: "Sector 26",
     title: "Coworking Space in Sector 26",
     image: "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1711530747/nuladm6oew9f64myw8l9.webp",
+    ctaText: "Explore Spaces"
+  },
+  {
+    id: "loc-sector-35",
+    name: "Sector 35",
+    title: "Coworking Space in Sector 35",
+    image: "https://cdn.daftar.com/image-db77790a-f5dc-4afb-9cf8-eafac6cdfe15-large-1200x1200.webp",
+    ctaText: "Explore Spaces"
+  },
+  {
+    id: "loc-sector-11",
+    name: "Sector 11",
+    title: "Coworking Space in Sector 11",
+    image: "https://cdn.daftar.com/image-cec49ab5-bacd-48b8-a2ac-238888dece06-large-1200x1200.webp",
+    ctaText: "Explore Spaces"
+  },
+  {
+    id: "loc-sector-7",
+    name: "Sector 7",
+    title: "Coworking Space in Sector 7",
+    image: "https://cdn.daftar.com/image-ec42147e-8d53-47ea-9bed-b4440750a2d6-large-1200x1200.jpg",
     ctaText: "Explore Spaces"
   }
 ];
