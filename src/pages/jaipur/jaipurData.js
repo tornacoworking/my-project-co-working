@@ -1654,6 +1654,83 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/cf20380a3a58e9a38df9fa5d8b96cda2fd4e4b48.webp",
         "https://img.cofynd.com/images/latest_images_2024/f779a91fe78895a4dcae38c0d725c6ce8bf935c7.webp"
       ]
+    },
+    {
+      id: 108,
+      name: "Red Art Works",
+      badge: null,
+      rating: null,
+      area: "Vaishali Nagar",
+      location: "Vaishali Nagar, Jaipur",
+      price: "₹6,000",
+      period: "/ Month",
+      priceFormatted: "₹6,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1697710969/hdrsc8ntp5d97vpfm4ia.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1697710615/q3wml4gxfvuk3mmwqxxb.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1697710614/ppoplytt3vup6st0vb1g.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1697710946/uksal3uudnyl8k2dgdw8.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1697710946/iywyfmjhuixzvm42wb0m.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1697710947/wopjekj6etycaptd2gf8.webp"
+      ]
+    },
+    {
+      id: 128,
+      name: "As One Coworking",
+      badge: null,
+      rating: null,
+      area: "Vaishali Nagar",
+      location: "Vaishali Nagar, Jaipur",
+      price: "₹3,500",
+      period: "/ Month",
+      priceFormatted: "₹3,500 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1682411234/kggi7eb9u8oxcxfbbfyd.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1682329699/zavvmcqhwm2reclkhjfc.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1682329699/pw4dyggfqkxktlemaics.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1682329699/btnlmdkn7zyjgwh3eomj.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1682329699/lwx7nunmyoll4r5dd76e.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1682329699/tbhyeb0mhkaot5danbwi.jpg"
+      ]
+    },
+    {
+      id: 134,
+      name: "WorkZoned",
+      badge: null,
+      rating: null,
+      area: "Vaishali Nagar",
+      location: "Vaishali Nagar, Jaipur",
+      price: "₹4,500",
+      period: "/ Month",
+      priceFormatted: "₹4,500 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1585817627/jastbbfabdsin5rt7dsu.png",
+        "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1578313371/txlv4kq6fgbgd14rhyrd.webp",
+        "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1578313371/uyaliilrii8vu5cgd9sm.webp",
+        "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1578313371/zrgfqrvf29i99mo67uww.webp",
+        "https://qdesq.imagekit.io/img/tr:h-181,w-325/image/upload/v1578313371/txlv4kq6fgbgd14rhyrd.webp"
+      ]
+    },
+    {
+      id: 140,
+      name: "DevX",
+      badge: null,
+      rating: null,
+      area: "Vaishali Nagar",
+      location: "Vaishali Nagar, Jaipur",
+      price: "₹1",
+      period: "/ Month",
+      priceFormatted: "₹1 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1665392192/ziieupcv3tnbi2p4jnke.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1665392089/kaqaxpqzmmuytwpngbsm.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1665392087/tk7opcyysfjrygemsx6a.webp",
+        "https://qdesq.imagekit.io/tr:h-181,w-325/image/upload/v1665392089/kaqaxpqzmmuytwpngbsm.webp"
+      ]
     }
   ],
   "Mansarovar": [
@@ -1775,23 +1852,63 @@ export const areaExtraOfficeCards = {
       ]
     },
     {
-      id: 3,
-      name: "White Collar Coworks",
+      id: 142,
+      name: "Suits Cafe",
       badge: null,
       rating: null,
-      area: "Nirman Nagar",
-      location: "Nirman Nagar, Jaipur",
-      price: "₹999",
+      area: "Mansarovar",
+      location: "Mansarovar, Jaipur",
+      price: "₹4,500",
       period: "/ Month",
-      priceFormatted: "₹999 / Month",
+      priceFormatted: "₹4,500 / Month",
       ctaText: "Get Quote",
       images: [
-        "https://img.cofynd.com/images/latest_images_2024/34540edac3e9e158c30bb61d6672d4d1a6ee9675.webp",
-        "https://img.cofynd.com/images/latest_images_2024/a155403c6fa2d65013f267ace59bb75a145dec6c.webp",
-        "https://img.cofynd.com/images/latest_images_2024/b9ab2bb181d2853cffbdbcc5f6db7bf9a146db56.webp",
-        "https://img.cofynd.com/images/latest_images_2024/86fda98b5ed3d8e3d8acedae0efe747e8f72f563.webp",
-        "https://img.cofynd.com/images/latest_images_2024/9922e84eea9825587cec50d1c683892d478c4717.webp",
-        "https://img.cofynd.com/images/latest_images_2024/d9cb3539b948103573835c007ec3a90b57e9311d.webp"
+        "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1578375775/gwhy23n6snv57tzfago0.webp",
+        "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1578375775/admji2kxjhg6h2dcsigp.webp",
+        "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1578375775/yvwae913871d6hayhe7i.webp",
+        "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1578375775/gwhy23n6snv57tzfago0.webp",
+        "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1473834722/exigmqjrmo0fz8mbioqk.webp",
+        "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1473834723/hfg27qte0w16qqcc7zkk.webp"
+      ]
+    },
+    {
+      id: 149,
+      name: "Mansarovar Co-Working Hub",
+      badge: null,
+      rating: null,
+      area: "Mansarovar",
+      location: "Mansarovar, Jaipur",
+      price: "₹3,000",
+      period: "/ Month",
+      priceFormatted: "₹3,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://ik.imagekit.io/qdesq/qdesq/dfe56f232e68257c1ff7dd2c78ae4c89_-ePkuUEMb.jpg",
+        "https://ik.imagekit.io/qdesq/qdesq/6856c0ca033c218c2dbab5006071dcc4_QPnnl3KcF.jpg",
+        "https://ik.imagekit.io/qdesq/qdesq/c6bfa4db41e8da4588fb3c22d5cb3f5e_rbCy2SOIN.jpg",
+        "https://ik.imagekit.io/qdesq/qdesq/2a2ab2291ec1ad85f8f0f058db8e04de_B4hGKXWZS.jpg",
+        "https://ik.imagekit.io/qdesq/qdesq/345661f4707a2478d2b2045320d880b4_M9l6EIWcb.jpg",
+        "https://ik.imagekit.io/qdesq/qdesq/78e92d42f5abc7d29af071f2706f755c_zdLpWYl56.jpg"
+      ]
+    },
+    {
+      id: 154,
+      name: "CITY HIVE",
+      badge: null,
+      rating: null,
+      area: "Mansarovar",
+      location: "Mansarovar, Jaipur",
+      price: "₹5,500",
+      period: "/ Month",
+      priceFormatted: "₹5,500 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1715078001/obnxcfaffsn6odxm4ndk.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1715068759/tm4octchvb2bvvduoihd.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1715068730/ej0ijebesq50vvyofgzp.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1715068821/ea429qe4irwtgckedc34.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1715068763/bzhinse3wsdesupu2w8u.jpg",
+        "https://qdesq.imagekit.io/tr:h-181,w-325/image/upload/v1715068759/tm4octchvb2bvvduoihd.jpg"
       ]
     }
   ],
@@ -1813,6 +1930,46 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/3cc3b9b8950b46776e530c0bff85cb264b51f8cd.webp",
         "https://img.cofynd.com/images/latest_images_2024/17acef4aebc77e485ce2224680372140ac9f97c9.webp",
         "https://img.cofynd.com/images/latest_images_2024/35992be12dd4e89d4c26fbceea86c5b7fe295bc7.webp"
+      ]
+    },
+    {
+      id: 129,
+      name: "Coworkin",
+      badge: null,
+      rating: null,
+      area: "Tonk Road",
+      location: "Tonk Road, Jaipur",
+      price: "₹12,000",
+      period: "/ Month",
+      priceFormatted: "₹12,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1660902475/vhbiyjpjmffpdooye21c.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660902475/vhbiyjpjmffpdooye21c.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660902475/rhozxffdxk2dhzku1ggv.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660902475/gq3ytwyjpuzsg3f2ykfh.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660902556/ei7os4birj3q5tkrlo8r.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660902607/bvcfkhn6bno6eryxz3mp.webp"
+      ]
+    },
+    {
+      id: 143,
+      name: "Invocob 2.0",
+      badge: null,
+      rating: null,
+      area: "Tonk Road",
+      location: "Tonk Road, Jaipur",
+      price: "₹4,000",
+      period: "/ Month",
+      priceFormatted: "₹4,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://qdesq.imagekit.io/img/image/upload/s--p-8CW3Sq--/v1725966349/pvhfldcxebw7svx4p4lu.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/s--199zLhte--/v1725966295/euxirurs3n7mly8rzf7s.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/s--K5wKcNAc--/v1725966245/lh9fjn5js1ixrzjiphs8.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/s--DLPkL4f1--/v1725966246/gukwlhwormhpyaqa5qpo.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/s--l5gTA7qM--/v1725966245/vzuqbqal6s6f9gt8fbfn.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/s--pRF6C74z--/v1725966246/pbfdpbdbtzpdtyn2df0d.webp"
       ]
     },
     {
@@ -1854,6 +2011,26 @@ export const areaExtraOfficeCards = {
       ]
     },
     {
+      id: 115,
+      name: "GVFC",
+      badge: null,
+      rating: null,
+      area: "Pratap Nagar",
+      location: "Pratap Nagar, Jaipur",
+      price: "₹4,000",
+      period: "/ Month",
+      priceFormatted: "₹4,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1660642846/pakjaerthx7esxzaqgwj.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660641888/o6ynzgyaigzngpsldyda.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660641888/k1p8e4kngyomzsknb6cp.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660642751/sicsbjq1g6dnwwroreqw.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660642751/ulzxsxan6a1ld0or8gll.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660642751/rlynlmrtzm8tqp5hp8ia.webp"
+      ]
+    },
+    {
       id: 99,
       name: "Regus Jaipur Centre",
       badge: null,
@@ -1870,6 +2047,63 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/ac13e27bd1296873ac7f6b028baa643a5b4f73f3.webp",
         "https://img.cofynd.com/images/latest_images_2024/8e7a6f817f7a1689fd8a73c467c26c13e1fe8b45.webp",
         "https://img.cofynd.com/images/latest_images_2024/410016d5b5772675c53ac74ee75340fcd179c982.webp"
+      ]
+    },
+    {
+      id: 127,
+      name: "Urban Excubator",
+      badge: null,
+      rating: null,
+      area: "Durgapura",
+      location: "Durgapura, Jaipur",
+      price: "₹3,850",
+      period: "/ Month",
+      priceFormatted: "₹3,850 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://qdesq.imagekit.io/image/upload/tr:n-listing_image/v1590391273/rck7oh7r2agkjwhtqolw.webp",
+        "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1590400992/eh5ihqgdqt1own11duzi.webp",
+        "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1590400927/n6q4fopbom9usftecoaz.webp",
+        "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1590391273/rck7oh7r2agkjwhtqolw.webp",
+        "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1590407044/e2uapnh4mcil5qri3iiv.webp",
+        "https://qdesq.imagekit.io/img/tr:h-181,w-325/image/upload/v1590400992/eh5ihqgdqt1own11duzi.webp"
+      ]
+    },
+    {
+      id: 146,
+      name: "CoSpazes",
+      badge: null,
+      rating: null,
+      area: "Durgapura",
+      location: "Durgapura, Jaipur",
+      price: "₹6,000",
+      period: "/ Month",
+      priceFormatted: "₹6,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1698400004/kjx8fwnniyk7wxbhjdhs.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1698400019/zcbnxthsbch0z1b5bxhn.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1698400019/jpvwxodued7q89agyrl5.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1698400020/pedhzuy9i5lkcw9uzarn.webp"
+      ]
+    },
+    {
+      id: 157,
+      name: "Regus",
+      badge: null,
+      rating: null,
+      area: "Durgapura",
+      location: "Durgapura, Jaipur",
+      price: "₹15,000",
+      period: "/ Month",
+      priceFormatted: "₹15,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1581674772/bnjfailur0mzwe89rhqb.webp",
+        "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1581674772/bnjfailur0mzwe89rhqb.webp",
+        "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1581674869/aonxo63ygl2nwqjn21c5.webp",
+        "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1581674872/hhpxqhsflhi4uft6e3s3.webp",
+        "https://qdesq.imagekit.io/img/tr:h-181,w-325/image/upload/v1581674772/bnjfailur0mzwe89rhqb.webp"
       ]
     },
     {
@@ -1908,126 +2142,6 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/8a0f724e91175930133920ed22747e986255ffa5.jpg",
         "https://img.cofynd.com/images/original/04f3d440dacd5af4de910f1adc59c22a945f7309.jpg"
       ]
-    },
-    {
-      id: 10,
-      name: "Best Desk Cove",
-      badge: null,
-      rating: null,
-      area: "Lalkothi",
-      location: "Lalkothi, Jaipur",
-      price: "₹999",
-      period: "/ Month",
-      priceFormatted: "₹999 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/original/2c577d4f3aba02e1a24b29fa8cdb871dab5c24cb.jpg",
-        "https://img.cofynd.com/images/original/17eb5402447f7b42bb2cbe76457c106103c0b305.jpg",
-        "https://img.cofynd.com/images/original/dca498dc971231f0063d242ac78b0d2f5ed9ca91.jpg",
-        "https://img.cofynd.com/images/original/8a8190387f1941a6d3410834de36f8a95c7fbaf0.jpg",
-        "https://img.cofynd.com/images/original/57b208864df6efdc1a963f99125debd0c0f52a56.jpg",
-        "https://img.cofynd.com/images/original/b02a22b01df4ceb93c716b061ed501d93871cae1.jpg"
-      ]
-    },
-    {
-      id: 25,
-      name: "Red Fox Hotel",
-      badge: null,
-      rating: null,
-      area: "Lalkothi",
-      location: "Lalkothi, Jaipur",
-      price: "₹17,500",
-      period: "/ Month",
-      priceFormatted: "₹17,500 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/original/9bb288d2be0465f0449f93772ff0a79a91367c7b.jpg",
-        "https://img.cofynd.com/images/original/6f0cf500fbb08ea43db25259e170a76bb74a2985.jpg",
-        "https://img.cofynd.com/images/original/189e512541b12517980441ab2205c34a702525a5.jpg",
-        "https://img.cofynd.com/images/original/8fc2b2053ec46282e5655d2a9d778f6ae663fe39.jpg",
-        "https://img.cofynd.com/images/original/7a9500269c44630f795cc38c07a9b9a435f6a5e9.jpg",
-        "https://img.cofynd.com/images/original/e011b8a3d5f3fee65fc4cfe6a1085e9936d425d7.jpg"
-      ]
-    },
-    {
-      id: 30,
-      name: "AARNA COWORKING",
-      badge: null,
-      rating: null,
-      area: "Lalkothi",
-      location: "Lalkothi, Jaipur",
-      price: "₹1,499",
-      period: "/ Month",
-      priceFormatted: "₹1,499 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/original/d95ecb46b2fbb2b8f665229cbde18ca0761c96b1.jpg",
-        "https://img.cofynd.com/images/original/3da923c1bf337f5513e4d5ec584c732dbab7c3c4.jpg",
-        "https://img.cofynd.com/images/original/4c1dd7816cb02fd3914b078312cc7326c244ddb4.jpg",
-        "https://img.cofynd.com/images/original/f5255954df5e7cb64d2e60e47f9185cb434b9a01.jpg",
-        "https://img.cofynd.com/images/original/c8eb65476399f3ec36aa7811c9f10997ac60bedc.jpg",
-        "https://img.cofynd.com/images/original/9f8dd37ae1efc9a6e7ebcbc7c906f957d621cb13.jpg"
-      ]
-    },
-    {
-      id: 32,
-      name: "39worklabs",
-      badge: null,
-      rating: null,
-      area: "Lalkothi",
-      location: "Lalkothi, Jaipur",
-      price: "₹6,500",
-      period: "/ Month",
-      priceFormatted: "₹6,500 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/original/545ec4cb289407a699227f812b17e32e8716a53b.png",
-        "https://img.cofynd.com/images/original/f450dedb4006a43bd659b806d484d0ac2ca0d738.png",
-        "https://img.cofynd.com/images/original/0c47bd6140d8007246007332b43bdb44048e1629.png",
-        "https://img.cofynd.com/images/original/8e95bad4975612a2f10c49de31633a4354b5ea11.png",
-        "https://img.cofynd.com/images/original/544ea1a9d39152a74c380ca73448ac614c6e5408.png",
-        "https://img.cofynd.com/images/original/8b7a99e10f8c84c10827ef9b948f100540a37bab.png"
-      ]
-    },
-    {
-      id: 67,
-      name: "Celebso Startup Valley",
-      badge: null,
-      rating: null,
-      area: "Lalkothi",
-      location: "Lalkothi, Jaipur",
-      price: "₹6,999",
-      period: "/ Month",
-      priceFormatted: "₹6,999 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/latest_images_2024/01f90e16d7b81c8cf3efb729e2687137ecdf6cf2.webp",
-        "https://img.cofynd.com/images/latest_images_2024/1527193686015f1a42aa4fe5a2a022a78e126e36.webp",
-        "https://img.cofynd.com/images/latest_images_2024/b4a6c2fa1bbeb4abb76f3b19fac50469f1483661.webp",
-        "https://img.cofynd.com/images/latest_images_2024/55bb1b54eb55fab36f4974159c0c8aa804355798.webp",
-        "https://img.cofynd.com/images/latest_images_2024/6641013b9515dd6668100412c2bd894fa732c5bf.webp",
-        "https://img.cofynd.com/images/latest_images_2024/d53f93a996ba82815cfcec23368761d7d6a71bd4.webp"
-      ]
-    },
-    {
-      id: 69,
-      name: "J Startup House",
-      badge: null,
-      rating: null,
-      area: "Lalkothi",
-      location: "Lalkothi, Jaipur",
-      price: "₹4,999",
-      period: "/ Month",
-      priceFormatted: "₹4,999 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/latest_images_2024/95048503f86c794e861ba1117960de3a0288ee85.webp",
-        "https://img.cofynd.com/images/latest_images_2024/13328e5026b8c9db61141d8d0bd579ddc7c11171.webp",
-        "https://img.cofynd.com/images/latest_images_2024/cfe2fcd5e2eb8aada66d92a5711cc735e04e5152.webp",
-        "https://img.cofynd.com/images/latest_images_2024/a6c90a8b61732a2174aa66cc5d00d6cae6f14b16.webp",
-        "https://img.cofynd.com/images/latest_images_2024/7946582a1ab6646657ea1eaad3fd19e816890409.webp",
-        "https://img.cofynd.com/images/latest_images_2024/f7dd5149eb17f2d90c23a94394611d41844067db.webp"
-      ]
     }
   ],
   "Lalkothi": [
@@ -2049,6 +2163,66 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/0508b697c2d3fad0c13a42f0c5aaabf78c1d99ba.webp",
         "https://img.cofynd.com/images/latest_images_2024/39be93ad6e5418f5e320b8f95bec40c90114a7d1.webp",
         "https://img.cofynd.com/images/latest_images_2024/2111cb3deb71a5481a891fd2117950b7b82e8f70.webp"
+      ]
+    },
+    {
+      id: 116,
+      name: "J Startup House, Jaipur",
+      badge: null,
+      rating: null,
+      area: "Lalkothi",
+      location: "Lalkothi, Jaipur",
+      price: "₹5,000",
+      period: "/ Month",
+      priceFormatted: "₹5,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://ik.imagekit.io/qdesq/qdesq/a9d06903b7bf9a874f79a116b1fd9ec1_5s_CPfOHX.JPG",
+        "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/a0cc34c69e5757ded99bfe6c450cb37e_fKSEkB5uh.jpg",
+        "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/c4d4a50145a491fb416f7b54b1905a23_HGSdNrKjj.jpg",
+        "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/e9d3ced71c3612e82d7580d0d817912a_Q0keS_QMB.jpg",
+        "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/b3dd0fb38af5fa394459d86d0667f56c_ywfV-8K5I.jpg",
+        "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/983aed63ec328a75b9ba2c5754e0e380_XUjt_Tcjq.jpg"
+      ]
+    },
+    {
+      id: 123,
+      name: "The Urban Hub Co-Working Space",
+      badge: null,
+      rating: null,
+      area: "Lalkothi",
+      location: "Lalkothi, Jaipur",
+      price: "₹5,500",
+      period: "/ Month",
+      priceFormatted: "₹5,500 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1660812772/pl46g0br8fsu2bcaxeu9.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660812797/vcnmv2hpwhdhqrljlsv8.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660812722/qcfsoduxr1dpqgrz0rle.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660812720/grldaprryapit6x1wjtu.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660812721/t3ygfeblxxzl4gscs614.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660812745/a4c2jjdbrgzlhftomyfy.webp"
+      ]
+    },
+    {
+      id: 130,
+      name: "Times Group",
+      badge: null,
+      rating: null,
+      area: "Lalkothi",
+      location: "Lalkothi, Jaipur",
+      price: "₹7,000",
+      period: "/ Month",
+      priceFormatted: "₹7,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1630489476/qlmkra06mjlwzrvhj78s.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1630489461/lpvyzmktqok0rn4zeylf.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1630489463/wado1mh9h1f6cljp352x.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1630489470/pvvfthhpubiwweybtrgv.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1630489476/qlmkra06mjlwzrvhj78s.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1630489487/s8cvooggnxgfiqvo16dq.jpg"
       ]
     },
     {
@@ -2087,6 +2261,26 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/06c3fa7c2cacf7771c08df33dac0d868695a3371.jpg",
         "https://img.cofynd.com/images/original/2a3ead4f906aff06aa3b914c3bae8259062bf810.jpg",
         "https://img.cofynd.com/images/original/1718e3632008bd6d003e0b7b7863578ac0d0f8d0.jpg"
+      ]
+    },
+    {
+      id: 141,
+      name: "Dafftar Coworking Space",
+      badge: null,
+      rating: null,
+      area: "Raja Park",
+      location: "Raja Park, Jaipur",
+      price: "₹5,000",
+      period: "/ Month",
+      priceFormatted: "₹5,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1704440115/dw6rzlrc4mkyjpfms7w3.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1704440094/pm97wdrgrilc6jw6tu5m.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1704440058/io6xdyruphbcphg0h0zg.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1704440075/zevlf2lyjmde9uk14xaa.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1704440134/tverrtok5thd2b66bkgr.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1704440134/mkxvsqmhhy5wbctdjrah.webp"
       ]
     },
     {
@@ -2168,140 +2362,63 @@ export const areaExtraOfficeCards = {
       ]
     },
     {
-      id: 50,
-      name: "Invocob 2.0 Coworking",
+      id: 105,
+      name: "Lasa Consultants",
       badge: null,
       rating: null,
-      area: "Triveni Nagar",
-      location: "Triveni Nagar, Jaipur",
-      price: "₹3,000",
-      period: "/ Month",
-      priceFormatted: "₹3,000 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/latest_images_2024/29c58ef73a704585f24c634463248f1cfba5830e.webp",
-        "https://img.cofynd.com/images/latest_images_2024/36bc5ac0a24cbf22a34f9a3b8364221ce8fa60f3.webp",
-        "https://img.cofynd.com/images/latest_images_2024/9635df6206dcd8392e3423cba50e851158e89c66.webp",
-        "https://img.cofynd.com/images/latest_images_2024/47869453c6a757ead3d85cd8e7869a3600ecd4df.webp"
-      ]
-    },
-    {
-      id: 101,
-      name: "Kalpavani",
-      badge: null,
-      rating: null,
-      area: "Sodala",
-      location: "Sodala, Jaipur",
+      area: "Civil Lines",
+      location: "Civil Lines, Jaipur",
       price: "₹2,000",
       period: "/ Month",
       priceFormatted: "₹2,000 / Month",
       ctaText: "Get Quote",
       images: [
-        "https://img.cofynd.com/images/latest_images_2024/bff50befccc15d710c7ab3c1c469579a1adaec90.webp",
-        "https://img.cofynd.com/images/latest_images_2024/55a14f979a1be34cee3bfcb10cd1b961f49686e8.webp",
-        "https://img.cofynd.com/images/latest_images_2024/3b1e6127a9e8c61b6cab122d9616cadc55768f80.webp",
-        "https://img.cofynd.com/images/latest_images_2024/d1235bd9f38af01950e59e16b75895f5586f00a3.webp",
-        "https://img.cofynd.com/images/latest_images_2024/22047c6a03d633b3510f11f46e2345f15c1a3c9c.webp"
+        "https://ik.imagekit.io/qdesq/qdesq/86229387ea22b5b02ce8903beb2a2d0f_HPicBJ4Bl.jpeg",
+        "https://ik.imagekit.io/qdesq/qdesq/270d1193bdd85bf9ff0579a9e7eb8eda_WGDAVMiHb.jpeg",
+        "https://ik.imagekit.io/qdesq/qdesq/a6f2d1ece9864472d86e19c089abb1f2_vIWmfvq7e5.jpeg",
+        "https://ik.imagekit.io/qdesq/qdesq/ed3c2e02021e3b5495afa87306009504_n5_dfk0um.jpeg",
+        "https://ik.imagekit.io/qdesq/qdesq/d900d87d662701d686ad3ea00e5e5be8_ebTI1C2o4.jpeg",
+        "https://ik.imagekit.io/qdesq/qdesq/54db8cda0c7cbfc84760fae57cb4394e_oUtyv16Oi.jpeg"
       ]
     },
     {
-      id: 12,
-      name: "225 West",
-      badge: null,
-      rating: null,
-      area: "Ajmer Road",
-      location: "Ajmer Road, Jaipur",
-      price: "₹999",
-      period: "/ Month",
-      priceFormatted: "₹999 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/original/eb052c348fb4e398be4e369acdd8d7ecfa6cd639.jpg",
-        "https://img.cofynd.com/images/original/caf7e827730ae16320a5e03553845d79147f7629.jpg",
-        "https://img.cofynd.com/images/original/93f7c475c3728f653c148b864b3add108b5d6aa6.jpg",
-        "https://img.cofynd.com/images/original/8bae842b78e8af2d10a28c0a986aa146536dbbd3.jpg",
-        "https://img.cofynd.com/images/original/6e504adf4e5361ef748e3e4508397f95215ed047.jpg",
-        "https://img.cofynd.com/images/original/c7cc7053a368436e6e4297472508f9b86de3864b.jpg"
-      ]
-    },
-    {
-      id: 47,
-      name: "Workhauz Co-Working",
-      badge: null,
-      rating: null,
-      area: "C-Scheme",
-      location: "C-Scheme, Jaipur",
-      price: "₹2,499",
-      period: "/ Month",
-      priceFormatted: "₹2,499 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/latest_images_2024/b361d99078c3c070734f36da301f98d2a2442ac7.webp",
-        "https://img.cofynd.com/images/latest_images_2024/94c319ac2cd33f50ea7e31bc89d15e18872d6945.webp",
-        "https://img.cofynd.com/images/latest_images_2024/8cbffcf82ff327802e7afce5412745dac1771d26.webp",
-        "https://img.cofynd.com/images/latest_images_2024/6d63db4bc8bdd8bad784158a80be7e07f923a78b.webp",
-        "https://img.cofynd.com/images/latest_images_2024/15310a214f82711651f4cd2fd8fa58d2a29b13e5.webp",
-        "https://img.cofynd.com/images/latest_images_2024/e7fa134c3f3e999ba70a2837517b48d6808b5a02.webp"
-      ]
-    },
-    {
-      id: 61,
-      name: "Suits Workspace",
-      badge: null,
-      rating: null,
-      area: "C-Scheme",
-      location: "C-Scheme, Jaipur",
-      price: "₹6,000",
-      period: "/ Month",
-      priceFormatted: "₹6,000 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/latest_images_2024/98b39366a15711910e5f3d75aada14bb929cee5d.webp",
-        "https://img.cofynd.com/images/latest_images_2024/1b4cd27834ad1534ad4c892d0f88ec18ddb58ff0.webp",
-        "https://img.cofynd.com/images/latest_images_2024/845e754e5198b0a5bdc46212c9e547634ada79d1.webp",
-        "https://img.cofynd.com/images/latest_images_2024/31102b02f1e57afaa197ea1977f50c1b2b086ef3.webp",
-        "https://img.cofynd.com/images/latest_images_2024/d4c217b0a7bccccda4499d451815fd56a07a47d4.webp",
-        "https://img.cofynd.com/images/latest_images_2024/5d39cf923d33196223512d3fbc63489ac866cb45.webp"
-      ]
-    },
-    {
-      id: 20,
+      id: 106,
       name: "Collabo Corner",
       badge: null,
       rating: null,
-      area: "Malviya Nagar",
-      location: "Malviya Nagar, Jaipur",
-      price: "₹3,279",
+      area: "Civil Lines",
+      location: "Civil Lines, Jaipur",
+      price: "₹7,150",
       period: "/ Month",
-      priceFormatted: "₹3,279 / Month",
+      priceFormatted: "₹7,150 / Month",
       ctaText: "Get Quote",
       images: [
-        "https://img.cofynd.com/images/latest_images_2024/f86aa214553dcc3b478d787ebeec398a15b67226.webp",
-        "https://img.cofynd.com/images/latest_images_2024/ae3e2964346b2207e6b0ba95b3849c5bf290069d.webp",
-        "https://img.cofynd.com/images/latest_images_2024/9b2488319fa31c7138728ee9a3ec8623bf1b556f.webp",
-        "https://img.cofynd.com/images/latest_images_2024/9d03bda1952d1e076dad30712aff3fcc5cb3e199.webp",
-        "https://img.cofynd.com/images/latest_images_2024/2e43479ea82a909326422c5f8f364498857feae4.webp",
-        "https://img.cofynd.com/images/latest_images_2024/619bbe7a75aed7e3cd83b2e78fe5308a0bef651a.webp"
+        "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1706788344/a5cauornt7gcsz94qmem.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1706776150/yee3fvcngyfhkc3lhgl3.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1706788271/lnr4kt8d5j0r70joxlrd.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1706776064/rhmmwxpyvdhkxrnwh6pb.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1706776109/jagebiznyjlswirnzte9.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1706776110/aecm7qnvgqmqgg7j9apj.jpg"
       ]
     },
     {
-      id: 24,
-      name: "Pink hive",
+      id: 107,
+      name: "goSTOPS",
       badge: null,
       rating: null,
-      area: "Malviya Nagar",
-      location: "Malviya Nagar, Jaipur",
-      price: "₹1,669",
+      area: "Civil Lines",
+      location: "Civil Lines, Jaipur",
+      price: "₹5,000",
       period: "/ Month",
-      priceFormatted: "₹1,669 / Month",
+      priceFormatted: "₹5,000 / Month",
       ctaText: "Get Quote",
       images: [
-        "https://img.cofynd.com/images/original/a1cbc340b3782c358a22e18ef62ceb8467597bda.jpg",
-        "https://img.cofynd.com/images/original/4532f6aef2b20b0458a389e7e4068575a96f5494.jpg",
-        "https://img.cofynd.com/images/original/b92b9e29921fb2122470beca1518a8036f478dd0.jpg",
-        "https://img.cofynd.com/images/latest_images_2024/5e7c2d38f46b6af6e226d1149a09751c71320604.webp",
-        "https://img.cofynd.com/images/latest_images_2024/e1ff5e1e8db83c6d8759a4f3324f2dafd4abe0af.webp",
-        "https://img.cofynd.com/images/latest_images_2024/127de1c7d0f0ba526893604e37bafdbf2a11a897.webp"
+        "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/5f5ece615905d30e416ea8d30a412854_MGNAKIO_R.jpg",
+        "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/086394de33a9c5dbfd7d2bb2bcd6db43_Cpt1NzPkOk.jpg",
+        "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/9e848c6eb025e6c52a71cf1a8a5f2e9f_atC7aG4lu.jpg",
+        "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/40d62428cf627eb69cb11c7da57f8107_6qRScjnn5.jpg",
+        "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/0929d5b4780733e2ccb48e86bbd02b18_jLYjMCFdt.jpg",
+        "https://ik.imagekit.io/qdesq/qdesq/tr:h-181,w-325/086394de33a9c5dbfd7d2bb2bcd6db43_Cpt1NzPkOk.jpg"
       ]
     }
   ],
@@ -2447,6 +2564,66 @@ export const areaExtraOfficeCards = {
       ]
     },
     {
+      id: 116,
+      name: "J Startup House, Jaipur",
+      badge: null,
+      rating: null,
+      area: "Lalkothi",
+      location: "Lalkothi, Jaipur",
+      price: "₹5,000",
+      period: "/ Month",
+      priceFormatted: "₹5,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://ik.imagekit.io/qdesq/qdesq/a9d06903b7bf9a874f79a116b1fd9ec1_5s_CPfOHX.JPG",
+        "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/a0cc34c69e5757ded99bfe6c450cb37e_fKSEkB5uh.jpg",
+        "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/c4d4a50145a491fb416f7b54b1905a23_HGSdNrKjj.jpg",
+        "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/e9d3ced71c3612e82d7580d0d817912a_Q0keS_QMB.jpg",
+        "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/b3dd0fb38af5fa394459d86d0667f56c_ywfV-8K5I.jpg",
+        "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/983aed63ec328a75b9ba2c5754e0e380_XUjt_Tcjq.jpg"
+      ]
+    },
+    {
+      id: 123,
+      name: "The Urban Hub Co-Working Space",
+      badge: null,
+      rating: null,
+      area: "Lalkothi",
+      location: "Lalkothi, Jaipur",
+      price: "₹5,500",
+      period: "/ Month",
+      priceFormatted: "₹5,500 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1660812772/pl46g0br8fsu2bcaxeu9.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660812797/vcnmv2hpwhdhqrljlsv8.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660812722/qcfsoduxr1dpqgrz0rle.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660812720/grldaprryapit6x1wjtu.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660812721/t3ygfeblxxzl4gscs614.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660812745/a4c2jjdbrgzlhftomyfy.webp"
+      ]
+    },
+    {
+      id: 130,
+      name: "Times Group",
+      badge: null,
+      rating: null,
+      area: "Lalkothi",
+      location: "Lalkothi, Jaipur",
+      price: "₹7,000",
+      period: "/ Month",
+      priceFormatted: "₹7,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1630489476/qlmkra06mjlwzrvhj78s.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1630489461/lpvyzmktqok0rn4zeylf.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1630489463/wado1mh9h1f6cljp352x.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1630489470/pvvfthhpubiwweybtrgv.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1630489476/qlmkra06mjlwzrvhj78s.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1630489487/s8cvooggnxgfiqvo16dq.jpg"
+      ]
+    },
+    {
       id: 83,
       name: "CAdd Centre",
       badge: null,
@@ -2500,6 +2677,26 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/3b1e6127a9e8c61b6cab122d9616cadc55768f80.webp",
         "https://img.cofynd.com/images/latest_images_2024/d1235bd9f38af01950e59e16b75895f5586f00a3.webp",
         "https://img.cofynd.com/images/latest_images_2024/22047c6a03d633b3510f11f46e2345f15c1a3c9c.webp"
+      ]
+    },
+    {
+      id: 110,
+      name: "Creating Lines",
+      badge: null,
+      rating: null,
+      area: "Sodala",
+      location: "Sodala, Jaipur",
+      price: "₹5,000",
+      period: "/ Month",
+      priceFormatted: "₹5,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://ik.imagekit.io/qdesq/qdesq/7c3cb9d40c904338b4f943852bb2d697_e1bZd-d5W.JPG",
+        "https://ik.imagekit.io/qdesq/qdesq/5367f26663ab22206312a9a4e9a4af2a_CFABtkDu7.JPG",
+        "https://ik.imagekit.io/qdesq/qdesq/fffd2d45c5a5683143b8cc4526780fea_i7Fc_LrGJ.JPG",
+        "https://ik.imagekit.io/qdesq/qdesq/d3a8a783188727eb2ac5cbc437c72cc7_s28pYwlT-.JPG",
+        "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/f09d77654db6ab022a28d8997f0baaf2_w3kq1kupt.jpeg",
+        "https://ik.imagekit.io/qdesq/qdesq/9ac3c5e067a3118100e3f8a538c92dfa_OkRdrfy1-.JPG"
       ]
     },
     {
@@ -2581,118 +2778,43 @@ export const areaExtraOfficeCards = {
       ]
     },
     {
-      id: 18,
-      name: "Dafftar",
+      id: 105,
+      name: "Lasa Consultants",
       badge: null,
       rating: null,
-      area: "Shyam Nagar",
-      location: "Shyam Nagar, Jaipur",
-      price: "₹749",
+      area: "Civil Lines",
+      location: "Civil Lines, Jaipur",
+      price: "₹2,000",
       period: "/ Month",
-      priceFormatted: "₹749 / Month",
+      priceFormatted: "₹2,000 / Month",
       ctaText: "Get Quote",
       images: [
-        "https://img.cofynd.com/images/original/77a8e02eeda83b91f21120b56fbd85f6a6b7d1fd.jpg",
-        "https://img.cofynd.com/images/original/6600704a4e1987b277f85a47dad819e987c8dbd2.jpg",
-        "https://img.cofynd.com/images/original/06261c444383103aa5394338ff1580113586036c.jpg",
-        "https://img.cofynd.com/images/original/30686a8e3196e6c730bb7f4a654b9ee4ac4a850a.jpg",
-        "https://img.cofynd.com/images/original/46f434bf670d15b25e5f313e39047f1a1316f20e.jpg"
+        "https://ik.imagekit.io/qdesq/qdesq/86229387ea22b5b02ce8903beb2a2d0f_HPicBJ4Bl.jpeg",
+        "https://ik.imagekit.io/qdesq/qdesq/270d1193bdd85bf9ff0579a9e7eb8eda_WGDAVMiHb.jpeg",
+        "https://ik.imagekit.io/qdesq/qdesq/a6f2d1ece9864472d86e19c089abb1f2_vIWmfvq7e5.jpeg",
+        "https://ik.imagekit.io/qdesq/qdesq/ed3c2e02021e3b5495afa87306009504_n5_dfk0um.jpeg",
+        "https://ik.imagekit.io/qdesq/qdesq/d900d87d662701d686ad3ea00e5e5be8_ebTI1C2o4.jpeg",
+        "https://ik.imagekit.io/qdesq/qdesq/54db8cda0c7cbfc84760fae57cb4394e_oUtyv16Oi.jpeg"
       ]
     },
     {
-      id: 72,
-      name: "Pratham Karyalaya",
+      id: 106,
+      name: "Collabo Corner",
       badge: null,
       rating: null,
-      area: "Shyam Nagar",
-      location: "Shyam Nagar, Jaipur",
-      price: "₹5,499",
+      area: "Civil Lines",
+      location: "Civil Lines, Jaipur",
+      price: "₹7,150",
       period: "/ Month",
-      priceFormatted: "₹5,499 / Month",
+      priceFormatted: "₹7,150 / Month",
       ctaText: "Get Quote",
       images: [
-        "https://img.cofynd.com/images/latest_images_2024/d9838b1e0ae484e84639ea985e979c38e426b976.webp",
-        "https://img.cofynd.com/images/latest_images_2024/43c234f37b952853fc3bc9f622db546dfe0d9d9e.webp",
-        "https://img.cofynd.com/images/latest_images_2024/3a128b49bb409d79726770296ce156e1523ad452.webp",
-        "https://img.cofynd.com/images/latest_images_2024/4accbc1ec51fc93b9dd818380a744cea0bb9f49a.webp"
-      ]
-    },
-    {
-      id: 12,
-      name: "225 West",
-      badge: null,
-      rating: null,
-      area: "Ajmer Road",
-      location: "Ajmer Road, Jaipur",
-      price: "₹999",
-      period: "/ Month",
-      priceFormatted: "₹999 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/original/eb052c348fb4e398be4e369acdd8d7ecfa6cd639.jpg",
-        "https://img.cofynd.com/images/original/caf7e827730ae16320a5e03553845d79147f7629.jpg",
-        "https://img.cofynd.com/images/original/93f7c475c3728f653c148b864b3add108b5d6aa6.jpg",
-        "https://img.cofynd.com/images/original/8bae842b78e8af2d10a28c0a986aa146536dbbd3.jpg",
-        "https://img.cofynd.com/images/original/6e504adf4e5361ef748e3e4508397f95215ed047.jpg",
-        "https://img.cofynd.com/images/original/c7cc7053a368436e6e4297472508f9b86de3864b.jpg"
-      ]
-    },
-    {
-      id: 78,
-      name: "Nineth Space",
-      badge: null,
-      rating: null,
-      area: "Ashok Nagar",
-      location: "Ashok Nagar, Jaipur",
-      price: "₹10,999",
-      period: "/ Month",
-      priceFormatted: "₹10,999 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/latest_images_2024/7ab1d7424239060b49be38f53017b23dab9b333b.webp",
-        "https://img.cofynd.com/images/latest_images_2024/0301e2281a7fceed091392e145b842109dbd45cf.webp",
-        "https://img.cofynd.com/images/latest_images_2024/4729c39d564dcc051ee814df7d6b1caa3ce7f00d.webp",
-        "https://img.cofynd.com/images/latest_images_2024/9a0ffbe0e47f28424631d419311cb42dfa034282.webp",
-        "https://img.cofynd.com/images/latest_images_2024/37cce464e853f25508220caf7efa07baa6313e0d.webp"
-      ]
-    },
-    {
-      id: 51,
-      name: "Cubicle Crushers",
-      badge: null,
-      rating: null,
-      area: "Raja Park",
-      location: "Raja Park, Jaipur",
-      price: "₹4,500",
-      period: "/ Month",
-      priceFormatted: "₹4,500 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/original/dc6d874f23596e6c9af7126dd88a709e3f7ceda9.jpg",
-        "https://img.cofynd.com/images/original/983e62a30b6901a617cc30de57c20116d770f7d5.jpg",
-        "https://img.cofynd.com/images/original/06c3fa7c2cacf7771c08df33dac0d868695a3371.jpg",
-        "https://img.cofynd.com/images/original/2a3ead4f906aff06aa3b914c3bae8259062bf810.jpg",
-        "https://img.cofynd.com/images/original/1718e3632008bd6d003e0b7b7863578ac0d0f8d0.jpg"
-      ]
-    },
-    {
-      id: 47,
-      name: "Workhauz Co-Working",
-      badge: null,
-      rating: null,
-      area: "C-Scheme",
-      location: "C-Scheme, Jaipur",
-      price: "₹2,499",
-      period: "/ Month",
-      priceFormatted: "₹2,499 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/latest_images_2024/b361d99078c3c070734f36da301f98d2a2442ac7.webp",
-        "https://img.cofynd.com/images/latest_images_2024/94c319ac2cd33f50ea7e31bc89d15e18872d6945.webp",
-        "https://img.cofynd.com/images/latest_images_2024/8cbffcf82ff327802e7afce5412745dac1771d26.webp",
-        "https://img.cofynd.com/images/latest_images_2024/6d63db4bc8bdd8bad784158a80be7e07f923a78b.webp",
-        "https://img.cofynd.com/images/latest_images_2024/15310a214f82711651f4cd2fd8fa58d2a29b13e5.webp",
-        "https://img.cofynd.com/images/latest_images_2024/e7fa134c3f3e999ba70a2837517b48d6808b5a02.webp"
+        "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1706788344/a5cauornt7gcsz94qmem.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1706776150/yee3fvcngyfhkc3lhgl3.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1706788271/lnr4kt8d5j0r70joxlrd.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1706776064/rhmmwxpyvdhkxrnwh6pb.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1706776109/jagebiznyjlswirnzte9.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1706776110/aecm7qnvgqmqgg7j9apj.jpg"
       ]
     }
   ],
@@ -2714,6 +2836,63 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/ac13e27bd1296873ac7f6b028baa643a5b4f73f3.webp",
         "https://img.cofynd.com/images/latest_images_2024/8e7a6f817f7a1689fd8a73c467c26c13e1fe8b45.webp",
         "https://img.cofynd.com/images/latest_images_2024/410016d5b5772675c53ac74ee75340fcd179c982.webp"
+      ]
+    },
+    {
+      id: 127,
+      name: "Urban Excubator",
+      badge: null,
+      rating: null,
+      area: "Durgapura",
+      location: "Durgapura, Jaipur",
+      price: "₹3,850",
+      period: "/ Month",
+      priceFormatted: "₹3,850 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://qdesq.imagekit.io/image/upload/tr:n-listing_image/v1590391273/rck7oh7r2agkjwhtqolw.webp",
+        "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1590400992/eh5ihqgdqt1own11duzi.webp",
+        "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1590400927/n6q4fopbom9usftecoaz.webp",
+        "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1590391273/rck7oh7r2agkjwhtqolw.webp",
+        "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1590407044/e2uapnh4mcil5qri3iiv.webp",
+        "https://qdesq.imagekit.io/img/tr:h-181,w-325/image/upload/v1590400992/eh5ihqgdqt1own11duzi.webp"
+      ]
+    },
+    {
+      id: 146,
+      name: "CoSpazes",
+      badge: null,
+      rating: null,
+      area: "Durgapura",
+      location: "Durgapura, Jaipur",
+      price: "₹6,000",
+      period: "/ Month",
+      priceFormatted: "₹6,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1698400004/kjx8fwnniyk7wxbhjdhs.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1698400019/zcbnxthsbch0z1b5bxhn.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1698400019/jpvwxodued7q89agyrl5.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1698400020/pedhzuy9i5lkcw9uzarn.webp"
+      ]
+    },
+    {
+      id: 157,
+      name: "Regus",
+      badge: null,
+      rating: null,
+      area: "Durgapura",
+      location: "Durgapura, Jaipur",
+      price: "₹15,000",
+      period: "/ Month",
+      priceFormatted: "₹15,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1581674772/bnjfailur0mzwe89rhqb.webp",
+        "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1581674772/bnjfailur0mzwe89rhqb.webp",
+        "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1581674869/aonxo63ygl2nwqjn21c5.webp",
+        "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1581674872/hhpxqhsflhi4uft6e3s3.webp",
+        "https://qdesq.imagekit.io/img/tr:h-181,w-325/image/upload/v1581674772/bnjfailur0mzwe89rhqb.webp"
       ]
     },
     {
@@ -2894,6 +3073,66 @@ export const areaExtraOfficeCards = {
       ]
     },
     {
+      id: 116,
+      name: "J Startup House, Jaipur",
+      badge: null,
+      rating: null,
+      area: "Lalkothi",
+      location: "Lalkothi, Jaipur",
+      price: "₹5,000",
+      period: "/ Month",
+      priceFormatted: "₹5,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://ik.imagekit.io/qdesq/qdesq/a9d06903b7bf9a874f79a116b1fd9ec1_5s_CPfOHX.JPG",
+        "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/a0cc34c69e5757ded99bfe6c450cb37e_fKSEkB5uh.jpg",
+        "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/c4d4a50145a491fb416f7b54b1905a23_HGSdNrKjj.jpg",
+        "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/e9d3ced71c3612e82d7580d0d817912a_Q0keS_QMB.jpg",
+        "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/b3dd0fb38af5fa394459d86d0667f56c_ywfV-8K5I.jpg",
+        "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/983aed63ec328a75b9ba2c5754e0e380_XUjt_Tcjq.jpg"
+      ]
+    },
+    {
+      id: 123,
+      name: "The Urban Hub Co-Working Space",
+      badge: null,
+      rating: null,
+      area: "Lalkothi",
+      location: "Lalkothi, Jaipur",
+      price: "₹5,500",
+      period: "/ Month",
+      priceFormatted: "₹5,500 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1660812772/pl46g0br8fsu2bcaxeu9.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660812797/vcnmv2hpwhdhqrljlsv8.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660812722/qcfsoduxr1dpqgrz0rle.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660812720/grldaprryapit6x1wjtu.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660812721/t3ygfeblxxzl4gscs614.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660812745/a4c2jjdbrgzlhftomyfy.webp"
+      ]
+    },
+    {
+      id: 130,
+      name: "Times Group",
+      badge: null,
+      rating: null,
+      area: "Lalkothi",
+      location: "Lalkothi, Jaipur",
+      price: "₹7,000",
+      period: "/ Month",
+      priceFormatted: "₹7,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1630489476/qlmkra06mjlwzrvhj78s.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1630489461/lpvyzmktqok0rn4zeylf.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1630489463/wado1mh9h1f6cljp352x.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1630489470/pvvfthhpubiwweybtrgv.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1630489476/qlmkra06mjlwzrvhj78s.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1630489487/s8cvooggnxgfiqvo16dq.jpg"
+      ]
+    },
+    {
       id: 5,
       name: "RAW Coworking and Office Space",
       badge: null,
@@ -2969,123 +3208,6 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/c10cb525b186a2a8496721ad6055ee86a86c8b59.jpg",
         "https://img.cofynd.com/images/original/c9fde751f05596768648ed98327c208b7dd67334.jpg"
       ]
-    },
-    {
-      id: 33,
-      name: "PhoebusIn",
-      badge: null,
-      rating: null,
-      area: "Mansarovar",
-      location: "Mansarovar, Jaipur",
-      price: "₹749",
-      period: "/ Month",
-      priceFormatted: "₹749 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/latest_images_2024/4b36dcacf3b85f5cbc9768ef9fa4a8d330a8b464.webp",
-        "https://img.cofynd.com/images/latest_images_2024/69dbe190603b37735d9b2302b6d8d0b1781c9a3c.webp",
-        "https://img.cofynd.com/images/latest_images_2024/c95e74622fb7964990e0265fcc08142d13f87d24.webp",
-        "https://img.cofynd.com/images/latest_images_2024/6fc1fae2d2bc524fe89cc8779eeaa8fd27d3b0e9.webp",
-        "https://img.cofynd.com/images/latest_images_2024/cc33a01ae5c5d53fab5cac37cfbdf8335d051e41.webp"
-      ]
-    },
-    {
-      id: 37,
-      name: "HackaHolic Co-Work",
-      badge: null,
-      rating: null,
-      area: "Mansarovar",
-      location: "Mansarovar, Jaipur",
-      price: "₹3,000",
-      period: "/ Month",
-      priceFormatted: "₹3,000 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/latest_images_2024/7f26034e0111385c483ac105d777d6dd5650a772.webp",
-        "https://img.cofynd.com/images/latest_images_2024/37c2da53f1c89d87d2ed2e8a69235e2f4ae21c54.webp",
-        "https://img.cofynd.com/images/latest_images_2024/936eff01c78ebce2444d2ee8c8182b9d01678457.webp",
-        "https://img.cofynd.com/images/latest_images_2024/0d6f41f5fa973ba49e5533ab8bd23a01d26867c7.webp",
-        "https://img.cofynd.com/images/latest_images_2024/9e61e7ee8b7456adcf88a2e4570eca1de279041e.webp",
-        "https://img.cofynd.com/images/latest_images_2024/ac8963897edecb98a18e432cbbb74a107c15be82.webp"
-      ]
-    },
-    {
-      id: 49,
-      name: "VPM Coworking",
-      badge: null,
-      rating: null,
-      area: "Mansarovar",
-      location: "Mansarovar, Jaipur",
-      price: "₹3,499",
-      period: "/ Month",
-      priceFormatted: "₹3,499 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/latest_images_2024/108eca8cfceae2e1c6dab4238b7bc4397c927909.webp",
-        "https://img.cofynd.com/images/latest_images_2024/7833ab4999f67165fe5a11326782c18aea7991ee.webp",
-        "https://img.cofynd.com/images/latest_images_2024/36c70ec2110413f2fc508353cf7a0a36d4c931fd.webp",
-        "https://img.cofynd.com/images/latest_images_2024/edb96130316f08f20e0098cba2f2dd2c44c29f49.webp",
-        "https://img.cofynd.com/images/latest_images_2024/09738711b9a6d26786e2b5c1de8218fe1c8e0335.webp",
-        "https://img.cofynd.com/images/latest_images_2024/1ffd5571bce6c780a97e72dcdc64f86ffc53a0c8.webp"
-      ]
-    },
-    {
-      id: 54,
-      name: "Mr Cowork",
-      badge: null,
-      rating: null,
-      area: "Mansarovar",
-      location: "Mansarovar, Jaipur",
-      price: "₹7,999",
-      period: "/ Month",
-      priceFormatted: "₹7,999 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/latest_images_2024/d83b1d99e7dad3f4651f1a6622f1b23177876543.webp",
-        "https://img.cofynd.com/images/latest_images_2024/f63a77a683e388d46a4cd4786defc4ebc724c05b.webp",
-        "https://img.cofynd.com/images/latest_images_2024/36c3f96036106b68fcdb70c91a15402f80dd8ca0.webp",
-        "https://img.cofynd.com/images/latest_images_2024/e03a9af9a3476b2161dea6b7ab8119920b2766cb.webp",
-        "https://img.cofynd.com/images/latest_images_2024/3ad1a18331638c35799cf46473a1303e3d0dc499.webp"
-      ]
-    },
-    {
-      id: 57,
-      name: "Creware Coworks",
-      badge: null,
-      rating: null,
-      area: "Mansarovar",
-      location: "Mansarovar, Jaipur",
-      price: "₹5,999",
-      period: "/ Month",
-      priceFormatted: "₹5,999 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/latest_images_2024/440afe5c9b54856f8fbf0379e053aa15d5a7e3a3.webp",
-        "https://img.cofynd.com/images/latest_images_2024/1a60a301ccaf94e6438eaef2f55088c33d40451a.webp",
-        "https://img.cofynd.com/images/latest_images_2024/e0faa11ab5ca7463499ebb47ebff0a82271f969d.webp",
-        "https://img.cofynd.com/images/latest_images_2024/d70d7f90bce5bf18d954016e03ddd119c8e01804.webp",
-        "https://img.cofynd.com/images/latest_images_2024/6751255715469685050e184e649bcfada8250efd.webp",
-        "https://img.cofynd.com/images/latest_images_2024/0931cd3d2b71b83b1d1dbfb677eced41b871ab89.webp"
-      ]
-    },
-    {
-      id: 60,
-      name: "Smartworks",
-      badge: null,
-      rating: null,
-      area: "Mansarovar",
-      location: "Mansarovar, Jaipur",
-      price: "₹9,000",
-      period: "/ Month",
-      priceFormatted: "₹9,000 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/latest_images_2024/566f261e9f7614da46bac676ae1f0a0abd943c2c.webp",
-        "https://img.cofynd.com/images/latest_images_2024/3b5c9238105caacf3de39e7159e9db93bd915e37.webp",
-        "https://img.cofynd.com/images/latest_images_2024/f3184742fdc8ed2829246c47917084fc2486728e.webp",
-        "https://img.cofynd.com/images/latest_images_2024/a99e39019982e36617024ecee405a890edd0839c.webp",
-        "https://img.cofynd.com/images/latest_images_2024/9ce0596b670ad505df162819eb782b5252b093bb.webp"
-      ]
     }
   ],
   "Pratap Nagar": [
@@ -3106,6 +3228,26 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/681126863cd427e8a2fe456d1718f01f833ae25c.webp",
         "https://img.cofynd.com/images/latest_images_2024/15d24002c59421b32518b9f11b9d5d5a5e0fb0b0.webp",
         "https://img.cofynd.com/images/latest_images_2024/1bb73e6980f005e2ca241d51bbe5c9b08f8cd516.webp"
+      ]
+    },
+    {
+      id: 115,
+      name: "GVFC",
+      badge: null,
+      rating: null,
+      area: "Pratap Nagar",
+      location: "Pratap Nagar, Jaipur",
+      price: "₹4,000",
+      period: "/ Month",
+      priceFormatted: "₹4,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1660642846/pakjaerthx7esxzaqgwj.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660641888/o6ynzgyaigzngpsldyda.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660641888/k1p8e4kngyomzsknb6cp.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660642751/sicsbjq1g6dnwwroreqw.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660642751/ulzxsxan6a1ld0or8gll.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660642751/rlynlmrtzm8tqp5hp8ia.webp"
       ]
     },
     {
@@ -3285,6 +3427,46 @@ export const areaExtraOfficeCards = {
       ]
     },
     {
+      id: 129,
+      name: "Coworkin",
+      badge: null,
+      rating: null,
+      area: "Tonk Road",
+      location: "Tonk Road, Jaipur",
+      price: "₹12,000",
+      period: "/ Month",
+      priceFormatted: "₹12,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1660902475/vhbiyjpjmffpdooye21c.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660902475/vhbiyjpjmffpdooye21c.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660902475/rhozxffdxk2dhzku1ggv.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660902475/gq3ytwyjpuzsg3f2ykfh.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660902556/ei7os4birj3q5tkrlo8r.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660902607/bvcfkhn6bno6eryxz3mp.webp"
+      ]
+    },
+    {
+      id: 143,
+      name: "Invocob 2.0",
+      badge: null,
+      rating: null,
+      area: "Tonk Road",
+      location: "Tonk Road, Jaipur",
+      price: "₹4,000",
+      period: "/ Month",
+      priceFormatted: "₹4,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://qdesq.imagekit.io/img/image/upload/s--p-8CW3Sq--/v1725966349/pvhfldcxebw7svx4p4lu.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/s--199zLhte--/v1725966295/euxirurs3n7mly8rzf7s.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/s--K5wKcNAc--/v1725966245/lh9fjn5js1ixrzjiphs8.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/s--DLPkL4f1--/v1725966246/gukwlhwormhpyaqa5qpo.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/s--l5gTA7qM--/v1725966245/vzuqbqal6s6f9gt8fbfn.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/s--pRF6C74z--/v1725966246/pbfdpbdbtzpdtyn2df0d.webp"
+      ]
+    },
+    {
       id: 99,
       name: "Regus Jaipur Centre",
       badge: null,
@@ -3301,6 +3483,63 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/ac13e27bd1296873ac7f6b028baa643a5b4f73f3.webp",
         "https://img.cofynd.com/images/latest_images_2024/8e7a6f817f7a1689fd8a73c467c26c13e1fe8b45.webp",
         "https://img.cofynd.com/images/latest_images_2024/410016d5b5772675c53ac74ee75340fcd179c982.webp"
+      ]
+    },
+    {
+      id: 127,
+      name: "Urban Excubator",
+      badge: null,
+      rating: null,
+      area: "Durgapura",
+      location: "Durgapura, Jaipur",
+      price: "₹3,850",
+      period: "/ Month",
+      priceFormatted: "₹3,850 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://qdesq.imagekit.io/image/upload/tr:n-listing_image/v1590391273/rck7oh7r2agkjwhtqolw.webp",
+        "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1590400992/eh5ihqgdqt1own11duzi.webp",
+        "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1590400927/n6q4fopbom9usftecoaz.webp",
+        "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1590391273/rck7oh7r2agkjwhtqolw.webp",
+        "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1590407044/e2uapnh4mcil5qri3iiv.webp",
+        "https://qdesq.imagekit.io/img/tr:h-181,w-325/image/upload/v1590400992/eh5ihqgdqt1own11duzi.webp"
+      ]
+    },
+    {
+      id: 146,
+      name: "CoSpazes",
+      badge: null,
+      rating: null,
+      area: "Durgapura",
+      location: "Durgapura, Jaipur",
+      price: "₹6,000",
+      period: "/ Month",
+      priceFormatted: "₹6,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1698400004/kjx8fwnniyk7wxbhjdhs.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1698400019/zcbnxthsbch0z1b5bxhn.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1698400019/jpvwxodued7q89agyrl5.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1698400020/pedhzuy9i5lkcw9uzarn.webp"
+      ]
+    },
+    {
+      id: 157,
+      name: "Regus",
+      badge: null,
+      rating: null,
+      area: "Durgapura",
+      location: "Durgapura, Jaipur",
+      price: "₹15,000",
+      period: "/ Month",
+      priceFormatted: "₹15,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1581674772/bnjfailur0mzwe89rhqb.webp",
+        "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1581674772/bnjfailur0mzwe89rhqb.webp",
+        "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1581674869/aonxo63ygl2nwqjn21c5.webp",
+        "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1581674872/hhpxqhsflhi4uft6e3s3.webp",
+        "https://qdesq.imagekit.io/img/tr:h-181,w-325/image/upload/v1581674772/bnjfailur0mzwe89rhqb.webp"
       ]
     },
     {
@@ -3340,125 +3579,29 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/37eb26fa2ad2dc91ebcda789934c7becbbc0dc48.webp",
         "https://img.cofynd.com/images/latest_images_2024/b8999f9797a2427847bcd57272b9263082a74dfb.webp"
       ]
-    },
-    {
-      id: 8,
-      name: "Creware",
-      badge: null,
-      rating: null,
-      area: "Mansarovar",
-      location: "Mansarovar, Jaipur",
-      price: "₹999",
-      period: "/ Month",
-      priceFormatted: "₹999 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/original/849e47738570992dc025e35a3b37dc236bf0980b.jpg",
-        "https://img.cofynd.com/images/original/461ae8a9cadcb7bb32aabdc00717f6d10c6ddb1d.jpg",
-        "https://img.cofynd.com/images/original/8015449306673337d80dc89d701b002a193ee5e3.jpg",
-        "https://img.cofynd.com/images/original/7542771cfde0aad67efdba3e0de283ab38a95522.jpg",
-        "https://img.cofynd.com/images/original/e080d0edf62012a355a4eaca42cf395d50f21a54.jpg"
-      ]
-    },
-    {
-      id: 9,
-      name: "Office Culture",
-      badge: null,
-      rating: null,
-      area: "Mansarovar",
-      location: "Mansarovar, Jaipur",
-      price: "₹999",
-      period: "/ Month",
-      priceFormatted: "₹999 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/latest_images_2024/0082b071be1d0a19e938761d45f659279f32ec7e.webp",
-        "https://img.cofynd.com/images/latest_images_2024/9ba4a53f2964c5caa5a85efbee0b6cc2c889981a.webp",
-        "https://img.cofynd.com/images/latest_images_2024/6476363183d45b5abe21241eb06c667ee5e0c237.webp",
-        "https://img.cofynd.com/images/latest_images_2024/4679d3e310a594503f3eca586ae6f485688f03e2.webp",
-        "https://img.cofynd.com/images/latest_images_2024/d12b09a9cfb44893c3092ee5b278007ffcf4e134.webp",
-        "https://img.cofynd.com/images/latest_images_2024/a6ed3e4871f6ed4863bf29095bd12892f5999b4e.webp"
-      ]
-    },
-    {
-      id: 23,
-      name: "Hey Writers Coworking",
-      badge: null,
-      rating: null,
-      area: "Mansarovar",
-      location: "Mansarovar, Jaipur",
-      price: "₹4,500",
-      period: "/ Month",
-      priceFormatted: "₹4,500 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/original/4602f869a4735ae1e3db3031fa845e4ce88e2a08.jpg",
-        "https://img.cofynd.com/images/original/a8fd863c0a18fb9795201d7368b779752c19bb50.jpg",
-        "https://img.cofynd.com/images/original/c10cb525b186a2a8496721ad6055ee86a86c8b59.jpg",
-        "https://img.cofynd.com/images/original/c9fde751f05596768648ed98327c208b7dd67334.jpg"
-      ]
-    },
-    {
-      id: 33,
-      name: "PhoebusIn",
-      badge: null,
-      rating: null,
-      area: "Mansarovar",
-      location: "Mansarovar, Jaipur",
-      price: "₹749",
-      period: "/ Month",
-      priceFormatted: "₹749 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/latest_images_2024/4b36dcacf3b85f5cbc9768ef9fa4a8d330a8b464.webp",
-        "https://img.cofynd.com/images/latest_images_2024/69dbe190603b37735d9b2302b6d8d0b1781c9a3c.webp",
-        "https://img.cofynd.com/images/latest_images_2024/c95e74622fb7964990e0265fcc08142d13f87d24.webp",
-        "https://img.cofynd.com/images/latest_images_2024/6fc1fae2d2bc524fe89cc8779eeaa8fd27d3b0e9.webp",
-        "https://img.cofynd.com/images/latest_images_2024/cc33a01ae5c5d53fab5cac37cfbdf8335d051e41.webp"
-      ]
-    },
-    {
-      id: 37,
-      name: "HackaHolic Co-Work",
-      badge: null,
-      rating: null,
-      area: "Mansarovar",
-      location: "Mansarovar, Jaipur",
-      price: "₹3,000",
-      period: "/ Month",
-      priceFormatted: "₹3,000 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/latest_images_2024/7f26034e0111385c483ac105d777d6dd5650a772.webp",
-        "https://img.cofynd.com/images/latest_images_2024/37c2da53f1c89d87d2ed2e8a69235e2f4ae21c54.webp",
-        "https://img.cofynd.com/images/latest_images_2024/936eff01c78ebce2444d2ee8c8182b9d01678457.webp",
-        "https://img.cofynd.com/images/latest_images_2024/0d6f41f5fa973ba49e5533ab8bd23a01d26867c7.webp",
-        "https://img.cofynd.com/images/latest_images_2024/9e61e7ee8b7456adcf88a2e4570eca1de279041e.webp",
-        "https://img.cofynd.com/images/latest_images_2024/ac8963897edecb98a18e432cbbb74a107c15be82.webp"
-      ]
-    },
-    {
-      id: 49,
-      name: "VPM Coworking",
-      badge: null,
-      rating: null,
-      area: "Mansarovar",
-      location: "Mansarovar, Jaipur",
-      price: "₹3,499",
-      period: "/ Month",
-      priceFormatted: "₹3,499 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/latest_images_2024/108eca8cfceae2e1c6dab4238b7bc4397c927909.webp",
-        "https://img.cofynd.com/images/latest_images_2024/7833ab4999f67165fe5a11326782c18aea7991ee.webp",
-        "https://img.cofynd.com/images/latest_images_2024/36c70ec2110413f2fc508353cf7a0a36d4c931fd.webp",
-        "https://img.cofynd.com/images/latest_images_2024/edb96130316f08f20e0098cba2f2dd2c44c29f49.webp",
-        "https://img.cofynd.com/images/latest_images_2024/09738711b9a6d26786e2b5c1de8218fe1c8e0335.webp",
-        "https://img.cofynd.com/images/latest_images_2024/1ffd5571bce6c780a97e72dcdc64f86ffc53a0c8.webp"
-      ]
     }
   ],
   "Nirman Nagar": [
+    {
+      id: 133,
+      name: "Codeskk",
+      badge: null,
+      rating: null,
+      area: "Nirman Nagar",
+      location: "Nirman Nagar, Jaipur",
+      price: "₹3,999",
+      period: "/ Month",
+      priceFormatted: "₹3,999 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1663130916/uaruebkczujfayoxj36c.jpg",
+        "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1665071397/drbeeoyxazdu34v1zckc.jpg",
+        "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1665071397/g86xqsxgycfpxackwblh.jpg",
+        "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1665071397/mu02frkpdiacm9xezfmc.jpg",
+        "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1665071397/i57skabdeipxcw6zmzvk.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1663130916/uaruebkczujfayoxj36c.jpg"
+      ]
+    },
     {
       id: 26,
       name: "Taapu Cafe & Cowork",
@@ -3749,26 +3892,6 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/2cf884b48b61e486a160a85459d2b4ab4e7b8e2e.webp",
         "https://img.cofynd.com/images/latest_images_2024/b07215ca36b9b03715d9ff9c1d90309f27a70620.webp",
         "https://img.cofynd.com/images/latest_images_2024/ddc0107c0b662db072bdcc15ff6fc414143efe9a.webp"
-      ]
-    },
-    {
-      id: 92,
-      name: "Co-work Town",
-      badge: null,
-      rating: null,
-      area: "Mansarovar",
-      location: "Mansarovar, Jaipur",
-      price: "₹4,499",
-      period: "/ Month",
-      priceFormatted: "₹4,499 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/latest_images_2024/904612013872dc01e167c66b44d1955166a51889.webp",
-        "https://img.cofynd.com/images/latest_images_2024/69ff476064d60bdcb16bfc8d624a7c63e5329d53.webp",
-        "https://img.cofynd.com/images/latest_images_2024/780587274dad3a8e6686aa7b4b2d705bcbdd5205.webp",
-        "https://img.cofynd.com/images/latest_images_2024/2b8c2a861b3238227e6e3a27970503eebc5ed626.webp",
-        "https://img.cofynd.com/images/latest_images_2024/2b2823870050fcc9dd2294c5d0cff3bd4a484241.webp",
-        "https://img.cofynd.com/images/latest_images_2024/ebb65950d4258376a0dd320f549f5be9018e017e.webp"
       ]
     }
   ],
@@ -4106,67 +4229,124 @@ export const areaExtraOfficeCards = {
       ]
     },
     {
-      id: 12,
-      name: "225 West",
+      id: 148,
+      name: "IndiQube",
       badge: null,
       rating: null,
-      area: "Ajmer Road",
-      location: "Ajmer Road, Jaipur",
-      price: "₹999",
+      area: "Malviya Nagar",
+      location: "Malviya Nagar, Jaipur",
+      price: "₹8,000",
       period: "/ Month",
-      priceFormatted: "₹999 / Month",
+      priceFormatted: "₹8,000 / Month",
       ctaText: "Get Quote",
       images: [
-        "https://img.cofynd.com/images/original/eb052c348fb4e398be4e369acdd8d7ecfa6cd639.jpg",
-        "https://img.cofynd.com/images/original/caf7e827730ae16320a5e03553845d79147f7629.jpg",
-        "https://img.cofynd.com/images/original/93f7c475c3728f653c148b864b3add108b5d6aa6.jpg",
-        "https://img.cofynd.com/images/original/8bae842b78e8af2d10a28c0a986aa146536dbbd3.jpg",
-        "https://img.cofynd.com/images/original/6e504adf4e5361ef748e3e4508397f95215ed047.jpg",
-        "https://img.cofynd.com/images/original/c7cc7053a368436e6e4297472508f9b86de3864b.jpg"
+        "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1676981387/duhl6dhoow8xv6zjdtjo.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1676981349/ujl6edcehstvlemtndxt.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1662533049/wlvtm1vaci8ngvclnqhu.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1662533049/pvotwga6w2kkncaulktw.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1662533047/o2kmnqavzq6edvkbwlk8.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1662533048/y9hn2wn8vtuzlgvyetmp.webp"
       ]
     },
     {
-      id: 47,
-      name: "Workhauz Co-Working",
+      id: 150,
+      name: "Pink Hive Co-Work In",
       badge: null,
       rating: null,
-      area: "C-Scheme",
-      location: "C-Scheme, Jaipur",
-      price: "₹2,499",
+      area: "Malviya Nagar",
+      location: "Malviya Nagar, Jaipur",
+      price: "₹5,500",
       period: "/ Month",
-      priceFormatted: "₹2,499 / Month",
+      priceFormatted: "₹5,500 / Month",
       ctaText: "Get Quote",
       images: [
-        "https://img.cofynd.com/images/latest_images_2024/b361d99078c3c070734f36da301f98d2a2442ac7.webp",
-        "https://img.cofynd.com/images/latest_images_2024/94c319ac2cd33f50ea7e31bc89d15e18872d6945.webp",
-        "https://img.cofynd.com/images/latest_images_2024/8cbffcf82ff327802e7afce5412745dac1771d26.webp",
-        "https://img.cofynd.com/images/latest_images_2024/6d63db4bc8bdd8bad784158a80be7e07f923a78b.webp",
-        "https://img.cofynd.com/images/latest_images_2024/15310a214f82711651f4cd2fd8fa58d2a29b13e5.webp",
-        "https://img.cofynd.com/images/latest_images_2024/e7fa134c3f3e999ba70a2837517b48d6808b5a02.webp"
+        "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1664168627/lnkki9qdjqbyfxmjfb0i.png",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1683118194/qy7nnsidoxuomyn1sgdf.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1683118199/nqgg22cslpqnxmep3g68.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1683118168/ujf3ljkbanvkgltw74jt.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1683118087/eneyop5nnb77tmbfrqzx.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1683118094/nm4780bwa6zl3valqxu3.jpg"
       ]
     },
     {
-      id: 61,
-      name: "Suits Workspace",
+      id: 151,
+      name: "Urban Excubator",
       badge: null,
       rating: null,
-      area: "C-Scheme",
-      location: "C-Scheme, Jaipur",
+      area: "Malviya Nagar",
+      location: "Malviya Nagar, Jaipur",
+      price: "₹4,000",
+      period: "/ Month",
+      priceFormatted: "₹4,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1643789753/sato9mknsms6jdheuqhb.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1643789753/qxniorajnv5bsluwonps.webp",
+        "https://qdesq.imagekit.io/tr:h-181,w-325/image/upload/v1643789753/sato9mknsms6jdheuqhb.webp"
+      ]
+    }
+  ],
+  "Shyam Nagar": [
+    {
+      id: 119,
+      name: "M&L Consulting Pvt.Ltd",
+      badge: null,
+      rating: null,
+      area: "Shyam Nagar",
+      location: "Shyam Nagar, Jaipur",
       price: "₹6,000",
       period: "/ Month",
       priceFormatted: "₹6,000 / Month",
       ctaText: "Get Quote",
       images: [
-        "https://img.cofynd.com/images/latest_images_2024/98b39366a15711910e5f3d75aada14bb929cee5d.webp",
-        "https://img.cofynd.com/images/latest_images_2024/1b4cd27834ad1534ad4c892d0f88ec18ddb58ff0.webp",
-        "https://img.cofynd.com/images/latest_images_2024/845e754e5198b0a5bdc46212c9e547634ada79d1.webp",
-        "https://img.cofynd.com/images/latest_images_2024/31102b02f1e57afaa197ea1977f50c1b2b086ef3.webp",
-        "https://img.cofynd.com/images/latest_images_2024/d4c217b0a7bccccda4499d451815fd56a07a47d4.webp",
-        "https://img.cofynd.com/images/latest_images_2024/5d39cf923d33196223512d3fbc63489ac866cb45.webp"
+        "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1713611436/k22iqubvbjqaabrq6fhb.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1714738933/iip11ddaedbu9ilhdtj4.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1713611436/k22iqubvbjqaabrq6fhb.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1713611436/jovjeqab8wjfz1of2rlx.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1713611436/dxmafqmzmhxyn5tzk87q.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1713611437/cnc95n549qxcufrbhuaz.jpg"
       ]
-    }
-  ],
-  "Shyam Nagar": [
+    },
+    {
+      id: 120,
+      name: "Coworkin",
+      badge: null,
+      rating: null,
+      area: "Shyam Nagar",
+      location: "Shyam Nagar, Jaipur",
+      price: "₹8,000",
+      period: "/ Month",
+      priceFormatted: "₹8,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1676018462/im6oa7jqaotmpcve2ity.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1676018428/fyp4vbjgf0iajeqwpl9a.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1676018428/mxdegogin5vaok9uks2g.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1676018428/lzdr2bty1nf1ldywqvin.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1676018444/k4ewupv9rx2yqdpzjvkr.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1676018445/zwbi9mhxh9mov7zf5dzd.webp"
+      ]
+    },
+    {
+      id: 126,
+      name: "THE WORKNOT",
+      badge: null,
+      rating: null,
+      area: "Shyam Nagar",
+      location: "Shyam Nagar, Jaipur",
+      price: "₹4,400",
+      period: "/ Month",
+      priceFormatted: "₹4,400 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1700050879/aq9abf3dakcxrr5tpudi.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1700209528/ihil1x2ymadbbvivvwpo.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1700209529/hhrzavrp1wl7fzaxotum.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1700209529/wooa4hmbl34idpzcstqk.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1700050439/uys4tqrtyf0xyzp1sqtj.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1700050439/xjhqnqgal6lzdvpswqkl.webp"
+      ]
+    },
     {
       id: 78,
       name: "Nineth Space",
@@ -4184,6 +4364,66 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/4729c39d564dcc051ee814df7d6b1caa3ce7f00d.webp",
         "https://img.cofynd.com/images/latest_images_2024/9a0ffbe0e47f28424631d419311cb42dfa034282.webp",
         "https://img.cofynd.com/images/latest_images_2024/37cce464e853f25508220caf7efa07baa6313e0d.webp"
+      ]
+    },
+    {
+      id: 114,
+      name: "SUITS CAFE",
+      badge: null,
+      rating: null,
+      area: "Ashok Nagar",
+      location: "Ashok Nagar, Jaipur",
+      price: "₹5,200",
+      period: "/ Month",
+      priceFormatted: "₹5,200 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1615789699/fi4yn7osmf6vistjwrr5.webp",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1615789175/jry71nxyq8z4cyagfxsu.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1615789175/wqvq1zbkczqz1p07wqzi.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1615789206/aixm3vakceb9p6jt5e04.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1615789207/favpqyaklufferjttxlc.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1615789206/tuyobx8o228bflspb0cz.jpg"
+      ]
+    },
+    {
+      id: 117,
+      name: "PhoebusIn",
+      badge: null,
+      rating: null,
+      area: "Ashok Nagar",
+      location: "Ashok Nagar, Jaipur",
+      price: "₹7,700",
+      period: "/ Month",
+      priceFormatted: "₹7,700 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1582104233/auuhnkwsxaibhjqs5jkw.webp",
+        "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1582104233/auuhnkwsxaibhjqs5jkw.webp",
+        "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1582104233/aybpmefrm2fjanzvfo2o.webp",
+        "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1582104234/hy7qw1axely6tznavsqa.webp",
+        "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1582104233/wye6gpumsgqilzemjzpp.webp",
+        "https://qdesq.imagekit.io/img/tr:n-detail_image/image/upload/v1585998881/x6uii7qp0ybkz587xipv.png"
+      ]
+    },
+    {
+      id: 162,
+      name: "Workinova Coworking Space",
+      badge: null,
+      rating: null,
+      area: "Ashok Nagar",
+      location: "Ashok Nagar, Jaipur",
+      price: "₹4,500",
+      period: "/ Month",
+      priceFormatted: "₹4,500 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://ik.imagekit.io/qdesq/qdesq/abe56f9b8f6b4a871206c92c196267f0_cyqMM-sOI.jpg",
+        "https://ik.imagekit.io/qdesq/qdesq/3163ec88ff5aaa595f918a95bc2fa22c_2a7scWtE8.jpg",
+        "https://ik.imagekit.io/qdesq/qdesq/c9fd3e9742ac06df7c80d29bbc4d90f2_kQYqHskZH.jpg",
+        "https://ik.imagekit.io/qdesq/qdesq/46590ba6eb3626ecbbe405e7b57a4a93_zkxyqpAZUd.png",
+        "https://ik.imagekit.io/qdesq/qdesq/1a57cef814d626f0d465b196694d9ac3_ps1K0ONR-f.jpg",
+        "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/11137153f76445e96f54ddd76cd9e169_wmLV-ct47.webp"
       ]
     },
     {
@@ -4222,6 +4462,26 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/3b1e6127a9e8c61b6cab122d9616cadc55768f80.webp",
         "https://img.cofynd.com/images/latest_images_2024/d1235bd9f38af01950e59e16b75895f5586f00a3.webp",
         "https://img.cofynd.com/images/latest_images_2024/22047c6a03d633b3510f11f46e2345f15c1a3c9c.webp"
+      ]
+    },
+    {
+      id: 110,
+      name: "Creating Lines",
+      badge: null,
+      rating: null,
+      area: "Sodala",
+      location: "Sodala, Jaipur",
+      price: "₹5,000",
+      period: "/ Month",
+      priceFormatted: "₹5,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://ik.imagekit.io/qdesq/qdesq/7c3cb9d40c904338b4f943852bb2d697_e1bZd-d5W.JPG",
+        "https://ik.imagekit.io/qdesq/qdesq/5367f26663ab22206312a9a4e9a4af2a_CFABtkDu7.JPG",
+        "https://ik.imagekit.io/qdesq/qdesq/fffd2d45c5a5683143b8cc4526780fea_i7Fc_LrGJ.JPG",
+        "https://ik.imagekit.io/qdesq/qdesq/d3a8a783188727eb2ac5cbc437c72cc7_s28pYwlT-.JPG",
+        "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/f09d77654db6ab022a28d8997f0baaf2_w3kq1kupt.jpeg",
+        "https://ik.imagekit.io/qdesq/qdesq/9ac3c5e067a3118100e3f8a538c92dfa_OkRdrfy1-.JPG"
       ]
     },
     {
@@ -4322,6 +4582,26 @@ export const areaExtraOfficeCards = {
       ]
     },
     {
+      id: 133,
+      name: "Codeskk",
+      badge: null,
+      rating: null,
+      area: "Nirman Nagar",
+      location: "Nirman Nagar, Jaipur",
+      price: "₹3,999",
+      period: "/ Month",
+      priceFormatted: "₹3,999 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1663130916/uaruebkczujfayoxj36c.jpg",
+        "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1665071397/drbeeoyxazdu34v1zckc.jpg",
+        "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1665071397/g86xqsxgycfpxackwblh.jpg",
+        "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1665071397/mu02frkpdiacm9xezfmc.jpg",
+        "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1665071397/i57skabdeipxcw6zmzvk.jpg",
+        "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1663130916/uaruebkczujfayoxj36c.jpg"
+      ]
+    },
+    {
       id: 5,
       name: "RAW Coworking and Office Space",
       badge: null,
@@ -4358,161 +4638,6 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/8015449306673337d80dc89d701b002a193ee5e3.jpg",
         "https://img.cofynd.com/images/original/7542771cfde0aad67efdba3e0de283ab38a95522.jpg",
         "https://img.cofynd.com/images/original/e080d0edf62012a355a4eaca42cf395d50f21a54.jpg"
-      ]
-    },
-    {
-      id: 9,
-      name: "Office Culture",
-      badge: null,
-      rating: null,
-      area: "Mansarovar",
-      location: "Mansarovar, Jaipur",
-      price: "₹999",
-      period: "/ Month",
-      priceFormatted: "₹999 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/latest_images_2024/0082b071be1d0a19e938761d45f659279f32ec7e.webp",
-        "https://img.cofynd.com/images/latest_images_2024/9ba4a53f2964c5caa5a85efbee0b6cc2c889981a.webp",
-        "https://img.cofynd.com/images/latest_images_2024/6476363183d45b5abe21241eb06c667ee5e0c237.webp",
-        "https://img.cofynd.com/images/latest_images_2024/4679d3e310a594503f3eca586ae6f485688f03e2.webp",
-        "https://img.cofynd.com/images/latest_images_2024/d12b09a9cfb44893c3092ee5b278007ffcf4e134.webp",
-        "https://img.cofynd.com/images/latest_images_2024/a6ed3e4871f6ed4863bf29095bd12892f5999b4e.webp"
-      ]
-    },
-    {
-      id: 23,
-      name: "Hey Writers Coworking",
-      badge: null,
-      rating: null,
-      area: "Mansarovar",
-      location: "Mansarovar, Jaipur",
-      price: "₹4,500",
-      period: "/ Month",
-      priceFormatted: "₹4,500 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/original/4602f869a4735ae1e3db3031fa845e4ce88e2a08.jpg",
-        "https://img.cofynd.com/images/original/a8fd863c0a18fb9795201d7368b779752c19bb50.jpg",
-        "https://img.cofynd.com/images/original/c10cb525b186a2a8496721ad6055ee86a86c8b59.jpg",
-        "https://img.cofynd.com/images/original/c9fde751f05596768648ed98327c208b7dd67334.jpg"
-      ]
-    },
-    {
-      id: 33,
-      name: "PhoebusIn",
-      badge: null,
-      rating: null,
-      area: "Mansarovar",
-      location: "Mansarovar, Jaipur",
-      price: "₹749",
-      period: "/ Month",
-      priceFormatted: "₹749 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/latest_images_2024/4b36dcacf3b85f5cbc9768ef9fa4a8d330a8b464.webp",
-        "https://img.cofynd.com/images/latest_images_2024/69dbe190603b37735d9b2302b6d8d0b1781c9a3c.webp",
-        "https://img.cofynd.com/images/latest_images_2024/c95e74622fb7964990e0265fcc08142d13f87d24.webp",
-        "https://img.cofynd.com/images/latest_images_2024/6fc1fae2d2bc524fe89cc8779eeaa8fd27d3b0e9.webp",
-        "https://img.cofynd.com/images/latest_images_2024/cc33a01ae5c5d53fab5cac37cfbdf8335d051e41.webp"
-      ]
-    },
-    {
-      id: 37,
-      name: "HackaHolic Co-Work",
-      badge: null,
-      rating: null,
-      area: "Mansarovar",
-      location: "Mansarovar, Jaipur",
-      price: "₹3,000",
-      period: "/ Month",
-      priceFormatted: "₹3,000 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/latest_images_2024/7f26034e0111385c483ac105d777d6dd5650a772.webp",
-        "https://img.cofynd.com/images/latest_images_2024/37c2da53f1c89d87d2ed2e8a69235e2f4ae21c54.webp",
-        "https://img.cofynd.com/images/latest_images_2024/936eff01c78ebce2444d2ee8c8182b9d01678457.webp",
-        "https://img.cofynd.com/images/latest_images_2024/0d6f41f5fa973ba49e5533ab8bd23a01d26867c7.webp",
-        "https://img.cofynd.com/images/latest_images_2024/9e61e7ee8b7456adcf88a2e4570eca1de279041e.webp",
-        "https://img.cofynd.com/images/latest_images_2024/ac8963897edecb98a18e432cbbb74a107c15be82.webp"
-      ]
-    },
-    {
-      id: 49,
-      name: "VPM Coworking",
-      badge: null,
-      rating: null,
-      area: "Mansarovar",
-      location: "Mansarovar, Jaipur",
-      price: "₹3,499",
-      period: "/ Month",
-      priceFormatted: "₹3,499 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/latest_images_2024/108eca8cfceae2e1c6dab4238b7bc4397c927909.webp",
-        "https://img.cofynd.com/images/latest_images_2024/7833ab4999f67165fe5a11326782c18aea7991ee.webp",
-        "https://img.cofynd.com/images/latest_images_2024/36c70ec2110413f2fc508353cf7a0a36d4c931fd.webp",
-        "https://img.cofynd.com/images/latest_images_2024/edb96130316f08f20e0098cba2f2dd2c44c29f49.webp",
-        "https://img.cofynd.com/images/latest_images_2024/09738711b9a6d26786e2b5c1de8218fe1c8e0335.webp",
-        "https://img.cofynd.com/images/latest_images_2024/1ffd5571bce6c780a97e72dcdc64f86ffc53a0c8.webp"
-      ]
-    },
-    {
-      id: 54,
-      name: "Mr Cowork",
-      badge: null,
-      rating: null,
-      area: "Mansarovar",
-      location: "Mansarovar, Jaipur",
-      price: "₹7,999",
-      period: "/ Month",
-      priceFormatted: "₹7,999 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/latest_images_2024/d83b1d99e7dad3f4651f1a6622f1b23177876543.webp",
-        "https://img.cofynd.com/images/latest_images_2024/f63a77a683e388d46a4cd4786defc4ebc724c05b.webp",
-        "https://img.cofynd.com/images/latest_images_2024/36c3f96036106b68fcdb70c91a15402f80dd8ca0.webp",
-        "https://img.cofynd.com/images/latest_images_2024/e03a9af9a3476b2161dea6b7ab8119920b2766cb.webp",
-        "https://img.cofynd.com/images/latest_images_2024/3ad1a18331638c35799cf46473a1303e3d0dc499.webp"
-      ]
-    },
-    {
-      id: 57,
-      name: "Creware Coworks",
-      badge: null,
-      rating: null,
-      area: "Mansarovar",
-      location: "Mansarovar, Jaipur",
-      price: "₹5,999",
-      period: "/ Month",
-      priceFormatted: "₹5,999 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/latest_images_2024/440afe5c9b54856f8fbf0379e053aa15d5a7e3a3.webp",
-        "https://img.cofynd.com/images/latest_images_2024/1a60a301ccaf94e6438eaef2f55088c33d40451a.webp",
-        "https://img.cofynd.com/images/latest_images_2024/e0faa11ab5ca7463499ebb47ebff0a82271f969d.webp",
-        "https://img.cofynd.com/images/latest_images_2024/d70d7f90bce5bf18d954016e03ddd119c8e01804.webp",
-        "https://img.cofynd.com/images/latest_images_2024/6751255715469685050e184e649bcfada8250efd.webp",
-        "https://img.cofynd.com/images/latest_images_2024/0931cd3d2b71b83b1d1dbfb677eced41b871ab89.webp"
-      ]
-    },
-    {
-      id: 60,
-      name: "Smartworks",
-      badge: null,
-      rating: null,
-      area: "Mansarovar",
-      location: "Mansarovar, Jaipur",
-      price: "₹9,000",
-      period: "/ Month",
-      priceFormatted: "₹9,000 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/latest_images_2024/566f261e9f7614da46bac676ae1f0a0abd943c2c.webp",
-        "https://img.cofynd.com/images/latest_images_2024/3b5c9238105caacf3de39e7159e9db93bd915e37.webp",
-        "https://img.cofynd.com/images/latest_images_2024/f3184742fdc8ed2829246c47917084fc2486728e.webp",
-        "https://img.cofynd.com/images/latest_images_2024/a99e39019982e36617024ecee405a890edd0839c.webp",
-        "https://img.cofynd.com/images/latest_images_2024/9ce0596b670ad505df162819eb782b5252b093bb.webp"
       ]
     }
   ]
