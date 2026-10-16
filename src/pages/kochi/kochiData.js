@@ -1,12 +1,6 @@
 // Data store for Kochi
 export const kochiAreas = [
-  "All",
-  "Kakkanad",
-  "MG Road",
-  "Kaloor",
-  "Edappally",
-  "Panampilly Nagar",
-  "Infopark"
+  
 ];
 
 export const kochiSpaces = [
