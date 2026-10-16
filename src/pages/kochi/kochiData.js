@@ -12,6 +12,7 @@ export const kochiNeighborhoods = [
   "Panampilly Nagar",
   "Infopark",
   "Palarivattom",
+  "Kalamassery",
   "Ernakulam",
   "Marine Drive",
   "Padamughal",
@@ -260,8 +261,8 @@ export const moreKochiOfficeCards = [
     name: "Kssia Technocity",
     badge: null,
     rating: null,
-    area: "Kalama Ery",
-    location: "Kalama Ery, Kochi",
+    area: "Kalamassery",
+    location: "Kalamassery, Kochi",
     price: "₹5,000",
     period: "/ Month",
     priceFormatted: "₹5,000 / Month",
@@ -418,8 +419,8 @@ export const finalKochiOfficeCards = [
     name: "Arya Bhangy",
     badge: null,
     rating: null,
-    area: "Kalama Ery",
-    location: "Kalama Ery, Kochi",
+    area: "Kalamassery",
+    location: "Kalamassery, Kochi",
     price: "₹999",
     period: "/ Month",
     priceFormatted: "₹999 / Month",
@@ -579,8 +580,8 @@ export const featuredKochiOfficeCards = [
     name: "Monlash Business Centre",
     badge: null,
     rating: null,
-    area: "Kalama Ery",
-    location: "Kalama Ery, Kochi",
+    area: "Kalamassery",
+    location: "Kalamassery, Kochi",
     price: "₹5,500",
     period: "/ Month",
     priceFormatted: "₹5,500 / Month",
@@ -808,7 +809,10 @@ export const pageTwoKochiOfficeCards = [
       "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1576216649/rljzsbgil80e7vikfu88.webp",
       "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1576216688/meeyvh2exficzgxv3cju.webp"
     ]
-  },
+  }
+];
+
+export const pageTwoMoreKochiOfficeCards = [
   {
     id: 39,
     name: "L.R. Towers",
@@ -826,10 +830,7 @@ export const pageTwoKochiOfficeCards = [
       "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1645777062/ozdinagp4qkqhx6mh7ce.jpg",
       "https://qdesq.imagekit.io/tr:h-181,w-325/image/upload/v1645777062/obqbl22rpajcfhop0w77.jpg"
     ]
-  }
-];
-
-export const pageTwoMoreKochiOfficeCards = [
+  },
   {
     id: 40,
     name: "Spaze One",
@@ -852,26 +853,6 @@ export const pageTwoMoreKochiOfficeCards = [
   },
   {
     id: 41,
-    name: "SpaceLance",
-    badge: null,
-    rating: null,
-    area: "Nedumba Ery",
-    location: "Nedumba Ery, Kochi",
-    price: "₹5,000",
-    period: "/ Month",
-    priceFormatted: "₹5,000 / Month",
-    ctaText: "Get Quote",
-    images: [
-      "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1608791650/pomlnj8nght0rrjzbjos.jpg",
-      "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1608791649/nmxk5e8vsgs5xm9p1scx.jpg",
-      "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1608791650/rkrcdmvgznhspfcnhnjp.jpg",
-      "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1608791650/pomlnj8nght0rrjzbjos.jpg",
-      "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1608791649/sgajv1mnscb3jlbibg0z.jpg",
-      "https://qdesq.imagekit.io/tr:h-181,w-325/image/upload/v1608791649/nmxk5e8vsgs5xm9p1scx.jpg"
-    ]
-  },
-  {
-    id: 42,
     name: "Mikro Grafeio",
     badge: null,
     rating: null,
@@ -891,7 +872,7 @@ export const pageTwoMoreKochiOfficeCards = [
     ]
   },
   {
-    id: 43,
+    id: 42,
     name: "BuzzWorks",
     badge: null,
     rating: null,
@@ -911,7 +892,7 @@ export const pageTwoMoreKochiOfficeCards = [
     ]
   },
   {
-    id: 44,
+    id: 43,
     name: "Center A",
     badge: null,
     rating: null,
@@ -930,7 +911,7 @@ export const pageTwoMoreKochiOfficeCards = [
     ]
   },
   {
-    id: 45,
+    id: 44,
     name: "Workshaala",
     badge: null,
     rating: null,
@@ -948,9 +929,12 @@ export const pageTwoMoreKochiOfficeCards = [
       "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1666851865/hpsd4ujkzl0vokmnugjn.webp",
       "https://qdesq.imagekit.io/tr:h-181,w-325/image/upload/v1666784138/dgxp9zsufiujz7pctqjw.webp"
     ]
-  },
+  }
+];
+
+export const pageTwoFinalKochiOfficeCards = [
   {
-    id: 46,
+    id: 45,
     name: "Collective Coworks",
     badge: null,
     rating: null,
@@ -968,12 +952,9 @@ export const pageTwoMoreKochiOfficeCards = [
       "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1678689127/ta4zzxgzov5qeg05clpw.webp",
       "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1678689152/cgdqpuqmculkduqyllyl.webp"
     ]
-  }
-];
-
-export const pageTwoFinalKochiOfficeCards = [
+  },
   {
-    id: 47,
+    id: 46,
     name: "Workiplex",
     badge: null,
     rating: null,
@@ -993,7 +974,7 @@ export const pageTwoFinalKochiOfficeCards = [
     ]
   },
   {
-    id: 48,
+    id: 47,
     name: "Spaze One",
     badge: null,
     rating: null,
@@ -1013,7 +994,7 @@ export const pageTwoFinalKochiOfficeCards = [
     ]
   },
   {
-    id: 49,
+    id: 48,
     name: "Spaze One",
     badge: null,
     rating: null,
@@ -1033,12 +1014,12 @@ export const pageTwoFinalKochiOfficeCards = [
     ]
   },
   {
-    id: 50,
+    id: 49,
     name: "Jigsaw Co-Working Space",
     badge: null,
     rating: null,
-    area: "Kpcc Junction",
-    location: "Kpcc Junction, Kochi",
+    area: "KPCC Junction",
+    location: "KPCC Junction, Kochi",
     price: "₹5,500",
     period: "/ Month",
     priceFormatted: "₹5,500 / Month",
@@ -1053,7 +1034,7 @@ export const pageTwoFinalKochiOfficeCards = [
     ]
   },
   {
-    id: 51,
+    id: 50,
     name: "Blogtec Co Working Space Kochi",
     badge: null,
     rating: null,
@@ -1071,9 +1052,12 @@ export const pageTwoFinalKochiOfficeCards = [
       "https://ik.imagekit.io/qdesq/qdesq/881177c0b6728b2e1fe76db25b260ff0_FRol2uSdx4.JPG",
       "https://ik.imagekit.io/qdesq/qdesq/tr:h-181,w-325/68e417ed07d3e8bc532d340aa9e8c8bb_jQIVJhY0sb.JPG"
     ]
-  },
+  }
+];
+
+export const pageTwoFeaturedKochiOfficeCards = [
   {
-    id: 52,
+    id: 51,
     name: "Spaze One",
     badge: null,
     rating: null,
@@ -1093,7 +1077,7 @@ export const pageTwoFinalKochiOfficeCards = [
     ]
   },
   {
-    id: 53,
+    id: 52,
     name: "KUBZ",
     badge: null,
     rating: null,
@@ -1111,12 +1095,9 @@ export const pageTwoFinalKochiOfficeCards = [
       "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/40b06a8df731b3e6c7fbd2f890b6133f_HKHX--F0O3.JPG",
       "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/eae5b34df4e4760bf5da4e0c66cb2d80_V2qFipQKMH.JPG"
     ]
-  }
-];
-
-export const pageTwoFeaturedKochiOfficeCards = [
+  },
   {
-    id: 54,
+    id: 53,
     name: "Beyond Co-working",
     badge: null,
     rating: null,
@@ -1136,7 +1117,7 @@ export const pageTwoFeaturedKochiOfficeCards = [
     ]
   },
   {
-    id: 55,
+    id: 54,
     name: "Dotspace",
     badge: null,
     rating: null,
@@ -1156,12 +1137,12 @@ export const pageTwoFeaturedKochiOfficeCards = [
     ]
   },
   {
-    id: 56,
+    id: 55,
     name: "Dotspace",
     badge: null,
     rating: null,
-    area: "Kv Nagar",
-    location: "Kv Nagar, Kochi",
+    area: "KV Nagar",
+    location: "KV Nagar, Kochi",
     price: "₹5,000",
     period: "/ Month",
     priceFormatted: "₹5,000 / Month",
@@ -1176,7 +1157,7 @@ export const pageTwoFeaturedKochiOfficeCards = [
     ]
   },
   {
-    id: 57,
+    id: 56,
     name: "Wbb office",
     badge: null,
     rating: null,
@@ -1216,6 +1197,7 @@ export const areaExtraOfficeCards = {
   "Panampilly Nagar": [],
   "Infopark": [],
   "Palarivattom": [],
+  "Kalamassery": [],
   "Ernakulam": [],
   "Marine Drive": [],
   "Padamughal": [],
@@ -1468,6 +1450,13 @@ export const topKochiCoworkingLocations = [
     name: "Palarivattom",
     title: "Coworking Space in Palarivattom",
     image: "https://img.cofynd.com/images/latest_images_2024/12f5af69433be99f1af308b082205adb372d33b9.webp",
+    ctaText: "Explore Spaces"
+  },
+  {
+    id: "loc-kalamassery",
+    name: "Kalamassery",
+    title: "Coworking Space in Kalamassery",
+    image: "https://img.cofynd.com/images/original/4a5c91c5dcbcad48b349d7db05afe5a4fddc4411.jpg",
     ctaText: "Explore Spaces"
   },
   {
