@@ -35,8 +35,10 @@ export const dehliNeighborhoods = [
 // Alias of the list above, kept so other files can import either spelling of the name.
 export const delhiNeighborhoods = dehliNeighborhoods;
 
+// ============================================================================
 // Page 1 cards - top grid (right under the area filter buttons).
 // Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const dehliOfficeCards = [
   // 1. Innov8 Connaught Place - Connaught Place
   {
@@ -202,8 +204,10 @@ export const dehliOfficeCards = [
 // Alias of the list above, kept so other files can import either spelling of the name.
 export const delhiOfficeCards = dehliOfficeCards;
 
+// ============================================================================
 // Page 1 cards - second grid ("Additional coworking spaces", below the top grid).
 // Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const moreDehliOfficeCards = [
   // 1. Spring House SHDL001 Janakpuri - Janakpuri
   {
@@ -376,8 +380,10 @@ export const perfectWorkspaceBanner = {
   "bgImage": "https://img.cofynd.com/images/latest_images_2024/28f41de2ee6c67528d528dc3b55fc7ad2801dcbc.webp"
 };
 
+// ============================================================================
 // Page 1 cards - third grid ("Spotlight coworking spaces", below the "Discover your perfect workspace" banner).
 // Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const finalDehliOfficeCards = [
   // 1. DesqWorx Green Park - Green Park
   {
@@ -543,8 +549,10 @@ export const finalDehliOfficeCards = [
 // Alias of the list above, kept so other files can import either spelling of the name.
 export const finalDelhiOfficeCards = finalDehliOfficeCards;
 
+// ============================================================================
 // Page 1 cards - fourth grid ("Featured coworking spaces", below the "Customized office solutions" banner).
 // Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const featuredDehliOfficeCards = [
   // 1. Nukleus R Connaught Place - Connaught Place
   {
@@ -749,8 +757,10 @@ export const paginationData = {
   "initialPage": 1
 };
 
+// ============================================================================
 // Page 2 cards - top grid (right under the area filter buttons).
 // Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageTwoDehliOfficeCards = [
   // 1. Co-Offiz Janakpuri - Janakpuri
   {
@@ -916,8 +926,10 @@ export const pageTwoDehliOfficeCards = [
 // Alias of the list above, kept so other files can import either spelling of the name.
 export const pageTwoDelhiOfficeCards = pageTwoDehliOfficeCards;
 
+// ============================================================================
 // Page 2 cards - second grid ("Additional coworking spaces", below the top grid).
 // Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageTwoMoreDehliOfficeCards = [
   // 1. Flexihub space Jasola - Jasola
   {
@@ -1083,8 +1095,10 @@ export const pageTwoMoreDehliOfficeCards = [
 // Alias of the list above, kept so other files can import either spelling of the name.
 export const pageTwoMoreDelhiOfficeCards = pageTwoMoreDehliOfficeCards;
 
+// ============================================================================
 // Page 2 cards - third grid ("Spotlight coworking spaces", below the "Discover your perfect workspace" banner).
 // Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageTwoFinalDehliOfficeCards = [
   // 1. Work Exchange Netaji Subhash Place - Netaji Subhash Place
   {
@@ -1249,8 +1263,10 @@ export const pageTwoFinalDehliOfficeCards = [
 // Alias of the list above, kept so other files can import either spelling of the name.
 export const pageTwoFinalDelhiOfficeCards = pageTwoFinalDehliOfficeCards;
 
+// ============================================================================
 // Page 2 cards - fourth grid ("Featured coworking spaces", below the "Customized office solutions" banner).
 // Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageTwoFeaturedDehliOfficeCards = [
   // 1. Solace Karol Bagh - Karol Bagh
   {
@@ -1416,8 +1432,10 @@ export const pageTwoFeaturedDehliOfficeCards = [
 // Alias of the list above, kept so other files can import either spelling of the name.
 export const pageTwoFeaturedDelhiOfficeCards = pageTwoFeaturedDehliOfficeCards;
 
+// ============================================================================
 // Page 3 cards - top grid (right under the area filter buttons).
 // Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageThreeDehliOfficeCards = [
   // 1. The Club Co Janakpuri - Janakpuri
   {
@@ -1583,8 +1601,10 @@ export const pageThreeDehliOfficeCards = [
 // Alias of the list above, kept so other files can import either spelling of the name.
 export const pageThreeDelhiOfficeCards = pageThreeDehliOfficeCards;
 
+// ============================================================================
 // Page 3 cards - second grid ("Additional coworking spaces", below the top grid).
 // Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageThreeMoreDehliOfficeCards = [
   // 1. Supreme Cowork Netaji Subhash Place - Netaji Subhash Place
   {
@@ -1749,8 +1769,10 @@ export const pageThreeMoreDehliOfficeCards = [
 // Alias of the list above, kept so other files can import either spelling of the name.
 export const pageThreeMoreDelhiOfficeCards = pageThreeMoreDehliOfficeCards;
 
+// ============================================================================
 // Page 3 cards - third grid ("Spotlight coworking spaces", below the "Discover your perfect workspace" banner).
 // Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageThreeFinalDehliOfficeCards = [
   // 1. Buzz by Spacetime Saket - Saket
   {
@@ -1916,8 +1938,10 @@ export const pageThreeFinalDehliOfficeCards = [
 // Alias of the list above, kept so other files can import either spelling of the name.
 export const pageThreeFinalDelhiOfficeCards = pageThreeFinalDehliOfficeCards;
 
+// ============================================================================
 // Page 3 cards - fourth grid ("Featured coworking spaces", below the "Customized office solutions" banner).
 // Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageThreeFeaturedDehliOfficeCards = [
   // 1. Spacetime Mohan Cooperative - Mohan Cooperative
   {
@@ -2083,8 +2107,10 @@ export const pageThreeFeaturedDehliOfficeCards = [
 // Alias of the list above, kept so other files can import either spelling of the name.
 export const pageThreeFeaturedDelhiOfficeCards = pageThreeFeaturedDehliOfficeCards;
 
+// ============================================================================
 // Page 4 cards - top grid (right under the area filter buttons).
 // Shown when pagination button 4 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageFourDehliOfficeCards = [
   // 1. Hub Hive 11 Mohan Cooperative - Mohan Cooperative
   {
@@ -2249,8 +2275,10 @@ export const pageFourDehliOfficeCards = [
 // Alias of the list above, kept so other files can import either spelling of the name.
 export const pageFourDelhiOfficeCards = pageFourDehliOfficeCards;
 
+// ============================================================================
 // Page 5 cards - top grid (right under the area filter buttons).
 // Shown when pagination button 5 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageFiveDehliOfficeCards = [
   // 1. The Executive Centre Saket - Saket
   {
@@ -2416,8 +2444,10 @@ export const pageFiveDehliOfficeCards = [
 // Alias of the list above, kept so other files can import either spelling of the name.
 export const pageFiveDelhiOfficeCards = pageFiveDehliOfficeCards;
 
+// ============================================================================
 // Page 6 cards - top grid (right under the area filter buttons).
 // Shown when pagination button 6 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageSixDehliOfficeCards = [
   // 1. UrbanWrk Okhla - Okhla
   {
@@ -2583,8 +2613,10 @@ export const pageSixDehliOfficeCards = [
 // Alias of the list above, kept so other files can import either spelling of the name.
 export const pageSixDelhiOfficeCards = pageSixDehliOfficeCards;
 
+// ============================================================================
 // Page 7 cards - top grid (right under the area filter buttons).
 // Shown when pagination button 7 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageSevenDehliOfficeCards = [
   // 1. Zen business center Nehru Place - Nehru Place
   {
@@ -2750,8 +2782,10 @@ export const pageSevenDehliOfficeCards = [
 // Alias of the list above, kept so other files can import either spelling of the name.
 export const pageSevenDelhiOfficeCards = pageSevenDehliOfficeCards;
 
+// ============================================================================
 // Page 8 cards - top grid (right under the area filter buttons).
 // Shown when pagination button 8 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageEightDehliOfficeCards = [
   // 1. Workly B Nehru Place - Nehru Place
   {
@@ -2917,9 +2951,11 @@ export const pageEightDehliOfficeCards = [
 // Alias of the list above, kept so other files can import either spelling of the name.
 export const pageEightDelhiOfficeCards = pageEightDehliOfficeCards;
 
+// ============================================================================
 // Area-specific extra cards.
 // These are shown ONLY when an area filter is active, together with the existing cards of that area.
 // With no area selected ("All" view) they stay hidden.
+// ============================================================================
 export const areaExtraOfficeCards = {
   // Extra cards for the "Connaught Place" filter
   "Connaught Place": [
@@ -9275,8 +9311,10 @@ export const areaExtraOfficeCards = {
   ]
 };
 
+// ============================================================================
 // Page 1 cards - top grid (right under the area filter buttons).
 // Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const similarDehliOfficeCards = [
   // 1. Vision Cowork Saket - Saket
   {
@@ -9459,11 +9497,15 @@ export const similarDehliOfficeCards = [
     ]
   }
 ];
+// ============================================================================
 // Cards offered in the "Similar Coworking Spaces" slider on the office detail page.
+// ============================================================================
 export const similarDelhiOfficeCards = similarDehliOfficeCards;
 
+// ============================================================================
 // Page 1 cards - top grid (right under the area filter buttons).
 // Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const allDehliOfficeCards = [
   ...dehliOfficeCards,
   ...moreDehliOfficeCards,
@@ -9485,17 +9527,27 @@ export const allDehliOfficeCards = [
   ...similarDehliOfficeCards,
   ...Object.values(areaExtraOfficeCards).flat()
 ].filter((card, index, list) => list.findIndex((other) => other.id === card.id) === index);
+// ============================================================================
 // Every Delhi card in one list (all pages + extras). The detail page uses this list to find a card by its URL slug.
+// ============================================================================
 export const allDelhiOfficeCards = allDehliOfficeCards;
 
-// Find a Delhi card from its URL slug (or numeric id). Returns the card or null.
+/**
+ * Find a Delhi card from its URL slug (or numeric id). Returns the card or null.
+ */
 export const getDehliOfficeCardById = (id) => findOfficeBySlug(allDehliOfficeCards, id, "delhi");
-// Build the URL slug / path of a Delhi card (e.g. "/name-area-delhi").
+/**
+ * Build the URL slug / path of a Delhi card (e.g. "/name-area-delhi").
+ */
 export const getDehliOfficeSlug = (space) => officePath(allDehliOfficeCards, space, "delhi");
-// Find a Delhi card from its URL slug (or numeric id). Returns the card or null.
+/**
+ * Find a Delhi card from its URL slug (or numeric id). Returns the card or null.
+ */
 export const getDelhiOfficeCardById = getDehliOfficeCardById;
 
+// ============================================================================
 // "Explore Top Coworking Locations" tiles at the bottom of the page (area name, title, photo). Clicking a tile filters by that area.
+// ============================================================================
 export const topDehliCoworkingLocations = [
   // 1. Connaught Place
   {
@@ -9578,7 +9630,9 @@ export const topDehliCoworkingLocations = [
     "ctaText": "Explore Spaces"
   }
 ];
+// ============================================================================
 // "Explore Top Coworking Locations" tiles at the bottom of the page (area name, title, photo). Clicking a tile filters by that area.
+// ============================================================================
 export const topDelhiCoworkingLocations = topDehliCoworkingLocations;
 
 export const dehliAreas = dehliNeighborhoods;

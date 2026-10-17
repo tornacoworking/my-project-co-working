@@ -21,8 +21,10 @@ export const kochiNeighborhoods = [
   "Kadavanthara"
 ];
 
+// ============================================================================
 // Page 1 cards - top grid (right under the area filter buttons).
 // Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const kochiOfficeCards = [
   // 1. Dotspace - Edappally
   {
@@ -186,8 +188,10 @@ export const kochiOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 1 cards - second grid ("Additional coworking spaces", below the top grid).
 // Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const moreKochiOfficeCards = [
   // 1. Calm Workspaces - Palarivattom
   {
@@ -356,8 +360,10 @@ export const moreKochiOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 1 cards - third grid ("Spotlight coworking spaces", below the "Discover your perfect workspace" banner).
 // Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const finalKochiOfficeCards = [
   // 1. Anaarworx - Kakkanad
   {
@@ -525,8 +531,10 @@ export const finalKochiOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 1 cards - fourth grid ("Featured coworking spaces", below the "Customized office solutions" banner).
 // Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const featuredKochiOfficeCards = [
   // 1. Keys Select Hotel - Ernakulam
   {
@@ -733,8 +741,10 @@ export const paginationData = {
   initialPage: 1
 };
 
+// ============================================================================
 // Page 2 cards - top grid (right under the area filter buttons).
 // Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageTwoKochiOfficeCards = [
   // 1. Mikro Grafeio Services Private Limited - Vallathol Padi
   {
@@ -864,8 +874,10 @@ export const pageTwoKochiOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 2 cards - second grid ("Additional coworking spaces", below the top grid).
 // Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageTwoMoreKochiOfficeCards = [
   // 1. L.R. Towers - Palarivattom
   {
@@ -992,8 +1004,10 @@ export const pageTwoMoreKochiOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 2 cards - third grid ("Spotlight coworking spaces", below the "Discover your perfect workspace" banner).
 // Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageTwoFinalKochiOfficeCards = [
   // 1. Collective Coworks - Kakkanad
   {
@@ -1123,8 +1137,10 @@ export const pageTwoFinalKochiOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 2 cards - fourth grid ("Featured coworking spaces", below the "Customized office solutions" banner).
 // Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageTwoFeaturedKochiOfficeCards = [
   // 1. Spaze One - Ernakulam
   {
@@ -1254,24 +1270,34 @@ export const pageTwoFeaturedKochiOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 3 cards - top grid (right under the area filter buttons).
 // Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageThreeKochiOfficeCards = [];
 
+// ============================================================================
 // Page 3 cards - second grid ("Additional coworking spaces", below the top grid).
 // Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageThreeMoreKochiOfficeCards = [];
 
+// ============================================================================
 // Page 3 cards - third grid ("Spotlight coworking spaces", below the "Discover your perfect workspace" banner).
 // Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageThreeFinalKochiOfficeCards = [];
 
+// ============================================================================
 // Page 3 cards - fourth grid ("Featured coworking spaces", below the "Customized office solutions" banner).
 // Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageThreeFeaturedKochiOfficeCards = [];
 
+// ============================================================================
 // Page 4 cards - top grid (right under the area filter buttons).
 // Shown when pagination button 4 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageFourKochiOfficeCards = [];
 
 // Area-specific extra cards (only real same-area listings; shown only when that area filter is active).
@@ -1306,8 +1332,10 @@ export const areaExtraOfficeCards = {
   "Kadavanthara": []
 };
 
+// ============================================================================
 // Page 1 cards - top grid (right under the area filter buttons).
 // Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const similarKochiOfficeCards = [
   // 1. Dotspace - Edappally
   {
@@ -1492,8 +1520,10 @@ export const similarKochiOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 1 cards - top grid (right under the area filter buttons).
 // Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const allKochiOfficeCards = [
   ...kochiOfficeCards,
   ...moreKochiOfficeCards,
@@ -1512,12 +1542,18 @@ export const allKochiOfficeCards = [
   ...Object.values(areaExtraOfficeCards).flat()
 ];
 
-// Find a Kochi card from its URL slug (or numeric id). Returns the card or null.
+/**
+ * Find a Kochi card from its URL slug (or numeric id). Returns the card or null.
+ */
 export const getKochiOfficeCardById = (id) => findOfficeBySlug(allKochiOfficeCards, id, "kochi");
-// Build the URL slug / path of a Kochi card (e.g. "/name-area-kochi").
+/**
+ * Build the URL slug / path of a Kochi card (e.g. "/name-area-kochi").
+ */
 export const getKochiOfficeSlug = (space) => officePath(allKochiOfficeCards, space, "kochi");
 
+// ============================================================================
 // "Explore Top Coworking Locations" tiles at the bottom of the page (area name, title, photo). Clicking a tile filters by that area.
+// ============================================================================
 export const topKochiCoworkingLocations = [
   // 1. Kakkanad
   {

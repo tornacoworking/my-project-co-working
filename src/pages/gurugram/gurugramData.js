@@ -20,7 +20,9 @@ export const gurugramAreas = [
   "Sector 32"
 ];
 
+// ============================================================================
 // All Gurugram coworking cards of this city (name, badge, rating, area, location, price, period, images).
+// ============================================================================
 export const gurugramSpaces = [
   // 1. 91springboard Augusta Point - Golf Course Road
   {
@@ -2800,12 +2802,18 @@ export const paginationData = {
 // Area filter names derived from the area list (the "All" entry removed, because the page has its own All button).
 export const gurugramNeighborhoods = gurugramAreas.filter((area) => area !== 'All');
 
+// ============================================================================
 // Every Gurugram card in one list (all pages + extras). The detail page uses this list to find a card by its URL slug.
+// ============================================================================
 export const allGurugramOfficeCards = gurugramSpaces;
 
-// Find a Gurugram card from its URL slug (or numeric id). Returns the card or null.
+/**
+ * Find a Gurugram card from its URL slug (or numeric id). Returns the card or null.
+ */
 export const getGurugramOfficeCardById = (id) => findOfficeBySlug(allGurugramOfficeCards, id, 'gurugram');
-// Build the URL slug / path of a Gurugram card (e.g. "/name-area-gurugram").
+/**
+ * Build the URL slug / path of a Gurugram card (e.g. "/name-area-gurugram").
+ */
 export const getGurugramOfficeSlug = (space) => officePath(allGurugramOfficeCards, space, 'gurugram');
 
 // Top locations: first few areas, each using the first available photo from a space in that area

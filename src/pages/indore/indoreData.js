@@ -20,8 +20,10 @@ export const indoreNeighborhoods = [
   "Pipliyahana"
 ];
 
+// ============================================================================
 // Page 1 cards - top grid (right under the area filter buttons).
 // Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const indoreOfficeCards = [
   // 1. Nextcoworks - Vijay Nagar
   {
@@ -179,8 +181,10 @@ export const indoreOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 1 cards - second grid ("Additional coworking spaces", below the top grid).
 // Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const moreIndoreOfficeCards = [
   // 1. YBox.Work - Vijay Nagar
   {
@@ -335,8 +339,10 @@ export const moreIndoreOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 1 cards - third grid ("Spotlight coworking spaces", below the "Discover your perfect workspace" banner).
 // Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const finalIndoreOfficeCards = [
   // 1. Nexus Spaces AB Road - AB Road
   {
@@ -492,8 +498,10 @@ export const finalIndoreOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 1 cards - fourth grid ("Featured coworking spaces", below the "Customized office solutions" banner).
 // Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const featuredIndoreOfficeCards = [
   // 1. Stark Spaces - AB Road
   {
@@ -650,8 +658,10 @@ export const featuredIndoreOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 2 cards - top grid (right under the area filter buttons).
 // Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageTwoIndoreOfficeCards = [
   // 1. Workdesq Coworking - Mahalaxmi Nagar
   {
@@ -807,8 +817,10 @@ export const pageTwoIndoreOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 2 cards - second grid ("Additional coworking spaces", below the top grid).
 // Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageTwoMoreIndoreOfficeCards = [
   // 1. Adited House - Ravindra Nagar
   {
@@ -973,8 +985,10 @@ export const pageTwoMoreIndoreOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 2 cards - third grid ("Spotlight coworking spaces", below the "Discover your perfect workspace" banner).
 // Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageTwoFinalIndoreOfficeCards = [
   // 1. Antares Princes Business Skypark - Scheme 54
   {
@@ -1131,8 +1145,10 @@ export const pageTwoFinalIndoreOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 2 cards - fourth grid ("Featured coworking spaces", below the "Customized office solutions" banner).
 // Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageTwoFeaturedIndoreOfficeCards = [
   // 1. ThinkNTap Shekhar Central - Manorama Ganj
   {
@@ -1288,8 +1304,10 @@ export const pageTwoFeaturedIndoreOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 3 cards - top grid (right under the area filter buttons).
 // Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageThreeIndoreOfficeCards = [
   // 1. The Dice Apollo premier - Vijay Nagar
   {
@@ -1450,8 +1468,10 @@ export const pageThreeIndoreOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 3 cards - second grid ("Additional coworking spaces", below the top grid).
 // Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageThreeMoreIndoreOfficeCards = [
   // 1. Regus Unity One - Sarvanad Nagar
   {
@@ -1614,28 +1634,40 @@ export const pageThreeMoreIndoreOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 3 cards - third grid ("Spotlight coworking spaces", below the "Discover your perfect workspace" banner).
 // Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageThreeFinalIndoreOfficeCards = [];
 
+// ============================================================================
 // Page 3 cards - fourth grid ("Featured coworking spaces", below the "Customized office solutions" banner).
 // Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageThreeFeaturedIndoreOfficeCards = [];
 
+// ============================================================================
 // Page 4 cards - top grid (right under the area filter buttons).
 // Shown when pagination button 4 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageFourIndoreOfficeCards = [];
 
+// ============================================================================
 // Page 4 cards - second grid ("Additional coworking spaces", below the top grid).
 // Shown when pagination button 4 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageFourMoreIndoreOfficeCards = [];
 
+// ============================================================================
 // Page 4 cards - third grid ("Spotlight coworking spaces", below the "Discover your perfect workspace" banner).
 // Shown when pagination button 4 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageFourFinalIndoreOfficeCards = [];
 
+// ============================================================================
 // Page 4 cards - fourth grid ("Featured coworking spaces", below the "Customized office solutions" banner).
 // Shown when pagination button 4 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageFourFeaturedIndoreOfficeCards = [];
 
 // Content of the "Discover your perfect workspace" banner (title, subtitle, button text, background photo).
@@ -5402,8 +5434,10 @@ export const similarIndoreOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 1 cards - top grid (right under the area filter buttons).
 // Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const allIndoreOfficeCards = [
   ...indoreOfficeCards,
   ...moreIndoreOfficeCards,
@@ -5425,12 +5459,18 @@ export const allIndoreOfficeCards = [
   ...Object.values(areaExtraOfficeCards).flat()
 ].filter((card, index, list) => list.findIndex((other) => other.id === card.id) === index);
 
-// Find a Indore card from its URL slug (or numeric id). Returns the card or null.
+/**
+ * Find a Indore card from its URL slug (or numeric id). Returns the card or null.
+ */
 export const getIndoreOfficeCardById = (id) => findOfficeBySlug(allIndoreOfficeCards, id, "indore");
-// Build the URL slug / path of a Indore card (e.g. "/name-area-indore").
+/**
+ * Build the URL slug / path of a Indore card (e.g. "/name-area-indore").
+ */
 export const getIndoreOfficeSlug = (space) => officePath(allIndoreOfficeCards, space, "indore");
 
+// ============================================================================
 // "Explore Top Coworking Locations" tiles at the bottom of the page (area name, title, photo). Clicking a tile filters by that area.
+// ============================================================================
 export const topIndoreCoworkingLocations = [
   // 1. AB Road
   {

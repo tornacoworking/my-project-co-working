@@ -12,8 +12,10 @@ export const bhubaneshwarNeighborhoods = [
   'Nayapalli'
 ];
 
+// ============================================================================
 // Page 1 cards - top grid (right under the area filter buttons).
 // Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const bhubaneshwarOfficeCards = [
   // 1. Fun@Work, Infocity - Patia
   {
@@ -188,8 +190,10 @@ export const bhubaneshwarOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 1 cards - second grid ("Additional coworking spaces", below the top grid).
 // Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const moreBhubaneshwarOfficeCards = [
   // 1. Smartbizz - Nayapalli
   {
@@ -1432,10 +1436,14 @@ export const allBhubaneshwarOfficeCards = [
  * @returns {object|null}
  */
 export const getBhubaneshwarOfficeCardById = (id) => findOfficeBySlug(allBhubaneshwarOfficeCards, id, "bhubaneswar");
-// Build the URL slug / path of a Bhubaneswar card (e.g. "/name-area-bhubaneswar").
+/**
+ * Build the URL slug / path of a Bhubaneswar card (e.g. "/name-area-bhubaneswar").
+ */
 export const getBhubaneshwarOfficeSlug = (space) => officePath(allBhubaneshwarOfficeCards, space, "bhubaneswar");
 
+// ============================================================================
 // Cards offered in the "Similar Coworking Spaces" slider on the office detail page.
+// ============================================================================
 export const similarBhubaneshwarOfficeCards = bhubaneshwarOfficeCards.slice(0, 4);
 
 // ============================================================================

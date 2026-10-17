@@ -19,8 +19,10 @@ export const chandigarhNeighborhoods = [
   "Sector 7"
 ];
 
+// ============================================================================
 // Page 1 cards - top grid (right under the area filter buttons).
 // Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const chandigarhOfficeCards = [
   // 1. Spacejam Coworking Chandigarh - Industrial Area Phase 1
   {
@@ -188,8 +190,10 @@ export const chandigarhOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 1 cards - second grid ("Additional coworking spaces", below the top grid).
 // Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const moreChandigarhOfficeCards = [
   // 1. SpaceJam - Sector 34
   {
@@ -357,8 +361,10 @@ export const moreChandigarhOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 1 cards - third grid ("Spotlight coworking spaces", below the "Discover your perfect workspace" banner).
 // Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const finalChandigarhOfficeCards = [
   // 1. Next57 Coworking - Sector 17
   {
@@ -528,8 +534,10 @@ export const finalChandigarhOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 1 cards - fourth grid ("Featured coworking spaces", below the "Customized office solutions" banner).
 // Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const featuredChandigarhOfficeCards = [
   // 1. Next57 - Industrial Area Phase 2
   {
@@ -742,8 +750,10 @@ export const paginationData = {
   initialPage: 1
 };
 
+// ============================================================================
 // Page 2 cards - top grid (right under the area filter buttons).
 // Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageTwoChandigarhOfficeCards = [
   // 1. Magnet Coworks - Industrial Area Phase 1
   {
@@ -849,8 +859,10 @@ export const pageTwoChandigarhOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 2 cards - second grid ("Additional coworking spaces", below the top grid).
 // Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageTwoMoreChandigarhOfficeCards = [
   // 1. Launchyard Cowork - Chandigarh
   {
@@ -956,8 +968,10 @@ export const pageTwoMoreChandigarhOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 2 cards - third grid ("Spotlight coworking spaces", below the "Discover your perfect workspace" banner).
 // Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageTwoFinalChandigarhOfficeCards = [
   // 1. HQ Coworking - Sector 26
   {
@@ -1064,8 +1078,10 @@ export const pageTwoFinalChandigarhOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 2 cards - fourth grid ("Featured coworking spaces", below the "Customized office solutions" banner).
 // Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageTwoFeaturedChandigarhOfficeCards = [
   // 1. Archorganic - Sector 11
   {
@@ -1147,24 +1163,34 @@ export const pageTwoFeaturedChandigarhOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 3 cards - top grid (right under the area filter buttons).
 // Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageThreeChandigarhOfficeCards = [];
 
+// ============================================================================
 // Page 3 cards - second grid ("Additional coworking spaces", below the top grid).
 // Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageThreeMoreChandigarhOfficeCards = [];
 
+// ============================================================================
 // Page 3 cards - third grid ("Spotlight coworking spaces", below the "Discover your perfect workspace" banner).
 // Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageThreeFinalChandigarhOfficeCards = [];
 
+// ============================================================================
 // Page 3 cards - fourth grid ("Featured coworking spaces", below the "Customized office solutions" banner).
 // Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageThreeFeaturedChandigarhOfficeCards = [];
 
+// ============================================================================
 // Page 4 cards - top grid (right under the area filter buttons).
 // Shown when pagination button 4 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageFourChandigarhOfficeCards = [];
 
 // Area-specific extra cards (only real same-area listings; shown only when that area filter is active).
@@ -1195,8 +1221,10 @@ export const areaExtraOfficeCards = {
   "Sector 7": []
 };
 
+// ============================================================================
 // Page 1 cards - top grid (right under the area filter buttons).
 // Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const similarChandigarhOfficeCards = [
   // 1. Spacejam Coworking Chandigarh - Industrial Area Phase 1
   {
@@ -1385,8 +1413,10 @@ export const similarChandigarhOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 1 cards - top grid (right under the area filter buttons).
 // Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const allChandigarhOfficeCards = [
   ...chandigarhOfficeCards,
   ...moreChandigarhOfficeCards,
@@ -1405,12 +1435,18 @@ export const allChandigarhOfficeCards = [
   ...Object.values(areaExtraOfficeCards).flat()
 ];
 
-// Find a Chandigarh card from its URL slug (or numeric id). Returns the card or null.
+/**
+ * Find a Chandigarh card from its URL slug (or numeric id). Returns the card or null.
+ */
 export const getChandigarhOfficeCardById = (id) => findOfficeBySlug(allChandigarhOfficeCards, id, "chandigarh");
-// Build the URL slug / path of a Chandigarh card (e.g. "/name-area-chandigarh").
+/**
+ * Build the URL slug / path of a Chandigarh card (e.g. "/name-area-chandigarh").
+ */
 export const getChandigarhOfficeSlug = (space) => officePath(allChandigarhOfficeCards, space, "chandigarh");
 
+// ============================================================================
 // "Explore Top Coworking Locations" tiles at the bottom of the page (area name, title, photo). Clicking a tile filters by that area.
+// ============================================================================
 export const topChandigarhCoworkingLocations = [
   // 1. Sector 17
   {

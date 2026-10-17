@@ -17,8 +17,10 @@ export const jaipurNeighborhoods = [
   "Shyam Nagar"
 ];
 
+// ============================================================================
 // Page 1 cards - top grid (right under the area filter buttons).
 // Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const jaipurOfficeCards = [
   // 1. Prime Coworks - Tonk Road
   {
@@ -187,8 +189,10 @@ export const jaipurOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 1 cards - second grid ("Additional coworking spaces", below the top grid).
 // Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const moreJaipurOfficeCards = [
   // 1. Office Culture - Mansarovar
   {
@@ -356,8 +360,10 @@ export const moreJaipurOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 1 cards - third grid ("Spotlight coworking spaces", below the "Discover your perfect workspace" banner).
 // Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const finalJaipurOfficeCards = [
   // 1. ACS One Co-work - Vaishali Nagar
   {
@@ -524,8 +530,10 @@ export const finalJaipurOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 1 cards - fourth grid ("Featured coworking spaces", below the "Customized office solutions" banner).
 // Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const featuredJaipurOfficeCards = [
   // 1. Red Fox Hotel - Lalkothi
   {
@@ -735,8 +743,10 @@ export const paginationData = {
   initialPage: 1
 };
 
+// ============================================================================
 // Page 2 cards - top grid (right under the area filter buttons).
 // Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageTwoJaipurOfficeCards = [
   // 1. PhoebusIn - Mansarovar
   {
@@ -905,8 +915,10 @@ export const pageTwoJaipurOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 2 cards - second grid ("Additional coworking spaces", below the top grid).
 // Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageTwoMoreJaipurOfficeCards = [
   // 1. Workhauz Co-Working Space - Malviya Nagar
   {
@@ -1076,8 +1088,10 @@ export const pageTwoMoreJaipurOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 2 cards - third grid ("Spotlight coworking spaces", below the "Discover your perfect workspace" banner).
 // Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageTwoFinalJaipurOfficeCards = [
   // 1. VPM Coworking - Mansarovar
   {
@@ -1240,8 +1254,10 @@ export const pageTwoFinalJaipurOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 2 cards - fourth grid ("Featured coworking spaces", below the "Customized office solutions" banner).
 // Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageTwoFeaturedJaipurOfficeCards = [
   // 1. Creware Coworks - Mansarovar
   {
@@ -1409,8 +1425,10 @@ export const pageTwoFeaturedJaipurOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 3 cards - top grid (right under the area filter buttons).
 // Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageThreeJaipurOfficeCards = [
   // 1. Coworking Town - Mansarovar
   {
@@ -1498,8 +1516,10 @@ export const pageThreeJaipurOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 3 cards - second grid ("Additional coworking spaces", below the top grid).
 // Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageThreeMoreJaipurOfficeCards = [
   // 1. J Startup House - Lalkothi
   {
@@ -1583,8 +1603,10 @@ export const pageThreeMoreJaipurOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 3 cards - third grid ("Spotlight coworking spaces", below the "Discover your perfect workspace" banner).
 // Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageThreeFinalJaipurOfficeCards = [
   // 1. CoWork'In - Vaishali Nagar
   {
@@ -1670,8 +1692,10 @@ export const pageThreeFinalJaipurOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 3 cards - fourth grid ("Featured coworking spaces", below the "Customized office solutions" banner).
 // Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageThreeFeaturedJaipurOfficeCards = [
   // 1. Cubice - Vaishali Nagar
   {
@@ -1695,8 +1719,10 @@ export const pageThreeFeaturedJaipurOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 4 cards - top grid (right under the area filter buttons).
 // Shown when pagination button 4 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageFourJaipurOfficeCards = [];
 
 // NOTE: These cards are ONLY shown when a specific area filter button is clicked.
@@ -2331,8 +2357,10 @@ export const areaExtraOfficeCards = {
   ]
 };
 
+// ============================================================================
 // Page 1 cards - top grid (right under the area filter buttons).
 // Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const similarJaipurOfficeCards = [
   // 1. Prime Coworks - Tonk Road
   {
@@ -2522,8 +2550,10 @@ export const similarJaipurOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 1 cards - top grid (right under the area filter buttons).
 // Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const allJaipurOfficeCards = [
   ...jaipurOfficeCards,
   ...moreJaipurOfficeCards,
@@ -2542,12 +2572,18 @@ export const allJaipurOfficeCards = [
   ...Object.values(areaExtraOfficeCards).flat()
 ];
 
-// Find a Jaipur card from its URL slug (or numeric id). Returns the card or null.
+/**
+ * Find a Jaipur card from its URL slug (or numeric id). Returns the card or null.
+ */
 export const getJaipurOfficeCardById = (id) => findOfficeBySlug(allJaipurOfficeCards, id, "jaipur");
-// Build the URL slug / path of a Jaipur card (e.g. "/name-area-jaipur").
+/**
+ * Build the URL slug / path of a Jaipur card (e.g. "/name-area-jaipur").
+ */
 export const getJaipurOfficeSlug = (space) => officePath(allJaipurOfficeCards, space, "jaipur");
 
+// ============================================================================
 // "Explore Top Coworking Locations" tiles at the bottom of the page (area name, title, photo). Clicking a tile filters by that area.
+// ============================================================================
 export const topJaipurCoworkingLocations = [
   // 1. Vaishali Nagar
   {

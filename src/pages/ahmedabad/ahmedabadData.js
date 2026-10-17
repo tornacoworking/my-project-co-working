@@ -678,8 +678,10 @@ export const ahmedabadOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 1 cards - second grid ("Additional coworking spaces", below the top grid).
 // Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const moreAhmedabadOfficeCards = [
   {
     "name": "Samaan Complex",
@@ -1276,8 +1278,10 @@ export const perfectWorkspaceBanner = {
   "bgImage": "https://img.cofynd.com/images/latest_images_2024/28f41de2ee6c67528d528dc3b55fc7ad2801dcbc.webp"
 };
 
+// ============================================================================
 // Page 1 cards - third grid ("Spotlight coworking spaces", below the "Discover your perfect workspace" banner).
 // Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const finalAhmedabadOfficeCards = [
   {
     "name": "The Address",
@@ -1898,8 +1902,10 @@ export const finalAhmedabadOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 1 cards - fourth grid ("Featured coworking spaces", below the "Customized office solutions" banner).
 // Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const featuredAhmedabadOfficeCards = [
   {
     "name": "Mahendra Coworking",
@@ -3296,8 +3302,10 @@ export const pageTwoAhmedabadOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 2 cards - second grid ("Additional coworking spaces", below the top grid).
 // Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageTwoMoreAhmedabadOfficeCards = [
   {
     "name": "BSQUARE  BUSINESS CENTER",
@@ -3942,8 +3950,10 @@ export const pageTwoMoreAhmedabadOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 2 cards - third grid ("Spotlight coworking spaces", below the "Discover your perfect workspace" banner).
 // Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageTwoFinalAhmedabadOfficeCards = [
   {
     "name": "Titanium One",
@@ -4708,8 +4718,10 @@ export const pageTwoFinalAhmedabadOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 2 cards - fourth grid ("Featured coworking spaces", below the "Customized office solutions" banner).
 // Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageTwoFeaturedAhmedabadOfficeCards = [
   {
     "name": "Kasturi Pride Co-Working",
@@ -5675,16 +5687,22 @@ export const pageThreeAhmedabadOfficeCards = [
   }
 ];
 
+// ============================================================================
 // Page 3 cards - second grid ("Additional coworking spaces", below the top grid).
 // Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageThreeMoreAhmedabadOfficeCards = [];
 
+// ============================================================================
 // Page 3 cards - third grid ("Spotlight coworking spaces", below the "Discover your perfect workspace" banner).
 // Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageThreeFinalAhmedabadOfficeCards = [];
 
+// ============================================================================
 // Page 3 cards - fourth grid ("Featured coworking spaces", below the "Customized office solutions" banner).
 // Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
+// ============================================================================
 export const pageThreeFeaturedAhmedabadOfficeCards = [];
 
 // ============================================================================
@@ -5746,7 +5764,9 @@ export const allAhmedabadOfficeCards = ahmedabadCardPool;
  * Find an Ahmedabad office card by slug or id across all pagination pages
  */
 export const getAhmedabadOfficeCardById = (id) => findOfficeBySlug(allAhmedabadOfficeCards, id, "ahmedabad");
-// Build the URL slug / path of a Ahmedabad card (e.g. "/name-area-ahmedabad").
+/**
+ * Build the URL slug / path of a Ahmedabad card (e.g. "/name-area-ahmedabad").
+ */
 export const getAhmedabadOfficeSlug = (space) => officePath(allAhmedabadOfficeCards, space, "ahmedabad");
 
 // Top Coworking Locations in Ahmedabad (Explore by Neighborhood) - location photos from cofynd
