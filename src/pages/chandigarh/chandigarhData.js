@@ -5,19 +5,16 @@ import { findOfficeBySlug, officePath } from "../../common/slug.js";
  */
 
 export const chandigarhNeighborhoods = [
-  "Sector 17",
-  "Sector 34",
-  "Sector 8",
-  "Industrial Area Phase 1",
-  "IT Park",
-  "Industrial Area Phase 2",
+  "Mohali",
+  "Zirakpur",
   "Madhya Marg",
-  "Sector 37",
-  "Sector 26",
-  "Sector 35",
-  "Sector 11",
-  "Sector 7"
-];
+  "Sahibzada Ajit Singh Nagar",
+  "Sector 34A",
+  "Phase 8B",
+  "Phase 7",
+  "Industrial Area Phase 1"
+]
+;
 
 // ============================================================================
 // Page 1 cards - top grid (right under the area filter buttons).
