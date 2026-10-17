@@ -2533,7 +2533,255 @@ export const areaExtraOfficeCards = {
   ],
   // Extra cards for the "Nirman Nagar" filter
   "Nirman Nagar": [
-    // 39. Codeskk - Nirman Nagar
+    // 39. Desk 33 - Malviya Nagar
+    {
+      id: 6004,
+      name: "Desk 33",
+      badge: "Popular",
+      rating: 5,
+      area: "Malviya Nagar",
+      location: "Malviya Nagar, Jaipur",
+      price: "₹4,499",
+      period: "/ Month",
+      priceFormatted: "₹4,499 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/latest_images_2024/b70cb838381be23a6ce5a0cc469a79b13d6deb4d.webp",
+        "https://img.cofynd.com/images/latest_images_2024/db76226cc393f2a41d5609b7675b13d6a92bd518.webp",
+        "https://img.cofynd.com/images/latest_images_2024/5f02a143f849890a8001eb9010ae56f1e5fcfb17.webp",
+        "https://img.cofynd.com/images/latest_images_2024/3804372ccde594acf26824a12a1ed9ed597fd8ca.webp"
+      ]
+    },
+    // 40. Invocob Enterprise - Tagore Nagar
+    {
+      id: 28,
+      name: "Invocob Enterprise",
+      badge: "Popular",
+      rating: 4.9,
+      area: "Tagore Nagar",
+      location: "Tagore Nagar, Jaipur",
+      price: "₹3,999",
+      period: "/ Month",
+      priceFormatted: "₹3,999 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/original/37a739a9c2a04b5301a1549e5566227c9ad3dfde.jpg",
+        "https://img.cofynd.com/images/original/71a5d73756fe3b019165002cc4ebc208ac46366e.jpg",
+        "https://img.cofynd.com/images/original/bb3b7d11c3a3e3e8d90a837d52f10d4e65794a28.jpg",
+        "https://img.cofynd.com/images/latest_images_2024/092b47f4a93608d6f5c628b9724d221d8baecd07.webp",
+        "https://img.cofynd.com/images/latest_images_2024/fa068c2407f0ec7fd52beaa792b448de36229e22.webp",
+        "https://img.cofynd.com/images/latest_images_2024/2646ffa9d247b3ed226ef9904c4fa70b5f3571c6.webp"
+      ]
+    },
+    // 41. B Coworking space - DCM
+    {
+      id: 56,
+      name: "B Coworking space",
+      badge: null,
+      rating: null,
+      area: "DCM",
+      location: "Ajmer Road, Jaipur",
+      price: "₹7,000",
+      period: "/ Month",
+      priceFormatted: "₹7,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/original/cdc0844a14b4025290128715658d5b49e36b0fca.jpg",
+        "https://img.cofynd.com/images/original/b1ea3175d82f87a045d27317bbc53956bbc17bce.jpg",
+        "https://img.cofynd.com/images/original/cc0454d640d8db5f5213a029537f33cd1c9dbbb4.jpg",
+        "https://img.cofynd.com/images/original/17762c114092a0fd737d9702473d331203d51500.jpg",
+        "https://img.cofynd.com/images/original/01419bbbaadc5ede31cebdfabc95f8fcc7918ea1.jpg"
+      ]
+    },
+    // 42. 225 West - Ajmer Road
+    {
+      id: 12,
+      name: "225 West",
+      badge: "Premium",
+      rating: 4.8,
+      area: "Ajmer Road",
+      location: "Ajmer Road, Jaipur",
+      price: "₹14,999",
+      period: "/ Month",
+      priceFormatted: "₹14,999 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/original/eb052c348fb4e398be4e369acdd8d7ecfa6cd639.jpg",
+        "https://img.cofynd.com/images/original/caf7e827730ae16320a5e03553845d79147f7629.jpg",
+        "https://img.cofynd.com/images/original/93f7c475c3728f653c148b864b3add108b5d6aa6.jpg",
+        "https://img.cofynd.com/images/original/8bae842b78e8af2d10a28c0a986aa146536dbbd3.jpg",
+        "https://img.cofynd.com/images/original/6e504adf4e5361ef748e3e4508397f95215ed047.jpg",
+        "https://img.cofynd.com/images/original/c7cc7053a368436e6e4297472508f9b86de3864b.jpg"
+      ]
+    },
+    // 43. Coffic Coworking Space - Shanti Nagar
+    {
+      id: 6005,
+      name: "Coffic Coworking Space",
+      badge: "Popular",
+      rating: 4.4,
+      area: "Shanti Nagar",
+      location: "Shanti Nagar, Jaipur",
+      price: "₹4,999",
+      period: "/ Month",
+      priceFormatted: "₹4,999 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/latest_images_2024/2c4468d7f3ab53ddf46447d68d8135ade06d1b09.webp",
+        "https://img.cofynd.com/images/latest_images_2024/16e44307ae592b9591f83343ad2cce6e63bd3733.webp",
+        "https://img.cofynd.com/images/latest_images_2024/d887c314df64fa515eea6959eab9611bb595a648.webp",
+        "https://img.cofynd.com/images/latest_images_2024/6a018413897e50bd0e90b42f97b32d47bfeec9a1.webp",
+        "https://img.cofynd.com/images/latest_images_2024/fc55d2c938a965d5464d70c2d10d4380d029a2df.webp"
+      ]
+    },
+    // 44. Jaipur Coworking Space - Mansarovar
+    {
+      id: 6006,
+      name: "Jaipur Coworking Space",
+      badge: null,
+      rating: null,
+      area: "Mansarovar",
+      location: "Mansarovar, Jaipur",
+      price: "₹5,500",
+      period: "/ Month",
+      priceFormatted: "₹5,500 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/latest_images_2024/ccb65a7970e8088734cce02b740d636d71d0d907.webp",
+        "https://img.cofynd.com/images/latest_images_2024/b91fe4a826cf9198f48d6c32e2df60c3fe066933.webp",
+        "https://img.cofynd.com/images/latest_images_2024/47a07d1764a1483195d315d30484890e4ad6673e.webp",
+        "https://img.cofynd.com/images/latest_images_2024/014f5b587f9c1a893c34874303528d1a649d5fa8.webp",
+        "https://img.cofynd.com/images/latest_images_2024/09d37738dad44c2868e02c40d08143513dd58b69.webp",
+        "https://img.cofynd.com/images/latest_images_2024/0523a1bd84814506811fdff1f39068587f639d52.webp"
+      ]
+    },
+    // 45. RAW Coworking and Office Space - Mansarovar
+    {
+      id: 5,
+      name: "RAW Coworking and Office Space",
+      badge: "Premium",
+      rating: 4.9,
+      area: "Mansarovar",
+      location: "Mansarovar, Jaipur",
+      price: "₹6,000",
+      period: "/ Month",
+      priceFormatted: "₹6,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/latest_images_2024/a49087617d15a50f36a5104ae44592feeea35b42.webp",
+        "https://img.cofynd.com/images/latest_images_2024/d47632413e95d26f10bf01d9316ef007b997c5a3.webp",
+        "https://img.cofynd.com/images/latest_images_2024/03bf2e6958afb38599e7b1094c17c940091067ea.webp",
+        "https://img.cofynd.com/images/latest_images_2024/dec4402b16d2629616de5cb209aced86017374c6.webp",
+        "https://img.cofynd.com/images/latest_images_2024/37eb26fa2ad2dc91ebcda789934c7becbbc0dc48.webp",
+        "https://img.cofynd.com/images/latest_images_2024/b8999f9797a2427847bcd57272b9263082a74dfb.webp"
+      ]
+    },
+    // 46. WorkSpace Coworking - Vaishali Nagar
+    {
+      id: 43,
+      name: "WorkSpace Coworking",
+      badge: null,
+      rating: null,
+      area: "Vaishali Nagar",
+      location: "Vaishali Nagar, Jaipur",
+      price: "₹5,999",
+      period: "/ Month",
+      priceFormatted: "₹5,999 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/latest_images_2024/81831268fad1db2c393f01b9cf126ce6041928c6.webp",
+        "https://img.cofynd.com/images/latest_images_2024/e3377b319813b7c6be13bfc56fbb323f9ebc80cd.webp",
+        "https://img.cofynd.com/images/latest_images_2024/5b2c433e0a04353de7e40321d2c08fde2bff4692.webp",
+        "https://img.cofynd.com/images/latest_images_2024/1a53b23e556898c12877f8601d0658b8ecd82244.webp",
+        "https://img.cofynd.com/images/latest_images_2024/bd29648ef1f02a6cf987549e4a53699e08d3d2ae.webp",
+        "https://img.cofynd.com/images/latest_images_2024/8fff7fa9474a77fa0eea289a9d9c323b3d3a9c83.webp"
+      ]
+    },
+    // 47. Arvian Coworking - Mansarovar
+    {
+      id: 6007,
+      name: "Arvian Coworking",
+      badge: null,
+      rating: null,
+      area: "Mansarovar",
+      location: "Shanthi Nagar, Mansarovar, Jaipur",
+      price: "₹4,000",
+      period: "/ Month",
+      priceFormatted: "₹4,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/original/ed814edb4c1b70ab96fcbdcbcea5f37669742e3f.jpg",
+        "https://img.cofynd.com/images/original/30d2eec8fab9da3d14f08ce3a93ce04992224f3e.jpg",
+        "https://img.cofynd.com/images/original/0bfe283e7b78ca7213886bc27300c693b7864577.jpg",
+        "https://img.cofynd.com/images/original/7cf5b55a54e9d4e5ebda417c05ba7c62e46fde9c.jpg",
+        "https://img.cofynd.com/images/original/be8f4897f59ffc6d8388a1b9d557071d75d78cce.jpg",
+        "https://img.cofynd.com/images/original/807f56370f707bc9e60c588bd1d6b5f4d443a0ec.jpg"
+      ]
+    },
+    // 48. K Coworking - Vaishali Nagar
+    {
+      id: 76,
+      name: "K Coworking",
+      badge: "Popular",
+      rating: null,
+      area: "Vaishali Nagar",
+      location: "Vaishali Nagar, Jaipur",
+      price: "₹3,500",
+      period: "/ Month",
+      priceFormatted: "₹3,500 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/latest_images_2024/f7802c4c05a4615f5dca2ef62eb3abf2b9dd0498.webp",
+        "https://img.cofynd.com/images/latest_images_2024/1a242062041193f13905d26b282a4ffb1ff6c9dd.webp",
+        "https://img.cofynd.com/images/latest_images_2024/7e62882b21760a885b454596e0433a035365992c.webp",
+        "https://img.cofynd.com/images/latest_images_2024/6dff51e753dc62bcf667660f75ea8b67cb5877bd.webp",
+        "https://img.cofynd.com/images/latest_images_2024/b8941d85cb26cbdc00df15b3e3d7017316a512cd.webp",
+        "https://img.cofynd.com/images/latest_images_2024/ee8e14cf0a86bbccc60c15ff4157ef48b178e69b.webp"
+      ]
+    },
+    // 49. ACS One Co-work - Vaishali Nagar
+    {
+      id: 17,
+      name: "ACS One Co-work",
+      badge: null,
+      rating: null,
+      area: "Vaishali Nagar",
+      location: "RV Tower, Nityanand Nagar, Vaishali Nagar Jaipur",
+      price: "₹5,000",
+      period: "/ Month",
+      priceFormatted: "₹5,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/original/2cb36e84cc08bd213b1be41f45d513077fd133a3.jpg",
+        "https://img.cofynd.com/images/original/0b946f2a51c71451cbff36350bebaee866f22d4b.jpg",
+        "https://img.cofynd.com/images/original/658b503947a503894d6a0457c6633dc9aebac681.jpg",
+        "https://img.cofynd.com/images/original/d3c5b9a5095284c56e2cd7920da6731d48775c24.jpg",
+        "https://img.cofynd.com/images/original/8d5db8ba595ac868815f3997c627d225bad32ad0.jpg",
+        "https://img.cofynd.com/images/original/24498fff23a69049afea68b7d2efca69c33741aa.jpg"
+      ]
+    },
+    // 50. Wnikle Coworks - Jaipur
+    {
+      id: 13,
+      name: "Wnikle Coworks",
+      badge: null,
+      rating: null,
+      area: "Jaipur",
+      location: "Hotel Royal Akshyam, Near New Vivek metro station, Jaipur",
+      price: "₹3,750",
+      period: "/ Month",
+      priceFormatted: "₹3,750 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/original/c905a7d10571164897b85fe5293b0f5b27f00163.jpg",
+        "https://img.cofynd.com/images/original/7f53ba2ad628022ea33aa8e5a3387e549d7da88b.jpg",
+        "https://img.cofynd.com/images/original/f9c01d44b3fe86a19bb0c23515f87c985ea408a8.jpg",
+        "https://img.cofynd.com/images/original/3f73e18f0c4909187a92342d5bddf1ac504d7469.jpg",
+        "https://img.cofynd.com/images/original/c999eecdb49557a864c29c5ce72c34f785196a8d.jpg",
+        "https://img.cofynd.com/images/original/d88abc68704d3d44f672b3cf11a9b7bb69b21c1e.jpg"
+      ]
+    },
+    // 51. Codeskk - Nirman Nagar
     {
       id: 133,
       name: "Codeskk",
@@ -2559,7 +2807,7 @@ export const areaExtraOfficeCards = {
   "Subhash Nagar": [],
   // Extra cards for the "Shyam Nagar" filter
   "Shyam Nagar": [
-    // 40. M&L Consulting Pvt.Ltd - Shyam Nagar
+    // 52. M&L Consulting Pvt.Ltd - Shyam Nagar
     {
       id: 119,
       name: "M&L Consulting Pvt.Ltd",
@@ -2580,7 +2828,7 @@ export const areaExtraOfficeCards = {
         "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1713611437/cnc95n549qxcufrbhuaz.jpg"
       ]
     },
-    // 41. Coworkin - Shyam Nagar
+    // 53. Coworkin - Shyam Nagar
     {
       id: 120,
       name: "Coworkin",
@@ -2601,7 +2849,7 @@ export const areaExtraOfficeCards = {
         "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1676018445/zwbi9mhxh9mov7zf5dzd.webp"
       ]
     },
-    // 42. THE WORKNOT - Shyam Nagar
+    // 54. THE WORKNOT - Shyam Nagar
     {
       id: 126,
       name: "THE WORKNOT",
