@@ -2065,7 +2065,111 @@ export const areaExtraOfficeCards = {
   ],
   // Extra cards for the "Tonk Road" filter
   "Tonk Road": [
-    // 17. Make It Worth Digital - Tonk Road
+    // 17. Jeev Business Solutions - Tonk Road
+    {
+      id: 70,
+      name: "Jeev Business Solutions",
+      badge: null,
+      rating: null,
+      area: "Tonk Road",
+      location: "Tonk Road, Jaipur",
+      price: "₹4,999",
+      period: "/ Month",
+      priceFormatted: "₹4,999 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/latest_images_2024/c5e91ff16bc13ac92ecb58b8988e5bb37a2365d9.webp",
+        "https://img.cofynd.com/images/latest_images_2024/9f42580a0803711e8c1db531612bc69c1e45249a.webp",
+        "https://img.cofynd.com/images/latest_images_2024/c48075e27ad149343c37af5c41b011f714b9ce9d.webp",
+        "https://img.cofynd.com/images/latest_images_2024/1131282e576cf591cce54603555fbf81f4d7cc98.webp",
+        "https://img.cofynd.com/images/latest_images_2024/c63d14d0713a59dcd6207f373dc5d49d7b868b01.webp",
+        "https://img.cofynd.com/images/latest_images_2024/f6f38f5290aaf722ab4b32c520c6cad80b4d0e90.webp"
+      ]
+    },
+    // 18. Connekt Coworking Signature Elite - Tonk Road
+    {
+      id: 2,
+      name: "Connekt Coworking Signature Elite",
+      badge: "Premium",
+      rating: 3.4,
+      area: "Tonk Road",
+      location: "Tonk Road, Jaipur",
+      price: "₹7,999",
+      period: "/ Month",
+      priceFormatted: "₹7,999 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/latest_images_2024/e581167b6ef1f3a745441fd4ee3bb050f4e86f52.webp",
+        "https://img.cofynd.com/images/latest_images_2024/a1e531debd24059397ce204bfabed4cb221c60c4.webp",
+        "https://img.cofynd.com/images/latest_images_2024/044e59dcd245d98a5e04a596de2c1b2744d42926.webp",
+        "https://img.cofynd.com/images/latest_images_2024/d926a04a0552ff07e496e8b7b836b7b76a80f229.webp",
+        "https://img.cofynd.com/images/latest_images_2024/1e55f727f160cf5bc5087d410b38c29a26571e2c.webp",
+        "https://img.cofynd.com/images/latest_images_2024/d93ff19819afcefa4840ee534f35399fcddc852d.webp"
+      ]
+    },
+    // 19. Urban Excubator - Tonk Road
+    {
+      id: 27,
+      name: "Urban Excubator",
+      badge: "Popular",
+      rating: 4.8,
+      area: "Tonk Road",
+      location: "Tonk Road, Jaipur",
+      price: "₹6,999",
+      period: "/ Month",
+      priceFormatted: "₹6,999 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/latest_images_2024/54de7f8fcff0206c47485a8b19c6b43bbd51579c.webp",
+        "https://img.cofynd.com/images/latest_images_2024/0eaa5bf12b39324c4054c20dc093293e171689da.webp",
+        "https://img.cofynd.com/images/latest_images_2024/b9539184b2600924b55fc8647e84763e1bae1880.webp",
+        "https://img.cofynd.com/images/latest_images_2024/16cfe9b2aa46139262430adfffc17b7952e65003.webp",
+        "https://img.cofynd.com/images/latest_images_2024/b1cc6f97d3b62dda2b25d0119a8d92553a073c41.webp",
+        "https://img.cofynd.com/images/latest_images_2024/091b8e007f07fed6c2fb2c5c33732d21d3e16def.webp"
+      ]
+    },
+    // 20. WaveX Cowork - Tonk Road
+    {
+      id: 22,
+      name: "WaveX Cowork",
+      badge: null,
+      rating: null,
+      area: "Tonk Road",
+      location: "Tonk Rd, Jaipur",
+      price: "₹8,500",
+      period: "/ Month",
+      priceFormatted: "₹8,500 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/original/d07143e9ce7b3f4ac9dd7b8919c7b5dba31b162f.jpg",
+        "https://img.cofynd.com/images/original/f45683add79e0df5c9e09803dd0bb1aa357a130e.jpg",
+        "https://img.cofynd.com/images/original/360b9a3aa47eb44c0d60f2b7a9e90043dcb63581.jpg",
+        "https://img.cofynd.com/images/original/0fe92e3cdc2dbd1c68a184d1b50d39050e546943.jpg",
+        "https://img.cofynd.com/images/original/18aa4c28410e59695cc480d17bc8091142924a5c.jpg"
+      ]
+    },
+    // 21. vera - Tonk Road
+    {
+      id: 36,
+      name: "vera",
+      badge: null,
+      rating: null,
+      area: "Tonk Road",
+      location: "Tonk Road, Jaipur",
+      price: "₹5,100",
+      period: "/ Month",
+      priceFormatted: "₹5,100 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/latest_images_2024/44b224988c3663c37ac6cbb23621383ba48e36a6.webp",
+        "https://img.cofynd.com/images/latest_images_2024/f3cdb4acf2ac6d94c6ca2586972237e513289d79.webp",
+        "https://img.cofynd.com/images/latest_images_2024/9aad2bf895dfa614940822c4505af38a7b7cdd29.webp",
+        "https://img.cofynd.com/images/latest_images_2024/a4f73bf363c678b81b5a8a8c27dbed2109159b85.webp",
+        "https://img.cofynd.com/images/latest_images_2024/efb58540ddab08b49ea738d611a883079f520bb5.webp",
+        "https://img.cofynd.com/images/latest_images_2024/414ec13762f9847c324075a1f4999479b81606b7.webp"
+      ]
+    },
+    // 22. Make It Worth Digital - Tonk Road
     {
       id: 98,
       name: "Make It Worth Digital",
@@ -2085,7 +2189,48 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/35992be12dd4e89d4c26fbceea86c5b7fe295bc7.webp"
       ]
     },
-    // 18. Coworkin - Tonk Road
+    // 23. Cowocoli - Tonk Road
+    {
+      id: 53,
+      name: "Cowocoli",
+      badge: "Popular",
+      rating: 4.7,
+      area: "Tonk Road",
+      location: "Tonk Road, Jaipur",
+      price: "₹6,999",
+      period: "/ Month",
+      priceFormatted: "₹6,999 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/latest_images_2024/217cc14907156c0f8adc1e0460c1a8d57e54bd2d.webp",
+        "https://img.cofynd.com/images/latest_images_2024/b14a7bab5aaa60f2977b1bfc57721c4bf2cd742e.webp",
+        "https://img.cofynd.com/images/latest_images_2024/26c342c5196198facf2f07be0ef45dc75894f00e.webp",
+        "https://img.cofynd.com/images/latest_images_2024/46a17f02e8e3feca0b77145b43f52cf0cce15558.webp",
+        "https://img.cofynd.com/images/latest_images_2024/1d775454b1cab1a3e88c0a24771f3f3976af9b77.webp"
+      ]
+    },
+    // 24. Prime Coworks - Tonk Road
+    {
+      id: 1,
+      name: "Prime Coworks",
+      badge: null,
+      rating: null,
+      area: "Tonk Road",
+      location: "Prime Coworks, 5th Floor, Pooja Tower, Gopalura Bypass, Jaipur",
+      price: "₹499",
+      period: "/ Hour",
+      priceFormatted: "₹499 / Hour",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/latest_images_2024/248fd9d196ceb58279672a39b7091f812f1735ad.webp",
+        "https://img.cofynd.com/images/latest_images_2024/7c7544c3174624551b9999ffce588271e069adfa.webp",
+        "https://img.cofynd.com/images/latest_images_2024/f7bb8c197235b527be16711edc8c4edb6f733659.webp",
+        "https://img.cofynd.com/images/latest_images_2024/1a7767c431313339c91b8675cc275ff5894c6c99.webp",
+        "https://img.cofynd.com/images/latest_images_2024/e0b706a19533ac8f1a4c1cd594ae389d833e35fa.webp",
+        "https://img.cofynd.com/images/latest_images_2024/4139d364451c7d59770c884afca9667d54323e35.webp"
+      ]
+    },
+    // 25. Coworkin - Tonk Road
     {
       id: 129,
       name: "Coworkin",
@@ -2106,7 +2251,7 @@ export const areaExtraOfficeCards = {
         "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660902607/bvcfkhn6bno6eryxz3mp.webp"
       ]
     },
-    // 19. Invocob 2.0 - Tonk Road
+    // 26. Invocob 2.0 - Tonk Road
     {
       id: 143,
       name: "Invocob 2.0",
@@ -2130,7 +2275,7 @@ export const areaExtraOfficeCards = {
   ],
   // Extra cards for the "Lalkothi" filter
   "Lalkothi": [
-    // 20. Best Desk Cove - Lalkothi
+    // 27. Best Desk Cove - Lalkothi
     {
       id: 80,
       name: "Best Desk Cove",
@@ -2151,7 +2296,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/2111cb3deb71a5481a891fd2117950b7b82e8f70.webp"
       ]
     },
-    // 21. J Startup House, Jaipur - Lalkothi
+    // 28. J Startup House, Jaipur - Lalkothi
     {
       id: 116,
       name: "J Startup House, Jaipur",
@@ -2172,7 +2317,7 @@ export const areaExtraOfficeCards = {
         "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/983aed63ec328a75b9ba2c5754e0e380_XUjt_Tcjq.jpg"
       ]
     },
-    // 22. The Urban Hub Co-Working Space - Lalkothi
+    // 29. The Urban Hub Co-Working Space - Lalkothi
     {
       id: 123,
       name: "The Urban Hub Co-Working Space",
@@ -2193,7 +2338,7 @@ export const areaExtraOfficeCards = {
         "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660812745/a4c2jjdbrgzlhftomyfy.webp"
       ]
     },
-    // 23. Times Group - Lalkothi
+    // 30. Times Group - Lalkothi
     {
       id: 130,
       name: "Times Group",
@@ -2221,7 +2366,7 @@ export const areaExtraOfficeCards = {
   "Ganpati Nagar": [],
   // Extra cards for the "Pratap Nagar" filter
   "Pratap Nagar": [
-    // 24. Co Desk - Pratap Nagar
+    // 31. Co Desk - Pratap Nagar
     {
       id: 97,
       name: "Co Desk",
@@ -2241,7 +2386,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/1bb73e6980f005e2ca241d51bbe5c9b08f8cd516.webp"
       ]
     },
-    // 25. GVFC - Pratap Nagar
+    // 32. GVFC - Pratap Nagar
     {
       id: 115,
       name: "GVFC",
@@ -2265,7 +2410,7 @@ export const areaExtraOfficeCards = {
   ],
   // Extra cards for the "Nirman Nagar" filter
   "Nirman Nagar": [
-    // 26. Codeskk - Nirman Nagar
+    // 33. Codeskk - Nirman Nagar
     {
       id: 133,
       name: "Codeskk",
@@ -2291,7 +2436,7 @@ export const areaExtraOfficeCards = {
   "Subhash Nagar": [],
   // Extra cards for the "Shyam Nagar" filter
   "Shyam Nagar": [
-    // 27. M&L Consulting Pvt.Ltd - Shyam Nagar
+    // 34. M&L Consulting Pvt.Ltd - Shyam Nagar
     {
       id: 119,
       name: "M&L Consulting Pvt.Ltd",
@@ -2312,7 +2457,7 @@ export const areaExtraOfficeCards = {
         "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1713611437/cnc95n549qxcufrbhuaz.jpg"
       ]
     },
-    // 28. Coworkin - Shyam Nagar
+    // 35. Coworkin - Shyam Nagar
     {
       id: 120,
       name: "Coworkin",
@@ -2333,7 +2478,7 @@ export const areaExtraOfficeCards = {
         "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1676018445/zwbi9mhxh9mov7zf5dzd.webp"
       ]
     },
-    // 29. THE WORKNOT - Shyam Nagar
+    // 36. THE WORKNOT - Shyam Nagar
     {
       id: 126,
       name: "THE WORKNOT",
