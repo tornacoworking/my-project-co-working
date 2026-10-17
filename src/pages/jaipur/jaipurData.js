@@ -2275,49 +2275,172 @@ export const areaExtraOfficeCards = {
   ],
   // Extra cards for the "Lalkothi" filter
   "Lalkothi": [
-    // 27. Best Desk Cove - Lalkothi
+    // 27. CAdd Centre - Bapu Nagar
     {
-      id: 80,
-      name: "Best Desk Cove",
+      id: 6001,
+      name: "CAdd Centre",
       badge: null,
       rating: null,
-      area: "Lalkothi",
-      location: "Lalkothi, Jaipur",
-      price: "₹7,999",
-      period: "/ Month",
-      priceFormatted: "₹7,999 / Month",
-      ctaText: "Get Quote",
-      images: [
-        "https://img.cofynd.com/images/latest_images_2024/906a396314d03659e8be14d8f36e1de630b0db87.webp",
-        "https://img.cofynd.com/images/latest_images_2024/a88fd979d5035041db8f2e825d73d69f48b88f87.webp",
-        "https://img.cofynd.com/images/latest_images_2024/8822d9461d433cc3402e6d7dc83fcf38556fd43d.webp",
-        "https://img.cofynd.com/images/latest_images_2024/0508b697c2d3fad0c13a42f0c5aaabf78c1d99ba.webp",
-        "https://img.cofynd.com/images/latest_images_2024/39be93ad6e5418f5e320b8f95bec40c90114a7d1.webp",
-        "https://img.cofynd.com/images/latest_images_2024/2111cb3deb71a5481a891fd2117950b7b82e8f70.webp"
-      ]
-    },
-    // 28. J Startup House, Jaipur - Lalkothi
-    {
-      id: 116,
-      name: "J Startup House, Jaipur",
-      badge: null,
-      rating: null,
-      area: "Lalkothi",
-      location: "Lalkothi, Jaipur",
+      area: "Bapu Nagar",
+      location: "Bapu Nagar, Jaipur",
       price: "₹5,000",
       period: "/ Month",
       priceFormatted: "₹5,000 / Month",
       ctaText: "Get Quote",
       images: [
-        "https://ik.imagekit.io/qdesq/qdesq/a9d06903b7bf9a874f79a116b1fd9ec1_5s_CPfOHX.JPG",
-        "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/a0cc34c69e5757ded99bfe6c450cb37e_fKSEkB5uh.jpg",
-        "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/c4d4a50145a491fb416f7b54b1905a23_HGSdNrKjj.jpg",
-        "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/e9d3ced71c3612e82d7580d0d817912a_Q0keS_QMB.jpg",
-        "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/b3dd0fb38af5fa394459d86d0667f56c_ywfV-8K5I.jpg",
-        "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/983aed63ec328a75b9ba2c5754e0e380_XUjt_Tcjq.jpg"
+        "https://img.cofynd.com/images/original/1c4d836789e5a9814af30dffe136860cf5fff78e.jpg",
+        "https://img.cofynd.com/images/original/671d2792d8d6dbb9808e1fde2f1f36d8ddd8093f.jpg",
+        "https://img.cofynd.com/images/original/85f88093b327f6429268c7cd5c8d941e97a78686.jpg",
+        "https://img.cofynd.com/images/original/8a0f724e91175930133920ed22747e986255ffa5.jpg",
+        "https://img.cofynd.com/images/original/04f3d440dacd5af4de910f1adc59c22a945f7309.jpg"
       ]
     },
-    // 29. The Urban Hub Co-Working Space - Lalkothi
+    // 28. Suits Workspace - C-Scheme
+    {
+      id: 61,
+      name: "Suits Workspace",
+      badge: null,
+      rating: null,
+      area: "C-Scheme",
+      location: "C Scheme, Jaipur",
+      price: "₹6,000",
+      period: "/ Month",
+      priceFormatted: "₹6,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/latest_images_2024/98b39366a15711910e5f3d75aada14bb929cee5d.webp",
+        "https://img.cofynd.com/images/latest_images_2024/1b4cd27834ad1534ad4c892d0f88ec18ddb58ff0.webp",
+        "https://img.cofynd.com/images/latest_images_2024/845e754e5198b0a5bdc46212c9e547634ada79d1.webp",
+        "https://img.cofynd.com/images/latest_images_2024/31102b02f1e57afaa197ea1977f50c1b2b086ef3.webp",
+        "https://img.cofynd.com/images/latest_images_2024/d4c217b0a7bccccda4499d451815fd56a07a47d4.webp",
+        "https://img.cofynd.com/images/latest_images_2024/5d39cf923d33196223512d3fbc63489ac866cb45.webp"
+      ]
+    },
+    // 29. Connekt Coworking Signature Elite - Tonk Road
+    {
+      id: 2,
+      name: "Connekt Coworking Signature Elite",
+      badge: "Premium",
+      rating: 3.4,
+      area: "Tonk Road",
+      location: "Tonk Road, Jaipur",
+      price: "₹7,999",
+      period: "/ Month",
+      priceFormatted: "₹7,999 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/latest_images_2024/e581167b6ef1f3a745441fd4ee3bb050f4e86f52.webp",
+        "https://img.cofynd.com/images/latest_images_2024/a1e531debd24059397ce204bfabed4cb221c60c4.webp",
+        "https://img.cofynd.com/images/latest_images_2024/044e59dcd245d98a5e04a596de2c1b2744d42926.webp",
+        "https://img.cofynd.com/images/latest_images_2024/d926a04a0552ff07e496e8b7b836b7b76a80f229.webp",
+        "https://img.cofynd.com/images/latest_images_2024/1e55f727f160cf5bc5087d410b38c29a26571e2c.webp",
+        "https://img.cofynd.com/images/latest_images_2024/d93ff19819afcefa4840ee534f35399fcddc852d.webp"
+      ]
+    },
+    // 30. Cowocoli - Tonk Road
+    {
+      id: 53,
+      name: "Cowocoli",
+      badge: "Popular",
+      rating: 4.7,
+      area: "Tonk Road",
+      location: "Tonk Road, Jaipur",
+      price: "₹6,999",
+      period: "/ Month",
+      priceFormatted: "₹6,999 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/latest_images_2024/217cc14907156c0f8adc1e0460c1a8d57e54bd2d.webp",
+        "https://img.cofynd.com/images/latest_images_2024/b14a7bab5aaa60f2977b1bfc57721c4bf2cd742e.webp",
+        "https://img.cofynd.com/images/latest_images_2024/26c342c5196198facf2f07be0ef45dc75894f00e.webp",
+        "https://img.cofynd.com/images/latest_images_2024/46a17f02e8e3feca0b77145b43f52cf0cce15558.webp",
+        "https://img.cofynd.com/images/latest_images_2024/1d775454b1cab1a3e88c0a24771f3f3976af9b77.webp"
+      ]
+    },
+    // 31. The Social Stays (formerly ArtBuzz) - Civil Lines
+    {
+      id: 16,
+      name: "The Social Stays (formerly ArtBuzz)",
+      badge: "Popular",
+      rating: 4.5,
+      area: "Civil Lines",
+      location: "Civil Lines, Jaipur",
+      price: "₹5,500",
+      period: "/ Month",
+      priceFormatted: "₹5,500 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/latest_images_2024/5e4a973b13a2abe67792f6b919b1a2f0b7368220.webp",
+        "https://img.cofynd.com/images/latest_images_2024/d881049407c00ce5f7da1e6ec740b109b2b86d7d.webp",
+        "https://img.cofynd.com/images/original/da9e941c7b8267207c015a24b7153e43c3dd359c.jpg",
+        "https://img.cofynd.com/images/latest_images_2024/77757fdddccfdb950b66fcc7ad74c2233115a427.webp",
+        "https://img.cofynd.com/images/original/bcaed1212c18c0bb8c0735f28c59126de35597c9.jpg",
+        "https://img.cofynd.com/images/latest_images_2024/a7da9e299905776f8c4a3e043c64333c844e536a.webp"
+      ]
+    },
+    // 32. Wish Cowork Elite - Civil Lines
+    {
+      id: 6,
+      name: "Wish Cowork Elite",
+      badge: null,
+      rating: null,
+      area: "Civil Lines",
+      location: "Civil lines, Jaipur",
+      price: "₹7,999",
+      period: "/ Month",
+      priceFormatted: "₹7,999 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/latest_images_2024/75d6ef152c01552e0a0179b36a85b485c20267e5.webp",
+        "https://img.cofynd.com/images/latest_images_2024/b36876b03d26a2cc24205c7ecca197cc50646861.webp",
+        "https://img.cofynd.com/images/latest_images_2024/5ff5960f02dde1647eef8f1dfea923f32ffbe5c0.webp",
+        "https://img.cofynd.com/images/latest_images_2024/689f0679ad5223ffa5f63c0fd94872f346439776.webp",
+        "https://img.cofynd.com/images/latest_images_2024/5fd9668ef833b87733a3b722611f9fd1c8924b6b.webp",
+        "https://img.cofynd.com/images/latest_images_2024/87fb4cb5762dee043d287544331ad25d5ca75eb5.webp"
+      ]
+    },
+    // 33. Diverse Web Strategies Private Limited - Civil Lines
+    {
+      id: 6002,
+      name: "Diverse Web Strategies Private Limited",
+      badge: null,
+      rating: null,
+      area: "Civil Lines",
+      location: "Hawa Sadak, Jaipur",
+      price: "₹2,500",
+      period: "/ Month",
+      priceFormatted: "₹2,500 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/original/eece9e026ab76f771db3c77a63f1bd975c603142.jpg",
+        "https://img.cofynd.com/images/original/dbb6c85c44555a6ba97e51d0b3221f8e168d5465.jpg",
+        "https://img.cofynd.com/images/original/e58503868dbe0fc3d69f3c1c814492b4992a03ed.jpg",
+        "https://img.cofynd.com/images/original/2672964955ebf1e02dab8be8620bfb78259efad9.jpg",
+        "https://img.cofynd.com/images/original/c7161b2926fb415f6d9a22aaa2735f806d9f7ae7.jpg",
+        "https://img.cofynd.com/images/original/38e670460c9600783d9caf1ae27448394f61ac52.jpg"
+      ]
+    },
+    // 34. White Polar Spaces - Mansarovar
+    {
+      id: 6003,
+      name: "White Polar Spaces",
+      badge: "Popular",
+      rating: 5,
+      area: "Mansarovar",
+      location: "Mansarovar, Jaipur",
+      price: "₹5,499",
+      period: "/ Month",
+      priceFormatted: "₹5,499 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/latest_images_2024/40827c5b9414304400137175cb58c3a02d0c982b.webp",
+        "https://img.cofynd.com/images/latest_images_2024/5d0aa7a8137cff1f1de30749553f36cde253a4a1.webp",
+        "https://img.cofynd.com/images/latest_images_2024/2cf884b48b61e486a160a85459d2b4ab4e7b8e2e.webp",
+        "https://img.cofynd.com/images/latest_images_2024/b07215ca36b9b03715d9ff9c1d90309f27a70620.webp",
+        "https://img.cofynd.com/images/latest_images_2024/ddc0107c0b662db072bdcc15ff6fc414143efe9a.webp"
+      ]
+    },
+    // 35. The Urban Hub Co-Working Space - Lalkothi
     {
       id: 123,
       name: "The Urban Hub Co-Working Space",
@@ -2338,7 +2461,7 @@ export const areaExtraOfficeCards = {
         "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660812745/a4c2jjdbrgzlhftomyfy.webp"
       ]
     },
-    // 30. Times Group - Lalkothi
+    // 36. Times Group - Lalkothi
     {
       id: 130,
       name: "Times Group",
@@ -2366,7 +2489,7 @@ export const areaExtraOfficeCards = {
   "Ganpati Nagar": [],
   // Extra cards for the "Pratap Nagar" filter
   "Pratap Nagar": [
-    // 31. Co Desk - Pratap Nagar
+    // 37. Co Desk - Pratap Nagar
     {
       id: 97,
       name: "Co Desk",
@@ -2386,7 +2509,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/1bb73e6980f005e2ca241d51bbe5c9b08f8cd516.webp"
       ]
     },
-    // 32. GVFC - Pratap Nagar
+    // 38. GVFC - Pratap Nagar
     {
       id: 115,
       name: "GVFC",
@@ -2410,7 +2533,7 @@ export const areaExtraOfficeCards = {
   ],
   // Extra cards for the "Nirman Nagar" filter
   "Nirman Nagar": [
-    // 33. Codeskk - Nirman Nagar
+    // 39. Codeskk - Nirman Nagar
     {
       id: 133,
       name: "Codeskk",
@@ -2436,7 +2559,7 @@ export const areaExtraOfficeCards = {
   "Subhash Nagar": [],
   // Extra cards for the "Shyam Nagar" filter
   "Shyam Nagar": [
-    // 34. M&L Consulting Pvt.Ltd - Shyam Nagar
+    // 40. M&L Consulting Pvt.Ltd - Shyam Nagar
     {
       id: 119,
       name: "M&L Consulting Pvt.Ltd",
@@ -2457,7 +2580,7 @@ export const areaExtraOfficeCards = {
         "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1713611437/cnc95n549qxcufrbhuaz.jpg"
       ]
     },
-    // 35. Coworkin - Shyam Nagar
+    // 41. Coworkin - Shyam Nagar
     {
       id: 120,
       name: "Coworkin",
@@ -2478,7 +2601,7 @@ export const areaExtraOfficeCards = {
         "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1676018445/zwbi9mhxh9mov7zf5dzd.webp"
       ]
     },
-    // 36. THE WORKNOT - Shyam Nagar
+    // 42. THE WORKNOT - Shyam Nagar
     {
       id: 126,
       name: "THE WORKNOT",
