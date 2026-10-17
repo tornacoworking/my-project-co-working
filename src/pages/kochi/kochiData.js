@@ -21,7 +21,10 @@ export const kochiNeighborhoods = [
   "Kadavanthara"
 ];
 
+// Page 1 cards - top grid (right under the area filter buttons).
+// Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
 export const kochiOfficeCards = [
+  // 1. Dotspace - Edappally
   {
     id: 1,
     name: "Dotspace",
@@ -41,6 +44,7 @@ export const kochiOfficeCards = [
       "https://img.cofynd.com/images/original/c4ffaaa0302c48d7d7b53a40b1baa28026013055.jpg"
     ]
   },
+  // 2. Incuspaze - Oberon Mall - Edappally
   {
     id: 2,
     name: "Incuspaze - Oberon Mall",
@@ -61,6 +65,7 @@ export const kochiOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/07728ca95c96cf30d65a945947251e064745045e.webp"
     ]
   },
+  // 3. Wagmi Workspace - Edappally
   {
     id: 3,
     name: "Wagmi Workspace",
@@ -80,6 +85,7 @@ export const kochiOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/a327c8dd01f9d91c0904d1d8a0f76b20e76bfaf6.webp"
     ]
   },
+  // 4. IndiQube Square - Edappally
   {
     id: 4,
     name: "IndiQube Square",
@@ -98,6 +104,7 @@ export const kochiOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/f9a775322ec06df6d74cf8315e67f811c6f6a0d0.webp"
     ]
   },
+  // 5. MARQ - Edappally
   {
     id: 5,
     name: "MARQ",
@@ -117,6 +124,7 @@ export const kochiOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/1dfefede6db360e6c71870333c3757cfe67be511.webp"
     ]
   },
+  // 6. Incuspaze - Ernakulam
   {
     id: 6,
     name: "Incuspaze",
@@ -136,6 +144,7 @@ export const kochiOfficeCards = [
       "https://img.cofynd.com/images/original/8da6bc993fe7c870ed991772dbbbecdc65c9cbec.jpg"
     ]
   },
+  // 7. Cowired co-working Space - Palarivattom
   {
     id: 7,
     name: "Cowired co-working Space",
@@ -155,6 +164,7 @@ export const kochiOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/a24d503b95319ce1bd9a744383c791f1fe588f30.webp"
     ]
   },
+  // 8. Spacelance - Kakkanad
   {
     id: 8,
     name: "Spacelance",
@@ -176,7 +186,10 @@ export const kochiOfficeCards = [
   }
 ];
 
+// Page 1 cards - second grid ("Additional coworking spaces", below the top grid).
+// Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
 export const moreKochiOfficeCards = [
+  // 1. Calm Workspaces - Palarivattom
   {
     id: 9,
     name: "Calm Workspaces",
@@ -197,6 +210,7 @@ export const moreKochiOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/448d66d124a153f8675857c112d23d9df77be7ba.webp"
     ]
   },
+  // 2. Incuspaze Coworking - Infra Futura - Kakkanad
   {
     id: 10,
     name: "Incuspaze Coworking - Infra Futura",
@@ -217,6 +231,7 @@ export const moreKochiOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/6d65809e1e04af4d542e9455a29415ba30c889ed.webp"
     ]
   },
+  // 3. IndiQube Paradise - Palarivattom
   {
     id: 11,
     name: "IndiQube Paradise",
@@ -237,6 +252,7 @@ export const moreKochiOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/ff2468f5584d2b0080f98798b84cdb7588ddd71f.webp"
     ]
   },
+  // 4. CORRAZONE - Kakkanad
   {
     id: 12,
     name: "CORRAZONE",
@@ -256,6 +272,7 @@ export const moreKochiOfficeCards = [
       "https://img.cofynd.com/images/original/4a7cbb5344c96b6ad2d2968ae9cc15826d22a4d9.jpg"
     ]
   },
+  // 5. Kssia Technocity - Kalamassery
   {
     id: 13,
     name: "Kssia Technocity",
@@ -275,6 +292,7 @@ export const moreKochiOfficeCards = [
       "https://img.cofynd.com/images/original/40de2c744370428105988015e8c834e1d96da927.jpg"
     ]
   },
+  // 6. Innerspace - Ernakulam
   {
     id: 14,
     name: "Innerspace",
@@ -295,6 +313,7 @@ export const moreKochiOfficeCards = [
       "https://img.cofynd.com/images/original/a06a8bc38af516f164efe1b0cc91f0a90fa2d053.jpg"
     ]
   },
+  // 7. Bodhi Infotech - Kakkanad
   {
     id: 15,
     name: "Bodhi Infotech",
@@ -314,6 +333,7 @@ export const moreKochiOfficeCards = [
       "https://img.cofynd.com/images/original/f5bfea9153b7a2405c19f37348ecc03401d79031.jpg"
     ]
   },
+  // 8. Collective Coworks (CoCo) - Infopark
   {
     id: 16,
     name: "Collective Coworks (CoCo)",
@@ -336,7 +356,10 @@ export const moreKochiOfficeCards = [
   }
 ];
 
+// Page 1 cards - third grid ("Spotlight coworking spaces", below the "Discover your perfect workspace" banner).
+// Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
 export const finalKochiOfficeCards = [
+  // 1. Anaarworx - Kakkanad
   {
     id: 17,
     name: "Anaarworx",
@@ -357,6 +380,7 @@ export const finalKochiOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/13bc4fcebc29f357788ef98a931fcb84a04c3715.webp"
     ]
   },
+  // 2. Worksphere - Kakkanad
   {
     id: 18,
     name: "Worksphere",
@@ -375,6 +399,7 @@ export const finalKochiOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/2d673acddca729285e12608497f0f676e4531a5e.webp"
     ]
   },
+  // 3. Factorm - Vytilla
   {
     id: 19,
     name: "Factorm",
@@ -394,6 +419,7 @@ export const finalKochiOfficeCards = [
       "https://img.cofynd.com/images/original/226d239686cf3de02d227e01d7ac003b5a4953b0.jpg"
     ]
   },
+  // 4. Workzo - Tripunithura
   {
     id: 20,
     name: "Workzo",
@@ -414,6 +440,7 @@ export const finalKochiOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/6d17ff24dcb02fa674dfcbee5d88de0121f6d582.webp"
     ]
   },
+  // 5. Arya Bhangy - Kalamassery
   {
     id: 21,
     name: "Arya Bhangy",
@@ -434,6 +461,7 @@ export const finalKochiOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/e207de415683a2dbe10ece933c895dabbaaf1fde.webp"
     ]
   },
+  // 6. Centre A - MG Road
   {
     id: 22,
     name: "Centre A",
@@ -454,6 +482,7 @@ export const finalKochiOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/e6848fc5e07bea2cf38a34be440fdcdb00c9df82.webp"
     ]
   },
+  // 7. Fortune Cowork - Ernakulam
   {
     id: 23,
     name: "Fortune Cowork",
@@ -473,6 +502,7 @@ export const finalKochiOfficeCards = [
       "https://img.cofynd.com/images/original/ad411a0cc36110e775eaf15d9a8c7a6735e1e38b.jpg"
     ]
   },
+  // 8. Awfis - MG Road
   {
     id: 24,
     name: "Awfis",
@@ -495,7 +525,10 @@ export const finalKochiOfficeCards = [
   }
 ];
 
+// Page 1 cards - fourth grid ("Featured coworking spaces", below the "Customized office solutions" banner).
+// Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
 export const featuredKochiOfficeCards = [
+  // 1. Keys Select Hotel - Ernakulam
   {
     id: 25,
     name: "Keys Select Hotel",
@@ -516,6 +549,7 @@ export const featuredKochiOfficeCards = [
       "https://img.cofynd.com/images/original/31c247bd09ffc315ecd7b0bb467f400a0bc49c6f.jpg"
     ]
   },
+  // 2. GreenNest Business Centre - Ernakulam
   {
     id: 26,
     name: "GreenNest Business Centre",
@@ -535,6 +569,7 @@ export const featuredKochiOfficeCards = [
       "https://img.cofynd.com/images/original/f2f3b9236c43e4583a1383e0d850d1fc60a79cc9.jpg"
     ]
   },
+  // 3. Incuspaze - Edappally
   {
     id: 27,
     name: "Incuspaze",
@@ -555,6 +590,7 @@ export const featuredKochiOfficeCards = [
       "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1606886404/uhdijdaog6cueialvxx3.webp"
     ]
   },
+  // 4. Innerspace Coworking - Edappally
   {
     id: 28,
     name: "Innerspace Coworking",
@@ -575,6 +611,7 @@ export const featuredKochiOfficeCards = [
       "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1640690240/yzpskol3fd9lmzdvoy8z.jpg"
     ]
   },
+  // 5. Monlash Business Centre - Kalamassery
   {
     id: 29,
     name: "Monlash Business Centre",
@@ -595,6 +632,7 @@ export const featuredKochiOfficeCards = [
       "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1563190739/velmptkvdmcgw1crjc91.webp"
     ]
   },
+  // 6. Creative Coworking Cube - Edappally
   {
     id: 30,
     name: "Creative Coworking Cube",
@@ -610,6 +648,7 @@ export const featuredKochiOfficeCards = [
       "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1483692577/tj2fziqy9lx3zfzoxq61.webp"
     ]
   },
+  // 7. Spacelance - Thrikkakara
   {
     id: 31,
     name: "Spacelance",
@@ -630,6 +669,7 @@ export const featuredKochiOfficeCards = [
       "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1604401130/ajtblg2idm70ag7k2x2o.jpg"
     ]
   },
+  // 8. InQ Innovation - Palarivattom
   {
     id: 32,
     name: "InQ Innovation",
@@ -652,6 +692,7 @@ export const featuredKochiOfficeCards = [
   }
 ];
 
+// Content of the "Discover your perfect workspace" banner (title, subtitle, button text, background photo).
 export const perfectWorkspaceBanner = {
   title: 'Discover your perfect workspace with Mycoworking',
   subtitle: 'Explore Flexible Coworking Solutions, Premium Amenities, and Prime Locations Across India',
@@ -665,6 +706,7 @@ export const kochiSpaces = kochiOfficeCards;
 export const areas = kochiNeighborhoods;
 export const spaces = kochiOfficeCards;
 
+// Content of the "Customized office solutions for your team" banner (title, feature list, button, background photo).
 export const customizedOfficeBanner = {
   title: 'Customized office solutions for your team',
   features: [
@@ -677,6 +719,7 @@ export const customizedOfficeBanner = {
   bgImage: 'https://img.cofynd.com/images/latest_images_2024/83bb813890447d5d3d6bda55c7133a5fd48cdbc5.webp'
 };
 
+// Content of the "Still not able to find coworking space?" banner (title, subtitle, button, background photo).
 export const stillNotFindingBanner = {
   title: 'Still not able to find coworking space?',
   subtitle: 'Our space experts will help you find the perfect coworking space in prime locations',
@@ -684,12 +727,16 @@ export const stillNotFindingBanner = {
   bgImage: 'https://img.cofynd.com/images/latest_images_2024/406c83ccb0729b57d9beb973b7e4088ab7640ef3.webp'
 };
 
+// Pagination settings: total number of pages and the page that opens first.
 export const paginationData = {
   totalPages: 2,
   initialPage: 1
 };
 
+// Page 2 cards - top grid (right under the area filter buttons).
+// Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageTwoKochiOfficeCards = [
+  // 1. Mikro Grafeio Services Private Limited - Vallathol Padi
   {
     id: 33,
     name: "Mikro Grafeio Services Private Limited",
@@ -710,6 +757,7 @@ export const pageTwoKochiOfficeCards = [
       "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1711090669/psy0jfn5nussbujeqssp.webp"
     ]
   },
+  // 2. Incuspaze - Kakkanad
   {
     id: 34,
     name: "Incuspaze",
@@ -730,6 +778,7 @@ export const pageTwoKochiOfficeCards = [
       "https://ik.imagekit.io/qdesq/qdesq/c50869caaf6267cac48fc8110fac9cbb_DuhIloXbBK.jpeg"
     ]
   },
+  // 3. KUBZ - Padamughal
   {
     id: 35,
     name: "KUBZ",
@@ -750,6 +799,7 @@ export const pageTwoKochiOfficeCards = [
       "https://qdesq.imagekit.io/tr:h-181,w-325/image/upload/v1652262411/uvqljmkrq3nxch6q7p0o.jpg"
     ]
   },
+  // 4. Mikro Grafeio - Thrikkakara
   {
     id: 36,
     name: "Mikro Grafeio",
@@ -770,6 +820,7 @@ export const pageTwoKochiOfficeCards = [
       "https://qdesq.imagekit.io/tr:h-181,w-325/image/upload/v1711092749/okmiwg7iu4d4dfmim6xu.webp"
     ]
   },
+  // 5. wowffice coworking LLP - Kakkanad
   {
     id: 37,
     name: "wowffice coworking LLP",
@@ -790,6 +841,7 @@ export const pageTwoKochiOfficeCards = [
       "https://ik.imagekit.io/qdesq/qdesq/6ec2e04c58bb71a38725769ffc643fdb_fyvd9i7Iws.jpg"
     ]
   },
+  // 6. Heiley Spaces - Padamughal
   {
     id: 38,
     name: "Heiley Spaces",
@@ -812,7 +864,10 @@ export const pageTwoKochiOfficeCards = [
   }
 ];
 
+// Page 2 cards - second grid ("Additional coworking spaces", below the top grid).
+// Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageTwoMoreKochiOfficeCards = [
+  // 1. L.R. Towers - Palarivattom
   {
     id: 39,
     name: "L.R. Towers",
@@ -831,6 +886,7 @@ export const pageTwoMoreKochiOfficeCards = [
       "https://qdesq.imagekit.io/tr:h-181,w-325/image/upload/v1645777062/obqbl22rpajcfhop0w77.jpg"
     ]
   },
+  // 2. Spaze One - Kakkanad
   {
     id: 40,
     name: "Spaze One",
@@ -851,6 +907,7 @@ export const pageTwoMoreKochiOfficeCards = [
       "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1700810936/ycdwucaamxwabbkm5t7k.webp"
     ]
   },
+  // 3. Mikro Grafeio - Kacheripady
   {
     id: 41,
     name: "Mikro Grafeio",
@@ -871,6 +928,7 @@ export const pageTwoMoreKochiOfficeCards = [
       "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1711093432/hd9lps0aq8kjsnacwvis.webp"
     ]
   },
+  // 4. BuzzWorks - Kakkanad
   {
     id: 42,
     name: "BuzzWorks",
@@ -891,6 +949,7 @@ export const pageTwoMoreKochiOfficeCards = [
       "https://qdesq.imagekit.io/tr:h-181,w-325/image/upload/v1612939279/kew0qypr2lvqqapvhkql.jpg"
     ]
   },
+  // 5. Center A - MG Road
   {
     id: 43,
     name: "Center A",
@@ -910,6 +969,7 @@ export const pageTwoMoreKochiOfficeCards = [
       "https://qdesq.imagekit.io/img/tr:h-181,w-325/image/upload/v1595251285/s6gylfkfsvfciniigif0.webp"
     ]
   },
+  // 6. Workshaala - Kakkanad
   {
     id: 44,
     name: "Workshaala",
@@ -932,7 +992,10 @@ export const pageTwoMoreKochiOfficeCards = [
   }
 ];
 
+// Page 2 cards - third grid ("Spotlight coworking spaces", below the "Discover your perfect workspace" banner).
+// Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageTwoFinalKochiOfficeCards = [
+  // 1. Collective Coworks - Kakkanad
   {
     id: 45,
     name: "Collective Coworks",
@@ -953,6 +1016,7 @@ export const pageTwoFinalKochiOfficeCards = [
       "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1678689152/cgdqpuqmculkduqyllyl.webp"
     ]
   },
+  // 2. Workiplex - MG Road
   {
     id: 46,
     name: "Workiplex",
@@ -973,6 +1037,7 @@ export const pageTwoFinalKochiOfficeCards = [
       "https://qdesq.imagekit.io/img/tr:h-181,w-325/image/upload/v1586235434/zzgq2fb2s8nhcw1z2zuq.jpg"
     ]
   },
+  // 3. Spaze One - Marine Drive
   {
     id: 47,
     name: "Spaze One",
@@ -993,6 +1058,7 @@ export const pageTwoFinalKochiOfficeCards = [
       "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1700469568/qfoug0zrxeqgpiz486py.webp"
     ]
   },
+  // 4. Spaze One - Shanmugham Road
   {
     id: 48,
     name: "Spaze One",
@@ -1013,6 +1079,7 @@ export const pageTwoFinalKochiOfficeCards = [
       "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1680069054/az2vtimqbeqnsfbtvbhk.webp"
     ]
   },
+  // 5. Jigsaw Co-Working Space - KPCC Junction
   {
     id: 49,
     name: "Jigsaw Co-Working Space",
@@ -1033,6 +1100,7 @@ export const pageTwoFinalKochiOfficeCards = [
       "https://ik.imagekit.io/qdesq/qdesq/e666f3144ce74f603fe1cf952e22ea1e_ABaSastdt.jpg"
     ]
   },
+  // 6. Blogtec Co Working Space Kochi - Ernakulam
   {
     id: 50,
     name: "Blogtec Co Working Space Kochi",
@@ -1055,7 +1123,10 @@ export const pageTwoFinalKochiOfficeCards = [
   }
 ];
 
+// Page 2 cards - fourth grid ("Featured coworking spaces", below the "Customized office solutions" banner).
+// Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageTwoFeaturedKochiOfficeCards = [
+  // 1. Spaze One - Ernakulam
   {
     id: 51,
     name: "Spaze One",
@@ -1076,6 +1147,7 @@ export const pageTwoFeaturedKochiOfficeCards = [
       "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1703579191/tux55jkcdlzx6csl9sks.webp"
     ]
   },
+  // 2. KUBZ - MG Road
   {
     id: 52,
     name: "KUBZ",
@@ -1096,6 +1168,7 @@ export const pageTwoFeaturedKochiOfficeCards = [
       "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/eae5b34df4e4760bf5da4e0c66cb2d80_V2qFipQKMH.JPG"
     ]
   },
+  // 3. Beyond Co-working - Kadavanthara
   {
     id: 53,
     name: "Beyond Co-working",
@@ -1116,6 +1189,7 @@ export const pageTwoFeaturedKochiOfficeCards = [
       "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/483a298798881686f04d784727a56f40_QEdB8rqpo.jpg"
     ]
   },
+  // 4. Dotspace - Panampilly Nagar
   {
     id: 54,
     name: "Dotspace",
@@ -1136,6 +1210,7 @@ export const pageTwoFeaturedKochiOfficeCards = [
       "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1581571944/oouk47eyrd8oyfdyvdhe.webp"
     ]
   },
+  // 5. Dotspace - KV Nagar
   {
     id: 55,
     name: "Dotspace",
@@ -1156,6 +1231,7 @@ export const pageTwoFeaturedKochiOfficeCards = [
       "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1677057803/oiw2hfyuuznbc3dxnbad.webp"
     ]
   },
+  // 6. Wbb office - Panampilly Nagar
   {
     id: 56,
     name: "Wbb office",
@@ -1178,35 +1254,62 @@ export const pageTwoFeaturedKochiOfficeCards = [
   }
 ];
 
+// Page 3 cards - top grid (right under the area filter buttons).
+// Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageThreeKochiOfficeCards = [];
 
+// Page 3 cards - second grid ("Additional coworking spaces", below the top grid).
+// Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageThreeMoreKochiOfficeCards = [];
 
+// Page 3 cards - third grid ("Spotlight coworking spaces", below the "Discover your perfect workspace" banner).
+// Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageThreeFinalKochiOfficeCards = [];
 
+// Page 3 cards - fourth grid ("Featured coworking spaces", below the "Customized office solutions" banner).
+// Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageThreeFeaturedKochiOfficeCards = [];
 
+// Page 4 cards - top grid (right under the area filter buttons).
+// Shown when pagination button 4 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageFourKochiOfficeCards = [];
 
 // Area-specific extra cards (only real same-area listings; shown only when that area filter is active).
 export const areaExtraOfficeCards = {
+  // Extra cards for the "Kakkanad" filter
   "Kakkanad": [],
+  // Extra cards for the "MG Road" filter
   "MG Road": [],
+  // Extra cards for the "Kaloor" filter
   "Kaloor": [],
+  // Extra cards for the "Edappally" filter
   "Edappally": [],
+  // Extra cards for the "Panampilly Nagar" filter
   "Panampilly Nagar": [],
+  // Extra cards for the "Infopark" filter
   "Infopark": [],
+  // Extra cards for the "Palarivattom" filter
   "Palarivattom": [],
+  // Extra cards for the "Kalamassery" filter
   "Kalamassery": [],
+  // Extra cards for the "Ernakulam" filter
   "Ernakulam": [],
+  // Extra cards for the "Marine Drive" filter
   "Marine Drive": [],
+  // Extra cards for the "Padamughal" filter
   "Padamughal": [],
+  // Extra cards for the "Thrikkakara" filter
   "Thrikkakara": [],
+  // Extra cards for the "Vytilla" filter
   "Vytilla": [],
+  // Extra cards for the "Kadavanthara" filter
   "Kadavanthara": []
 };
 
+// Page 1 cards - top grid (right under the area filter buttons).
+// Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
 export const similarKochiOfficeCards = [
+  // 1. Dotspace - Edappally
   {
     id: 1,
     name: "Dotspace",
@@ -1226,6 +1329,7 @@ export const similarKochiOfficeCards = [
       "https://img.cofynd.com/images/original/c4ffaaa0302c48d7d7b53a40b1baa28026013055.jpg"
     ]
   },
+  // 2. Incuspaze - Oberon Mall - Edappally
   {
     id: 2,
     name: "Incuspaze - Oberon Mall",
@@ -1246,6 +1350,7 @@ export const similarKochiOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/07728ca95c96cf30d65a945947251e064745045e.webp"
     ]
   },
+  // 3. Wagmi Workspace - Edappally
   {
     id: 3,
     name: "Wagmi Workspace",
@@ -1265,6 +1370,7 @@ export const similarKochiOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/a327c8dd01f9d91c0904d1d8a0f76b20e76bfaf6.webp"
     ]
   },
+  // 4. IndiQube Square - Edappally
   {
     id: 4,
     name: "IndiQube Square",
@@ -1283,6 +1389,7 @@ export const similarKochiOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/f9a775322ec06df6d74cf8315e67f811c6f6a0d0.webp"
     ]
   },
+  // 5. MARQ - Edappally
   {
     id: 5,
     name: "MARQ",
@@ -1302,6 +1409,7 @@ export const similarKochiOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/1dfefede6db360e6c71870333c3757cfe67be511.webp"
     ]
   },
+  // 6. Incuspaze - Ernakulam
   {
     id: 6,
     name: "Incuspaze",
@@ -1321,6 +1429,7 @@ export const similarKochiOfficeCards = [
       "https://img.cofynd.com/images/original/8da6bc993fe7c870ed991772dbbbecdc65c9cbec.jpg"
     ]
   },
+  // 7. Cowired co-working Space - Palarivattom
   {
     id: 7,
     name: "Cowired co-working Space",
@@ -1340,6 +1449,7 @@ export const similarKochiOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/a24d503b95319ce1bd9a744383c791f1fe588f30.webp"
     ]
   },
+  // 8. Spacelance - Kakkanad
   {
     id: 8,
     name: "Spacelance",
@@ -1359,6 +1469,7 @@ export const similarKochiOfficeCards = [
       "https://img.cofynd.com/images/original/ad0e3a08fe30769a57d1ea4339da1db670eb2db2.jpg"
     ]
   },
+  // 9. Calm Workspaces - Palarivattom
   {
     id: 9,
     name: "Calm Workspaces",
@@ -1381,6 +1492,8 @@ export const similarKochiOfficeCards = [
   }
 ];
 
+// Page 1 cards - top grid (right under the area filter buttons).
+// Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
 export const allKochiOfficeCards = [
   ...kochiOfficeCards,
   ...moreKochiOfficeCards,
@@ -1399,10 +1512,14 @@ export const allKochiOfficeCards = [
   ...Object.values(areaExtraOfficeCards).flat()
 ];
 
+// Find a Kochi card from its URL slug (or numeric id). Returns the card or null.
 export const getKochiOfficeCardById = (id) => findOfficeBySlug(allKochiOfficeCards, id, "kochi");
+// Build the URL slug / path of a Kochi card (e.g. "/name-area-kochi").
 export const getKochiOfficeSlug = (space) => officePath(allKochiOfficeCards, space, "kochi");
 
+// "Explore Top Coworking Locations" tiles at the bottom of the page (area name, title, photo). Clicking a tile filters by that area.
 export const topKochiCoworkingLocations = [
+  // 1. Kakkanad
   {
     id: "loc-kakkanad",
     name: "Kakkanad",
@@ -1410,6 +1527,7 @@ export const topKochiCoworkingLocations = [
     image: "https://img.cofynd.com/images/original/95427c76583e17c1dead627bdba2d7071739d5b2.jpg",
     ctaText: "Explore Spaces"
   },
+  // 2. MG Road
   {
     id: "loc-mg-road",
     name: "MG Road",
@@ -1417,6 +1535,7 @@ export const topKochiCoworkingLocations = [
     image: "https://img.cofynd.com/images/latest_images_2024/bf7906d678f72d5925458bb8b3bdbcffc602009f.webp",
     ctaText: "Explore Spaces"
   },
+  // 3. Kaloor
   {
     id: "loc-kaloor",
     name: "Kaloor",
@@ -1424,6 +1543,7 @@ export const topKochiCoworkingLocations = [
     image: "https://img.cofynd.com/images/original/18199e5eb6248fd3977320cfdb671bcc7c8f22d5.jpg",
     ctaText: "Explore Spaces"
   },
+  // 4. Edappally
   {
     id: "loc-edappally",
     name: "Edappally",
@@ -1431,6 +1551,7 @@ export const topKochiCoworkingLocations = [
     image: "https://img.cofynd.com/images/original/18199e5eb6248fd3977320cfdb671bcc7c8f22d5.jpg",
     ctaText: "Explore Spaces"
   },
+  // 5. Panampilly Nagar
   {
     id: "loc-panampilly-nagar",
     name: "Panampilly Nagar",
@@ -1438,6 +1559,7 @@ export const topKochiCoworkingLocations = [
     image: "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1581571944/oouk47eyrd8oyfdyvdhe.webp",
     ctaText: "Explore Spaces"
   },
+  // 6. Infopark
   {
     id: "loc-infopark",
     name: "Infopark",
@@ -1445,6 +1567,7 @@ export const topKochiCoworkingLocations = [
     image: "https://img.cofynd.com/images/latest_images_2024/0e029648dd46e478e4384a47e93ae354fa67318e.webp",
     ctaText: "Explore Spaces"
   },
+  // 7. Palarivattom
   {
     id: "loc-palarivattom",
     name: "Palarivattom",
@@ -1452,6 +1575,7 @@ export const topKochiCoworkingLocations = [
     image: "https://img.cofynd.com/images/latest_images_2024/12f5af69433be99f1af308b082205adb372d33b9.webp",
     ctaText: "Explore Spaces"
   },
+  // 8. Kalamassery
   {
     id: "loc-kalamassery",
     name: "Kalamassery",
@@ -1459,6 +1583,7 @@ export const topKochiCoworkingLocations = [
     image: "https://img.cofynd.com/images/original/4a5c91c5dcbcad48b349d7db05afe5a4fddc4411.jpg",
     ctaText: "Explore Spaces"
   },
+  // 9. Ernakulam
   {
     id: "loc-ernakulam",
     name: "Ernakulam",
@@ -1466,6 +1591,7 @@ export const topKochiCoworkingLocations = [
     image: "https://img.cofynd.com/images/original/21d51e6ccc3da4e7eff570f5f37901fb7b771320.jpg",
     ctaText: "Explore Spaces"
   },
+  // 10. Marine Drive
   {
     id: "loc-marine-drive",
     name: "Marine Drive",
@@ -1473,6 +1599,7 @@ export const topKochiCoworkingLocations = [
     image: "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1700469702/erqvttyqlkmn405wc52v.webp",
     ctaText: "Explore Spaces"
   },
+  // 11. Padamughal
   {
     id: "loc-padamughal",
     name: "Padamughal",
@@ -1480,6 +1607,7 @@ export const topKochiCoworkingLocations = [
     image: "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1652262411/byhigvnvyzimagwuokpg.jpg",
     ctaText: "Explore Spaces"
   },
+  // 12. Thrikkakara
   {
     id: "loc-thrikkakara",
     name: "Thrikkakara",
@@ -1487,6 +1615,7 @@ export const topKochiCoworkingLocations = [
     image: "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1604401123/nmaumt83revnfgkeskt6.jpg",
     ctaText: "Explore Spaces"
   },
+  // 13. Vytilla
   {
     id: "loc-vytilla",
     name: "Vytilla",
@@ -1494,6 +1623,7 @@ export const topKochiCoworkingLocations = [
     image: "https://img.cofynd.com/images/original/42092e53a16122599bb8dcc222681a1e7ab0e2b0.jpg",
     ctaText: "Explore Spaces"
   },
+  // 14. Kadavanthara
   {
     id: "loc-kadavanthara",
     name: "Kadavanthara",

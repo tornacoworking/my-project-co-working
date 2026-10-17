@@ -12,7 +12,10 @@ export const bhubaneshwarNeighborhoods = [
   'Nayapalli'
 ];
 
+// Page 1 cards - top grid (right under the area filter buttons).
+// Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
 export const bhubaneshwarOfficeCards = [
+  // 1. Fun@Work, Infocity - Patia
   {
     "id": 1,
     "name": "Fun@Work, Infocity",
@@ -32,6 +35,7 @@ export const bhubaneshwarOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/0189be5c1405b623776c3b4c663f5c54edb99aad.webp"
     ]
   },
+  // 2. The Ofis - Patia
   {
     "id": 2,
     "name": "The Ofis",
@@ -52,6 +56,7 @@ export const bhubaneshwarOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/20146b56e5db40feda6f65343c0e56522c372f32.webp"
     ]
   },
+  // 3. AutoSave Startup Studio - Sadhu Vihar
   {
     "id": 3,
     "name": "AutoSave Startup Studio",
@@ -73,6 +78,7 @@ export const bhubaneshwarOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/bafd9d459ce75fa240911061e32509c8102e53df.webp"
     ]
   },
+  // 4. Aryasha Infra - Madhusudan Nagar
   {
     "id": 4,
     "name": "Aryasha Infra",
@@ -96,6 +102,7 @@ export const bhubaneshwarOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/973d8d06d0afff4e19cbc4a30046250365dbb868.webp"
     ]
   },
+  // 5. FUN@WORK Coworking - Saheed Nagar
   {
     "id": 5,
     "name": "FUN@WORK Coworking",
@@ -116,6 +123,7 @@ export const bhubaneshwarOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/a37d5293ed613c59f95092c381a64f333668d901.webp"
     ]
   },
+  // 6. Incuspaze Coworking - Janpath Bhubaneshwar - Saheed Nagar
   {
     "id": 6,
     "name": "Incuspaze Coworking - Janpath Bhubaneshwar",
@@ -135,6 +143,7 @@ export const bhubaneshwarOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/9c761ce4f2ca4eb077872eb1f8979edd7e36df0a.webp"
     ]
   },
+  // 7. Co-working by Navan.ai - Patia
   {
     "id": 7,
     "name": "Co-working by Navan.ai",
@@ -157,6 +166,7 @@ export const bhubaneshwarOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/0716da1b48ad9ae2766fa186916a55dc3280e478.webp"
     ]
   },
+  // 8. The Boring Space - Patia
   {
     "id": 8,
     "name": "The Boring Space",
@@ -178,7 +188,10 @@ export const bhubaneshwarOfficeCards = [
   }
 ];
 
+// Page 1 cards - second grid ("Additional coworking spaces", below the top grid).
+// Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
 export const moreBhubaneshwarOfficeCards = [
+  // 1. Smartbizz - Nayapalli
   {
     id: 9,
     name: 'Smartbizz',
@@ -198,6 +211,7 @@ export const moreBhubaneshwarOfficeCards = [
       'https://img.cofynd.com/images/original/ecf2a572bb1015ece065200882c869751d186a31.jpg'
     ]
   },
+  // 2. Exospace - Rasulgarh
   {
     id: 10,
     name: 'Exospace',
@@ -218,6 +232,7 @@ export const moreBhubaneshwarOfficeCards = [
       'https://img.cofynd.com/images/original/7bb25df9c3e5a122d1a61a80cb0aba7df0adf354.jpg'
     ]
   },
+  // 3. Unispace - Patia
   {
     id: 11,
     name: 'Unispace',
@@ -237,6 +252,7 @@ export const moreBhubaneshwarOfficeCards = [
       'https://img.cofynd.com/images/original/f47f14fe1218494df26fd8d2c636eecc3f13d489.jpg'
     ]
   },
+  // 4. Workloop - Rasulgarh
   {
     id: 12,
     name: 'Workloop',
@@ -256,6 +272,7 @@ export const moreBhubaneshwarOfficeCards = [
       'https://img.cofynd.com/images/original/7977c7ef58fd94b47d6601e18e8ca79967489e3b.jpg'
     ]
   },
+  // 5. Cohopers Workstudio - Patia
   {
     id: 13,
     name: 'Cohopers Workstudio',
@@ -276,6 +293,7 @@ export const moreBhubaneshwarOfficeCards = [
       'https://img.cofynd.com/images/original/aee85bcd0c073c049c03c7a6c710aca2c07a852a.jpg'
     ]
   },
+  // 6. Workloop - Saheed Nagar
   {
     id: 14,
     name: 'Workloop',
@@ -295,6 +313,7 @@ export const moreBhubaneshwarOfficeCards = [
       'https://img.cofynd.com/images/original/dc5d8e324e407a16c9e4523f26c29ed94d305b54.jpg'
     ]
   },
+  // 7. Cowork Venue 2.0 - Satya Nagar
   {
     id: 15,
     name: 'Cowork Venue 2.0',
@@ -314,6 +333,7 @@ export const moreBhubaneshwarOfficeCards = [
       'https://img.cofynd.com/images/original/572159e72a1bfa7194941f5ee2e9e02dc9908cf6.jpg'
     ]
   },
+  // 8. Cowork Venue - Saheed Nagar
   {
     id: 16,
     name: 'Cowork Venue',
@@ -335,6 +355,7 @@ export const moreBhubaneshwarOfficeCards = [
   }
 ];
 
+// Content of the "Discover your perfect workspace" banner (title, subtitle, button text, background photo).
 export const perfectWorkspaceBanner = {
   title: 'Discover your perfect workspace with Mycoworking',
   subtitle: 'Explore Flexible Coworking Solutions, Premium Amenities, and Prime Locations Across India',
@@ -342,6 +363,7 @@ export const perfectWorkspaceBanner = {
   bgImage: 'https://img.cofynd.com/images/latest_images_2024/28f41de2ee6c67528d528dc3b55fc7ad2801dcbc.webp'
 };
 
+// Content of the "Customized office solutions for your team" banner (title, feature list, button, background photo).
 export const customizedOfficeBanner = {
   title: 'Customized office solutions for your team',
   features: [
@@ -354,6 +376,7 @@ export const customizedOfficeBanner = {
   bgImage: 'https://img.cofynd.com/images/latest_images_2024/83bb813890447d5d3d6bda55c7133a5fd48cdbc5.webp'
 };
 
+// Content of the "Still not able to find coworking space?" banner (title, subtitle, button, background photo).
 export const stillNotFindingBanner = {
   title: 'Still not able to find coworking space?',
   subtitle: 'Our space experts will help you find the perfect coworking space in prime locations',
@@ -361,6 +384,7 @@ export const stillNotFindingBanner = {
   bgImage: 'https://img.cofynd.com/images/latest_images_2024/406c83ccb0729b57d9beb973b7e4088ab7640ef3.webp'
 };
 
+// Pagination settings: total number of pages and the page that opens first.
 export const paginationData = {
   totalPages: 1,
   currentPage: 1,
@@ -375,7 +399,9 @@ export const paginationData = {
 // These cards display ONLY when that particular area button is clicked.
 // ============================================================================
 export const areaExtraOfficeCards = {
+  // Extra cards for the "Saheed Nagar" filter
   "Saheed Nagar": [
+    // 1. Incuspaze Janpath Central - Saheed Nagar
     {
       "id": 5001,
       "name": "Incuspaze Janpath Central",
@@ -395,6 +421,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/625240636c2ebdd03c98c6b4ec78bed5e2808fa0.webp"
       ]
     },
+    // 2. Mo Cowork Studio - Saheed Nagar
     {
       "id": 5002,
       "name": "Mo Cowork Studio",
@@ -414,6 +441,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/baf5ef0ed28a4ddba6d7ea5635ab90f3c1b8ad86.webp"
       ]
     },
+    // 3. Co-Office Hub Saheed Nagar - Saheed Nagar
     {
       "id": 5003,
       "name": "Co-Office Hub Saheed Nagar",
@@ -433,6 +461,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/3f51ab64aafbb3a0ac6f5de97a116acfec0486fc.webp"
       ]
     },
+    // 4. WorkSpace Central Janpath - Saheed Nagar
     {
       "id": 5004,
       "name": "WorkSpace Central Janpath",
@@ -452,6 +481,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/4f2f1ddcc298724970bdd1f173d4c393e7ef5bc9.webp"
       ]
     },
+    // 5. Startup Nest Saheed Nagar - Saheed Nagar
     {
       "id": 5005,
       "name": "Startup Nest Saheed Nagar",
@@ -471,6 +501,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/8b9878a429647ec0413ddd87987021a013926af4.webp"
       ]
     },
+    // 6. Prime Coworking Hub - Saheed Nagar
     {
       "id": 5006,
       "name": "Prime Coworking Hub",
@@ -490,6 +521,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/9c761ce4f2ca4eb077872eb1f8979edd7e36df0a.webp"
       ]
     },
+    // 7. Elite Business Centre - Saheed Nagar
     {
       "id": 5007,
       "name": "Elite Business Centre",
@@ -509,6 +541,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/6237a8b2582b03922d4560a7895cffae2b03e55f.jpg"
       ]
     },
+    // 8. Synergy Coworking Studio - Saheed Nagar
     {
       "id": 5008,
       "name": "Synergy Coworking Studio",
@@ -528,6 +561,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/4a81c027a35d48fa7cde1df66901205091b48308.jpg"
       ]
     },
+    // 9. Sprout Coworking Spaces - Saheed Nagar
     {
       "id": 5009,
       "name": "Sprout Coworking Spaces",
@@ -547,6 +581,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/d217230f84cdbf6bfe173f951045cb442032ef4c.jpg"
       ]
     },
+    // 10. Nexus Workspaces Janpath - Saheed Nagar
     {
       "id": 5010,
       "name": "Nexus Workspaces Janpath",
@@ -567,7 +602,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Patia" filter
   "Patia": [
+    // 11. IndiQube Manira - Patia
     {
       "id": 5011,
       "name": "IndiQube Manira",
@@ -587,6 +624,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/dcbbcb2b331c6a65b45ff1fc354987c61dccacec.jpg"
       ]
     },
+    // 12. AKASA Coworking - Patia
     {
       "id": 5012,
       "name": "AKASA Coworking",
@@ -606,6 +644,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/2e24d8cefd639c1b8b4e8ffc45176d317d48b50f.jpg"
       ]
     },
+    // 13. The Space Yard - Patia
     {
       "id": 5013,
       "name": "The Space Yard",
@@ -625,6 +664,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/137c7fe488e0554507f87425221ba9f2f17e72d5.jpg"
       ]
     },
+    // 14. Regus DLF Cybercity - Patia
     {
       "id": 5014,
       "name": "Regus DLF Cybercity",
@@ -644,6 +684,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/a66b445acc0289ae0963ad538d0746493fd8d63e.jpg"
       ]
     },
+    // 15. O-Hub Incubation Hub - Patia
     {
       "id": 5015,
       "name": "O-Hub Incubation Hub",
@@ -663,6 +704,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/871d8e049fad0c094b1c8185e59e204604039a7b.jpg"
       ]
     },
+    // 16. Workspace Infocity - Patia
     {
       "id": 5016,
       "name": "Workspace Infocity",
@@ -682,6 +724,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/cb7ad182d79ed4b46a3814083b045ddd369a5a5a.jpg"
       ]
     },
+    // 17. Co-Work DLF Plaza - Patia
     {
       "id": 5017,
       "name": "Co-Work DLF Plaza",
@@ -701,6 +744,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/fa63fc66e31d7ef422dc903ce05cf0cea19542f8.jpg"
       ]
     },
+    // 18. TechHub Coworking - Patia
     {
       "id": 5018,
       "name": "TechHub Coworking",
@@ -720,6 +764,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/812f385bdc570b381c34d3e7999eeafdec868d1b.jpg"
       ]
     },
+    // 19. Innov8 Space Patia - Patia
     {
       "id": 5019,
       "name": "Innov8 Space Patia",
@@ -739,6 +784,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/602ba8f2c2d79c7f6c774a4217e1b090224b841a.jpg"
       ]
     },
+    // 20. Venture Park Hub - Patia
     {
       "id": 5020,
       "name": "Venture Park Hub",
@@ -759,7 +805,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Satya Nagar" filter
   "Satya Nagar": [
+    // 21. Cowork Venue Premier - Satya Nagar
     {
       "id": 5021,
       "name": "Cowork Venue Premier",
@@ -779,6 +827,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/748d8ddca83104e67b802cdc57285ef49752cd11.webp"
       ]
     },
+    // 22. ProWork Studio - Satya Nagar
     {
       "id": 5022,
       "name": "ProWork Studio",
@@ -798,6 +847,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/f326d1954361f3929724afbb62b6001a9b9c416d.webp"
       ]
     },
+    // 23. The Loft Cowork - Satya Nagar
     {
       "id": 5023,
       "name": "The Loft Cowork",
@@ -817,6 +867,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/4be871eac445732392cfc3d28f4e6f18a099e549.webp"
       ]
     },
+    // 24. Urban Desk Satya Nagar - Satya Nagar
     {
       "id": 5024,
       "name": "Urban Desk Satya Nagar",
@@ -836,6 +887,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/57afbe7d454ed24c39a0090c308bef138df9c726.webp"
       ]
     },
+    // 25. Capital Cowork Hub - Satya Nagar
     {
       "id": 5025,
       "name": "Capital Cowork Hub",
@@ -855,6 +907,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/80bdf6bd88a5bb41fba070238747d40dd606e36b.webp"
       ]
     },
+    // 26. Hive Workspaces - Satya Nagar
     {
       "id": 5026,
       "name": "Hive Workspaces",
@@ -874,6 +927,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/7fc91c9d6dd88326a8f3f535e537aa1026d60fac.webp"
       ]
     },
+    // 27. SmartSpace Studio - Satya Nagar
     {
       "id": 5027,
       "name": "SmartSpace Studio",
@@ -893,6 +947,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/05510bfd063e88da6435bccb2ef76a7ab8f9e7d0.jpg"
       ]
     },
+    // 28. Genesis Cowork - Satya Nagar
     {
       "id": 5028,
       "name": "Genesis Cowork",
@@ -912,6 +967,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/ecf2a572bb1015ece065200882c869751d186a31.jpg"
       ]
     },
+    // 29. Focus Co-working - Satya Nagar
     {
       "id": 5029,
       "name": "Focus Co-working",
@@ -931,6 +987,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/82bdad1bb48908ef44a53e8e1bc0565a17f9643b.jpg"
       ]
     },
+    // 30. Venture Desk Hub - Satya Nagar
     {
       "id": 5030,
       "name": "Venture Desk Hub",
@@ -951,7 +1008,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Rasulgarh" filter
   "Rasulgarh": [
+    // 31. Workloop Premier Hub - Rasulgarh
     {
       "id": 5031,
       "name": "Workloop Premier Hub",
@@ -971,6 +1030,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/a2e7b88a4e40f6356bbaff92572d36a7634bce88.jpg"
       ]
     },
+    // 32. Exospace Nexus - Rasulgarh
     {
       "id": 5032,
       "name": "Exospace Nexus",
@@ -990,6 +1050,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/fd5fa5ae02a2f0dcb2c861b9edb9213dfeedff77.jpg"
       ]
     },
+    // 33. Cuttack Road Coworking - Rasulgarh
     {
       "id": 5033,
       "name": "Cuttack Road Coworking",
@@ -1009,6 +1070,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/7977c7ef58fd94b47d6601e18e8ca79967489e3b.jpg"
       ]
     },
+    // 34. Esplanade Business Studio - Rasulgarh
     {
       "id": 5034,
       "name": "Esplanade Business Studio",
@@ -1028,6 +1090,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/1703440355547dcef25292b55f25574d3b3a3e8f.jpg"
       ]
     },
+    // 35. Hub 53 Workspace - Rasulgarh
     {
       "id": 5035,
       "name": "Hub 53 Workspace",
@@ -1047,6 +1110,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/ee80602bf8e8da06f524f27d041336c62fd0e77e.jpg"
       ]
     },
+    // 36. Dynamic Workspace - Rasulgarh
     {
       "id": 5036,
       "name": "Dynamic Workspace",
@@ -1066,6 +1130,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/fd94822345e21286eff507310da71a3b5d2b9c93.jpg"
       ]
     },
+    // 37. InnoWork Rasulgarh - Rasulgarh
     {
       "id": 5037,
       "name": "InnoWork Rasulgarh",
@@ -1085,6 +1150,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/6afef68f12f588690db97e8fd05a7a3c50b2ff80.jpg"
       ]
     },
+    // 38. Apex Coworking - Rasulgarh
     {
       "id": 5038,
       "name": "Apex Coworking",
@@ -1104,6 +1170,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/572159e72a1bfa7194941f5ee2e9e02dc9908cf6.jpg"
       ]
     },
+    // 39. Metro Workspace Rasulgarh - Rasulgarh
     {
       "id": 5039,
       "name": "Metro Workspace Rasulgarh",
@@ -1123,6 +1190,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/11d8c7f19a5cb8ef2ea10a44034524b28e3f7764.jpg"
       ]
     },
+    // 40. The Workstation Rasulgarh - Rasulgarh
     {
       "id": 5040,
       "name": "The Workstation Rasulgarh",
@@ -1143,7 +1211,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Nayapalli" filter
   "Nayapalli": [
+    // 41. Smartbizz Central - Nayapalli
     {
       "id": 5041,
       "name": "Smartbizz Central",
@@ -1163,6 +1233,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/402b108415bb8152dc5a7685919b16b8c32aa9bf.webp"
       ]
     },
+    // 42. Awfis Nayapalli - Nayapalli
     {
       "id": 5042,
       "name": "Awfis Nayapalli",
@@ -1182,6 +1253,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/1c78294fce7c48dbdba4deb28fc9f04780caca7d.webp"
       ]
     },
+    // 43. Jayadev Vihar Cowork - Nayapalli
     {
       "id": 5043,
       "name": "Jayadev Vihar Cowork",
@@ -1201,6 +1273,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/88476f5ddd7abbe5a7e3e377e1ae07d91eed69a9.webp"
       ]
     },
+    // 44. Venture Hub Nayapalli - Nayapalli
     {
       "id": 5044,
       "name": "Venture Hub Nayapalli",
@@ -1220,6 +1293,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/141f87c7356ec8134537b37d9d8c9fbb0dd67a04.webp"
       ]
     },
+    // 45. FlexiWork Studio - Nayapalli
     {
       "id": 5045,
       "name": "FlexiWork Studio",
@@ -1239,6 +1313,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/43ea5ab9e05543b88836ed8eebe9a622fd581c78.webp"
       ]
     },
+    // 46. Regus Nayapalli - Nayapalli
     {
       "id": 5046,
       "name": "Regus Nayapalli",
@@ -1258,6 +1333,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/43056402f0efdeff8193d255d19fb9a19c128bc5.webp"
       ]
     },
+    // 47. Co-Work Hub Nayapalli - Nayapalli
     {
       "id": 5047,
       "name": "Co-Work Hub Nayapalli",
@@ -1277,6 +1353,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/20149115d84c919c1f32f24f1c299f652f465f6a.jpg"
       ]
     },
+    // 48. WorkNest IRC - Nayapalli
     {
       "id": 5048,
       "name": "WorkNest IRC",
@@ -1296,6 +1373,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/6d451e81f76913b266892b77c6474c9f9fcbde05.jpg"
       ]
     },
+    // 49. Focus Point Coworking - Nayapalli
     {
       "id": 5049,
       "name": "Focus Point Coworking",
@@ -1315,6 +1393,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/12d939ec092ac12db73db544fd1d87386bb4743c.jpg"
       ]
     },
+    // 50. Innovate Workspace Nayapalli - Nayapalli
     {
       "id": 5050,
       "name": "Innovate Workspace Nayapalli",
@@ -1353,8 +1432,10 @@ export const allBhubaneshwarOfficeCards = [
  * @returns {object|null}
  */
 export const getBhubaneshwarOfficeCardById = (id) => findOfficeBySlug(allBhubaneshwarOfficeCards, id, "bhubaneswar");
+// Build the URL slug / path of a Bhubaneswar card (e.g. "/name-area-bhubaneswar").
 export const getBhubaneshwarOfficeSlug = (space) => officePath(allBhubaneshwarOfficeCards, space, "bhubaneswar");
 
+// Cards offered in the "Similar Coworking Spaces" slider on the office detail page.
 export const similarBhubaneshwarOfficeCards = bhubaneshwarOfficeCards.slice(0, 4);
 
 // ============================================================================
@@ -1362,6 +1443,7 @@ export const similarBhubaneshwarOfficeCards = bhubaneshwarOfficeCards.slice(0, 4
 // Sourced from verified active coworking spaces in each key Bhubaneshwar hub
 // ============================================================================
 export const topBhubaneshwarCoworkingLocations = [
+  // 1. Saheed Nagar
   {
     "id": "loc-saheed-nagar",
     "name": "Saheed Nagar",
@@ -1369,6 +1451,7 @@ export const topBhubaneshwarCoworkingLocations = [
     "image": "https://img.cofynd.com/images/latest_images_2024/88476f5ddd7abbe5a7e3e377e1ae07d91eed69a9.webp",
     "ctaText": "Explore Spaces"
   },
+  // 2. Patia
   {
     "id": "loc-patia",
     "name": "Patia",
@@ -1376,6 +1459,7 @@ export const topBhubaneshwarCoworkingLocations = [
     "image": "https://img.cofynd.com/images/latest_images_2024/0b036df3f5905862372d78559165f6f9090dab90.webp",
     "ctaText": "Explore Spaces"
   },
+  // 3. Satya Nagar
   {
     "id": "loc-satya-nagar",
     "name": "Satya Nagar",
@@ -1383,6 +1467,7 @@ export const topBhubaneshwarCoworkingLocations = [
     "image": "https://img.cofynd.com/images/original/fa63fc66e31d7ef422dc903ce05cf0cea19542f8.jpg",
     "ctaText": "Explore Spaces"
   },
+  // 4. Rasulgarh
   {
     "id": "loc-rasulgarh",
     "name": "Rasulgarh",
@@ -1390,6 +1475,7 @@ export const topBhubaneshwarCoworkingLocations = [
     "image": "https://img.cofynd.com/images/original/6d451e81f76913b266892b77c6474c9f9fcbde05.jpg",
     "ctaText": "Explore Spaces"
   },
+  // 5. Nayapalli
   {
     "id": "loc-nayapalli",
     "name": "Nayapalli",

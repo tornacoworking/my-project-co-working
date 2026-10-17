@@ -32,9 +32,13 @@ export const dehliNeighborhoods = [
   "Lajpat Nagar",
   "Uttam Nagar"
 ];
+// Alias of the list above, kept so other files can import either spelling of the name.
 export const delhiNeighborhoods = dehliNeighborhoods;
 
+// Page 1 cards - top grid (right under the area filter buttons).
+// Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
 export const dehliOfficeCards = [
+  // 1. Innov8 Connaught Place - Connaught Place
   {
     "id": 1,
     "name": "Innov8 Connaught Place",
@@ -54,6 +58,7 @@ export const dehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/ab576488b8b093a77109f96db0114c14eac6fd5f.webp"
     ]
   },
+  // 2. Brain on Rent Malviya Nagar - Malviya Nagar
   {
     "id": 2,
     "name": "Brain on Rent Malviya Nagar",
@@ -73,6 +78,7 @@ export const dehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/56828e01a10a469e9caeb80bab77d030112f5bc0.webp"
     ]
   },
+  // 3. Innov8 Aerocity - Aerocity
   {
     "id": 3,
     "name": "Innov8 Aerocity",
@@ -92,6 +98,7 @@ export const dehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/02a6b73994ab73342352da1e4febc3c63da1f288.webp"
     ]
   },
+  // 4. 91Springboard Mohan Cooperative - Mohan Cooperative
   {
     "id": 4,
     "name": "91Springboard Mohan Cooperative",
@@ -111,6 +118,7 @@ export const dehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/6d6e45cf34257d65402406dce7c3e9f8b1c43bb8.webp"
     ]
   },
+  // 5. Innov8 Saket - Saket
   {
     "id": 5,
     "name": "Innov8 Saket",
@@ -130,6 +138,7 @@ export const dehliOfficeCards = [
       "https://img.cofynd.com/images/original/b4e185468b2ad2276a995a8e9436f75e5565cd17.jpg"
     ]
   },
+  // 6. Innov8 Okhla - Okhla
   {
     "id": 6,
     "name": "Innov8 Okhla",
@@ -149,6 +158,7 @@ export const dehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/e8c664be23bbe5fd7f06fe7ed7a0da1663f6c353.webp"
     ]
   },
+  // 7. Co-Offiz Netaji Subhash Place - Netaji Subhash Place
   {
     "id": 7,
     "name": "Co-Offiz Netaji Subhash Place",
@@ -168,6 +178,7 @@ export const dehliOfficeCards = [
       "https://img.cofynd.com/images/original/6c4110298c6623fcd041cee0ca511fe104f552de.jpg"
     ]
   },
+  // 8. 91Springboard Nehru Place - Nehru Place
   {
     "id": 8,
     "name": "91Springboard Nehru Place",
@@ -188,9 +199,13 @@ export const dehliOfficeCards = [
     ]
   }
 ];
+// Alias of the list above, kept so other files can import either spelling of the name.
 export const delhiOfficeCards = dehliOfficeCards;
 
+// Page 1 cards - second grid ("Additional coworking spaces", below the top grid).
+// Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
 export const moreDehliOfficeCards = [
+  // 1. Spring House SHDL001 Janakpuri - Janakpuri
   {
     "id": 9,
     "name": "Spring House SHDL001 Janakpuri",
@@ -210,6 +225,7 @@ export const moreDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/a360db675fcf732815b80a12b019f5fdf94c8f1b.webp"
     ]
   },
+  // 2. IKSANA Workspaces by Pannal South Delhi - South Delhi
   {
     "id": 10,
     "name": "IKSANA Workspaces by Pannal South Delhi",
@@ -229,6 +245,7 @@ export const moreDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/525b1d29c4342ea32324e590fade080a57a97718.webp"
     ]
   },
+  // 3. Workingdom Dwarka Delhi - Dwarka Delhi
   {
     "id": 11,
     "name": "Workingdom Dwarka Delhi",
@@ -248,6 +265,7 @@ export const moreDehliOfficeCards = [
       "https://img.cofynd.com/images/original/8df97965d75029659a16676a08059f97a5d4073c.jpg"
     ]
   },
+  // 4. Team Station Rohini - Rohini
   {
     "id": 12,
     "name": "Team Station Rohini",
@@ -267,6 +285,7 @@ export const moreDehliOfficeCards = [
       "https://img.cofynd.com/images/original/7e82693e3ac7e64f0fa65d68732179b5d22c5934.jpg"
     ]
   },
+  // 5. Corporate Blu A Rajouri Garden - Rajouri Garden
   {
     "id": 13,
     "name": "Corporate Blu A Rajouri Garden",
@@ -285,6 +304,7 @@ export const moreDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/3c3eca7ba71323e8d83a6104855a41edd9384f46.webp"
     ]
   },
+  // 6. Peer Share Vasant Kunj - Vasant Kunj
   {
     "id": 14,
     "name": "Peer Share Vasant Kunj",
@@ -304,6 +324,7 @@ export const moreDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/b2c78606d578872d8fa1e6809070b69bbc61ed81.webp"
     ]
   },
+  // 7. Office On Laxmi Nagar - Laxmi Nagar
   {
     "id": 15,
     "name": "Office On Laxmi Nagar",
@@ -323,6 +344,7 @@ export const moreDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/fac90594f0ad3e99d48818602c703859d5c4ec12.webp"
     ]
   },
+  // 8. Delhi Co. Hauz Khas - Hauz Khas
   {
     "id": 16,
     "name": "Delhi Co. Hauz Khas",
@@ -343,8 +365,10 @@ export const moreDehliOfficeCards = [
     ]
   }
 ];
+// Alias of the list above, kept so other files can import either spelling of the name.
 export const moreDelhiOfficeCards = moreDehliOfficeCards;
 
+// Content of the "Discover your perfect workspace" banner (title, subtitle, button text, background photo).
 export const perfectWorkspaceBanner = {
   "title": "Discover your perfect workspace with Mycoworking",
   "subtitle": "Explore Flexible Coworking Solutions, Premium Amenities, and Prime Locations Across India",
@@ -352,7 +376,10 @@ export const perfectWorkspaceBanner = {
   "bgImage": "https://img.cofynd.com/images/latest_images_2024/28f41de2ee6c67528d528dc3b55fc7ad2801dcbc.webp"
 };
 
+// Page 1 cards - third grid ("Spotlight coworking spaces", below the "Discover your perfect workspace" banner).
+// Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
 export const finalDehliOfficeCards = [
+  // 1. DesqWorx Green Park - Green Park
   {
     "id": 17,
     "name": "DesqWorx Green Park",
@@ -372,6 +399,7 @@ export const finalDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/fba1af6c924c6f2233fac26aa791f6620b163951.webp"
     ]
   },
+  // 2. Urban Cabin Cowork Pusa Road - Pusa Road
   {
     "id": 18,
     "name": "Urban Cabin Cowork Pusa Road",
@@ -391,6 +419,7 @@ export const finalDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/dfaa4a87a2ff88bf5de97dc2ad089a2d56e9a93a.webp"
     ]
   },
+  // 3. The Circle.Work Jasola - Jasola
   {
     "id": 19,
     "name": "The Circle.Work Jasola",
@@ -410,6 +439,7 @@ export const finalDehliOfficeCards = [
       "https://img.cofynd.com/images/original/a1697c2e3c57ef70227da4ecb1f2a56159502ded.jpg"
     ]
   },
+  // 4. Solace Coworks Karol Bagh - Karol Bagh
   {
     "id": 20,
     "name": "Solace Coworks Karol Bagh",
@@ -429,6 +459,7 @@ export const finalDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/598b83d6ffff784690712b9361ce041a5633fd96.webp"
     ]
   },
+  // 5. Hub And Oak Defence Colony - Defence Colony
   {
     "id": 21,
     "name": "Hub And Oak Defence Colony",
@@ -448,6 +479,7 @@ export const finalDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/054d79a58d265452716e5ad5c95957234f08d26f.webp"
     ]
   },
+  // 6. Ojas Co-working Patel Nagar - Patel Nagar
   {
     "id": 22,
     "name": "Ojas Co-working Patel Nagar",
@@ -467,6 +499,7 @@ export const finalDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/c14dc2e9264f55b9bc5097f89b2db1c5ceea10d5.webp"
     ]
   },
+  // 7. 9 to 5 Cowork Lajpat Nagar - Lajpat Nagar
   {
     "id": 23,
     "name": "9 to 5 Cowork Lajpat Nagar",
@@ -486,6 +519,7 @@ export const finalDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/2368a18a715538ff6f7bb6dedd31729240b2afc1.webp"
     ]
   },
+  // 8. Udyogaa Uttam Nagar - Uttam Nagar
   {
     "id": 24,
     "name": "Udyogaa Uttam Nagar",
@@ -506,9 +540,13 @@ export const finalDehliOfficeCards = [
     ]
   }
 ];
+// Alias of the list above, kept so other files can import either spelling of the name.
 export const finalDelhiOfficeCards = finalDehliOfficeCards;
 
+// Page 1 cards - fourth grid ("Featured coworking spaces", below the "Customized office solutions" banner).
+// Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
 export const featuredDehliOfficeCards = [
+  // 1. Nukleus R Connaught Place - Connaught Place
   {
     "id": 25,
     "name": "Nukleus R Connaught Place",
@@ -528,6 +566,7 @@ export const featuredDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/cbeacce580f4a7105f6d0c7650f534b7a5b47327.webp"
     ]
   },
+  // 2. ZO Accelerator Space Malviya Nagar - Malviya Nagar
   {
     "id": 26,
     "name": "ZO Accelerator Space Malviya Nagar",
@@ -547,6 +586,7 @@ export const featuredDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/a22aa36effc8c0f25d1d1ce35935f0bcf96f83d8.webp"
     ]
   },
+  // 3. Cowrks Aerocity - Aerocity
   {
     "id": 27,
     "name": "Cowrks Aerocity",
@@ -566,6 +606,7 @@ export const featuredDehliOfficeCards = [
       "https://img.cofynd.com/images/original/0c6f16043d233b60a0773f2e2fe070cf6afa2d03.jpg"
     ]
   },
+  // 4. AltF Mohan Cooperative - Mohan Cooperative
   {
     "id": 28,
     "name": "AltF Mohan Cooperative",
@@ -585,6 +626,7 @@ export const featuredDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/15aa6b54ce0b30bd0433905e3dbf32175815fc6c.webp"
     ]
   },
+  // 5. Nukleus Saket - Saket
   {
     "id": 29,
     "name": "Nukleus Saket",
@@ -604,6 +646,7 @@ export const featuredDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/6d1e7fce37362f1f16b81e0b38ad45b544223171.webp"
     ]
   },
+  // 6. AltF Okhla - Okhla
   {
     "id": 30,
     "name": "AltF Okhla",
@@ -623,6 +666,7 @@ export const featuredDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/48d323d90e25a59421cba1c06db443826bb20418.webp"
     ]
   },
+  // 7. Fume Coworking 2.0 Netaji Subhash Place - Netaji Subhash Place
   {
     "id": 31,
     "name": "Fume Coworking 2.0 Netaji Subhash Place",
@@ -642,6 +686,7 @@ export const featuredDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/818c196cb2b92da65cb6a6eec6a081fee40ca620.webp"
     ]
   },
+  // 8. Wolk B Nehru Place - Nehru Place
   {
     "id": 32,
     "name": "Wolk B Nehru Place",
@@ -662,8 +707,10 @@ export const featuredDehliOfficeCards = [
     ]
   }
 ];
+// Alias of the list above, kept so other files can import either spelling of the name.
 export const featuredDelhiOfficeCards = featuredDehliOfficeCards;
 
+// Content of the "Customized office solutions for your team" banner (title, feature list, button, background photo).
 export const customizedOfficeBanner = {
   "title": "Customized office solutions for your team",
   "features": [
@@ -688,6 +735,7 @@ export const customizedOfficeBanner = {
   "bgImage": "https://img.cofynd.com/images/latest_images_2024/83bb813890447d5d3d6bda55c7133a5fd48cdbc5.webp"
 };
 
+// Content of the "Still not able to find coworking space?" banner (title, subtitle, button, background photo).
 export const stillNotFindingBanner = {
   "title": "Still not able to find coworking space?",
   "subtitle": "Our space experts will help you find the perfect coworking space in prime locations",
@@ -695,12 +743,16 @@ export const stillNotFindingBanner = {
   "bgImage": "https://img.cofynd.com/images/latest_images_2024/406c83ccb0729b57d9beb973b7e4088ab7640ef3.webp"
 };
 
+// Pagination settings: total number of pages and the page that opens first.
 export const paginationData = {
   "totalPages": 8,
   "initialPage": 1
 };
 
+// Page 2 cards - top grid (right under the area filter buttons).
+// Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageTwoDehliOfficeCards = [
+  // 1. Co-Offiz Janakpuri - Janakpuri
   {
     "id": 33,
     "name": "Co-Offiz Janakpuri",
@@ -720,6 +772,7 @@ export const pageTwoDehliOfficeCards = [
       "https://img.cofynd.com/images/original/461f6c54542eacbd61ce146ab1b03a01f1f77413.jpg"
     ]
   },
+  // 2. Zing Space 381 South Delhi - South Delhi
   {
     "id": 34,
     "name": "Zing Space 381 South Delhi",
@@ -739,6 +792,7 @@ export const pageTwoDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/ced01cecd30dca4d1df33c747a9a1af3ce9ccdbf.webp"
     ]
   },
+  // 3. YC Coworking Dwarka Delhi - Dwarka Delhi
   {
     "id": 35,
     "name": "YC Coworking Dwarka Delhi",
@@ -758,6 +812,7 @@ export const pageTwoDehliOfficeCards = [
       "https://img.cofynd.com/images/original/2cad774819a83d7965a67bd4a505cf9fb077550f.jpg"
     ]
   },
+  // 4. Linkup Coworking Space Rohini - Rohini
   {
     "id": 36,
     "name": "Linkup Coworking Space Rohini",
@@ -777,6 +832,7 @@ export const pageTwoDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/5c83448d350de2ad6a12a0c0906986a5c95ed247.webp"
     ]
   },
+  // 5. Nearby Desk Vasant Kunj - Vasant Kunj
   {
     "id": 37,
     "name": "Nearby Desk Vasant Kunj",
@@ -796,6 +852,7 @@ export const pageTwoDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/7d56ac9486fc16053666dc6e4f655ec3e80af0fb.webp"
     ]
   },
+  // 6. Wbb Office Laxmi Nagar - Laxmi Nagar
   {
     "id": 38,
     "name": "Wbb Office Laxmi Nagar",
@@ -815,6 +872,7 @@ export const pageTwoDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/9798e8387e4127e902593a962f61fa9f5175dd1f.webp"
     ]
   },
+  // 7. Spaced Out Hauz Khas - Hauz Khas
   {
     "id": 39,
     "name": "Spaced Out Hauz Khas",
@@ -834,6 +892,7 @@ export const pageTwoDehliOfficeCards = [
       "https://img.cofynd.com/images/original/b572503859e4e986a98a57bda6f8ea3ec0f824b2.jpg"
     ]
   },
+  // 8. ABL Workspace Green Park - Green Park
   {
     "id": 40,
     "name": "ABL Workspace Green Park",
@@ -854,9 +913,13 @@ export const pageTwoDehliOfficeCards = [
     ]
   }
 ];
+// Alias of the list above, kept so other files can import either spelling of the name.
 export const pageTwoDelhiOfficeCards = pageTwoDehliOfficeCards;
 
+// Page 2 cards - second grid ("Additional coworking spaces", below the top grid).
+// Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageTwoMoreDehliOfficeCards = [
+  // 1. Flexihub space Jasola - Jasola
   {
     "id": 41,
     "name": "Flexihub space Jasola",
@@ -876,6 +939,7 @@ export const pageTwoMoreDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/28dad7bc45d09e276c31eb7aeee75a0737467e3a.webp"
     ]
   },
+  // 2. Dynamic Desk Karol Bagh - Karol Bagh
   {
     "id": 42,
     "name": "Dynamic Desk Karol Bagh",
@@ -895,6 +959,7 @@ export const pageTwoMoreDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/8cbab76fb541186d61f665d6b929c07d3601a68c.webp"
     ]
   },
+  // 3. Cospaces Lajpat Nagar - Lajpat Nagar
   {
     "id": 43,
     "name": "Cospaces Lajpat Nagar",
@@ -914,6 +979,7 @@ export const pageTwoMoreDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/a6cd79850ecdd74b7cde570281ceef78498d254f.webp"
     ]
   },
+  // 4. Apeejay Business Center Connaught Place - Connaught Place
   {
     "id": 44,
     "name": "Apeejay Business Center Connaught Place",
@@ -933,6 +999,7 @@ export const pageTwoMoreDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/f71952261742da604823ba1780884319578829d2.webp"
     ]
   },
+  // 5. Atelier ( Cowrks ) Aerocity - Aerocity
   {
     "id": 45,
     "name": "Atelier ( Cowrks ) Aerocity",
@@ -952,6 +1019,7 @@ export const pageTwoMoreDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/a33e73238068a924018616bdf2e92d8cf9197807.webp"
     ]
   },
+  // 6. Awfis Mohan Cooperative - Mohan Cooperative
   {
     "id": 46,
     "name": "Awfis Mohan Cooperative",
@@ -971,6 +1039,7 @@ export const pageTwoMoreDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/8b2bddf08063d24c37475b1f8ae3af4b743a2420.webp"
     ]
   },
+  // 7. Avanta Business Centre Saket - Saket
   {
     "id": 47,
     "name": "Avanta Business Centre Saket",
@@ -990,6 +1059,7 @@ export const pageTwoMoreDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/fd051dff12447570c11f1a19638099dfe7936092.webp"
     ]
   },
+  // 8. Hub And Oak Okhla - Okhla
   {
     "id": 48,
     "name": "Hub And Oak Okhla",
@@ -1010,9 +1080,13 @@ export const pageTwoMoreDehliOfficeCards = [
     ]
   }
 ];
+// Alias of the list above, kept so other files can import either spelling of the name.
 export const pageTwoMoreDelhiOfficeCards = pageTwoMoreDehliOfficeCards;
 
+// Page 2 cards - third grid ("Spotlight coworking spaces", below the "Discover your perfect workspace" banner).
+// Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageTwoFinalDehliOfficeCards = [
+  // 1. Work Exchange Netaji Subhash Place - Netaji Subhash Place
   {
     "id": 49,
     "name": "Work Exchange Netaji Subhash Place",
@@ -1032,6 +1106,7 @@ export const pageTwoFinalDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/547b5b79ea3a69f5a1414325ae2895255dbcbdf8.webp"
     ]
   },
+  // 2. Avanta Business Centre Nehru Place - Nehru Place
   {
     "id": 50,
     "name": "Avanta Business Centre Nehru Place",
@@ -1051,6 +1126,7 @@ export const pageTwoFinalDehliOfficeCards = [
       "https://img.cofynd.com/images/original/cec2dad9b5dccb03dab1b6a387d281116a94c926.jpg"
     ]
   },
+  // 3. Spring House SHDL002 Janakpuri - Janakpuri
   {
     "id": 51,
     "name": "Spring House SHDL002 Janakpuri",
@@ -1070,6 +1146,7 @@ export const pageTwoFinalDehliOfficeCards = [
       "https://img.cofynd.com/images/original/d0f6c666bebffa5a0dda8648eb64bea21168e6c3.jpg"
     ]
   },
+  // 4. CorporatEdge South Delhi - South Delhi
   {
     "id": 52,
     "name": "CorporatEdge South Delhi",
@@ -1089,6 +1166,7 @@ export const pageTwoFinalDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/df15f98ba012e58d82ee22342fb1a52c9e665f98.webp"
     ]
   },
+  // 5. Invento Workspaces 12A Dwarka Delhi - Dwarka Delhi
   {
     "id": 53,
     "name": "Invento Workspaces 12A Dwarka Delhi",
@@ -1108,6 +1186,7 @@ export const pageTwoFinalDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/3dd636f5c7cbc5ae4c275306e5084c1b810b03da.webp"
     ]
   },
+  // 6. Brainy Colony Rohini - Rohini
   {
     "id": 54,
     "name": "Brainy Colony Rohini",
@@ -1126,6 +1205,7 @@ export const pageTwoFinalDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/2575018cc8ac248ce9885b10609bd9ee29c41a02.webp"
     ]
   },
+  // 7. Cowork Pad Hauz Khas - Hauz Khas
   {
     "id": 55,
     "name": "Cowork Pad Hauz Khas",
@@ -1145,6 +1225,7 @@ export const pageTwoFinalDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/baf88304cc2f73a1ee7e008c5e1025f9027e085a.webp"
     ]
   },
+  // 8. Green Coworking Space Green Park - Green Park
   {
     "id": 56,
     "name": "Green Coworking Space Green Park",
@@ -1165,9 +1246,13 @@ export const pageTwoFinalDehliOfficeCards = [
     ]
   }
 ];
+// Alias of the list above, kept so other files can import either spelling of the name.
 export const pageTwoFinalDelhiOfficeCards = pageTwoFinalDehliOfficeCards;
 
+// Page 2 cards - fourth grid ("Featured coworking spaces", below the "Customized office solutions" banner).
+// Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageTwoFeaturedDehliOfficeCards = [
+  // 1. Solace Karol Bagh - Karol Bagh
   {
     "id": 57,
     "name": "Solace Karol Bagh",
@@ -1187,6 +1272,7 @@ export const pageTwoFeaturedDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/9b3f0c4ec0f70988508946038c8cf81cd3279a5d.webp"
     ]
   },
+  // 2. Awfis Connaught Place - Connaught Place
   {
     "id": 58,
     "name": "Awfis Connaught Place",
@@ -1206,6 +1292,7 @@ export const pageTwoFeaturedDehliOfficeCards = [
       "https://img.cofynd.com/images/original/a9e4e4e0027b7403a097d85842847623fede1589.jpg"
     ]
   },
+  // 3. Wework Aerocity - Aerocity
   {
     "id": 59,
     "name": "Wework Aerocity",
@@ -1225,6 +1312,7 @@ export const pageTwoFeaturedDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/844dd098754317f232933ac4d56af62b4013d437.webp"
     ]
   },
+  // 4. The Office Pass Mohan Cooperative - Mohan Cooperative
   {
     "id": 60,
     "name": "The Office Pass Mohan Cooperative",
@@ -1244,6 +1332,7 @@ export const pageTwoFeaturedDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/7f72584086b36bb50d189210da996571f1a87423.webp"
     ]
   },
+  // 5. Collative Saket - Saket
   {
     "id": 61,
     "name": "Collative Saket",
@@ -1263,6 +1352,7 @@ export const pageTwoFeaturedDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/ccd2b47423f8c4d7c02667b8202f6ed52d9840e3.webp"
     ]
   },
+  // 6. Onward Workspaces ||| Okhla - Okhla
   {
     "id": 62,
     "name": "Onward Workspaces ||| Okhla",
@@ -1282,6 +1372,7 @@ export const pageTwoFeaturedDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/60c534a7442fb77e6a39ebfc4d415b7da4637f0a.webp"
     ]
   },
+  // 7. Fume Coworking 1.0 Netaji Subhash Place - Netaji Subhash Place
   {
     "id": 63,
     "name": "Fume Coworking 1.0 Netaji Subhash Place",
@@ -1301,6 +1392,7 @@ export const pageTwoFeaturedDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/343ee9a4aaacb38faeff8ad8271f19127fece54b.webp"
     ]
   },
+  // 8. Rworkspaces B Nehru Place - Nehru Place
   {
     "id": 64,
     "name": "Rworkspaces B Nehru Place",
@@ -1321,9 +1413,13 @@ export const pageTwoFeaturedDehliOfficeCards = [
     ]
   }
 ];
+// Alias of the list above, kept so other files can import either spelling of the name.
 export const pageTwoFeaturedDelhiOfficeCards = pageTwoFeaturedDehliOfficeCards;
 
+// Page 3 cards - top grid (right under the area filter buttons).
+// Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageThreeDehliOfficeCards = [
+  // 1. The Club Co Janakpuri - Janakpuri
   {
     "id": 65,
     "name": "The Club Co Janakpuri",
@@ -1343,6 +1439,7 @@ export const pageThreeDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/11006c141883bc059e003a631d2cad7aa9ed937a.webp"
     ]
   },
+  // 2. Spacify Dwarka Delhi - Dwarka Delhi
   {
     "id": 66,
     "name": "Spacify Dwarka Delhi",
@@ -1362,6 +1459,7 @@ export const pageThreeDehliOfficeCards = [
       "https://img.cofynd.com/images/original/a3e1e0c5ab686029ac26018525f0626a46f409e2.jpg"
     ]
   },
+  // 3. Martini Rohini - Rohini
   {
     "id": 67,
     "name": "Martini Rohini",
@@ -1381,6 +1479,7 @@ export const pageThreeDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/cbcfa9e3bbcb8932b7cd371ab2badef74d6a7df0.webp"
     ]
   },
+  // 4. Avanta Business Centre B Connaught Place - Connaught Place
   {
     "id": 68,
     "name": "Avanta Business Centre B Connaught Place",
@@ -1400,6 +1499,7 @@ export const pageThreeDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/222774287690fa30c9bc312d048da9b29536cba4.webp"
     ]
   },
+  // 5. The Executive Centre Aerocity - Aerocity
   {
     "id": 69,
     "name": "The Executive Centre Aerocity",
@@ -1419,6 +1519,7 @@ export const pageThreeDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/35cde1abb4445baeb9742548abb4e0904cd75689.webp"
     ]
   },
+  // 6. Onward Workspaces Mohan Cooperative - Mohan Cooperative
   {
     "id": 70,
     "name": "Onward Workspaces Mohan Cooperative",
@@ -1438,6 +1539,7 @@ export const pageThreeDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/b98cc5de6670141b4a35a3cb80e5247933158e91.webp"
     ]
   },
+  // 7. Innov8 F Saket - Saket
   {
     "id": 71,
     "name": "Innov8 F Saket",
@@ -1457,6 +1559,7 @@ export const pageThreeDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/f3b35608d1a40cb38ae88324f2f2ded057d622cf.webp"
     ]
   },
+  // 8. Desker CoWorking Okhla - Okhla
   {
     "id": 72,
     "name": "Desker CoWorking Okhla",
@@ -1477,9 +1580,13 @@ export const pageThreeDehliOfficeCards = [
     ]
   }
 ];
+// Alias of the list above, kept so other files can import either spelling of the name.
 export const pageThreeDelhiOfficeCards = pageThreeDehliOfficeCards;
 
+// Page 3 cards - second grid ("Additional coworking spaces", below the top grid).
+// Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageThreeMoreDehliOfficeCards = [
+  // 1. Supreme Cowork Netaji Subhash Place - Netaji Subhash Place
   {
     "id": 73,
     "name": "Supreme Cowork Netaji Subhash Place",
@@ -1499,6 +1606,7 @@ export const pageThreeMoreDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/0d9b1b6185bda7047280e372f19a54e24beb440c.webp"
     ]
   },
+  // 2. Smartworks Nehru Place - Nehru Place
   {
     "id": 74,
     "name": "Smartworks Nehru Place",
@@ -1518,6 +1626,7 @@ export const pageThreeMoreDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/b9c0bd2a1139fd1d86ecc4a2d9f323f81d221ed4.webp"
     ]
   },
+  // 3. Spring House SHDL003 Janakpuri - Janakpuri
   {
     "id": 75,
     "name": "Spring House SHDL003 Janakpuri",
@@ -1537,6 +1646,7 @@ export const pageThreeMoreDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/6c1ac119aec3ba9554fab8221437279dab5e7efc.webp"
     ]
   },
+  // 4. Peer 2 Desk Dwarka Delhi - Dwarka Delhi
   {
     "id": 76,
     "name": "Peer 2 Desk Dwarka Delhi",
@@ -1556,6 +1666,7 @@ export const pageThreeMoreDehliOfficeCards = [
       "https://img.cofynd.com/images/original/dd783968999d857e984e59459698c65b3cb71ec3.jpg"
     ]
   },
+  // 5. Sab Co-working Rohini - Rohini
   {
     "id": 77,
     "name": "Sab Co-working Rohini",
@@ -1574,6 +1685,7 @@ export const pageThreeMoreDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/1a5e67ba153e1560bf35178f63bc600f27ebbc20.webp"
     ]
   },
+  // 6. Workingdom B Connaught Place - Connaught Place
   {
     "id": 78,
     "name": "Workingdom B Connaught Place",
@@ -1593,6 +1705,7 @@ export const pageThreeMoreDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/7a800a70c10449023aae82eda53fd7c179977383.webp"
     ]
   },
+  // 7. Synq.work Aerocity - Aerocity
   {
     "id": 79,
     "name": "Synq.work Aerocity",
@@ -1612,6 +1725,7 @@ export const pageThreeMoreDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/82a93b7ae39bc5906d4d90a519c2a9f0aba88fc6.webp"
     ]
   },
+  // 8. Awfis B Mohan Cooperative - Mohan Cooperative
   {
     "id": 80,
     "name": "Awfis B Mohan Cooperative",
@@ -1632,9 +1746,13 @@ export const pageThreeMoreDehliOfficeCards = [
     ]
   }
 ];
+// Alias of the list above, kept so other files can import either spelling of the name.
 export const pageThreeMoreDelhiOfficeCards = pageThreeMoreDehliOfficeCards;
 
+// Page 3 cards - third grid ("Spotlight coworking spaces", below the "Discover your perfect workspace" banner).
+// Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageThreeFinalDehliOfficeCards = [
+  // 1. Buzz by Spacetime Saket - Saket
   {
     "id": 81,
     "name": "Buzz by Spacetime Saket",
@@ -1654,6 +1772,7 @@ export const pageThreeFinalDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/096c2bf7314cb09344afceda547d8d3176de513e.webp"
     ]
   },
+  // 2. Onward Workspaces Okhla - Okhla
   {
     "id": 82,
     "name": "Onward Workspaces Okhla",
@@ -1673,6 +1792,7 @@ export const pageThreeFinalDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/64213160ca8590113a1430332ee6e38fae45dde7.webp"
     ]
   },
+  // 3. Oahfeo Business Center Netaji Subhash Place - Netaji Subhash Place
   {
     "id": 83,
     "name": "Oahfeo Business Center Netaji Subhash Place",
@@ -1692,6 +1812,7 @@ export const pageThreeFinalDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/81cc9edd28af9c96b3c56df6bfff41e64beef290.webp"
     ]
   },
+  // 4. Workly Nehru Place - Nehru Place
   {
     "id": 84,
     "name": "Workly Nehru Place",
@@ -1711,6 +1832,7 @@ export const pageThreeFinalDehliOfficeCards = [
       "https://img.cofynd.com/images/original/f787088319b0323779dfcffe0c7de60cb13560cd.jpg"
     ]
   },
+  // 5. Purple Co-working Janakpuri - Janakpuri
   {
     "id": 85,
     "name": "Purple Co-working Janakpuri",
@@ -1730,6 +1852,7 @@ export const pageThreeFinalDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/4fc108c185ae48573a116ccec2cad4295c758689.webp"
     ]
   },
+  // 6. Work and Beyond Dwarka Delhi - Dwarka Delhi
   {
     "id": 86,
     "name": "Work and Beyond Dwarka Delhi",
@@ -1749,6 +1872,7 @@ export const pageThreeFinalDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/555cc0527dfaae2df24c8810b980f21b3131116a.webp"
     ]
   },
+  // 7. Avanta Business Centre Connaught Place - Connaught Place
   {
     "id": 87,
     "name": "Avanta Business Centre Connaught Place",
@@ -1768,6 +1892,7 @@ export const pageThreeFinalDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/646eeecd71089cc49cc73fcebe876e3a899b3f52.webp"
     ]
   },
+  // 8. Table Space Worldmark Aerocity - Aerocity
   {
     "id": 88,
     "name": "Table Space Worldmark Aerocity",
@@ -1788,9 +1913,13 @@ export const pageThreeFinalDehliOfficeCards = [
     ]
   }
 ];
+// Alias of the list above, kept so other files can import either spelling of the name.
 export const pageThreeFinalDelhiOfficeCards = pageThreeFinalDehliOfficeCards;
 
+// Page 3 cards - fourth grid ("Featured coworking spaces", below the "Customized office solutions" banner).
+// Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageThreeFeaturedDehliOfficeCards = [
+  // 1. Spacetime Mohan Cooperative - Mohan Cooperative
   {
     "id": 89,
     "name": "Spacetime Mohan Cooperative",
@@ -1810,6 +1939,7 @@ export const pageThreeFeaturedDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/bd9c130caf6f6ae6d9f747c0e30b915d0f908e58.webp"
     ]
   },
+  // 2. Flexihub Saket - Saket
   {
     "id": 90,
     "name": "Flexihub Saket",
@@ -1829,6 +1959,7 @@ export const pageThreeFeaturedDehliOfficeCards = [
       "https://img.cofynd.com/images/original/1c34108ca3448dbdb9625f6905a63321152f22b8.jpg"
     ]
   },
+  // 3. The Social Stays (formerly ArtBuzz) Okhla - Okhla
   {
     "id": 91,
     "name": "The Social Stays (formerly ArtBuzz) Okhla",
@@ -1848,6 +1979,7 @@ export const pageThreeFeaturedDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/d35403daafc458571aac68c02f9c04ae9a774581.webp"
     ]
   },
+  // 4. Cosphere Netaji Subhash Place - Netaji Subhash Place
   {
     "id": 92,
     "name": "Cosphere Netaji Subhash Place",
@@ -1867,6 +1999,7 @@ export const pageThreeFeaturedDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/04086d134c46e4d02ec17958cbbc2c126dcb9c49.webp"
     ]
   },
+  // 5. Wolk Nehru Place - Nehru Place
   {
     "id": 93,
     "name": "Wolk Nehru Place",
@@ -1886,6 +2019,7 @@ export const pageThreeFeaturedDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/786aa9845dcfe35f17b3732ea44863fdd12b6946.webp"
     ]
   },
+  // 6. Spring House SHDL006 Janakpuri - Janakpuri
   {
     "id": 94,
     "name": "Spring House SHDL006 Janakpuri",
@@ -1905,6 +2039,7 @@ export const pageThreeFeaturedDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/beca2f899f4af9193af05ffb74aa7856c7d5e0b1.webp"
     ]
   },
+  // 7. TCW Unity Work Space Dwarka Delhi - Dwarka Delhi
   {
     "id": 95,
     "name": "TCW Unity Work Space Dwarka Delhi",
@@ -1924,6 +2059,7 @@ export const pageThreeFeaturedDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/b15153f2fc3ec5852b97f7fd558b6bdf5a81fc2e.webp"
     ]
   },
+  // 8. AltF Connaught Place - Connaught Place
   {
     "id": 96,
     "name": "AltF Connaught Place",
@@ -1944,9 +2080,13 @@ export const pageThreeFeaturedDehliOfficeCards = [
     ]
   }
 ];
+// Alias of the list above, kept so other files can import either spelling of the name.
 export const pageThreeFeaturedDelhiOfficeCards = pageThreeFeaturedDehliOfficeCards;
 
+// Page 4 cards - top grid (right under the area filter buttons).
+// Shown when pagination button 4 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageFourDehliOfficeCards = [
+  // 1. Hub Hive 11 Mohan Cooperative - Mohan Cooperative
   {
     "id": 97,
     "name": "Hub Hive 11 Mohan Cooperative",
@@ -1966,6 +2106,7 @@ export const pageFourDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/46f38f4e661db55c40db1a30a45701eaf898e586.webp"
     ]
   },
+  // 2. ZO Space 274 Saket - Saket
   {
     "id": 98,
     "name": "ZO Space 274 Saket",
@@ -1985,6 +2126,7 @@ export const pageFourDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/bf72a630e48351dc3d2c7640abe1f7a229cb6b0c.webp"
     ]
   },
+  // 3. ABL Workspace Okhla - Okhla
   {
     "id": 99,
     "name": "ABL Workspace Okhla",
@@ -2004,6 +2146,7 @@ export const pageFourDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/f5f51da2ed64c1385ac37f211311bfec89fa607f.webp"
     ]
   },
+  // 4. ASC CO-WORK Netaji Subhash Place - Netaji Subhash Place
   {
     "id": 100,
     "name": "ASC CO-WORK Netaji Subhash Place",
@@ -2022,6 +2165,7 @@ export const pageFourDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/5b2c20b709982a7e4b75c0c482111497ec989ceb.webp"
     ]
   },
+  // 5. Rworkspaces Nehru Place - Nehru Place
   {
     "id": 101,
     "name": "Rworkspaces Nehru Place",
@@ -2041,6 +2185,7 @@ export const pageFourDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/b3a946f6866aafa622d3d1b3f0e8ef2ea340e261.webp"
     ]
   },
+  // 6. Work Exchange Dwarka Delhi - Dwarka Delhi
   {
     "id": 102,
     "name": "Work Exchange Dwarka Delhi",
@@ -2060,6 +2205,7 @@ export const pageFourDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/4b61accc7c8a05e99ba3be847888fcb75bea6658.webp"
     ]
   },
+  // 7. Office On Connaught Place - Connaught Place
   {
     "id": 103,
     "name": "Office On Connaught Place",
@@ -2079,6 +2225,7 @@ export const pageFourDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/896f4e4a71e088851b5443c97154bc9254b5f242.webp"
     ]
   },
+  // 8. Cycowork Mohan Cooperative - Mohan Cooperative
   {
     "id": 104,
     "name": "Cycowork Mohan Cooperative",
@@ -2099,9 +2246,13 @@ export const pageFourDehliOfficeCards = [
     ]
   }
 ];
+// Alias of the list above, kept so other files can import either spelling of the name.
 export const pageFourDelhiOfficeCards = pageFourDehliOfficeCards;
 
+// Page 5 cards - top grid (right under the area filter buttons).
+// Shown when pagination button 5 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageFiveDehliOfficeCards = [
+  // 1. The Executive Centre Saket - Saket
   {
     "id": 105,
     "name": "The Executive Centre Saket",
@@ -2121,6 +2272,7 @@ export const pageFiveDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/06c37aeb91c8d6a0c80bed37d3c6e0a0f294c0fd.webp"
     ]
   },
+  // 2. Workroom Coworking Okhla - Okhla
   {
     "id": 106,
     "name": "Workroom Coworking Okhla",
@@ -2140,6 +2292,7 @@ export const pageFiveDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/a450437e413a113ab0d25c1d6efaf20155e6fc4f.webp"
     ]
   },
+  // 3. Galaxy Cowork Netaji Subhash Place - Netaji Subhash Place
   {
     "id": 107,
     "name": "Galaxy Cowork Netaji Subhash Place",
@@ -2159,6 +2312,7 @@ export const pageFiveDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/0135a71271ae8dc9bbe1bf054f8e17752549698c.webp"
     ]
   },
+  // 4. Classic Converge Nehru Place - Nehru Place
   {
     "id": 108,
     "name": "Classic Converge Nehru Place",
@@ -2178,6 +2332,7 @@ export const pageFiveDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/8cb7bc2c916979e35e9e58c0fc248aa0a74ae2bd.webp"
     ]
   },
+  // 5. Creativity Cove Dwarka Delhi - Dwarka Delhi
   {
     "id": 109,
     "name": "Creativity Cove Dwarka Delhi",
@@ -2197,6 +2352,7 @@ export const pageFiveDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/ed190a0a0853cc1cc9de4fbb73e0e2e9c5f16ee0.webp"
     ]
   },
+  // 6. Start CoWorks Connaught Place - Connaught Place
   {
     "id": 110,
     "name": "Start CoWorks Connaught Place",
@@ -2216,6 +2372,7 @@ export const pageFiveDehliOfficeCards = [
       "https://img.cofynd.com/images/original/bc7bd3f646c4c5d411809810bc0c475bf657fa63.jpg"
     ]
   },
+  // 7. Hashtag Co-working Mohan Cooperative - Mohan Cooperative
   {
     "id": 111,
     "name": "Hashtag Co-working Mohan Cooperative",
@@ -2235,6 +2392,7 @@ export const pageFiveDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/6b20b80e81a4014070026d6f85c70a361ac14422.webp"
     ]
   },
+  // 8. Spacetime Saket - Saket
   {
     "id": 112,
     "name": "Spacetime Saket",
@@ -2255,9 +2413,13 @@ export const pageFiveDehliOfficeCards = [
     ]
   }
 ];
+// Alias of the list above, kept so other files can import either spelling of the name.
 export const pageFiveDelhiOfficeCards = pageFiveDehliOfficeCards;
 
+// Page 6 cards - top grid (right under the area filter buttons).
+// Shown when pagination button 6 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageSixDehliOfficeCards = [
+  // 1. UrbanWrk Okhla - Okhla
   {
     "id": 113,
     "name": "UrbanWrk Okhla",
@@ -2277,6 +2439,7 @@ export const pageSixDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/486ae504662ec26f7632d03549fc8268fe93ff4d.webp"
     ]
   },
+  // 2. Fume Coworking 3.0 Netaji Subhash Place - Netaji Subhash Place
   {
     "id": 114,
     "name": "Fume Coworking 3.0 Netaji Subhash Place",
@@ -2296,6 +2459,7 @@ export const pageSixDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/72f8a49307d8a60ad88464895ee00aba630c972a.webp"
     ]
   },
+  // 3. Cubeecle Business Centre Nehru Place - Nehru Place
   {
     "id": 115,
     "name": "Cubeecle Business Centre Nehru Place",
@@ -2315,6 +2479,7 @@ export const pageSixDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/dd222c31a7cfd7fb4d4b0582c2c2163e6485a7e0.webp"
     ]
   },
+  // 4. TCW Unity Work Space B Dwarka Delhi - Dwarka Delhi
   {
     "id": 116,
     "name": "TCW Unity Work Space B Dwarka Delhi",
@@ -2334,6 +2499,7 @@ export const pageSixDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/676a0e503d21453bc73c51f8787bd57d8a1c8619.webp"
     ]
   },
+  // 5. MyDesk Connaught Place - Connaught Place
   {
     "id": 117,
     "name": "MyDesk Connaught Place",
@@ -2353,6 +2519,7 @@ export const pageSixDehliOfficeCards = [
       "https://img.cofynd.com/images/original/7aee2ffe096e9d9670721037430ba8faaf299440.jpg"
     ]
   },
+  // 6. Supremework Mohan Cooperative - Mohan Cooperative
   {
     "id": 118,
     "name": "Supremework Mohan Cooperative",
@@ -2372,6 +2539,7 @@ export const pageSixDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/05a277d5108425cde99b71d09735a4a73f169410.webp"
     ]
   },
+  // 7. KraStay Saket - Saket
   {
     "id": 119,
     "name": "KraStay Saket",
@@ -2391,6 +2559,7 @@ export const pageSixDehliOfficeCards = [
       "https://img.cofynd.com/images/original/c8ee238bfc560c04fce0f9b7520a0bbe33981b2c.jpg"
     ]
   },
+  // 8. Flexihub Okhla - Okhla
   {
     "id": 120,
     "name": "Flexihub Okhla",
@@ -2411,9 +2580,13 @@ export const pageSixDehliOfficeCards = [
     ]
   }
 ];
+// Alias of the list above, kept so other files can import either spelling of the name.
 export const pageSixDelhiOfficeCards = pageSixDehliOfficeCards;
 
+// Page 7 cards - top grid (right under the area filter buttons).
+// Shown when pagination button 7 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageSevenDehliOfficeCards = [
+  // 1. Zen business center Nehru Place - Nehru Place
   {
     "id": 121,
     "name": "Zen business center Nehru Place",
@@ -2433,6 +2606,7 @@ export const pageSevenDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/403f14ec6fb3e56cc068b5a0b6212adba9dd7fd1.webp"
     ]
   },
+  // 2. Invento Workspaces B Dwarka Delhi - Dwarka Delhi
   {
     "id": 122,
     "name": "Invento Workspaces B Dwarka Delhi",
@@ -2452,6 +2626,7 @@ export const pageSevenDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/dccaf85d5281772293b7771f0883cef75b185484.webp"
     ]
   },
+  // 3. CorporatEdge Connaught Place - Connaught Place
   {
     "id": 123,
     "name": "CorporatEdge Connaught Place",
@@ -2471,6 +2646,7 @@ export const pageSevenDehliOfficeCards = [
       "https://img.cofynd.com/images/original/3f12156d78ad2e2c335df4dace0100d1f4f0e64e.jpg"
     ]
   },
+  // 4. Team CoWork Saket - Saket
   {
     "id": 124,
     "name": "Team CoWork Saket",
@@ -2490,6 +2666,7 @@ export const pageSevenDehliOfficeCards = [
       "https://img.cofynd.com/images/original/e4dc08e435244c776fc442b7a710bbf7986c1468.jpg"
     ]
   },
+  // 5. The Social Stays Okhla - Okhla
   {
     "id": 125,
     "name": "The Social Stays Okhla",
@@ -2509,6 +2686,7 @@ export const pageSevenDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/db863d16386b8a18dd29a290f36a199936898d3d.webp"
     ]
   },
+  // 6. Avanta Nehru Place - Nehru Place
   {
     "id": 126,
     "name": "Avanta Nehru Place",
@@ -2528,6 +2706,7 @@ export const pageSevenDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/1883faf9f9dae1d55657c9552840a511b395618a.webp"
     ]
   },
+  // 7. Nukleus Connaught Place - Connaught Place
   {
     "id": 127,
     "name": "Nukleus Connaught Place",
@@ -2547,6 +2726,7 @@ export const pageSevenDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/53680d7c1970ff07a8bc29eb752bbd947d06acfb.webp"
     ]
   },
+  // 8. Cubebox Saket - Saket
   {
     "id": 128,
     "name": "Cubebox Saket",
@@ -2567,9 +2747,13 @@ export const pageSevenDehliOfficeCards = [
     ]
   }
 ];
+// Alias of the list above, kept so other files can import either spelling of the name.
 export const pageSevenDelhiOfficeCards = pageSevenDehliOfficeCards;
 
+// Page 8 cards - top grid (right under the area filter buttons).
+// Shown when pagination button 8 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageEightDehliOfficeCards = [
+  // 1. Workly B Nehru Place - Nehru Place
   {
     "id": 129,
     "name": "Workly B Nehru Place",
@@ -2589,6 +2773,7 @@ export const pageEightDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/a6d7aea28a025dd2c81c93164ddbf0a3bbebde82.webp"
     ]
   },
+  // 2. 22 Workspace Connaught Place - Connaught Place
   {
     "id": 130,
     "name": "22 Workspace Connaught Place",
@@ -2608,6 +2793,7 @@ export const pageEightDehliOfficeCards = [
       "https://img.cofynd.com/images/original/960e60d401a8185006ad862c6bf3a230c78639f6.jpg"
     ]
   },
+  // 3. Empowerers 275 Saket - Saket
   {
     "id": 131,
     "name": "Empowerers 275 Saket",
@@ -2627,6 +2813,7 @@ export const pageEightDehliOfficeCards = [
       "https://img.cofynd.com/images/original/5e538d2e68c1b7ffdc0ac6cd8ab5e4f5b8d8e2f3.jpg"
     ]
   },
+  // 4. Stirring Minds Connaught Place - Connaught Place
   {
     "id": 132,
     "name": "Stirring Minds Connaught Place",
@@ -2646,6 +2833,7 @@ export const pageEightDehliOfficeCards = [
       "https://img.cofynd.com/images/original/38a1ab02a27099173b567d2c12f26abec6198c48.jpg"
     ]
   },
+  // 5. Empowerers 630 Saket - Saket
   {
     "id": 133,
     "name": "Empowerers 630 Saket",
@@ -2665,6 +2853,7 @@ export const pageEightDehliOfficeCards = [
       "https://img.cofynd.com/images/original/8e663df0f6a35b6023e3b2a18269c06d4b7c1ed2.jpg"
     ]
   },
+  // 6. TRE Coworks Connaught Place - Connaught Place
   {
     "id": 134,
     "name": "TRE Coworks Connaught Place",
@@ -2684,6 +2873,7 @@ export const pageEightDehliOfficeCards = [
       "https://img.cofynd.com/images/original/4f43d49c6bb51b37500af231a0858e590788380c.jpg"
     ]
   },
+  // 7. Empowerers 262 Saket - Saket
   {
     "id": 135,
     "name": "Empowerers 262 Saket",
@@ -2703,6 +2893,7 @@ export const pageEightDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/b1d819e3c64a6fca2c5460123a59e2c5286dcc06.webp"
     ]
   },
+  // 8. Quattro Spaces Connaught Place - Connaught Place
   {
     "id": 136,
     "name": "Quattro Spaces Connaught Place",
@@ -2723,10 +2914,16 @@ export const pageEightDehliOfficeCards = [
     ]
   }
 ];
+// Alias of the list above, kept so other files can import either spelling of the name.
 export const pageEightDelhiOfficeCards = pageEightDehliOfficeCards;
 
+// Area-specific extra cards.
+// These are shown ONLY when an area filter is active, together with the existing cards of that area.
+// With no area selected ("All" view) they stay hidden.
 export const areaExtraOfficeCards = {
+  // Extra cards for the "Connaught Place" filter
   "Connaught Place": [
+    // 1. Innov8 Connaught Place - Connaught Place
     {
       "id": 1,
       "name": "Innov8 Connaught Place",
@@ -2746,6 +2943,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/ab576488b8b093a77109f96db0114c14eac6fd5f.webp"
       ]
     },
+    // 2. Nukleus R Connaught Place - Connaught Place
     {
       "id": 25,
       "name": "Nukleus R Connaught Place",
@@ -2765,6 +2963,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/cbeacce580f4a7105f6d0c7650f534b7a5b47327.webp"
       ]
     },
+    // 3. Apeejay Business Center Connaught Place - Connaught Place
     {
       "id": 44,
       "name": "Apeejay Business Center Connaught Place",
@@ -2784,6 +2983,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/f71952261742da604823ba1780884319578829d2.webp"
       ]
     },
+    // 4. Awfis Connaught Place - Connaught Place
     {
       "id": 58,
       "name": "Awfis Connaught Place",
@@ -2803,6 +3003,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/a9e4e4e0027b7403a097d85842847623fede1589.jpg"
       ]
     },
+    // 5. Avanta Business Centre B Connaught Place - Connaught Place
     {
       "id": 68,
       "name": "Avanta Business Centre B Connaught Place",
@@ -2822,6 +3023,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/222774287690fa30c9bc312d048da9b29536cba4.webp"
       ]
     },
+    // 6. Workingdom B Connaught Place - Connaught Place
     {
       "id": 78,
       "name": "Workingdom B Connaught Place",
@@ -2841,6 +3043,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/7a800a70c10449023aae82eda53fd7c179977383.webp"
       ]
     },
+    // 7. Avanta Business Centre Connaught Place - Connaught Place
     {
       "id": 87,
       "name": "Avanta Business Centre Connaught Place",
@@ -2860,6 +3063,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/646eeecd71089cc49cc73fcebe876e3a899b3f52.webp"
       ]
     },
+    // 8. AltF Connaught Place - Connaught Place
     {
       "id": 96,
       "name": "AltF Connaught Place",
@@ -2879,6 +3083,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/d3ac0fbeeeec3d8d6ebb906128e80f606c921f75.webp"
       ]
     },
+    // 9. Office On Connaught Place - Connaught Place
     {
       "id": 103,
       "name": "Office On Connaught Place",
@@ -2898,6 +3103,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/896f4e4a71e088851b5443c97154bc9254b5f242.webp"
       ]
     },
+    // 10. Start CoWorks Connaught Place - Connaught Place
     {
       "id": 110,
       "name": "Start CoWorks Connaught Place",
@@ -2917,6 +3123,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/bc7bd3f646c4c5d411809810bc0c475bf657fa63.jpg"
       ]
     },
+    // 11. Workingdom Connaught Place - Connaught Place
     {
       "id": 182,
       "name": "Workingdom Connaught Place",
@@ -2936,6 +3143,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/b46e32e06c1f387db2cbeb886a08e9fa6136e1d0.webp"
       ]
     },
+    // 12. Cube 8 Connaught Place - Connaught Place
     {
       "id": 183,
       "name": "Cube 8 Connaught Place",
@@ -2955,6 +3163,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/6924252d18e6b43eeedf9492b3cfbee563652499.webp"
       ]
     },
+    // 13. Skootr Connaught Place - Connaught Place
     {
       "id": 184,
       "name": "Skootr Connaught Place",
@@ -2974,6 +3183,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/e723e322d6f8b7235bcd651626370151709906c1.webp"
       ]
     },
+    // 14. Innov8 B Connaught Place - Connaught Place
     {
       "id": 185,
       "name": "Innov8 B Connaught Place",
@@ -2993,6 +3203,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/3938c9069aa4f5ee050dfc7b62b2db49e66a996b.webp"
       ]
     },
+    // 15. Pinnacle Spaces Connaught Place - Connaught Place
     {
       "id": 186,
       "name": "Pinnacle Spaces Connaught Place",
@@ -3011,6 +3222,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/f80a2e523726dc6e987f6b71ad874c60f8906e1b.webp"
       ]
     },
+    // 16. ConnectHQ Connaught Place - Connaught Place
     {
       "id": 187,
       "name": "ConnectHQ Connaught Place",
@@ -3030,6 +3242,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/5545e75a11debd3bb804bc1bc55391ef86279cdf.webp"
       ]
     },
+    // 17. Onward Workspaces Connaught Place - Connaught Place
     {
       "id": 188,
       "name": "Onward Workspaces Connaught Place",
@@ -3049,6 +3262,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/44e659ee0deea18849009576675ebf0db06bb623.webp"
       ]
     },
+    // 18. Nukleus Shivaji Stadium Connaught Place - Connaught Place
     {
       "id": 189,
       "name": "Nukleus Shivaji Stadium Connaught Place",
@@ -3069,7 +3283,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Malviya Nagar" filter
   "Malviya Nagar": [
+    // 19. Brain on Rent Malviya Nagar - Malviya Nagar
     {
       "id": 2,
       "name": "Brain on Rent Malviya Nagar",
@@ -3089,6 +3305,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/56828e01a10a469e9caeb80bab77d030112f5bc0.webp"
       ]
     },
+    // 20. ZO Accelerator Space Malviya Nagar - Malviya Nagar
     {
       "id": 26,
       "name": "ZO Accelerator Space Malviya Nagar",
@@ -3108,6 +3325,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/a22aa36effc8c0f25d1d1ce35935f0bcf96f83d8.webp"
       ]
     },
+    // 21. Brain on Rent Malviya Nagar - Malviya Nagar
     {
       "id": 2,
       "name": "Brain on Rent Malviya Nagar",
@@ -3127,6 +3345,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/56828e01a10a469e9caeb80bab77d030112f5bc0.webp"
       ]
     },
+    // 22. ZO Accelerator Space Malviya Nagar - Malviya Nagar
     {
       "id": 26,
       "name": "ZO Accelerator Space Malviya Nagar",
@@ -3146,6 +3365,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/a22aa36effc8c0f25d1d1ce35935f0bcf96f83d8.webp"
       ]
     },
+    // 23. Innov8 F Saket - Saket
     {
       "id": 71,
       "name": "Innov8 F Saket",
@@ -3165,6 +3385,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/f3b35608d1a40cb38ae88324f2f2ded057d622cf.webp"
       ]
     },
+    // 24. Nukleus Saket - Saket
     {
       "id": 29,
       "name": "Nukleus Saket",
@@ -3184,6 +3405,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/6d1e7fce37362f1f16b81e0b38ad45b544223171.webp"
       ]
     },
+    // 25. 91Springboard Prius Platinum Saket - Saket
     {
       "id": 143,
       "name": "91Springboard Prius Platinum Saket",
@@ -3203,6 +3425,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/40f924d21c971bbb8edaee905df5493fd5ba85d8.webp"
       ]
     },
+    // 26. Avanta Business Centre Saket - Saket
     {
       "id": 47,
       "name": "Avanta Business Centre Saket",
@@ -3222,6 +3445,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/fd051dff12447570c11f1a19638099dfe7936092.webp"
       ]
     },
+    // 27. Innov8 Saket - Saket
     {
       "id": 5,
       "name": "Innov8 Saket",
@@ -3241,6 +3465,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/b4e185468b2ad2276a995a8e9436f75e5565cd17.jpg"
       ]
     },
+    // 28. ThinkValley Saket - Saket
     {
       "id": 146,
       "name": "ThinkValley Saket",
@@ -3260,6 +3485,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/b46a3f417a2eec1b2d2a59e57b56f138afcefb6a.webp"
       ]
     },
+    // 29. Spacetime Saket - Saket
     {
       "id": 190,
       "name": "Spacetime Saket",
@@ -3280,7 +3506,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Aerocity" filter
   "Aerocity": [
+    // 30. Innov8 Aerocity - Aerocity
     {
       "id": 3,
       "name": "Innov8 Aerocity",
@@ -3300,6 +3528,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/02a6b73994ab73342352da1e4febc3c63da1f288.webp"
       ]
     },
+    // 31. Cowrks Aerocity - Aerocity
     {
       "id": 27,
       "name": "Cowrks Aerocity",
@@ -3319,6 +3548,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/0c6f16043d233b60a0773f2e2fe070cf6afa2d03.jpg"
       ]
     },
+    // 32. Atelier ( Cowrks ) Aerocity - Aerocity
     {
       "id": 45,
       "name": "Atelier ( Cowrks ) Aerocity",
@@ -3338,6 +3568,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/a33e73238068a924018616bdf2e92d8cf9197807.webp"
       ]
     },
+    // 33. Wework Aerocity - Aerocity
     {
       "id": 59,
       "name": "Wework Aerocity",
@@ -3357,6 +3588,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/844dd098754317f232933ac4d56af62b4013d437.webp"
       ]
     },
+    // 34. The Executive Centre Aerocity - Aerocity
     {
       "id": 69,
       "name": "The Executive Centre Aerocity",
@@ -3376,6 +3608,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/35cde1abb4445baeb9742548abb4e0904cd75689.webp"
       ]
     },
+    // 35. Synq.work Aerocity - Aerocity
     {
       "id": 79,
       "name": "Synq.work Aerocity",
@@ -3395,6 +3628,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/82a93b7ae39bc5906d4d90a519c2a9f0aba88fc6.webp"
       ]
     },
+    // 36. Table Space Worldmark Aerocity - Aerocity
     {
       "id": 88,
       "name": "Table Space Worldmark Aerocity",
@@ -3414,6 +3648,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/2c4d1de16d64691ba83aa9b56cb5671d15fd8e5d.webp"
       ]
     },
+    // 37. Innov8 Aerocity - Aerocity
     {
       "id": 3,
       "name": "Innov8 Aerocity",
@@ -3433,6 +3668,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/02a6b73994ab73342352da1e4febc3c63da1f288.webp"
       ]
     },
+    // 38. The Executive Centre Aerocity - Aerocity
     {
       "id": 69,
       "name": "The Executive Centre Aerocity",
@@ -3452,6 +3688,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/35cde1abb4445baeb9742548abb4e0904cd75689.webp"
       ]
     },
+    // 39. Cowrks Aerocity - Aerocity
     {
       "id": 27,
       "name": "Cowrks Aerocity",
@@ -3471,6 +3708,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/0c6f16043d233b60a0773f2e2fe070cf6afa2d03.jpg"
       ]
     },
+    // 40. Awfis Ambience Mall Cyber City - Cyber City
     {
       "id": 191,
       "name": "Awfis Ambience Mall Cyber City",
@@ -3490,6 +3728,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/5ad5ca6d5ddf10919472cc1341cab90646640a01.webp"
       ]
     },
+    // 41. IREP Workspaces Iconic Quattro Udyog Vihar - Udyog Vihar
     {
       "id": 192,
       "name": "IREP Workspaces Iconic Quattro Udyog Vihar",
@@ -3509,6 +3748,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/c9f6dbcc76f1d7fc54de741adccaa2e894b9bc27.webp"
       ]
     },
+    // 42. The Executive Center DLF Downtown DLF Cyber City - DLF Cyber City
     {
       "id": 193,
       "name": "The Executive Center DLF Downtown DLF Cyber City",
@@ -3528,6 +3768,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/9ced7a77e67f5f5287571a27aad04844cefcfe52.webp"
       ]
     },
+    // 43. Mooz Coworking Sector 24 - Sector 24
     {
       "id": 194,
       "name": "Mooz Coworking Sector 24",
@@ -3548,7 +3789,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Mohan Cooperative" filter
   "Mohan Cooperative": [
+    // 44. 91Springboard Mohan Cooperative - Mohan Cooperative
     {
       "id": 4,
       "name": "91Springboard Mohan Cooperative",
@@ -3568,6 +3811,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/6d6e45cf34257d65402406dce7c3e9f8b1c43bb8.webp"
       ]
     },
+    // 45. AltF Mohan Cooperative - Mohan Cooperative
     {
       "id": 28,
       "name": "AltF Mohan Cooperative",
@@ -3587,6 +3831,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/15aa6b54ce0b30bd0433905e3dbf32175815fc6c.webp"
       ]
     },
+    // 46. Awfis Mohan Cooperative - Mohan Cooperative
     {
       "id": 46,
       "name": "Awfis Mohan Cooperative",
@@ -3606,6 +3851,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/8b2bddf08063d24c37475b1f8ae3af4b743a2420.webp"
       ]
     },
+    // 47. The Office Pass Mohan Cooperative - Mohan Cooperative
     {
       "id": 60,
       "name": "The Office Pass Mohan Cooperative",
@@ -3625,6 +3871,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/7f72584086b36bb50d189210da996571f1a87423.webp"
       ]
     },
+    // 48. Onward Workspaces Mohan Cooperative - Mohan Cooperative
     {
       "id": 70,
       "name": "Onward Workspaces Mohan Cooperative",
@@ -3644,6 +3891,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/b98cc5de6670141b4a35a3cb80e5247933158e91.webp"
       ]
     },
+    // 49. Awfis B Mohan Cooperative - Mohan Cooperative
     {
       "id": 80,
       "name": "Awfis B Mohan Cooperative",
@@ -3663,6 +3911,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/1efa65e0f45af954e2c3033da8b0d8ebf51802cb.jpg"
       ]
     },
+    // 50. Spacetime Mohan Cooperative - Mohan Cooperative
     {
       "id": 89,
       "name": "Spacetime Mohan Cooperative",
@@ -3682,6 +3931,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/bd9c130caf6f6ae6d9f747c0e30b915d0f908e58.webp"
       ]
     },
+    // 51. Hub Hive 11 Mohan Cooperative - Mohan Cooperative
     {
       "id": 97,
       "name": "Hub Hive 11 Mohan Cooperative",
@@ -3701,6 +3951,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/46f38f4e661db55c40db1a30a45701eaf898e586.webp"
       ]
     },
+    // 52. Cycowork Mohan Cooperative - Mohan Cooperative
     {
       "id": 104,
       "name": "Cycowork Mohan Cooperative",
@@ -3720,6 +3971,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/930f3d22ef67a13175f64df9d7f84a463d5d39d4.webp"
       ]
     },
+    // 53. Hashtag Co-working Mohan Cooperative - Mohan Cooperative
     {
       "id": 111,
       "name": "Hashtag Co-working Mohan Cooperative",
@@ -3739,6 +3991,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/6b20b80e81a4014070026d6f85c70a361ac14422.webp"
       ]
     },
+    // 54. Kiteworx Mathura Road - Mathura Road
     {
       "id": 195,
       "name": "Kiteworx Mathura Road",
@@ -3759,7 +4012,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Saket" filter
   "Saket": [
+    // 55. Innov8 Saket - Saket
     {
       "id": 5,
       "name": "Innov8 Saket",
@@ -3779,6 +4034,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/b4e185468b2ad2276a995a8e9436f75e5565cd17.jpg"
       ]
     },
+    // 56. Nukleus Saket - Saket
     {
       "id": 29,
       "name": "Nukleus Saket",
@@ -3798,6 +4054,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/6d1e7fce37362f1f16b81e0b38ad45b544223171.webp"
       ]
     },
+    // 57. Avanta Business Centre Saket - Saket
     {
       "id": 47,
       "name": "Avanta Business Centre Saket",
@@ -3817,6 +4074,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/fd051dff12447570c11f1a19638099dfe7936092.webp"
       ]
     },
+    // 58. Collative Saket - Saket
     {
       "id": 61,
       "name": "Collative Saket",
@@ -3836,6 +4094,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/ccd2b47423f8c4d7c02667b8202f6ed52d9840e3.webp"
       ]
     },
+    // 59. Innov8 F Saket - Saket
     {
       "id": 71,
       "name": "Innov8 F Saket",
@@ -3855,6 +4114,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/f3b35608d1a40cb38ae88324f2f2ded057d622cf.webp"
       ]
     },
+    // 60. Buzz by Spacetime Saket - Saket
     {
       "id": 81,
       "name": "Buzz by Spacetime Saket",
@@ -3874,6 +4134,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/096c2bf7314cb09344afceda547d8d3176de513e.webp"
       ]
     },
+    // 61. Flexihub Saket - Saket
     {
       "id": 90,
       "name": "Flexihub Saket",
@@ -3893,6 +4154,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/1c34108ca3448dbdb9625f6905a63321152f22b8.jpg"
       ]
     },
+    // 62. ZO Space 274 Saket - Saket
     {
       "id": 98,
       "name": "ZO Space 274 Saket",
@@ -3912,6 +4174,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/bf72a630e48351dc3d2c7640abe1f7a229cb6b0c.webp"
       ]
     },
+    // 63. The Executive Centre Saket - Saket
     {
       "id": 105,
       "name": "The Executive Centre Saket",
@@ -3931,6 +4194,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/06c37aeb91c8d6a0c80bed37d3c6e0a0f294c0fd.webp"
       ]
     },
+    // 64. Spacetime Saket - Saket
     {
       "id": 112,
       "name": "Spacetime Saket",
@@ -3951,7 +4215,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Okhla" filter
   "Okhla": [
+    // 65. Innov8 Okhla - Okhla
     {
       "id": 6,
       "name": "Innov8 Okhla",
@@ -3971,6 +4237,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/e8c664be23bbe5fd7f06fe7ed7a0da1663f6c353.webp"
       ]
     },
+    // 66. AltF Okhla - Okhla
     {
       "id": 30,
       "name": "AltF Okhla",
@@ -3990,6 +4257,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/48d323d90e25a59421cba1c06db443826bb20418.webp"
       ]
     },
+    // 67. Hub And Oak Okhla - Okhla
     {
       "id": 48,
       "name": "Hub And Oak Okhla",
@@ -4009,6 +4277,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/fcc1180ca064595d59c05c3f5dd477de7965ce36.webp"
       ]
     },
+    // 68. Onward Workspaces ||| Okhla - Okhla
     {
       "id": 62,
       "name": "Onward Workspaces ||| Okhla",
@@ -4028,6 +4297,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/60c534a7442fb77e6a39ebfc4d415b7da4637f0a.webp"
       ]
     },
+    // 69. Desker CoWorking Okhla - Okhla
     {
       "id": 72,
       "name": "Desker CoWorking Okhla",
@@ -4047,6 +4317,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/20f0e74069876ca63b02f2014f40f8697ceaf487.webp"
       ]
     },
+    // 70. Onward Workspaces Okhla - Okhla
     {
       "id": 82,
       "name": "Onward Workspaces Okhla",
@@ -4066,6 +4337,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/64213160ca8590113a1430332ee6e38fae45dde7.webp"
       ]
     },
+    // 71. The Social Stays (formerly ArtBuzz) Okhla - Okhla
     {
       "id": 91,
       "name": "The Social Stays (formerly ArtBuzz) Okhla",
@@ -4085,6 +4357,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/d35403daafc458571aac68c02f9c04ae9a774581.webp"
       ]
     },
+    // 72. ABL Workspace Okhla - Okhla
     {
       "id": 99,
       "name": "ABL Workspace Okhla",
@@ -4104,6 +4377,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/f5f51da2ed64c1385ac37f211311bfec89fa607f.webp"
       ]
     },
+    // 73. Workroom Coworking Okhla - Okhla
     {
       "id": 106,
       "name": "Workroom Coworking Okhla",
@@ -4123,6 +4397,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/a450437e413a113ab0d25c1d6efaf20155e6fc4f.webp"
       ]
     },
+    // 74. UrbanWrk Okhla - Okhla
     {
       "id": 113,
       "name": "UrbanWrk Okhla",
@@ -4142,6 +4417,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/486ae504662ec26f7632d03549fc8268fe93ff4d.webp"
       ]
     },
+    // 75. Wizworks KS Corporate Tower Sector 16 - Sector 16
     {
       "id": 196,
       "name": "Wizworks KS Corporate Tower Sector 16",
@@ -4162,7 +4438,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Netaji Subhash Place" filter
   "Netaji Subhash Place": [
+    // 76. Co-Offiz Netaji Subhash Place - Netaji Subhash Place
     {
       "id": 7,
       "name": "Co-Offiz Netaji Subhash Place",
@@ -4182,6 +4460,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/6c4110298c6623fcd041cee0ca511fe104f552de.jpg"
       ]
     },
+    // 77. Fume Coworking 2.0 Netaji Subhash Place - Netaji Subhash Place
     {
       "id": 31,
       "name": "Fume Coworking 2.0 Netaji Subhash Place",
@@ -4201,6 +4480,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/818c196cb2b92da65cb6a6eec6a081fee40ca620.webp"
       ]
     },
+    // 78. Work Exchange Netaji Subhash Place - Netaji Subhash Place
     {
       "id": 49,
       "name": "Work Exchange Netaji Subhash Place",
@@ -4220,6 +4500,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/547b5b79ea3a69f5a1414325ae2895255dbcbdf8.webp"
       ]
     },
+    // 79. Fume Coworking 1.0 Netaji Subhash Place - Netaji Subhash Place
     {
       "id": 63,
       "name": "Fume Coworking 1.0 Netaji Subhash Place",
@@ -4239,6 +4520,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/343ee9a4aaacb38faeff8ad8271f19127fece54b.webp"
       ]
     },
+    // 80. Supreme Cowork Netaji Subhash Place - Netaji Subhash Place
     {
       "id": 73,
       "name": "Supreme Cowork Netaji Subhash Place",
@@ -4258,6 +4540,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/0d9b1b6185bda7047280e372f19a54e24beb440c.webp"
       ]
     },
+    // 81. Oahfeo Business Center Netaji Subhash Place - Netaji Subhash Place
     {
       "id": 83,
       "name": "Oahfeo Business Center Netaji Subhash Place",
@@ -4277,6 +4560,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/81cc9edd28af9c96b3c56df6bfff41e64beef290.webp"
       ]
     },
+    // 82. Cosphere Netaji Subhash Place - Netaji Subhash Place
     {
       "id": 92,
       "name": "Cosphere Netaji Subhash Place",
@@ -4296,6 +4580,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/04086d134c46e4d02ec17958cbbc2c126dcb9c49.webp"
       ]
     },
+    // 83. ASC CO-WORK Netaji Subhash Place - Netaji Subhash Place
     {
       "id": 100,
       "name": "ASC CO-WORK Netaji Subhash Place",
@@ -4314,6 +4599,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/5b2c20b709982a7e4b75c0c482111497ec989ceb.webp"
       ]
     },
+    // 84. Galaxy Cowork Netaji Subhash Place - Netaji Subhash Place
     {
       "id": 107,
       "name": "Galaxy Cowork Netaji Subhash Place",
@@ -4333,6 +4619,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/0135a71271ae8dc9bbe1bf054f8e17752549698c.webp"
       ]
     },
+    // 85. Fume Coworking 3.0 Netaji Subhash Place - Netaji Subhash Place
     {
       "id": 114,
       "name": "Fume Coworking 3.0 Netaji Subhash Place",
@@ -4352,6 +4639,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/72f8a49307d8a60ad88464895ee00aba630c972a.webp"
       ]
     },
+    // 86. Oahfeo DeVibe Ashok Vihar - Ashok Vihar
     {
       "id": 197,
       "name": "Oahfeo DeVibe Ashok Vihar",
@@ -4371,6 +4659,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/6ced0229ba8a119de0edf0678d06bb025f50b9a1.webp"
       ]
     },
+    // 87. Oahfeo Node Ashok Vihar - Ashok Vihar
     {
       "id": 198,
       "name": "Oahfeo Node Ashok Vihar",
@@ -4388,7 +4677,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Nehru Place" filter
   "Nehru Place": [
+    // 88. 91Springboard Nehru Place - Nehru Place
     {
       "id": 8,
       "name": "91Springboard Nehru Place",
@@ -4408,6 +4699,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/844dcdf6c7013eaa5870f3ef95a09db19a0ccf15.webp"
       ]
     },
+    // 89. Wolk B Nehru Place - Nehru Place
     {
       "id": 32,
       "name": "Wolk B Nehru Place",
@@ -4427,6 +4719,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/3c4d23470029306fa4dba98c5c895f6daa1212f9.jpg"
       ]
     },
+    // 90. Avanta Business Centre Nehru Place - Nehru Place
     {
       "id": 50,
       "name": "Avanta Business Centre Nehru Place",
@@ -4446,6 +4739,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/cec2dad9b5dccb03dab1b6a387d281116a94c926.jpg"
       ]
     },
+    // 91. Rworkspaces B Nehru Place - Nehru Place
     {
       "id": 64,
       "name": "Rworkspaces B Nehru Place",
@@ -4465,6 +4759,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/dbb284689a923d1384bc0d2ddb7696fd9afdc64b.webp"
       ]
     },
+    // 92. Smartworks Nehru Place - Nehru Place
     {
       "id": 74,
       "name": "Smartworks Nehru Place",
@@ -4484,6 +4779,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/b9c0bd2a1139fd1d86ecc4a2d9f323f81d221ed4.webp"
       ]
     },
+    // 93. Workly Nehru Place - Nehru Place
     {
       "id": 84,
       "name": "Workly Nehru Place",
@@ -4503,6 +4799,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/f787088319b0323779dfcffe0c7de60cb13560cd.jpg"
       ]
     },
+    // 94. Wolk Nehru Place - Nehru Place
     {
       "id": 93,
       "name": "Wolk Nehru Place",
@@ -4522,6 +4819,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/786aa9845dcfe35f17b3732ea44863fdd12b6946.webp"
       ]
     },
+    // 95. Rworkspaces Nehru Place - Nehru Place
     {
       "id": 101,
       "name": "Rworkspaces Nehru Place",
@@ -4541,6 +4839,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/b3a946f6866aafa622d3d1b3f0e8ef2ea340e261.webp"
       ]
     },
+    // 96. Classic Converge Nehru Place - Nehru Place
     {
       "id": 108,
       "name": "Classic Converge Nehru Place",
@@ -4560,6 +4859,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/8cb7bc2c916979e35e9e58c0fc248aa0a74ae2bd.webp"
       ]
     },
+    // 97. Cubeecle Business Centre Nehru Place - Nehru Place
     {
       "id": 115,
       "name": "Cubeecle Business Centre Nehru Place",
@@ -4580,7 +4880,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Janakpuri" filter
   "Janakpuri": [
+    // 98. Spring House SHDL001 Janakpuri - Janakpuri
     {
       "id": 9,
       "name": "Spring House SHDL001 Janakpuri",
@@ -4600,6 +4902,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/a360db675fcf732815b80a12b019f5fdf94c8f1b.webp"
       ]
     },
+    // 99. Co-Offiz Janakpuri - Janakpuri
     {
       "id": 33,
       "name": "Co-Offiz Janakpuri",
@@ -4619,6 +4922,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/461f6c54542eacbd61ce146ab1b03a01f1f77413.jpg"
       ]
     },
+    // 100. Spring House SHDL002 Janakpuri - Janakpuri
     {
       "id": 51,
       "name": "Spring House SHDL002 Janakpuri",
@@ -4638,6 +4942,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/d0f6c666bebffa5a0dda8648eb64bea21168e6c3.jpg"
       ]
     },
+    // 101. The Club Co Janakpuri - Janakpuri
     {
       "id": 65,
       "name": "The Club Co Janakpuri",
@@ -4657,6 +4962,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/11006c141883bc059e003a631d2cad7aa9ed937a.webp"
       ]
     },
+    // 102. Spring House SHDL003 Janakpuri - Janakpuri
     {
       "id": 75,
       "name": "Spring House SHDL003 Janakpuri",
@@ -4676,6 +4982,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/6c1ac119aec3ba9554fab8221437279dab5e7efc.webp"
       ]
     },
+    // 103. Purple Co-working Janakpuri - Janakpuri
     {
       "id": 85,
       "name": "Purple Co-working Janakpuri",
@@ -4695,6 +5002,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/4fc108c185ae48573a116ccec2cad4295c758689.webp"
       ]
     },
+    // 104. Spring House SHDL006 Janakpuri - Janakpuri
     {
       "id": 94,
       "name": "Spring House SHDL006 Janakpuri",
@@ -4714,6 +5022,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/beca2f899f4af9193af05ffb74aa7856c7d5e0b1.webp"
       ]
     },
+    // 105. The Club Co Janakpuri - Janakpuri
     {
       "id": 65,
       "name": "The Club Co Janakpuri",
@@ -4733,6 +5042,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/11006c141883bc059e003a631d2cad7aa9ed937a.webp"
       ]
     },
+    // 106. Co-Offiz Janakpuri - Janakpuri
     {
       "id": 33,
       "name": "Co-Offiz Janakpuri",
@@ -4752,6 +5062,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/461f6c54542eacbd61ce146ab1b03a01f1f77413.jpg"
       ]
     },
+    // 107. Purple Co-working Janakpuri - Janakpuri
     {
       "id": 85,
       "name": "Purple Co-working Janakpuri",
@@ -4771,6 +5082,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/4fc108c185ae48573a116ccec2cad4295c758689.webp"
       ]
     },
+    // 108. Work & Thrive Dwarka - Dwarka
     {
       "id": 199,
       "name": "Work & Thrive Dwarka",
@@ -4790,6 +5102,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/b3a3ebb890ca42fa967deca737006bb16f311ea9.webp"
       ]
     },
+    // 109. U.S.Coworking Dwarka - Dwarka
     {
       "id": 200,
       "name": "U.S.Coworking Dwarka",
@@ -4809,6 +5122,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/113cbe3f96892b643d9e5535208ff194e1e11a49.webp"
       ]
     },
+    // 110. Cozywork Tilak Nagar - Tilak Nagar
     {
       "id": 235,
       "name": "Cozywork Tilak Nagar",
@@ -4829,7 +5143,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "South Delhi" filter
   "South Delhi": [
+    // 111. IKSANA Workspaces by Pannal South Delhi - South Delhi
     {
       "id": 10,
       "name": "IKSANA Workspaces by Pannal South Delhi",
@@ -4849,6 +5165,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/525b1d29c4342ea32324e590fade080a57a97718.webp"
       ]
     },
+    // 112. Zing Space 381 South Delhi - South Delhi
     {
       "id": 34,
       "name": "Zing Space 381 South Delhi",
@@ -4868,6 +5185,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/ced01cecd30dca4d1df33c747a9a1af3ce9ccdbf.webp"
       ]
     },
+    // 113. CorporatEdge South Delhi - South Delhi
     {
       "id": 52,
       "name": "CorporatEdge South Delhi",
@@ -4887,6 +5205,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/df15f98ba012e58d82ee22342fb1a52c9e665f98.webp"
       ]
     },
+    // 114. IKSANA Workspaces by Pannal South Delhi - South Delhi
     {
       "id": 10,
       "name": "IKSANA Workspaces by Pannal South Delhi",
@@ -4906,6 +5225,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/525b1d29c4342ea32324e590fade080a57a97718.webp"
       ]
     },
+    // 115. Flexihub Saket - Saket
     {
       "id": 90,
       "name": "Flexihub Saket",
@@ -4925,6 +5245,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/1c34108ca3448dbdb9625f6905a63321152f22b8.jpg"
       ]
     },
+    // 116. MIO Coworks Saket - Saket
     {
       "id": 139,
       "name": "MIO Coworks Saket",
@@ -4944,6 +5265,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/ea20175a94edf9f76d0da176d92f37fe9c70feb2.webp"
       ]
     },
+    // 117. ZO Space 274 Saket - Saket
     {
       "id": 98,
       "name": "ZO Space 274 Saket",
@@ -4963,6 +5285,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/bf72a630e48351dc3d2c7640abe1f7a229cb6b0c.webp"
       ]
     },
+    // 118. Buzz by Spacetime Saket - Saket
     {
       "id": 81,
       "name": "Buzz by Spacetime Saket",
@@ -4982,6 +5305,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/096c2bf7314cb09344afceda547d8d3176de513e.webp"
       ]
     },
+    // 119. SupremeWork Chattarpur - Chattarpur
     {
       "id": 147,
       "name": "SupremeWork Chattarpur",
@@ -5001,6 +5325,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/b53aeb95ca4564cb6000757bbcdbe584eca6d92d.webp"
       ]
     },
+    // 120. ThinkHaus Saket - Saket
     {
       "id": 148,
       "name": "ThinkHaus Saket",
@@ -5021,7 +5346,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Dwarka Delhi" filter
   "Dwarka Delhi": [
+    // 121. Workingdom Dwarka Delhi - Dwarka Delhi
     {
       "id": 11,
       "name": "Workingdom Dwarka Delhi",
@@ -5041,6 +5368,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/8df97965d75029659a16676a08059f97a5d4073c.jpg"
       ]
     },
+    // 122. YC Coworking Dwarka Delhi - Dwarka Delhi
     {
       "id": 35,
       "name": "YC Coworking Dwarka Delhi",
@@ -5060,6 +5388,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/2cad774819a83d7965a67bd4a505cf9fb077550f.jpg"
       ]
     },
+    // 123. Invento Workspaces 12A Dwarka Delhi - Dwarka Delhi
     {
       "id": 53,
       "name": "Invento Workspaces 12A Dwarka Delhi",
@@ -5079,6 +5408,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/3dd636f5c7cbc5ae4c275306e5084c1b810b03da.webp"
       ]
     },
+    // 124. Spacify Dwarka Delhi - Dwarka Delhi
     {
       "id": 66,
       "name": "Spacify Dwarka Delhi",
@@ -5098,6 +5428,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/a3e1e0c5ab686029ac26018525f0626a46f409e2.jpg"
       ]
     },
+    // 125. Peer 2 Desk Dwarka Delhi - Dwarka Delhi
     {
       "id": 76,
       "name": "Peer 2 Desk Dwarka Delhi",
@@ -5117,6 +5448,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/dd783968999d857e984e59459698c65b3cb71ec3.jpg"
       ]
     },
+    // 126. Work and Beyond Dwarka Delhi - Dwarka Delhi
     {
       "id": 86,
       "name": "Work and Beyond Dwarka Delhi",
@@ -5136,6 +5468,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/555cc0527dfaae2df24c8810b980f21b3131116a.webp"
       ]
     },
+    // 127. TCW Unity Work Space Dwarka Delhi - Dwarka Delhi
     {
       "id": 95,
       "name": "TCW Unity Work Space Dwarka Delhi",
@@ -5155,6 +5488,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/b15153f2fc3ec5852b97f7fd558b6bdf5a81fc2e.webp"
       ]
     },
+    // 128. Work Exchange Dwarka Delhi - Dwarka Delhi
     {
       "id": 102,
       "name": "Work Exchange Dwarka Delhi",
@@ -5174,6 +5508,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/4b61accc7c8a05e99ba3be847888fcb75bea6658.webp"
       ]
     },
+    // 129. Creativity Cove Dwarka Delhi - Dwarka Delhi
     {
       "id": 109,
       "name": "Creativity Cove Dwarka Delhi",
@@ -5193,6 +5528,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/ed190a0a0853cc1cc9de4fbb73e0e2e9c5f16ee0.webp"
       ]
     },
+    // 130. TCW Unity Work Space B Dwarka Delhi - Dwarka Delhi
     {
       "id": 116,
       "name": "TCW Unity Work Space B Dwarka Delhi",
@@ -5212,6 +5548,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/676a0e503d21453bc73c51f8787bd57d8a1c8619.webp"
       ]
     },
+    // 131. Master Space Najafgarh - Najafgarh
     {
       "id": 201,
       "name": "Master Space Najafgarh",
@@ -5231,6 +5568,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/c73eacf5ab611d5d349346e77582a7298dc6dd08.jpg"
       ]
     },
+    // 132. Cowynd Sector 19 Dwarka - Sector 19 Dwarka
     {
       "id": 227,
       "name": "Cowynd Sector 19 Dwarka",
@@ -5251,7 +5589,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Rohini" filter
   "Rohini": [
+    // 133. Team Station Rohini - Rohini
     {
       "id": 12,
       "name": "Team Station Rohini",
@@ -5271,6 +5611,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/7e82693e3ac7e64f0fa65d68732179b5d22c5934.jpg"
       ]
     },
+    // 134. Linkup Coworking Space Rohini - Rohini
     {
       "id": 36,
       "name": "Linkup Coworking Space Rohini",
@@ -5290,6 +5631,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/5c83448d350de2ad6a12a0c0906986a5c95ed247.webp"
       ]
     },
+    // 135. Brainy Colony Rohini - Rohini
     {
       "id": 54,
       "name": "Brainy Colony Rohini",
@@ -5308,6 +5650,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/2575018cc8ac248ce9885b10609bd9ee29c41a02.webp"
       ]
     },
+    // 136. Martini Rohini - Rohini
     {
       "id": 67,
       "name": "Martini Rohini",
@@ -5327,6 +5670,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/cbcfa9e3bbcb8932b7cd371ab2badef74d6a7df0.webp"
       ]
     },
+    // 137. Sab Co-working Rohini - Rohini
     {
       "id": 77,
       "name": "Sab Co-working Rohini",
@@ -5345,6 +5689,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/1a5e67ba153e1560bf35178f63bc600f27ebbc20.webp"
       ]
     },
+    // 138. Linkup Coworking Space Rohini - Rohini
     {
       "id": 36,
       "name": "Linkup Coworking Space Rohini",
@@ -5364,6 +5709,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/5c83448d350de2ad6a12a0c0906986a5c95ed247.webp"
       ]
     },
+    // 139. Team Station Rohini - Rohini
     {
       "id": 12,
       "name": "Team Station Rohini",
@@ -5383,6 +5729,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/7e82693e3ac7e64f0fa65d68732179b5d22c5934.jpg"
       ]
     },
+    // 140. Sab Co-working Rohini - Rohini
     {
       "id": 77,
       "name": "Sab Co-working Rohini",
@@ -5401,6 +5748,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/1a5e67ba153e1560bf35178f63bc600f27ebbc20.webp"
       ]
     },
+    // 141. Brainy Colony Rohini - Rohini
     {
       "id": 54,
       "name": "Brainy Colony Rohini",
@@ -5419,6 +5767,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/2575018cc8ac248ce9885b10609bd9ee29c41a02.webp"
       ]
     },
+    // 142. Martini Rohini - Rohini
     {
       "id": 67,
       "name": "Martini Rohini",
@@ -5438,6 +5787,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/cbcfa9e3bbcb8932b7cd371ab2badef74d6a7df0.webp"
       ]
     },
+    // 143. Folk us Paschim Vihar - Paschim Vihar
     {
       "id": 202,
       "name": "Folk us Paschim Vihar",
@@ -5457,6 +5807,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/f6f253e83a039faf022e482aff8fa281ac134d8d.webp"
       ]
     },
+    // 144. Office Cabin Paschim Vihar - Paschim Vihar
     {
       "id": 203,
       "name": "Office Cabin Paschim Vihar",
@@ -5476,6 +5827,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/b0d8986ee371534b84724495a40b0cdccd3f8eec.webp"
       ]
     },
+    // 145. Vistara Co Work Space Rohini Sector 22 - Rohini Sector 22
     {
       "id": 225,
       "name": "Vistara Co Work Space Rohini Sector 22",
@@ -5496,7 +5848,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Pitampura" filter
   "Pitampura": [
+    // 146. Team Station Rohini - Rohini
     {
       "id": 12,
       "name": "Team Station Rohini",
@@ -5516,6 +5870,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/7e82693e3ac7e64f0fa65d68732179b5d22c5934.jpg"
       ]
     },
+    // 147. Linkup Coworking Space Rohini - Rohini
     {
       "id": 36,
       "name": "Linkup Coworking Space Rohini",
@@ -5535,6 +5890,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/5c83448d350de2ad6a12a0c0906986a5c95ed247.webp"
       ]
     },
+    // 148. Work Exchange Netaji Subhash Place - Netaji Subhash Place
     {
       "id": 49,
       "name": "Work Exchange Netaji Subhash Place",
@@ -5554,6 +5910,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/547b5b79ea3a69f5a1414325ae2895255dbcbdf8.webp"
       ]
     },
+    // 149. Fume Coworking 2.0 Netaji Subhash Place - Netaji Subhash Place
     {
       "id": 31,
       "name": "Fume Coworking 2.0 Netaji Subhash Place",
@@ -5573,6 +5930,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/818c196cb2b92da65cb6a6eec6a081fee40ca620.webp"
       ]
     },
+    // 150. Co-Offiz Netaji Subhash Place - Netaji Subhash Place
     {
       "id": 7,
       "name": "Co-Offiz Netaji Subhash Place",
@@ -5592,6 +5950,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/6c4110298c6623fcd041cee0ca511fe104f552de.jpg"
       ]
     },
+    // 151. Fume Coworking 3.0 Netaji Subhash Place - Netaji Subhash Place
     {
       "id": 114,
       "name": "Fume Coworking 3.0 Netaji Subhash Place",
@@ -5611,6 +5970,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/72f8a49307d8a60ad88464895ee00aba630c972a.webp"
       ]
     },
+    // 152. Fume Coworking 1.0 Netaji Subhash Place - Netaji Subhash Place
     {
       "id": 63,
       "name": "Fume Coworking 1.0 Netaji Subhash Place",
@@ -5630,6 +5990,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/343ee9a4aaacb38faeff8ad8271f19127fece54b.webp"
       ]
     },
+    // 153. Galaxy Cowork Netaji Subhash Place - Netaji Subhash Place
     {
       "id": 107,
       "name": "Galaxy Cowork Netaji Subhash Place",
@@ -5649,6 +6010,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/0135a71271ae8dc9bbe1bf054f8e17752549698c.webp"
       ]
     },
+    // 154. Brainy Colony Rohini - Rohini
     {
       "id": 54,
       "name": "Brainy Colony Rohini",
@@ -5667,6 +6029,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/2575018cc8ac248ce9885b10609bd9ee29c41a02.webp"
       ]
     },
+    // 155. Supreme Cowork Netaji Subhash Place - Netaji Subhash Place
     {
       "id": 73,
       "name": "Supreme Cowork Netaji Subhash Place",
@@ -5686,6 +6049,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/0d9b1b6185bda7047280e372f19a54e24beb440c.webp"
       ]
     },
+    // 156. Nyro Workclub Moti Nagar - Moti Nagar
     {
       "id": 204,
       "name": "Nyro Workclub Moti Nagar",
@@ -5705,6 +6069,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/568420511291c03c16c80458f424942d3fdf1824.webp"
       ]
     },
+    // 157. Daftar Cowork 1.0 North Delhi - North Delhi
     {
       "id": 218,
       "name": "Daftar Cowork 1.0 North Delhi",
@@ -5724,6 +6089,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/35b26f3d97fe8766362863962e43b1250751827e.webp"
       ]
     },
+    // 158. Daftar Cowork (2.0 Elevate) North Delhi - North Delhi
     {
       "id": 232,
       "name": "Daftar Cowork (2.0 Elevate) North Delhi",
@@ -5744,7 +6110,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Rajouri Garden" filter
   "Rajouri Garden": [
+    // 159. Corporate Blu A Rajouri Garden - Rajouri Garden
     {
       "id": 13,
       "name": "Corporate Blu A Rajouri Garden",
@@ -5763,6 +6131,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/3c3eca7ba71323e8d83a6104855a41edd9384f46.webp"
       ]
     },
+    // 160. Corporate Blu A Rajouri Garden - Rajouri Garden
     {
       "id": 13,
       "name": "Corporate Blu A Rajouri Garden",
@@ -5781,6 +6150,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/3c3eca7ba71323e8d83a6104855a41edd9384f46.webp"
       ]
     },
+    // 161. Workaholics Spaces Bali Nagar - Bali Nagar
     {
       "id": 149,
       "name": "Workaholics Spaces Bali Nagar",
@@ -5800,6 +6170,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/106d8d2c786bd4640b6d1a373923b701c32321db.webp"
       ]
     },
+    // 162. Work Alley Punjabi Bagh - Punjabi Bagh
     {
       "id": 150,
       "name": "Work Alley Punjabi Bagh",
@@ -5819,6 +6190,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/1e405154f3a59ba0a0e49526c61c9e9020b22fe3.webp"
       ]
     },
+    // 163. Deal4ask Co-Working Tilak Nagar - Tilak Nagar
     {
       "id": 151,
       "name": "Deal4ask Co-Working Tilak Nagar",
@@ -5838,6 +6210,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/36594a0d11664c1b7c04a76ce3060eb6779b90ec.webp"
       ]
     },
+    // 164. 4U Coworks Subhash Nagar - Subhash Nagar
     {
       "id": 152,
       "name": "4U Coworks Subhash Nagar",
@@ -5857,6 +6230,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/dd74bb12f19c1eb428b4b67b6de5085d6fb8530f.webp"
       ]
     },
+    // 165. Spring House Naraina - Naraina
     {
       "id": 153,
       "name": "Spring House Naraina",
@@ -5876,6 +6250,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/c702f76ec427560548f04423575a6834da9124d6.webp"
       ]
     },
+    // 166. Spacio Co-Working Moti Nagar - Moti Nagar
     {
       "id": 154,
       "name": "Spacio Co-Working Moti Nagar",
@@ -5895,6 +6270,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/4e5130ccae5783c386c1bff96d5b504be737ed56.webp"
       ]
     },
+    // 167. Spot Space Moti Nagar - Moti Nagar
     {
       "id": 155,
       "name": "Spot Space Moti Nagar",
@@ -5914,6 +6290,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/e49c2fe21a6243e6dafa2c96a608658e5e5c3e4b.webp"
       ]
     },
+    // 168. Spring House SHDL003 Janakpuri - Janakpuri
     {
       "id": 75,
       "name": "Spring House SHDL003 Janakpuri",
@@ -5933,6 +6310,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/6c1ac119aec3ba9554fab8221437279dab5e7efc.webp"
       ]
     },
+    // 169. Covork Paschim Vihar - Paschim Vihar
     {
       "id": 205,
       "name": "Covork Paschim Vihar",
@@ -5952,6 +6330,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/ca138e1b7896bbfc5ea0fb6b02a558ce65d2d97f.webp"
       ]
     },
+    // 170. G Connect Spaces Mayapuri - Mayapuri
     {
       "id": 219,
       "name": "G Connect Spaces Mayapuri",
@@ -5972,7 +6351,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Vasant Kunj" filter
   "Vasant Kunj": [
+    // 171. Peer Share Vasant Kunj - Vasant Kunj
     {
       "id": 14,
       "name": "Peer Share Vasant Kunj",
@@ -5992,6 +6373,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/b2c78606d578872d8fa1e6809070b69bbc61ed81.webp"
       ]
     },
+    // 172. Nearby Desk Vasant Kunj - Vasant Kunj
     {
       "id": 37,
       "name": "Nearby Desk Vasant Kunj",
@@ -6011,6 +6393,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/7d56ac9486fc16053666dc6e4f655ec3e80af0fb.webp"
       ]
     },
+    // 173. Nearby Desk Vasant Kunj - Vasant Kunj
     {
       "id": 37,
       "name": "Nearby Desk Vasant Kunj",
@@ -6030,6 +6413,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/7d56ac9486fc16053666dc6e4f655ec3e80af0fb.webp"
       ]
     },
+    // 174. Peer Share Vasant Kunj - Vasant Kunj
     {
       "id": 14,
       "name": "Peer Share Vasant Kunj",
@@ -6049,6 +6433,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/b2c78606d578872d8fa1e6809070b69bbc61ed81.webp"
       ]
     },
+    // 175. Synq.Work Sector 29 - Sector 29
     {
       "id": 156,
       "name": "Synq.Work Sector 29",
@@ -6067,6 +6452,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/36d96bded9485d232aa0966126230c01fb3a610b.webp"
       ]
     },
+    // 176. Elegant Workspaces Sultanpur - Sultanpur
     {
       "id": 157,
       "name": "Elegant Workspaces Sultanpur",
@@ -6086,6 +6472,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/40c99d93acfc776f97de0ec350950110634221d6.webp"
       ]
     },
+    // 177. SupremeWork Chattarpur - Chattarpur
     {
       "id": 147,
       "name": "SupremeWork Chattarpur",
@@ -6105,6 +6492,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/b53aeb95ca4564cb6000757bbcdbe584eca6d92d.webp"
       ]
     },
+    // 178. The Executive Centre Saket - Saket
     {
       "id": 105,
       "name": "The Executive Centre Saket",
@@ -6124,6 +6512,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/06c37aeb91c8d6a0c80bed37d3c6e0a0f294c0fd.webp"
       ]
     },
+    // 179. Peer Share Sultanpur - Sultanpur
     {
       "id": 158,
       "name": "Peer Share Sultanpur",
@@ -6143,6 +6532,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/dbb407bea59fac9d9284a7412cac9e71d478ac87.webp"
       ]
     },
+    // 180. The Executive Centre Aerocity - Aerocity
     {
       "id": 69,
       "name": "The Executive Centre Aerocity",
@@ -6162,6 +6552,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/35cde1abb4445baeb9742548abb4e0904cd75689.webp"
       ]
     },
+    // 181. Livance Coworking Ghitorni - Ghitorni
     {
       "id": 206,
       "name": "Livance Coworking Ghitorni",
@@ -6181,6 +6572,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/d327b6daf9ee568230b4421e087123a1f9adcfbf.webp"
       ]
     },
+    // 182. Peer Share Vasant Vihar - Vasant Vihar
     {
       "id": 221,
       "name": "Peer Share Vasant Vihar",
@@ -6200,6 +6592,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/742bb1fdcbc8b8b247b3dd272a9d2731736b3fb6.jpg"
       ]
     },
+    // 183. Zing Space 401 Ghitorni - Ghitorni
     {
       "id": 229,
       "name": "Zing Space 401 Ghitorni",
@@ -6220,7 +6613,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Laxmi Nagar" filter
   "Laxmi Nagar": [
+    // 184. Office On Laxmi Nagar - Laxmi Nagar
     {
       "id": 15,
       "name": "Office On Laxmi Nagar",
@@ -6240,6 +6635,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/fac90594f0ad3e99d48818602c703859d5c4ec12.webp"
       ]
     },
+    // 185. Wbb Office Laxmi Nagar - Laxmi Nagar
     {
       "id": 38,
       "name": "Wbb Office Laxmi Nagar",
@@ -6259,6 +6655,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/9798e8387e4127e902593a962f61fa9f5175dd1f.webp"
       ]
     },
+    // 186. Office On Laxmi Nagar - Laxmi Nagar
     {
       "id": 15,
       "name": "Office On Laxmi Nagar",
@@ -6278,6 +6675,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/fac90594f0ad3e99d48818602c703859d5c4ec12.webp"
       ]
     },
+    // 187. Wbb Office Laxmi Nagar - Laxmi Nagar
     {
       "id": 38,
       "name": "Wbb Office Laxmi Nagar",
@@ -6297,6 +6695,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/9798e8387e4127e902593a962f61fa9f5175dd1f.webp"
       ]
     },
+    // 188. Thrive Coworking Nirman Vihar - Nirman Vihar
     {
       "id": 159,
       "name": "Thrive Coworking Nirman Vihar",
@@ -6316,6 +6715,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/71afb0079dcc4ab84f238d8a2f61016f0cec66d5.jpg"
       ]
     },
+    // 189. CloudSpace Preet Vihar - Preet Vihar
     {
       "id": 160,
       "name": "CloudSpace Preet Vihar",
@@ -6335,6 +6735,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/3527e2ae858b497b06285e93089d92cd87557c67.webp"
       ]
     },
+    // 190. Co-offiz Preet Vihar - Preet Vihar
     {
       "id": 161,
       "name": "Co-offiz Preet Vihar",
@@ -6354,6 +6755,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/1e4c52a56c16db61a9636c2712755552695718b0.webp"
       ]
     },
+    // 191. T Wrks KarKardooma - KarKardooma
     {
       "id": 162,
       "name": "T Wrks KarKardooma",
@@ -6373,6 +6775,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/c488f1cb28fd8870f68ee868d4131909ff60cbf4.webp"
       ]
     },
+    // 192. The Third Space Mayur Vihar - Mayur Vihar
     {
       "id": 163,
       "name": "The Third Space Mayur Vihar",
@@ -6392,6 +6795,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/457c1b0d9fa54a5fd6583f595c0c5d92cc6fbd39.jpg"
       ]
     },
+    // 193. eTribe Coworking Mayur Vihar - Mayur Vihar
     {
       "id": 164,
       "name": "eTribe Coworking Mayur Vihar",
@@ -6411,6 +6815,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/ae5103a03e466506d6c53735c179a2be0c741198.jpg"
       ]
     },
+    // 194. Cowork Mayur Vihar - Mayur Vihar
     {
       "id": 207,
       "name": "Cowork Mayur Vihar",
@@ -6430,6 +6835,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/1af2d83e99f6b3476ed27744d4c275b8db255e54.jpg"
       ]
     },
+    // 195. Abhiwan Coworking Sector 62 - Sector 62
     {
       "id": 208,
       "name": "Abhiwan Coworking Sector 62",
@@ -6449,6 +6855,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/115ea106b0db757578fcca4ea698728406f26938.webp"
       ]
     },
+    // 196. Cocoweave Preet Vihar - Preet Vihar
     {
       "id": 209,
       "name": "Cocoweave Preet Vihar",
@@ -6468,6 +6875,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/e15d283defbcf3bcb7b37df6159b309d68529875.jpg"
       ]
     },
+    // 197. Cobox iThum Tower Sector 62 - Sector 62
     {
       "id": 210,
       "name": "Cobox iThum Tower Sector 62",
@@ -6487,6 +6895,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/a9bd121522135cd44a8124fd8db7136f4a5c4b35.jpg"
       ]
     },
+    // 198. Regus District Center Mayur Vihar - Mayur Vihar
     {
       "id": 211,
       "name": "Regus District Center Mayur Vihar",
@@ -6506,6 +6915,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/1209fccc1168477f62cbcf8aa3017a7b85a6216a.webp"
       ]
     },
+    // 199. Workhive Mayur Vihar - Mayur Vihar
     {
       "id": 212,
       "name": "Workhive Mayur Vihar",
@@ -6525,6 +6935,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/a1832dbd99aebdba46d7e326d54b589863ccfb61.webp"
       ]
     },
+    // 200. Bollco Co-working East Delhi - East Delhi
     {
       "id": 224,
       "name": "Bollco Co-working East Delhi",
@@ -6544,6 +6955,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/800345583ca8906866b7cbc3cc800cb20525d375.webp"
       ]
     },
+    // 201. Bollco Anand Vihar - Anand Vihar
     {
       "id": 226,
       "name": "Bollco Anand Vihar",
@@ -6563,6 +6975,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/b4e202815c7a0e5cba01c9fcb957bca56265fcc2.webp"
       ]
     },
+    // 202. The Bright Vibes Dayanand Vihar - Dayanand Vihar
     {
       "id": 234,
       "name": "The Bright Vibes Dayanand Vihar",
@@ -6583,7 +6996,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Hauz Khas" filter
   "Hauz Khas": [
+    // 203. Delhi Co. Hauz Khas - Hauz Khas
     {
       "id": 16,
       "name": "Delhi Co. Hauz Khas",
@@ -6603,6 +7018,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/3037c455fe3d1052a4134b59a21bbbdd24bcf509.webp"
       ]
     },
+    // 204. Spaced Out Hauz Khas - Hauz Khas
     {
       "id": 39,
       "name": "Spaced Out Hauz Khas",
@@ -6622,6 +7038,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/b572503859e4e986a98a57bda6f8ea3ec0f824b2.jpg"
       ]
     },
+    // 205. Cowork Pad Hauz Khas - Hauz Khas
     {
       "id": 55,
       "name": "Cowork Pad Hauz Khas",
@@ -6641,6 +7058,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/baf88304cc2f73a1ee7e008c5e1025f9027e085a.webp"
       ]
     },
+    // 206. Cowork Pad Hauz Khas - Hauz Khas
     {
       "id": 55,
       "name": "Cowork Pad Hauz Khas",
@@ -6660,6 +7078,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/baf88304cc2f73a1ee7e008c5e1025f9027e085a.webp"
       ]
     },
+    // 207. Spaced Out Hauz Khas - Hauz Khas
     {
       "id": 39,
       "name": "Spaced Out Hauz Khas",
@@ -6679,6 +7098,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/b572503859e4e986a98a57bda6f8ea3ec0f824b2.jpg"
       ]
     },
+    // 208. Delhi Co. Hauz Khas - Hauz Khas
     {
       "id": 16,
       "name": "Delhi Co. Hauz Khas",
@@ -6698,6 +7118,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/3037c455fe3d1052a4134b59a21bbbdd24bcf509.webp"
       ]
     },
+    // 209. ABL Workspace Green Park - Green Park
     {
       "id": 40,
       "name": "ABL Workspace Green Park",
@@ -6717,6 +7138,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/98b12ff0ebcf28b3a7894cae65405370f7c056a4.webp"
       ]
     },
+    // 210. HUBIN Malviya Nagar - Malviya Nagar
     {
       "id": 165,
       "name": "HUBIN Malviya Nagar",
@@ -6735,6 +7157,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/1a46c83bbe958cfb181bc3fa342469173d8e9f4b.webp"
       ]
     },
+    // 211. Green Coworking Space Green Park - Green Park
     {
       "id": 56,
       "name": "Green Coworking Space Green Park",
@@ -6754,6 +7177,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/5feaa3eb69b9501842ffd7ec69df20febd065173.webp"
       ]
     },
+    // 212. Get Set Office Yusuf Sarai - Yusuf Sarai
     {
       "id": 166,
       "name": "Get Set Office Yusuf Sarai",
@@ -6772,6 +7196,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/2ea0ed9df603fd56c90b7ef93dfe423b318d9f92.webp"
       ]
     },
+    // 213. SupremeWork Bhikaji Cama Place - Bhikaji Cama Place
     {
       "id": 213,
       "name": "SupremeWork Bhikaji Cama Place",
@@ -6792,7 +7217,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Green Park" filter
   "Green Park": [
+    // 214. DesqWorx Green Park - Green Park
     {
       "id": 17,
       "name": "DesqWorx Green Park",
@@ -6812,6 +7239,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/fba1af6c924c6f2233fac26aa791f6620b163951.webp"
       ]
     },
+    // 215. ABL Workspace Green Park - Green Park
     {
       "id": 40,
       "name": "ABL Workspace Green Park",
@@ -6831,6 +7259,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/98b12ff0ebcf28b3a7894cae65405370f7c056a4.webp"
       ]
     },
+    // 216. Green Coworking Space Green Park - Green Park
     {
       "id": 56,
       "name": "Green Coworking Space Green Park",
@@ -6850,6 +7279,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/5feaa3eb69b9501842ffd7ec69df20febd065173.webp"
       ]
     },
+    // 217. Green Coworking Space Green Park - Green Park
     {
       "id": 56,
       "name": "Green Coworking Space Green Park",
@@ -6869,6 +7299,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/5feaa3eb69b9501842ffd7ec69df20febd065173.webp"
       ]
     },
+    // 218. DesqWorx Green Park - Green Park
     {
       "id": 17,
       "name": "DesqWorx Green Park",
@@ -6888,6 +7319,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/fba1af6c924c6f2233fac26aa791f6620b163951.webp"
       ]
     },
+    // 219. ABL Workspace Green Park - Green Park
     {
       "id": 40,
       "name": "ABL Workspace Green Park",
@@ -6907,6 +7339,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/98b12ff0ebcf28b3a7894cae65405370f7c056a4.webp"
       ]
     },
+    // 220. Get Set Office Yusuf Sarai - Yusuf Sarai
     {
       "id": 166,
       "name": "Get Set Office Yusuf Sarai",
@@ -6925,6 +7358,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/2ea0ed9df603fd56c90b7ef93dfe423b318d9f92.webp"
       ]
     },
+    // 221. Cowork Pad Hauz Khas - Hauz Khas
     {
       "id": 55,
       "name": "Cowork Pad Hauz Khas",
@@ -6944,6 +7378,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/baf88304cc2f73a1ee7e008c5e1025f9027e085a.webp"
       ]
     },
+    // 222. Spaced Out Hauz Khas - Hauz Khas
     {
       "id": 39,
       "name": "Spaced Out Hauz Khas",
@@ -6963,6 +7398,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/b572503859e4e986a98a57bda6f8ea3ec0f824b2.jpg"
       ]
     },
+    // 223. Delhi Co. Hauz Khas - Hauz Khas
     {
       "id": 16,
       "name": "Delhi Co. Hauz Khas",
@@ -6983,7 +7419,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Pusa Road" filter
   "Pusa Road": [
+    // 224. Urban Cabin Cowork Pusa Road - Pusa Road
     {
       "id": 18,
       "name": "Urban Cabin Cowork Pusa Road",
@@ -7003,6 +7441,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/dfaa4a87a2ff88bf5de97dc2ad089a2d56e9a93a.webp"
       ]
     },
+    // 225. Urban Cabin Cowork Pusa Road - Pusa Road
     {
       "id": 18,
       "name": "Urban Cabin Cowork Pusa Road",
@@ -7022,6 +7461,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/dfaa4a87a2ff88bf5de97dc2ad089a2d56e9a93a.webp"
       ]
     },
+    // 226. Dynamic Desk Karol Bagh - Karol Bagh
     {
       "id": 42,
       "name": "Dynamic Desk Karol Bagh",
@@ -7041,6 +7481,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/8cbab76fb541186d61f665d6b929c07d3601a68c.webp"
       ]
     },
+    // 227. Solace Karol Bagh - Karol Bagh
     {
       "id": 57,
       "name": "Solace Karol Bagh",
@@ -7060,6 +7501,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/9b3f0c4ec0f70988508946038c8cf81cd3279a5d.webp"
       ]
     },
+    // 228. Nukleus Rajinder Nagar - Rajinder Nagar
     {
       "id": 167,
       "name": "Nukleus Rajinder Nagar",
@@ -7079,6 +7521,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/21676d3119b5620fb65b1af7b1c67eb1aed8e44a.jpg"
       ]
     },
+    // 229. Berry Coworks Jhandewalan - Jhandewalan
     {
       "id": 168,
       "name": "Berry Coworks Jhandewalan",
@@ -7098,6 +7541,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/f7431aa281ada3762ef5e0181a570f081e381234.webp"
       ]
     },
+    // 230. Solace Coworks Karol Bagh - Karol Bagh
     {
       "id": 20,
       "name": "Solace Coworks Karol Bagh",
@@ -7117,6 +7561,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/598b83d6ffff784690712b9361ce041a5633fd96.webp"
       ]
     },
+    // 231. AtWork A Jhandewalan - Jhandewalan
     {
       "id": 169,
       "name": "AtWork A Jhandewalan",
@@ -7136,6 +7581,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/b745984cfedd9260639e700c095e32450303fdb5.webp"
       ]
     },
+    // 232. Daftar Cowork 3.0 Jhandewalan - Jhandewalan
     {
       "id": 170,
       "name": "Daftar Cowork 3.0 Jhandewalan",
@@ -7155,6 +7601,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/968d8f80fa5a4e34985ee51b8fedec4430fabd2c.webp"
       ]
     },
+    // 233. Atwork B Jhandewalan - Jhandewalan
     {
       "id": 171,
       "name": "Atwork B Jhandewalan",
@@ -7171,7 +7618,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Jasola" filter
   "Jasola": [
+    // 234. The Circle.Work Jasola - Jasola
     {
       "id": 19,
       "name": "The Circle.Work Jasola",
@@ -7191,6 +7640,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/a1697c2e3c57ef70227da4ecb1f2a56159502ded.jpg"
       ]
     },
+    // 235. Flexihub space Jasola - Jasola
     {
       "id": 41,
       "name": "Flexihub space Jasola",
@@ -7210,6 +7660,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/28dad7bc45d09e276c31eb7aeee75a0737467e3a.webp"
       ]
     },
+    // 236. The Circle.Work Jasola - Jasola
     {
       "id": 19,
       "name": "The Circle.Work Jasola",
@@ -7229,6 +7680,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/a1697c2e3c57ef70227da4ecb1f2a56159502ded.jpg"
       ]
     },
+    // 237. Flexihub space Jasola - Jasola
     {
       "id": 41,
       "name": "Flexihub space Jasola",
@@ -7248,6 +7700,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/28dad7bc45d09e276c31eb7aeee75a0737467e3a.webp"
       ]
     },
+    // 238. Hub & Oak 11 East Delhi - East Delhi
     {
       "id": 172,
       "name": "Hub & Oak 11 East Delhi",
@@ -7267,6 +7720,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/878ae836078e5f7bee36951a508f05c3f0fc0db1.webp"
       ]
     },
+    // 239. Spacetime Mohan Cooperative - Mohan Cooperative
     {
       "id": 89,
       "name": "Spacetime Mohan Cooperative",
@@ -7286,6 +7740,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/bd9c130caf6f6ae6d9f747c0e30b915d0f908e58.webp"
       ]
     },
+    // 240. Awfis Mohan Cooperative - Mohan Cooperative
     {
       "id": 46,
       "name": "Awfis Mohan Cooperative",
@@ -7305,6 +7760,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/8b2bddf08063d24c37475b1f8ae3af4b743a2420.webp"
       ]
     },
+    // 241. Awfis B Mohan Cooperative - Mohan Cooperative
     {
       "id": 80,
       "name": "Awfis B Mohan Cooperative",
@@ -7324,6 +7780,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/1efa65e0f45af954e2c3033da8b0d8ebf51802cb.jpg"
       ]
     },
+    // 242. AltF Okhla - Okhla
     {
       "id": 30,
       "name": "AltF Okhla",
@@ -7343,6 +7800,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/48d323d90e25a59421cba1c06db443826bb20418.webp"
       ]
     },
+    // 243. AltF Mohan Cooperative - Mohan Cooperative
     {
       "id": 28,
       "name": "AltF Mohan Cooperative",
@@ -7363,7 +7821,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Karol Bagh" filter
   "Karol Bagh": [
+    // 244. Solace Coworks Karol Bagh - Karol Bagh
     {
       "id": 20,
       "name": "Solace Coworks Karol Bagh",
@@ -7383,6 +7843,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/598b83d6ffff784690712b9361ce041a5633fd96.webp"
       ]
     },
+    // 245. Dynamic Desk Karol Bagh - Karol Bagh
     {
       "id": 42,
       "name": "Dynamic Desk Karol Bagh",
@@ -7402,6 +7863,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/8cbab76fb541186d61f665d6b929c07d3601a68c.webp"
       ]
     },
+    // 246. Solace Karol Bagh - Karol Bagh
     {
       "id": 57,
       "name": "Solace Karol Bagh",
@@ -7421,6 +7883,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/9b3f0c4ec0f70988508946038c8cf81cd3279a5d.webp"
       ]
     },
+    // 247. Solace Karol Bagh - Karol Bagh
     {
       "id": 57,
       "name": "Solace Karol Bagh",
@@ -7440,6 +7903,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/9b3f0c4ec0f70988508946038c8cf81cd3279a5d.webp"
       ]
     },
+    // 248. Dynamic Desk Karol Bagh - Karol Bagh
     {
       "id": 42,
       "name": "Dynamic Desk Karol Bagh",
@@ -7459,6 +7923,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/8cbab76fb541186d61f665d6b929c07d3601a68c.webp"
       ]
     },
+    // 249. Solace Coworks Karol Bagh - Karol Bagh
     {
       "id": 20,
       "name": "Solace Coworks Karol Bagh",
@@ -7478,6 +7943,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/598b83d6ffff784690712b9361ce041a5633fd96.webp"
       ]
     },
+    // 250. Berry Coworks Jhandewalan - Jhandewalan
     {
       "id": 168,
       "name": "Berry Coworks Jhandewalan",
@@ -7497,6 +7963,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/f7431aa281ada3762ef5e0181a570f081e381234.webp"
       ]
     },
+    // 251. Atwork B Jhandewalan - Jhandewalan
     {
       "id": 171,
       "name": "Atwork B Jhandewalan",
@@ -7512,6 +7979,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/5ed4a5400f3262ecc09b602d1b49625e0157b6a6.webp"
       ]
     },
+    // 252. Urban Cabin Cowork Pusa Road - Pusa Road
     {
       "id": 18,
       "name": "Urban Cabin Cowork Pusa Road",
@@ -7531,6 +7999,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/dfaa4a87a2ff88bf5de97dc2ad089a2d56e9a93a.webp"
       ]
     },
+    // 253. Daftar Cowork Momentum 5.0 Jhandewalan - Jhandewalan
     {
       "id": 173,
       "name": "Daftar Cowork Momentum 5.0 Jhandewalan",
@@ -7549,6 +8018,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/1fdaa9ee9216d21d495ad16a57fd500d322d4c23.webp"
       ]
     },
+    // 254. 91Springboard Jhandewalan - Jhandewalan
     {
       "id": 216,
       "name": "91Springboard Jhandewalan",
@@ -7569,7 +8039,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "West Delhi" filter
   "West Delhi": [
+    // 255. Spring House SHDL006 Janakpuri - Janakpuri
     {
       "id": 94,
       "name": "Spring House SHDL006 Janakpuri",
@@ -7589,6 +8061,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/beca2f899f4af9193af05ffb74aa7856c7d5e0b1.webp"
       ]
     },
+    // 256. Chanson Coworking Paschim Vihar - Paschim Vihar
     {
       "id": 174,
       "name": "Chanson Coworking Paschim Vihar",
@@ -7608,6 +8081,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/1aa5e3cc0b8807e51caabb56c73d16b18d2a3e82.webp"
       ]
     },
+    // 257. Spring House SHDL003 Janakpuri - Janakpuri
     {
       "id": 75,
       "name": "Spring House SHDL003 Janakpuri",
@@ -7627,6 +8101,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/6c1ac119aec3ba9554fab8221437279dab5e7efc.webp"
       ]
     },
+    // 258. Spring House SHDL001 Janakpuri - Janakpuri
     {
       "id": 9,
       "name": "Spring House SHDL001 Janakpuri",
@@ -7646,6 +8121,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/a360db675fcf732815b80a12b019f5fdf94c8f1b.webp"
       ]
     },
+    // 259. Spring House SHDL002 Janakpuri - Janakpuri
     {
       "id": 51,
       "name": "Spring House SHDL002 Janakpuri",
@@ -7665,6 +8141,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/d0f6c666bebffa5a0dda8648eb64bea21168e6c3.jpg"
       ]
     },
+    // 260. Co-Offiz Janakpuri - Janakpuri
     {
       "id": 33,
       "name": "Co-Offiz Janakpuri",
@@ -7684,6 +8161,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/461f6c54542eacbd61ce146ab1b03a01f1f77413.jpg"
       ]
     },
+    // 261. Purple Co-working Janakpuri - Janakpuri
     {
       "id": 85,
       "name": "Purple Co-working Janakpuri",
@@ -7703,6 +8181,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/4fc108c185ae48573a116ccec2cad4295c758689.webp"
       ]
     },
+    // 262. 4U Coworks Paschim Vihar - Paschim Vihar
     {
       "id": 175,
       "name": "4U Coworks Paschim Vihar",
@@ -7722,6 +8201,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/5e0ba1dc82277f2234bf6e4e01bb7dd86be06c52.webp"
       ]
     },
+    // 263. Deal4ask Co-Working Tilak Nagar - Tilak Nagar
     {
       "id": 151,
       "name": "Deal4ask Co-Working Tilak Nagar",
@@ -7741,6 +8221,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/36594a0d11664c1b7c04a76ce3060eb6779b90ec.webp"
       ]
     },
+    // 264. 4U Coworks Subhash Nagar - Subhash Nagar
     {
       "id": 152,
       "name": "4U Coworks Subhash Nagar",
@@ -7761,7 +8242,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Defence Colony" filter
   "Defence Colony": [
+    // 265. Hub And Oak Defence Colony - Defence Colony
     {
       "id": 21,
       "name": "Hub And Oak Defence Colony",
@@ -7781,6 +8264,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/054d79a58d265452716e5ad5c95957234f08d26f.webp"
       ]
     },
+    // 266. Hub And Oak Defence Colony - Defence Colony
     {
       "id": 21,
       "name": "Hub And Oak Defence Colony",
@@ -7800,6 +8284,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/054d79a58d265452716e5ad5c95957234f08d26f.webp"
       ]
     },
+    // 267. The Quantum Hub Lajpat Nagar III - Lajpat Nagar III
     {
       "id": 176,
       "name": "The Quantum Hub Lajpat Nagar III",
@@ -7819,6 +8304,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/684f617edfc2e9d5e4c56e0fb84b79b9e26beb09.webp"
       ]
     },
+    // 268. 9 to 5 Cowork Lajpat Nagar - Lajpat Nagar
     {
       "id": 23,
       "name": "9 to 5 Cowork Lajpat Nagar",
@@ -7838,6 +8324,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/2368a18a715538ff6f7bb6dedd31729240b2afc1.webp"
       ]
     },
+    // 269. FlexPod South Extension - South Extension
     {
       "id": 177,
       "name": "FlexPod South Extension",
@@ -7857,6 +8344,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/f9a6953a5621c8423e819c5c422c71b2414d4f76.webp"
       ]
     },
+    // 270. Central Business Center Lajpat Nagar I - Lajpat Nagar I
     {
       "id": 178,
       "name": "Central Business Center Lajpat Nagar I",
@@ -7876,6 +8364,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/4b4a9c4c3f5d961bcf5af3ca620f8d7daaada315.webp"
       ]
     },
+    // 271. Workly B Nehru Place - Nehru Place
     {
       "id": 129,
       "name": "Workly B Nehru Place",
@@ -7895,6 +8384,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/a6d7aea28a025dd2c81c93164ddbf0a3bbebde82.webp"
       ]
     },
+    // 272. 1share Office East of Kailash - East of Kailash
     {
       "id": 179,
       "name": "1share Office East of Kailash",
@@ -7914,6 +8404,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/f8a4aae8778e5d02bf0f0f0c64d02b87592e4b90.webp"
       ]
     },
+    // 273. Zen business center Nehru Place - Nehru Place
     {
       "id": 121,
       "name": "Zen business center Nehru Place",
@@ -7933,6 +8424,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/403f14ec6fb3e56cc068b5a0b6212adba9dd7fd1.webp"
       ]
     },
+    // 274. DesqWorx Green Park - Green Park
     {
       "id": 17,
       "name": "DesqWorx Green Park",
@@ -7953,7 +8445,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Patel Nagar" filter
   "Patel Nagar": [
+    // 275. Ojas Co-working Patel Nagar - Patel Nagar
     {
       "id": 22,
       "name": "Ojas Co-working Patel Nagar",
@@ -7973,6 +8467,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/c14dc2e9264f55b9bc5097f89b2db1c5ceea10d5.webp"
       ]
     },
+    // 276. Ojas Co-working Patel Nagar - Patel Nagar
     {
       "id": 22,
       "name": "Ojas Co-working Patel Nagar",
@@ -7992,6 +8487,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/c14dc2e9264f55b9bc5097f89b2db1c5ceea10d5.webp"
       ]
     },
+    // 277. Nukleus Rajinder Nagar - Rajinder Nagar
     {
       "id": 167,
       "name": "Nukleus Rajinder Nagar",
@@ -8011,6 +8507,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/21676d3119b5620fb65b1af7b1c67eb1aed8e44a.jpg"
       ]
     },
+    // 278. Urban Cabin Cowork Pusa Road - Pusa Road
     {
       "id": 18,
       "name": "Urban Cabin Cowork Pusa Road",
@@ -8030,6 +8527,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/dfaa4a87a2ff88bf5de97dc2ad089a2d56e9a93a.webp"
       ]
     },
+    // 279. Dynamic Desk Karol Bagh - Karol Bagh
     {
       "id": 42,
       "name": "Dynamic Desk Karol Bagh",
@@ -8049,6 +8547,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/8cbab76fb541186d61f665d6b929c07d3601a68c.webp"
       ]
     },
+    // 280. Solace Karol Bagh - Karol Bagh
     {
       "id": 57,
       "name": "Solace Karol Bagh",
@@ -8068,6 +8567,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/9b3f0c4ec0f70988508946038c8cf81cd3279a5d.webp"
       ]
     },
+    // 281. Berry Coworks Jhandewalan - Jhandewalan
     {
       "id": 168,
       "name": "Berry Coworks Jhandewalan",
@@ -8087,6 +8587,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/f7431aa281ada3762ef5e0181a570f081e381234.webp"
       ]
     },
+    // 282. Spacio Co-Working Moti Nagar - Moti Nagar
     {
       "id": 154,
       "name": "Spacio Co-Working Moti Nagar",
@@ -8106,6 +8607,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/4e5130ccae5783c386c1bff96d5b504be737ed56.webp"
       ]
     },
+    // 283. Solace Coworks Karol Bagh - Karol Bagh
     {
       "id": 20,
       "name": "Solace Coworks Karol Bagh",
@@ -8125,6 +8627,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/598b83d6ffff784690712b9361ce041a5633fd96.webp"
       ]
     },
+    // 284. Kuresu Kirti Nagar - Kirti Nagar
     {
       "id": 180,
       "name": "Kuresu Kirti Nagar",
@@ -8144,6 +8647,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/ae2a145b41eb64746c71a9a0f5419071478ea6dd.webp"
       ]
     },
+    // 285. Kovark Moti Nagar - Moti Nagar
     {
       "id": 217,
       "name": "Kovark Moti Nagar",
@@ -8163,6 +8667,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/559454a1e1523b9848722074aa756a5ad5e8b4ef.webp"
       ]
     },
+    // 286. Incospaces Kirti Nagar - Kirti Nagar
     {
       "id": 230,
       "name": "Incospaces Kirti Nagar",
@@ -8183,7 +8688,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Lajpat Nagar" filter
   "Lajpat Nagar": [
+    // 287. 9 to 5 Cowork Lajpat Nagar - Lajpat Nagar
     {
       "id": 23,
       "name": "9 to 5 Cowork Lajpat Nagar",
@@ -8203,6 +8710,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/2368a18a715538ff6f7bb6dedd31729240b2afc1.webp"
       ]
     },
+    // 288. Cospaces Lajpat Nagar - Lajpat Nagar
     {
       "id": 43,
       "name": "Cospaces Lajpat Nagar",
@@ -8222,6 +8730,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/a6cd79850ecdd74b7cde570281ceef78498d254f.webp"
       ]
     },
+    // 289. 9 to 5 Cowork Lajpat Nagar - Lajpat Nagar
     {
       "id": 23,
       "name": "9 to 5 Cowork Lajpat Nagar",
@@ -8241,6 +8750,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/2368a18a715538ff6f7bb6dedd31729240b2afc1.webp"
       ]
     },
+    // 290. Central Business Center Lajpat Nagar I - Lajpat Nagar I
     {
       "id": 178,
       "name": "Central Business Center Lajpat Nagar I",
@@ -8260,6 +8770,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/4b4a9c4c3f5d961bcf5af3ca620f8d7daaada315.webp"
       ]
     },
+    // 291. The Quantum Hub Lajpat Nagar III - Lajpat Nagar III
     {
       "id": 176,
       "name": "The Quantum Hub Lajpat Nagar III",
@@ -8279,6 +8790,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/684f617edfc2e9d5e4c56e0fb84b79b9e26beb09.webp"
       ]
     },
+    // 292. Workly B Nehru Place - Nehru Place
     {
       "id": 129,
       "name": "Workly B Nehru Place",
@@ -8298,6 +8810,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/a6d7aea28a025dd2c81c93164ddbf0a3bbebde82.webp"
       ]
     },
+    // 293. 1share Office East of Kailash - East of Kailash
     {
       "id": 179,
       "name": "1share Office East of Kailash",
@@ -8317,6 +8830,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/f8a4aae8778e5d02bf0f0f0c64d02b87592e4b90.webp"
       ]
     },
+    // 294. Hub And Oak Defence Colony - Defence Colony
     {
       "id": 21,
       "name": "Hub And Oak Defence Colony",
@@ -8336,6 +8850,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/054d79a58d265452716e5ad5c95957234f08d26f.webp"
       ]
     },
+    // 295. Zen business center Nehru Place - Nehru Place
     {
       "id": 121,
       "name": "Zen business center Nehru Place",
@@ -8355,6 +8870,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/403f14ec6fb3e56cc068b5a0b6212adba9dd7fd1.webp"
       ]
     },
+    // 296. FlexPod South Extension - South Extension
     {
       "id": 177,
       "name": "FlexPod South Extension",
@@ -8374,6 +8890,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/f9a6953a5621c8423e819c5c422c71b2414d4f76.webp"
       ]
     },
+    // 297. Spacetime Savitri Premises Greater Kailash II - Greater Kailash II
     {
       "id": 220,
       "name": "Spacetime Savitri Premises Greater Kailash II",
@@ -8393,6 +8910,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/d9676b821d9575a2a226066a18dd77035cb8fa8a.webp"
       ]
     },
+    // 298. Spacetime Deizen House Greater Kailash - Greater Kailash
     {
       "id": 222,
       "name": "Spacetime Deizen House Greater Kailash",
@@ -8412,6 +8930,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/f69de416282c00db75e402e36c7ca900f4cadd4b.webp"
       ]
     },
+    // 299. Gemba Coworks Greater Kailash II - Greater Kailash II
     {
       "id": 223,
       "name": "Gemba Coworks Greater Kailash II",
@@ -8431,6 +8950,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/ef8e22ca7a0c426e3ce56dc4d4a25feacce1bda0.webp"
       ]
     },
+    // 300. Third Place Greater Kailash - Greater Kailash
     {
       "id": 231,
       "name": "Third Place Greater Kailash",
@@ -8450,6 +8970,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/ecadc497116d94243ec50d40bbf09d555c817012.webp"
       ]
     },
+    // 301. Megamind Lajpat Nagar Iii - Lajpat Nagar Iii
     {
       "id": 233,
       "name": "Megamind Lajpat Nagar Iii",
@@ -8468,6 +8989,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/bac6f08871173040f04c7585ec5ba5f61e34983a.webp"
       ]
     },
+    // 302. Bollco Co-working Greater Kailash II - Greater Kailash II
     {
       "id": 236,
       "name": "Bollco Co-working Greater Kailash II",
@@ -8488,7 +9010,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Uttam Nagar" filter
   "Uttam Nagar": [
+    // 303. Udyogaa Uttam Nagar - Uttam Nagar
     {
       "id": 24,
       "name": "Udyogaa Uttam Nagar",
@@ -8508,6 +9032,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/2aa0a8a732fd9c88f2c92202a0b830eb692ae96c.webp"
       ]
     },
+    // 304. Udyogaa Uttam Nagar - Uttam Nagar
     {
       "id": 24,
       "name": "Udyogaa Uttam Nagar",
@@ -8527,6 +9052,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/2aa0a8a732fd9c88f2c92202a0b830eb692ae96c.webp"
       ]
     },
+    // 305. Purple Co-working Janakpuri - Janakpuri
     {
       "id": 85,
       "name": "Purple Co-working Janakpuri",
@@ -8546,6 +9072,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/4fc108c185ae48573a116ccec2cad4295c758689.webp"
       ]
     },
+    // 306. WorkingRise Dwarka - Dwarka
     {
       "id": 181,
       "name": "WorkingRise Dwarka",
@@ -8565,6 +9092,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/78e353573dce3d3d639235fc145f9b604943dbcf.webp"
       ]
     },
+    // 307. Co-Offiz Janakpuri - Janakpuri
     {
       "id": 33,
       "name": "Co-Offiz Janakpuri",
@@ -8584,6 +9112,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/461f6c54542eacbd61ce146ab1b03a01f1f77413.jpg"
       ]
     },
+    // 308. Spring House SHDL001 Janakpuri - Janakpuri
     {
       "id": 9,
       "name": "Spring House SHDL001 Janakpuri",
@@ -8603,6 +9132,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/a360db675fcf732815b80a12b019f5fdf94c8f1b.webp"
       ]
     },
+    // 309. Spring House SHDL002 Janakpuri - Janakpuri
     {
       "id": 51,
       "name": "Spring House SHDL002 Janakpuri",
@@ -8622,6 +9152,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/d0f6c666bebffa5a0dda8648eb64bea21168e6c3.jpg"
       ]
     },
+    // 310. Peer 2 Desk Dwarka Delhi - Dwarka Delhi
     {
       "id": 76,
       "name": "Peer 2 Desk Dwarka Delhi",
@@ -8641,6 +9172,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/dd783968999d857e984e59459698c65b3cb71ec3.jpg"
       ]
     },
+    // 311. Spring House SHDL006 Janakpuri - Janakpuri
     {
       "id": 94,
       "name": "Spring House SHDL006 Janakpuri",
@@ -8660,6 +9192,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/beca2f899f4af9193af05ffb74aa7856c7d5e0b1.webp"
       ]
     },
+    // 312. The Club Co Janakpuri - Janakpuri
     {
       "id": 65,
       "name": "The Club Co Janakpuri",
@@ -8679,6 +9212,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/11006c141883bc059e003a631d2cad7aa9ed937a.webp"
       ]
     },
+    // 313. Smart Square Dwarka - Dwarka
     {
       "id": 214,
       "name": "Smart Square Dwarka",
@@ -8698,6 +9232,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/b07a92c33e66a58a74f5541863f36739a0ae9fdd.webp"
       ]
     },
+    // 314. Worklikeboss Dwarka - Dwarka
     {
       "id": 215,
       "name": "Worklikeboss Dwarka",
@@ -8717,6 +9252,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/d0b99f6b0510448753fac40b000d2458f4a77e6e.webp"
       ]
     },
+    // 315. Hoblix Space Najafgarh - Najafgarh
     {
       "id": 228,
       "name": "Hoblix Space Najafgarh",
@@ -8739,7 +9275,10 @@ export const areaExtraOfficeCards = {
   ]
 };
 
+// Page 1 cards - top grid (right under the area filter buttons).
+// Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
 export const similarDehliOfficeCards = [
+  // 1. Vision Cowork Saket - Saket
   {
     "id": 137,
     "name": "Vision Cowork Saket",
@@ -8759,6 +9298,7 @@ export const similarDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/72a9d124803ed61ac034463e02d9beb522186179.webp"
     ]
   },
+  // 2. The Executive Centre Connaught Place - Connaught Place
   {
     "id": 138,
     "name": "The Executive Centre Connaught Place",
@@ -8778,6 +9318,7 @@ export const similarDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/132027f4b831061ddf261b066f62ecd12c966eae.webp"
     ]
   },
+  // 3. MIO Coworks Saket - Saket
   {
     "id": 139,
     "name": "MIO Coworks Saket",
@@ -8797,6 +9338,7 @@ export const similarDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/ea20175a94edf9f76d0da176d92f37fe9c70feb2.webp"
     ]
   },
+  // 4. Vatika Business Centre Thapar House Connaught Place - Connaught Place
   {
     "id": 140,
     "name": "Vatika Business Centre Thapar House Connaught Place",
@@ -8816,6 +9358,7 @@ export const similarDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/ab6d6ff3afb385f0c7de499623fa3a07a583cf1a.webp"
     ]
   },
+  // 5. Miracle Works Saket - Saket
   {
     "id": 141,
     "name": "Miracle Works Saket",
@@ -8835,6 +9378,7 @@ export const similarDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/c551f1d881288a150cab654a9f1db56c3cfe0ef7.webp"
     ]
   },
+  // 6. The Bivouac Connaught Place - Connaught Place
   {
     "id": 142,
     "name": "The Bivouac Connaught Place",
@@ -8854,6 +9398,7 @@ export const similarDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/ca336d8549d0aeee1cd60a99b76d32469b97c319.webp"
     ]
   },
+  // 7. 91Springboard Prius Platinum Saket - Saket
   {
     "id": 143,
     "name": "91Springboard Prius Platinum Saket",
@@ -8873,6 +9418,7 @@ export const similarDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/40f924d21c971bbb8edaee905df5493fd5ba85d8.webp"
     ]
   },
+  // 8. The Berry Coworks Connaught Place - Connaught Place
   {
     "id": 144,
     "name": "The Berry Coworks Connaught Place",
@@ -8892,6 +9438,7 @@ export const similarDehliOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/9b3f19e4935410b7447812abca2d163c00c0f7bd.webp"
     ]
   },
+  // 9. Mytime Cowork Saket - Saket
   {
     "id": 145,
     "name": "Mytime Cowork Saket",
@@ -8912,8 +9459,11 @@ export const similarDehliOfficeCards = [
     ]
   }
 ];
+// Cards offered in the "Similar Coworking Spaces" slider on the office detail page.
 export const similarDelhiOfficeCards = similarDehliOfficeCards;
 
+// Page 1 cards - top grid (right under the area filter buttons).
+// Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
 export const allDehliOfficeCards = [
   ...dehliOfficeCards,
   ...moreDehliOfficeCards,
@@ -8935,13 +9485,19 @@ export const allDehliOfficeCards = [
   ...similarDehliOfficeCards,
   ...Object.values(areaExtraOfficeCards).flat()
 ].filter((card, index, list) => list.findIndex((other) => other.id === card.id) === index);
+// Every Delhi card in one list (all pages + extras). The detail page uses this list to find a card by its URL slug.
 export const allDelhiOfficeCards = allDehliOfficeCards;
 
+// Find a Delhi card from its URL slug (or numeric id). Returns the card or null.
 export const getDehliOfficeCardById = (id) => findOfficeBySlug(allDehliOfficeCards, id, "delhi");
+// Build the URL slug / path of a Delhi card (e.g. "/name-area-delhi").
 export const getDehliOfficeSlug = (space) => officePath(allDehliOfficeCards, space, "delhi");
+// Find a Delhi card from its URL slug (or numeric id). Returns the card or null.
 export const getDelhiOfficeCardById = getDehliOfficeCardById;
 
+// "Explore Top Coworking Locations" tiles at the bottom of the page (area name, title, photo). Clicking a tile filters by that area.
 export const topDehliCoworkingLocations = [
+  // 1. Connaught Place
   {
     "id": "loc-connaught-place",
     "name": "Connaught Place",
@@ -8949,6 +9505,7 @@ export const topDehliCoworkingLocations = [
     "image": "https://img.cofynd.com/images/latest_images_2024/b51cfb296e1d87a35723c9d4a3b957be96ea73cd.webp",
     "ctaText": "Explore Spaces"
   },
+  // 2. Saket
   {
     "id": "loc-saket",
     "name": "Saket",
@@ -8956,6 +9513,7 @@ export const topDehliCoworkingLocations = [
     "image": "https://img.cofynd.com/images/latest_images_2024/a36d09bad7175ca9643ad8e88f77462bd8ec36e1.webp",
     "ctaText": "Explore Spaces"
   },
+  // 3. Nehru Place
   {
     "id": "loc-nehru-place",
     "name": "Nehru Place",
@@ -8963,6 +9521,7 @@ export const topDehliCoworkingLocations = [
     "image": "https://img.cofynd.com/images/latest_images_2024/8a42a52f0d08b1fe8fbc67d8a16ee3a22553597b.webp",
     "ctaText": "Explore Spaces"
   },
+  // 4. Aerocity
   {
     "id": "loc-aerocity",
     "name": "Aerocity",
@@ -8970,6 +9529,7 @@ export const topDehliCoworkingLocations = [
     "image": "https://img.cofynd.com/images/latest_images_2024/323979251e5458d1485f20d1ff9fcc33b230dfb8.webp",
     "ctaText": "Explore Spaces"
   },
+  // 5. Okhla
   {
     "id": "loc-okhla",
     "name": "Okhla",
@@ -8977,6 +9537,7 @@ export const topDehliCoworkingLocations = [
     "image": "https://img.cofynd.com/images/latest_images_2024/d72385e6df621c44142ed89e03ee20dd32220d9d.webp",
     "ctaText": "Explore Spaces"
   },
+  // 6. Netaji Subhash Place
   {
     "id": "loc-netaji-subhash-place",
     "name": "Netaji Subhash Place",
@@ -8984,6 +9545,7 @@ export const topDehliCoworkingLocations = [
     "image": "https://img.cofynd.com/images/latest_images_2024/1288e19a7b909ea9ebbe71a2fa95c50736afc7c7.webp",
     "ctaText": "Explore Spaces"
   },
+  // 7. Hauz Khas
   {
     "id": "loc-hauz-khas",
     "name": "Hauz Khas",
@@ -8991,6 +9553,7 @@ export const topDehliCoworkingLocations = [
     "image": "https://img.cofynd.com/images/latest_images_2024/ad7fa46d9bdb766ddb3da837e007525c9d1a0a11.webp",
     "ctaText": "Explore Spaces"
   },
+  // 8. Green Park
   {
     "id": "loc-green-park",
     "name": "Green Park",
@@ -8998,6 +9561,7 @@ export const topDehliCoworkingLocations = [
     "image": "https://img.cofynd.com/images/latest_images_2024/d0477af6807946ce717972841b30b7b5613cdfb9.webp",
     "ctaText": "Explore Spaces"
   },
+  // 9. Dwarka Delhi
   {
     "id": "loc-dwarka-delhi",
     "name": "Dwarka Delhi",
@@ -9005,6 +9569,7 @@ export const topDehliCoworkingLocations = [
     "image": "https://img.cofynd.com/images/latest_images_2024/a65d621179742f9abdf246d47ca5ed37d4afc550.webp",
     "ctaText": "Explore Spaces"
   },
+  // 10. Karol Bagh
   {
     "id": "loc-karol-bagh",
     "name": "Karol Bagh",
@@ -9013,6 +9578,7 @@ export const topDehliCoworkingLocations = [
     "ctaText": "Explore Spaces"
   }
 ];
+// "Explore Top Coworking Locations" tiles at the bottom of the page (area name, title, photo). Clicking a tile filters by that area.
 export const topDelhiCoworkingLocations = topDehliCoworkingLocations;
 
 export const dehliAreas = dehliNeighborhoods;
@@ -9023,6 +9589,7 @@ export const dehliSpaces = dehliOfficeCards;
 export const delhiSpaces = dehliOfficeCards;
 export const spaces = dehliOfficeCards;
 
+// Default export: bundle of the main lists/helpers for modules that import the whole file.
 export default {
   dehliNeighborhoods,
   delhiNeighborhoods,

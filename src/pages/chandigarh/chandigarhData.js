@@ -19,7 +19,10 @@ export const chandigarhNeighborhoods = [
   "Sector 7"
 ];
 
+// Page 1 cards - top grid (right under the area filter buttons).
+// Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
 export const chandigarhOfficeCards = [
+  // 1. Spacejam Coworking Chandigarh - Industrial Area Phase 1
   {
     id: 1,
     name: "Spacejam Coworking Chandigarh",
@@ -39,6 +42,7 @@ export const chandigarhOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/02a697e9a47810cd7a5cfd54e45999af5317ea59.webp"
     ]
   },
+  // 2. Imagine Coworking - Chandigarh
   {
     id: 2,
     name: "Imagine Coworking",
@@ -59,6 +63,7 @@ export const chandigarhOfficeCards = [
       "https://img.cofynd.com/images/original/c13c8590f6547a6380a3f2e986786ca50e1b02dd.jpg"
     ]
   },
+  // 3. Magnet Cowork - Sector 34
   {
     id: 3,
     name: "Magnet Cowork",
@@ -79,6 +84,7 @@ export const chandigarhOfficeCards = [
       "https://img.cofynd.com/images/original/c40ab4359100cdb2c22b2f141847b7246ee2845b.jpg"
     ]
   },
+  // 4. Next57 Coworking - Sector 34
   {
     id: 4,
     name: "Next57 Coworking",
@@ -99,6 +105,7 @@ export const chandigarhOfficeCards = [
       "https://img.cofynd.com/images/original/acf248d0cf9654c98b288fac0f071a9232f7ab6a.jpg"
     ]
   },
+  // 5. The Hive Coworking and Business Centre - Industrial Area Phase 2
   {
     id: 5,
     name: "The Hive Coworking and Business Centre",
@@ -119,6 +126,7 @@ export const chandigarhOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/01310a5017bb5a262b78f206b79de23cd2ba0b2b.webp"
     ]
   },
+  // 6. MySoho - Madhya Marg
   {
     id: 6,
     name: "MySoho",
@@ -138,6 +146,7 @@ export const chandigarhOfficeCards = [
       "https://img.cofynd.com/images/original/5823284da62a8217027b39a2f55649ef16b74a72.jpg"
     ]
   },
+  // 7. Qowork - Madhya Marg
   {
     id: 7,
     name: "Qowork",
@@ -157,6 +166,7 @@ export const chandigarhOfficeCards = [
       "https://img.cofynd.com/images/original/df6361154dd077de766271378f2e4f4531a6e864.jpg"
     ]
   },
+  // 8. Roadies Koffeehouz - Madhya Marg
   {
     id: 8,
     name: "Roadies Koffeehouz",
@@ -178,7 +188,10 @@ export const chandigarhOfficeCards = [
   }
 ];
 
+// Page 1 cards - second grid ("Additional coworking spaces", below the top grid).
+// Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
 export const moreChandigarhOfficeCards = [
+  // 1. SpaceJam - Sector 34
   {
     id: 9,
     name: "SpaceJam",
@@ -199,6 +212,7 @@ export const moreChandigarhOfficeCards = [
       "https://img.cofynd.com/images/original/6ff70f93746c4c5b0c0cab065afe4e70a8c55d23.jpg"
     ]
   },
+  // 2. Workaholics workzone - Sector 34
   {
     id: 10,
     name: "Workaholics workzone",
@@ -219,6 +233,7 @@ export const moreChandigarhOfficeCards = [
       "https://img.cofynd.com/images/original/d49a4ce7b214fdb1ff1a6feb545b5dfd9b9d3b8e.jpg"
     ]
   },
+  // 3. MyBranch Chandigarh - Madhya Marg
   {
     id: 11,
     name: "MyBranch Chandigarh",
@@ -239,6 +254,7 @@ export const moreChandigarhOfficeCards = [
       "https://img.cofynd.com/images/original/737ce3daf2d5607039da3eda2a97e6093f32c95f.jpg"
     ]
   },
+  // 4. IDEA Coworking - Madhya Marg
   {
     id: 12,
     name: "IDEA Coworking",
@@ -258,6 +274,7 @@ export const moreChandigarhOfficeCards = [
       "https://img.cofynd.com/images/original/61814a976022161d9f27874f26f9c1f6bca53ef6.jpg"
     ]
   },
+  // 5. Workcave - Sector 37
   {
     id: 13,
     name: "Workcave",
@@ -277,6 +294,7 @@ export const moreChandigarhOfficeCards = [
       "https://img.cofynd.com/images/original/1a3a6814cefbddb877670a68697120a92f16b3b0.jpg"
     ]
   },
+  // 6. Workaholics - Sector 34
   {
     id: 14,
     name: "Workaholics",
@@ -296,6 +314,7 @@ export const moreChandigarhOfficeCards = [
       "https://img.cofynd.com/images/original/c642501fbf52bb8f52b50488dc9b4969ad4e0900.jpg"
     ]
   },
+  // 7. Eraya Co-working Space - Industrial Area Phase 2
   {
     id: 15,
     name: "Eraya Co-working Space",
@@ -316,6 +335,7 @@ export const moreChandigarhOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/bc71e792128fe1d50b4ae048720f5a6df72fcff7.webp"
     ]
   },
+  // 8. Coworkio - Sector 17
   {
     id: 16,
     name: "Coworkio",
@@ -337,7 +357,10 @@ export const moreChandigarhOfficeCards = [
   }
 ];
 
+// Page 1 cards - third grid ("Spotlight coworking spaces", below the "Discover your perfect workspace" banner).
+// Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
 export const finalChandigarhOfficeCards = [
+  // 1. Next57 Coworking - Sector 17
   {
     id: 17,
     name: "Next57 Coworking",
@@ -358,6 +381,7 @@ export const finalChandigarhOfficeCards = [
       "https://ik.imagekit.io/qdesq/qdesq/49fc2c71c262f58eec57b8b8e5248591__va4xykzs.jpeg"
     ]
   },
+  // 2. IDEA COWORKING - Sector 17
   {
     id: 18,
     name: "IDEA COWORKING",
@@ -378,6 +402,7 @@ export const finalChandigarhOfficeCards = [
       "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1641876580/xey15tn7jrj211dpokcx.webp"
     ]
   },
+  // 3. Regus - Sector 17
   {
     id: 19,
     name: "Regus",
@@ -398,6 +423,7 @@ export const finalChandigarhOfficeCards = [
       "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1612174727/te1bdsglpvtiqpdm6sfk.jpg"
     ]
   },
+  // 4. Fullcircle HD - Sector 8
   {
     id: 20,
     name: "Fullcircle HD",
@@ -418,6 +444,7 @@ export const finalChandigarhOfficeCards = [
       "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1530957362/rz1rtuzlbznsoclrcajz.webp"
     ]
   },
+  // 5. Triam Centre - Sector 8
   {
     id: 21,
     name: "Triam Centre",
@@ -436,6 +463,7 @@ export const finalChandigarhOfficeCards = [
       "https://qdesq.imagekit.io/img/image/upload/tr:h-181,w-325/v1486982206/fmnkrmgvqoifpazo5ihi.webp"
     ]
   },
+  // 6. Zen Coworking - Sector 37
   {
     id: 22,
     name: "Zen Coworking",
@@ -456,6 +484,7 @@ export const finalChandigarhOfficeCards = [
       "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1721114778/romrosmcodq9rkwn8vkg.webp"
     ]
   },
+  // 7. MySoho - Sector 26
   {
     id: 23,
     name: "MySoho",
@@ -476,6 +505,7 @@ export const finalChandigarhOfficeCards = [
       "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1711530761/qgftvno3iy8uohm64lvu.webp"
     ]
   },
+  // 8. MEE Spaces - Industrial Area Phase 1
   {
     id: 24,
     name: "MEE Spaces",
@@ -498,7 +528,10 @@ export const finalChandigarhOfficeCards = [
   }
 ];
 
+// Page 1 cards - fourth grid ("Featured coworking spaces", below the "Customized office solutions" banner).
+// Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
 export const featuredChandigarhOfficeCards = [
+  // 1. Next57 - Industrial Area Phase 2
   {
     id: 25,
     name: "Next57",
@@ -519,6 +552,7 @@ export const featuredChandigarhOfficeCards = [
       "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1663931071/wsjsp3gauyambhoxjg7w.webp"
     ]
   },
+  // 2. Imagine - Industrial Area Phase 1
   {
     id: 26,
     name: "Imagine",
@@ -539,6 +573,7 @@ export const featuredChandigarhOfficeCards = [
       "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1683635986/yet82av94jgpsn7pdzi2.jpg"
     ]
   },
+  // 3. MySoho - Industrial Area Phase 1
   {
     id: 27,
     name: "MySoho",
@@ -559,6 +594,7 @@ export const featuredChandigarhOfficeCards = [
       "https://qdesq.imagekit.io/tr:h-181,w-325/image/upload/v1684735152/xkg9fsrcnczprhi8o6wx.webp"
     ]
   },
+  // 4. Work yard - Industrial Area Phase 2
   {
     id: 28,
     name: "Work yard",
@@ -579,6 +615,7 @@ export const featuredChandigarhOfficeCards = [
       "https://qdesq.imagekit.io/img/tr:h-181,w-325/image/upload/v1595505670/uuwmvxwp9r7jgda7movi.webp"
     ]
   },
+  // 5. MAGNET COWORK - Industrial Area Phase 1
   {
     id: 29,
     name: "MAGNET COWORK",
@@ -599,6 +636,7 @@ export const featuredChandigarhOfficeCards = [
       "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1580898528/pkpu1fzmwj4gpaele3ou.webp"
     ]
   },
+  // 6. Trading Cowork - Industrial Area Phase 1
   {
     id: 30,
     name: "Trading Cowork",
@@ -619,6 +657,7 @@ export const featuredChandigarhOfficeCards = [
       "https://ik.imagekit.io/qdesq/qdesq/90fe49651a58281ce066c418753829be_0g48wmJkG.jpg"
     ]
   },
+  // 7. Cozy Co Office - Industrial Area Phase 2
   {
     id: 31,
     name: "Cozy Co Office",
@@ -639,6 +678,7 @@ export const featuredChandigarhOfficeCards = [
       "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1512384746/wthjankv0bhamfd2pfuv.webp"
     ]
   },
+  // 8. Meshink - Industrial Area Phase 2
   {
     id: 32,
     name: "Meshink",
@@ -661,6 +701,7 @@ export const featuredChandigarhOfficeCards = [
   }
 ];
 
+// Content of the "Discover your perfect workspace" banner (title, subtitle, button text, background photo).
 export const perfectWorkspaceBanner = {
   title: 'Discover your perfect workspace with Mycoworking',
   subtitle: 'Explore Flexible Coworking Solutions, Premium Amenities, and Prime Locations Across India',
@@ -674,6 +715,7 @@ export const chandigarhSpaces = chandigarhOfficeCards;
 export const areas = chandigarhNeighborhoods;
 export const spaces = chandigarhOfficeCards;
 
+// Content of the "Customized office solutions for your team" banner (title, feature list, button, background photo).
 export const customizedOfficeBanner = {
   title: 'Customized office solutions for your team',
   features: [
@@ -686,6 +728,7 @@ export const customizedOfficeBanner = {
   bgImage: 'https://img.cofynd.com/images/latest_images_2024/83bb813890447d5d3d6bda55c7133a5fd48cdbc5.webp'
 };
 
+// Content of the "Still not able to find coworking space?" banner (title, subtitle, button, background photo).
 export const stillNotFindingBanner = {
   title: 'Still not able to find coworking space?',
   subtitle: 'Our space experts will help you find the perfect coworking space in prime locations',
@@ -693,12 +736,16 @@ export const stillNotFindingBanner = {
   bgImage: 'https://img.cofynd.com/images/latest_images_2024/406c83ccb0729b57d9beb973b7e4088ab7640ef3.webp'
 };
 
+// Pagination settings: total number of pages and the page that opens first.
 export const paginationData = {
   totalPages: 2,
   initialPage: 1
 };
 
+// Page 2 cards - top grid (right under the area filter buttons).
+// Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageTwoChandigarhOfficeCards = [
+  // 1. Magnet Coworks - Industrial Area Phase 1
   {
     id: 33,
     name: "Magnet Coworks",
@@ -719,6 +766,7 @@ export const pageTwoChandigarhOfficeCards = [
       "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1634200838/kzzsarnl4j8enna5ky5z.jpg"
     ]
   },
+  // 2. Next 57 - Industrial Area Phase 1
   {
     id: 34,
     name: "Next 57",
@@ -736,6 +784,7 @@ export const pageTwoChandigarhOfficeCards = [
       "https://qdesq.imagekit.io/tr:h-181,w-325/image/upload/v1647863945/tshv5q21iy3g6ovtaa85.webp"
     ]
   },
+  // 3. WORKAHOLICS - Industrial Area Phase 1
   {
     id: 35,
     name: "WORKAHOLICS",
@@ -756,6 +805,7 @@ export const pageTwoChandigarhOfficeCards = [
       "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1656147949/zli2pct8h1c4om7leuln.jpg"
     ]
   },
+  // 4. Manthan Work Spaces - Industrial Area Phase 1
   {
     id: 36,
     name: "Manthan Work Spaces",
@@ -776,6 +826,7 @@ export const pageTwoChandigarhOfficeCards = [
       "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1701686322/tq9nxiosyq3fjxuhzs6z.webp"
     ]
   },
+  // 5. Arium Workspaces - Industrial Area Phase 2
   {
     id: 37,
     name: "Arium Workspaces",
@@ -798,7 +849,10 @@ export const pageTwoChandigarhOfficeCards = [
   }
 ];
 
+// Page 2 cards - second grid ("Additional coworking spaces", below the top grid).
+// Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageTwoMoreChandigarhOfficeCards = [
+  // 1. Launchyard Cowork - Chandigarh
   {
     id: 38,
     name: "Launchyard Cowork",
@@ -818,6 +872,7 @@ export const pageTwoMoreChandigarhOfficeCards = [
       "https://qdesq.imagekit.io/img/tr:h-181,w-325/image/upload/v1595845627/akbjwoqiqo1iifxpbfuh.webp"
     ]
   },
+  // 2. Work Yard Chandigarh - Industrial Area Phase 2
   {
     id: 39,
     name: "Work Yard Chandigarh",
@@ -838,6 +893,7 @@ export const pageTwoMoreChandigarhOfficeCards = [
       "https://cdn.daftar.com/image-02-RHy99Skh-large-1600x1200.jpg"
     ]
   },
+  // 3. MyBranch Chandigarh - Sector 8
   {
     id: 40,
     name: "MyBranch Chandigarh",
@@ -858,6 +914,7 @@ export const pageTwoMoreChandigarhOfficeCards = [
       "https://cdn.daftar.com/image-01-Gz2QTK5O-large-1600x1200.jpg"
     ]
   },
+  // 4. TRIAM CENTRE CHANDIGARH - Sector 7
   {
     id: 41,
     name: "TRIAM CENTRE CHANDIGARH",
@@ -877,6 +934,7 @@ export const pageTwoMoreChandigarhOfficeCards = [
       "https://cdn.daftar.com/image-02-BrZPae-K-large-1600x1200.jpg"
     ]
   },
+  // 5. Qowork - Sector 26
   {
     id: 42,
     name: "Qowork",
@@ -898,7 +956,10 @@ export const pageTwoMoreChandigarhOfficeCards = [
   }
 ];
 
+// Page 2 cards - third grid ("Spotlight coworking spaces", below the "Discover your perfect workspace" banner).
+// Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageTwoFinalChandigarhOfficeCards = [
+  // 1. HQ Coworking - Sector 26
   {
     id: 43,
     name: "HQ Coworking",
@@ -918,6 +979,7 @@ export const pageTwoFinalChandigarhOfficeCards = [
       "https://cdn.daftar.com/image-74bfcc8b-24d9-4baf-bb28-21e0eeda1695-large-1200x1200.jpg"
     ]
   },
+  // 2. Fullcircle HD - Sector 11
   {
     id: 44,
     name: "Fullcircle HD",
@@ -937,6 +999,7 @@ export const pageTwoFinalChandigarhOfficeCards = [
       "https://cdn.daftar.com/image-2e539689-077f-441b-92a5-20a086bb004f-large-1200x1200.webp"
     ]
   },
+  // 3. IDEA Coworking Chandigarh - Sector 17
   {
     id: 45,
     name: "IDEA Coworking Chandigarh",
@@ -957,6 +1020,7 @@ export const pageTwoFinalChandigarhOfficeCards = [
       "https://cdn.daftar.com/image-0b548209-364f-4568-8ed4-eddc4754e594-large-1200x1200.jpg"
     ]
   },
+  // 4. SpaceJam Chandigarh - Sector 34
   {
     id: 46,
     name: "SpaceJam Chandigarh",
@@ -977,6 +1041,7 @@ export const pageTwoFinalChandigarhOfficeCards = [
       "https://cdn.daftar.com/image-a075dbfc-da7c-4154-915d-0ba65f0d8b28-large-1200x1200.jpg"
     ]
   },
+  // 5. Workcave Coworking Sector 37 - Sector 37
   {
     id: 47,
     name: "Workcave Coworking Sector 37",
@@ -999,7 +1064,10 @@ export const pageTwoFinalChandigarhOfficeCards = [
   }
 ];
 
+// Page 2 cards - fourth grid ("Featured coworking spaces", below the "Customized office solutions" banner).
+// Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageTwoFeaturedChandigarhOfficeCards = [
+  // 1. Archorganic - Sector 11
   {
     id: 48,
     name: "Archorganic",
@@ -1016,6 +1084,7 @@ export const pageTwoFeaturedChandigarhOfficeCards = [
       "https://cdn.daftar.com/image-956d9920-f34a-43f3-847c-b0ced4ba5de8-large-1200x1200.jpg"
     ]
   },
+  // 2. Flexi Daftar - Sector 17
   {
     id: 49,
     name: "Flexi Daftar",
@@ -1036,6 +1105,7 @@ export const pageTwoFeaturedChandigarhOfficeCards = [
       "https://cdn.daftar.com/image-0bbc8913-214a-4205-a15f-1281181ae933-large-1200x1200.webp"
     ]
   },
+  // 3. Barista - Sector 35 - Sector 35
   {
     id: 50,
     name: "Barista - Sector 35",
@@ -1056,6 +1126,7 @@ export const pageTwoFeaturedChandigarhOfficeCards = [
       "https://cdn.daftar.com/image-02-9GwjNnHP-large-1600x1200.jpg"
     ]
   },
+  // 4. UT Coworking Spaces - Sector 17
   {
     id: 51,
     name: "UT Coworking Spaces",
@@ -1076,33 +1147,58 @@ export const pageTwoFeaturedChandigarhOfficeCards = [
   }
 ];
 
+// Page 3 cards - top grid (right under the area filter buttons).
+// Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageThreeChandigarhOfficeCards = [];
 
+// Page 3 cards - second grid ("Additional coworking spaces", below the top grid).
+// Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageThreeMoreChandigarhOfficeCards = [];
 
+// Page 3 cards - third grid ("Spotlight coworking spaces", below the "Discover your perfect workspace" banner).
+// Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageThreeFinalChandigarhOfficeCards = [];
 
+// Page 3 cards - fourth grid ("Featured coworking spaces", below the "Customized office solutions" banner).
+// Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageThreeFeaturedChandigarhOfficeCards = [];
 
+// Page 4 cards - top grid (right under the area filter buttons).
+// Shown when pagination button 4 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageFourChandigarhOfficeCards = [];
 
 // Area-specific extra cards (only real same-area listings; shown only when that area filter is active).
 export const areaExtraOfficeCards = {
+  // Extra cards for the "Sector 17" filter
   "Sector 17": [],
+  // Extra cards for the "Sector 34" filter
   "Sector 34": [],
+  // Extra cards for the "Sector 8" filter
   "Sector 8": [],
+  // Extra cards for the "Industrial Area Phase 1" filter
   "Industrial Area Phase 1": [],
+  // Extra cards for the "IT Park" filter
   "IT Park": [],
+  // Extra cards for the "Industrial Area Phase 2" filter
   "Industrial Area Phase 2": [],
+  // Extra cards for the "Madhya Marg" filter
   "Madhya Marg": [],
+  // Extra cards for the "Sector 37" filter
   "Sector 37": [],
+  // Extra cards for the "Sector 26" filter
   "Sector 26": [],
+  // Extra cards for the "Sector 35" filter
   "Sector 35": [],
+  // Extra cards for the "Sector 11" filter
   "Sector 11": [],
+  // Extra cards for the "Sector 7" filter
   "Sector 7": []
 };
 
+// Page 1 cards - top grid (right under the area filter buttons).
+// Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
 export const similarChandigarhOfficeCards = [
+  // 1. Spacejam Coworking Chandigarh - Industrial Area Phase 1
   {
     id: 1,
     name: "Spacejam Coworking Chandigarh",
@@ -1122,6 +1218,7 @@ export const similarChandigarhOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/02a697e9a47810cd7a5cfd54e45999af5317ea59.webp"
     ]
   },
+  // 2. Imagine Coworking - Chandigarh
   {
     id: 2,
     name: "Imagine Coworking",
@@ -1142,6 +1239,7 @@ export const similarChandigarhOfficeCards = [
       "https://img.cofynd.com/images/original/c13c8590f6547a6380a3f2e986786ca50e1b02dd.jpg"
     ]
   },
+  // 3. Magnet Cowork - Sector 34
   {
     id: 3,
     name: "Magnet Cowork",
@@ -1162,6 +1260,7 @@ export const similarChandigarhOfficeCards = [
       "https://img.cofynd.com/images/original/c40ab4359100cdb2c22b2f141847b7246ee2845b.jpg"
     ]
   },
+  // 4. Next57 Coworking - Sector 34
   {
     id: 4,
     name: "Next57 Coworking",
@@ -1182,6 +1281,7 @@ export const similarChandigarhOfficeCards = [
       "https://img.cofynd.com/images/original/acf248d0cf9654c98b288fac0f071a9232f7ab6a.jpg"
     ]
   },
+  // 5. The Hive Coworking and Business Centre - Industrial Area Phase 2
   {
     id: 5,
     name: "The Hive Coworking and Business Centre",
@@ -1202,6 +1302,7 @@ export const similarChandigarhOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/01310a5017bb5a262b78f206b79de23cd2ba0b2b.webp"
     ]
   },
+  // 6. MySoho - Madhya Marg
   {
     id: 6,
     name: "MySoho",
@@ -1221,6 +1322,7 @@ export const similarChandigarhOfficeCards = [
       "https://img.cofynd.com/images/original/5823284da62a8217027b39a2f55649ef16b74a72.jpg"
     ]
   },
+  // 7. Qowork - Madhya Marg
   {
     id: 7,
     name: "Qowork",
@@ -1240,6 +1342,7 @@ export const similarChandigarhOfficeCards = [
       "https://img.cofynd.com/images/original/df6361154dd077de766271378f2e4f4531a6e864.jpg"
     ]
   },
+  // 8. Roadies Koffeehouz - Madhya Marg
   {
     id: 8,
     name: "Roadies Koffeehouz",
@@ -1259,6 +1362,7 @@ export const similarChandigarhOfficeCards = [
       "https://img.cofynd.com/images/original/47cc93e1ea8df1308aae0b8685bae9f62e28c31c.jpg"
     ]
   },
+  // 9. SpaceJam - Sector 34
   {
     id: 9,
     name: "SpaceJam",
@@ -1281,6 +1385,8 @@ export const similarChandigarhOfficeCards = [
   }
 ];
 
+// Page 1 cards - top grid (right under the area filter buttons).
+// Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
 export const allChandigarhOfficeCards = [
   ...chandigarhOfficeCards,
   ...moreChandigarhOfficeCards,
@@ -1299,10 +1405,14 @@ export const allChandigarhOfficeCards = [
   ...Object.values(areaExtraOfficeCards).flat()
 ];
 
+// Find a Chandigarh card from its URL slug (or numeric id). Returns the card or null.
 export const getChandigarhOfficeCardById = (id) => findOfficeBySlug(allChandigarhOfficeCards, id, "chandigarh");
+// Build the URL slug / path of a Chandigarh card (e.g. "/name-area-chandigarh").
 export const getChandigarhOfficeSlug = (space) => officePath(allChandigarhOfficeCards, space, "chandigarh");
 
+// "Explore Top Coworking Locations" tiles at the bottom of the page (area name, title, photo). Clicking a tile filters by that area.
 export const topChandigarhCoworkingLocations = [
+  // 1. Sector 17
   {
     id: "loc-sector-17",
     name: "Sector 17",
@@ -1310,6 +1420,7 @@ export const topChandigarhCoworkingLocations = [
     image: "https://img.cofynd.com/images/latest_images_2024/2f0ec7b8bcc1a4a0f720ec0ab70bd06d10247a61.webp",
     ctaText: "Explore Spaces"
   },
+  // 2. Sector 34
   {
     id: "loc-sector-34",
     name: "Sector 34",
@@ -1317,6 +1428,7 @@ export const topChandigarhCoworkingLocations = [
     image: "https://img.cofynd.com/images/original/3ccceaa87ebc54f7caef5349627ddfc4ff474908.jpg",
     ctaText: "Explore Spaces"
   },
+  // 3. Sector 8
   {
     id: "loc-sector-8",
     name: "Sector 8",
@@ -1324,6 +1436,7 @@ export const topChandigarhCoworkingLocations = [
     image: "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1530957335/ukwpzmk6zfkbsvrp37cz.webp",
     ctaText: "Explore Spaces"
   },
+  // 4. Industrial Area Phase 1
   {
     id: "loc-industrial-area-phase-1",
     name: "Industrial Area Phase 1",
@@ -1331,6 +1444,7 @@ export const topChandigarhCoworkingLocations = [
     image: "https://img.cofynd.com/images/latest_images_2024/2745367b4f6a12aff27779e258e32b0c087e3adb.webp",
     ctaText: "Explore Spaces"
   },
+  // 5. IT Park
   {
     id: "loc-it-park",
     name: "IT Park",
@@ -1338,6 +1452,7 @@ export const topChandigarhCoworkingLocations = [
     image: "https://img.cofynd.com/images/latest_images_2024/2745367b4f6a12aff27779e258e32b0c087e3adb.webp",
     ctaText: "Explore Spaces"
   },
+  // 6. Industrial Area Phase 2
   {
     id: "loc-industrial-area-phase-2",
     name: "Industrial Area Phase 2",
@@ -1345,6 +1460,7 @@ export const topChandigarhCoworkingLocations = [
     image: "https://img.cofynd.com/images/latest_images_2024/a106cfcd3771bef4f059498877d87416aa686e22.webp",
     ctaText: "Explore Spaces"
   },
+  // 7. Madhya Marg
   {
     id: "loc-madhya-marg",
     name: "Madhya Marg",
@@ -1352,6 +1468,7 @@ export const topChandigarhCoworkingLocations = [
     image: "https://img.cofynd.com/images/original/4d9055b9fbf5162cdf5251d5bfacdb835f16bd89.jpg",
     ctaText: "Explore Spaces"
   },
+  // 8. Sector 37
   {
     id: "loc-sector-37",
     name: "Sector 37",
@@ -1359,6 +1476,7 @@ export const topChandigarhCoworkingLocations = [
     image: "https://img.cofynd.com/images/original/adec9fc05a0a733407fbcaa72f6e2f7e9e564e71.jpg",
     ctaText: "Explore Spaces"
   },
+  // 9. Sector 26
   {
     id: "loc-sector-26",
     name: "Sector 26",
@@ -1366,6 +1484,7 @@ export const topChandigarhCoworkingLocations = [
     image: "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1711530747/nuladm6oew9f64myw8l9.webp",
     ctaText: "Explore Spaces"
   },
+  // 10. Sector 35
   {
     id: "loc-sector-35",
     name: "Sector 35",
@@ -1373,6 +1492,7 @@ export const topChandigarhCoworkingLocations = [
     image: "https://cdn.daftar.com/image-db77790a-f5dc-4afb-9cf8-eafac6cdfe15-large-1200x1200.webp",
     ctaText: "Explore Spaces"
   },
+  // 11. Sector 11
   {
     id: "loc-sector-11",
     name: "Sector 11",
@@ -1380,6 +1500,7 @@ export const topChandigarhCoworkingLocations = [
     image: "https://cdn.daftar.com/image-cec49ab5-bacd-48b8-a2ac-238888dece06-large-1200x1200.webp",
     ctaText: "Explore Spaces"
   },
+  // 12. Sector 7
   {
     id: "loc-sector-7",
     name: "Sector 7",

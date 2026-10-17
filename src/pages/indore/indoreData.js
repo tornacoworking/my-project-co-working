@@ -20,7 +20,10 @@ export const indoreNeighborhoods = [
   "Pipliyahana"
 ];
 
+// Page 1 cards - top grid (right under the area filter buttons).
+// Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
 export const indoreOfficeCards = [
+  // 1. Nextcoworks - Vijay Nagar
   {
     "id": 1,
     "name": "Nextcoworks",
@@ -43,6 +46,7 @@ export const indoreOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/02aa649f2ef0f3500e8d6137bdc5503ce6514f6e.webp"
     ]
   },
+  // 2. Incuspaze Apollo - Vijay Nagar
   {
     "id": 2,
     "name": "Incuspaze Apollo",
@@ -62,6 +66,7 @@ export const indoreOfficeCards = [
       "https://img.cofynd.com/images/original/cd4b42f3b4627f5815f179f965b74e331a239d45.jpg"
     ]
   },
+  // 3. Incuspaze Princes Business Skyline - AB Road
   {
     "id": 3,
     "name": "Incuspaze Princes Business Skyline",
@@ -80,6 +85,7 @@ export const indoreOfficeCards = [
       "https://img.cofynd.com/images/original/5fb20a658639188bf735d7a826209c0c566b4ef4.jpg"
     ]
   },
+  // 4. Incuspaze Brilliant Platina - Vijay Nagar
   {
     "id": 4,
     "name": "Incuspaze Brilliant Platina",
@@ -98,6 +104,7 @@ export const indoreOfficeCards = [
       "https://img.cofynd.com/images/original/eb6127274f92a2e24b2fc67d6f5088e5acc37e18.jpg"
     ]
   },
+  // 5. Incuspaze Metro Tower - AB Road
   {
     "id": 5,
     "name": "Incuspaze Metro Tower",
@@ -116,6 +123,7 @@ export const indoreOfficeCards = [
       "https://img.cofynd.com/images/original/86e3add5caf136da865a4ad6a9b56d5c54189da0.jpg"
     ]
   },
+  // 6. Adited Coworking 1.0 - AB Road
   {
     "id": 6,
     "name": "Adited Coworking 1.0",
@@ -133,6 +141,7 @@ export const indoreOfficeCards = [
       "https://img.cofynd.com/images/original/879d988cbfa9d8c06f0b642fba72f305e64bd966.jpg"
     ]
   },
+  // 7. Work Jar Coworking - Vijay Nagar
   {
     "id": 7,
     "name": "Work Jar Coworking",
@@ -150,6 +159,7 @@ export const indoreOfficeCards = [
       "https://img.cofynd.com/images/original/fb98cb1cc76929a02d716afd27141f049dc1b291.jpg"
     ]
   },
+  // 8. Workvistar - Vijay Nagar
   {
     "id": 8,
     "name": "Workvistar",
@@ -169,7 +179,10 @@ export const indoreOfficeCards = [
   }
 ];
 
+// Page 1 cards - second grid ("Additional coworking spaces", below the top grid).
+// Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
 export const moreIndoreOfficeCards = [
+  // 1. YBox.Work - Vijay Nagar
   {
     "id": 9,
     "name": "YBox.Work",
@@ -187,6 +200,7 @@ export const moreIndoreOfficeCards = [
       "https://img.cofynd.com/images/original/a68c3a0daa1c22ad5cb5d57f549378f492389087.jpg"
     ]
   },
+  // 2. Virtual Coworks - Vijay Nagar
   {
     "id": 10,
     "name": "Virtual Coworks",
@@ -204,6 +218,7 @@ export const moreIndoreOfficeCards = [
       "https://img.cofynd.com/images/original/0eb993cdbd015561ceb31bf68a300ed50c55a858.jpg"
     ]
   },
+  // 3. Paskola - Vijay Nagar
   {
     "id": 11,
     "name": "Paskola",
@@ -221,6 +236,7 @@ export const moreIndoreOfficeCards = [
       "https://img.cofynd.com/images/original/dc6b6880031dbdc49fbb45ad5994f989f805b824.jpg"
     ]
   },
+  // 4. Worksthan - AB Road
   {
     "id": 12,
     "name": "Worksthan",
@@ -240,6 +256,7 @@ export const moreIndoreOfficeCards = [
       "https://img.cofynd.com/images/original/4ede9b640ca3286410d4724f71044ade4ad7a175.jpg"
     ]
   },
+  // 5. BIZZI.B - Vijay Nagar
   {
     "id": 13,
     "name": "BIZZI.B",
@@ -257,6 +274,7 @@ export const moreIndoreOfficeCards = [
       "https://img.cofynd.com/images/original/a2896cfa258eb38841b981b44e52d62410daadb7.jpg"
     ]
   },
+  // 6. The Dice - AB Road
   {
     "id": 14,
     "name": "The Dice",
@@ -277,6 +295,7 @@ export const moreIndoreOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/26c8ecb1f7190b14f846475ca1ddbd7044c8294c.webp"
     ]
   },
+  // 7. SPADIFY CO-WORK - Vijay Nagar
   {
     "id": 15,
     "name": "SPADIFY CO-WORK",
@@ -294,6 +313,7 @@ export const moreIndoreOfficeCards = [
       "https://img.cofynd.com/images/original/190cbed81663f01b565c949d20ea77ef158e7f4d.jpg"
     ]
   },
+  // 8. Cliffton Corporate - Vijay Nagar
   {
     "id": 16,
     "name": "Cliffton Corporate",
@@ -315,7 +335,10 @@ export const moreIndoreOfficeCards = [
   }
 ];
 
+// Page 1 cards - third grid ("Spotlight coworking spaces", below the "Discover your perfect workspace" banner).
+// Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
 export const finalIndoreOfficeCards = [
+  // 1. Nexus Spaces AB Road - AB Road
   {
     "id": 17,
     "name": "Nexus Spaces AB Road",
@@ -333,6 +356,7 @@ export const finalIndoreOfficeCards = [
       "https://img.cofynd.com/images/original/824a553195bdf5f968453cf7ab1fb15d715abd42.jpg"
     ]
   },
+  // 2. Nexus Spaces South Tukoganj - South Tukoganj
   {
     "id": 18,
     "name": "Nexus Spaces South Tukoganj",
@@ -350,6 +374,7 @@ export const finalIndoreOfficeCards = [
       "https://img.cofynd.com/images/original/4e8141c3c189c83996c9e685799d5654ee6b6f96.jpg"
     ]
   },
+  // 3. The Address - Your Destination of Growth Indore - Vijay Nagar
   {
     "id": 19,
     "name": "The Address - Your Destination of Growth Indore",
@@ -369,6 +394,7 @@ export const finalIndoreOfficeCards = [
       "https://img.cofynd.com/images/original/dad736cea1cdf73a2e865fd2d865148ca93bac50.jpg"
     ]
   },
+  // 4. Melange Marketing - Jawahar Marg
   {
     "id": 20,
     "name": "Melange Marketing",
@@ -385,6 +411,7 @@ export const finalIndoreOfficeCards = [
       "https://img.cofynd.com/images/original/7c0e825cbbec0bdf445f8380261bc45c8e8a8a9a.jpg"
     ]
   },
+  // 5. Zero Gravito - Vijay Nagar
   {
     "id": 21,
     "name": "Zero Gravito",
@@ -402,6 +429,7 @@ export const finalIndoreOfficeCards = [
       "https://img.cofynd.com/images/original/c761d729204074bafb4304e296631e3a5935a71e.jpg"
     ]
   },
+  // 6. Karyasthal - Bhawarkua
   {
     "id": 22,
     "name": "Karyasthal",
@@ -422,6 +450,7 @@ export const finalIndoreOfficeCards = [
       "https://img.cofynd.com/images/original/2d1753cd6f0a1cbdf02000540f9ea0a819a7b6b7.jpg"
     ]
   },
+  // 7. Youth Cowork - M.G. Road
   {
     "id": 23,
     "name": "Youth Cowork",
@@ -440,6 +469,7 @@ export const finalIndoreOfficeCards = [
       "https://img.cofynd.com/images/original/85efe5b295c09bf950b188491b83867476f2b873.jpg"
     ]
   },
+  // 8. Workbox - Vijay Nagar
   {
     "id": 24,
     "name": "Workbox",
@@ -462,7 +492,10 @@ export const finalIndoreOfficeCards = [
   }
 ];
 
+// Page 1 cards - fourth grid ("Featured coworking spaces", below the "Customized office solutions" banner).
+// Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
 export const featuredIndoreOfficeCards = [
+  // 1. Stark Spaces - AB Road
   {
     "id": 25,
     "name": "Stark Spaces",
@@ -480,6 +513,7 @@ export const featuredIndoreOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/a8f5c8b1055b0f8073eb69b0f96c2ccc5526c13b.webp"
     ]
   },
+  // 2. Melange Coworks - Jawahar Marg
   {
     "id": 26,
     "name": "Melange Coworks",
@@ -496,6 +530,7 @@ export const featuredIndoreOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/32386b6f439e77f07d75106df94f662238d018b9.webp"
     ]
   },
+  // 3. Incuspaze Apollo Premier - Vijay Nagar
   {
     "id": 27,
     "name": "Incuspaze Apollo Premier",
@@ -517,6 +552,7 @@ export const featuredIndoreOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/3d6bf2daebc5e10e1d6eb4ad218d0521b0e6d832.webp"
     ]
   },
+  // 4. Incuspaze Princess Business Skyline - Vijay Nagar
   {
     "id": 28,
     "name": "Incuspaze Princess Business Skyline",
@@ -536,6 +572,7 @@ export const featuredIndoreOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/4cfc051d330040010a8f12975fbb229304d043f4.webp"
     ]
   },
+  // 5. Estancia Pro working space - Vijay Nagar
   {
     "id": 29,
     "name": "Estancia Pro working space",
@@ -553,6 +590,7 @@ export const featuredIndoreOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/c10685c8fad71be061a91b1fc153c9de7b3bed90.webp"
     ]
   },
+  // 6. Awfis Winway World Offices - Vijay Nagar
   {
     "id": 30,
     "name": "Awfis Winway World Offices",
@@ -572,6 +610,7 @@ export const featuredIndoreOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/99a1a17f90d3e96ab2e64461eb43c75f3d998e67.webp"
     ]
   },
+  // 7. CO-Workspace - Bhawarkua
   {
     "id": 31,
     "name": "CO-Workspace",
@@ -589,6 +628,7 @@ export const featuredIndoreOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/b71cc51e2026be38bb68422b581e061f21610bb6.webp"
     ]
   },
+  // 8. Nextcoworks Office Space - Vijay Nagar
   {
     "id": 32,
     "name": "Nextcoworks Office Space",
@@ -610,7 +650,10 @@ export const featuredIndoreOfficeCards = [
   }
 ];
 
+// Page 2 cards - top grid (right under the area filter buttons).
+// Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageTwoIndoreOfficeCards = [
+  // 1. Workdesq Coworking - Mahalaxmi Nagar
   {
     "id": 33,
     "name": "Workdesq Coworking",
@@ -629,6 +672,7 @@ export const pageTwoIndoreOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/aeae00d0fcda1d8193020483efaa3a3fab306560.webp"
     ]
   },
+  // 2. ThinkNTap Coworks - AB Road
   {
     "id": 34,
     "name": "ThinkNTap Coworks",
@@ -646,6 +690,7 @@ export const pageTwoIndoreOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/1ae7180d916061d4c13e3a8c25ee13966ca3ee98.webp"
     ]
   },
+  // 3. Flexihub - Bhawarkua
   {
     "id": 35,
     "name": "Flexihub",
@@ -665,6 +710,7 @@ export const pageTwoIndoreOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/7dbc49373022c7d2aa0ea4dfb636e421f54e8c62.webp"
     ]
   },
+  // 4. Space X - Vijay Nagar
   {
     "id": 36,
     "name": "Space X",
@@ -685,6 +731,7 @@ export const pageTwoIndoreOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/f3b158bd49ab734e0b24c9244cb72d45a153a361.webp"
     ]
   },
+  // 5. Work Studio Coworking - Ratna Lok Colony
   {
     "id": 37,
     "name": "Work Studio Coworking",
@@ -703,6 +750,7 @@ export const pageTwoIndoreOfficeCards = [
       "https://res.cloudinary.com/myhq/image/upload/workspaces/work-studio-coworking-ratnalokcolony/dedicated/68xrus.jpg"
     ]
   },
+  // 6. TechWinners InfoSystem CoWorking Space - Ratna Lok Colony
   {
     "id": 38,
     "name": "TechWinners InfoSystem CoWorking Space",
@@ -718,6 +766,7 @@ export const pageTwoIndoreOfficeCards = [
       "https://res.cloudinary.com/myhq/image/upload/workspaces/techwinners-infosystem-coworking-space-ratnalokcolony/2gejd7.jpg"
     ]
   },
+  // 7. Regus Sapna Sangeeta Mall - Ratna Lok Colony
   {
     "id": 39,
     "name": "Regus Sapna Sangeeta Mall",
@@ -737,6 +786,7 @@ export const pageTwoIndoreOfficeCards = [
       "https://res.cloudinary.com/myhq/image/upload/workspaces/regus-ratnalokcolony/8bt4pb.jpg"
     ]
   },
+  // 8. The Address Ravindra Nagar - Ravindra Nagar
   {
     "id": 40,
     "name": "The Address Ravindra Nagar",
@@ -757,7 +807,10 @@ export const pageTwoIndoreOfficeCards = [
   }
 ];
 
+// Page 2 cards - second grid ("Additional coworking spaces", below the top grid).
+// Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageTwoMoreIndoreOfficeCards = [
+  // 1. Adited House - Ravindra Nagar
   {
     "id": 41,
     "name": "Adited House",
@@ -779,6 +832,7 @@ export const pageTwoMoreIndoreOfficeCards = [
       "https://res.cloudinary.com/myhq/image/upload/workspaces/adited-house-ravindranagar/dedicated/9dq8yv.jpg"
     ]
   },
+  // 2. ADITED X - Ravindra Nagar
   {
     "id": 42,
     "name": "ADITED X",
@@ -800,6 +854,7 @@ export const pageTwoMoreIndoreOfficeCards = [
       "https://res.cloudinary.com/myhq/image/upload/workspaces/adited-x-ravindranagar/dedicated/rxznxs.jpg"
     ]
   },
+  // 3. United Spaces Ravindra Nagar - Ravindra Nagar
   {
     "id": 43,
     "name": "United Spaces Ravindra Nagar",
@@ -819,6 +874,7 @@ export const pageTwoMoreIndoreOfficeCards = [
       "https://res.cloudinary.com/myhq/image/upload/workspaces/united-spaces-ravindranagar/dedicated/wfe74x.jpg"
     ]
   },
+  // 4. Smartworks AB Road - AB Road
   {
     "id": 44,
     "name": "Smartworks AB Road",
@@ -838,6 +894,7 @@ export const pageTwoMoreIndoreOfficeCards = [
       "https://res.cloudinary.com/myhq/image/upload/workspaces/smartworks-abroad/dedicated/y6um98.jpg"
     ]
   },
+  // 5. Antares Business Centre - AB Road
   {
     "id": 45,
     "name": "Antares Business Centre",
@@ -856,6 +913,7 @@ export const pageTwoMoreIndoreOfficeCards = [
       "https://res.cloudinary.com/myhq/image/upload/workspaces/antares-business-centre-abroad/dedicated/c5erdv.jpg"
     ]
   },
+  // 6. Stark Spaces South Tukoganj - South Tukoganj
   {
     "id": 46,
     "name": "Stark Spaces South Tukoganj",
@@ -873,6 +931,7 @@ export const pageTwoMoreIndoreOfficeCards = [
       "https://res.cloudinary.com/myhq/image/upload/workspaces/stark-spaces-southtukoganj/dedicated/6tkxh5.jpg"
     ]
   },
+  // 7. My Workbox LIG Colony - LIC Colony
   {
     "id": 47,
     "name": "My Workbox LIG Colony",
@@ -891,6 +950,7 @@ export const pageTwoMoreIndoreOfficeCards = [
       "https://ik.imagekit.io/qdesq/qdesq/a2188b8993e6b033f38f9df492dacf3b_Tz0O-NBfIA.jpg"
     ]
   },
+  // 8. MyBranch Commerce House - New Palasia
   {
     "id": 48,
     "name": "MyBranch Commerce House",
@@ -913,7 +973,10 @@ export const pageTwoMoreIndoreOfficeCards = [
   }
 ];
 
+// Page 2 cards - third grid ("Spotlight coworking spaces", below the "Discover your perfect workspace" banner).
+// Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageTwoFinalIndoreOfficeCards = [
+  // 1. Antares Princes Business Skypark - Scheme 54
   {
     "id": 49,
     "name": "Antares Princes Business Skypark",
@@ -930,6 +993,7 @@ export const pageTwoFinalIndoreOfficeCards = [
       "https://imgcdn.houssed.com/assets/Files/Projects/147299/Location/MAP-1755588120.webp"
     ]
   },
+  // 2. Workie C21 Business Park - Scheme No 131
   {
     "id": 50,
     "name": "Workie C21 Business Park",
@@ -947,6 +1011,7 @@ export const pageTwoFinalIndoreOfficeCards = [
       "https://imgcdn.houssed.com/assets/Files/Projects/147403/Location/MAP-1755677839.webp"
     ]
   },
+  // 3. Workie Swastika Urbane - Scheme 54
   {
     "id": 51,
     "name": "Workie Swastika Urbane",
@@ -964,6 +1029,7 @@ export const pageTwoFinalIndoreOfficeCards = [
       "https://imgcdn.houssed.com/assets/Files/Projects/147406/Location/MAP-1755678639.webp"
     ]
   },
+  // 4. Worksthan Orbit Mall - Scheme 54
   {
     "id": 52,
     "name": "Worksthan Orbit Mall",
@@ -984,6 +1050,7 @@ export const pageTwoFinalIndoreOfficeCards = [
       "https://imgcdn.houssed.com/assets/Files/Projects/147497/Project%20Image/7-1755756161.webp"
     ]
   },
+  // 5. Workie Sewani Corporate House - New Palasia
   {
     "id": 53,
     "name": "Workie Sewani Corporate House",
@@ -1003,6 +1070,7 @@ export const pageTwoFinalIndoreOfficeCards = [
       "https://imgcdn.houssed.com/assets/Files/Projects/147405/Location/MAP-1755678166.webp"
     ]
   },
+  // 6. The Address BPK Titanium - Vijay Nagar
   {
     "id": 54,
     "name": "The Address BPK Titanium",
@@ -1019,6 +1087,7 @@ export const pageTwoFinalIndoreOfficeCards = [
       "https://imgcdn.houssed.com/assets/Files/Projects/147180/Location/life-Map-1755509070.webp"
     ]
   },
+  // 7. BCM Zodiac Co-Working - Mahalaxmi Nagar
   {
     "id": 55,
     "name": "BCM Zodiac Co-Working",
@@ -1039,6 +1108,7 @@ export const pageTwoFinalIndoreOfficeCards = [
       "https://imgcdn.houssed.com/assets/Files/Projects/147301/Project%20Image/10-1755588287.webp"
     ]
   },
+  // 8. United Spaces Virendra Heights - New Palasia
   {
     "id": 56,
     "name": "United Spaces Virendra Heights",
@@ -1061,7 +1131,10 @@ export const pageTwoFinalIndoreOfficeCards = [
   }
 ];
 
+// Page 2 cards - fourth grid ("Featured coworking spaces", below the "Customized office solutions" banner).
+// Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageTwoFeaturedIndoreOfficeCards = [
+  // 1. ThinkNTap Shekhar Central - Manorama Ganj
   {
     "id": 57,
     "name": "ThinkNTap Shekhar Central",
@@ -1082,6 +1155,7 @@ export const pageTwoFeaturedIndoreOfficeCards = [
       "https://imgcdn.houssed.com/assets/Files/Projects/147506/Location/MAP-1755759104.webp"
     ]
   },
+  // 2. Workviaa Corporate House - South Tukoganj
   {
     "id": 58,
     "name": "Workviaa Corporate House",
@@ -1101,6 +1175,7 @@ export const pageTwoFeaturedIndoreOfficeCards = [
       "https://imgcdn.houssed.com/assets/Files/Projects/147509/Location/MAP-1755759433.webp"
     ]
   },
+  // 3. Fusion Co-Space Classic Gold - Vijay Nagar
   {
     "id": 59,
     "name": "Fusion Co-Space Classic Gold",
@@ -1117,6 +1192,7 @@ export const pageTwoFeaturedIndoreOfficeCards = [
       "https://imgcdn.houssed.com/assets/Files/Projects/147517/Location/MAP-1755764686.webp"
     ]
   },
+  // 4. Flexi Business Hub Atulya IT Park - Pipliyahana
   {
     "id": 60,
     "name": "Flexi Business Hub Atulya IT Park",
@@ -1133,6 +1209,7 @@ export const pageTwoFeaturedIndoreOfficeCards = [
       "https://imgcdn.houssed.com/assets/Files/Projects/147516/Location/MAP-1755764669.webp"
     ]
   },
+  // 5. SCI Co Works The Collab - Pipliyahana
   {
     "id": 61,
     "name": "SCI Co Works The Collab",
@@ -1149,6 +1226,7 @@ export const pageTwoFeaturedIndoreOfficeCards = [
       "https://imgcdn.houssed.com/assets/Files/Projects/147523/Location/MAP-1755764902.webp"
     ]
   },
+  // 6. S.PACE Co Working - Vijay Nagar
   {
     "id": 62,
     "name": "S.PACE Co Working",
@@ -1166,6 +1244,7 @@ export const pageTwoFeaturedIndoreOfficeCards = [
       "https://imgcdn.houssed.com/assets/Files/Projects/147522/Location/MAP-1755764881.webp"
     ]
   },
+  // 7. My Stay Spaces Vishal Cube - Vijay Nagar
   {
     "id": 63,
     "name": "My Stay Spaces Vishal Cube",
@@ -1186,6 +1265,7 @@ export const pageTwoFeaturedIndoreOfficeCards = [
       "https://imgcdn.houssed.com/assets/Files/Projects/147520/Project%20Image/11-1755764807.webp"
     ]
   },
+  // 8. The Dice Skye Corporate Park - Vijay Nagar
   {
     "id": 64,
     "name": "The Dice Skye Corporate Park",
@@ -1208,7 +1288,10 @@ export const pageTwoFeaturedIndoreOfficeCards = [
   }
 ];
 
+// Page 3 cards - top grid (right under the area filter buttons).
+// Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageThreeIndoreOfficeCards = [
+  // 1. The Dice Apollo premier - Vijay Nagar
   {
     "id": 65,
     "name": "The Dice Apollo premier",
@@ -1228,6 +1311,7 @@ export const pageThreeIndoreOfficeCards = [
       "https://imgcdn.houssed.com/assets/Files/Projects/147392/Location/MAp-1755670659.webp"
     ]
   },
+  // 2. Sky Space PU4 - Vijay Nagar
   {
     "id": 66,
     "name": "Sky Space PU4",
@@ -1245,6 +1329,7 @@ export const pageThreeIndoreOfficeCards = [
       "https://imgcdn.houssed.com/assets/Files/Projects/147391/Location/MAP-1755670607.webp"
     ]
   },
+  // 3. Sky Space Premium - Vijay Nagar
   {
     "id": 67,
     "name": "Sky Space Premium",
@@ -1263,6 +1348,7 @@ export const pageThreeIndoreOfficeCards = [
       "https://imgcdn.houssed.com/assets/Files/Projects/147390/Location/MAP-1755670580.webp"
     ]
   },
+  // 4. Sky Space Brilliant Platina - Vijay Nagar
   {
     "id": 68,
     "name": "Sky Space Brilliant Platina",
@@ -1281,6 +1367,7 @@ export const pageThreeIndoreOfficeCards = [
       "https://imgcdn.houssed.com/assets/Files/Projects/147389/Location/MAP-1755670548.webp"
     ]
   },
+  // 5. Coworking Krishna Business Centre - Vijay Nagar
   {
     "id": 69,
     "name": "Coworking Krishna Business Centre",
@@ -1300,6 +1387,7 @@ export const pageThreeIndoreOfficeCards = [
       "https://imgcdn.houssed.com/assets/Files/Projects/147385/Location/MAP-1755668086.webp"
     ]
   },
+  // 6. Workie Apollo Premier - Vijay Nagar
   {
     "id": 70,
     "name": "Workie Apollo Premier",
@@ -1320,6 +1408,7 @@ export const pageThreeIndoreOfficeCards = [
       "https://imgcdn.houssed.com/assets/Files/Projects/147402/Project%20Image/7-1755677351.webp"
     ]
   },
+  // 7. Spacetime The Hub - Vijay Nagar
   {
     "id": 71,
     "name": "Spacetime The Hub",
@@ -1338,6 +1427,7 @@ export const pageThreeIndoreOfficeCards = [
       "https://imgcdn.houssed.com/assets/Files/Projects/147400/Location/MAP-1755674957.webp"
     ]
   },
+  // 8. Workie Tower SP 365 Building - Vijay Nagar
   {
     "id": 72,
     "name": "Workie Tower SP 365 Building",
@@ -1360,7 +1450,10 @@ export const pageThreeIndoreOfficeCards = [
   }
 ];
 
+// Page 3 cards - second grid ("Additional coworking spaces", below the top grid).
+// Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageThreeMoreIndoreOfficeCards = [
+  // 1. Regus Unity One - Sarvanad Nagar
   {
     "id": 73,
     "name": "Regus Unity One",
@@ -1381,6 +1474,7 @@ export const pageThreeMoreIndoreOfficeCards = [
       "https://imgcdn.houssed.com/assets/Files/Projects/147328/Project%20Image/7-1755595360.webp"
     ]
   },
+  // 2. Regus DNR 90 - South Tukoganj
   {
     "id": 74,
     "name": "Regus DNR 90",
@@ -1401,6 +1495,7 @@ export const pageThreeMoreIndoreOfficeCards = [
       "https://imgcdn.houssed.com/assets/Files/Projects/147325/Location/MAP-1755594933.webp"
     ]
   },
+  // 3. Regus Honda BigWing - Vijay Nagar
   {
     "id": 75,
     "name": "Regus Honda BigWing",
@@ -1420,6 +1515,7 @@ export const pageThreeMoreIndoreOfficeCards = [
       "https://imgcdn.houssed.com/assets/Files/Projects/147326/Location/MAP-1755595059.webp"
     ]
   },
+  // 4. Regus Maloo 1 - Vijay Nagar
   {
     "id": 76,
     "name": "Regus Maloo 1",
@@ -1438,6 +1534,7 @@ export const pageThreeMoreIndoreOfficeCards = [
       "https://imgcdn.houssed.com/assets/Files/Projects/147327/Location/MAP-1755595166.webp"
     ]
   },
+  // 5. Nexus Manas Mayfair - South Tukoganj
   {
     "id": 77,
     "name": "Nexus Manas Mayfair",
@@ -1458,6 +1555,7 @@ export const pageThreeMoreIndoreOfficeCards = [
       "https://imgcdn.houssed.com/assets/Files/Projects/147335/Project%20Image/6-1755597636.webp"
     ]
   },
+  // 6. Ardor Edge Shagun Arcade - Vijay Nagar
   {
     "id": 78,
     "name": "Ardor Edge Shagun Arcade",
@@ -1475,6 +1573,7 @@ export const pageThreeMoreIndoreOfficeCards = [
       "https://imgcdn.houssed.com/assets/Files/Projects/147300/Location/MAP-1755588199.webp"
     ]
   },
+  // 7. Smartwork Brilliant Centre - New Palasia
   {
     "id": 79,
     "name": "Smartwork Brilliant Centre",
@@ -1495,6 +1594,7 @@ export const pageThreeMoreIndoreOfficeCards = [
       "https://imgcdn.houssed.com/assets/Files/Projects/145524/Location/Hou-1754223317.webp"
     ]
   },
+  // 8. Awfis Brilliant Sapphire 2 - Vijay Nagar
   {
     "id": 80,
     "name": "Awfis Brilliant Sapphire 2",
@@ -1514,18 +1614,31 @@ export const pageThreeMoreIndoreOfficeCards = [
   }
 ];
 
+// Page 3 cards - third grid ("Spotlight coworking spaces", below the "Discover your perfect workspace" banner).
+// Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageThreeFinalIndoreOfficeCards = [];
 
+// Page 3 cards - fourth grid ("Featured coworking spaces", below the "Customized office solutions" banner).
+// Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageThreeFeaturedIndoreOfficeCards = [];
 
+// Page 4 cards - top grid (right under the area filter buttons).
+// Shown when pagination button 4 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageFourIndoreOfficeCards = [];
 
+// Page 4 cards - second grid ("Additional coworking spaces", below the top grid).
+// Shown when pagination button 4 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageFourMoreIndoreOfficeCards = [];
 
+// Page 4 cards - third grid ("Spotlight coworking spaces", below the "Discover your perfect workspace" banner).
+// Shown when pagination button 4 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageFourFinalIndoreOfficeCards = [];
 
+// Page 4 cards - fourth grid ("Featured coworking spaces", below the "Customized office solutions" banner).
+// Shown when pagination button 4 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageFourFeaturedIndoreOfficeCards = [];
 
+// Content of the "Discover your perfect workspace" banner (title, subtitle, button text, background photo).
 export const perfectWorkspaceBanner = {
   "title": "Discover your perfect workspace with Mycoworking",
   "subtitle": "Explore Flexible Coworking Solutions, Premium Amenities, and Prime Locations Across India",
@@ -1533,6 +1646,7 @@ export const perfectWorkspaceBanner = {
   "bgImage": "https://img.cofynd.com/images/latest_images_2024/28f41de2ee6c67528d528dc3b55fc7ad2801dcbc.webp"
 };
 
+// Content of the "Customized office solutions for your team" banner (title, feature list, button, background photo).
 export const customizedOfficeBanner = {
   "title": "Customized office solutions for your team",
   "features": [
@@ -1545,6 +1659,7 @@ export const customizedOfficeBanner = {
   "bgImage": "https://img.cofynd.com/images/latest_images_2024/83bb813890447d5d3d6bda55c7133a5fd48cdbc5.webp"
 };
 
+// Content of the "Still not able to find coworking space?" banner (title, subtitle, button, background photo).
 export const stillNotFindingBanner = {
   "title": "Still not able to find coworking space?",
   "subtitle": "Our space experts will help you find the perfect coworking space in prime locations",
@@ -1552,6 +1667,7 @@ export const stillNotFindingBanner = {
   "bgImage": "https://img.cofynd.com/images/latest_images_2024/406c83ccb0729b57d9beb973b7e4088ab7640ef3.webp"
 };
 
+// Pagination settings: total number of pages and the page that opens first.
 export const paginationData = {
   "totalPages": 3,
   "initialPage": 1
@@ -1559,7 +1675,9 @@ export const paginationData = {
 
 // All spaces listed under each area (used by the area filter pills)
 export const areaExtraOfficeCards = {
+  // Extra cards for the "AB Road" filter
   "AB Road": [
+    // 1. Incuspaze Princes Business Skyline - AB Road
     {
       "id": 3,
       "name": "Incuspaze Princes Business Skyline",
@@ -1578,6 +1696,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/5fb20a658639188bf735d7a826209c0c566b4ef4.jpg"
       ]
     },
+    // 2. Incuspaze Metro Tower - AB Road
     {
       "id": 5,
       "name": "Incuspaze Metro Tower",
@@ -1596,6 +1715,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/86e3add5caf136da865a4ad6a9b56d5c54189da0.jpg"
       ]
     },
+    // 3. Adited Coworking 1.0 - AB Road
     {
       "id": 6,
       "name": "Adited Coworking 1.0",
@@ -1613,6 +1733,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/879d988cbfa9d8c06f0b642fba72f305e64bd966.jpg"
       ]
     },
+    // 4. Worksthan - AB Road
     {
       "id": 12,
       "name": "Worksthan",
@@ -1632,6 +1753,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/4ede9b640ca3286410d4724f71044ade4ad7a175.jpg"
       ]
     },
+    // 5. The Dice - AB Road
     {
       "id": 14,
       "name": "The Dice",
@@ -1652,6 +1774,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/26c8ecb1f7190b14f846475ca1ddbd7044c8294c.webp"
       ]
     },
+    // 6. Nexus Spaces AB Road - AB Road
     {
       "id": 17,
       "name": "Nexus Spaces AB Road",
@@ -1669,6 +1792,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/824a553195bdf5f968453cf7ab1fb15d715abd42.jpg"
       ]
     },
+    // 7. Stark Spaces - AB Road
     {
       "id": 25,
       "name": "Stark Spaces",
@@ -1686,6 +1810,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/a8f5c8b1055b0f8073eb69b0f96c2ccc5526c13b.webp"
       ]
     },
+    // 8. ThinkNTap Coworks - AB Road
     {
       "id": 34,
       "name": "ThinkNTap Coworks",
@@ -1703,6 +1828,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/1ae7180d916061d4c13e3a8c25ee13966ca3ee98.webp"
       ]
     },
+    // 9. Smartworks AB Road - AB Road
     {
       "id": 44,
       "name": "Smartworks AB Road",
@@ -1722,6 +1848,7 @@ export const areaExtraOfficeCards = {
         "https://res.cloudinary.com/myhq/image/upload/workspaces/smartworks-abroad/dedicated/y6um98.jpg"
       ]
     },
+    // 10. Antares Business Centre - AB Road
     {
       "id": 45,
       "name": "Antares Business Centre",
@@ -1740,6 +1867,7 @@ export const areaExtraOfficeCards = {
         "https://res.cloudinary.com/myhq/image/upload/workspaces/antares-business-centre-abroad/dedicated/c5erdv.jpg"
       ]
     },
+    // 11. Nextcoworks - Vijay Nagar
     {
       "id": 1,
       "name": "Nextcoworks",
@@ -1762,6 +1890,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/02aa649f2ef0f3500e8d6137bdc5503ce6514f6e.webp"
       ]
     },
+    // 12. Incuspaze Apollo - Vijay Nagar
     {
       "id": 2,
       "name": "Incuspaze Apollo",
@@ -1782,7 +1911,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "LIC Colony" filter
   "LIC Colony": [
+    // 13. My Workbox LIG Colony - LIC Colony
     {
       "id": 47,
       "name": "My Workbox LIG Colony",
@@ -1801,6 +1932,7 @@ export const areaExtraOfficeCards = {
         "https://ik.imagekit.io/qdesq/qdesq/a2188b8993e6b033f38f9df492dacf3b_Tz0O-NBfIA.jpg"
       ]
     },
+    // 14. Nextcoworks - Vijay Nagar
     {
       "id": 1,
       "name": "Nextcoworks",
@@ -1823,6 +1955,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/02aa649f2ef0f3500e8d6137bdc5503ce6514f6e.webp"
       ]
     },
+    // 15. Incuspaze Apollo - Vijay Nagar
     {
       "id": 2,
       "name": "Incuspaze Apollo",
@@ -1842,6 +1975,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/cd4b42f3b4627f5815f179f965b74e331a239d45.jpg"
       ]
     },
+    // 16. Incuspaze Brilliant Platina - Vijay Nagar
     {
       "id": 4,
       "name": "Incuspaze Brilliant Platina",
@@ -1860,6 +1994,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/eb6127274f92a2e24b2fc67d6f5088e5acc37e18.jpg"
       ]
     },
+    // 17. Work Jar Coworking - Vijay Nagar
     {
       "id": 7,
       "name": "Work Jar Coworking",
@@ -1877,6 +2012,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/fb98cb1cc76929a02d716afd27141f049dc1b291.jpg"
       ]
     },
+    // 18. Workvistar - Vijay Nagar
     {
       "id": 8,
       "name": "Workvistar",
@@ -1894,6 +2030,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/8da57b82c475ef368e3841e6348666db5a32b28a.jpg"
       ]
     },
+    // 19. YBox.Work - Vijay Nagar
     {
       "id": 9,
       "name": "YBox.Work",
@@ -1911,6 +2048,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/a68c3a0daa1c22ad5cb5d57f549378f492389087.jpg"
       ]
     },
+    // 20. Virtual Coworks - Vijay Nagar
     {
       "id": 10,
       "name": "Virtual Coworks",
@@ -1928,6 +2066,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/0eb993cdbd015561ceb31bf68a300ed50c55a858.jpg"
       ]
     },
+    // 21. Paskola - Vijay Nagar
     {
       "id": 11,
       "name": "Paskola",
@@ -1945,6 +2084,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/dc6b6880031dbdc49fbb45ad5994f989f805b824.jpg"
       ]
     },
+    // 22. BIZZI.B - Vijay Nagar
     {
       "id": 13,
       "name": "BIZZI.B",
@@ -1962,6 +2102,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/a2896cfa258eb38841b981b44e52d62410daadb7.jpg"
       ]
     },
+    // 23. SPADIFY CO-WORK - Vijay Nagar
     {
       "id": 15,
       "name": "SPADIFY CO-WORK",
@@ -1979,6 +2120,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/190cbed81663f01b565c949d20ea77ef158e7f4d.jpg"
       ]
     },
+    // 24. Cliffton Corporate - Vijay Nagar
     {
       "id": 16,
       "name": "Cliffton Corporate",
@@ -1999,7 +2141,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Ratna Lok Colony" filter
   "Ratna Lok Colony": [
+    // 25. Work Studio Coworking - Ratna Lok Colony
     {
       "id": 37,
       "name": "Work Studio Coworking",
@@ -2018,6 +2162,7 @@ export const areaExtraOfficeCards = {
         "https://res.cloudinary.com/myhq/image/upload/workspaces/work-studio-coworking-ratnalokcolony/dedicated/68xrus.jpg"
       ]
     },
+    // 26. TechWinners InfoSystem CoWorking Space - Ratna Lok Colony
     {
       "id": 38,
       "name": "TechWinners InfoSystem CoWorking Space",
@@ -2033,6 +2178,7 @@ export const areaExtraOfficeCards = {
         "https://res.cloudinary.com/myhq/image/upload/workspaces/techwinners-infosystem-coworking-space-ratnalokcolony/2gejd7.jpg"
       ]
     },
+    // 27. Regus Sapna Sangeeta Mall - Ratna Lok Colony
     {
       "id": 39,
       "name": "Regus Sapna Sangeeta Mall",
@@ -2052,6 +2198,7 @@ export const areaExtraOfficeCards = {
         "https://res.cloudinary.com/myhq/image/upload/workspaces/regus-ratnalokcolony/8bt4pb.jpg"
       ]
     },
+    // 28. Nextcoworks - Vijay Nagar
     {
       "id": 1,
       "name": "Nextcoworks",
@@ -2074,6 +2221,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/02aa649f2ef0f3500e8d6137bdc5503ce6514f6e.webp"
       ]
     },
+    // 29. Incuspaze Apollo - Vijay Nagar
     {
       "id": 2,
       "name": "Incuspaze Apollo",
@@ -2093,6 +2241,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/cd4b42f3b4627f5815f179f965b74e331a239d45.jpg"
       ]
     },
+    // 30. Incuspaze Brilliant Platina - Vijay Nagar
     {
       "id": 4,
       "name": "Incuspaze Brilliant Platina",
@@ -2111,6 +2260,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/eb6127274f92a2e24b2fc67d6f5088e5acc37e18.jpg"
       ]
     },
+    // 31. Work Jar Coworking - Vijay Nagar
     {
       "id": 7,
       "name": "Work Jar Coworking",
@@ -2128,6 +2278,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/fb98cb1cc76929a02d716afd27141f049dc1b291.jpg"
       ]
     },
+    // 32. Workvistar - Vijay Nagar
     {
       "id": 8,
       "name": "Workvistar",
@@ -2145,6 +2296,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/8da57b82c475ef368e3841e6348666db5a32b28a.jpg"
       ]
     },
+    // 33. YBox.Work - Vijay Nagar
     {
       "id": 9,
       "name": "YBox.Work",
@@ -2162,6 +2314,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/a68c3a0daa1c22ad5cb5d57f549378f492389087.jpg"
       ]
     },
+    // 34. Virtual Coworks - Vijay Nagar
     {
       "id": 10,
       "name": "Virtual Coworks",
@@ -2179,6 +2332,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/0eb993cdbd015561ceb31bf68a300ed50c55a858.jpg"
       ]
     },
+    // 35. Paskola - Vijay Nagar
     {
       "id": 11,
       "name": "Paskola",
@@ -2196,6 +2350,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/dc6b6880031dbdc49fbb45ad5994f989f805b824.jpg"
       ]
     },
+    // 36. BIZZI.B - Vijay Nagar
     {
       "id": 13,
       "name": "BIZZI.B",
@@ -2214,7 +2369,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Ravindra Nagar" filter
   "Ravindra Nagar": [
+    // 37. The Address Ravindra Nagar - Ravindra Nagar
     {
       "id": 40,
       "name": "The Address Ravindra Nagar",
@@ -2233,6 +2390,7 @@ export const areaExtraOfficeCards = {
         "https://res.cloudinary.com/myhq/image/upload/workspaces/the-address-ravindranagar/7uy7yb.jpg"
       ]
     },
+    // 38. Adited House - Ravindra Nagar
     {
       "id": 41,
       "name": "Adited House",
@@ -2254,6 +2412,7 @@ export const areaExtraOfficeCards = {
         "https://res.cloudinary.com/myhq/image/upload/workspaces/adited-house-ravindranagar/dedicated/9dq8yv.jpg"
       ]
     },
+    // 39. ADITED X - Ravindra Nagar
     {
       "id": 42,
       "name": "ADITED X",
@@ -2275,6 +2434,7 @@ export const areaExtraOfficeCards = {
         "https://res.cloudinary.com/myhq/image/upload/workspaces/adited-x-ravindranagar/dedicated/rxznxs.jpg"
       ]
     },
+    // 40. United Spaces Ravindra Nagar - Ravindra Nagar
     {
       "id": 43,
       "name": "United Spaces Ravindra Nagar",
@@ -2294,6 +2454,7 @@ export const areaExtraOfficeCards = {
         "https://res.cloudinary.com/myhq/image/upload/workspaces/united-spaces-ravindranagar/dedicated/wfe74x.jpg"
       ]
     },
+    // 41. Nexus Spaces South Tukoganj - South Tukoganj
     {
       "id": 18,
       "name": "Nexus Spaces South Tukoganj",
@@ -2311,6 +2472,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/4e8141c3c189c83996c9e685799d5654ee6b6f96.jpg"
       ]
     },
+    // 42. Stark Spaces South Tukoganj - South Tukoganj
     {
       "id": 46,
       "name": "Stark Spaces South Tukoganj",
@@ -2328,6 +2490,7 @@ export const areaExtraOfficeCards = {
         "https://res.cloudinary.com/myhq/image/upload/workspaces/stark-spaces-southtukoganj/dedicated/6tkxh5.jpg"
       ]
     },
+    // 43. Workviaa Corporate House - South Tukoganj
     {
       "id": 58,
       "name": "Workviaa Corporate House",
@@ -2347,6 +2510,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147509/Location/MAP-1755759433.webp"
       ]
     },
+    // 44. Regus DNR 90 - South Tukoganj
     {
       "id": 74,
       "name": "Regus DNR 90",
@@ -2367,6 +2531,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147325/Location/MAP-1755594933.webp"
       ]
     },
+    // 45. Nexus Manas Mayfair - South Tukoganj
     {
       "id": 77,
       "name": "Nexus Manas Mayfair",
@@ -2387,6 +2552,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147335/Project%20Image/6-1755597636.webp"
       ]
     },
+    // 46. MyBranch Commerce House - New Palasia
     {
       "id": 48,
       "name": "MyBranch Commerce House",
@@ -2407,6 +2573,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147412/Location/Hou-1755679204.webp"
       ]
     },
+    // 47. Workie Sewani Corporate House - New Palasia
     {
       "id": 53,
       "name": "Workie Sewani Corporate House",
@@ -2426,6 +2593,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147405/Location/MAP-1755678166.webp"
       ]
     },
+    // 48. United Spaces Virendra Heights - New Palasia
     {
       "id": 56,
       "name": "United Spaces Virendra Heights",
@@ -2447,7 +2615,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "South Tukoganj" filter
   "South Tukoganj": [
+    // 49. Nexus Spaces South Tukoganj - South Tukoganj
     {
       "id": 18,
       "name": "Nexus Spaces South Tukoganj",
@@ -2465,6 +2635,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/4e8141c3c189c83996c9e685799d5654ee6b6f96.jpg"
       ]
     },
+    // 50. Stark Spaces South Tukoganj - South Tukoganj
     {
       "id": 46,
       "name": "Stark Spaces South Tukoganj",
@@ -2482,6 +2653,7 @@ export const areaExtraOfficeCards = {
         "https://res.cloudinary.com/myhq/image/upload/workspaces/stark-spaces-southtukoganj/dedicated/6tkxh5.jpg"
       ]
     },
+    // 51. Workviaa Corporate House - South Tukoganj
     {
       "id": 58,
       "name": "Workviaa Corporate House",
@@ -2501,6 +2673,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147509/Location/MAP-1755759433.webp"
       ]
     },
+    // 52. Regus DNR 90 - South Tukoganj
     {
       "id": 74,
       "name": "Regus DNR 90",
@@ -2521,6 +2694,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147325/Location/MAP-1755594933.webp"
       ]
     },
+    // 53. Nexus Manas Mayfair - South Tukoganj
     {
       "id": 77,
       "name": "Nexus Manas Mayfair",
@@ -2541,6 +2715,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147335/Project%20Image/6-1755597636.webp"
       ]
     },
+    // 54. Youth Cowork - M.G. Road
     {
       "id": 23,
       "name": "Youth Cowork",
@@ -2559,6 +2734,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/85efe5b295c09bf950b188491b83867476f2b873.jpg"
       ]
     },
+    // 55. MyBranch Commerce House - New Palasia
     {
       "id": 48,
       "name": "MyBranch Commerce House",
@@ -2579,6 +2755,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147412/Location/Hou-1755679204.webp"
       ]
     },
+    // 56. Workie Sewani Corporate House - New Palasia
     {
       "id": 53,
       "name": "Workie Sewani Corporate House",
@@ -2598,6 +2775,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147405/Location/MAP-1755678166.webp"
       ]
     },
+    // 57. United Spaces Virendra Heights - New Palasia
     {
       "id": 56,
       "name": "United Spaces Virendra Heights",
@@ -2618,6 +2796,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147507/Project%20Image/7-1755759163.webp"
       ]
     },
+    // 58. Smartwork Brilliant Centre - New Palasia
     {
       "id": 79,
       "name": "Smartwork Brilliant Centre",
@@ -2638,6 +2817,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/145524/Location/Hou-1754223317.webp"
       ]
     },
+    // 59. Melange Marketing - Jawahar Marg
     {
       "id": 20,
       "name": "Melange Marketing",
@@ -2654,6 +2834,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/7c0e825cbbec0bdf445f8380261bc45c8e8a8a9a.jpg"
       ]
     },
+    // 60. Melange Coworks - Jawahar Marg
     {
       "id": 26,
       "name": "Melange Coworks",
@@ -2671,7 +2852,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Vijay Nagar" filter
   "Vijay Nagar": [
+    // 61. Nextcoworks - Vijay Nagar
     {
       "id": 1,
       "name": "Nextcoworks",
@@ -2694,6 +2877,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/02aa649f2ef0f3500e8d6137bdc5503ce6514f6e.webp"
       ]
     },
+    // 62. Incuspaze Apollo - Vijay Nagar
     {
       "id": 2,
       "name": "Incuspaze Apollo",
@@ -2713,6 +2897,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/cd4b42f3b4627f5815f179f965b74e331a239d45.jpg"
       ]
     },
+    // 63. Incuspaze Brilliant Platina - Vijay Nagar
     {
       "id": 4,
       "name": "Incuspaze Brilliant Platina",
@@ -2731,6 +2916,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/eb6127274f92a2e24b2fc67d6f5088e5acc37e18.jpg"
       ]
     },
+    // 64. Work Jar Coworking - Vijay Nagar
     {
       "id": 7,
       "name": "Work Jar Coworking",
@@ -2748,6 +2934,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/fb98cb1cc76929a02d716afd27141f049dc1b291.jpg"
       ]
     },
+    // 65. Workvistar - Vijay Nagar
     {
       "id": 8,
       "name": "Workvistar",
@@ -2765,6 +2952,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/8da57b82c475ef368e3841e6348666db5a32b28a.jpg"
       ]
     },
+    // 66. YBox.Work - Vijay Nagar
     {
       "id": 9,
       "name": "YBox.Work",
@@ -2782,6 +2970,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/a68c3a0daa1c22ad5cb5d57f549378f492389087.jpg"
       ]
     },
+    // 67. Virtual Coworks - Vijay Nagar
     {
       "id": 10,
       "name": "Virtual Coworks",
@@ -2799,6 +2988,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/0eb993cdbd015561ceb31bf68a300ed50c55a858.jpg"
       ]
     },
+    // 68. Paskola - Vijay Nagar
     {
       "id": 11,
       "name": "Paskola",
@@ -2816,6 +3006,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/dc6b6880031dbdc49fbb45ad5994f989f805b824.jpg"
       ]
     },
+    // 69. BIZZI.B - Vijay Nagar
     {
       "id": 13,
       "name": "BIZZI.B",
@@ -2833,6 +3024,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/a2896cfa258eb38841b981b44e52d62410daadb7.jpg"
       ]
     },
+    // 70. SPADIFY CO-WORK - Vijay Nagar
     {
       "id": 15,
       "name": "SPADIFY CO-WORK",
@@ -2850,6 +3042,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/190cbed81663f01b565c949d20ea77ef158e7f4d.jpg"
       ]
     },
+    // 71. Cliffton Corporate - Vijay Nagar
     {
       "id": 16,
       "name": "Cliffton Corporate",
@@ -2869,6 +3062,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/24b4740a313da435887ff387c8273f41ae4b724b.jpg"
       ]
     },
+    // 72. The Address - Your Destination of Growth Indore - Vijay Nagar
     {
       "id": 19,
       "name": "The Address - Your Destination of Growth Indore",
@@ -2888,6 +3082,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/dad736cea1cdf73a2e865fd2d865148ca93bac50.jpg"
       ]
     },
+    // 73. Zero Gravito - Vijay Nagar
     {
       "id": 21,
       "name": "Zero Gravito",
@@ -2905,6 +3100,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/c761d729204074bafb4304e296631e3a5935a71e.jpg"
       ]
     },
+    // 74. Workbox - Vijay Nagar
     {
       "id": 24,
       "name": "Workbox",
@@ -2925,6 +3121,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/78760e5acf688fdae5f883521077ebff6c55ea88.jpg"
       ]
     },
+    // 75. Incuspaze Apollo Premier - Vijay Nagar
     {
       "id": 27,
       "name": "Incuspaze Apollo Premier",
@@ -2946,6 +3143,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/3d6bf2daebc5e10e1d6eb4ad218d0521b0e6d832.webp"
       ]
     },
+    // 76. Incuspaze Princess Business Skyline - Vijay Nagar
     {
       "id": 28,
       "name": "Incuspaze Princess Business Skyline",
@@ -2965,6 +3163,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/4cfc051d330040010a8f12975fbb229304d043f4.webp"
       ]
     },
+    // 77. Estancia Pro working space - Vijay Nagar
     {
       "id": 29,
       "name": "Estancia Pro working space",
@@ -2982,6 +3181,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/c10685c8fad71be061a91b1fc153c9de7b3bed90.webp"
       ]
     },
+    // 78. Awfis Winway World Offices - Vijay Nagar
     {
       "id": 30,
       "name": "Awfis Winway World Offices",
@@ -3001,6 +3201,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/99a1a17f90d3e96ab2e64461eb43c75f3d998e67.webp"
       ]
     },
+    // 79. Nextcoworks Office Space - Vijay Nagar
     {
       "id": 32,
       "name": "Nextcoworks Office Space",
@@ -3020,6 +3221,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/688174d23afefd0674def9142b39cf80e2d7caac.webp"
       ]
     },
+    // 80. Space X - Vijay Nagar
     {
       "id": 36,
       "name": "Space X",
@@ -3040,6 +3242,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/f3b158bd49ab734e0b24c9244cb72d45a153a361.webp"
       ]
     },
+    // 81. The Address BPK Titanium - Vijay Nagar
     {
       "id": 54,
       "name": "The Address BPK Titanium",
@@ -3056,6 +3259,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147180/Location/life-Map-1755509070.webp"
       ]
     },
+    // 82. Fusion Co-Space Classic Gold - Vijay Nagar
     {
       "id": 59,
       "name": "Fusion Co-Space Classic Gold",
@@ -3072,6 +3276,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147517/Location/MAP-1755764686.webp"
       ]
     },
+    // 83. S.PACE Co Working - Vijay Nagar
     {
       "id": 62,
       "name": "S.PACE Co Working",
@@ -3089,6 +3294,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147522/Location/MAP-1755764881.webp"
       ]
     },
+    // 84. My Stay Spaces Vishal Cube - Vijay Nagar
     {
       "id": 63,
       "name": "My Stay Spaces Vishal Cube",
@@ -3109,6 +3315,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147520/Project%20Image/11-1755764807.webp"
       ]
     },
+    // 85. The Dice Skye Corporate Park - Vijay Nagar
     {
       "id": 64,
       "name": "The Dice Skye Corporate Park",
@@ -3129,6 +3336,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147393/Location/MAP-1755670690.webp"
       ]
     },
+    // 86. The Dice Apollo premier - Vijay Nagar
     {
       "id": 65,
       "name": "The Dice Apollo premier",
@@ -3148,6 +3356,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147392/Location/MAp-1755670659.webp"
       ]
     },
+    // 87. Sky Space PU4 - Vijay Nagar
     {
       "id": 66,
       "name": "Sky Space PU4",
@@ -3165,6 +3374,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147391/Location/MAP-1755670607.webp"
       ]
     },
+    // 88. Sky Space Premium - Vijay Nagar
     {
       "id": 67,
       "name": "Sky Space Premium",
@@ -3183,6 +3393,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147390/Location/MAP-1755670580.webp"
       ]
     },
+    // 89. Sky Space Brilliant Platina - Vijay Nagar
     {
       "id": 68,
       "name": "Sky Space Brilliant Platina",
@@ -3201,6 +3412,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147389/Location/MAP-1755670548.webp"
       ]
     },
+    // 90. Coworking Krishna Business Centre - Vijay Nagar
     {
       "id": 69,
       "name": "Coworking Krishna Business Centre",
@@ -3220,6 +3432,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147385/Location/MAP-1755668086.webp"
       ]
     },
+    // 91. Workie Apollo Premier - Vijay Nagar
     {
       "id": 70,
       "name": "Workie Apollo Premier",
@@ -3240,6 +3453,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147402/Project%20Image/7-1755677351.webp"
       ]
     },
+    // 92. Spacetime The Hub - Vijay Nagar
     {
       "id": 71,
       "name": "Spacetime The Hub",
@@ -3258,6 +3472,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147400/Location/MAP-1755674957.webp"
       ]
     },
+    // 93. Workie Tower SP 365 Building - Vijay Nagar
     {
       "id": 72,
       "name": "Workie Tower SP 365 Building",
@@ -3278,6 +3493,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147408/Project%20Image/9-1755678904.webp"
       ]
     },
+    // 94. Regus Honda BigWing - Vijay Nagar
     {
       "id": 75,
       "name": "Regus Honda BigWing",
@@ -3297,6 +3513,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147326/Location/MAP-1755595059.webp"
       ]
     },
+    // 95. Regus Maloo 1 - Vijay Nagar
     {
       "id": 76,
       "name": "Regus Maloo 1",
@@ -3315,6 +3532,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147327/Location/MAP-1755595166.webp"
       ]
     },
+    // 96. Ardor Edge Shagun Arcade - Vijay Nagar
     {
       "id": 78,
       "name": "Ardor Edge Shagun Arcade",
@@ -3332,6 +3550,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147300/Location/MAP-1755588199.webp"
       ]
     },
+    // 97. Awfis Brilliant Sapphire 2 - Vijay Nagar
     {
       "id": 80,
       "name": "Awfis Brilliant Sapphire 2",
@@ -3350,7 +3569,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "M.G. Road" filter
   "M.G. Road": [
+    // 98. Youth Cowork - M.G. Road
     {
       "id": 23,
       "name": "Youth Cowork",
@@ -3369,6 +3590,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/85efe5b295c09bf950b188491b83867476f2b873.jpg"
       ]
     },
+    // 99. Nexus Spaces South Tukoganj - South Tukoganj
     {
       "id": 18,
       "name": "Nexus Spaces South Tukoganj",
@@ -3386,6 +3608,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/4e8141c3c189c83996c9e685799d5654ee6b6f96.jpg"
       ]
     },
+    // 100. Stark Spaces South Tukoganj - South Tukoganj
     {
       "id": 46,
       "name": "Stark Spaces South Tukoganj",
@@ -3403,6 +3626,7 @@ export const areaExtraOfficeCards = {
         "https://res.cloudinary.com/myhq/image/upload/workspaces/stark-spaces-southtukoganj/dedicated/6tkxh5.jpg"
       ]
     },
+    // 101. Workviaa Corporate House - South Tukoganj
     {
       "id": 58,
       "name": "Workviaa Corporate House",
@@ -3422,6 +3646,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147509/Location/MAP-1755759433.webp"
       ]
     },
+    // 102. Regus DNR 90 - South Tukoganj
     {
       "id": 74,
       "name": "Regus DNR 90",
@@ -3442,6 +3667,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147325/Location/MAP-1755594933.webp"
       ]
     },
+    // 103. Nexus Manas Mayfair - South Tukoganj
     {
       "id": 77,
       "name": "Nexus Manas Mayfair",
@@ -3462,6 +3688,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147335/Project%20Image/6-1755597636.webp"
       ]
     },
+    // 104. Melange Marketing - Jawahar Marg
     {
       "id": 20,
       "name": "Melange Marketing",
@@ -3478,6 +3705,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/7c0e825cbbec0bdf445f8380261bc45c8e8a8a9a.jpg"
       ]
     },
+    // 105. Melange Coworks - Jawahar Marg
     {
       "id": 26,
       "name": "Melange Coworks",
@@ -3494,6 +3722,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/32386b6f439e77f07d75106df94f662238d018b9.webp"
       ]
     },
+    // 106. MyBranch Commerce House - New Palasia
     {
       "id": 48,
       "name": "MyBranch Commerce House",
@@ -3514,6 +3743,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147412/Location/Hou-1755679204.webp"
       ]
     },
+    // 107. Workie Sewani Corporate House - New Palasia
     {
       "id": 53,
       "name": "Workie Sewani Corporate House",
@@ -3533,6 +3763,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147405/Location/MAP-1755678166.webp"
       ]
     },
+    // 108. United Spaces Virendra Heights - New Palasia
     {
       "id": 56,
       "name": "United Spaces Virendra Heights",
@@ -3553,6 +3784,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147507/Project%20Image/7-1755759163.webp"
       ]
     },
+    // 109. Smartwork Brilliant Centre - New Palasia
     {
       "id": 79,
       "name": "Smartwork Brilliant Centre",
@@ -3574,7 +3806,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Jawahar Marg" filter
   "Jawahar Marg": [
+    // 110. Melange Marketing - Jawahar Marg
     {
       "id": 20,
       "name": "Melange Marketing",
@@ -3591,6 +3825,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/7c0e825cbbec0bdf445f8380261bc45c8e8a8a9a.jpg"
       ]
     },
+    // 111. Melange Coworks - Jawahar Marg
     {
       "id": 26,
       "name": "Melange Coworks",
@@ -3607,6 +3842,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/32386b6f439e77f07d75106df94f662238d018b9.webp"
       ]
     },
+    // 112. Youth Cowork - M.G. Road
     {
       "id": 23,
       "name": "Youth Cowork",
@@ -3625,6 +3861,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/85efe5b295c09bf950b188491b83867476f2b873.jpg"
       ]
     },
+    // 113. Nexus Spaces South Tukoganj - South Tukoganj
     {
       "id": 18,
       "name": "Nexus Spaces South Tukoganj",
@@ -3642,6 +3879,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/4e8141c3c189c83996c9e685799d5654ee6b6f96.jpg"
       ]
     },
+    // 114. Stark Spaces South Tukoganj - South Tukoganj
     {
       "id": 46,
       "name": "Stark Spaces South Tukoganj",
@@ -3659,6 +3897,7 @@ export const areaExtraOfficeCards = {
         "https://res.cloudinary.com/myhq/image/upload/workspaces/stark-spaces-southtukoganj/dedicated/6tkxh5.jpg"
       ]
     },
+    // 115. Workviaa Corporate House - South Tukoganj
     {
       "id": 58,
       "name": "Workviaa Corporate House",
@@ -3678,6 +3917,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147509/Location/MAP-1755759433.webp"
       ]
     },
+    // 116. Regus DNR 90 - South Tukoganj
     {
       "id": 74,
       "name": "Regus DNR 90",
@@ -3698,6 +3938,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147325/Location/MAP-1755594933.webp"
       ]
     },
+    // 117. Nexus Manas Mayfair - South Tukoganj
     {
       "id": 77,
       "name": "Nexus Manas Mayfair",
@@ -3718,6 +3959,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147335/Project%20Image/6-1755597636.webp"
       ]
     },
+    // 118. MyBranch Commerce House - New Palasia
     {
       "id": 48,
       "name": "MyBranch Commerce House",
@@ -3738,6 +3980,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147412/Location/Hou-1755679204.webp"
       ]
     },
+    // 119. Workie Sewani Corporate House - New Palasia
     {
       "id": 53,
       "name": "Workie Sewani Corporate House",
@@ -3757,6 +4000,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147405/Location/MAP-1755678166.webp"
       ]
     },
+    // 120. United Spaces Virendra Heights - New Palasia
     {
       "id": 56,
       "name": "United Spaces Virendra Heights",
@@ -3777,6 +4021,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147507/Project%20Image/7-1755759163.webp"
       ]
     },
+    // 121. Smartwork Brilliant Centre - New Palasia
     {
       "id": 79,
       "name": "Smartwork Brilliant Centre",
@@ -3798,7 +4043,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Bhawarkua" filter
   "Bhawarkua": [
+    // 122. Karyasthal - Bhawarkua
     {
       "id": 22,
       "name": "Karyasthal",
@@ -3819,6 +4066,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/2d1753cd6f0a1cbdf02000540f9ea0a819a7b6b7.jpg"
       ]
     },
+    // 123. CO-Workspace - Bhawarkua
     {
       "id": 31,
       "name": "CO-Workspace",
@@ -3836,6 +4084,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/b71cc51e2026be38bb68422b581e061f21610bb6.webp"
       ]
     },
+    // 124. Flexihub - Bhawarkua
     {
       "id": 35,
       "name": "Flexihub",
@@ -3855,6 +4104,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/7dbc49373022c7d2aa0ea4dfb636e421f54e8c62.webp"
       ]
     },
+    // 125. Incuspaze Princes Business Skyline - AB Road
     {
       "id": 3,
       "name": "Incuspaze Princes Business Skyline",
@@ -3873,6 +4123,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/5fb20a658639188bf735d7a826209c0c566b4ef4.jpg"
       ]
     },
+    // 126. Incuspaze Metro Tower - AB Road
     {
       "id": 5,
       "name": "Incuspaze Metro Tower",
@@ -3891,6 +4142,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/86e3add5caf136da865a4ad6a9b56d5c54189da0.jpg"
       ]
     },
+    // 127. Adited Coworking 1.0 - AB Road
     {
       "id": 6,
       "name": "Adited Coworking 1.0",
@@ -3908,6 +4160,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/879d988cbfa9d8c06f0b642fba72f305e64bd966.jpg"
       ]
     },
+    // 128. Worksthan - AB Road
     {
       "id": 12,
       "name": "Worksthan",
@@ -3927,6 +4180,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/4ede9b640ca3286410d4724f71044ade4ad7a175.jpg"
       ]
     },
+    // 129. The Dice - AB Road
     {
       "id": 14,
       "name": "The Dice",
@@ -3947,6 +4201,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/26c8ecb1f7190b14f846475ca1ddbd7044c8294c.webp"
       ]
     },
+    // 130. Nexus Spaces AB Road - AB Road
     {
       "id": 17,
       "name": "Nexus Spaces AB Road",
@@ -3964,6 +4219,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/824a553195bdf5f968453cf7ab1fb15d715abd42.jpg"
       ]
     },
+    // 131. Stark Spaces - AB Road
     {
       "id": 25,
       "name": "Stark Spaces",
@@ -3981,6 +4237,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/a8f5c8b1055b0f8073eb69b0f96c2ccc5526c13b.webp"
       ]
     },
+    // 132. ThinkNTap Coworks - AB Road
     {
       "id": 34,
       "name": "ThinkNTap Coworks",
@@ -3998,6 +4255,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/1ae7180d916061d4c13e3a8c25ee13966ca3ee98.webp"
       ]
     },
+    // 133. Smartworks AB Road - AB Road
     {
       "id": 44,
       "name": "Smartworks AB Road",
@@ -4018,7 +4276,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Mahalaxmi Nagar" filter
   "Mahalaxmi Nagar": [
+    // 134. Workdesq Coworking - Mahalaxmi Nagar
     {
       "id": 33,
       "name": "Workdesq Coworking",
@@ -4037,6 +4297,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/aeae00d0fcda1d8193020483efaa3a3fab306560.webp"
       ]
     },
+    // 135. BCM Zodiac Co-Working - Mahalaxmi Nagar
     {
       "id": 55,
       "name": "BCM Zodiac Co-Working",
@@ -4057,6 +4318,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147301/Project%20Image/10-1755588287.webp"
       ]
     },
+    // 136. Incuspaze Princes Business Skyline - AB Road
     {
       "id": 3,
       "name": "Incuspaze Princes Business Skyline",
@@ -4075,6 +4337,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/5fb20a658639188bf735d7a826209c0c566b4ef4.jpg"
       ]
     },
+    // 137. Incuspaze Metro Tower - AB Road
     {
       "id": 5,
       "name": "Incuspaze Metro Tower",
@@ -4093,6 +4356,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/86e3add5caf136da865a4ad6a9b56d5c54189da0.jpg"
       ]
     },
+    // 138. Adited Coworking 1.0 - AB Road
     {
       "id": 6,
       "name": "Adited Coworking 1.0",
@@ -4110,6 +4374,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/879d988cbfa9d8c06f0b642fba72f305e64bd966.jpg"
       ]
     },
+    // 139. Worksthan - AB Road
     {
       "id": 12,
       "name": "Worksthan",
@@ -4129,6 +4394,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/4ede9b640ca3286410d4724f71044ade4ad7a175.jpg"
       ]
     },
+    // 140. The Dice - AB Road
     {
       "id": 14,
       "name": "The Dice",
@@ -4149,6 +4415,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/26c8ecb1f7190b14f846475ca1ddbd7044c8294c.webp"
       ]
     },
+    // 141. Nexus Spaces AB Road - AB Road
     {
       "id": 17,
       "name": "Nexus Spaces AB Road",
@@ -4166,6 +4433,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/824a553195bdf5f968453cf7ab1fb15d715abd42.jpg"
       ]
     },
+    // 142. Stark Spaces - AB Road
     {
       "id": 25,
       "name": "Stark Spaces",
@@ -4183,6 +4451,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/a8f5c8b1055b0f8073eb69b0f96c2ccc5526c13b.webp"
       ]
     },
+    // 143. ThinkNTap Coworks - AB Road
     {
       "id": 34,
       "name": "ThinkNTap Coworks",
@@ -4200,6 +4469,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/1ae7180d916061d4c13e3a8c25ee13966ca3ee98.webp"
       ]
     },
+    // 144. Smartworks AB Road - AB Road
     {
       "id": 44,
       "name": "Smartworks AB Road",
@@ -4219,6 +4489,7 @@ export const areaExtraOfficeCards = {
         "https://res.cloudinary.com/myhq/image/upload/workspaces/smartworks-abroad/dedicated/y6um98.jpg"
       ]
     },
+    // 145. Antares Business Centre - AB Road
     {
       "id": 45,
       "name": "Antares Business Centre",
@@ -4238,7 +4509,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "New Palasia" filter
   "New Palasia": [
+    // 146. MyBranch Commerce House - New Palasia
     {
       "id": 48,
       "name": "MyBranch Commerce House",
@@ -4259,6 +4532,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147412/Location/Hou-1755679204.webp"
       ]
     },
+    // 147. Workie Sewani Corporate House - New Palasia
     {
       "id": 53,
       "name": "Workie Sewani Corporate House",
@@ -4278,6 +4552,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147405/Location/MAP-1755678166.webp"
       ]
     },
+    // 148. United Spaces Virendra Heights - New Palasia
     {
       "id": 56,
       "name": "United Spaces Virendra Heights",
@@ -4298,6 +4573,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147507/Project%20Image/7-1755759163.webp"
       ]
     },
+    // 149. Smartwork Brilliant Centre - New Palasia
     {
       "id": 79,
       "name": "Smartwork Brilliant Centre",
@@ -4318,6 +4594,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/145524/Location/Hou-1754223317.webp"
       ]
     },
+    // 150. Nexus Spaces South Tukoganj - South Tukoganj
     {
       "id": 18,
       "name": "Nexus Spaces South Tukoganj",
@@ -4335,6 +4612,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/4e8141c3c189c83996c9e685799d5654ee6b6f96.jpg"
       ]
     },
+    // 151. Stark Spaces South Tukoganj - South Tukoganj
     {
       "id": 46,
       "name": "Stark Spaces South Tukoganj",
@@ -4352,6 +4630,7 @@ export const areaExtraOfficeCards = {
         "https://res.cloudinary.com/myhq/image/upload/workspaces/stark-spaces-southtukoganj/dedicated/6tkxh5.jpg"
       ]
     },
+    // 152. Workviaa Corporate House - South Tukoganj
     {
       "id": 58,
       "name": "Workviaa Corporate House",
@@ -4371,6 +4650,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147509/Location/MAP-1755759433.webp"
       ]
     },
+    // 153. Regus DNR 90 - South Tukoganj
     {
       "id": 74,
       "name": "Regus DNR 90",
@@ -4391,6 +4671,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147325/Location/MAP-1755594933.webp"
       ]
     },
+    // 154. Nexus Manas Mayfair - South Tukoganj
     {
       "id": 77,
       "name": "Nexus Manas Mayfair",
@@ -4411,6 +4692,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147335/Project%20Image/6-1755597636.webp"
       ]
     },
+    // 155. The Address Ravindra Nagar - Ravindra Nagar
     {
       "id": 40,
       "name": "The Address Ravindra Nagar",
@@ -4429,6 +4711,7 @@ export const areaExtraOfficeCards = {
         "https://res.cloudinary.com/myhq/image/upload/workspaces/the-address-ravindranagar/7uy7yb.jpg"
       ]
     },
+    // 156. Adited House - Ravindra Nagar
     {
       "id": 41,
       "name": "Adited House",
@@ -4450,6 +4733,7 @@ export const areaExtraOfficeCards = {
         "https://res.cloudinary.com/myhq/image/upload/workspaces/adited-house-ravindranagar/dedicated/9dq8yv.jpg"
       ]
     },
+    // 157. ADITED X - Ravindra Nagar
     {
       "id": 42,
       "name": "ADITED X",
@@ -4472,7 +4756,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Scheme 54" filter
   "Scheme 54": [
+    // 158. Antares Princes Business Skypark - Scheme 54
     {
       "id": 49,
       "name": "Antares Princes Business Skypark",
@@ -4489,6 +4775,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147299/Location/MAP-1755588120.webp"
       ]
     },
+    // 159. Workie Swastika Urbane - Scheme 54
     {
       "id": 51,
       "name": "Workie Swastika Urbane",
@@ -4506,6 +4793,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147406/Location/MAP-1755678639.webp"
       ]
     },
+    // 160. Worksthan Orbit Mall - Scheme 54
     {
       "id": 52,
       "name": "Worksthan Orbit Mall",
@@ -4526,6 +4814,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147497/Project%20Image/7-1755756161.webp"
       ]
     },
+    // 161. Nextcoworks - Vijay Nagar
     {
       "id": 1,
       "name": "Nextcoworks",
@@ -4548,6 +4837,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/02aa649f2ef0f3500e8d6137bdc5503ce6514f6e.webp"
       ]
     },
+    // 162. Incuspaze Apollo - Vijay Nagar
     {
       "id": 2,
       "name": "Incuspaze Apollo",
@@ -4567,6 +4857,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/cd4b42f3b4627f5815f179f965b74e331a239d45.jpg"
       ]
     },
+    // 163. Incuspaze Brilliant Platina - Vijay Nagar
     {
       "id": 4,
       "name": "Incuspaze Brilliant Platina",
@@ -4585,6 +4876,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/eb6127274f92a2e24b2fc67d6f5088e5acc37e18.jpg"
       ]
     },
+    // 164. Work Jar Coworking - Vijay Nagar
     {
       "id": 7,
       "name": "Work Jar Coworking",
@@ -4602,6 +4894,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/fb98cb1cc76929a02d716afd27141f049dc1b291.jpg"
       ]
     },
+    // 165. Workvistar - Vijay Nagar
     {
       "id": 8,
       "name": "Workvistar",
@@ -4619,6 +4912,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/8da57b82c475ef368e3841e6348666db5a32b28a.jpg"
       ]
     },
+    // 166. YBox.Work - Vijay Nagar
     {
       "id": 9,
       "name": "YBox.Work",
@@ -4636,6 +4930,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/a68c3a0daa1c22ad5cb5d57f549378f492389087.jpg"
       ]
     },
+    // 167. Virtual Coworks - Vijay Nagar
     {
       "id": 10,
       "name": "Virtual Coworks",
@@ -4653,6 +4948,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/0eb993cdbd015561ceb31bf68a300ed50c55a858.jpg"
       ]
     },
+    // 168. Paskola - Vijay Nagar
     {
       "id": 11,
       "name": "Paskola",
@@ -4670,6 +4966,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/dc6b6880031dbdc49fbb45ad5994f989f805b824.jpg"
       ]
     },
+    // 169. BIZZI.B - Vijay Nagar
     {
       "id": 13,
       "name": "BIZZI.B",
@@ -4688,7 +4985,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Pipliyahana" filter
   "Pipliyahana": [
+    // 170. Flexi Business Hub Atulya IT Park - Pipliyahana
     {
       "id": 60,
       "name": "Flexi Business Hub Atulya IT Park",
@@ -4705,6 +5004,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147516/Location/MAP-1755764669.webp"
       ]
     },
+    // 171. SCI Co Works The Collab - Pipliyahana
     {
       "id": 61,
       "name": "SCI Co Works The Collab",
@@ -4721,6 +5021,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147523/Location/MAP-1755764902.webp"
       ]
     },
+    // 172. Nexus Spaces South Tukoganj - South Tukoganj
     {
       "id": 18,
       "name": "Nexus Spaces South Tukoganj",
@@ -4738,6 +5039,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/4e8141c3c189c83996c9e685799d5654ee6b6f96.jpg"
       ]
     },
+    // 173. Stark Spaces South Tukoganj - South Tukoganj
     {
       "id": 46,
       "name": "Stark Spaces South Tukoganj",
@@ -4755,6 +5057,7 @@ export const areaExtraOfficeCards = {
         "https://res.cloudinary.com/myhq/image/upload/workspaces/stark-spaces-southtukoganj/dedicated/6tkxh5.jpg"
       ]
     },
+    // 174. Workviaa Corporate House - South Tukoganj
     {
       "id": 58,
       "name": "Workviaa Corporate House",
@@ -4774,6 +5077,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147509/Location/MAP-1755759433.webp"
       ]
     },
+    // 175. Regus DNR 90 - South Tukoganj
     {
       "id": 74,
       "name": "Regus DNR 90",
@@ -4794,6 +5098,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147325/Location/MAP-1755594933.webp"
       ]
     },
+    // 176. Nexus Manas Mayfair - South Tukoganj
     {
       "id": 77,
       "name": "Nexus Manas Mayfair",
@@ -4814,6 +5119,7 @@ export const areaExtraOfficeCards = {
         "https://imgcdn.houssed.com/assets/Files/Projects/147335/Project%20Image/6-1755597636.webp"
       ]
     },
+    // 177. The Address Ravindra Nagar - Ravindra Nagar
     {
       "id": 40,
       "name": "The Address Ravindra Nagar",
@@ -4832,6 +5138,7 @@ export const areaExtraOfficeCards = {
         "https://res.cloudinary.com/myhq/image/upload/workspaces/the-address-ravindranagar/7uy7yb.jpg"
       ]
     },
+    // 178. Adited House - Ravindra Nagar
     {
       "id": 41,
       "name": "Adited House",
@@ -4853,6 +5160,7 @@ export const areaExtraOfficeCards = {
         "https://res.cloudinary.com/myhq/image/upload/workspaces/adited-house-ravindranagar/dedicated/9dq8yv.jpg"
       ]
     },
+    // 179. ADITED X - Ravindra Nagar
     {
       "id": 42,
       "name": "ADITED X",
@@ -4874,6 +5182,7 @@ export const areaExtraOfficeCards = {
         "https://res.cloudinary.com/myhq/image/upload/workspaces/adited-x-ravindranagar/dedicated/rxznxs.jpg"
       ]
     },
+    // 180. United Spaces Ravindra Nagar - Ravindra Nagar
     {
       "id": 43,
       "name": "United Spaces Ravindra Nagar",
@@ -4893,6 +5202,7 @@ export const areaExtraOfficeCards = {
         "https://res.cloudinary.com/myhq/image/upload/workspaces/united-spaces-ravindranagar/dedicated/wfe74x.jpg"
       ]
     },
+    // 181. Karyasthal - Bhawarkua
     {
       "id": 22,
       "name": "Karyasthal",
@@ -4918,6 +5228,7 @@ export const areaExtraOfficeCards = {
 
 // Suggested spaces shown at the bottom of a space's detail page
 export const similarIndoreOfficeCards = [
+  // 1. Nextcoworks - Vijay Nagar
   {
     "id": 1,
     "name": "Nextcoworks",
@@ -4940,6 +5251,7 @@ export const similarIndoreOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/02aa649f2ef0f3500e8d6137bdc5503ce6514f6e.webp"
     ]
   },
+  // 2. Incuspaze Apollo - Vijay Nagar
   {
     "id": 2,
     "name": "Incuspaze Apollo",
@@ -4959,6 +5271,7 @@ export const similarIndoreOfficeCards = [
       "https://img.cofynd.com/images/original/cd4b42f3b4627f5815f179f965b74e331a239d45.jpg"
     ]
   },
+  // 3. Incuspaze Princes Business Skyline - AB Road
   {
     "id": 3,
     "name": "Incuspaze Princes Business Skyline",
@@ -4977,6 +5290,7 @@ export const similarIndoreOfficeCards = [
       "https://img.cofynd.com/images/original/5fb20a658639188bf735d7a826209c0c566b4ef4.jpg"
     ]
   },
+  // 4. Incuspaze Brilliant Platina - Vijay Nagar
   {
     "id": 4,
     "name": "Incuspaze Brilliant Platina",
@@ -4995,6 +5309,7 @@ export const similarIndoreOfficeCards = [
       "https://img.cofynd.com/images/original/eb6127274f92a2e24b2fc67d6f5088e5acc37e18.jpg"
     ]
   },
+  // 5. Incuspaze Metro Tower - AB Road
   {
     "id": 5,
     "name": "Incuspaze Metro Tower",
@@ -5013,6 +5328,7 @@ export const similarIndoreOfficeCards = [
       "https://img.cofynd.com/images/original/86e3add5caf136da865a4ad6a9b56d5c54189da0.jpg"
     ]
   },
+  // 6. Adited Coworking 1.0 - AB Road
   {
     "id": 6,
     "name": "Adited Coworking 1.0",
@@ -5030,6 +5346,7 @@ export const similarIndoreOfficeCards = [
       "https://img.cofynd.com/images/original/879d988cbfa9d8c06f0b642fba72f305e64bd966.jpg"
     ]
   },
+  // 7. Work Jar Coworking - Vijay Nagar
   {
     "id": 7,
     "name": "Work Jar Coworking",
@@ -5047,6 +5364,7 @@ export const similarIndoreOfficeCards = [
       "https://img.cofynd.com/images/original/fb98cb1cc76929a02d716afd27141f049dc1b291.jpg"
     ]
   },
+  // 8. Workvistar - Vijay Nagar
   {
     "id": 8,
     "name": "Workvistar",
@@ -5064,6 +5382,7 @@ export const similarIndoreOfficeCards = [
       "https://img.cofynd.com/images/original/8da57b82c475ef368e3841e6348666db5a32b28a.jpg"
     ]
   },
+  // 9. YBox.Work - Vijay Nagar
   {
     "id": 9,
     "name": "YBox.Work",
@@ -5083,6 +5402,8 @@ export const similarIndoreOfficeCards = [
   }
 ];
 
+// Page 1 cards - top grid (right under the area filter buttons).
+// Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
 export const allIndoreOfficeCards = [
   ...indoreOfficeCards,
   ...moreIndoreOfficeCards,
@@ -5104,10 +5425,14 @@ export const allIndoreOfficeCards = [
   ...Object.values(areaExtraOfficeCards).flat()
 ].filter((card, index, list) => list.findIndex((other) => other.id === card.id) === index);
 
+// Find a Indore card from its URL slug (or numeric id). Returns the card or null.
 export const getIndoreOfficeCardById = (id) => findOfficeBySlug(allIndoreOfficeCards, id, "indore");
+// Build the URL slug / path of a Indore card (e.g. "/name-area-indore").
 export const getIndoreOfficeSlug = (space) => officePath(allIndoreOfficeCards, space, "indore");
 
+// "Explore Top Coworking Locations" tiles at the bottom of the page (area name, title, photo). Clicking a tile filters by that area.
 export const topIndoreCoworkingLocations = [
+  // 1. AB Road
   {
     "id": "loc-ab-road",
     "name": "AB Road",
@@ -5115,6 +5440,7 @@ export const topIndoreCoworkingLocations = [
     "image": "https://img.cofynd.com/images/latest_images_2024/48d59a1dbfc501a457bc56146ac33206db412a81.webp",
     "ctaText": "Explore Spaces"
   },
+  // 2. LIC Colony
   {
     "id": "loc-lic-colony",
     "name": "LIC Colony",
@@ -5122,6 +5448,7 @@ export const topIndoreCoworkingLocations = [
     "image": "https://ik.imagekit.io/qdesq/qdesq/3cff2d2d44985571b22ac15ad11a4201_vGdD207EH.jpg",
     "ctaText": "Explore Spaces"
   },
+  // 3. Ratna Lok Colony
   {
     "id": "loc-ratna-lok-colony",
     "name": "Ratna Lok Colony",
@@ -5129,6 +5456,7 @@ export const topIndoreCoworkingLocations = [
     "image": "https://res.cloudinary.com/myhq/image/upload/workspaces/work-studio-coworking-ratnalokcolony/dedicated/6eenuw.jpg",
     "ctaText": "Explore Spaces"
   },
+  // 4. Ravindra Nagar
   {
     "id": "loc-ravindra-nagar",
     "name": "Ravindra Nagar",
@@ -5136,6 +5464,7 @@ export const topIndoreCoworkingLocations = [
     "image": "https://img.cofynd.com/images/latest_images_2024/94e266284479c6e091e29c2d06df5deb49811db2.webp",
     "ctaText": "Explore Spaces"
   },
+  // 5. South Tukoganj
   {
     "id": "loc-south-tukoganj",
     "name": "South Tukoganj",
@@ -5143,6 +5472,7 @@ export const topIndoreCoworkingLocations = [
     "image": "https://img.cofynd.com/images/original/6a4736f86d95a33b7e57f91fa806db10dfff54b2.jpg",
     "ctaText": "Explore Spaces"
   },
+  // 6. Vijay Nagar
   {
     "id": "loc-vijay-nagar",
     "name": "Vijay Nagar",
@@ -5150,6 +5480,7 @@ export const topIndoreCoworkingLocations = [
     "image": "https://img.cofynd.com/images/latest_images_2024/ed404f974139bf939d241274331f741361cfc8b4.webp",
     "ctaText": "Explore Spaces"
   },
+  // 7. M.G. Road
   {
     "id": "loc-m-g-road",
     "name": "M.G. Road",
@@ -5157,6 +5488,7 @@ export const topIndoreCoworkingLocations = [
     "image": "https://img.cofynd.com/images/original/7d326793f8cd97485edaeb149765a0ce45d6f94d.jpg",
     "ctaText": "Explore Spaces"
   },
+  // 8. Jawahar Marg
   {
     "id": "loc-jawahar-marg",
     "name": "Jawahar Marg",
@@ -5164,6 +5496,7 @@ export const topIndoreCoworkingLocations = [
     "image": "https://img.cofynd.com/images/latest_images_2024/b7e629080ec74739e437d5e8aa5a00d77f6a0ec9.webp",
     "ctaText": "Explore Spaces"
   },
+  // 9. Bhawarkua
   {
     "id": "loc-bhawarkua",
     "name": "Bhawarkua",
@@ -5171,6 +5504,7 @@ export const topIndoreCoworkingLocations = [
     "image": "https://img.cofynd.com/images/original/e786a2ce11b5a1c43fb64ba7e444a03396994c74.jpg",
     "ctaText": "Explore Spaces"
   },
+  // 10. Mahalaxmi Nagar
   {
     "id": "loc-mahalaxmi-nagar",
     "name": "Mahalaxmi Nagar",
@@ -5178,6 +5512,7 @@ export const topIndoreCoworkingLocations = [
     "image": "https://img.cofynd.com/images/latest_images_2024/c3acdfb0071397ea73ebd552b8aea0ee1d47a21e.webp",
     "ctaText": "Explore Spaces"
   },
+  // 11. New Palasia
   {
     "id": "loc-new-palasia",
     "name": "New Palasia",
@@ -5185,6 +5520,7 @@ export const topIndoreCoworkingLocations = [
     "image": "https://imgcdn.houssed.com/assets/Files/Projects/147412/Sample%20Apartment/2-1755679195.webp",
     "ctaText": "Explore Spaces"
   },
+  // 12. Scheme 54
   {
     "id": "loc-scheme-54",
     "name": "Scheme 54",
@@ -5192,6 +5528,7 @@ export const topIndoreCoworkingLocations = [
     "image": "https://imgcdn.houssed.com/assets/Files/Projects/147299/Project%20Image/1-1755588107.webp",
     "ctaText": "Explore Spaces"
   },
+  // 13. Pipliyahana
   {
     "id": "loc-pipliyahana",
     "name": "Pipliyahana",
@@ -5201,6 +5538,7 @@ export const topIndoreCoworkingLocations = [
   }
 ];
 
+// Default export: bundle of the main lists/helpers for modules that import the whole file.
 export default {
   indoreNeighborhoods,
   indoreOfficeCards,

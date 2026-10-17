@@ -1,4 +1,11 @@
 import { findOfficeBySlug, officePath } from '../../common/slug.js';
+/**
+ * Gurugram coworking data file.
+ * Holds everything the listing page and the office-detail page need:
+ *   - area filter names, page-wise card lists, banners and pagination settings
+ *   - area-specific extra cards, similar-space cards and the slug lookup helpers
+ * Card data (name, area, price, photos) comes from public coworking listing sites.
+ */
 
 // Data store for Gurugram
 export const gurugramAreas = [
@@ -13,7 +20,9 @@ export const gurugramAreas = [
   "Sector 32"
 ];
 
+// All Gurugram coworking cards of this city (name, badge, rating, area, location, price, period, images).
 export const gurugramSpaces = [
+  // 1. 91springboard Augusta Point - Golf Course Road
   {
     id: 1,
     name: '91springboard Augusta Point',
@@ -34,6 +43,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/86995b9ae18a98cd1ea0341007a091accec06cff.webp'
     ]
   },
+  // 2. Awfis Paras Trinity - Golf Course Extension Road
   {
     id: 2,
     name: 'Awfis Paras Trinity',
@@ -54,6 +64,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/e6cd9436af8e8e4fe2ecdb745656158b7bed07d0.webp'
     ]
   },
+  // 3. Wonder Works - Sector 32
   {
     id: 3,
     name: 'Wonder Works',
@@ -74,6 +85,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/b4e8c4154544cf6b67ae9e523a6f0819e5fefc0e.webp'
     ]
   },
+  // 4. CoWrks Paras Twin Towers A - Golf Course Road
   {
     id: 4,
     name: 'CoWrks Paras Twin Towers A',
@@ -94,6 +106,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/original/8979328470f18fc10c38a28ec7abc4f4b9b502d6.jpg'
     ]
   },
+  // 5. 91springboard Sector 44 - Sector 44
   {
     id: 5,
     name: '91springboard Sector 44',
@@ -113,6 +126,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/b90d57b82fbba02ee1fa56aeb4e2b6544311137f.webp'
     ]
   },
+  // 6. Awfis Ambience Mall - DLF Cyber City
   {
     id: 6,
     name: 'Awfis Ambience Mall',
@@ -132,6 +146,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/82dc3985a12802f5257e3242d7b698174ce7461d.webp'
     ]
   },
+  // 7. VentureX Sector 29 - Sector 29
   {
     id: 7,
     name: 'VentureX Sector 29',
@@ -153,6 +168,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/23574cf51bfbc549f613cdd2d6d8b0897e5b470c.webp'
     ]
   },
+  // 8. Work2share - Udyog Vihar
   {
     id: 8,
     name: 'Work2share',
@@ -173,6 +189,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/44b113c03084f8e9b7f1abac4bfa2aba1cedaada.webp'
     ]
   },
+  // 9. Regus JMD Regent Square - MG Road
   {
     id: 9,
     name: 'Regus JMD Regent Square',
@@ -192,6 +209,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/b892fe2d0a916ac040ef1859dacf20e9a0259f15.webp'
     ]
   },
+  // 10. Awfis Unitech Cyber Park - Sector 39
   {
     id: 10,
     name: 'Awfis Unitech Cyber Park',
@@ -213,6 +231,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/3e8ed1f71773d4f6d75b17f8fd0fde30f8d5fbc3.webp'
     ]
   },
+  // 11. Awfis Augusta Point - Golf Course Road
   {
     id: 11,
     name: 'Awfis Augusta Point',
@@ -233,6 +252,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/b0ffd0e8a803a03deb30f7d57d77b37f08e54d6c.webp'
     ]
   },
+  // 12. Regus 49 Sohna Road - Sohna Road
   {
     id: 12,
     name: 'Regus 49 Sohna Road',
@@ -253,6 +273,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/898e258a43f45af82c4ef8c24db8a3d003bebf05.webp'
     ]
   },
+  // 13. Regus Unitech Cyber Park - Sector 39
   {
     id: 13,
     name: 'Regus Unitech Cyber Park',
@@ -274,6 +295,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/5c2b266b18f453e912797a9431af8e09ec5336ba.webp'
     ]
   },
+  // 14. Awfis Suncity Success Tower - Golf Course Extension Road
   {
     id: 14,
     name: 'Awfis Suncity Success Tower',
@@ -293,6 +315,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/5ae1047ce84014c0ac24704acf4d5039f070a8da.webp'
     ]
   },
+  // 15. The Executive Center DLF Downtown - DLF Cyber City
   {
     id: 15,
     name: 'The Executive Center DLF Downtown',
@@ -313,6 +336,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/0e01224f9b0972c129f0aaeae816430a560ea06d.webp'
     ]
   },
+  // 16. The Executive Center One Horizon Center - Golf Course Road
   {
     id: 16,
     name: 'The Executive Center One Horizon Center',
@@ -332,6 +356,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/556872a25dec098a93247bc53cdb8413e6aad4bc.webp'
     ]
   },
+  // 17. Innov8 CLC - Sector 44
   {
     id: 17,
     name: 'Innov8 CLC',
@@ -351,6 +376,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/e81b4f486e974f11de37e1b40c8a4378332bb0ea.webp'
     ]
   },
+  // 18. The Executive Centre DLF Cyber City - DLF Cyber City
   {
     id: 18,
     name: 'The Executive Centre DLF Cyber City',
@@ -371,6 +397,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/75828130f0b4a9be247be238f928672b40fb7768.webp'
     ]
   },
+  // 19. The Office Pass Paras Downtown Center - Golf Course Road
   {
     id: 19,
     name: 'The Office Pass Paras Downtown Center',
@@ -391,6 +418,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/39a3a2c7803871204195af2d3db8345520190224.webp'
     ]
   },
+  // 20. The Executive Center Two Horizon Center - Golf Course Road
   {
     id: 20,
     name: 'The Executive Center Two Horizon Center',
@@ -411,6 +439,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/466cf9fbaae8c590ee6658970605f6afa469906a.webp'
     ]
   },
+  // 21. Innov8 Unitech Cyber Park - Unitech Cyber Park
   {
     id: 21,
     name: 'Innov8 Unitech Cyber Park',
@@ -431,6 +460,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/85cfb86718f1692884646e2d32b52dc54fbdf017.webp'
     ]
   },
+  // 22. Smartworks RK Four Square - DLF Cyber City
   {
     id: 22,
     name: 'Smartworks RK Four Square',
@@ -451,6 +481,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/f7426e84f966b1a92a2ab925dc1510d224ea1ef0.webp'
     ]
   },
+  // 23. The Executive Center DLF Cyber Park - DLF Cyber City
   {
     id: 23,
     name: 'The Executive Center DLF Cyber Park',
@@ -470,6 +501,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/d0f55ba2bc6a5d96c23109f8d002230e07b713b6.webp'
     ]
   },
+  // 24. The Office Pass Operation Control Center - DLF Cyber City
   {
     id: 24,
     name: 'The Office Pass Operation Control Center',
@@ -491,6 +523,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/4d96486e21b95af89be080c1c07a0a81bb4060cb.webp'
     ]
   },
+  // 25. CoWrks Cyber City - DLF Cyber City
   {
     id: 25,
     name: 'CoWrks Cyber City',
@@ -512,6 +545,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/original/b066f606859a079991a9b70d8e6b2434cbfc134e.jpg'
     ]
   },
+  // 26. Smartworks Golf View Towers - Golf Course Road
   {
     id: 26,
     name: 'Smartworks Golf View Towers',
@@ -532,6 +566,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/8db76d6018830c8126165f231e401891a2205142.webp'
     ]
   },
+  // 27. Innov8 Orchid Center - Golf Course Road
   {
     id: 27,
     name: 'Innov8 Orchid Center',
@@ -553,6 +588,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/original/72810ffc2028fbf44e2b1e0e53b883ed17a858ae.jpg'
     ]
   },
+  // 28. Smartworks ASF Insignia - Vatsal Valley
   {
     id: 28,
     name: 'Smartworks ASF Insignia',
@@ -571,6 +607,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/fd4065bfaa3634f0db05903ff3e1d3c196ffa3d2.webp'
     ]
   },
+  // 29. IndiQube Vatika - Golf Course Road
   {
     id: 29,
     name: 'IndiQube Vatika',
@@ -589,6 +626,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/21acfec01f54fc86b423613d120ee6015f3ca9f0.webp'
     ]
   },
+  // 30. The Office Pass JMD Megapolis - Sohna Road
   {
     id: 30,
     name: 'The Office Pass JMD Megapolis',
@@ -609,6 +647,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/5298b6255e8158db744dbf61025139d6e3cd22f4.webp'
     ]
   },
+  // 31. IndiQube Unitech Cyber Park - Unitech Cyber Park
   {
     id: 31,
     name: 'IndiQube Unitech Cyber Park',
@@ -628,6 +667,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/576efc7390b71ff698320c929bd5e695a02a44d2.webp'
     ]
   },
+  // 32. VentureX Silverton Tower - Golf Course Extension Road
   {
     id: 32,
     name: 'VentureX Silverton Tower',
@@ -647,6 +687,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/ac13ca1d0456e7481ed244c1d68a5950689fd0c0.webp'
     ]
   },
+  // 33. AltF Orchid Business Park - Sohna Road
   {
     id: 33,
     name: 'AltF Orchid Business Park',
@@ -667,6 +708,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/a4fc1d06cf99771de446a7fd9194a62156bb160e.webp'
     ]
   },
+  // 34. AltF MGF Megacity - MG Road
   {
     id: 34,
     name: 'AltF MGF Megacity',
@@ -686,6 +728,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/original/68189417a2a5ad700ec940844054f46c11645783.jpg'
     ]
   },
+  // 35. Plus Offices - Golf Course Extension Road
   {
     id: 35,
     name: 'Plus Offices',
@@ -706,6 +749,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/4447602096c5b98834d72cda6ba3d6cda02c9a09.webp'
     ]
   },
+  // 36. Venture X Landmark Cyberpark - Golf Course Extension Road
   {
     id: 36,
     name: 'Venture X Landmark Cyberpark',
@@ -726,6 +770,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/02bd125ca96ba64cfa141ca9c4aa3e7f6790212a.webp'
     ]
   },
+  // 37. Divine Workspace - Sector 27
   {
     id: 37,
     name: 'Divine Workspace',
@@ -744,6 +789,7 @@ export const gurugramSpaces = [
       'https://divineworkspace.com/wp-content/uploads/elementor/thumbs/Phonebooth1-rmnv58xbsxz38yjpn7713s1jzu87a10ep8k5qfdzsg.jpeg'
     ]
   },
+  // 38. CoworkInsta - DLF Phase IV
   {
     id: 38,
     name: 'CoworkInsta',
@@ -762,6 +808,7 @@ export const gurugramSpaces = [
       'https://www.coworkinsta.com/images/cabins/3.png',
     ]
   },
+  // 39. AltF Coworking JMD Empire Square - MG Road
   {
     id: 39,
     name: 'AltF Coworking JMD Empire Square',
@@ -782,6 +829,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/752772b9a80b9109dbf3643569fdc71dc35c6619.webp'
     ]
   },
+  // 40. Co Offiz - Golf Course Extension Road
   {
     id: 40,
     name: 'Co Offiz',
@@ -801,6 +849,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/ed89abd86772ccdbb11fd96a2fce4890dcadd3b3.webp'
     ]
   },
+  // 41. AltF Coworking Suncity Success Tower - Golf Course Extension Road
   {
     id: 41,
     name: 'AltF Coworking Suncity Success Tower',
@@ -821,6 +870,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/original/41435f0fd5d6eca65e733b3cab6b64c2f1485404.jpg'
     ]
   },
+  // 42. Truworx - DLF Phase 1
   {
     id: 42,
     name: 'Truworx',
@@ -838,6 +888,7 @@ export const gurugramSpaces = [
       'https://backend.truworx.in/uploads/Golf_Course_Road_f896cd8653.png'
     ]
   },
+  // 43. MiQB - Sector 18
   {
     id: 43,
     name: 'MiQB',
@@ -860,6 +911,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/original/4ac2562a6e06a4fe9d77cfa08234fa5a80716858.jpg'
     ]
   },
+  // 44. Cowos - Sohna Road
   {
     id: 44,
     name: 'Cowos',
@@ -879,6 +931,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/b1662883df43dbeba8402563abf6cf84bca0353d.webp'
     ]
   },
+  // 45. Vatika First India Place - MG Road
   {
     id: 45,
     name: 'Vatika First India Place',
@@ -898,6 +951,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/original/e0312c3494d46f0bc0c35eadb5371a4b63e185e4.jpg'
     ]
   },
+  // 46. SupremeWork - Sohna Road
   {
     id: 46,
     name: 'SupremeWork',
@@ -919,6 +973,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/2347c825f451755c5fef37d45356b7579a8de469.webp'
     ]
   },
+  // 47. STEP 01 WorkSpaces - Sector 32
   {
     id: 47,
     name: 'STEP 01 WorkSpaces',
@@ -939,6 +994,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/original/2f87ccba882016a9d980f041e3bb40d1ab6e586a.jpg'
     ]
   },
+  // 48. The OfficeBay - Manesar
   {
     id: 48,
     name: 'The OfficeBay',
@@ -957,6 +1013,7 @@ export const gurugramSpaces = [
       'https://theofficebay.in/assets/img/sl4.jpg'
     ]
   },
+  // 49. Vatika Business Centre Vatika Triangle - MG Road
   {
     id: 49,
     name: 'Vatika Business Centre Vatika Triangle',
@@ -978,6 +1035,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/a59cdbb2b1c43425823ff98836e93e51e6508bcd.webp'
     ]
   },
+  // 50. Shulin Enterprises - Sector 3
   {
     id: 50,
     name: 'Shulin Enterprises',
@@ -991,6 +1049,7 @@ export const gurugramSpaces = [
     ctaText: 'Get Quote',
     images: [] // TODO: add images
   },
+  // 51. Altrade Platina Building - MG Road
   {
     id: 51,
     name: 'Altrade Platina Building',
@@ -1010,6 +1069,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/155c5685f1198229185ffb0691e105f24888a08d.webp'
     ]
   },
+  // 52. ThinkValley B-17 - Sector 32
   {
     id: 52,
     name: 'ThinkValley B-17',
@@ -1031,6 +1091,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/original/9ae899282f2c2e96cea4ac9b610498998f2ed7d0.jpg'
     ]
   },
+  // 53. 91springboard - Udyog Vihar
   {
     id: 53,
     name: '91springboard',
@@ -1053,6 +1114,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/df83899a67768631ffea64b6cd30624328653eca.webp'
     ]
   },
+  // 54. Work Bee India JMD Megapolis - Sohna Road
   {
     id: 54,
     name: 'Work Bee India JMD Megapolis',
@@ -1073,6 +1135,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/81a03ad41477a41e87d57a6332e45fc6b65a4f71.webp'
     ]
   },
+  // 55. Workie - Sector 44
   {
     id: 55,
     name: 'Workie',
@@ -1095,6 +1158,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/original/37264fd99bf6ba9e6f7337e0a808f556ee0b8794.jpg'
     ]
   },
+  // 56. Nimble Cowork - Udyog Vihar
   {
     id: 56,
     name: 'Nimble Cowork',
@@ -1116,6 +1180,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/original/ce66e149bcd394a10b780cdb06a9611dcb3dbb5f.jpg'
     ]
   },
+  // 57. Apeejay Business Centre - DLF Cyber City
   {
     id: 57,
     name: 'Apeejay Business Centre',
@@ -1136,6 +1201,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/4e7075bbfff0c4e98e1e8a6df5d863a1b52f5d2d.webp'
     ]
   },
+  // 58. Plus Offices - Sector 44
   {
     id: 58,
     name: 'Plus Offices',
@@ -1155,6 +1221,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/07a0ad9ebc4f3acd7328ac370b0ba77cb54a3904.webp'
     ]
   },
+  // 59. The Office Pass - Unitech Cyber Park
   {
     id: 59,
     name: 'The Office Pass',
@@ -1174,6 +1241,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/bba8781baaa5b794e0eda3d9ed3c871ec4229fa9.webp'
     ]
   },
+  // 60. Cube8 MM Towers - Udyog Vihar
   {
     id: 60,
     name: 'Cube8 MM Towers',
@@ -1193,6 +1261,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/original/8d8b572f7946dee677e17d59cb2c763d43d712c7.jpg'
     ]
   },
+  // 61. AltF Plaza Mall - MG Road
   {
     id: 61,
     name: 'AltF Plaza Mall',
@@ -1213,6 +1282,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/8936301287ef35b1d1cbdedbffcea1c06b9dc7cf.webp'
     ]
   },
+  // 62. My Offiz - Udyog Vihar
   {
     id: 62,
     name: 'My Offiz',
@@ -1233,6 +1303,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/39feea9ee1202a95a919422454819cf153610a2e.webp'
     ]
   },
+  // 63. Desker - Golf Course Road
   {
     id: 63,
     name: 'Desker',
@@ -1258,6 +1329,7 @@ export const gurugramSpaces = [
 
     ]
   },
+  // 64. CorporatEdge Cyber Hub - DLF Cyber City
   {
     id: 64,
     name: 'CorporatEdge Cyber Hub',
@@ -1278,6 +1350,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/original/a4353ffb384ceaaad223b7a7f2062ef5a522476a.jpg'
     ]
   },
+  // 65. iWorkk - Sector 14
   {
     id: 65,
     name: 'iWorkk',
@@ -1297,6 +1370,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/original/94012a52ecb1c8b4e3297ed8809f7f3466a7d3f1.jpg'
     ]
   },
+  // 66. CoElevate DLF Corporate Greens - Sector 74A
   {
     id: 66,
     name: 'CoElevate DLF Corporate Greens',
@@ -1321,6 +1395,7 @@ export const gurugramSpaces = [
 
     ]
   },
+  // 67. India Accelerator - MG Road
   {
     id: 67,
     name: 'India Accelerator',
@@ -1340,6 +1415,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/5b7d14eaac593730fc8bf0b3a7d9b534c432446d.webp'
     ]
   },
+  // 68. Coactives - Sector 44
   {
     id: 68,
     name: 'Coactives',
@@ -1361,6 +1437,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/original/af6121b44cadd726eac9520f0b6c286ac9167181.jpg'
     ]
   },
+  // 69. Vorkzone JMD Megapolis - Sohna Road
   {
     id: 69,
     name: 'Vorkzone JMD Megapolis',
@@ -1380,6 +1457,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/24697cf345fae4788d0833a396a2fbd4ca235285.webp'
     ]
   },
+  // 70. Incuspaze - Udyog Vihar
   {
     id: 70,
     name: 'Incuspaze',
@@ -1400,6 +1478,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/efb6f77b9ef0af73bc2610c02f54c5d836271463.webp'
     ]
   },
+  // 71. Oahfeo Workspaces - Sector 46
   {
     id: 71,
     name: 'Oahfeo Workspaces',
@@ -1420,6 +1499,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/original/fa43f5d14e3aecf6701fbde4ee66367518668d02.jpg'
     ]
   },
+  // 72. 91springboard - Udyog Vihar
   {
     id: 72,
     name: '91springboard',
@@ -1440,6 +1520,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/55e3e19b32da98fe1506f98f1920f9aa9b629985.webp'
     ]
   },
+  // 73. Innohouse - Sector 32
   {
     id: 73,
     name: 'Innohouse',
@@ -1459,6 +1540,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/e631c030fe9d2d51840b26732e6c3e0daf0c5468.webp'
     ]
   },
+  // 74. Redbasil - DLF Phase 1
   {
     id: 74,
     name: 'Redbasil',
@@ -1477,6 +1559,7 @@ export const gurugramSpaces = [
       'https://res.cloudinary.com/myhq/image/upload/w_384/f_auto/workspaces/redbasil-ashokmarg/dedicated/nxrcd5.jpg'
     ]
   },
+  // 75. Team CoWork - Sector 26
   {
     id: 75,
     name: 'Team CoWork',
@@ -1497,6 +1580,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/original/d84a5322ccc7c61132169d70306c776c8dfaa47b.jpg'
     ]
   },
+  // 76. BuildUP WorkSpaces - Udyog Vihar
   {
     id: 76,
     name: 'BuildUP WorkSpaces',
@@ -1516,6 +1600,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/8f25e853857ad98fc53f3a46c3e0cd6e3d7b437f.webp'
     ]
   },
+  // 77. 91Springboard Vatika Triangle - MG Road
   {
     id: 77,
     name: '91Springboard Vatika Triangle',
@@ -1537,6 +1622,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/7400623df8714d25fbbaec18167dd719a1688b9f.webp'
     ]
   },
+  // 78. 91springboard DLF Building No 7A - DLF Cyber City
   {
     id: 78,
     name: '91springboard DLF Building No 7A',
@@ -1562,6 +1648,7 @@ export const gurugramSpaces = [
 
     ]
   },
+  // 79. One Culture Tech Garden - Sector 35
   {
     id: 79,
     name: 'One Culture Tech Garden',
@@ -1575,6 +1662,7 @@ export const gurugramSpaces = [
     ctaText: 'Get Quote',
     images: [] // TODO: add images
   },
+  // 80. Oahfeo Workspaces Backyard - Sector 39
   {
     id: 80,
     name: 'Oahfeo Workspaces Backyard',
@@ -1594,6 +1682,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/8f2a0a107f6acb201d37449290b3be394e8bf2cc.webp'
     ]
   },
+  // 81. TRIOS Akaya One - Sector 32
   {
     id: 81,
     name: 'TRIOS Akaya One',
@@ -1613,6 +1702,7 @@ export const gurugramSpaces = [
       'https://img.cofynd.com/images/latest_images_2024/4ddb4571a4a50451c0c2d33ffd71be24203091b8.webp'
     ]
   },
+  // 82. The Circle Work Palm Spring Plaza - Golf Course Road
   {
     id: 82,
     name: 'The Circle Work Palm Spring Plaza',
@@ -1631,6 +1721,7 @@ export const gurugramSpaces = [
       'https://res.cloudinary.com/myhq/image/upload/q_auto/w_1920/f_auto/workspaces/the-circlework-palm-springs-plaza/dedicated/cc42sz.jpg'
     ]
   },
+  // 83. One Co.Work - Sushant Lok Phase I
   {
     id: 83,
     name: 'One Co.Work',
@@ -1649,6 +1740,7 @@ export const gurugramSpaces = [
       'https://res.cloudinary.com/myhq/image/upload/q_auto/w_1920/f_auto/workspaces/one-co.work-sushant-lok/dedicated/8h7yde.jpg'
     ]
   },
+  // 84. SupremeWork - Sohna Road
   {
     id: 84,
     name: 'SupremeWork',
@@ -1666,6 +1758,7 @@ export const gurugramSpaces = [
       'https://imgcdn.houssed.com/assets/Files/Projects/147020/Sample%20Apartment/trade-1-1755430981-thumb.webp'
     ]
   },
+  // 85. Startup Office 101 - Golf Course Road
   {
     id: 85,
     name: 'Startup Office 101',
@@ -1684,6 +1777,7 @@ export const gurugramSpaces = [
       "https://startupoffices.in/wp-content/uploads/2024/01/shared-work-space-min-1024x683.jpg"
     ]
   },
+  // 86. Regus Unitech Cyber Park 2 - Sector 39
   {
     id: 86,
     name: 'Regus Unitech Cyber Park 2',
@@ -1703,6 +1797,7 @@ export const gurugramSpaces = [
 
     ]
   },
+  // 87. India Accelerator - Golf Course Extension
   {
     id: 87,
     name: 'India Accelerator',
@@ -1721,6 +1816,7 @@ export const gurugramSpaces = [
       'https://res.cloudinary.com/myhq/image/upload/q_auto/w_1920/f_auto/workspaces/india-accelerator-bptp-centra-one/flexi/ggz524.jpg'
     ]
   },
+  // 88. Spring House Welldone Tech Park - Sohna Road
   {
     id: 88,
     name: 'Spring House Welldone Tech Park',
@@ -1741,6 +1837,7 @@ export const gurugramSpaces = [
       'https://cdn.coworkingcafe.com:443/images/1E70D182-70FF-48E5-BA54-5684F30C58FA/22863.jpg'
     ]
   },
+  // 89. DesqWorx JMD Megapolis - Sohna Road
   {
     id: 89,
     name: 'DesqWorx JMD Megapolis',
@@ -1762,6 +1859,7 @@ export const gurugramSpaces = [
 
     ]
   },
+  // 90. Altrade Business Centre - DLF Cyber City
   {
     id: 90,
     name: 'Altrade Business Centre',
@@ -1784,6 +1882,7 @@ export const gurugramSpaces = [
       "https://cdn.coworkingcafe.com/images/559AE539-5EE6-4F46-8DC1-B58E462B6069/78107.jpg"
     ]
   },
+  // 91. Corporate Nexus - Sector 18
   {
     id: 91,
     name: 'Corporate Nexus',
@@ -1802,6 +1901,7 @@ export const gurugramSpaces = [
       'https://res.cloudinary.com/myhq/image/upload/q_auto/w_1920/f_auto/workspaces/corporate-nexus-intellect/mme8eg.jpg'
     ]
   },
+  // 92. WorkPod - Sector 44
   {
     id: 92,
     name: 'WorkPod',
@@ -1820,6 +1920,7 @@ export const gurugramSpaces = [
       'https://res.cloudinary.com/myhq/image/upload/q_auto/w_1920/f_auto/workspaces/workpod-sector44gurgaon/dedicated/vb2b7e.jpg'
     ]
   },
+  // 93. Spring House JMD Galleria - DLF Phase IV
   {
     id: 93,
     name: 'Spring House JMD Galleria',
@@ -1838,6 +1939,7 @@ export const gurugramSpaces = [
       'https://res.cloudinary.com/myhq/image/upload/q_auto/w_1920/f_auto/workspaces/springhouse-jmd-galleria/managed-office/qu3s4r.jpg'
     ]
   },
+  // 94. Green Gold 56 - Golf Course Road
   {
     id: 94,
     name: 'Green Gold 56',
@@ -1851,6 +1953,7 @@ export const gurugramSpaces = [
     ctaText: 'Get Quote',
     images: [] // TODO: add images
   },
+  // 95. SupremeWork Ocus Technopolies - Golf Course Road
   {
     id: 95,
     name: 'SupremeWork Ocus Technopolies',
@@ -1868,6 +1971,7 @@ export const gurugramSpaces = [
       'https://imgcdn.houssed.com/assets/Files/Projects/147018/Sample%20Apartment/ocus-2-1755429640-thumb.webp'
     ]
   },
+  // 96. Innov8 DLF Cybergreen - DLF Cyber Greens
   {
     id: 96,
     name: 'Innov8 DLF Cybergreen',
@@ -1886,6 +1990,7 @@ export const gurugramSpaces = [
       'https://res.cloudinary.com/myhq/image/upload/q_auto/w_1920/f_auto/workspaces/innov8-cybergreen-cybercity-dlf-cybergreen/qnxn23.jpg'
     ]
   },
+  // 97. Avanta Business Centre - MG Road
   {
     id: 97,
     name: 'Avanta Business Centre',
@@ -1904,6 +2009,7 @@ export const gurugramSpaces = [
       'https://res.cloudinary.com/myhq/image/upload/q_auto/w_1920/f_auto/workspaces/avanta-business-centre-mgf-metropolis-mall/flexi/uxqt9r.jpg'
     ]
   },
+  // 98. SupremeWork Eros City Square Mall - Sector 49
   {
     id: 98,
     name: 'SupremeWork Eros City Square Mall',
@@ -1924,6 +2030,7 @@ export const gurugramSpaces = [
       'https://cdn.coworkingcafe.com:443/images/6227857D-A6DC-466E-B243-BBAB7DD12D27/92790.jpg'
     ]
   },
+  // 99. Spring House Grand Mall - MG Road
   {
     id: 99,
     name: 'Spring House Grand Mall',
@@ -1942,6 +2049,7 @@ export const gurugramSpaces = [
       'https://imgcdn.houssed.com/assets/Files/Projects/146828/Sample%20Apartment/Mall-2-1755238607-thumb.webp'
     ]
   },
+  // 100. Fume Coworking 1.0 - Sector 18
   {
     id: 100,
     name: 'Fume Coworking 1.0',
@@ -1961,6 +2069,7 @@ export const gurugramSpaces = [
       'https://res.cloudinary.com/myhq/image/upload/q_auto/w_1920/f_auto/workspaces/fume-coworking-udyogvihar/fwhr9m.jpg'
     ]
   },
+  // 101. Worxspace Coworking Welldone Tech Park - Sohna Road
   {
     id: 101,
     name: 'Worxspace Coworking Welldone Tech Park',
@@ -1979,6 +2088,7 @@ export const gurugramSpaces = [
       'https://res.cloudinary.com/myhq/image/upload/q_auto/w_1920/f_auto/workspaces/worxspace-coworking-welldone-tech-park/dedicated/zxmedk.jpg'
     ]
   },
+  // 102. Incuspaze Campus 2 - Sector 18
   {
     id: 102,
     name: 'Incuspaze Campus 2',
@@ -1998,6 +2108,7 @@ export const gurugramSpaces = [
       'https://imgcdn.houssed.com/assets/Files/Projects/145761/Sample%20Apartment/Campus2-4-1754311376-thumb.webp'
     ]
   },
+  // 103. Incuspaze M3M Urbana - Golf Course Extension Road
   {
     id: 103,
     name: 'Incuspaze M3M Urbana',
@@ -2016,6 +2127,7 @@ export const gurugramSpaces = [
       'https://imgcdn.houssed.com/assets/Files/Projects/145762/Sample%20Apartment/uRIUM-3-1754311863-thumb.webp'
     ]
   },
+  // 104. Startup Offices India - Golf Course Road
   {
     id: 104,
     name: 'Startup Offices India',
@@ -2040,6 +2152,7 @@ export const gurugramSpaces = [
 
     ]
   },
+  // 105. Collabora8 - MG Road
   {
     id: 105,
     name: 'Collabora8',
@@ -2058,6 +2171,7 @@ export const gurugramSpaces = [
       'https://imgcdn.houssed.com/assets/Files/Projects/147038/Sample%20Apartment/vip-4-1755412438-thumb.webp'
     ]
   },
+  // 106. Whizdom Club - Golf Course Road
   {
     id: 106,
     name: 'Whizdom Club',
@@ -2077,6 +2191,7 @@ export const gurugramSpaces = [
       'https://officekhojo.lovable.app/__l5e/assets-v1/1a776b17-5ff4-4f81-9762-77ed6fd204c9/5-20.webp'
     ]
   },
+  // 107. AltF MPD Tower - Golf Course Road
   {
     id: 107,
     name: 'AltF MPD Tower',
@@ -2097,6 +2212,7 @@ export const gurugramSpaces = [
       'https://imgcdn.houssed.com/assets/Files/Projects/146919/Sample%20Apartment/mdp-4-1755254150-thumb.webp'
     ]
   },
+  // 108. SupremeWork - Sector 44
   {
     id: 108,
     name: 'SupremeWork',
@@ -2114,6 +2230,7 @@ export const gurugramSpaces = [
       'https://imgcdn.houssed.com/assets/Files/Projects/147017/Sample%20Apartment/three-1-1755428226-thumb.webp'
     ]
   },
+  // 109. Cospaces - Sector 44
   {
     id: 109,
     name: 'Cospaces',
@@ -2139,6 +2256,7 @@ export const gurugramSpaces = [
 
     ]
   },
+  // 110. The Circle Work - Sector 29
   {
     id: 110,
     name: 'The Circle Work',
@@ -2157,6 +2275,7 @@ export const gurugramSpaces = [
       'https://imgcdn.houssed.com/assets/Files/Projects/146642/Sample%20Apartment/Huda-4-1755150267-thumb.webp'
     ]
   },
+  // 111. Skootr - DLF Cyber City
   {
     id: 111,
     name: 'Skootr',
@@ -2177,6 +2296,7 @@ export const gurugramSpaces = [
       'https://officekhojo.lovable.app/__l5e/assets-v1/eccbf710-ce1c-4795-af34-cdf60244ffa9/skootr-6-5.webp'
     ]
   },
+  // 112. Acquir Brickworks - Sector 18
   {
     id: 112,
     name: 'Acquir Brickworks',
@@ -2195,6 +2315,7 @@ export const gurugramSpaces = [
       'https://res.cloudinary.com/myhq/image/upload/q_auto/w_1920/f_auto/workspaces/acquir-workspaces-brickworks/managed-office/f3896c.jpg'
     ]
   },
+  // 113. Synq.Work - Sector 29
   {
     id: 113,
     name: 'Synq.Work',
@@ -2214,6 +2335,7 @@ export const gurugramSpaces = [
 
     ]
   },
+  // 114. Kibu Udyog Vihar - Udyog Vihar
   {
     id: 114,
     name: 'Kibu Udyog Vihar',
@@ -2232,6 +2354,7 @@ export const gurugramSpaces = [
       'https://res.cloudinary.com/myhq/image/upload/q_auto/w_1920/f_auto/workspaces/kibu-udyogvihar/flexi/mdkn2s.jpg'
     ]
   },
+  // 115. SevenHive Coworking - Sector 47
   {
     id: 115,
     name: 'SevenHive Coworking',
@@ -2250,6 +2373,7 @@ export const gurugramSpaces = [
       'https://res.cloudinary.com/myhq/image/upload/q_auto/w_1920/f_auto/workspaces/sevenhive-coworking-sector47gurgaon/cv9v73.jpg'
     ]
   },
+  // 116. GC Towers - Udyog Vihar
   {
     id: 116,
     name: 'GC Towers',
@@ -2263,6 +2387,7 @@ export const gurugramSpaces = [
     ctaText: 'Get Quote',
     images: [] // TODO: add images
   },
+  // 117. Infrapro Spaces - Sector 44
   {
     id: 117,
     name: 'Infrapro Spaces',
@@ -2285,6 +2410,7 @@ export const gurugramSpaces = [
       "https://res.cloudinary.com/myhq/image/upload/workspaces/infrapro-sector44gurgaon/virtual-office/ynphzm.jpg"
     ]
   },
+  // 118. Mooz Coworking - Sector 44
   {
     id: 118,
     name: 'Mooz Coworking',
@@ -2303,6 +2429,7 @@ export const gurugramSpaces = [
       'https://imgcdn.houssed.com/assets/Files/Projects/146986/Sample%20Apartment/black-4-1755344825-thumb.webp'
     ]
   },
+  // 119. Easy Works Space - Sector 48
   {
     id: 119,
     name: 'Easy Works Space',
@@ -2316,6 +2443,7 @@ export const gurugramSpaces = [
     ctaText: 'Get Quote',
     images: [] // TODO: add images
   },
+  // 120. Quest Coworks - Sector 51
   {
     id: 120,
     name: 'Quest Coworks',
@@ -2335,6 +2463,7 @@ export const gurugramSpaces = [
       "https://res.cloudinary.com/myhq/image/upload/workspaces/quest-coworks-technopolis-knowledge-park/9gseyr.jpg"
     ]
   },
+  // 121. Oahfeo Impose - Sector 74
   {
     id: 121,
     name: 'Oahfeo Impose',
@@ -2355,6 +2484,7 @@ export const gurugramSpaces = [
 
     ] 
   },
+  // 122. Onward Workspaces - Udyog Vihar
   {
     id: 122,
     name: 'Onward Workspaces',
@@ -2373,6 +2503,7 @@ export const gurugramSpaces = [
       'https://res.cloudinary.com/myhq/image/upload/q_auto/w_1920/f_auto/workspaces/onward-workspace-dlfphaseiv/flexi/plans/flexi-desk/r6fsmj.jpg'
     ]
   },
+  // 123. Synapse - Udyog Vihar
   {
     id: 123,
     name: 'Synapse',
@@ -2391,6 +2522,7 @@ export const gurugramSpaces = [
       'https://res.cloudinary.com/myhq/image/upload/q_auto/w_1920/f_auto/workspaces/synapse-business-udyogviharphasev/mngekr.jpg'
     ]
   },
+  // 124. Cospaces Cowork - DLF Phase 1
   {
     id: 124,
     name: 'Cospaces Cowork',
@@ -2409,6 +2541,7 @@ export const gurugramSpaces = [
       'https://officekhojo.lovable.app/__l5e/assets-v1/040a2637-8252-4dcf-9f34-f739fe1a3068/7.webp'
     ]
   },
+  // 125. OTS Solutions - Sector 47
   {
     id: 125,
     name: 'OTS Solutions',
@@ -2422,6 +2555,7 @@ export const gurugramSpaces = [
     ctaText: 'Get Quote',
     images: [] // TODO: add images
   },
+  // 126. CorporatEdge Two Horizon Centre - Golf Course Road
   {
     id: 126,
     name: 'CorporatEdge Two Horizon Centre',
@@ -2441,6 +2575,7 @@ export const gurugramSpaces = [
       'https://res.cloudinary.com/myhq/image/upload/q_auto/w_1920/f_auto/workspaces/corporatedge-dlf-two-horizon-center/flexi/h7pxmr.jpg'
     ]
   },
+  // 127. Beyond Just Work Jmd Empire - Golf Course Extension Road
   {
     id: 127,
     name: 'Beyond Just Work Jmd Empire',
@@ -2459,6 +2594,7 @@ export const gurugramSpaces = [
         'https://beyondjustwork.com/images/popup/default/3.jpg'
     ] 
   },
+  // 128. Livance Coworking - Udyog Vihar
   {
     id: 128,
     name: 'Livance Coworking',
@@ -2477,6 +2613,7 @@ export const gurugramSpaces = [
       'https://livance.co.in/images/ghitorni-cabin.jpg'
     ]
   },
+  // 129. IREP Workspaces Splendor Spectrum One - Golf Course Extension Road
   {
     id: 129,
     name: 'IREP Workspaces Splendor Spectrum One',
@@ -2495,6 +2632,7 @@ export const gurugramSpaces = [
       'https://res.cloudinary.com/dncjopbor/image/upload/v1777780277/leasekey/gurgaon/iv9lz4tgm2zscbisgkwn.jpg'
     ] 
   },
+  // 130. Worksiva - Sector 15
   {
     id: 130,
     name: 'Worksiva',
@@ -2514,6 +2652,7 @@ export const gurugramSpaces = [
       'https://res.cloudinary.com/myhq/image/upload/q_auto/w_1920/f_auto/workspaces/worksiva-jmd-pacific-square/flexi/plans/flexi-desk/78rupp.jpg'
     ]
   },
+  // 131. Ananta Coworking - Sohna Road
   {
     id: 131,
     name: 'Ananta Coworking',
@@ -2532,6 +2671,7 @@ export const gurugramSpaces = [
       'https://res.cloudinary.com/myhq/image/upload/q_auto/w_1920/f_auto/workspaces/ananta-coworking-sohnaroad5/f3d83r.jpg'
     ]
   },
+  // 132. Vibrant Palm - Sector 53
   {
     id: 132,
     name: 'Vibrant Palm',
@@ -2550,6 +2690,7 @@ export const gurugramSpaces = [
       'https://res.cloudinary.com/myhq/image/upload/w_384/f_auto/workspaces/vibrant-palm-sector53gurgaon/syt4zs.jpg'
     ]
   },
+  // 133. Deskriver - Pegasus One - Golf Course Road
   {
     id: 133,
     name: 'Deskriver - Pegasus One',
@@ -2569,6 +2710,7 @@ export const gurugramSpaces = [
       'https://res.cloudinary.com/myhq/image/upload/q_auto/w_1920/f_auto/workspaces/deskriver-golf-course-road-pegasus-one/rdyqeu.jpg'
     ]
   },
+  // 134. Showffice - Sector 44
   {
     id: 134,
     name: 'Showffice',
@@ -2587,6 +2729,7 @@ export const gurugramSpaces = [
       'https://res.cloudinary.com/myhq/image/upload/q_auto/w_1920/f_auto/workspaces/showffice-coworking-space-southcityi/managed-office/e664m4.jpg'
     ]
   },
+  // 135. Mugz Cafe & Co-working - Gwal Pahari
   {
     id: 135,
     name: 'Mugz Cafe & Co-working',
@@ -2600,6 +2743,7 @@ export const gurugramSpaces = [
     ctaText: 'Get Quote',
     images: [] // TODO: add images
   },
+  // 136. Webelio Workspace - Gurugram
   {
     id: 136,
     name: 'Webelio Workspace',
@@ -2615,6 +2759,7 @@ export const gurugramSpaces = [
   }
 ];
 
+// Content of the "Discover your perfect workspace" banner (title, subtitle, button text, background photo).
 export const perfectWorkspaceBanner = {
   title: 'Discover your perfect workspace with Mycoworking',
   subtitle: 'Explore Flexible Coworking Solutions, Premium Amenities, and Prime Locations Across India',
@@ -2622,6 +2767,7 @@ export const perfectWorkspaceBanner = {
   bgImage: 'https://img.cofynd.com/images/latest_images_2024/28f41de2ee6c67528d528dc3b55fc7ad2801dcbc.webp'
 };
 
+// Content of the "Customized office solutions for your team" banner (title, feature list, button, background photo).
 export const customizedOfficeBanner = {
   title: 'Customized office solutions for your team',
   features: [
@@ -2634,6 +2780,7 @@ export const customizedOfficeBanner = {
   bgImage: 'https://img.cofynd.com/images/latest_images_2024/83bb813890447d5d3d6bda55c7133a5fd48cdbc5.webp'
 };
 
+// Content of the "Still not able to find coworking space?" banner (title, subtitle, button, background photo).
 export const stillNotFindingBanner = {
   title: 'Still not able to find coworking space?',
   subtitle: 'Our space experts will help you find the perfect coworking space in prime locations',
@@ -2641,18 +2788,24 @@ export const stillNotFindingBanner = {
   bgImage: 'https://img.cofynd.com/images/latest_images_2024/406c83ccb0729b57d9beb973b7e4088ab7640ef3.webp'
 };
 
+// How many cards are shown on one page.
 export const SPACES_PER_PAGE = 16;
 
+// Pagination settings: total number of pages and the page that opens first.
 export const paginationData = {
   totalPages: Math.ceil(gurugramSpaces.length / SPACES_PER_PAGE),
   initialPage: 1
 };
 
+// Area filter names derived from the area list (the "All" entry removed, because the page has its own All button).
 export const gurugramNeighborhoods = gurugramAreas.filter((area) => area !== 'All');
 
+// Every Gurugram card in one list (all pages + extras). The detail page uses this list to find a card by its URL slug.
 export const allGurugramOfficeCards = gurugramSpaces;
 
+// Find a Gurugram card from its URL slug (or numeric id). Returns the card or null.
 export const getGurugramOfficeCardById = (id) => findOfficeBySlug(allGurugramOfficeCards, id, 'gurugram');
+// Build the URL slug / path of a Gurugram card (e.g. "/name-area-gurugram").
 export const getGurugramOfficeSlug = (space) => officePath(allGurugramOfficeCards, space, 'gurugram');
 
 // Top locations: first few areas, each using the first available photo from a space in that area
@@ -2667,6 +2820,8 @@ export const topGurugramCoworkingLocations = gurugramNeighborhoods.slice(0, 10).
   };
 });
 
+// Alias of the list above, kept so other files can import either spelling of the name.
 export const areas = gurugramAreas;
 export const spaces = gurugramSpaces;
+// Default export: bundle of the main lists/helpers for modules that import the whole file.
 export default { areas: gurugramAreas, spaces: gurugramSpaces };

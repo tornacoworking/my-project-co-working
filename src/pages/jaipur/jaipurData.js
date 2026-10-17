@@ -17,7 +17,10 @@ export const jaipurNeighborhoods = [
   "Shyam Nagar"
 ];
 
+// Page 1 cards - top grid (right under the area filter buttons).
+// Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
 export const jaipurOfficeCards = [
+  // 1. Prime Coworks - Tonk Road
   {
     id: 1,
     name: "Prime Coworks",
@@ -38,6 +41,7 @@ export const jaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/4139d364451c7d59770c884afca9667d54323e35.webp"
     ]
   },
+  // 2. Connekt Coworking Signature Elite - Tonk Road
   {
     id: 2,
     name: "Connekt Coworking Signature Elite",
@@ -58,6 +62,7 @@ export const jaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/d93ff19819afcefa4840ee534f35399fcddc852d.webp"
     ]
   },
+  // 3. White Collar Coworks - Nirman Nagar
   {
     id: 3,
     name: "White Collar Coworks",
@@ -78,6 +83,7 @@ export const jaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/d9cb3539b948103573835c007ec3a90b57e9311d.webp"
     ]
   },
+  // 4. Kowork Space - Vaishali Nagar
   {
     id: 4,
     name: "Kowork Space",
@@ -98,6 +104,7 @@ export const jaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/3f418383a4c5b9e615f0c8dfc539c7c340ae71b0.webp"
     ]
   },
+  // 5. RAW Coworking and Office Space - Mansarovar
   {
     id: 5,
     name: "RAW Coworking and Office Space",
@@ -118,6 +125,7 @@ export const jaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/b8999f9797a2427847bcd57272b9263082a74dfb.webp"
     ]
   },
+  // 6. Wish Cowork Elite - Civil Lines
   {
     id: 6,
     name: "Wish Cowork Elite",
@@ -138,6 +146,7 @@ export const jaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/87fb4cb5762dee043d287544331ad25d5ca75eb5.webp"
     ]
   },
+  // 7. Cowork Iksana - MI Road
   {
     id: 7,
     name: "Cowork Iksana",
@@ -156,6 +165,7 @@ export const jaipurOfficeCards = [
       "https://img.cofynd.com/images/original/c6620989d92b834941913fa6461729415de61dd1.jpg"
     ]
   },
+  // 8. Creware - Mansarovar
   {
     id: 8,
     name: "Creware",
@@ -177,7 +187,10 @@ export const jaipurOfficeCards = [
   }
 ];
 
+// Page 1 cards - second grid ("Additional coworking spaces", below the top grid).
+// Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
 export const moreJaipurOfficeCards = [
+  // 1. Office Culture - Mansarovar
   {
     id: 9,
     name: "Office Culture",
@@ -198,6 +211,7 @@ export const moreJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/a6ed3e4871f6ed4863bf29095bd12892f5999b4e.webp"
     ]
   },
+  // 2. Best Desk Cove - Lalkothi
   {
     id: 10,
     name: "Best Desk Cove",
@@ -218,6 +232,7 @@ export const moreJaipurOfficeCards = [
       "https://img.cofynd.com/images/original/b02a22b01df4ceb93c716b061ed501d93871cae1.jpg"
     ]
   },
+  // 3. Wish CoWork - Nirman Nagar
   {
     id: 11,
     name: "Wish CoWork",
@@ -237,6 +252,7 @@ export const moreJaipurOfficeCards = [
       "https://img.cofynd.com/images/original/1d8414cf6e926320cefe47028448410c38888450.jpg"
     ]
   },
+  // 4. 225 West - Ajmer Road
   {
     id: 12,
     name: "225 West",
@@ -257,6 +273,7 @@ export const moreJaipurOfficeCards = [
       "https://img.cofynd.com/images/original/c7cc7053a368436e6e4297472508f9b86de3864b.jpg"
     ]
   },
+  // 5. Wnikle Coworks - Jaipur
   {
     id: 13,
     name: "Wnikle Coworks",
@@ -277,6 +294,7 @@ export const moreJaipurOfficeCards = [
       "https://img.cofynd.com/images/original/d88abc68704d3d44f672b3cf11a9b7bb69b21c1e.jpg"
     ]
   },
+  // 6. Dafftar Coworking - Shastri Nagar
   {
     id: 14,
     name: "Dafftar Coworking",
@@ -296,6 +314,7 @@ export const moreJaipurOfficeCards = [
       "https://img.cofynd.com/images/original/c2b6aaf6afcff34d11b5a083af9c019e16b31bf7.jpg"
     ]
   },
+  // 7. Jagatpura Co-working - Jagatpura
   {
     id: 15,
     name: "Jagatpura Co-working",
@@ -314,6 +333,7 @@ export const moreJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/c6d6b53ecdf6bb104069638cc0518224e75afc5e.webp"
     ]
   },
+  // 8. The Social Stays (formerly ArtBuzz) - Civil Lines
   {
     id: 16,
     name: "The Social Stays (formerly ArtBuzz)",
@@ -336,7 +356,10 @@ export const moreJaipurOfficeCards = [
   }
 ];
 
+// Page 1 cards - third grid ("Spotlight coworking spaces", below the "Discover your perfect workspace" banner).
+// Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
 export const finalJaipurOfficeCards = [
+  // 1. ACS One Co-work - Vaishali Nagar
   {
     id: 17,
     name: "ACS One Co-work",
@@ -357,6 +380,7 @@ export const finalJaipurOfficeCards = [
       "https://img.cofynd.com/images/original/24498fff23a69049afea68b7d2efca69c33741aa.jpg"
     ]
   },
+  // 2. Dafftar - Shyam Nagar
   {
     id: 18,
     name: "Dafftar",
@@ -376,6 +400,7 @@ export const finalJaipurOfficeCards = [
       "https://img.cofynd.com/images/original/46f434bf670d15b25e5f313e39047f1a1316f20e.jpg"
     ]
   },
+  // 3. Navoarche - Vaishali Nagar
   {
     id: 19,
     name: "Navoarche",
@@ -395,6 +420,7 @@ export const finalJaipurOfficeCards = [
       "https://img.cofynd.com/images/original/350a257004ddfffad05b801a9f0dc0ebd73febb5.jpg"
     ]
   },
+  // 4. Collabo Corner - Malviya Nagar
   {
     id: 20,
     name: "Collabo Corner",
@@ -415,6 +441,7 @@ export const finalJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/619bbe7a75aed7e3cd83b2e78fe5308a0bef651a.webp"
     ]
   },
+  // 5. Launchpad - Nirman Nagar
   {
     id: 21,
     name: "Launchpad",
@@ -435,6 +462,7 @@ export const finalJaipurOfficeCards = [
       "https://img.cofynd.com/images/original/82b14a974de047fb21fe5d7d6f98b443f1d7debe.jpg"
     ]
   },
+  // 6. WaveX Cowork - Tonk Road
   {
     id: 22,
     name: "WaveX Cowork",
@@ -454,6 +482,7 @@ export const finalJaipurOfficeCards = [
       "https://img.cofynd.com/images/original/18aa4c28410e59695cc480d17bc8091142924a5c.jpg"
     ]
   },
+  // 7. Hey Writers Coworking - Mansarovar
   {
     id: 23,
     name: "Hey Writers Coworking",
@@ -472,6 +501,7 @@ export const finalJaipurOfficeCards = [
       "https://img.cofynd.com/images/original/c9fde751f05596768648ed98327c208b7dd67334.jpg"
     ]
   },
+  // 8. Pink hive - Malviya Nagar
   {
     id: 24,
     name: "Pink hive",
@@ -494,7 +524,10 @@ export const finalJaipurOfficeCards = [
   }
 ];
 
+// Page 1 cards - fourth grid ("Featured coworking spaces", below the "Customized office solutions" banner).
+// Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
 export const featuredJaipurOfficeCards = [
+  // 1. Red Fox Hotel - Lalkothi
   {
     id: 25,
     name: "Red Fox Hotel",
@@ -515,6 +548,7 @@ export const featuredJaipurOfficeCards = [
       "https://img.cofynd.com/images/original/e011b8a3d5f3fee65fc4cfe6a1085e9936d425d7.jpg"
     ]
   },
+  // 2. Taapu Cafe & Cowork - Gyan Path
   {
     id: 26,
     name: "Taapu Cafe & Cowork",
@@ -534,6 +568,7 @@ export const featuredJaipurOfficeCards = [
       "https://img.cofynd.com/images/original/0c1e7f942a0cc68141edb9e98757cc53c4d0f432.jpg"
     ]
   },
+  // 3. Urban Excubator - Tonk Road
   {
     id: 27,
     name: "Urban Excubator",
@@ -554,6 +589,7 @@ export const featuredJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/091b8e007f07fed6c2fb2c5c33732d21d3e16def.webp"
     ]
   },
+  // 4. Invocob Enterprise - Tagore Nagar
   {
     id: 28,
     name: "Invocob Enterprise",
@@ -574,6 +610,7 @@ export const featuredJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/2646ffa9d247b3ed226ef9904c4fa70b5f3571c6.webp"
     ]
   },
+  // 5. WurkZone - Vaishali Nagar
   {
     id: 29,
     name: "WurkZone",
@@ -594,6 +631,7 @@ export const featuredJaipurOfficeCards = [
       "https://img.cofynd.com/images/original/23bc50cfbe02fe9106ee14174bf529525d546710.jpg"
     ]
   },
+  // 6. AARNA COWORKING - Lalkothi
   {
     id: 30,
     name: "AARNA COWORKING",
@@ -614,6 +652,7 @@ export const featuredJaipurOfficeCards = [
       "https://img.cofynd.com/images/original/9f8dd37ae1efc9a6e7ebcbc7c906f957d621cb13.jpg"
     ]
   },
+  // 7. Silo Coworking - Vaishali Nagar
   {
     id: 31,
     name: "Silo Coworking",
@@ -632,6 +671,7 @@ export const featuredJaipurOfficeCards = [
       "https://img.cofynd.com/images/original/9796b0334a866283c55fd77825b4092932650f78.jpg"
     ]
   },
+  // 8. 39worklabs - Lalkothi
   {
     id: 32,
     name: "39worklabs",
@@ -654,6 +694,7 @@ export const featuredJaipurOfficeCards = [
   }
 ];
 
+// Content of the "Discover your perfect workspace" banner (title, subtitle, button text, background photo).
 export const perfectWorkspaceBanner = {
   title: 'Discover your perfect workspace with Mycoworking',
   subtitle: 'Explore Flexible Coworking Solutions, Premium Amenities, and Prime Locations Across India',
@@ -667,6 +708,7 @@ export const jaipurSpaces = jaipurOfficeCards;
 export const areas = jaipurNeighborhoods;
 export const spaces = jaipurOfficeCards;
 
+// Content of the "Customized office solutions for your team" banner (title, feature list, button, background photo).
 export const customizedOfficeBanner = {
   title: 'Customized office solutions for your team',
   features: [
@@ -679,6 +721,7 @@ export const customizedOfficeBanner = {
   bgImage: 'https://img.cofynd.com/images/latest_images_2024/83bb813890447d5d3d6bda55c7133a5fd48cdbc5.webp'
 };
 
+// Content of the "Still not able to find coworking space?" banner (title, subtitle, button, background photo).
 export const stillNotFindingBanner = {
   title: 'Still not able to find coworking space?',
   subtitle: 'Our space experts will help you find the perfect coworking space in prime locations',
@@ -686,12 +729,16 @@ export const stillNotFindingBanner = {
   bgImage: 'https://img.cofynd.com/images/latest_images_2024/406c83ccb0729b57d9beb973b7e4088ab7640ef3.webp'
 };
 
+// Pagination settings: total number of pages and the page that opens first.
 export const paginationData = {
   totalPages: 3,
   initialPage: 1
 };
 
+// Page 2 cards - top grid (right under the area filter buttons).
+// Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageTwoJaipurOfficeCards = [
+  // 1. PhoebusIn - Mansarovar
   {
     id: 33,
     name: "PhoebusIn",
@@ -711,6 +758,7 @@ export const pageTwoJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/cc33a01ae5c5d53fab5cac37cfbdf8335d051e41.webp"
     ]
   },
+  // 2. Qbicle - Nirman Nagar
   {
     id: 34,
     name: "Qbicle",
@@ -730,6 +778,7 @@ export const pageTwoJaipurOfficeCards = [
       "https://img.cofynd.com/images/original/30af6a88dfed885e727feb05c4c209c641ac9b1c.jpg"
     ]
   },
+  // 3. Professional Co-Working - Pratap Nagar
   {
     id: 35,
     name: "Professional Co-Working",
@@ -749,6 +798,7 @@ export const pageTwoJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/c8960b3284566ea2e89f1a5f490bf3b7c03acd31.webp"
     ]
   },
+  // 4. vera - Tonk Road
   {
     id: 36,
     name: "vera",
@@ -769,6 +819,7 @@ export const pageTwoJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/414ec13762f9847c324075a1f4999479b81606b7.webp"
     ]
   },
+  // 5. HackaHolic Co-Work - Mansarovar
   {
     id: 37,
     name: "HackaHolic Co-Work",
@@ -789,6 +840,7 @@ export const pageTwoJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/ac8963897edecb98a18e432cbbb74a107c15be82.webp"
     ]
   },
+  // 6. RAW Coworking and Office Space - Vaishali Nagar
   {
     id: 38,
     name: "RAW Coworking and Office Space",
@@ -809,6 +861,7 @@ export const pageTwoJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/d3e89874659413521318471441c2dba300a0d947.webp"
     ]
   },
+  // 7. Shree Ram Enterprise - Gandhi Path
   {
     id: 39,
     name: "Shree Ram Enterprise",
@@ -829,6 +882,7 @@ export const pageTwoJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/96b1682ec4fade182728f3c814f2167199986a86.webp"
     ]
   },
+  // 8. Finesse - Malviya Nagar
   {
     id: 40,
     name: "Finesse",
@@ -851,7 +905,10 @@ export const pageTwoJaipurOfficeCards = [
   }
 ];
 
+// Page 2 cards - second grid ("Additional coworking spaces", below the top grid).
+// Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageTwoMoreJaipurOfficeCards = [
+  // 1. Workhauz Co-Working Space - Malviya Nagar
   {
     id: 41,
     name: "Workhauz Co-Working Space",
@@ -872,6 +929,7 @@ export const pageTwoMoreJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/64ade1bfc548d00cbf724e17e9ddd3defa4fb156.webp"
     ]
   },
+  // 2. Praavi Co Work Spaces - Jagatpura
   {
     id: 42,
     name: "Praavi Co Work Spaces",
@@ -892,6 +950,7 @@ export const pageTwoMoreJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/272fccc0d6ea79fb8139abd19b2594fb07561290.webp"
     ]
   },
+  // 3. WorkSpace Coworking - Vaishali Nagar
   {
     id: 43,
     name: "WorkSpace Coworking",
@@ -912,6 +971,7 @@ export const pageTwoMoreJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/8fff7fa9474a77fa0eea289a9d9c323b3d3a9c83.webp"
     ]
   },
+  // 4. Sigma Cowork - Jhotwara
   {
     id: 44,
     name: "Sigma Cowork",
@@ -932,6 +992,7 @@ export const pageTwoMoreJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/6f33efcb207880b58f4d5753d7203f0cb08e6c16.webp"
     ]
   },
+  // 5. MDM Fire Services - Vaishali Nagar
   {
     id: 45,
     name: "MDM Fire Services",
@@ -950,6 +1011,7 @@ export const pageTwoMoreJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/285c2cf163bf21ddb3e19f61b26853ca82a02194.webp"
     ]
   },
+  // 6. 7P WorkSpaces - Malviya Nagar
   {
     id: 46,
     name: "7P WorkSpaces",
@@ -970,6 +1032,7 @@ export const pageTwoMoreJaipurOfficeCards = [
       "https://img.cofynd.com/images/original/bf0c2b337c364fc2cf997a3696e82c32858fe716.jpg"
     ]
   },
+  // 7. Workhauz Co-Working - C-Scheme
   {
     id: 47,
     name: "Workhauz Co-Working",
@@ -990,6 +1053,7 @@ export const pageTwoMoreJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/e7fa134c3f3e999ba70a2837517b48d6808b5a02.webp"
     ]
   },
+  // 8. Vara Coworking - Malviya Nagar
   {
     id: 48,
     name: "Vara Coworking",
@@ -1012,7 +1076,10 @@ export const pageTwoMoreJaipurOfficeCards = [
   }
 ];
 
+// Page 2 cards - third grid ("Spotlight coworking spaces", below the "Discover your perfect workspace" banner).
+// Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageTwoFinalJaipurOfficeCards = [
+  // 1. VPM Coworking - Mansarovar
   {
     id: 49,
     name: "VPM Coworking",
@@ -1033,6 +1100,7 @@ export const pageTwoFinalJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/1ffd5571bce6c780a97e72dcdc64f86ffc53a0c8.webp"
     ]
   },
+  // 2. Invocob 2.0 Coworking - Triveni Nagar
   {
     id: 50,
     name: "Invocob 2.0 Coworking",
@@ -1051,6 +1119,7 @@ export const pageTwoFinalJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/47869453c6a757ead3d85cd8e7869a3600ecd4df.webp"
     ]
   },
+  // 3. Cubicle Crushers - Raja Park
   {
     id: 51,
     name: "Cubicle Crushers",
@@ -1070,6 +1139,7 @@ export const pageTwoFinalJaipurOfficeCards = [
       "https://img.cofynd.com/images/original/1718e3632008bd6d003e0b7b7863578ac0d0f8d0.jpg"
     ]
   },
+  // 4. ShareSpace - Vaishali Nagar
   {
     id: 52,
     name: "ShareSpace",
@@ -1088,6 +1158,7 @@ export const pageTwoFinalJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/80a4e3d1be555f1f1b6945afa6c22b38e5c3100c.webp"
     ]
   },
+  // 5. Cowocoli - Tonk Road
   {
     id: 53,
     name: "Cowocoli",
@@ -1107,6 +1178,7 @@ export const pageTwoFinalJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/1d775454b1cab1a3e88c0a24771f3f3976af9b77.webp"
     ]
   },
+  // 6. Mr Cowork - Mansarovar
   {
     id: 54,
     name: "Mr Cowork",
@@ -1126,6 +1198,7 @@ export const pageTwoFinalJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/3ad1a18331638c35799cf46473a1303e3d0dc499.webp"
     ]
   },
+  // 7. Workhauz - Malviya Nagar
   {
     id: 55,
     name: "Workhauz",
@@ -1145,6 +1218,7 @@ export const pageTwoFinalJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/634bd9d1acc60bcbb896a4a07e46d17bb0ee41f7.webp"
     ]
   },
+  // 8. B Coworking space - DCM
   {
     id: 56,
     name: "B Coworking space",
@@ -1166,7 +1240,10 @@ export const pageTwoFinalJaipurOfficeCards = [
   }
 ];
 
+// Page 2 cards - fourth grid ("Featured coworking spaces", below the "Customized office solutions" banner).
+// Shown when pagination button 2 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageTwoFeaturedJaipurOfficeCards = [
+  // 1. Creware Coworks - Mansarovar
   {
     id: 57,
     name: "Creware Coworks",
@@ -1187,6 +1264,7 @@ export const pageTwoFeaturedJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/0931cd3d2b71b83b1d1dbfb677eced41b871ab89.webp"
     ]
   },
+  // 2. The coworker - Vaishali Nagar
   {
     id: 58,
     name: "The coworker",
@@ -1206,6 +1284,7 @@ export const pageTwoFeaturedJaipurOfficeCards = [
       "https://img.cofynd.com/images/original/3bef5e8df756759e5cbb44558facdd530ee44907.jpg"
     ]
   },
+  // 3. Plot No 60 - Bani Park
   {
     id: 59,
     name: "Plot No 60",
@@ -1225,6 +1304,7 @@ export const pageTwoFeaturedJaipurOfficeCards = [
       "https://img.cofynd.com/images/original/176218af6383b34b957c24b56d2ccca506309154.png"
     ]
   },
+  // 4. Smartworks - Mansarovar
   {
     id: 60,
     name: "Smartworks",
@@ -1244,6 +1324,7 @@ export const pageTwoFeaturedJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/9ce0596b670ad505df162819eb782b5252b093bb.webp"
     ]
   },
+  // 5. Suits Workspace - C-Scheme
   {
     id: 61,
     name: "Suits Workspace",
@@ -1264,6 +1345,7 @@ export const pageTwoFeaturedJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/5d39cf923d33196223512d3fbc63489ac866cb45.webp"
     ]
   },
+  // 6. 23rd Avenue - Tonk Road
   {
     id: 62,
     name: "23rd Avenue",
@@ -1283,6 +1365,7 @@ export const pageTwoFeaturedJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/5059165c796456225492448e7531a92b9ab2d5c8.webp"
     ]
   },
+  // 7. Bloom Co-work - Vaishali Nagar
   {
     id: 63,
     name: "Bloom Co-work",
@@ -1303,6 +1386,7 @@ export const pageTwoFeaturedJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/39593428648f215f7b5e4e4080e784bea9f15e8d.webp"
     ]
   },
+  // 8. The Hustle Deck - Vaishali Nagar
   {
     id: 64,
     name: "The Hustle Deck",
@@ -1325,7 +1409,10 @@ export const pageTwoFeaturedJaipurOfficeCards = [
   }
 ];
 
+// Page 3 cards - top grid (right under the area filter buttons).
+// Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageThreeJaipurOfficeCards = [
+  // 1. Coworking Town - Mansarovar
   {
     id: 65,
     name: "Coworking Town",
@@ -1346,6 +1433,7 @@ export const pageThreeJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/1ec06d83042200094c9da3d7c76a8e09c9cda946.webp"
     ]
   },
+  // 2. Worktine - Mansarovar
   {
     id: 66,
     name: "Worktine",
@@ -1366,6 +1454,7 @@ export const pageThreeJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/acc14b871b1dc2df074c76174ea3770d3f40f9b2.webp"
     ]
   },
+  // 3. Celebso Startup Valley - Lalkothi
   {
     id: 67,
     name: "Celebso Startup Valley",
@@ -1386,6 +1475,7 @@ export const pageThreeJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/d53f93a996ba82815cfcec23368761d7d6a71bd4.webp"
     ]
   },
+  // 4. The Hustle Deck - Vaishali Nagar
   {
     id: 68,
     name: "The Hustle Deck",
@@ -1408,7 +1498,10 @@ export const pageThreeJaipurOfficeCards = [
   }
 ];
 
+// Page 3 cards - second grid ("Additional coworking spaces", below the top grid).
+// Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageThreeMoreJaipurOfficeCards = [
+  // 1. J Startup House - Lalkothi
   {
     id: 69,
     name: "J Startup House",
@@ -1429,6 +1522,7 @@ export const pageThreeMoreJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/f7dd5149eb17f2d90c23a94394611d41844067db.webp"
     ]
   },
+  // 2. Jeev Business Solutions - Tonk Road
   {
     id: 70,
     name: "Jeev Business Solutions",
@@ -1449,6 +1543,7 @@ export const pageThreeMoreJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/f6f38f5290aaf722ab4b32c520c6cad80b4d0e90.webp"
     ]
   },
+  // 3. HUBIN - Malviya Nagar
   {
     id: 71,
     name: "HUBIN",
@@ -1467,6 +1562,7 @@ export const pageThreeMoreJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/1a46c83bbe958cfb181bc3fa342469173d8e9f4b.webp"
     ]
   },
+  // 4. Pratham Karyalaya - Shyam Nagar
   {
     id: 72,
     name: "Pratham Karyalaya",
@@ -1487,7 +1583,10 @@ export const pageThreeMoreJaipurOfficeCards = [
   }
 ];
 
+// Page 3 cards - third grid ("Spotlight coworking spaces", below the "Discover your perfect workspace" banner).
+// Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageThreeFinalJaipurOfficeCards = [
+  // 1. CoWork'In - Vaishali Nagar
   {
     id: 73,
     name: "CoWork'In",
@@ -1507,6 +1606,7 @@ export const pageThreeFinalJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/a5a3d1f02f418177621fbe11eae082060d028986.webp"
     ]
   },
+  // 2. Hobnob Coworks - Mansarovar
   {
     id: 74,
     name: "Hobnob Coworks",
@@ -1527,6 +1627,7 @@ export const pageThreeFinalJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/dc1d9cc041b1274a9295653536f2cc4377f2b4c6.webp"
     ]
   },
+  // 3. Workinova Coworking Space - Vaishali Nagar
   {
     id: 75,
     name: "Workinova Coworking Space",
@@ -1546,6 +1647,7 @@ export const pageThreeFinalJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/a81c9362bf30550409fcd8e5ceeb2dafb4df29f9.webp"
     ]
   },
+  // 4. K Coworking - Vaishali Nagar
   {
     id: 76,
     name: "K Coworking",
@@ -1568,7 +1670,10 @@ export const pageThreeFinalJaipurOfficeCards = [
   }
 ];
 
+// Page 3 cards - fourth grid ("Featured coworking spaces", below the "Customized office solutions" banner).
+// Shown when pagination button 3 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageThreeFeaturedJaipurOfficeCards = [
+  // 1. Cubice - Vaishali Nagar
   {
     id: 77,
     name: "Cubice",
@@ -1590,12 +1695,16 @@ export const pageThreeFeaturedJaipurOfficeCards = [
   }
 ];
 
+// Page 4 cards - top grid (right under the area filter buttons).
+// Shown when pagination button 4 is active; each card holds name, badge, rating, area, location, price and photos.
 export const pageFourJaipurOfficeCards = [];
 
 // NOTE: These cards are ONLY shown when a specific area filter button is clicked.
 // They are real nearby Jaipur coworking listings (true area/location kept) added to the selected area.
 export const areaExtraOfficeCards = {
+  // Extra cards for the "Vaishali Nagar" filter
   "Vaishali Nagar": [
+    // 1. Hashtag - Vaishali Nagar
     {
       id: 102,
       name: "Hashtag",
@@ -1615,6 +1724,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/223603a6cc5c4bb4665ca4d8a3d160645d6af83b.jpg"
       ]
     },
+    // 2. Suits Coworking Spaces - Vaishali Nagar
     {
       id: 103,
       name: "Suits Coworking Spaces",
@@ -1635,6 +1745,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/1c6b3bdb3a1ae90d0a3daecb0157654249b8ea8c.jpg"
       ]
     },
+    // 3. Creware Coworks - Vaishali Nagar
     {
       id: 104,
       name: "Creware Coworks",
@@ -1655,6 +1766,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/f779a91fe78895a4dcae38c0d725c6ce8bf935c7.webp"
       ]
     },
+    // 4. Red Art Works - Vaishali Nagar
     {
       id: 108,
       name: "Red Art Works",
@@ -1675,6 +1787,7 @@ export const areaExtraOfficeCards = {
         "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1697710947/wopjekj6etycaptd2gf8.webp"
       ]
     },
+    // 5. As One Coworking - Vaishali Nagar
     {
       id: 128,
       name: "As One Coworking",
@@ -1695,6 +1808,7 @@ export const areaExtraOfficeCards = {
         "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1682329699/tbhyeb0mhkaot5danbwi.jpg"
       ]
     },
+    // 6. WorkZoned - Vaishali Nagar
     {
       id: 134,
       name: "WorkZoned",
@@ -1714,6 +1828,7 @@ export const areaExtraOfficeCards = {
         "https://qdesq.imagekit.io/img/tr:h-181,w-325/image/upload/v1578313371/txlv4kq6fgbgd14rhyrd.webp"
       ]
     },
+    // 7. DevX - Vaishali Nagar
     {
       id: 140,
       name: "DevX",
@@ -1733,7 +1848,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Mansarovar" filter
   "Mansarovar": [
+    // 8. White Polar Spaces - Mansarovar
     {
       id: 84,
       name: "White Polar Spaces",
@@ -1753,6 +1870,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/ddc0107c0b662db072bdcc15ff6fc414143efe9a.webp"
       ]
     },
+    // 9. Co-work Town - Mansarovar
     {
       id: 92,
       name: "Co-work Town",
@@ -1773,6 +1891,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/ebb65950d4258376a0dd320f549f5be9018e017e.webp"
       ]
     },
+    // 10. Arvian Coworking - Mansarovar
     {
       id: 93,
       name: "Arvian Coworking",
@@ -1793,6 +1912,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/original/807f56370f707bc9e60c588bd1d6b5f4d443a0ec.jpg"
       ]
     },
+    // 11. Jaipur Co-Working - Mansarovar
     {
       id: 94,
       name: "Jaipur Co-Working",
@@ -1812,6 +1932,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/c0547d93fee91be5aa485d3da4920cb614118230.webp"
       ]
     },
+    // 12. Jaipur Coworking Space - Mansarovar
     {
       id: 95,
       name: "Jaipur Coworking Space",
@@ -1832,6 +1953,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/0523a1bd84814506811fdff1f39068587f639d52.webp"
       ]
     },
+    // 13. Go4 My Desk - Mansarovar
     {
       id: 96,
       name: "Go4 My Desk",
@@ -1851,6 +1973,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/d52cbe4bf2b5cb2f991163895a966ebea5981460.webp"
       ]
     },
+    // 14. Suits Cafe - Mansarovar
     {
       id: 142,
       name: "Suits Cafe",
@@ -1871,6 +1994,7 @@ export const areaExtraOfficeCards = {
         "https://qdesq.imagekit.io/img/tr:n-detail_image_hq/image/upload/v1473834723/hfg27qte0w16qqcc7zkk.webp"
       ]
     },
+    // 15. Mansarovar Co-Working Hub - Mansarovar
     {
       id: 149,
       name: "Mansarovar Co-Working Hub",
@@ -1891,6 +2015,7 @@ export const areaExtraOfficeCards = {
         "https://ik.imagekit.io/qdesq/qdesq/78e92d42f5abc7d29af071f2706f755c_zdLpWYl56.jpg"
       ]
     },
+    // 16. CITY HIVE - Mansarovar
     {
       id: 154,
       name: "CITY HIVE",
@@ -1912,7 +2037,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Tonk Road" filter
   "Tonk Road": [
+    // 17. Make It Worth Digital - Tonk Road
     {
       id: 98,
       name: "Make It Worth Digital",
@@ -1932,6 +2059,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/35992be12dd4e89d4c26fbceea86c5b7fe295bc7.webp"
       ]
     },
+    // 18. Coworkin - Tonk Road
     {
       id: 129,
       name: "Coworkin",
@@ -1952,6 +2080,7 @@ export const areaExtraOfficeCards = {
         "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660902607/bvcfkhn6bno6eryxz3mp.webp"
       ]
     },
+    // 19. Invocob 2.0 - Tonk Road
     {
       id: 143,
       name: "Invocob 2.0",
@@ -1973,7 +2102,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Lalkothi" filter
   "Lalkothi": [
+    // 20. Best Desk Cove - Lalkothi
     {
       id: 80,
       name: "Best Desk Cove",
@@ -1994,6 +2125,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/2111cb3deb71a5481a891fd2117950b7b82e8f70.webp"
       ]
     },
+    // 21. J Startup House, Jaipur - Lalkothi
     {
       id: 116,
       name: "J Startup House, Jaipur",
@@ -2014,6 +2146,7 @@ export const areaExtraOfficeCards = {
         "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/983aed63ec328a75b9ba2c5754e0e380_XUjt_Tcjq.jpg"
       ]
     },
+    // 22. The Urban Hub Co-Working Space - Lalkothi
     {
       id: 123,
       name: "The Urban Hub Co-Working Space",
@@ -2034,6 +2167,7 @@ export const areaExtraOfficeCards = {
         "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1660812745/a4c2jjdbrgzlhftomyfy.webp"
       ]
     },
+    // 23. Times Group - Lalkothi
     {
       id: 130,
       name: "Times Group",
@@ -2055,9 +2189,13 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Indrapuri" filter
   "Indrapuri": [],
+  // Extra cards for the "Ganpati Nagar" filter
   "Ganpati Nagar": [],
+  // Extra cards for the "Pratap Nagar" filter
   "Pratap Nagar": [
+    // 24. Co Desk - Pratap Nagar
     {
       id: 97,
       name: "Co Desk",
@@ -2077,6 +2215,7 @@ export const areaExtraOfficeCards = {
         "https://img.cofynd.com/images/latest_images_2024/1bb73e6980f005e2ca241d51bbe5c9b08f8cd516.webp"
       ]
     },
+    // 25. GVFC - Pratap Nagar
     {
       id: 115,
       name: "GVFC",
@@ -2098,7 +2237,9 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Nirman Nagar" filter
   "Nirman Nagar": [
+    // 26. Codeskk - Nirman Nagar
     {
       id: 133,
       name: "Codeskk",
@@ -2120,8 +2261,11 @@ export const areaExtraOfficeCards = {
       ]
     }
   ],
+  // Extra cards for the "Subhash Nagar" filter
   "Subhash Nagar": [],
+  // Extra cards for the "Shyam Nagar" filter
   "Shyam Nagar": [
+    // 27. M&L Consulting Pvt.Ltd - Shyam Nagar
     {
       id: 119,
       name: "M&L Consulting Pvt.Ltd",
@@ -2142,6 +2286,7 @@ export const areaExtraOfficeCards = {
         "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1713611437/cnc95n549qxcufrbhuaz.jpg"
       ]
     },
+    // 28. Coworkin - Shyam Nagar
     {
       id: 120,
       name: "Coworkin",
@@ -2162,6 +2307,7 @@ export const areaExtraOfficeCards = {
         "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1676018445/zwbi9mhxh9mov7zf5dzd.webp"
       ]
     },
+    // 29. THE WORKNOT - Shyam Nagar
     {
       id: 126,
       name: "THE WORKNOT",
@@ -2185,7 +2331,10 @@ export const areaExtraOfficeCards = {
   ]
 };
 
+// Page 1 cards - top grid (right under the area filter buttons).
+// Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
 export const similarJaipurOfficeCards = [
+  // 1. Prime Coworks - Tonk Road
   {
     id: 1,
     name: "Prime Coworks",
@@ -2206,6 +2355,7 @@ export const similarJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/4139d364451c7d59770c884afca9667d54323e35.webp"
     ]
   },
+  // 2. Connekt Coworking Signature Elite - Tonk Road
   {
     id: 2,
     name: "Connekt Coworking Signature Elite",
@@ -2226,6 +2376,7 @@ export const similarJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/d93ff19819afcefa4840ee534f35399fcddc852d.webp"
     ]
   },
+  // 3. White Collar Coworks - Nirman Nagar
   {
     id: 3,
     name: "White Collar Coworks",
@@ -2246,6 +2397,7 @@ export const similarJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/d9cb3539b948103573835c007ec3a90b57e9311d.webp"
     ]
   },
+  // 4. Kowork Space - Vaishali Nagar
   {
     id: 4,
     name: "Kowork Space",
@@ -2266,6 +2418,7 @@ export const similarJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/3f418383a4c5b9e615f0c8dfc539c7c340ae71b0.webp"
     ]
   },
+  // 5. RAW Coworking and Office Space - Mansarovar
   {
     id: 5,
     name: "RAW Coworking and Office Space",
@@ -2286,6 +2439,7 @@ export const similarJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/b8999f9797a2427847bcd57272b9263082a74dfb.webp"
     ]
   },
+  // 6. Wish Cowork Elite - Civil Lines
   {
     id: 6,
     name: "Wish Cowork Elite",
@@ -2306,6 +2460,7 @@ export const similarJaipurOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/87fb4cb5762dee043d287544331ad25d5ca75eb5.webp"
     ]
   },
+  // 7. Cowork Iksana - MI Road
   {
     id: 7,
     name: "Cowork Iksana",
@@ -2324,6 +2479,7 @@ export const similarJaipurOfficeCards = [
       "https://img.cofynd.com/images/original/c6620989d92b834941913fa6461729415de61dd1.jpg"
     ]
   },
+  // 8. Creware - Mansarovar
   {
     id: 8,
     name: "Creware",
@@ -2343,6 +2499,7 @@ export const similarJaipurOfficeCards = [
       "https://img.cofynd.com/images/original/e080d0edf62012a355a4eaca42cf395d50f21a54.jpg"
     ]
   },
+  // 9. Office Culture - Mansarovar
   {
     id: 9,
     name: "Office Culture",
@@ -2365,6 +2522,8 @@ export const similarJaipurOfficeCards = [
   }
 ];
 
+// Page 1 cards - top grid (right under the area filter buttons).
+// Shown when pagination button 1 is active; each card holds name, badge, rating, area, location, price and photos.
 export const allJaipurOfficeCards = [
   ...jaipurOfficeCards,
   ...moreJaipurOfficeCards,
@@ -2383,10 +2542,14 @@ export const allJaipurOfficeCards = [
   ...Object.values(areaExtraOfficeCards).flat()
 ];
 
+// Find a Jaipur card from its URL slug (or numeric id). Returns the card or null.
 export const getJaipurOfficeCardById = (id) => findOfficeBySlug(allJaipurOfficeCards, id, "jaipur");
+// Build the URL slug / path of a Jaipur card (e.g. "/name-area-jaipur").
 export const getJaipurOfficeSlug = (space) => officePath(allJaipurOfficeCards, space, "jaipur");
 
+// "Explore Top Coworking Locations" tiles at the bottom of the page (area name, title, photo). Clicking a tile filters by that area.
 export const topJaipurCoworkingLocations = [
+  // 1. Vaishali Nagar
   {
     id: "loc-vaishali-nagar",
     name: "Vaishali Nagar",
@@ -2394,6 +2557,7 @@ export const topJaipurCoworkingLocations = [
     image: "https://img.cofynd.com/images/latest_images_2024/f601231526375ef89387cb9c15b2448ee2dfb050.webp",
     ctaText: "Explore Spaces"
   },
+  // 2. Mansarovar
   {
     id: "loc-mansarovar",
     name: "Mansarovar",
@@ -2401,6 +2565,7 @@ export const topJaipurCoworkingLocations = [
     image: "https://img.cofynd.com/images/latest_images_2024/a49087617d15a50f36a5104ae44592feeea35b42.webp",
     ctaText: "Explore Spaces"
   },
+  // 3. Tonk Road
   {
     id: "loc-tonk-road",
     name: "Tonk Road",
@@ -2408,6 +2573,7 @@ export const topJaipurCoworkingLocations = [
     image: "https://img.cofynd.com/images/latest_images_2024/248fd9d196ceb58279672a39b7091f812f1735ad.webp",
     ctaText: "Explore Spaces"
   },
+  // 4. Lalkothi
   {
     id: "loc-lalkothi",
     name: "Lalkothi",
@@ -2415,6 +2581,7 @@ export const topJaipurCoworkingLocations = [
     image: "https://img.cofynd.com/images/original/2c577d4f3aba02e1a24b29fa8cdb871dab5c24cb.jpg",
     ctaText: "Explore Spaces"
   },
+  // 5. Indrapuri
   {
     id: "loc-indrapuri",
     name: "Indrapuri",
@@ -2422,6 +2589,7 @@ export const topJaipurCoworkingLocations = [
     image: "https://img.cofynd.com/images/latest_images_2024/248fd9d196ceb58279672a39b7091f812f1735ad.webp",
     ctaText: "Explore Spaces"
   },
+  // 6. Ganpati Nagar
   {
     id: "loc-ganpati-nagar",
     name: "Ganpati Nagar",
@@ -2429,6 +2597,7 @@ export const topJaipurCoworkingLocations = [
     image: "https://img.cofynd.com/images/latest_images_2024/248fd9d196ceb58279672a39b7091f812f1735ad.webp",
     ctaText: "Explore Spaces"
   },
+  // 7. Pratap Nagar
   {
     id: "loc-pratap-nagar",
     name: "Pratap Nagar",
@@ -2436,6 +2605,7 @@ export const topJaipurCoworkingLocations = [
     image: "https://img.cofynd.com/images/latest_images_2024/12f7e958e760164908053fe347204716bd33b975.webp",
     ctaText: "Explore Spaces"
   },
+  // 8. Nirman Nagar
   {
     id: "loc-nirman-nagar",
     name: "Nirman Nagar",
@@ -2443,6 +2613,7 @@ export const topJaipurCoworkingLocations = [
     image: "https://img.cofynd.com/images/latest_images_2024/34540edac3e9e158c30bb61d6672d4d1a6ee9675.webp",
     ctaText: "Explore Spaces"
   },
+  // 9. Subhash Nagar
   {
     id: "loc-subhash-nagar",
     name: "Subhash Nagar",
@@ -2450,6 +2621,7 @@ export const topJaipurCoworkingLocations = [
     image: "https://img.cofynd.com/images/latest_images_2024/34540edac3e9e158c30bb61d6672d4d1a6ee9675.webp",
     ctaText: "Explore Spaces"
   },
+  // 10. Shyam Nagar
   {
     id: "loc-shyam-nagar",
     name: "Shyam Nagar",
