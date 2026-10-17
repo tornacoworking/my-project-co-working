@@ -1894,7 +1894,298 @@ export const areaExtraOfficeCards = {
   // Extra cards for the "Sector 34A" filter
   "Sector 34A": [],
   // Extra cards for the "Phase 8B" filter
-  "Phase 8B": [],
+  "Phase 8B": [
+    // 2. Imagine Coworking - Industrial Area Phase 1
+    {
+      id: 85,
+      name: "Imagine Coworking",
+      badge: null,
+      rating: null,
+      area: "Industrial Area Phase 1",
+      location: "Industrial Area Phase I, Chandigarh",
+      price: "₹7,000",
+      period: "/ Month",
+      priceFormatted: "₹7,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/original/d83b638674115a9d8be9ccd60dc7b0e412ebdba3.jpg",
+        "https://img.cofynd.com/images/original/47664f8d10359740e1bc698b3c51317f0b2333f2.jpg",
+        "https://img.cofynd.com/images/original/053f3449d3742deaa869e5cb5a5ef3c07ded2338.jpg",
+        "https://img.cofynd.com/images/original/fca46757b8aa9d408335fc5eca4da32784389f0c.jpg",
+        "https://img.cofynd.com/images/original/e4c42695532f31f15b25d16ad42faaf5ba761e50.jpg",
+        "https://img.cofynd.com/images/original/c13c8590f6547a6380a3f2e986786ca50e1b02dd.jpg"
+      ]
+    },
+    // 3. Magnet Cowork - Sector 34A
+    {
+      id: 2,
+      name: "Magnet Cowork",
+      badge: "Trending",
+      rating: 4.2,
+      area: "Sector 34A",
+      location: "Opp. Hyatt Regency, Chandigarh",
+      price: "₹7,500",
+      period: "/ Month",
+      priceFormatted: "₹7,500 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/original/3ccceaa87ebc54f7caef5349627ddfc4ff474908.jpg",
+        "https://img.cofynd.com/images/original/d3db3878ce1829214db69c41b8f052ee74897883.jpg",
+        "https://img.cofynd.com/images/original/a81d6f96dc972bb3f23fcb49739f5cf1455bca0e.jpg",
+        "https://img.cofynd.com/images/original/03ca761e6a4693a48d15f3f975277358bac8c9cc.jpg",
+        "https://img.cofynd.com/images/original/1cae0b100bb46976aa36d5d507671feda400796a.jpg",
+        "https://img.cofynd.com/images/original/c40ab4359100cdb2c22b2f141847b7246ee2845b.jpg"
+      ]
+    },
+    // 4. Next57 Coworking - Sector 34A
+    {
+      id: 3,
+      name: "Next57 Coworking",
+      badge: null,
+      rating: null,
+      area: "Sector 34A",
+      location: "Industrial Area Phase I, Chandigarh",
+      price: "₹5,000",
+      period: "/ Month",
+      priceFormatted: "₹5,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/original/3a3bd01b85b219eddcc17657c63cde63c0347ec0.jpg",
+        "https://img.cofynd.com/images/original/b8891bf267628ae60e028a4bbf87318c5687701c.jpg",
+        "https://img.cofynd.com/images/original/c81e1b6ce2f4baa60b73d97c254674bb38f75af5.jpg",
+        "https://img.cofynd.com/images/original/f61f2dbfc5bd6b6578a290894c466d13cc041b5d.jpg",
+        "https://img.cofynd.com/images/original/4c0d7409e940c43250a934b6f25678fff17173f6.jpg",
+        "https://img.cofynd.com/images/original/acf248d0cf9654c98b288fac0f071a9232f7ab6a.jpg"
+      ]
+    },
+    // 5. The Hive Coworking and Business Centre - Industrial Area Phase 2
+    {
+      id: 86,
+      name: "The Hive Coworking and Business Centre",
+      badge: "Popular",
+      rating: 4.1,
+      area: "Industrial Area Phase 2",
+      location: "Industrial Area Phase II, Chandigarh",
+      price: "₹7,999",
+      period: "/ Month",
+      priceFormatted: "₹7,999 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/latest_images_2024/a106cfcd3771bef4f059498877d87416aa686e22.webp",
+        "https://img.cofynd.com/images/latest_images_2024/a61f776934def927c5035b5d62939ffa7c1ae32a.webp",
+        "https://img.cofynd.com/images/latest_images_2024/9762d59f232839a3a698fb60d61ad19a429a2e53.webp",
+        "https://img.cofynd.com/images/latest_images_2024/e5aadedaa6f01ba1e21484d55847be3ce4d3c836.webp",
+        "https://img.cofynd.com/images/latest_images_2024/a4506b3bd92513015078f5bd7ba650d83ecc2cdb.webp",
+        "https://img.cofynd.com/images/latest_images_2024/01310a5017bb5a262b78f206b79de23cd2ba0b2b.webp"
+      ]
+    },
+    // 6. Work Yard - Sahibzada Ajit Singh Nagar
+    {
+      id: 4,
+      name: "Work Yard",
+      badge: null,
+      rating: null,
+      area: "Sahibzada Ajit Singh Nagar",
+      location: "Industrial Area Phase 2, Chandigarh",
+      price: "₹5,999",
+      period: "/ Month",
+      priceFormatted: "₹5,999 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/original/ef7b8a2b828dc271f01c9572b4a334e13ad9fd91.jpg",
+        "https://img.cofynd.com/images/original/6638ada1398cb29734604297fe018781501ee77d.jpg",
+        "https://img.cofynd.com/images/original/6dd7a739df3952474424c819da813a58e3d4e071.jpg",
+        "https://img.cofynd.com/images/original/acfe7fcd4f05fe58cc7764d2f0e07c76a481c456.jpg",
+        "https://img.cofynd.com/images/original/3918cedbd2c91e44eea5436b198405d8c466828b.jpg",
+        "https://img.cofynd.com/images/original/c2a02cd5ce9b78a6deeca682c813acbca375ff9d.jpg"
+      ]
+    },
+    // 7. MySoho - Madhya Marg
+    {
+      id: 5,
+      name: "MySoho",
+      badge: "Trending",
+      rating: 4.9,
+      area: "Madhya Marg",
+      location: "Sector 26, Chandigarh",
+      price: "₹10,000",
+      period: "/ Month",
+      priceFormatted: "₹10,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/original/4d9055b9fbf5162cdf5251d5bfacdb835f16bd89.jpg",
+        "https://img.cofynd.com/images/original/ba62098eba6e87d263351d298c6dc1ca850fcede.jpg",
+        "https://img.cofynd.com/images/original/89f6f81a395aa4e86bbc1baec4078f981860d9c0.jpg",
+        "https://img.cofynd.com/images/original/7c119374a48d90d51d59b8b40d46fd6321405f8a.jpg",
+        "https://img.cofynd.com/images/original/5823284da62a8217027b39a2f55649ef16b74a72.jpg"
+      ]
+    },
+    // 8. Qowork - Madhya Marg
+    {
+      id: 6,
+      name: "Qowork",
+      badge: null,
+      rating: null,
+      area: "Madhya Marg",
+      location: "Sector 26, Chandigarh",
+      price: "₹7,999",
+      period: "/ Month",
+      priceFormatted: "₹7,999 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/original/852b70921d6aa896a7981308b232ef7e0b26c159.jpg",
+        "https://img.cofynd.com/images/original/59764e5ea942181751d2c7456f41de2d2831f57c.jpg",
+        "https://img.cofynd.com/images/original/bb2c2b3e552910a319475c2a7df1b08e5d489641.jpg",
+        "https://img.cofynd.com/images/original/c2875dc9f3d013022c5fc8128b56297447af09c5.jpg",
+        "https://img.cofynd.com/images/original/df6361154dd077de766271378f2e4f4531a6e864.jpg"
+      ]
+    },
+    // 9. Roadies Koffeehouz - Madhya Marg
+    {
+      id: 7,
+      name: "Roadies Koffeehouz",
+      badge: null,
+      rating: null,
+      area: "Madhya Marg",
+      location: "Sector 7, Madhya Marg, Chandigarh",
+      price: "₹2,999",
+      period: "/ Month",
+      priceFormatted: "₹2,999 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/original/9ffc4b403c1c90d1ad69e770a1709edd7bced2c2.jpg",
+        "https://img.cofynd.com/images/original/9faa1f80ea751461affbd83a2de466b172b1b1d8.jpg",
+        "https://img.cofynd.com/images/original/593912b1172131d8eb19c557d13596496dc33811.jpg",
+        "https://img.cofynd.com/images/original/ec7ab698d1ea9f69cb7fe96f2e4347c67d313243.jpg",
+        "https://img.cofynd.com/images/original/47cc93e1ea8df1308aae0b8685bae9f62e28c31c.jpg"
+      ]
+    },
+    // 10. SpaceJam - Sector 34A
+    {
+      id: 8,
+      name: "SpaceJam",
+      badge: null,
+      rating: null,
+      area: "Sector 34A",
+      location: "Sector 34, Chandigarh",
+      price: "₹7,999",
+      period: "/ Month",
+      priceFormatted: "₹7,999 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/original/ee3dd5148d42a1e80091a52024fa49ecb7451b7f.jpg",
+        "https://img.cofynd.com/images/original/1376a4ccd4b0fe6769cc24ad077d3b936b774c09.jpg",
+        "https://img.cofynd.com/images/original/839e556d07c70ff54ffa2704356c337e14502471.jpg",
+        "https://img.cofynd.com/images/original/d9b5c2d9ad3eb5a0eaee054c29ec549e0bffc23e.jpg",
+        "https://img.cofynd.com/images/original/12ff996e39c7ace06126b99d3835d333facfd170.jpg",
+        "https://img.cofynd.com/images/original/6ff70f93746c4c5b0c0cab065afe4e70a8c55d23.jpg"
+      ]
+    },
+    // 11. Workaholics workzone - Sector 34A
+    {
+      id: 9,
+      name: "Workaholics workzone",
+      badge: null,
+      rating: null,
+      area: "Sector 34A",
+      location: "Sector 34A, Chandigarh",
+      price: "₹5,500",
+      period: "/ Month",
+      priceFormatted: "₹5,500 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/original/7b14a2ae5ef4a522a8f9fc564ef38955e482a08d.jpg",
+        "https://img.cofynd.com/images/original/90f6f6ac34a5a6cde2a7524824e4e71b20a59c56.jpg",
+        "https://img.cofynd.com/images/original/449fb424b2284352b62ff7c6efec4f71e8289836.jpg",
+        "https://img.cofynd.com/images/original/fea0542093de4d7f84ed3f7f0411dbf787999598.jpg",
+        "https://img.cofynd.com/images/original/ce49d7342de644ad500d8f5ebebca8a8ad56757c.jpg",
+        "https://img.cofynd.com/images/original/d49a4ce7b214fdb1ff1a6feb545b5dfd9b9d3b8e.jpg"
+      ]
+    },
+    // 12. MyBranch Chandigarh - Madhya Marg
+    {
+      id: 10,
+      name: "MyBranch Chandigarh",
+      badge: null,
+      rating: null,
+      area: "Madhya Marg",
+      location: "Madhya Marg, Chandigarh",
+      price: "₹7,500",
+      period: "/ Month",
+      priceFormatted: "₹7,500 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/original/99b2e95b22e0c1852b16c893f9983727e14b32f8.jpg",
+        "https://img.cofynd.com/images/original/9a96628ecb2414ce96b25d468174e20802b45ebc.jpg",
+        "https://img.cofynd.com/images/original/094bedb4931737fc7b8b83c0860d40c92a1e3eae.jpg",
+        "https://img.cofynd.com/images/original/ac9c507cca8cb3fdd8802d31522be61c67e76b79.jpg",
+        "https://img.cofynd.com/images/original/0adde5145ed9f396aeb3556e06f4deb4554384e6.jpg",
+        "https://img.cofynd.com/images/original/737ce3daf2d5607039da3eda2a97e6093f32c95f.jpg"
+      ]
+    },
+    // 13. Next57 coworking - Sector 34A
+    {
+      id: 87,
+      name: "Next57 coworking",
+      badge: null,
+      rating: null,
+      area: "Sector 34A",
+      location: "Sco 170-1-2, Chandigarh",
+      price: "₹7,000",
+      period: "/ Month",
+      priceFormatted: "₹7,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/original/d5ad55f917d61eaad80c95409cb794a490d2d542.jpg",
+        "https://img.cofynd.com/images/original/3fd5ec9c3def8a9a96876f1c45e12b0a4b3367f5.jpg",
+        "https://img.cofynd.com/images/original/59fb24eabea3a0f585175b6b4290d470bfa92a5b.jpg",
+        "https://img.cofynd.com/images/original/59ca14c28ef8b285a8e32d082ddcd1176de71fae.jpg",
+        "https://img.cofynd.com/images/original/6b4860b06de0fda03d36b934748cee6118429e35.jpg",
+        "https://img.cofynd.com/images/original/7d5d35dc0fa06c98f13322fb85f4d543455d62b1.jpg"
+      ]
+    },
+    // 14. IDEA Coworking - Madhya Marg
+    {
+      id: 11,
+      name: "IDEA Coworking",
+      badge: "People Choice",
+      rating: 4.9,
+      area: "Madhya Marg",
+      location: "Bridge Market, Chandigarh",
+      price: "₹6,000",
+      period: "/ Month",
+      priceFormatted: "₹6,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/original/78357fe5511e89c3fcb4dce09115bc105613e3d5.jpg",
+        "https://img.cofynd.com/images/original/3bbdb158183f84374f6264fb9e610457c876984c.jpg",
+        "https://img.cofynd.com/images/original/910170fc2e3ac70229f992804ea83ed7b598c7e4.jpg",
+        "https://img.cofynd.com/images/original/be2f360a58b0f419a5cb190955854a4e7d4c058e.jpg",
+        "https://img.cofynd.com/images/original/61814a976022161d9f27874f26f9c1f6bca53ef6.jpg"
+      ]
+    },
+    // 15. iMesh lab - Zirakpur
+    {
+      id: 12,
+      name: "iMesh lab",
+      badge: null,
+      rating: null,
+      area: "Zirakpur",
+      location: "NH 21, Chandigarh",
+      price: "₹5,000",
+      period: "/ Month",
+      priceFormatted: "₹5,000 / Month",
+      ctaText: "Get Quote",
+      images: [
+        "https://img.cofynd.com/images/original/eca7b46c8512fb04a07b39e7a29f72d4a6deab95.jpg",
+        "https://img.cofynd.com/images/original/3999ddc43be1ffde691d15750a8c85d9e9808425.jpg",
+        "https://img.cofynd.com/images/original/b3935a179cb1eb372df8bf80618e6ed980c9aa6b.jpg",
+        "https://img.cofynd.com/images/original/51aed921b466d2957fee1b979f64f3b5ef048bc7.jpg",
+        "https://img.cofynd.com/images/original/0fb65c43652f4e7919612ca71d0eb9522517cc73.jpg",
+        "https://img.cofynd.com/images/original/17a45b8e97c8498a56f86fb963d6d2eff9ed4705.jpg"
+      ]
+    }
+  ],
   // Extra cards for the "Phase 7" filter
   "Phase 7": [],
   // Extra cards for the "Industrial Area Phase 1" filter
