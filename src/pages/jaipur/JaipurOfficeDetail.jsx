@@ -9,7 +9,9 @@ import { getJaipurOfficeCardById, getJaipurOfficeSlug, allJaipurOfficeCards, sim
  * Below the gallery: Seating Plans, Enquiry Form, and Horizontal Trusted By Top Companies bar.
  */
 const OfficeDetail = () => {
+  // URL slug of the opened card (e.g. /name-area-city)
   const { id } = useParams();
+  // The clicked card; null when the slug matches no card
   const space = getJaipurOfficeCardById(id);
 
   // Extract current area of the open card
@@ -54,6 +56,7 @@ const OfficeDetail = () => {
     return Array.from({ length: loopMultiplier }).flatMap(() => sameAreaOffices);
   }, [sameAreaOffices, loopMultiplier]);
 
+  // Full-screen photo gallery (lightbox): open / closed and which photo is shown
   const [isCarouselOpen, setIsCarouselOpen] = useState(false);
   const [activeImageIndex, setActiveImageIndex] = useState(0);
 
@@ -66,8 +69,11 @@ const OfficeDetail = () => {
     type: '',
     seats: ''
   });
+  // Validation message per field, filled when the form is submitted incomplete
   const [formErrors, setFormErrors] = useState({});
+  // True after a successful enquiry submit
   const [isSubmitted, setIsSubmitted] = useState(false);
+  // Read more / read less toggle of the About text
   const [isAboutExpanded, setIsAboutExpanded] = useState(false);
 
   // Similar spaces carousel ref and continuous auto-scroll handlers
@@ -75,6 +81,7 @@ const OfficeDetail = () => {
   const isSliderPausedRef = useRef(false);
   const pauseTimerRef = useRef(null);
 
+  // Pause the similar-spaces auto-scroll for a moment (used after manual arrow clicks)
   const pauseTemporarily = (duration = 1500) => {
     isSliderPausedRef.current = true;
     if (pauseTimerRef.current) clearTimeout(pauseTimerRef.current);
@@ -83,6 +90,7 @@ const OfficeDetail = () => {
     }, duration);
   };
 
+  // Left arrow of the similar-spaces slider (wraps around the looped list near the start)
   const scrollSimilarLeft = () => {
     const slider = similarSliderRef.current;
     if (slider) {
@@ -95,6 +103,7 @@ const OfficeDetail = () => {
     }
   };
 
+  // Right arrow of the similar-spaces slider (wraps around the looped list near the end)
   const scrollSimilarRight = () => {
     const slider = similarSliderRef.current;
     if (slider) {
@@ -144,6 +153,7 @@ const OfficeDetail = () => {
     };
   }, [loopMultiplier]);
 
+  // Whenever another card opens: jump to the top of the page and reset the similar-spaces slider
   useEffect(() => {
     window.scrollTo(0, 0);
     if (similarSliderRef.current) {
@@ -151,24 +161,29 @@ const OfficeDetail = () => {
     }
   }, [id]);
 
+  // Photos of the opened card (falls back to one image when the card has just one)
   const singleImage = (Array.isArray(space?.images) && space.images[0]) || space?.image || '';
   const images = (Array.isArray(space?.images) && space.images.length > 0)
     ? space.images
     : (singleImage ? [singleImage] : []);
 
+  // Open the lightbox on the given photo (index is kept inside the valid range)
   const openCarousel = (index = 0) => {
     const validIndex = images.length > 0 ? Math.min(Math.max(0, index), images.length - 1) : 0;
     setActiveImageIndex(validIndex);
     setIsCarouselOpen(true);
   };
 
+  // Close the lightbox
   const closeCarousel = () => setIsCarouselOpen(false);
 
+  // Lightbox: previous photo (wraps from the first to the last)
   const prevImage = (e) => {
     e?.stopPropagation();
     setActiveImageIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
   };
 
+  // Lightbox: next photo (wraps from the last to the first)
   const nextImage = (e) => {
     e?.stopPropagation();
     setActiveImageIndex((prev) => (prev === images.length - 1 ? 0 : prev + 1));
@@ -201,6 +216,7 @@ const OfficeDetail = () => {
     }
   };
 
+  // 'Enquire' on a seating plan pre-selects that plan in the form and scrolls to the form
   const handleSelectPlan = (planTitle) => {
     setFormData((prev) => ({ ...prev, type: planTitle }));
     if (formErrors.type) {
@@ -209,6 +225,7 @@ const OfficeDetail = () => {
     formRef.current?.scrollIntoView({ behavior: 'smooth' });
   };
 
+  // Check the required fields; when all are filled show the success state and open an email draft
   const handleEnquirySubmit = (e) => {
     e.preventDefault();
     const errors = {};
@@ -238,6 +255,7 @@ const OfficeDetail = () => {
     window.location.href = `mailto:info@mycoworking.in?subject=${subject}&body=${body}`;
   };
 
+  // Unknown slug: show the 'Office Space Not Found' message instead of the page
   if (!space) {
     return (
       <main className="w-full min-h-[70vh] flex flex-col items-center justify-center px-4 py-16 text-center">

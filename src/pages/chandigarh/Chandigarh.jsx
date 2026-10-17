@@ -29,16 +29,23 @@ import QuoteModal from '../../components/QuoteModal.jsx';
  * Implements continuous infinite looping in the same slide direction.
  */
 const OfficeCard = ({ space }) => {
+  // Open / closed state of the 'Get Quote' popup for this card
   const [isQuoteOpen, setIsQuoteOpen] = useState(false);
+  // The photo slider only needs arrows and looping when the card has more than one photo
   const hasMultipleImages = Boolean(space.images && space.images.length > 1);
+  // Slider track = last photo + all photos + first photo (the two clones make the loop seamless)
   const extendedImages = hasMultipleImages
     ? [space.images[space.images.length - 1], ...space.images, space.images[0]]
     : space.images || [];
 
+  // Slide currently visible (starts at 1 because index 0 is the cloned last photo)
   const [currentIndex, setCurrentIndex] = useState(hasMultipleImages ? 1 : 0);
+  // Switched off briefly so the slider can jump from a clone to the real slide without animating
   const [isTransitionEnabled, setIsTransitionEnabled] = useState(true);
+  // Blocks extra arrow clicks while a slide animation is running
   const [isAnimating, setIsAnimating] = useState(false);
 
+  // After the silent jump, wait two frames and then turn the slide animation back on
   useEffect(() => {
     if (!isTransitionEnabled) {
       const raf = requestAnimationFrame(() => {
@@ -51,6 +58,7 @@ const OfficeCard = ({ space }) => {
     }
   }, [isTransitionEnabled]);
 
+  // Previous photo (stops the click so the card itself is not opened)
   const handlePrevImage = (event) => {
     event.preventDefault();
     event.stopPropagation();
@@ -60,6 +68,7 @@ const OfficeCard = ({ space }) => {
     setCurrentIndex((previousIndex) => previousIndex - 1);
   };
 
+  // Next photo (stops the click so the card itself is not opened)
   const handleNextImage = (event) => {
     event.preventDefault();
     event.stopPropagation();
@@ -69,6 +78,7 @@ const OfficeCard = ({ space }) => {
     setCurrentIndex((previousIndex) => previousIndex + 1);
   };
 
+  // When the animation ends on a cloned photo, jump (without animation) to the matching real photo
   const handleTransitionEnd = () => {
     if (!hasMultipleImages) return;
     if (currentIndex === extendedImages.length - 1) {
@@ -82,6 +92,7 @@ const OfficeCard = ({ space }) => {
     }
   };
 
+  // Clicking the card opens its office-detail page in a new tab
   const handleCardClick = (event) => {
     // Avoid triggering if clicked on inner action buttons
     if (event.target.closest('button')) return;
@@ -214,16 +225,21 @@ const OfficeCard = ({ space }) => {
  * Main Chandigarh Coworking Listings Page Container
  */
 const Chandigarh = () => {
+  // Selected area filter (null = "All", every card is shown)
   const [selectedNeighborhood, setSelectedNeighborhood] = useState(null);
+  // Selected price filter ('' = no price filter)
   const [selectedPrice, setSelectedPrice] = useState('');
+  // Active pagination page
   const [currentPage, setCurrentPage] = useState(paginationData.initialPage || 1);
 
+  // Go to another page (invalid / same page is ignored) and scroll back to the top
   const handlePageChange = (page) => {
     if (page < 1 || page > paginationData.totalPages || page === currentPage) return;
     setCurrentPage(page);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  // A location tile toggles that area filter and scrolls up to the cards header
   const handleLocationClick = (locationName) => {
     setSelectedNeighborhood((prev) => (prev?.toLowerCase() === locationName.toLowerCase() ? null : locationName));
     const headerElement = document.getElementById('coworking-listings-header');
@@ -251,6 +267,7 @@ const Chandigarh = () => {
     return true;
   };
 
+  // Cards of the top grid for the active page
   const activeTopSpaces = currentPage === 1 ? chandigarhOfficeCards : currentPage === 2 ? pageTwoChandigarhOfficeCards : currentPage === 3 ? pageThreeChandigarhOfficeCards : currentPage === 4 ? pageFourChandigarhOfficeCards : [];
 
   // ============================================================================
@@ -292,8 +309,10 @@ const Chandigarh = () => {
     ? combinedSpaces.filter(matchesPrice)
     : combinedSpaces;
 
+  // Cards of the second ("Additional") grid for the active page
   const activeMoreSpaces = currentPage === 1 ? moreChandigarhOfficeCards : currentPage === 2 ? pageTwoMoreChandigarhOfficeCards : currentPage === 3 ? pageThreeMoreChandigarhOfficeCards : [];
 
+  // Second grid after the area filter and the price filter are applied
   const displayedMoreSpaces = activeMoreSpaces.filter((space) => {
     const matchesArea = !selectedNeighborhood ||
       space.area?.toLowerCase() === selectedNeighborhood.toLowerCase() ||
@@ -301,8 +320,10 @@ const Chandigarh = () => {
     return matchesArea && matchesPrice(space);
   });
 
+  // Cards of the third ("Spotlight") grid for the active page
   const activeFinalSpaces = currentPage === 1 ? finalChandigarhOfficeCards : currentPage === 2 ? pageTwoFinalChandigarhOfficeCards : currentPage === 3 ? pageThreeFinalChandigarhOfficeCards : [];
 
+  // Third grid after the area filter and the price filter are applied
   const displayedFinalSpaces = activeFinalSpaces.filter((space) => {
     const matchesArea = !selectedNeighborhood ||
       space.area?.toLowerCase() === selectedNeighborhood.toLowerCase() ||
@@ -310,8 +331,10 @@ const Chandigarh = () => {
     return matchesArea && matchesPrice(space);
   });
 
+  // Cards of the fourth ("Featured") grid for the active page
   const activeOfficeCards = currentPage === 1 ? featuredChandigarhOfficeCards : currentPage === 2 ? pageTwoFeaturedChandigarhOfficeCards : currentPage === 3 ? pageThreeFeaturedChandigarhOfficeCards : []; 
 
+  // Fourth grid after the area filter and the price filter are applied
   const displayedFeaturedSpaces = activeOfficeCards.filter((space) => {
     const matchesArea = !selectedNeighborhood ||
       space.area?.toLowerCase() === selectedNeighborhood.toLowerCase() ||
