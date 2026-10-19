@@ -19,7 +19,6 @@ import { ahmedabadNeighborhoods,
     pageThreeFeaturedAhmedabadOfficeCards,
     pageFourAhmedabadOfficeCards,
     topAhmedabadCoworkingLocations,
-    areaExtraOfficeCards,
     allAhmedabadOfficeCards,
     getAhmedabadOfficeSlug
    } from './ahmedabadData.js';
@@ -290,11 +289,6 @@ const Ahmedabad = () => {
       )
     : activeTopSpaces;
 
-  // Selected area ke extra 10 real cards (sirf tab milenge jab area button active ho)
-  const extraAreaCards = (selectedNeighborhood && areaExtraOfficeCards && areaExtraOfficeCards[selectedNeighborhood])
-    ? areaExtraOfficeCards[selectedNeighborhood]
-    : [];
-
   // Selected area: every card of that area from ALL pages (not only the current page)
   const areaAllCards = selectedNeighborhood
     ? allAhmedabadOfficeCards.filter(
@@ -304,13 +298,8 @@ const Ahmedabad = () => {
       )
     : [];
 
-  // Extra cards cofynd lists on the selected area's page (mixed in with the area's own cards)
-  const nearbyAreaCards = extraAreaCards.filter(
-    (extra) => matchesPrice(extra) && !areaAllCards.some((own) => own.id === extra.id)
-  );
-
-  // Combined cards to display in top grid (area cards first, then the extras, one single list):
-  const combinedSpaces = selectedNeighborhood ? [...areaAllCards, ...nearbyAreaCards] : activeTopSpaces;
+  // Only the selected area's own cards are shown (no cards from other areas such as SG Highway)
+  const combinedSpaces = selectedNeighborhood ? areaAllCards : activeTopSpaces;
 
   // Apply price filter to displayedSpaces
   const displayedSpaces = selectedPrice
