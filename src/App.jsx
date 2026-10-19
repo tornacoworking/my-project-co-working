@@ -15,6 +15,8 @@ import BangalorePage from './pages/bangalore/Bangalore';
 import BangaloreOfficeDetail from './pages/bangalore/BangaloreOfficeDetail';
 import BhubaneswarPage from './pages/bhubaneswar/Bhubaneswar';
 import ChandigarhPage from './pages/chandigarh/Chandigarh';
+import ChandigarhOfficeDetail from './pages/chandigarh/ChandigarhOfficeDetail';
+import { getChandigarhOfficeCardById } from './pages/chandigarh/chandigarhData';
 import ChennaiPage from './pages/chennai/Chennai';
 import CoimbatorePage from './pages/coimbatore/Coimbatore';
 import DelhiPage from './pages/delhi/Delhi';
@@ -26,7 +28,11 @@ import HyderabadPage from './pages/hyderabad/Hyderabad';
 import IndorePage from './pages/indore/Indore';
 import IndoreOfficeDetails from './pages/indore/Indoreofficedetails';
 import JaipurPage from './pages/jaipur/Jaipur';
+import JaipurOfficeDetail from './pages/jaipur/JaipurOfficeDetail';
+import { getJaipurOfficeCardById } from './pages/jaipur/jaipurData';
 import KochiPage from './pages/kochi/Kochi';
+import KochiOfficeDetail from './pages/kochi/KochiOfficeDetail';
+import { getKochiOfficeCardById } from './pages/kochi/kochiData';
 import KolkataPage from './pages/kolkata/Kolkata';
 import LucknowPage from './pages/lucknow/Lucknow';
 import MumbaiPage from './pages/mumbai/Mumbai';
@@ -43,6 +49,9 @@ const OfficeRoute = () => {
   if (getDehliOfficeCardById(id)) return <DelhiOfficeDetails />;
   if (getPuneOfficeCardById(id)) return <PuneOfficeDetail />;
   if (getBangaloreOfficeCardById(id)) return <BangaloreOfficeDetail />;
+  if (getKochiOfficeCardById(id)) return <KochiOfficeDetail />;
+  if (getChandigarhOfficeCardById(id)) return <ChandigarhOfficeDetail />;
+  if (getJaipurOfficeCardById(id)) return <JaipurOfficeDetail />;
   if (getAhmedabadOfficeCardById(id)) return <AhmedabadOfficeDetails />;
   if (getGurugramOfficeCardById(id)) return <GurugramOfficeDetail />;
   if (getIndoreOfficeCardById(id)) return <IndoreOfficeDetails />;
@@ -65,6 +74,7 @@ const App = () => {
         <Route path="/coworking/bhubaneshwar/:id" element={<BhubaneshwarOfficeDetail />} />
         <Route path="/coworking/bhubaneswar/:id" element={<BhubaneshwarOfficeDetail />} />
         <Route path="/coworking/chandigarh" element={<ChandigarhPage />} />
+        <Route path="/coworking/chandigarh/:id" element={<ChandigarhOfficeDetail />} />
         <Route path="/coworking/chennai" element={<ChennaiPage />} />
         <Route path="/coworking/coimbatore" element={<CoimbatorePage />} />
         <Route path="/coworking/delhi" element={<DelhiPage />} />
@@ -76,7 +86,9 @@ const App = () => {
         <Route path="/coworking/indore" element={<IndorePage />} />
         <Route path="/coworking/indore/:id" element={<IndoreOfficeDetails />} />
         <Route path="/coworking/jaipur" element={<JaipurPage />} />
+        <Route path="/coworking/jaipur/:id" element={<JaipurOfficeDetail />} />
         <Route path="/coworking/kochi" element={<KochiPage />} />
+        <Route path="/coworking/kochi/:id" element={<KochiOfficeDetail />} />
         <Route path="/coworking/kolkata" element={<KolkataPage />} />
         <Route path="/coworking/lucknow" element={<LucknowPage />} />
         <Route path="/coworking/mumbai" element={<MumbaiPage />} />
