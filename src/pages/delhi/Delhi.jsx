@@ -297,8 +297,7 @@ const Delhi = () => {
   const existingFilteredTopSpaces = selectedNeighborhood
     ? activeTopSpaces.filter(
         (space) =>
-          space.area?.toLowerCase() === selectedNeighborhood.toLowerCase() ||
-          space.location?.toLowerCase().includes(selectedNeighborhood.toLowerCase())
+          space.area?.toLowerCase() === selectedNeighborhood.toLowerCase()
       )
     : activeTopSpaces;
 
@@ -314,8 +313,7 @@ const Delhi = () => {
         ...extraAreaCards.filter(
           (extra) =>
             // keep only extras that really belong to the clicked area
-            (extra.area?.toLowerCase() === selectedNeighborhood.toLowerCase() ||
-              extra.location?.toLowerCase().includes(selectedNeighborhood.toLowerCase())) &&
+            extra.area?.toLowerCase() === selectedNeighborhood.toLowerCase() &&
             !existingFilteredTopSpaces.some((ex) => ex.name.toLowerCase() === extra.name.toLowerCase())
         )
       ]
@@ -332,8 +330,7 @@ const Delhi = () => {
   // Second grid after the area filter and the price filter are applied
   const displayedMoreSpaces = activeMoreSpaces.filter((space) => {
     const matchesArea = !selectedNeighborhood ||
-      space.area?.toLowerCase() === selectedNeighborhood.toLowerCase() ||
-      space.location?.toLowerCase().includes(selectedNeighborhood.toLowerCase());
+      space.area?.toLowerCase() === selectedNeighborhood.toLowerCase();
     return matchesArea && matchesPrice(space);
   });
 
@@ -343,8 +340,7 @@ const Delhi = () => {
   // Third grid after the area filter and the price filter are applied
   const displayedFinalSpaces = activeFinalSpaces.filter((space) => {
     const matchesArea = !selectedNeighborhood ||
-      space.area?.toLowerCase() === selectedNeighborhood.toLowerCase() ||
-      space.location?.toLowerCase().includes(selectedNeighborhood.toLowerCase());
+      space.area?.toLowerCase() === selectedNeighborhood.toLowerCase();
     return matchesArea && matchesPrice(space);
   });
 
@@ -354,8 +350,7 @@ const Delhi = () => {
   // Fourth grid after the area filter and the price filter are applied
   const displayedFeaturedSpaces = activeOfficeCards.filter((space) => {
     const matchesArea = !selectedNeighborhood ||
-      space.area?.toLowerCase() === selectedNeighborhood.toLowerCase() ||
-      space.location?.toLowerCase().includes(selectedNeighborhood.toLowerCase());
+      space.area?.toLowerCase() === selectedNeighborhood.toLowerCase();
     return matchesArea && matchesPrice(space);
   });
 
