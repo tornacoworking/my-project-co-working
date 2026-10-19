@@ -254,11 +254,16 @@ const Bangalore = () => {
 
   const matchesNeighborhood = (space) =>
     !selectedNeighborhood ||
-    space.area?.toLowerCase() === selectedNeighborhood.toLowerCase() ||
-    space.location?.toLowerCase().includes(selectedNeighborhood.toLowerCase());
+    space.area?.toLowerCase() === selectedNeighborhood.toLowerCase();
 
   // Area + price filters apply to the full list; pagination applies to the filtered result
-  const filteredSpaces = bangaloreSpaces.filter((space) => matchesNeighborhood(space) && matchesPrice(space));
+  // With an area selected, each card is listed only once (the data repeats some cards)
+  const filteredSpaces = bangaloreSpaces.filter(
+    (space, index, list) =>
+      matchesNeighborhood(space) &&
+      matchesPrice(space) &&
+      (!selectedNeighborhood || list.findIndex((other) => other.name.toLowerCase() === space.name.toLowerCase() && matchesNeighborhood(other)) === index)
+  );
   const totalPages = Math.max(1, Math.ceil(filteredSpaces.length / SPACES_PER_PAGE));
   const pageStart = (currentPage - 1) * SPACES_PER_PAGE;
   const pageSpaces = filteredSpaces.slice(pageStart, pageStart + SPACES_PER_PAGE);

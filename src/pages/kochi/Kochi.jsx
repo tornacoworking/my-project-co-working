@@ -20,6 +20,7 @@ import { kochiNeighborhoods,
     pageFourKochiOfficeCards,
     topKochiCoworkingLocations,
     areaExtraOfficeCards,
+    allKochiOfficeCards,
     getKochiOfficeSlug
    } from './kochiData.js';
 import QuoteModal from '../../components/QuoteModal.jsx';
@@ -296,12 +297,16 @@ const Kochi = () => {
 
   // Combined cards to display in top grid (area filtered):
   const combinedSpaces = selectedNeighborhood
-    ? [
-        ...existingFilteredTopSpaces,
-        ...extraAreaCards.filter(
-          (extra) => !existingFilteredTopSpaces.some((ex) => ex.name.toLowerCase() === extra.name.toLowerCase())
-        )
-      ]
+    ? [...allKochiOfficeCards, ...extraAreaCards].filter(
+        (space, index, list) =>
+          // only cards that really belong to the clicked area, each card once (the data repeats some cards)
+          space.area?.toLowerCase() === selectedNeighborhood.toLowerCase() &&
+          list.findIndex(
+            (other) =>
+              other.area?.toLowerCase() === selectedNeighborhood.toLowerCase() &&
+              other.name.toLowerCase() === space.name.toLowerCase()
+          ) === index
+      )
     : activeTopSpaces;
 
   // Apply price filter to displayedSpaces
@@ -313,7 +318,7 @@ const Kochi = () => {
   const activeMoreSpaces = currentPage === 1 ? moreKochiOfficeCards : currentPage === 2 ? pageTwoMoreKochiOfficeCards : currentPage === 3 ? pageThreeMoreKochiOfficeCards : [];
 
   // Second grid after the area filter and the price filter are applied
-  const displayedMoreSpaces = activeMoreSpaces.filter((space) => {
+  const displayedMoreSpaces = selectedNeighborhood ? [] : activeMoreSpaces.filter((space) => {
     const matchesArea = !selectedNeighborhood ||
       space.area?.toLowerCase() === selectedNeighborhood.toLowerCase() ||
       space.location?.toLowerCase().includes(selectedNeighborhood.toLowerCase());
@@ -324,7 +329,7 @@ const Kochi = () => {
   const activeFinalSpaces = currentPage === 1 ? finalKochiOfficeCards : currentPage === 2 ? pageTwoFinalKochiOfficeCards : currentPage === 3 ? pageThreeFinalKochiOfficeCards : [];
 
   // Third grid after the area filter and the price filter are applied
-  const displayedFinalSpaces = activeFinalSpaces.filter((space) => {
+  const displayedFinalSpaces = selectedNeighborhood ? [] : activeFinalSpaces.filter((space) => {
     const matchesArea = !selectedNeighborhood ||
       space.area?.toLowerCase() === selectedNeighborhood.toLowerCase() ||
       space.location?.toLowerCase().includes(selectedNeighborhood.toLowerCase());
@@ -335,7 +340,7 @@ const Kochi = () => {
   const activeOfficeCards = currentPage === 1 ? featuredKochiOfficeCards : currentPage === 2 ? pageTwoFeaturedKochiOfficeCards : currentPage === 3 ? pageThreeFeaturedKochiOfficeCards : []; 
 
   // Fourth grid after the area filter and the price filter are applied
-  const displayedFeaturedSpaces = activeOfficeCards.filter((space) => {
+  const displayedFeaturedSpaces = selectedNeighborhood ? [] : activeOfficeCards.filter((space) => {
     const matchesArea = !selectedNeighborhood ||
       space.area?.toLowerCase() === selectedNeighborhood.toLowerCase() ||
       space.location?.toLowerCase().includes(selectedNeighborhood.toLowerCase());

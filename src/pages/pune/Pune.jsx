@@ -20,6 +20,7 @@ import { puneNeighborhoods,
     pageFourPuneOfficeCards,
     topPuneCoworkingLocations,
     areaExtraOfficeCards,
+    allPuneOfficeCards,
     getPuneOfficeSlug
    } from './puneData.js';
 import QuoteModal from '../../components/QuoteModal.jsx';
@@ -279,12 +280,16 @@ const Pune = () => {
 
   // Combined cards to display in top grid (area filtered):
   const combinedSpaces = selectedNeighborhood
-    ? [
-        ...existingFilteredTopSpaces,
-        ...extraAreaCards.filter(
-          (extra) => !existingFilteredTopSpaces.some((ex) => ex.name.toLowerCase() === extra.name.toLowerCase())
-        )
-      ]
+    ? [...allPuneOfficeCards, ...extraAreaCards].filter(
+        (space, index, list) =>
+          // only cards that really belong to the clicked area, each card once (the data repeats some cards)
+          space.area?.toLowerCase() === selectedNeighborhood.toLowerCase() &&
+          list.findIndex(
+            (other) =>
+              other.area?.toLowerCase() === selectedNeighborhood.toLowerCase() &&
+              other.name.toLowerCase() === space.name.toLowerCase()
+          ) === index
+      )
     : activeTopSpaces;
 
   // Apply price filter to displayedSpaces
@@ -294,7 +299,7 @@ const Pune = () => {
 
   const activeMoreSpaces = currentPage === 1 ? morePuneOfficeCards : currentPage === 2 ? pageTwoMorePuneOfficeCards : currentPage === 3 ? pageThreeMorePuneOfficeCards : [];
 
-  const displayedMoreSpaces = activeMoreSpaces.filter((space) => {
+  const displayedMoreSpaces = selectedNeighborhood ? [] : activeMoreSpaces.filter((space) => {
     const matchesArea = !selectedNeighborhood ||
       space.area?.toLowerCase() === selectedNeighborhood.toLowerCase() ||
       space.location?.toLowerCase().includes(selectedNeighborhood.toLowerCase());
@@ -303,7 +308,7 @@ const Pune = () => {
 
   const activeFinalSpaces = currentPage === 1 ? finalPuneOfficeCards : currentPage === 2 ? pageTwoFinalPuneOfficeCards : currentPage === 3 ? pageThreeFinalPuneOfficeCards : [];
 
-  const displayedFinalSpaces = activeFinalSpaces.filter((space) => {
+  const displayedFinalSpaces = selectedNeighborhood ? [] : activeFinalSpaces.filter((space) => {
     const matchesArea = !selectedNeighborhood ||
       space.area?.toLowerCase() === selectedNeighborhood.toLowerCase() ||
       space.location?.toLowerCase().includes(selectedNeighborhood.toLowerCase());
@@ -312,7 +317,7 @@ const Pune = () => {
 
   const activeOfficeCards = currentPage === 1 ? featuredPuneOfficeCards : currentPage === 2 ? pageTwoFeaturedPuneOfficeCards : currentPage === 3 ? pageThreeFeaturedPuneOfficeCards : []; 
 
-  const displayedFeaturedSpaces = activeOfficeCards.filter((space) => {
+  const displayedFeaturedSpaces = selectedNeighborhood ? [] : activeOfficeCards.filter((space) => {
     const matchesArea = !selectedNeighborhood ||
       space.area?.toLowerCase() === selectedNeighborhood.toLowerCase() ||
       space.location?.toLowerCase().includes(selectedNeighborhood.toLowerCase());
