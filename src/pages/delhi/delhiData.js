@@ -17,7 +17,6 @@ export const dehliNeighborhoods = [
   "South Delhi",
   "Dwarka Delhi",
   "Rohini",
-  "Pitampura",
   "Rajouri Garden",
   "Vasant Kunj",
   "Laxmi Nagar",
