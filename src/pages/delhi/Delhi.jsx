@@ -312,7 +312,11 @@ const Delhi = () => {
     ? [
         ...existingFilteredTopSpaces,
         ...extraAreaCards.filter(
-          (extra) => !existingFilteredTopSpaces.some((ex) => ex.name.toLowerCase() === extra.name.toLowerCase())
+          (extra) =>
+            // keep only extras that really belong to the clicked area
+            (extra.area?.toLowerCase() === selectedNeighborhood.toLowerCase() ||
+              extra.location?.toLowerCase().includes(selectedNeighborhood.toLowerCase())) &&
+            !existingFilteredTopSpaces.some((ex) => ex.name.toLowerCase() === extra.name.toLowerCase())
         )
       ]
     : activeTopSpaces;
