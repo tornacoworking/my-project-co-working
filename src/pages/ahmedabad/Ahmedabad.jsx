@@ -310,7 +310,14 @@ const Ahmedabad = () => {
   );
 
   // Combined cards to display in top grid (area cards first, then the extras, one single list):
-  const combinedSpaces = selectedNeighborhood ? [...areaAllCards, ...nearbyAreaCards] : activeTopSpaces;
+  // Only cards of the clicked area (each once) - the "nearby" extras from other areas are not mixed in
+  const combinedSpaces = selectedNeighborhood
+    ? areaAllCards.filter(
+        (space, index, list) =>
+          space.area?.toLowerCase() === selectedNeighborhood.toLowerCase() &&
+          list.findIndex((other) => other.name.toLowerCase() === space.name.toLowerCase()) === index
+      )
+    : activeTopSpaces;
 
   // Apply price filter to displayedSpaces
   const displayedSpaces = selectedPrice
