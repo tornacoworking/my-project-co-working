@@ -3,6 +3,7 @@ import Homepage from './home/Homepage';
 import Navbar from './navbar/Navbar';
 import { getDehliOfficeCardById } from './pages/delhi/delhiData';
 import { getPuneOfficeCardById } from './pages/pune/puneData';
+import { getBangaloreOfficeCardById } from './pages/bangalore/bangaloreData';
 import { getGurugramOfficeCardById } from './pages/gurugram/gurugramData';
 import { getIndoreOfficeCardById } from './pages/indore/indoreData';
 import { getBhubaneshwarOfficeCardById } from './pages/bhubaneswar/bhubaneswarData';
@@ -11,6 +12,7 @@ import VirtualOffice from './virtual/Virtualoffice';
 
 import AhmedabadPage from './pages/ahmedabad/Ahmedabad';
 import BangalorePage from './pages/bangalore/Bangalore';
+import BangaloreOfficeDetail from './pages/bangalore/BangaloreOfficeDetail';
 import BhubaneswarPage from './pages/bhubaneswar/Bhubaneswar';
 import ChandigarhPage from './pages/chandigarh/Chandigarh';
 import ChandigarhOfficeDetail from './pages/chandigarh/ChandigarhOfficeDetail';
@@ -46,6 +48,7 @@ const OfficeRoute = () => {
   const { id } = useParams();
   if (getDehliOfficeCardById(id)) return <DelhiOfficeDetails />;
   if (getPuneOfficeCardById(id)) return <PuneOfficeDetail />;
+  if (getBangaloreOfficeCardById(id)) return <BangaloreOfficeDetail />;
   if (getKochiOfficeCardById(id)) return <KochiOfficeDetail />;
   if (getChandigarhOfficeCardById(id)) return <ChandigarhOfficeDetail />;
   if (getJaipurOfficeCardById(id)) return <JaipurOfficeDetail />;
@@ -65,6 +68,7 @@ const App = () => {
         <Route path="/coworking/ahmedabad" element={<AhmedabadPage />} />
         <Route path="/coworking/ahmedabad/:id" element={<AhmedabadOfficeDetails />} />
         <Route path="/coworking/bangalore" element={<BangalorePage />} />
+        <Route path="/coworking/bangalore/:id" element={<BangaloreOfficeDetail />} />
         <Route path="/coworking/bhubaneswar" element={<BhubaneswarPage />} />
         <Route path="/coworking/bhubaneshwar" element={<BhubaneswarPage />} />
         <Route path="/coworking/bhubaneshwar/:id" element={<BhubaneshwarOfficeDetail />} />
