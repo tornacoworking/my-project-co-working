@@ -288,7 +288,12 @@ const Indore = () => {
 
   // Combined cards to display in top grid (area filtered):
   const combinedSpaces = selectedNeighborhood
-    ? (areaExtraOfficeCards[selectedNeighborhood] || [])
+    ? (areaExtraOfficeCards[selectedNeighborhood] || []).filter(
+        (space, index, list) =>
+          // only cards that really belong to the clicked area, each one once
+          space.area?.toLowerCase() === selectedNeighborhood.toLowerCase() &&
+          list.findIndex((other) => other.id === space.id) === index
+      )
     : activeTopSpaces;
 
   // Apply price filter to displayedSpaces
@@ -423,8 +428,7 @@ const Indore = () => {
       <section aria-label="Coworking spaces list">
         {selectedNeighborhood && displayedSpaces.length > 0 && (
           <p className="mb-3 text-xs sm:text-sm text-slate-600">
-            Showing {displayedSpaces.length} coworking spaces in {selectedNeighborhood} and nearby areas
-            ({displayedSpaces.filter((space) => space.area === selectedNeighborhood).length} in {selectedNeighborhood}).
+            Showing {displayedSpaces.length} coworking spaces in {selectedNeighborhood}.
           </p>
         )}
         {displayedSpaces.length === 0 ? (
