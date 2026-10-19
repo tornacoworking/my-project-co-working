@@ -246,7 +246,6 @@ const Delhi = () => {
 
   // A location tile toggles that area filter and scrolls up to the cards header
   const handleLocationClick = (locationName) => {
-    console.log('[DEBUG tile click] value:', JSON.stringify(locationName), '| length:', locationName.length);
     setSelectedNeighborhood((prev) => (prev?.toLowerCase() === locationName.toLowerCase() ? null : locationName));
     const headerElement = document.getElementById('coworking-listings-header');
     if (headerElement) {
@@ -296,13 +295,10 @@ const Delhi = () => {
 
   // Current page ke existing top cards me se area match
   const existingFilteredTopSpaces = selectedNeighborhood
-    ? activeTopSpaces.filter((space) => {
-        const isMatch = space.area?.toLowerCase() === selectedNeighborhood.toLowerCase();
-        console.log('[DEBUG main loop] selected:', JSON.stringify(selectedNeighborhood),
-          '| card.area:', JSON.stringify(space.area), '| match:', isMatch);
-        console.log('[DEBUG main loop] card keys/values:', Object.entries(space).map(([k, v]) => `${k} = ${Array.isArray(v) ? `[array x${v.length}]` : JSON.stringify(v)}`));
-        return isMatch;
-      })
+    ? activeTopSpaces.filter(
+        (space) =>
+          space.area?.toLowerCase() === selectedNeighborhood.toLowerCase()
+      )
     : activeTopSpaces;
 
   // Selected area ke extra 10 real cards (sirf tab milenge jab area button active ho)
@@ -314,15 +310,14 @@ const Delhi = () => {
   const combinedSpaces = selectedNeighborhood
     ? [
         ...existingFilteredTopSpaces,
-        ...extraAreaCards.filter((extra) => {
-          const areaMatch = extra.area?.toLowerCase() === selectedNeighborhood.toLowerCase();
-          console.log('[DEBUG extras loop] selected:', JSON.stringify(selectedNeighborhood),
-            '| extra.area:', JSON.stringify(extra.area), '| areaMatch:', areaMatch);
-          console.log('[DEBUG extras loop] card keys/values:', Object.entries(extra).map(([k, v]) => `${k} = ${Array.isArray(v) ? `[array x${v.length}]` : JSON.stringify(v)}`));
-          // keep only extras that really belong to the clicked area
-          return areaMatch &&
-            !existingFilteredTopSpaces.some((ex) => ex.name.toLowerCase() === extra.name.toLowerCase());
-        })
+        ...extraAreaCards.filter(
+          (extra, index, list) =>
+            // keep only extras that really belong to the clicked area
+            extra.area?.toLowerCase() === selectedNeighborhood.toLowerCase() &&
+            // the data repeats some cards (same id); duplicate React keys leave stale cards on screen
+            list.findIndex((other) => other.id === extra.id) === index &&
+            !existingFilteredTopSpaces.some((ex) => ex.id === extra.id || ex.name.toLowerCase() === extra.name.toLowerCase())
+        )
       ]
     : activeTopSpaces;
 
@@ -444,10 +439,9 @@ const Delhi = () => {
               <button
                 type="button"
                 key={neighborhood}
-                onClick={() => {
-                  console.log('[DEBUG pill click] value:', JSON.stringify(neighborhood), '| length:', neighborhood.length);
-                  setSelectedNeighborhood(isSelected ? null : neighborhood);
-                }}
+                onClick={() =>
+                  setSelectedNeighborhood(isSelected ? null : neighborhood)
+                }
                 className={`text-[11px] sm:text-xs px-2.5 py-1 rounded border transition-colors cursor-pointer shadow-2xs ${
                   isSelected
                     ? 'bg-blue-600 text-white border-blue-600 font-semibold'
