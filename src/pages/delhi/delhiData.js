@@ -25,7 +25,6 @@ export const dehliNeighborhoods = [
   "Pusa Road",
   "Jasola",
   "Karol Bagh",
-  "West Delhi",
   "Defence Colony",
   "Patel Nagar",
   "Lajpat Nagar",
