@@ -321,10 +321,21 @@ const Delhi = () => {
       ]
     : activeTopSpaces;
 
+  // With an area selected, every card is shown only once across all grids (the data repeats some cards)
+  const shownCardNames = new Set();
+  const isFirstShow = (space) => {
+    if (!selectedNeighborhood) return true;
+    const cardKey = space.name.toLowerCase();
+    if (shownCardNames.has(cardKey)) return false;
+    shownCardNames.add(cardKey);
+    return true;
+  };
+
   // Apply price filter to displayedSpaces
-  const displayedSpaces = selectedPrice
+  const displayedSpaces = (selectedPrice
     ? combinedSpaces.filter(matchesPrice)
-    : combinedSpaces;
+    : combinedSpaces
+  ).filter(isFirstShow);
 
   // Cards of the second ("Additional") grid for the active page
   const activeMoreSpaces = currentPage === 1 ? moreDehliOfficeCards : currentPage === 2 ? pageTwoMoreDehliOfficeCards : currentPage === 3 ? pageThreeMoreDehliOfficeCards : [];
@@ -334,7 +345,7 @@ const Delhi = () => {
     const matchesArea = !selectedNeighborhood ||
       space.area?.toLowerCase() === selectedNeighborhood.toLowerCase();
     return matchesArea && matchesPrice(space);
-  });
+  }).filter(isFirstShow);
 
   // Cards of the third ("Spotlight") grid for the active page
   const activeFinalSpaces = currentPage === 1 ? finalDehliOfficeCards : currentPage === 2 ? pageTwoFinalDehliOfficeCards : currentPage === 3 ? pageThreeFinalDehliOfficeCards : [];
@@ -344,7 +355,7 @@ const Delhi = () => {
     const matchesArea = !selectedNeighborhood ||
       space.area?.toLowerCase() === selectedNeighborhood.toLowerCase();
     return matchesArea && matchesPrice(space);
-  });
+  }).filter(isFirstShow);
 
   // Cards of the fourth ("Featured") grid for the active page
   const activeOfficeCards = currentPage === 1 ? featuredDehliOfficeCards : currentPage === 2 ? pageTwoFeaturedDehliOfficeCards : currentPage === 3 ? pageThreeFeaturedDehliOfficeCards : []; 
@@ -354,7 +365,7 @@ const Delhi = () => {
     const matchesArea = !selectedNeighborhood ||
       space.area?.toLowerCase() === selectedNeighborhood.toLowerCase();
     return matchesArea && matchesPrice(space);
-  });
+  }).filter(isFirstShow);
 
 
   return (
