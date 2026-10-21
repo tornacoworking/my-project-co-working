@@ -7,7 +7,8 @@ import { findOfficeBySlug, officePath } from "../../common/slug.js";
 export const puneNeighborhoods = [
 "Palarivattom",
  "Edappally", "Ernakulam",
-  "Kadavanthra", "Kakkanad"
+  "Kadavanthra",
+   "Kakkanad"
 
 ];
 
