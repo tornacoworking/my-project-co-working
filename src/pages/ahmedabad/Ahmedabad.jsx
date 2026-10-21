@@ -311,11 +311,18 @@ const Ahmedabad = () => {
 
   // Combined cards to display in top grid (area cards first, then the extras, one single list):
   // Only cards of the clicked area (each once) - the "nearby" extras from other areas are not mixed in
+  // The card's "area" tag is broad (e.g. Nikol and Memnagar cards are tagged Navrangpura), so the real locality decides.
+  const normalizePlace = (text) => String(text || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+  const placeOfSpace = (space) =>
+    ahmedabadNeighborhoods.find((place) => normalizePlace(place) === normalizePlace(space.locality)) ||
+    ahmedabadNeighborhoods.find((place) => normalizePlace(space.location).includes(normalizePlace(place)));
   const combinedSpaces = selectedNeighborhood
-    ? areaAllCards.filter(
+    ? [...allAhmedabadOfficeCards, ...Object.values(areaExtraOfficeCards || {}).flat()].filter(
         (space, index, list) =>
-          space.area?.toLowerCase() === selectedNeighborhood.toLowerCase() &&
-          list.findIndex((other) => other.name.toLowerCase() === space.name.toLowerCase()) === index
+          placeOfSpace(space) === selectedNeighborhood &&
+          list.findIndex(
+            (other) => other.name.toLowerCase() === space.name.toLowerCase() && placeOfSpace(other) === selectedNeighborhood
+          ) === index
       )
     : activeTopSpaces;
 

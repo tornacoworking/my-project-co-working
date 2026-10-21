@@ -15,7 +15,11 @@ export const ahmedabadNeighborhoods = [
   "Satellite",
   "Ellisbridge",
   "Makarba",
-  "Bopal"
+  "Bopal",
+  "Thaltej",
+  "Sindhu Bhavan Road",
+  "Sola",
+  "Nikol"
 ];
 
 // ============================================================================
