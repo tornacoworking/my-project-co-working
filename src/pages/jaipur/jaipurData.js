@@ -11,7 +11,6 @@ export const jaipurNeighborhoods = [
   "Lalkothi",
   "Pratap Nagar",
   "Nirman Nagar",
-  "Subhash Nagar",
   "Shyam Nagar"
 ];
 
