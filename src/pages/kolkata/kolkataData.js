@@ -8,7 +8,7 @@ export const puneNeighborhoods = [
 "Palarivattom",
 "Edappally",
 "Ernakulam",
-  "Kadavanthra",
+"Kadavanthra",
    "Kakkanad"
 
 ];
