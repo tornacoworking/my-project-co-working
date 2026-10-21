@@ -296,15 +296,23 @@ const Chandigarh = () => {
     : [];
 
   // Combined cards to display in top grid (area filtered):
+  // "Mohali" is tagged on many cards that sit in other areas (Zirakpur, Phase 8B, Sector 73/74 ...),
+  // so for Mohali the card's location must also say Mohali and must not name another area.
+  const belongsToSelectedArea = (space) =>
+    space.area?.toLowerCase() === selectedNeighborhood.toLowerCase() &&
+    (selectedNeighborhood !== 'Mohali' ||
+      (space.location?.toLowerCase().includes('mohali') &&
+        !chandigarhNeighborhoods.some(
+          (other) => other !== 'Mohali' && space.location.toLowerCase().includes(other.toLowerCase())
+        )));
+
   const combinedSpaces = selectedNeighborhood
     ? [...allChandigarhOfficeCards, ...extraAreaCards].filter(
         (space, index, list) =>
           // only cards that really belong to the clicked area, each card once (the data repeats some cards)
-          space.area?.toLowerCase() === selectedNeighborhood.toLowerCase() &&
+          belongsToSelectedArea(space) &&
           list.findIndex(
-            (other) =>
-              other.area?.toLowerCase() === selectedNeighborhood.toLowerCase() &&
-              other.name.toLowerCase() === space.name.toLowerCase()
+            (other) => belongsToSelectedArea(other) && other.name.toLowerCase() === space.name.toLowerCase()
           ) === index
       )
     : activeTopSpaces;
