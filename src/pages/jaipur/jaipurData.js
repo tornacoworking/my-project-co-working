@@ -9,8 +9,6 @@ export const jaipurNeighborhoods = [
   "Mansarovar",
   "Tonk Road",
   "Lalkothi",
-  "Indrapuri",
-  "Ganpati Nagar",
   "Pratap Nagar",
   "Nirman Nagar",
   "Subhash Nagar",
