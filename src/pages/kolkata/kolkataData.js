@@ -9,7 +9,7 @@ export const puneNeighborhoods = [
 "Edappally",
 "Ernakulam",
 "Kadavanthra",
-   "Kakkanad"
+"Kakkanad"
 
 ];
 
