@@ -56,7 +56,7 @@ export { heroBackgroundImage };
 //  - Homepage.jsx (native city dropdown selector)
 //  - CityPopup.jsx (modal title and header)
 // ============================================================================
-export const cityNames =[
+export const cityNames = [
   { name: "Ahmedabad", image: ahemdabad, famousPlace: "Sabarmati Ashram", famousPlaceImage: "sabarmati_ashram.jpg" },
   { name: "Ambala", image: ambalaImg, famousPlace: "Rani Ka Talab", famousPlaceImage: "rani_ka_talab.jpg" },
   { name: "Aurangabad", image: aurangabadImg, famousPlace: "Bibi Ka Maqbara", famousPlaceImage: "bibi_ka_maqbara.jpg" },
