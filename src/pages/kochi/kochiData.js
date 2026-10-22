@@ -7,7 +7,6 @@ import { findOfficeBySlug, officePath } from "../../common/slug.js";
 export const kochiNeighborhoods = [
   "Kakkanad",
   "MG Road",
-  "Kaloor",
   "Edappally",
   "Panampilly Nagar",
   "Infopark",
