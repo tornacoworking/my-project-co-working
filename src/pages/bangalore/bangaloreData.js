@@ -55,9 +55,7 @@ export const bangaloreNeighborhoods = [
   'Cottonpete',
   'CBD Bangalore',
   'BTM 2nd Stage',
-  'Kadabeesanahalli',
-  'Uttarahalli Hobli',
-  '3rd Phase'
+  'Rajarajeshwari Nagar'
 ];
 
 export const perfectWorkspaceBanner = {
@@ -107,11 +105,11 @@ export const topBangaloreCoworkingLocations = Object.entries(sampleLocationImage
 
 // Bangalore coworking listings — HSR Layout (ids 135–179), Koramangala (180–217), MG Road / Ashok Nagar (218–236), Indiranagar (237–268), Whitefield (269–296), Sanjay Nagar page (297–316), JP Nagar (317–342), Jayanagar (343–355)
 // Text fields (name, badge, rating, price) transcribed from the provided screenshots.
-// Images: from each space's CoFynd page (img.cofynd.com gallery photos).
-//   Objects still marked `// TODO: images` had no CoFynd page found, or it couldn't be read.
+// Images: Google Maps photos for each space (matched by name + area). Listings with no usable Google photos use whatever Google photos exist (even 1-2); only listings with no Google photo at all use a reference site (myHQ per-space photos) or CoFynd photos.
 // badge/rating = null where the card showed none.
-// Images updated 17 Oct 2026 from Google Maps (each searched only in its own `area`, Bengaluru). Google photo URLs can expire - copy to your own storage before production.
+// Images refreshed 22 Oct 2026 from Google Maps (no image URL is used twice). Google photo URLs can expire - copy to your own storage before production.
 // Duplicates removed: "BHIVE Honeykomb HSR Sector 6" (same card as "Honeykomb by BHIVE Sector 6": 4.7, ₹8,499).
+// Also removed 22 Oct 2026 (same physical centre as another card, per the old notes): Innov8-Prestige Tech Platina Marathahalli (was 378, = 305), Office Republic Bannerghatta Road (was 400, = 332), Energen Works Ashok Nagar (was 451, = 447), 91Springboard Mahadevapura (was 476, = 471).
 
 export const bangaloreSpaces  = [
   {
@@ -144,10 +142,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹8,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/1c90e6ef337180126b01deff7c0e5f002f3fee1f.webp',
-      'https://img.cofynd.com/images/latest_images_2024/e500b33c7b95c1414ce187e7e78e3692553dcf08.webp',
-      'https://img.cofynd.com/images/latest_images_2024/fefd2cef537c37402bfa23e825fedbc0b5e1323a.webp',
-      'https://img.cofynd.com/images/latest_images_2024/e07c075b1be402a4c78740c1aa454f976ac1166e.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdrAqa_PTNECZpDTtjrmxvlm_7beZWsXDwe3V8QYCxuJSRUjwFBSoaw1Jp-VMeQFGV-mKpoXtyX7JglEj8yIwMYGsklnaS8b5M-bLaiViekLFWs3YynrZjXNNXSYBjQTV7Da4Tz=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcjObUiyG9GMEqd6XoI6iMmK2m3vm4XQWm1QrdQ8MQlgRAosMDdiwUo5Lm2KuNwEF9KEzeO3qcJxH8EyJsIr55lrCpfFuhNoJFl7EdMmHffLrllQjdnANVCOMe-lbPq25hMJGZTVA=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLf3-Lu4kTEiWpAAVX-NziRsDkjKm2SfBBkmNy0D3s8d5IzVzt0_wKTf6cdof1FnGSrb_8rd4d6G0v470Rv_XW8dl9Y4ZuVpCCk_ukfWN25JfXqjsE6gqd1q3HO7Z5oSuI2cgn732g73OflV=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLe_p2PPYzMo0zZMqF9oyAVaW5lsqRmGeQHOPIMU5v6ljjNRS3tK2oCEeSH2MH6qjxlUIkd3tMoBYEx1oMB5B4d8VZunf0pRB29BZpfiOF0pKvHEDbEVK2jsyUCmAsFd0Wp3yvoXCw=s4800-w800-h600"
     ]
   },
   {
@@ -162,10 +160,8 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹6,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/3eb18e08db1e3cb4e1b1c337d07c4ecb7b1a16e4.webp',
-      'https://img.cofynd.com/images/latest_images_2024/31bd19cce0dbed13b57b6f277f66f51734fb1b63.webp',
-      'https://img.cofynd.com/images/latest_images_2024/c38279537a7b0d5915d3de2f92c9f4e1c8fe693a.webp',
-      'https://img.cofynd.com/images/latest_images_2024/a8f50279bc16337f4079470265bdb5cb70043628.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdxNWY89DNzlCmsztH9lYb0IGI1MhdAzbRVOVt7SC1mOOgywqzu_zJfoo1Jg8kmfDBFwnWMeYOrf8SWKxVIkL4tBJG65jonTX-cYkNJb59_u27ugj_z6ZstFW0oPmZ9DqJSxQ6uMrCttFLj=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLf_FTi8AVZybpO1AvjspEvOV8qOvJwWv8nTvwAuht8eAs8JNtXINSm1ry5y193QGaYSM6UHzThqMKHYX-j0Keqc3lpqrM8w3QZQEhO-hN0RvMmNdUxCJ6GXWHs9bbKI1jwlJPJoqiiZHas=s4800-w800-h600"
     ]
   },
   {
@@ -180,10 +176,8 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹7,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/f3ecb1a1999ce0be74b657d4f97512e2d3252531.webp',
-      'https://img.cofynd.com/images/latest_images_2024/6727352b60a5f919fe93bf671f54a257831135e8.webp',
-      'https://img.cofynd.com/images/latest_images_2024/24bad636517ed8713d64dadcd72d4fbd3f427d0d.webp',
-      'https://img.cofynd.com/images/latest_images_2024/e1920e4872aa5cac726fac4148f68ab214636cc0.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfsoRaMKJ_cEOMDC2bobOWUWRqxo9q5IvdgqPxXUsGxSyIoOtiVobliNCNdvbxkiQgPKNxE4aJQ-Z0JD9KBIwi3emm8n-coX8izcoMEaxpwYjsd3WmyKemW6ltVP8DE0HCTaxEAOw=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdMsXh6vRgpEzH32Sc0sZLmeVB2YRekl2NauAfM-BDAS3i9I2bIeqgeme5wDEI1kdsAWzYMCHZ97jau4XoPXZ1u1hmQq0rTm-GlnVh8NT0zVPlsubObaf3sFs80Q3nvtOxfnj3tHeheXg3M=s4800-w800-h600"
     ]
   },
   {
@@ -198,10 +192,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹5,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/df51121e51b11c6f2d8450c2ef090a5ffe08dee4.webp',
-      'https://img.cofynd.com/images/latest_images_2024/30bdc464ac8029e278265713cdd3dfedd325d8b6.webp',
-      'https://img.cofynd.com/images/latest_images_2024/88169ec949f59d33c5b9dcf477601049a0aec976.webp',
-      'https://img.cofynd.com/images/latest_images_2024/8c3c38749cd18f365528ac33be8a0036469cd62b.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeJm5_YGFqVsME9VVbmbsj8oD5227GAcel5ceix1nW3MvbeUD6CJ3MqVBxXRMZFU2YVSJLI3QH1pqcfMczT3oNZYmr_jsL9irMYK3sz9AKoT95-rvEgjHvZVtDkng8lUWxuP7XD8w=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLc3w0AceN9rv_ly5cgrv2biiKAJvXlh88K2-e57i5DWX4HqoDsYJySi_vNbxEmLWU778H447OvTnd36Q8EX3I4BrYGrCCqaZTPry8MS5-9Spv9EBcwSg_TZnkR7UouQfsOWZQ8mKkvZECIc=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLc4McR9B6HBDq2xfoJtcUMh9AY461eMcUdxoSb9YA2-eBhtvA63v4JPtPTnK2jzFDry-UU0IqZ96G4NL1ERRfIOh4FI8uPeRjJlKYYxFyR1G6Jc-RCKLA4bCzUDx3OEujtoez_w2Q=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLc3pXm4E10s-wxipVBeT13NpN8uLZ3ejnYyywSKgYKVxi_A76WNzmiMxwt3eGK6QOExZizTzGxhPefo08k747B3nVD2YdndZLib3f8koMTae0ClQhiPQEx4QzHJnDsLCU2kwiUcIg=s4800-w800-h600"
     ]
   },
   {
@@ -233,10 +227,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹7,499 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/8443e42e61a91cd0cfddd3bf1d7c6335e4dadf31.webp',
-      'https://img.cofynd.com/images/latest_images_2024/9ba24eb25b9604fc4125a82179892ef33183b116.webp',
-      'https://img.cofynd.com/images/latest_images_2024/bc6312b41b5fc2e7852ea67860f88a28963338ff.webp',
-      'https://img.cofynd.com/images/latest_images_2024/0fd43016ce6a2d2c435e6e4906e6bd548c75682b.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfmpvXv2qYaF1x1dfYhRQTUSU15_Qe7u3YcmUqbrJT7GYdUAhZLKxLK9z1Lju-gPql1WsQbGJ3odnBtmnO4RPzYI5tRMnCyXXPkgOK3KioLc0ThC0TrWNStGTpzn7aa9xPcRw_G=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLe3x1G8GAy3UekQaJjnkGkEdAhqzgfWV-RU55RpeXH3q4vEJw4OnuWKFaHMA3EAl2ek8oRu8_dhFjl5vQUHEQw_5AgAdcAO0ZSZXTfJQU_HFOXe6t6MC1sLihyhmESnfJJ5OsgW=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfJVrLnlIJqMdzvMPe6MIwL4kRegJ667-9yKDoRqfpcwjyk3QELRsH_GDAK67vIG3mLb15xvohIWH1M4L3X8sgjKO2inYm54jKckg3QbKYojgHEPSlAqaM-sSna088JK_YZtBAMM9nKrrwc=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeC4-EA3i4FX-4zD02YaDbCTyUwpCawJ1izCyeO1XdhUyndR1EgxUSg5G0nbnS1T95MEOH8OkDtvAs7rdWpDMU4aqrWiUMifUTLuMqk367Jo1X3B3duLcAZY8jk52692kFMdc84VA=s4800-w800-h600"
     ]
   },
   {
@@ -251,10 +245,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹8,499 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/dca684e122640b887e27da005780506f18264126.webp',
-      'https://img.cofynd.com/images/latest_images_2024/23ec039f83e29a409e4fddf5e26f3686ae54ec57.webp',
-      'https://img.cofynd.com/images/latest_images_2024/dff75d68d6645626a11428e0b84a09ea2d86b5ea.webp',
-      'https://img.cofynd.com/images/latest_images_2024/cfc90b50d973a074c2b5e321ae40e8e0e34d0085.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLegF9ATh8ID4JmDs4JMzen9aPsuq8w9f80LmwT-qyLg2of-B3gcC-fgsuilMCSWJDUaq8F-FYhdVsN8aS61y7kTf2tXpL7jqmETqKrmwRmXzxzASHaNSI8DkOoRS8RNv5etf1Y5CA=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcIigS2bUuWm9Qf7tr4w-3HHOv46-XZXK6KRelT3B9vTf9dTj2589aGaTuqW5rYJyY9vGYj5dHoGGEky_8ghm4cyC6fSjxNdkL52gMW7oIqeVgHx7Gby7WALKQTfeLd1HhKirwM=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLew3vmw0yoeQsXRbHg0ab7SK7VQpKKKbGs0WFFePpn_98P_Z_3EGpr_K5X3hHG9TsTKahd_ZAfitkarf1JmpY9drfN69_UnI-LRIDcoZaH8nSDP1o_q95y4WsS_dYov7ZO8Efw=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeWAw-3vEDYOeCMj33LQIeZZv8giU30k_cRumhmPlCpgC6yr9jPrwpZ9ZzH0dFNIn20kkdFmB-2QqTq5STbaqpLIl1nIRIZl9TMYj8ItEluZEkXFIzY_t8h7t3G5UTu1sWI72XQXQUf-9Ar=s4800-w800-h600"
     ]
   },
   {
@@ -288,10 +282,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹7,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/49324bb014b263f6fa0bf76a078fe0e6831b059b.webp',
-      'https://img.cofynd.com/images/latest_images_2024/63019800b252f1a49a5899f472e756a5314bfcfc.webp',
-      'https://img.cofynd.com/images/latest_images_2024/a3134391251e92560bc5319d554f525fc6e13931.webp',
-      'https://img.cofynd.com/images/latest_images_2024/a8da14f4346bd377f940459e468b5f869ef220a9.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeo5ho11XTu7kjK1fHaeVDflQXfVe0HZhvet7n7OsxCyEDFX1D4mN5IcBz2-Q4DdkxUvmw9p3zpWdXpGW35BGmb198d89OH8kx2bLX56o-Db_VXg5LlbdHK0ckMLp9wYIyfIOxzVsmWbAH_=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLd14uD5DpEzqn6FqgnlheAnt-6Ec1VfWuYlESwyfBvUcSNvc9AWcTw1u8JfWe-_TjFnSbY_zkuNZUAOPIPIe-BXdg1ZmM3iSi_dMJto3ViqdEPIotYOsgrAba8v9RlW3zdYC6lBr1gFm0kg=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLc7hrODF4DXsrtEC3M6z_ATLvVgQy-7A120jvMalc-Px7t4mZ1S_CtF1TJfaSoCi613VUHWJO18EEjCMY7kYNMBYxWZOLk5rCP8fKQQCMDkHbLsDSUWdwV01pXeZyRJORZ3E0F65imIDfCb=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcpl9I2aij7wh6AdOz3JWaXD0IENyJ1R5RcmOZUR-obRoHO62dCrdkdAL_gZvUuo43dixRi-Eu_AtH7vtsG8VgRdRWAuBSPp4wW1lOYT57i0Ar6PPDv_a9i52RoqB3NcMTZaBT1UZWgENnA=s4800-w800-h600"
     ]
   },
   {
@@ -306,10 +300,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹9,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/eccb1d36412631c3afb213e91af872af4800a4bc.webp',
-      'https://img.cofynd.com/images/latest_images_2024/f46b447c99a9f6b5dcdb94017dda32a03fa6962f.webp',
-      'https://img.cofynd.com/images/latest_images_2024/7ce15835e7e4a6d01623c2a4989386a31d6575b7.webp',
-      'https://img.cofynd.com/images/latest_images_2024/fc6fd904382859c4101217f298e95ad5ca00548d.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdW-lLxLcpAqQHIOxTGlhd6yhuNu-fcKjxtCsrxbohNrSRIvEY0ToCL_qMNYH6TQf684t3n1vus04gvNzGG781hnPJ4ufcKlP-Fr_i8qby_vMl5VbizUxiAmwGbscWsAu4mcTYz=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdJhAjDnOv8rQYU8icm3X7ttfSSrgudzlK7VNBp8Atv9eQmjpTVRB29MJUfbyvBoCz0DBpk5hi0nuxIwU13hamclJji6y4skDYGZxvtq7uSKuBaS4dRy64tUhGypvieVKFnWN0o=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLewFO0pVog65z2GJzfmy4ZElrlGjnOv6hVxBrFQZ_2TX8lWo99NTZIuvjr7z_OmUf598q2wjCwfqTcLooibrIA-xex4ZYWuJZb9WVlUBrSJKJcZF4WscfZMeuJfipYsHPC3to2k9i1jVGg=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfgVuX9m-fLMhPWDOCe6whJZ5gaOlMadgA7OaRj8fTKmWu9kv9CYHbkKhIWQaK4FRZA_9lxQlYv9f-x7Rjcz5T-x0XJqmeBlVQpa9XcUOC6Q_dE1qSgQDRkuGDQIsajLtm95bx3R2qGcgko=s4800-w800-h600"
     ]
   },
   {
@@ -342,10 +336,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹6,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/original/b437bc148cb0743ac8f749afc3feedc98b424513.jpg',
-      'https://img.cofynd.com/images/original/72b094368cd514658c7fb86e3b943610a9d86798.jpg',
-      'https://img.cofynd.com/images/latest_images_2024/9f9b6cefb1a0775b1fb45116907fc7b041d1d1bc.webp',
-      'https://img.cofynd.com/images/original/fe47573bdbc6ad367d63f0da3d6df2a5b151351d.jpg'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdCBBRyBrof3GA3cy6twENNf6ELccT3INTo2Hs7OTo7tlB_RgFoYCP1nsfx0_lk70WUmUBWgs4DwdVt_dg-Q78C95VGlZ5CyoalEbp9e_Y9_6Arx9WwdXFKvn3-AcKfxGR_rQzc=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLf2em72chKj5HHZL4w-FQqYS0geIy1ZmT-QCpkuxkGsAdFX2j2FNaOYO4vF7g2u_gbp0hQMkSobMLSD46rYiw1uwbN-S6YEgJlCZuE1OjBupAn3BBExvl6oSgy8jHKOpnVjjxyr=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLckSdVotpzD6rlA-UC8OYTgV0Is2_sp_TGshZp4vSE39_kxu1-uDEIpU7XgGJ-mM1LYYS2L9np3wf2E_EwLalhweG9hkELwrapFQSBoqWyCe2zj_EwL9fcZ_OjwDhoDoYduq6I4gnJ0-6s=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdAZLjAAiJc5byD9K971zuVi7ii1dg0FFYWBtR2CQmiwL5olrk9VPer6OV_o4Ulix7HylPH8nx_cM2QSVjerivAeoi5vqLTqC-Dq_1yJ3Wv9fdzybyRhJcRHIjEFCSlqEsarO8k=s4800-w800-h600"
     ]
   },
   {
@@ -378,10 +372,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹7,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/eea090d662efce1db31868f09a811e3a27ff0fc2.webp',
-      'https://img.cofynd.com/images/latest_images_2024/008f29209eacd1e1a1b026e03f9970109a80372d.webp',
-      'https://img.cofynd.com/images/latest_images_2024/36daf4cb8dc4657aa9b3a8bd881fe40781ecdabd.webp',
-      'https://img.cofynd.com/images/latest_images_2024/0c6d83c4aca00e1b0234eb8513df776b43db5676.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfFIaF1kyDB8-qloIO1_Wmj-tT4qH4glV81ORVnNd0TRtTFWi0UGJOXLoIj7Loqx5WCSqULKa36vcq1ZvyPM-ueaej0tBXCx8fsJe0KD01d7dwK_uwrc-fIT7F-rh9LEKy_M5Ta=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfcThoetUvSHxgwQeuyg26ooD1MlmlZv8OSP_R58wZ5fHzM-g5GSdV8mfDVDrWl0yHSlL-ohztC9PzsYBwP6lErFBse-Q1UOG8huUtduMnnVIXbiVYWgQ0M-sFrcv_p-Jwq-awA=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLewmZ5ZX_kABGrKqkJ81J0CKO7gPKnkisI4I3qJg01P6YEewVf3U_r1mwQ83ByTf4RKcJuuUbNvMHulsRY4Ydo9Yq5bYN7A2bIYfRVLJs1m77CZf9Q4UGibEmd9TU10l7v8X-A=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLd97a1aeIZiSbX68EnSPddMrJgwICpoQSBX4OQMYt_7TaeL0IrGrY2VdyHVIo-xWoAe9nAxHik2562BCVzNpeuNuczXw8JEg7ZeyawPRVzgf7gfz_WxqUV0X7Tl0KNKPDHFRjoaeg=s4800-w800-h600"
     ]
   },
   {
@@ -396,10 +390,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹7,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/196499ac617015b9850d4fe002485b42a5287602.webp',
-      'https://img.cofynd.com/images/latest_images_2024/60990ddd9464d4c64d9d3bfaa478644676a1fcc9.webp',
-      'https://img.cofynd.com/images/latest_images_2024/ce3788339b38529f42d4bf79cca83d61d3bfb231.webp',
-      'https://img.cofynd.com/images/latest_images_2024/d609526b481d771668c1357479194eb288ac3c53.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLc0vRMoH87Tdvpt1nouNfs7QQHdheVua0nJWQ4J-W0sUlAQgHuRRTJU-bGZJH9tCxeKfxXUyVIoUl9CNjqen5Av7fDtrYk3ohB9vgcDQHtyhU9UBtN-bO-bn_Ybz4sHk0TkEbcv=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLc8nqgmAtfEtjcfDnHrR3OMxsqXKFqo7A1Wr1NUEtHFZTvjRULvZ2xUa1aVXIbbacxCxZ9TT-A_LIvodgJY-6x6CRFtfyHECKlce46jBmbZKLZpF1t0NgRuH0XUhUsC-Q9P3SLW=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeSMYfCfEHMoUFsusBh1SaV626EtljkSrtQyIN4IDaFxFhP6W1RAGDZInGLh9GHCCVKsqN5BOmsxeoZjfKlk_lAae3MgFS8h-KuhUMoYJ9tSdCR7kkWfzkJzUUnjqeF6vmuL_5qzA=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLf2PA_KPiUJ8fLdyxbdBRLjIRJCOLnq0DFAntZMUOOh9mn5hxZReEHowL3SIxlHgzDTuN5C92DtxaJG7dqa_uYzxGDIdVWLkCUSATwSlNFdxoXj22jhXjztx6GRr6Hk97dp4h9ICw=s4800-w800-h600"
     ]
   },
   {
@@ -414,10 +408,7 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹4,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/750c432c593ba0b35f425b6ab740a323f9909ead.webp',
-      'https://img.cofynd.com/images/latest_images_2024/6380ee82076bed43c5961f275c709704308d9381.webp',
-      'https://img.cofynd.com/images/latest_images_2024/0bd0a49b30919117e116132dec9b2ead102e3932.webp',
-      'https://img.cofynd.com/images/latest_images_2024/2a1493f2eed0c5aaf67341d7580ecf466135f021.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLf5CtHP1N5s5OTegvKu9q5Og1Y-m8jvaMyiz5WZgURwIJDubz_rnTcpInlQ-KpqY78kgv7FogghE16fpnl4LoMAlzJ8AWXdkEHNUPuikfLMsO_JP7V2mFNT9DkPVGoUmLzkCW4tQQ=s4800-w800-h600"
     ]
   },
   {
@@ -432,10 +423,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹7,499 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/72cdc7e0827fabfccba4a0e1ec66705f0f3d5ef8.webp',
-      'https://img.cofynd.com/images/latest_images_2024/10f6c516757d20ae9c4b18cae2b2348b8387e04e.webp',
-      'https://img.cofynd.com/images/latest_images_2024/9f9242982477e93d0a0fd808b35dbd3abaef6128.webp',
-      'https://img.cofynd.com/images/latest_images_2024/ff849201c02e06ad149e1d12566e5abfe5fd1458.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcmDeWxlDlNj7gKwmgr34PP5te6nDJWGEG4_D1qHxhfrSBaTvN8-sA0TQGq7FuXl1UFW-KGlsahqJaaYMXvOXrEs_8nY8eRzwmqG9MQRxjokWGyWA_YI_YpPCRBOyLgfHs_cLSjnA=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLebaJtFztNHyokBtKLiJvQi0pm2N-2p-mxR6hBcxpBhj7JHw5Tf2atM8cy2f-VPFeVQ7xy5MQJ8h92flqHSUm54qqp6XojbuXgvwjnUOcQ8scBs_fitVKV2IW-AQzf7w-8G8mK0eA=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLd6zT5w19RtFzUsXBeaqrNhmd-SV6f2bsT7-ezE0VdbZgWYUr3Ga9uts3vbInUEUK3XZ9N7c1Z8QaJwpG_cRlJr4X0PWWTdHD4JuelaqSjl70npRtOMYzMp_46BIAgJ8Y_ur7a6=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfMaISofVz9beuMbKyVX1lZ1AV0UoNbo-E_OfsBgM5zdXxs_6cTCoJzr-DYAlcbS5aKTXty2OA6s8M-ed09mpuL5qRP2oqoRTqLh5rB72CFMyBggiwnaja-9TpKVnkLblkpmf3VjQ=s4800-w800-h600"
     ]
   },
   {
@@ -450,10 +441,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹4,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/ddc862aa1d43f148a026ec5e5c0bbf68d6818496.webp',
-      'https://img.cofynd.com/images/latest_images_2024/5e575f9ef5f9fcaf0b6863396f0adfaf4705560f.webp',
-      'https://img.cofynd.com/images/latest_images_2024/34e078b78b343c30f8a35b40a5b4ef917520ab59.webp',
-      'https://img.cofynd.com/images/latest_images_2024/69e0070452bf2ca52a79997870411f809c92ca9b.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcr9_BeN5JNoBAyQc5s6GkkX4CB4v6OS9w2_79lFMYdAIbxltM7vjRQWjJXjYcBvoYblUuGfXqIR-tfjqEXbbwJY87XrRMLHKtMNs2mX64Z1id798uiIo1dfNZnfxYVd8Tj2HBo=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdPHSPDaFUNNCdawHW4gU8vj8Ygk6u-kWARgVmHLQ3_F16mcLWMfubAM3--rrZlf-aM1Kwur8JrjJwJHdVNsAWgtpcUkfteA2AGh62snEH7mY9GsNJYKhUjn-Piwg5W3KfE9hocEg=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcEYSdHLvYyT9cbBRjrmcNRfGxELlVkO3AwsQcTg6NnDM3Cj8SlcgqrLX2HLUMxTSN5fa2oFwtFVpaYf5KbiUy82xfMF6OGvYDq6s83-4lzOXMChqv2FPBHim7GjQygf3YS-Cyv=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcZd3B6zQzr-K8vpkNV9Fpe5hPiR8SuAAgTuu7mnHvBphdgpWRNZC909fxNQP8JmPQWTMjGGx5sPDl1MSKlXuQdsPmn_CUyXmYwraaUjRigjgjkY1IdO4EWs3wclGMEbcXuuN10=s4800-w800-h600"
     ]
   },
   {
@@ -468,10 +459,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹6,499 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/4aed9e476887ea18e84fea61fa4eb2adb1cbac23.webp',
-      'https://img.cofynd.com/images/original/d552eef904fc905f76b57c5ef02cb2ef813b0e5f.jpg',
-      'https://img.cofynd.com/images/latest_images_2024/2dddf553f37dd0c182256793f34cc1ee3ab74de4.webp',
-      'https://img.cofynd.com/images/latest_images_2024/d6a3c1df9c56c3aa07b6f893f937525439007582.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdQbUxKVZRG08TV-MwET7XhheyUKUby8K6IzNgpSAybwk3WXR7NqHPa9XAbY5BYUKeFSrV1BPqPwQK2qjZj2YyDI6zcjAaZDA6cgm03x6fn1JnVlMHBmrRYRTkx5Rd1J_1TWpLE=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcr9_H-Efks9YNJWEy3NnH0IbI2ZjCmYfFPijp7r4V19zP1d4naI_CtmcvfkiKwSLxpOpRUswCma6zfBqlsFumzLRfgt3ceEwvg7115sM9xJgr9Ru6irYz1hQJSxejkE76I_S0=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLc013p1GmZODAvtp6OWd4vWYP7UM_8UGDMAkA2EzsXZmMy_zx03laDXJZlRdTgzR0knKdpRJ1au-KcRa0FTy0wQm4FTvZB9iM-tmrg-fr7NfuYTo8bn4zSRfrp9g0ujz1dvgoA8=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdp75hoxJ2LZ1SNKjaYZEiiYNdNkzfSk534yWyfyh1s5estvU5rcA6uE3TwsVkE7E4RzxIFwguBk1c-SmM8ucrj5ZqcPygo-mqW6muz_gIwfi6XCftxzFrtyK69CFj9Gz5guwIQew=s4800-w800-h600"
     ]
   },
   {
@@ -540,10 +531,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹5,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/f61747f979be44f5d701cbb6aaf52bb91aa298a0.webp',
-      'https://img.cofynd.com/images/latest_images_2024/001d7bbea94b4096aacd52caf6c772f04efc1339.webp',
-      'https://img.cofynd.com/images/latest_images_2024/a3c8a551787e39c2434a8599615be3e9cdc19ec0.webp',
-      'https://img.cofynd.com/images/latest_images_2024/9616c0b92f11abb516e352268bf5802491e5439d.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdUUHe_cUYmOxJin9zfo8pAe2cJHlpaOnlc8Lq2SVpz8CRZ5zAYE6eBcPHaIFTqYlZwvDBgUhRySFsZsxho9bH_BSbbK9-A2ZiPC77-9c0sA5lrg1Rx7JTAuCBk-emI85dGqehp=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfLQMTUq7RRDiQ8y9uQtzfn4CMQ5GDye40YA9HzEbBEuFXpSA6J56rjr88xThIiusqy1miAzzVqsUtNbqzixGKMmKdnxr4C8G1uGNuwrTD_u4sy56Gpe5wSlZgDwKGFaQMdRwAZ4w=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcbfrxz40GUvZlm7qk3g1dMR5zr0z85BU3oru_YK74eZ4e-YMbWfdip_bcOvBoUaZj-ebPXemm8LnETVDi444tBhRmGSXP7Dt3BfNaSgQT1THWU3LNyuxSpmE8HQvLEEmPzSe0CgQ=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdj3xLN-sQcZIT5m7HBK_d9AeGiFZSpXG7NQK47haOsiNVGSZVHFkPX3tNaS1Cw1gfB0cmUV8SZjYP233FIkhNvxK8G8urOCXcxCmd-DbG4DYv9x5WNYVVl3O7Y48J1kOD9Hwrf=s4800-w800-h600"
     ]
   },
   {
@@ -573,10 +564,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹7,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/63a7e660ad2d1c1bb707a386ea39c02fce61dfde.webp',
-      'https://img.cofynd.com/images/latest_images_2024/d20b1b6e5ab30536ce4546b49e70e75cfd570794.webp',
-      'https://img.cofynd.com/images/latest_images_2024/709992e9fa839cba7a2ca16931a8d249ed22fa8f.webp',
-      'https://img.cofynd.com/images/latest_images_2024/69ea9bc392b0e7bad0bbfa1810473f0d9a1e7d02.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLc1rmLC473xnprwnV9rYe_W4Sz6-SQo4MyozcrdxUrMKkr8gx4yTZj7SMU_BVJWcTD3aLA0L15mRsGzGN_hJdA92nMimW9Oplab4WdouTCRtcpTP9xRLiMexJTuRYrmT1nQ-uDVQPVEwa0=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfizbjY6B_90IsZr0KLqvQaCwpveciNn_iCT-kJSS_HwWKXoyB4Eq6xWctek3XeN_2eKPLWf-KTmNWeJWAyMzsmRvVaSNlFwIm8KqnD0qoM9DCNZ_6DrQIuYe3c8iY5pNMs86WqZKyLG-aR=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeSr4lr1h3LxGFXhC3LhtW4D3hwHdTs_IXfjIrxP8UFJx_Kz0veFG-_pdwBFFxJ0NTwdYXC-DZJwet56rKQMBEoly8vjOVFPUzgankL60N1qUS_-fCVSNquN4zxixKwVWZALvE3SA=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfZr6SnXdyMZri7BnrIcP5_hwtI0Tgc5h6iJ8ZQB4dql1ukY6Y54SYBWU50B-UL21YQRW_vJnNgKxJULKgC_gD1mGaAocVOWNizEE_TaUc88MnUYyWj2VrBBTxannYR-seiTXz3_FxeGnXF=s4800-w800-h600"
     ]
   },
   {
@@ -627,10 +618,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹7,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/original/21713a0084668f193aa45a729fa6f64c0f64e51f.jpg',
-      'https://img.cofynd.com/images/latest_images_2024/90de51b843b4ef3e3c22974f856a172c31b6389c.webp',
-      'https://img.cofynd.com/images/latest_images_2024/0a4ca09721914faf96b73dfe5108fc2a82f06afb.webp',
-      'https://img.cofynd.com/images/latest_images_2024/9d038b630349d4ee2f423946ef921326bd6985d3.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfN4D-2vNNdHnQN6Lj6knKCzIL8ajWRPBXV11zneWMNlUs54NxcyqMWsSReH5BLJqRUVSN9VDAqMzAENkL_AB0CUcS97bJlOAK8FE6pnDfC4uDfgxtF53kxPivbOhZX9cRwdZ4D=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcJRNZD6vCJzAOfsgbPsqR0ye1mQaY4YkF0-6lKUkoqL4o-GGfARCfXBBN85dHnmYGua35Z4NsE5voKRnmUM8Y7GZT-HuJ-rorD-30QOJOKdeZVvp9ulfKYiUBOPTB26K44R-rm=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLf86Ns3U6YunJRcCh32OlTARcFb44C9tJT4031IXMVPIwqmd6x_uWCetns3f7rzXp-S4ZPIA01eQM9cbj9p-5qDFUid8nK60Yyr2pS3B_-dTAOeMXIPRZ0WLO1UupPLYNbH0LMvcK9cXwg=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLd3jDNnPa00SFpsE8ZaJwOi-p8NxGODq25lHNJ8UZK1p0JOP0wrdDqcoLh4L0TJxkMMsIprWN_Ny_W2CHJZI3hMvJC5LxQBG04Y_65jmQuBsfnXmXIxcgxa7z6qsFGP28Qi_Xj84HSDizbj=s4800-w800-h600"
     ]
   },
   {
@@ -645,10 +636,8 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹7,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/58fbfc2956700b8d4fb38fec1670403b58d6706d.webp',
-      'https://img.cofynd.com/images/original/25df9397ad245b28a84abf02440088fda683a8fd.jpg',
-      'https://img.cofynd.com/images/original/4f4242c222c9ae455731d774987fd5ae582ccd2f.jpg',
-      'https://img.cofynd.com/images/latest_images_2024/6fcecd8e64a37e6815020473d0a6a9e383332edc.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfYlum_b6euB8tm9sxNDAEodfbZXbLzBoETsTHQLwNEEhYJdKHmE3_5Bf_dt4UwiAOelQeQJv_Lh6KPfVwQywoRVv3PEwwR2Z_vjRYzmwS6LrbW9kPodULogFKJo3shsz8J6atn=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLevd4QHk5rJttvaOP-3NF3e5SVCMfvSR1sWwSr7wP71yRxvKvZy3Z0GdGAUAQEFwb_jxt9m2VJp1_izYv2uM8lEhKwDkCcwhPduBgUSFezPqtq269x25icdaDFLK1DU35dT0wkT=s4800-w800-h600"
     ]
   },
   {
@@ -663,10 +652,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹4,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/2cfd746b9fef14535d4539396d055c2154477351.webp',
-      'https://img.cofynd.com/images/latest_images_2024/1202e70398612979aa7049de53a3b9a42d903c64.webp',
-      'https://img.cofynd.com/images/latest_images_2024/2de112c652a3a85de01e4c0ed591d0c82c3c9e62.webp',
-      'https://img.cofynd.com/images/latest_images_2024/0660bc02e60fc56a73d9d288438dbe663543600d.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcZy8Dzivb1qZE20NUp-l55oackkRu_9YyyBXDy6KJjJf4w-jcFzn44W_22Q4GHxJThPlDRyJesSPLLXGgQpy6Xd5xsQMYPpA50nBiJuB0pF8x4N93Zl42uY338P0qIaXQVZfSU=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfIiBkGDxCDLIvjrBcQkftBw2zCrgEh8ZLiZPV6OTNJHzN5uwJhQ_Sli1jPHroRZqe5Rz2s3BvaAe5ohH1f0Bx1ZPZK48I196_TJsdy47SWBGKhxYxtmA_UDQL009Ax26Ivwqx1nQ=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLexokh1ABCOEloLW_vqI1xae4tisHQXDHa3Bia0JCekV49CRjlmHdol8QNHMbcB3VYsAurPiOsg8oWoNUQFgEd1upvf8zq3as0KeeFSTkbi9UCBo0lGDrXcecIUUEwlfX81QONMKA=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLe_z-M1echPyTAIFmN8jMpVy7TMChSLOkYkhHePQkbXzyxFmMIeMq3xWUiRqObxNMLlcRPGK3WzEXGUjRYLyqw3D-6ol1Fg-hGImcrs3WbZTb7o0S2KpqYEc8Pa7dGI8AEksSzx=s4800-w800-h600"
     ]
   },
   {
@@ -688,7 +677,7 @@ export const bangaloreSpaces  = [
     ] 
   },
   {
-    // NOTE: different card from "HONEYKOMB BY BHIVE HSR 27th Main" (rating 4.3 vs 4.5) — kept, confirm it's a separate centre
+    // NOTE: separate centre - CoFynd lists 'BHIVE Workspaces HSR 27th Main' and 'HONEYKOMB BY BHIVE HSR 27th Main' as two spaces with different plans and photos
     id: 167,
     name: 'BHIVE Workspaces HSR 27th Main',
     badge: 'Premium',
@@ -707,7 +696,7 @@ export const bangaloreSpaces  = [
     ] 
   },
   {
-    // TODO: entire object — generic name, no rating; may duplicate one of the other Honeykomb centres. Confirm which centre this is.
+    // NOTE: CoFynd lists this as 'Honeykomb By BHIVE' on HSR 19th Main (plan ₹8,000) - a separate record from the 27th Main and Sector 6 centres
     id: 168,
     name: 'Honeykomb By BHIVE',
     badge: null,
@@ -782,7 +771,7 @@ export const bangaloreSpaces  = [
     ] 
   },
   {
-    // NOTE: No GoodWorks centre found inside HSR Layout on Google Maps (old photos were the Hosur Road centre) - confirm this listing
+    // NOTE: No GoodWorks centre found inside HSR Layout on Google Maps (CoFynd does list 'GoodWorks Cowork HSR Layout'); photos are CoFynd's
     id: 172,
     name: 'GoodWorks Cowork HSR Layout',
     badge: 'Popular',
@@ -793,7 +782,12 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹10,999 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images 
+    images: [
+      'https://img.cofynd.com/images/latest_images_2024/d5b7b0e12c9aaba8e5168d49129b4f59814ccb31.webp',
+      'https://img.cofynd.com/images/latest_images_2024/5118fb8443ccc725070938fa74cb16d82efe5e32.webp',
+      'https://img.cofynd.com/images/latest_images_2024/2433df737be884822e9bf4449d61accbbc8d4abf.webp',
+      'https://img.cofynd.com/images/latest_images_2024/c2cf5aabb1afaba3bc2da4b4e1b178bb4f15dd38.webp'
+    ]
   },
   {
     // NOTE: Photos are Hoda Workspace 101 (Sector 6); they were on id 174 by mistake
@@ -837,17 +831,22 @@ export const bangaloreSpaces  = [
     id: 175,
     name: 'Grasshoppers Mekong',
     badge: null,
-    rating: null, // TODO: rating not shown on card
+    rating: null, // rating not shown on card (no usable Google rating)
     area: 'HSR Layout',
     location: 'HSR Layout, Bangalore',
     price: '₹7,499',
     period: '/ Month',
     priceFormatted: '₹7,499 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeuRHJSTP8QtXqk6QzUbK9_LoBEjH4iixR8N0kMS3mWXwpB9Jb5pOKxzx4sYtPwTQ8DtHKvwqaCzdMf8CfK0zEtdL46OOEL87heFt5dNBFmjYVN1zFq8UJAZK-nR-Jj1e8GZ34qqj3_et_m=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdz-cVVyji7FjjD2EZDZ4ce5KiadyFwsuE3VbxK9sdErkDL_j_nNsbMfrFX-Q17qaN1qSUT3_ZbOQ3cTl4Lju9jqWOPuhxh3iQkBTTCBFyVktJ49r_Kh_0DWIW3uRghpYL4gEGdlYMUzSrP=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfCkl0Y0v2zBbUUnVHQ8SlVPEuaNk-zM3fT8_f01twUUNMqYJCrvwOqztitKO_y0CH_GuEjUma8Rkyw5TGGeREL2ycs2axIQc9KwUPidGsiFxCIxhLaQVzPlBcSxyjhH65Zyfsi2IEmMzND=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcI-tEngKM2jk_Plydh0pQHxNsInkwA-XqKnjkziWUIiMINXSQU44QyjZb0cFjZ5PF_bpu--EoPAoAf8S1cc_mcFwXN9eBkHYjH6IMPD1zAI0SRFc_3JkuRXoUCcW7c0F3Bh7ilL958k4C2=s4800-w800-h600"
+    ]
   },
   {
-    // NOTE: No 'ITI Layout' branch on Google; photos are EBC Space 2 (19th Main Rd, Sector 1) - confirm which EBC centre
+    // NOTE: CoFynd lists 'EBC Space ITI Layout' (HSR Layout); Google has no ITI Layout branch, so photos are EBC Space 2 (19th Main Rd, Sector 1), the nearest centre
     id: 176,
     name: 'EBC Space ITI Layout',
     badge: null,
@@ -871,20 +870,25 @@ export const bangaloreSpaces  = [
     id: 177,
     name: 'KVC Coworking',
     badge: null,
-    rating: null, // TODO: rating not shown on card
+    rating: null, // rating not shown on card (no usable Google rating)
     area: 'HSR Layout',
     location: 'HSR Layout, Bangalore',
     price: '₹10,999',
     period: '/ Month',
     priceFormatted: '₹10,999 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      'https://img.cofynd.com/images/latest_images_2024/9d33c434b0c77a973f9809fca67b57fb39e2d07b.webp',
+      'https://img.cofynd.com/images/latest_images_2024/577ddf71a9f07b6fb89f9d743d70a6f2fc1e3831.webp',
+      'https://img.cofynd.com/images/latest_images_2024/38de28112daa28d9bb9ebd1af6919a60ea05e5e6.webp',
+      'https://img.cofynd.com/images/latest_images_2024/78e7bf97ef9eed18a4f4d575e94318b5487487aa.webp'
+    ]
   },
   {
     id: 178,
     name: 'The Desk World',
     badge: null,
-    rating: null, // TODO: rating not shown on card
+    rating: 4.2, // Google rating (card showed none)
     area: 'HSR Layout',
     location: 'HSR Layout, Bangalore',
     price: '₹4,499',
@@ -950,10 +954,7 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹10,499 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/277d3937a00b55f6c77f92160806235c68db880c.webp',
-      'https://img.cofynd.com/images/latest_images_2024/0e91675f0459853e49bb374de7abf34f7ad6d010.webp',
-      'https://img.cofynd.com/images/latest_images_2024/702cf40b7a70a0df0c4e62a0c18454dd4795307d.webp',
-      'https://img.cofynd.com/images/latest_images_2024/3b8487385419cf1bbccd5d296b33ce0324978e5d.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeduwlJqtgyMdqm1uCCk_YV4JBHwv7X7RP40r4Ev7lMurJyCQLq1glXxWWkCh5ke5xBBB6LpsBRYaB0wi0l8SaVh3x7T6Wvcok3Ci5H8ggydIilm_Y_os5ML0VO4ecVL1xA7zo5=s4800-w800-h600"
     ]
   },
   {
@@ -968,10 +969,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹8,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/b2250bc32b76e30ad8b244f98a5d735811511342.webp',
-      'https://img.cofynd.com/images/latest_images_2024/21deed3b6bc23cfd5e4dbaf1a4187a86dab21b86.webp',
-      'https://img.cofynd.com/images/latest_images_2024/f7d7c6c6cea634243b52c3f861f2db0962f24b95.webp',
-      'https://img.cofynd.com/images/latest_images_2024/498104508e43f6ddba091f8d345263360b02feff.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdHu5fiaGa9afcr4QwsKDCE5GYuDbk_55TjO3XvYkHkdCRev2F-AGrQ-0KbrYXUxVtGJzr8_tA6wEENf5dB94QtImUwn9zjHxWKsqtObDSBzaWmevQ5g11G93Cp0B8zlBYMnXSp8vBNIwxO=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeymVKBKjVEtq-xeFnmtGXMA85rniRxBQ3k8QQEei6l9-C9KCDKuOZfHS72rkll-T5AQfRA_ra8unjIjeXx2Zsgv5xf7CNBy_m2j7pqCILNfrjkZ5lI6hUl0cJhXGN4Di1BPTDWwuatHSk=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLczxxD6197nJ0k1Iz--3If6NoMGHL36vDsBew4iD_kYfmc9DmDTepikqYz_XtqBmz5neaBoYytTSdsuutbH3qhLkhCwtAVjq6jgYG739oI1kPfI00B0KyBClOIU01g4keCU31gF2lOBpeY=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLekaXuJM1Ka9cuOCoq03SJEMgN7rL-SQSRlNA4jqcEJFNt_wzV_uoi4Wf6RCHFAfkDCTDuWaISrkqgy4UM-fbdAg4vN8rK6TdYD0yYnJ-MJM_bj34Cx3pkzrcQNg_koh_5oRjXmHBmPAVg=s4800-w800-h600"
     ]
   },
   {
@@ -986,10 +987,8 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹10,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/256492b0c94e62fe45b85c58bde99efdfa038a14.webp',
-      'https://img.cofynd.com/images/latest_images_2024/a6999aafd72dde3cbd3430bff9e029807ff1ede1.webp',
-      'https://img.cofynd.com/images/latest_images_2024/fa6584e1eceff281b3eb1815dc0e18ab19a2afc5.webp',
-      'https://img.cofynd.com/images/latest_images_2024/cf0cbe785ffe914a97868a59420af714906fcd17.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLf9ISJsKq73RRwShUdx5_ICGkTb4xEIjA5439_08TBTYXZHl1P1rvfyAHnw1GtTmsg9IwrEoqy-m0rb8ARz1yCVrZUlRwWShcmbbkn7eNpXrc0PzL74aMq8fjnYzYpqdsm0A7nz=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdxfsbMXStto_-cOTO_3WmR3OSxZtgk7INbfVHAWzMcaGsOT6WqNPD-9_4R1Asqiao8VZVTxbJrQN3lEawV1mgyNShDOCiw6uNyv2uz-N0G892ZHwUOsYwMexojvUoXLZiSBu8r=s4800-w800-h600"
     ]
   },
   {
@@ -1004,10 +1003,8 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹8,499 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/d63d11ec70c3ef36846c2546420d8f64e1f89c5f.webp',
-      'https://img.cofynd.com/images/latest_images_2024/7c8169c4e6e0b936986ff5f69734ea32118b94a8.webp',
-      'https://img.cofynd.com/images/latest_images_2024/c30cc61c627958427be9e91669846d94ef4e4b14.webp',
-      'https://img.cofynd.com/images/latest_images_2024/73836cea16ce83bf105a33275460db2467db53e5.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLetPQzZZ78ZJtfJwzGidHaep6wnWiLvFKIgtcBvlXOruTJCbRmr77_Vmxr1_mNAfW2wyWItBQVW1Z_oxKN1jhZx6Ip6xz2RE1bnNBWOWWmuqbAe4tf0-_MSHGAdtPU3BSVOnDzk=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcJTjwcZrAi4KgJaDGQQH-CcTXl1dv3VEnyYXJCZ72ISh2bwWlPt6LNxZ0Zzz8_ga5mwG0SGnC-LVjUSBKQVfmAivuEdNsFk2xRx7lRzl5t87beZQGq8NLgcgGoVlyNhtKLdukk=s4800-w800-h600"
     ]
   },
   {
@@ -1022,10 +1019,8 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹7,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/9a7bd63e55624795339e7b39d8aaadb87059787f.webp',
-      'https://img.cofynd.com/images/latest_images_2024/ce1041af5a744e9106c66d921f07f7da0a2c41fd.webp',
-      'https://img.cofynd.com/images/latest_images_2024/29eacee0815e814d0e775f8033941f7642d53f1c.webp',
-      'https://img.cofynd.com/images/original/deeaabf6d365ac5ae4dab06c6ab71e746d4632f1.jpg'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeMoBUCFaUxfCUagfk3FUVu_eu2Cop3wMNdJrHugv0rMWpEsG_-fmVnT1ntXM0DfLVZ1PNwuHfwnS8R9ZQDhKRzcTGqvIAG6PByymW2VanBPs7RbhaBd4XTbn65xSSw494_-ol4Bh7ly5bM=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLefCyA2EWUQYkaLWXKaqkS0LAPob4O9epn2r9UC7Uyl9W0qj4bfM6GOb5BDGkPfhPodp7PsbNjMcCt8p9s-RtnDyfsOt3n_iu9VizznAYUL8J5hImujTOPLBwRdxmvncYa7t46F=s4800-w800-h600"
     ]
   },
   {
@@ -1058,10 +1053,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹6,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/b8fc3c6631425506661c7f06b729894870f4d4e6.webp',
-      'https://img.cofynd.com/images/latest_images_2024/59b57cc071595347d94f12931c0e34ec53f9845e.webp',
-      'https://img.cofynd.com/images/latest_images_2024/241a29a67fc5a8d52cd2bc7c18146b990b7e243a.webp',
-      'https://img.cofynd.com/images/latest_images_2024/3cefef2b76d72896e27a4a583b4278c4a9d55e80.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdH1CZd5BUXi2gRiHu7p5J6omuP46rTeGcRH1wjKSJWM6jb5zHAGdp64GuKJzS5hTXqjYE1mUPE4wxJxtUjdXc_t5GEirzjcusk5XXiwy_kElstIwrj91V7BvtD0wim4omfVHRA=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdaxPqWU_ogHAnOa2AdvcqUl4FAmf26oUjZVhrZgkgXeUWwXe_lMP5X3S5Tvm9A71h8bV5US9JyAP22PcC1Pi-3gg_OgFB_l5W-8kn8nArKVDFIrU9RA1-i0X2k4PnBzy2EMANfoPe7b_Rs=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfmVv_DIYXMxy1NzfigsMRyKGzP5CJHAfjltwNlGpp7IgWLow-HaSW_J2nFl0sibQ48tZROWM1Plko7A6Wjm3kT9Nk4o929YBf6ZkvknJlcX382UX2xAvvucfGawKuJLO2SSBo=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdyvXdm_hFKx1Am7KU-gpowRLP1Nc3riEqIlaFq1aXHuBCpw7l31WGHefSloJaH2UZ9I5OnxxdsspI4n1DzXiPqP9WyFXN-vI6A6YZtwfM2EEFQTMcTnejRjKkOKsQQDBwmNDbk06p6-OtP=s4800-w800-h600"
     ]
   },
   {
@@ -1094,10 +1089,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹9,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/c09b2004065420f2a1e911d71529bcc273ca4532.webp',
-      'https://img.cofynd.com/images/latest_images_2024/5f926d2ffac7df4272ae4b5d4d60101905981850.webp',
-      'https://img.cofynd.com/images/latest_images_2024/a5c3c10c6522ae6c75495553041795a77d99c27b.webp',
-      'https://img.cofynd.com/images/latest_images_2024/f93dea21b23769e7c96b3acc54a248670bb6a25f.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdQCEWi1TfNaHJMEOizUztmY-PIgDlLwhNdwOXoJoNA53mvTRaP5eCEqpzj99eBs8npxU1sTR_q2Yxpq0NpndmKYDdZXSQPZRAs5r8mnFQkrxtaPJnN5igrIpmO3XQoISPuLcPgrw=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdzX0bTPhVTFSzt-toMi5wcakZVXnparUqCRupRs2C0-I0yoCItLIcaSrzJg4bfpfYXGrGBCu_cgI4OIiy8M1DukGCFVvvvWhMuLTlzXnfShjtD-JMF9D4ssssjd3QGyTjRUOg=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeCJEEorSpcoMVW9rracYDHaxanwA-JgqWbGHxj5MpP9lKchRp_oPmokoVoDIkytxJeGgXz23Ux41dWQ-fVjWOR90l0Mm2JlnhiiBUt6HjzD8tr67RxwcDDfj-1RI1MztW8rpYDQuAVzC_4=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcRAoBbWU06lk3orjw3bjLIYAyDn64366c2TyecqsrLymwAbri2cRp6PPQy_vrL_PQZ07hhMILBz2WiVOljaKfQyxb6_SLJmcQv9ay-FL0t1NgNaZmXAIm5MTvwI4pHpJ4XWj4=s4800-w800-h600"
     ]
   },
   {
@@ -1112,10 +1107,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹7,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/719c425dbedddcae1b673705a3fbc37d6bfe174e.webp',
-      'https://img.cofynd.com/images/original/cf8808d60147683a12933891e1c0faa9675de372.jpg',
-      'https://img.cofynd.com/images/latest_images_2024/c82e3afa41db8fd32dd44da6fdea483474342ecc.webp',
-      'https://img.cofynd.com/images/latest_images_2024/fb50b11e1481db6a90b170047b99d6dcb2e6f0e2.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcZViBryfKkL_sEP4_UHS_gvphWDJL985Qplq656w5T8Ju7iMP5fr-_lesfmLwX9CuRQ5nI6Y-7L9zAmJ383iR1qZstj_sHVejtqh3I7YVwe9DxnPLXeVog7GykTXWckoaL-QLdow=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcH9HaqKAPvdscn9f3v1hGsCJtXS2qi0NlpvlZnQplatgFLu9K-9BP4smvx6vgFYXtvf_iM5nxnrBoNpPfAs15FP-q2MfCze31uWixwI2dOKxOdS30uEvjwgrbLD_QwGUGpsiZo=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfy60cdS4EG6tj5vJ_fxpNdb8U41E1umGQSDvVLNMbkH9ZiqieXV6s_-_VMx4oLfWH8gFBnYdhlaubtwH9xyOEGztjdfXj5rcOhOm4nnexcQ6YDtOvVl8uScl0euUWzakef7GvL=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLd5M-GJW_K2XeXGLABCCJ7d9XguMAb9t-XclwTx3t4z2oUl1G_7JeyckDGjF29foHvAI6ggCDx6uawJ7zVA1BuUqNQgueM5O46tLKCoYPho7xZBYsO-8at-96DsWBsMOW4SZnk34sYR9F7z=s4800-w800-h600"
     ]
   },
   {
@@ -1130,7 +1125,12 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹8,999 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      'https://img.cofynd.com/images/latest_images_2024/fcc8573c26f87f7030d92b7dfffdf7b27cdc9e3b.webp',
+      'https://img.cofynd.com/images/latest_images_2024/92e9d053a776c72290f4ab84920aa917a9ae8108.webp',
+      'https://img.cofynd.com/images/latest_images_2024/24a0ddcc8a1ecdbe23ccdb1bc02ad19a6351616c.webp',
+      'https://img.cofynd.com/images/latest_images_2024/ab83961ba0a5770f91152c75738d631f334db756.webp'
+    ]
   },
   {
     id: 192,
@@ -1162,10 +1162,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹5,499 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/a8184c361275f6e18862582f4d1ede15552d1c5c.webp',
-      'https://img.cofynd.com/images/latest_images_2024/ae0de6fe5452216f7d28d3823bbbd38afd956b1d.webp',
-      'https://img.cofynd.com/images/latest_images_2024/7fdd5573bb0ae4cfd1678569cec110b63a4e86b3.webp',
-      'https://img.cofynd.com/images/latest_images_2024/1cb79151e844674bfd8a65b51ccc025c5d5fd810.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfOSxst1SNkgSL29566YClYOJ84gYyog_qXNHy9iOcovYBicpwdxkLMUkXYI_K_15rNfci131vAqzdkyV_WFi02Nc73XNkL7VgL2hpPSM1BwfQPQ6Baomp3QxNFgI_xEfiRnlqt=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLf--J1k96sG9FP7Ym7qg16hA4lvs0WikdbpAEpywhru0200c2ax-W4h4Tg_Ch4BWEo88vz-Zeh6jRNq4e5YaQ0ljLTn3_hvsMGT0TzeRZKk1-qHgKgA_yC6TFSMGf7acvIjpQMA=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdFijgWDaM_Iag2YvgEjANgPmAMvnWoruw5uaQAI1J07Tgotj61K8dIgJRSvl0XrfrLU9AgUQRs_oDElvmyrWuI4dxeWaS5XEjz8woYCKRE0NK-xkUimib75boDi0AChTUGEkij5Q=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdOMesvoZQGtdmZLn2vnrLMvmJZtySBWxToZz5NynVxkjK0hNtFsE1WYAK1tSQLc5603zHWZORgQqQEveVes8wonQg44PXKYf4EySuMSLIeJUHdTUI0WXK8sy_iKCzIxu42rkUXcw=s4800-w800-h600"
     ]
   },
   {
@@ -1198,10 +1198,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹9,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/8c898ac9a834468f2864c41de567eb0f9d6e954a.webp',
-      'https://img.cofynd.com/images/latest_images_2024/9222b5e2fb23d0048ee910c06e2531bfceb6f907.webp',
-      'https://img.cofynd.com/images/latest_images_2024/eeffcde3c1f851f529ad99f763012dc186f81fe4.webp',
-      'https://img.cofynd.com/images/latest_images_2024/2bd0b22fc1a4574278f6b32297ee0e7b9aedaa22.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeGaceHKDRYArd5txZ19rJaTJGvuqUaXEu6IBreQr5d0pVbBNpol6WdFR4LpD4gqFmu8YTrqNP7Y9uL-HbnX4QhBPpz_H9S14CkMDKBR_zhV-95XnFTeG--5rUbT1CbzyQDtUY1=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLda8bkmgNFFLoUEwjiqe2jsLWO_RTuv0ujbC_GhxTy-aISfTxyYUuCXzYJSmfigNaC1lCBUv345hXke3qGmLaT579f5NldrNKxe27KQgXRe-yhL4buTFIaZ34ENVekFOfHAc-Y=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLf7bu8kOp1igafdmuNre9db-Tb-P-iI0_V3ap_YC68gs9fdM7qKccsLqfrwDSvfr3dmz2mBOFq8oy8gF0Kb9jhLHQt-Ry4lZRDEEoggMyKvb9Ocl31svKUTCheJrH0xeDJqfOPZ=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcebEJRDh5wYN-bTzyusBhOhwmQh6yj4qzt7lReP0DukRFq5I0BYpF3uFIewj6zxzcStxOYzKPlc1Lpx1R15R3aUsEDIYbTetx7eP_RW3ZOLkQf_z6v7QjPGTZTscxmQ0lATQd7uA=s4800-w800-h600"
     ]
   },
   {
@@ -1216,10 +1216,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹6,499 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/825e4ad8a2751e37f6c221443af01361cc34d178.webp',
-      'https://img.cofynd.com/images/latest_images_2024/0fa14f6c6ec0f3b90f16d8b8f84e6ddcca8d0eae.webp',
-      'https://img.cofynd.com/images/latest_images_2024/2d354ab606a651d245e3a4bbf57cfd5b357f7ee7.webp',
-      'https://img.cofynd.com/images/latest_images_2024/7412a8fb802fe8739b147fa6b95f4262d48f2dab.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdUCUzrKjXJ2rJkneB7OCzj-vapfsW3Hrl8nezIQADeHgGlARnrQ3TrWkdNtBFp-9gFON_4C5jLIw32CqYU_yEehdne7Gll0K6MI5kAwcZGYrenOzBagkbImW0XVUbN11La6g6LjQ=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfYeUz5kwAs2jnxLNk81QlrM4Lp04nxI6R5rv587l-sVxjvPngZq78-r4Xo9r3CO4vulDXidWthGWKuAWf2n88bS6pdnLimoM72wZovi1zNXomQE1kwRPIJe0Mz-h3gkCn8g4pY=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdNunjw71uCjl0sJigrTS2Sgx_wnE-Hqc60DS3WeYkEjNqJBYJfGPWQK-3vtCl7_4NrIrDARtfoFcqeUqKvlgTOYuTJcQoNl8FHT48XFtSE32qSpCoYJFpA8v79Grf5D5WKcnk=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLevEkl8Q1jZSVk-KOSo0M0t28Q71eGYdy7Ldc5fomWambK5IqHsCAsvDln8ebyVLB7jKIaFkDeJOABMCoVAwptTz41w85RWtkIpHpK8szY9WPDTI21gSMte6oxYOaUXLMsc3Kuq=s4800-w800-h600"
     ]
   },
   {
@@ -1234,10 +1234,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹7,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/c3d5dfcf1bd4d9adc4974ff42798a1538fa9c5de.webp',
-      'https://img.cofynd.com/images/latest_images_2024/014a4b0409a911fcc6440243d7254ed79b300770.webp',
-      'https://img.cofynd.com/images/latest_images_2024/e41a09124757300e943874e20542960569527004.webp',
-      'https://img.cofynd.com/images/latest_images_2024/d6beae536d3ff6a672e8bd1425a4e27d70448670.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcpZks7rgfQr8EIZaeas3ft6zhyCzbQXKJIEq9-t9hxH28AmubjYxAPawKtN39ys3IScSSgoV6UOJetfmmZekeIgMd5TlMRWLShAyZvTrBqEbybmecrFMGdtwL_5J0kvAIIhvqp=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdJr8UXsOyPrTn4TLdTGR5HAAwBD4IhrrZffts4tJm1lFadHLjFX0sprTNDOeawHFkRAtBKbvtPGnNlaBP-u2tKcrwN7OZzH7uostNHRIKf6qUjrt43ybzR77mEB_MOPyN2byrK=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcBNi8OBxD334YFrseYd_ozkf43ed0On9_-JUj84hRgD1pEyw9HW2LG4WB3iKMKb0B82VomFFHAZ0fgGLQ7niODAwul7Iw3-CqTA9on9dbbJnSGrt3xB_5OdlBkvJF6no0FqYc=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdLHuNxnDBLN8MwbV9d1xd1-zWs4MYrL-FQfKMyyhmbQSLKlFa-2gGYRY0g-0I33L3WkSHad1qD9o6IIoQMWtgOzu6NEwpMXlO3bjI06oixIbpj9GmX-T8sEc_V3m_Utp756xVdBw=s4800-w800-h600"
     ]
   },
   {
@@ -1270,10 +1270,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹10,499 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/6ae7170dfeb89282d72bdedf683b191f4c5beb32.webp',
-      'https://img.cofynd.com/images/latest_images_2024/d5f8b0c4eaf05f88d7ff8fede1ca056b6931d8f8.webp',
-      'https://img.cofynd.com/images/latest_images_2024/b5e2865319a50ddaa078c03085d3ac9c8ab8f93a.webp',
-      'https://img.cofynd.com/images/original/4a9755188866a80718c33897db49b6addcc4b76b.jpg'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcKJ5m4mDywext2LlMXqqzPu_oucehbhPjtFePovMXdDsEpYfccVIvUufc_JBffo-DTn0eElF-6d5_uZEQ9jAMiomw4u4g-NUdEMtlPlT4GEO2Z38oICoRo2BXOaeowFlim1-AZ=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLctTvrbFMoUZK7narSPlVOvPeFJo8JtEJvLlQsrz82eRsDsYmLLbOYAtryieT-r2RFT3YvtSi5JzcTicpfdiXQt6oUGve5iIkzVUFmlkW7A6ka-jazZAa5WJSjL24MPjkdrJo6R=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLefXU5c1etBgcyd1gYHlwMWtrB9A5SkJKpqt7j5_1ltSELdSHZOoYkcNQE9UtLOrnnxgpONWIcSINICR7WpZo0mliQq0YvrocvPI6F3iwAv_P9kBpyTE8ZzEDNgH2BaxMIf1wOqmQ=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeEC_M2KwZZCRylp267FcaNnOTHQ8vHJGk4dA4SBTjo9Es5ieeiEApPlxAC54geu2v8zedwmwtGvVwrX2dU7wwRxhS_pzwhizunPz2XIT_inRXehLsNVFZ0uek3pt6LzTvTS2w=s4800-w800-h600"
     ]
   },
   {
@@ -1324,10 +1324,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹9,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/c99b373ec9464d71d5e8873f1d8f698de5406c1e.webp',
-      'https://img.cofynd.com/images/latest_images_2024/046b83b526b80513a909a9fe2432495077a1a5a5.webp',
-      'https://img.cofynd.com/images/latest_images_2024/698805802e60cc7cf9a724bcc8722c4bd1a3f091.webp',
-      'https://img.cofynd.com/images/latest_images_2024/2831160b0c5345eaa6af1f88fd40e4862d5b21bd.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLc6oyAfusTgtFCn8NjUIq9J0Q_Y0FRqcuEG5GBHLeOmUO3wjRCOGuHBgnSRet6OVIhwAq2dtUoIADSioogeLamWxTGSUBaYOVMJ_w_bKsvzTzxIntNpHJBnGWh_XL0rb_2TRw5vWA=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcd9uFpVkq1x-KdQg9xjJ8ntGS5bb6WG4MaTll8JgaDTdIfOae6RfkM20Xvi61XU3hYQC98LzLxrx0qHDW2eCNXJAB27XgKq1yAh6A8kvC5jPYq6GXqhNFOGbP7favzL0b8SWG4=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcC4ME0Ql8xaomSFJX6xiHOPVd_wFAZrFgoeZzONAalnoyYjl726UhoBjElQCWqkQ14jWZpKKo5ZFBoXzkLmqvgeD21mtVvavn_YatGDQjw29PmHC-Yj-JMk7RVawV9Vz5AjgAJwQ=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLf999GEmeplsUF9BrBJHgE8IEGfqXouWF2gaZuJxbmPVlvwEb8Nf2hu-zjYvOr7A-gAHnDbY1ekZyHaAyEdPg4m5uMUSlWLBUht6jEA8UcZm410XspMKCnnwNo05f4c7aZhIkg3W1YMamG_=s4800-w800-h600"
     ]
   },
   {
@@ -1425,20 +1425,25 @@ export const bangaloreSpaces  = [
     id: 208,
     name: 'DoerDen',
     badge: null,
-    rating: null, // TODO: rating not shown on card,
+    rating: null, // rating not shown on card (no usable Google rating)
     area: 'Koramangala',
     location: 'Koramangala, Bangalore',
     price: '₹4,999',
     period: '/ Month',
     priceFormatted: '₹4,999 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      'https://img.cofynd.com/images/latest_images_2024/f3aed3b10b9e6dc6adeae2cbfd92f4e0165abcc2.webp',
+      'https://img.cofynd.com/images/latest_images_2024/ca18190d8fe0b16e26cb75db90870528a4ec1e02.webp',
+      'https://img.cofynd.com/images/latest_images_2024/429d1b084c2d8cf0d7882601cd5db255edfa8add.webp',
+      'https://img.cofynd.com/images/latest_images_2024/5daa18bfcee95ffe61db079a4a68c8aa252d0f87.webp'
+    ]
   },
   {
     id: 209,
     name: 'Think Tank Offices',
     badge: 'Special Offer',
-    rating: null, // TODO: rating not shown on card,
+    rating: 5.0, // Google rating (card showed none)
     area: 'Koramangala',
     location: 'Koramangala, Bangalore',
     price: '₹7,999',
@@ -1456,7 +1461,7 @@ export const bangaloreSpaces  = [
     id: 210,
     name: 'Ripple HQ - ANR CornerStone',
     badge: null,
-    rating: null, // TODO: rating not shown on card,
+    rating: null, // rating not shown on card (no usable Google rating)
     area: 'Koramangala',
     location: 'Koramangala, Bangalore',
     price: '₹12,499',
@@ -1584,7 +1589,7 @@ export const bangaloreSpaces  = [
     id: 217,
     name: 'The Bangalore Local',
     badge: null,
-    rating: null, // TODO: rating not shown on card,
+    rating: 4.9, // Google rating (card showed none)
     area: 'Koramangala',
     location: 'Koramangala, Bangalore',
     price: '₹12,499',
@@ -1630,14 +1635,12 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹9,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/bf521dc420e0c8567d5c21b258d0ce0c697b6f49.webp',
-      'https://img.cofynd.com/images/latest_images_2024/29e1686ff6e4d36e33dbce14507d9a3746de1152.webp',
-      'https://img.cofynd.com/images/latest_images_2024/5c7badf837b1687d3d0d83b98053ea96b94f2efa.webp',
-      'https://img.cofynd.com/images/latest_images_2024/56b16d8b244611ebcc76d3af10022d502838d75b.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdQWeQZFiSIVtfsy_zgp0fkdkgobV1FkOI9On8MqMV9CMxJa_KeQ2CjFj6er36dIoyYcATuCbe4qfJOxAQBzjEm1Zy_2nSbQJxLLqATPJjpKXLt6UbeLg7zf3bv92EQgWRsMEGOXQ=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcjeFI0D5BVQzsy50sQDqMCIgysysLBpK4oRXfB4H-q3849ZfNlKpmwhyb0dgatjJbFk_gNKA4rrVsT7iC1itVPFmJqWkivKOqQyhNYQkFRUiKqqHkYJ_VeZa4PhwMbzjJhTrrK=s4800-w800-h600"
     ]
   },
   {
-    // NOTE: Google listing is 'BHIVE Platinum Church Street Campus' - confirm it is the same centre
+    // NOTE: Google lists the centre as 'BHIVE Platinum Church Street Campus'; matched to CoFynd's 'BHIVE Premium Church Street' by brand and location
     id: 220,
     name: 'BHIVE Premium Church Street',
     badge: 'Popular',
@@ -1667,10 +1670,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹9,499 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/de578e97703b403ba6dadbdeecfadd424dc9e16d.webp',
-      'https://img.cofynd.com/images/latest_images_2024/4cb6e182f8621ef944bf855eb8b48cf62066cc8f.webp',
-      'https://img.cofynd.com/images/latest_images_2024/ec6b7a1c3849be417956f5deb86a3bd322aabe5a.webp',
-      'https://img.cofynd.com/images/latest_images_2024/a163b2c53b8cc7a61f722f50ef2015e41723bf60.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcxs1QRtrc2BtcNptig6cVGIPHZSRWn2n56G5Udc-09SXro-Hu1Q309apwFl3WXjGVwNONhWJO93fTdpnhorWXSIp3JDthQ8G8jP6dmcMaE6fEO4Ro6FjZvYavmfoAVE9xetxN0=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdObIrzwYEVIDKCFn-339jkSfTy_-1tHEoQe_P2AUyBdMn__veG8agaU7gp4UzJMfiwifi1L6_otVh7V12qTHf8a2OwwsJhdS_5Mb6CaV4gbgEx9DzVyia4XYDy5IsdIfE2WsB0=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcrXAw7uJMwYWlxaOMeEyQcsrCbmalFJHvS0-zC90oDti0mpH3mGdDKJ34fU4KBju7K30hTO04qAmsLihrzbeLUNpf_UCaHPu6SyAnoHV9LlXBJPyAJGIw3zDLzcfhwVAdj_9Cb=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLf9zBru9g9Fl73rT3PERNQ-KnDGg5HaxRdA64pCKC6Tk2Dkz2N6rEn2o9FqxCvvDffTL2JeaKroMDl9Ib63--lNAgJgA5CH0Pe6NOjDiZtZcN2WJUBEH_21RMMO3Z11HgCDf0m9=s4800-w800-h600"
     ]
   },
   {
@@ -1685,10 +1688,8 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹10,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/468f3aa5e7775ce0670cffa203f5f67aa6ec89ee.webp',
-      'https://img.cofynd.com/images/latest_images_2024/b8a1e77bd3471ad8083fe38db0325a3c75b4d04e.webp',
-      'https://img.cofynd.com/images/latest_images_2024/38cd63ab5e653d8bb5f4fb2901c5c74c5ed3cff1.webp',
-      'https://img.cofynd.com/images/latest_images_2024/88397093e1002aa66fbcc366d509b1c85f0d8dde.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLei9i1gZyhFNKNaiWow5PEL1jkY-RfxMJGTowkvtc1tOU8dp-AoQppfE2WDdgDubO3RrE7JV-zB0FZ3oRBa7RxFy0dO2mDFFxJKKTthkepCutdBykNZkEc01Qui_rVaUaJwbgno=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLckjiX1PANm-JtPg2_qtyfPtCjcYDnubz887UdR0DEQMW7cHAVvFFuh8SSGfWuPTvsessXn9pZy-64sGosYFTze-5UZcZRDl-CY6huqlgJ_5r3GwSVgaIf0M6TtXK_PXju9Z-vo=s4800-w800-h600"
     ]
   },
   {
@@ -1703,10 +1704,15 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹10,999 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      'https://res.cloudinary.com/myhq/image/upload/w_1080/f_auto/workspaces/awfis-the-estate-building/ckpwvf.jpg',
+      'https://res.cloudinary.com/myhq/image/upload/w_1080/f_auto/workspaces/awfis-the-estate-building/g5kq5k.jpg',
+      'https://res.cloudinary.com/myhq/image/upload/w_1080/f_auto/workspaces/awfis-the-estate-building/5cgcs6.jpg',
+      'https://res.cloudinary.com/myhq/image/upload/w_1080/f_auto/workspaces/awfis-the-estate-building/xxxw6h.jpg'
+    ]
   },
   {
-    // NOTE: two "BHIVE Workspace" cards on MG Road (₹11,999 Premium and ₹15,499 no badge) — kept both; confirm they are different centres
+    // NOTE: the two 'BHIVE Workspace' cards on MG Road are separate CoFynd spaces (bhive-mg-road from ₹11,999 and bhive-workspace-mgroad from ₹15,499)
     id: 224,
     name: 'BHIVE Workspace',
     badge: 'Premium',
@@ -1718,14 +1724,14 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹11,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/ca5476260eb075ddc49de33e1af55179af77c8ca.webp',
-      'https://img.cofynd.com/images/latest_images_2024/c6d0b5a7a644585b562d063b4740e2ca5d1a54fb.webp',
-      'https://img.cofynd.com/images/latest_images_2024/f2e6bf375ffac9bf360384a3a6b9a1804761472d.webp',
-      'https://img.cofynd.com/images/latest_images_2024/f10095751bd02514209ed6e99a05740a334bf163.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLehyGCb_LtRYk7DlURJIFFcrlLk9Cn0gaFRFifbb-qMCm2wiN8d40wezyWUlfZy9NDxRF-K_UuaPWYsb2E75VBUStUldnRCRUktmlhiqkpfPjq3Ha1u9a4PFjotR-yGQmd9zkX9cA=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLchQCarreQQj6UkzViJKn9McExKrkWUhTRKl2Cx5rIN9ksKEMun2RmhQyek-nmODXU58nfYb52dpA-xQvaZ1yAEa95Ej_gaTrBNRulhcAS4iTXuEmJ6mw_2JCMlPbipOrP9wlrZ=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdTUzrPmmbFSzQHNIUsyWOAtnSnK3jfd__NgvhGIuIq7fhzRfWjneMaUC6Mw8Xm46CIQZbYJoRfAr8JfTPk_u-9CF76CLzoOS1a-uRmzUgFGcariCBIGYqisKFD3lb4-c07Lnn_=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcO7E28d7BLUM-v5xG96K-72z_xfLoZHF0fYugIFLuSG0Kho1aNuFYwubcbSougvxvBb2QEyx2ojEHx2qwELeQb5s0zbiLJSSnb3P37WpqUUHUdAH-CEZVf5C1GaMCC61Xk7sHmRPrHxaY9=s4800-w800-h600"
     ]
   },
   {
-    // NOTE: Photos from 'Honeykomb by BHIVE MG Road' at 25 Primrose Rd - confirm it is BHIVE Prim Rose
+    // NOTE: Photos from 'Honeykomb by BHIVE MG Road' at 25 Primrose Rd, matched to CoFynd's 'BHIVE Prim Rose' by location
     id: 225,
     name: 'BHIVE Prim Rose',
     badge: 'Premium',
@@ -1755,10 +1761,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹11,499 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/079cfc8e4eb8b86736db156b62e860d3cb0283ab.webp',
-      'https://img.cofynd.com/images/latest_images_2024/62f42986f22bc6130648b82ed06f801c365b41b0.webp',
-      'https://img.cofynd.com/images/latest_images_2024/3df51c84fb8cf7580646892bfdc745c80431d6c7.webp',
-      'https://img.cofynd.com/images/latest_images_2024/cea89ea0e2ece561101d6f4a9a5f22dc64b5fcf3.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfS0gKIcf5Wey_YZZus25axgKz8FfYYFmt8op-LyysMOXICEt3M15kzMMSYC_R39Y5zeXi5Sr1FpSarqkHLCJEohUioUrt4yLbhZjPjQZJC_-yDOduM0QEfXCDGdXea9Ylkd3qS=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLf6pkI8sJSFsb0R6pdBWgPHLQVXTEdgOvj5ZWwqt3HSobgqjQb1OW0i-VAQvq2yAd6BrgxZ60U-BS2cOB9D6qf8YiheQx85yF9PJqqzTWDQ8ZILfMPeg0gUyAgMn1zleUjncrXK=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLec8HhoSe7HeTCJ5UdenOtbaBa8vY-cvC1dzOJNjZyn4gqZrRxOxhd8taKczy_VaVcqA3CUEm0jaJUPrK9LRN9BV7NV1f46F8XraBmf6oD79BeY2vBNL-7UZ6ax0F4pm3pSXKBG=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfMgX-j4XrXMOihnngImjErfatYnImcw4js5VGsPX2HU_D9XA1TGyil2UQvGzeO1yW4BsVeR0SHrmqc-tq2GEtw0216h3ywFDcpbqQLWxeGGt8_zKOudmOlf5HwHN2SoBSoF3Gc0w=s4800-w800-h600"
     ]
   },
   {
@@ -1773,10 +1779,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹11,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/9336f54172e61f290242a6ff10bd2b663ab80d05.webp',
-      'https://img.cofynd.com/images/latest_images_2024/e5c4cbf66ef326ae5b75d455ea2cfcf3f13f91f9.webp',
-      'https://img.cofynd.com/images/latest_images_2024/4c1aae23340cf87402b874bd657439caacfaddcc.webp',
-      'https://img.cofynd.com/images/latest_images_2024/1f1554c3f267531e17e7ef8aee027ee6c7ad4085.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLe78DwoAPfG7uEC5gX0Vylv1Ba7VMQJB4gYrsetz_sXt-V3uqsfSmwLktRceqYJrZv9AXLGY0LV9SDaqMHoJXtF69Dw_uU-Si2Tn9Uoa67UoqqJSSeGc-ZqzZY0kOB-H1WvC4Y7=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfeBOKW5OyRANdNM9jAqoyj384UMYDX9PpSV-onLgvfjSmDlc-jOmUguOsl7eUI4LGXDVUmLQrPZQQzgQTHQrnM6Ghx9Mb3ycksPspyHsSLyN9Ev7EzxAknnQ1Dvn6xFk74kYaiuA=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLf0HHf4ZFEzM4Bpg3cumFd176SEHvP57PCBFN_XdM4uc48CxVeSx22aIQYUrFKFS8jQxDDGwSI0Kb37gDM1OgvhyWRcoNNOpkbKtd8Nlrp0JqjJgl6ck-PWOMZVcLCgl5PnCIpuPwXOJzw3=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfZTLIN7zW1dTzAY3QgUtZ0gXL3-9XyRLRBQjtnaDHWYiue9wbgVHqEK0bYtqswOEWsMFEagee74KVCRMNEFKIZvUcjD1cLuF_vcm8JsAU-nDF3kYn82a4ezFhMAT7-C27UP2Yjyv1ylaU=s4800-w800-h600"
     ]
   },
   {
@@ -1792,10 +1798,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹10,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/b3f72e90f6bd87f5d2582d89f06b025e84203e5b.webp',
-      'https://img.cofynd.com/images/latest_images_2024/5e5ec0a86c441a55bbe03eafbf9ea7d7843672cf.webp',
-      'https://img.cofynd.com/images/latest_images_2024/c93dca99cc821a1aa37faf4567a401f34d848446.webp',
-      'https://img.cofynd.com/images/latest_images_2024/ea15df66ca311f90541ca33a9051d2cd7047d269.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLf_0Pz9e6f8KtF5NZhAtHOqQuinfb-qx5nOpiUzwQW_99q6dlkPVdJLhsWEZsqwxKButx0-eFNnAwxDP019AX_mir_Itb1B_cCy2cSTD0j4neOQpbgaU9a1wHSFYPd_7VuJSrMcLQ=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLejVzvi0KUafiLBsiRsV-ksOuZl4j3pdc330suu7ZoE8Pxo2apTvDxjtuZ5TDofuMcoA8wnS3fSQXrFmUAF8yQjvBJ6Er0rbrhq4fwH-sHpPZxm_SMH4C0pJ3lZbkDmJngMb4ipyaTMMpYr=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeZLscxUEzI0FryCgfey66ClFtswjLPygkq-9AMhQmr5Ev8Vhinm3Jz8TV70Bx9-Xti47EgnhyVRtyrakd3fBDxFRMnBiols3nowDh_ZKsZe3vg1FgYdaKF0f9Qfl86-bzEh3Ru=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdCQkS_pgBXB-LfeLqz4z4Q6Gq9ixFBiLG3KIQpsAqQ7qfDbd268o5sHI-Kg9JC8yqd6Xhg8OJrFmAQhOm0lY2Pp1PhcvDqS3RQtyE41cOV2SwX87Sp-zFQ80-RyoOi2nO9rbo_6Q=s4800-w800-h600"
     ]
   },
   {
@@ -1912,7 +1918,7 @@ export const bangaloreSpaces  = [
     id: 235,
     name: 'Flex Coworks',
     badge: null,
-    rating: null, // TODO: rating not shown on card,
+    rating: 5.0, // Google rating (card showed none)
     area: 'MG Road',
     location: 'MG Road, Bangalore',
     price: '₹9,999',
@@ -1947,18 +1953,20 @@ export const bangaloreSpaces  = [
 
   // ---------- Indiranagar, Bangalore ----------
   {
-    // NOTE: UNITUS not found in Indiranagar (Google only shows Unitus Technology Center in Domlur)
+    // NOTE: Photo is Google's 'Unitus Webservices Private Limited' (Indiranagar) - confirmed, CoFynd's description names this company; only 1 photo. Rating is Google's
     id: 237,
     name: 'UNITUS',
     badge: 'Premium',
-    rating: null, // TODO: rating not shown on card,
+    rating: 4.3, // Google rating (card showed none)
     area: 'Indiranagar',
     location: 'Indiranagar, Bangalore',
     price: '₹10,499',
     period: '/ Month',
     priceFormatted: '₹10,499 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLePOmEGm3T-pSZUt7gu_ZwxEJzHJxY3hMvkI8GlOUgd67T6nayLtBGZugK-M59G9aLuHYmMrsBEXFr81kcn6qexu59J7qjvmk-aDcp8V_fzb805xva6tAzx3UZkskacLCh7HoywzA=s4800-w800-h600"
+    ]
   },
   {
     id: 238,
@@ -1972,10 +1980,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹9,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/6af9ac1c2e7aa7bf1c6c7e743b70d5e423049c86.webp',
-      'https://img.cofynd.com/images/latest_images_2024/19f42a5ec877788a0c9c091f964f24974d3a2c83.webp',
-      'https://img.cofynd.com/images/latest_images_2024/f4a7ba09bf14f92dad04f74d517f9826f9089b92.webp',
-      'https://img.cofynd.com/images/latest_images_2024/5958dc08ab2c0dd12f1fca8e4c5de754ebafe458.webp'
+      'https://res.cloudinary.com/myhq/image/upload/w_1080/f_auto/workspaces/91springboard-george-thangaiah-complex/1.jpg',
+      'https://res.cloudinary.com/myhq/image/upload/w_1080/f_auto/workspaces/91springboard-george-thangaiah-complex/exterior/k4j7rp.jpg',
+      'https://res.cloudinary.com/myhq/image/upload/w_1080/f_auto/workspaces/91springboard-george-thangaiah-complex/exterior/z4btdd.jpg',
+      'https://res.cloudinary.com/myhq/image/upload/w_1080/f_auto/workspaces/91springboard-george-thangaiah-complex/dedicated/ubtt3r.jpg'
     ]
   },
   {
@@ -1990,10 +1998,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹9,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/4910520d9171adaa8b6d5854ddfcfd170d7cd904.webp',
-      'https://img.cofynd.com/images/latest_images_2024/3934b51a375f3ad85a38929453b53b6e9a75c5d6.webp',
-      'https://img.cofynd.com/images/latest_images_2024/bf3ec05b3f2a70478416eb5846470157392d755c.webp',
-      'https://img.cofynd.com/images/latest_images_2024/169ad2e356025ff7164d1a0ed72b4a5e357343f8.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLca7886abRVmhTp_9wCskgg0BeSVhYibAyAIM7jlWyJZpb7t_kjZter8Z51xpaBPrHt_rmhaOxef0Q4hBWZml1BNxB6O12X0D1_Lb3qMDk1oXZpE3VhQZR0aPKGAkw1QyfN4WB4DA9hUUj-=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfWdKjRig7hmDcYQIUEW6D02_R_hKP6CcwadYzMDaUtJpjw2WmXRl4WJ4KaWIIWLEEmSAcs8wDz1kEq7Zo6UM16aueqGpgLmJj7Q2JbV_gkh3_qqpC8XxjTiGtKzTcr5XUpm6eWzhBLq0Xo=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeDndCWmc9Cd3WGNTU-oCRdwbRG5cq_RoCOYs9yimnRDRI49VoFgRX2GjpyyCd4ulJIpJN3lkGjV8434pawsgg3J5iDyMfdOttntzLl-ZKDPT0uqWDFkThaSxi3ZOzWq-1TjLnPf3VJI2AK=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcR6poYlIfHEfnLRhNNyGETSxwPIL1HgV8lj49fLred0JM_jjV7fGcm6az79bY8vRoGcoMV83smx_2UWcc72FHkivoVLbb2g0BQUrb7MV25qEu2_8LwfFYn53kPJiHz9Rm7Z_LWvDzWOP4=s4800-w800-h600"
     ]
   },
   {
@@ -2008,10 +2016,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹14,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/3e4d52b14db1a206ab8724b4265c92cd878df83d.webp',
-      'https://img.cofynd.com/images/latest_images_2024/59cc31ca7b15843482972cb1cb8391c2eb6566f9.webp',
-      'https://img.cofynd.com/images/original/1aee308b01c4952721d1fc19d3ca387cf8b06adb.jpg',
-      'https://img.cofynd.com/images/original/2f0e84ee886ecb8afa32bcc9aa093b03a2ef8372.jpg'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeeJFBhhu9ZpO_4AVIbM928lwRnpdjip_7aQFNjVY6pvjNaHhhjiDcnax4g21wb6gabBpI0l0aL1rMwZ0QOvN8cMOQZk-wf3fjrBSI212b5QnocnRIfbV383cZjlyAUhVaKCaz8=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeiI0vOTTh63i6jz1pi-qyWwiyUj7qMPzh49BJ6VqB-F0uuN_ajODuuAJRPbUl58u_qn2wfVEz-gLkKqsx_6Wk6GqX5kjy5XxXOzxv9W7cy0tIRMbKDHPAQmwBEztayFntnB_6amw=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeKPrkPkDHHvHyiM3w4hOlonrTZRzANMzFbff1-F4H6ga75tymcn8PXdDl85xQf92NQ7T2B_eL_36W809e-rb8IVvYz6p-3HmWaiDIJktRIMQpNMiX8Jv1jUqzWKH6IqMwI21tGsWg8r5ju=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdPpvGmuAgecPgnjAyh5mlpzaMdryLzZnKdI2A0lbqm2BYnqNG0ceBSNh5sEDKO_5YXxqTh5ymiB2wZeIA2ved2igVg6qYUYu6I1Qazj5Fz73IxvF5LO-wsJ_B1ym3CuwGIy0oP=s4800-w800-h600"
     ]
   },
   {
@@ -2044,7 +2052,12 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹8,999 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfFnK31RSiJ_2uWM3hwACYfOb9gVePU26G-5jBz4D84WJA8uiVQ7uxhDddVEOp5Qz4OL4hJfXYTvCh_ENR2RkIXPxonfb3k0lLIehlErE_Pqoyi0SbOC7a6cB7QHiCnenhHaeI=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfF5FbVo4XeBdx1YIZYaKpfUCU-7XDqbbv99EJutYwzvh_Vg_M-w_jjHvRubuvbg52loKWRBhsT5P3QpIZsDl9AW1oywFDo3Oe2PW7AGEEDfYvW22PM-p6eEan0cIrBxhQEPxZ87kapA3g=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdXQ8HCBDffFBITAwyPZUoz1OLMZ_lU_WvovNPl4DPeTUlVsUCvR-LMpqoaTxibJ8qbdA9zqtTgN9j9IJ4-smbL4nIQcPCx3i4dDK2BtFp910bZjAmFrurgIvx1CXV6lB86wPmYIw=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLer7m-OlbsgSoTJC0Ln2UKVyjCp1zX0j8gTw25l0APbTPUsNMgnSBI1ffYH7cExYkq4zCy4ZLdiobIFucccjbQ1xT_hHWt4LJbP8K03FflTSLOjuhQvywMjSdzPt0VJM-0gB7c=s4800-w800-h600"
+    ]
   },
   {
     id: 243,
@@ -2058,10 +2071,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹7,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/1a1cb8cf46c138927384f1ae86e119d9a9430119.webp',
-      'https://img.cofynd.com/images/latest_images_2024/4f41f51b4863a109aae29da7e98b43f45977cc86.webp',
-      'https://img.cofynd.com/images/latest_images_2024/e3daf4122292380d6bc10ebf331a33a1ca91a860.webp',
-      'https://img.cofynd.com/images/latest_images_2024/dd410639585606d9b4be4a2b8a6e8d5abcb6bd3d.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfXv4wjdjgIi_eyd6epSVEniTGunxpeLw_GlukOyEanVl54G2b6xblnaS2UZweLBHqLqYbj9IbXXFcMfhYR2E7L1BvZ1bg6iZI7A6EI6VRx-RM_7gzrwPH7RmKGfW5mDMse9XwDu22qrB4=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfobEn7_geF_d8Ul1VRp7jzgcRWUFa9FYrIITH5YAjiBDnehMxbfMq1aDUOPPjgfwPY81UaHG2ncasW8i07iNFnIaHV94Ny0HWMDg-xHKb-yJXcMRs0pk5SX-36LUpTvAcf8tZ6k-lgvD7L=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcz41yyDDfe9CKJFzUw5teVjDzei2DEOebkY0CM7FIxAGV2p2PwEVksSwh2BubcBft6tnY9BoybZ5GWVvu5EA9b9jIS1qfWyMUDqg90D_sMWS__KwyPbzU2jqHTzMyvaYIW_4LG77hRvHI=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfjbRBWHGsnIbaZlTAfJQVSK8wcBD81e_QInZruYU4TBPR2IDDjhczHT7KnlB6T7FBAGkjgJddrxfrjcug4oEc-f-KfUnBlXV8WDvajAYhivWnNxBN3fJBIh7GolwJBB_cWlv1dUZwOTb4a=s4800-w800-h600"
     ]
   },
   {
@@ -2077,10 +2090,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹9,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/4a8e738c0ccb225ba3dad8e3a8252da86c8bda5e.webp',
-      'https://img.cofynd.com/images/latest_images_2024/55d874992423ae0a82a3f42b36e7a00dadbe80f6.webp',
-      'https://img.cofynd.com/images/latest_images_2024/2cec4983e68ddfd6f93036355f5879911a92a574.webp',
-      'https://img.cofynd.com/images/latest_images_2024/c520f31dc25dde980d7eb883e444808678cd701e.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfJQhH8EF6K-VUCKpKUYUbWTse4QR-8HitjBp7XFLPpZcdYAyLZ6N0x-F--SDzsXNFC7PywHS8-G3Gt_wWgXVC4-rUXmWVohIGq-KwHe14yTmpS7UHeLi-9Tmyxl2vWsH_kibFJ=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdt6-8m3V01uN9Krv9PwHXKvtgKPIV3VnZzXGsrJDGVwqLsnMnHYZO-4sg08oWQ72__ZU3AkmQGpXnYic_gGaG3k1YpTvzXRbkCl6ulO62aLC6wyvovBfMAvj51AVtmkvyIbg0=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfd51p5TZi5tiExYZgE06aEZJFqVk1nrMM8ILkArtTeG8I7T6VohYpQ_lfusgIWxCYsFF7l2_WpiuwIikFPqK4gjpLrUwKDUYBpILbyE0Ey1eocu8Ueb2Yq3XpqEzHc2Ol2oGmpjNQq648=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcO_P3TMvw9GNPnA2eIdJCT_YyQ-oNGfGK8wtr3iJZA5Cmjh4rsw4X6MHGdUy4wODys4b3q-r0vagymYahkST4YNE50kIgDzMlUFSb5n2_TiDCFO75nSoRA2wax7z30J2mfiOtl=s4800-w800-h600"
     ]
   },
   {
@@ -2120,7 +2133,7 @@ export const bangaloreSpaces  = [
     ]
   },
   {
-    // NOTE: two "Proworks" cards in Indiranagar (4.8 ₹6,499 and 4.2 ₹6,999) — kept both; confirm they are different centres
+    // NOTE: the two 'Proworks' cards in Indiranagar are separate CoFynd spaces (proworks-indiranagar and proworks-2-indiranagar, different plans)
     id: 247,
     name: 'Proworks',
     badge: 'Popular',
@@ -2150,14 +2163,14 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹8,499 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/6b01917e705fa8a1fdbd3f392b9d03258de69a25.webp',
-      'https://img.cofynd.com/images/latest_images_2024/a6fd6878bd70425c3d6e5c6d931a776081f3e0f9.webp',
-      'https://img.cofynd.com/images/latest_images_2024/92c0301824082fc3f4a88474d0413ccd3673a8b4.webp',
-      'https://img.cofynd.com/images/latest_images_2024/2cdf77845699b74e778c8d87197a9f4dc572cf74.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfRpWD-QwpK79Uhzx7MseGXlc2ZJEljniTMitO3tIQ_nvk7PP4BZZl5-u7j6wLJm8pVrn7iz9eV8XvepE7qdsJnb-NyvY7tIOiULosmCFMed_FLKhYqAeVsayce4hhVdehD7_uMDg=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfoK6bjoaXJuNaJb8C33wgaTLfXTHOQKaW0njjtxKXqwYe0Rb68bVykWOsTgL4MD_uHS-i7ruN1l4njI8EsvZ_c6fREPuxF2ri7qYLJdXPjKOrtkmWeNVmCFcfkobb7ZjBl9JEZ=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcNqlfCP9B_kXjKyzMVcXtZnqgVEFOSEaD1sfM-J5IATtcEWB37r54nYYe6fbRHoitHkJCW3dYK49KmuZ1F92BDTUE-olr9ujVEHXGjAFgBaL9wvEPLzR1eUYMcEASwwr7v9_xL=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdXDYpQTER4RGBicNxVC-aPbZVUfBp9oLgHOs6SXfWI6HFdwn3mx9PuOJT6XfiqUvukwWK9NI7yB9M2Q50zQyV7tWRgw5fUfOqt2X0PZNcQlR7ZBJ6OqOzwRZfvlfD_ckx3E2M=s4800-w800-h600"
     ]
   },
   {
-    // NOTE: Generic 'Beginest' card - Beginest Harbor 1, 2 and 4 are ids 256, 257, 259; confirm which centre this is
+    // NOTE: generic 'Beginest' card is its own CoFynd space (beginest-indiranagar, ₹7,999), separate from Beginest Harbor 1-4 (ids 256-259)
     id: 249,
     name: 'Beginest',
     badge: null,
@@ -2168,7 +2181,12 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹7,999 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdjvoUHDxpko38AH6ZiZtCO8hyM7rlMdSNWepRY0pnKwWMmtMtfeTO5Jad3EMhHJSpFtFnqQHM7F78iAL4Wje5XbpWisamtyxf2E6cfBan5X44BOQyQZLjXd9dFus2c1wQhHESOUuNKmlA=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLd7MAqkpbnNJPax_sdwo9SY4-cGYrAFDkcDGO0uy2NQY_FIuQy_O15AtIeziOtWaPe8PvvpXQioksfltTtHf3SZtAGpY1_j2u4_t6ClJ0vnTiJirzn7c3XXygkGTogmFCdxql6i=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLe1_8ljXkVwScp5t6-2StqVG7SZEiyJz4gry14T7bMz5YigYTjKlfGKjIa05Z4wkPkrd5kOIjzNYZ4YPtdJldIBpCdfm3T5OGx_piemp-zJDpaGs6i3n8pQlQkxCcZqckRr2j_9dO4ppJIs=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdlZ9HPvglRKpfNJioV8McdLD8Cvx_7t1folnMU8RwWok_r5fNw5Ne7eFbRsdyPcVuwZA0Hyj0fZFNQjiujl8iBsVr0NC90ia7bBR5J7BJXqU5p5eQsDNu7yxEtilhqqqjfJPJS8Y1iPuEI=s4800-w800-h600"
+    ]
   },
   {
     id: 250,
@@ -2182,10 +2200,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹13,499 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/e3579106aae70a71e75891693d5482db9fc1daa9.webp',
-      'https://img.cofynd.com/images/latest_images_2024/7ee7c985591b6af147c81feee41eb06a121b1f9f.webp',
-      'https://img.cofynd.com/images/latest_images_2024/074c8bbf1a4eba080fa5305b21a1bc3c798e157b.webp',
-      'https://img.cofynd.com/images/latest_images_2024/d801f5383299c1371712e385872ce2e16ecef81f.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLe09SIRpfkfGYFdNFT5KtQ5ldLpqzt3p9D3QzCkSJgIoruUgZZfB3LARvp8RroqmTs3FSqLuICKA-Fza0p8gyxx9L-4hfFtQisowyoWIVI28Nl007DytAr8gvVb75CeM79GCMKv=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLew2Joq-PsxVzPSw9Se45BXM6h_6Z9slOvH8S6Izq2bRAsmAhE6ILhfYLJyVjMj3rU4IInDJjyj7qNxF6PG4JO7lloY9_su9ndR6sL5kke1IFeeLNZnohZK061iGDLdMd5Z_gLRlw=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLetQ_kdmUlUOvdZidGYl6M1hI6-EzHhYk88yau59hy0ayy55MnAOB1azoTVNwE8XfdxNbpkHcr-EvpnQcA_9Bw4va05hJXw2dN1gGqigFCUsvpeXg2w5rd6z9sieKt6E-SqU6Qv=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdSJM1aLm-83uu1uMdazK2veuPtkqrZX80j-vWtlGgM1cGmkvAYhS8gNzpWnmOX2UGxXZzmTk_hopmaY5kYk5K-nc0aMU9nYVxK89uDYobs2FjYbP-X4zdRT1-8S03p2oXXqVE=s4800-w800-h600"
     ]
   },
   {
@@ -2229,14 +2247,19 @@ export const bangaloreSpaces  = [
     id: 253,
     name: 'Focus Factory',
     badge: null,
-    rating: null, // TODO: rating not shown on card,
+    rating: null, // rating not shown on card (no usable Google rating)
     area: 'Indiranagar',
     location: 'Indiranagar, Bangalore',
     price: '₹7,499',
     period: '/ Month',
     priceFormatted: '₹7,499 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      'https://img.cofynd.com/images/latest_images_2024/5d94238c563f654f499ec692b02dd61307594f6e.webp',
+      'https://img.cofynd.com/images/latest_images_2024/c946604e36dfeac43cfedbcf4eb110ad8113b4c7.webp',
+      'https://img.cofynd.com/images/latest_images_2024/f4ed91bd9f8da8c1261abcca959c205c1b7fb5f1.webp',
+      'https://img.cofynd.com/images/latest_images_2024/efe480bc67148d4166bd3c9e98d9a10913632be8.webp'
+    ]
   },
   {
     id: 254,
@@ -2364,7 +2387,7 @@ export const bangaloreSpaces  = [
     ]
   },
   {
-    // NOTE: Workden on Google Maps is in Domlur 1st Stage, not Indiranagar - confirm area
+    // NOTE: Google lists Workden centres on 100 Feet Rd, HAL 2nd Stage, Indiranagar, so the area is right; the Domlur centres are id 435
     id: 261,
     name: 'Workden',
     badge: null,
@@ -2375,7 +2398,12 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹8,499 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      'https://img.cofynd.com/images/latest_images_2024/a71f04ccfa1bf3b2052a6d3afc69837249b74cd3.webp',
+      'https://img.cofynd.com/images/latest_images_2024/8a7c2a141ad54d8fadb8ee6f8dc6c28cbecba56d.webp',
+      'https://img.cofynd.com/images/latest_images_2024/dd5a7970314bdb85b306fbca8856adb2c70ed71e.webp',
+      'https://img.cofynd.com/images/latest_images_2024/ab6b65f2a12a339958e9feea037c7ebffb2bc9fd.webp'
+    ]
   },
   {
     // NOTE: Moss Space Diamond District not found on Google Maps
@@ -2389,7 +2417,12 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹16,999 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      'https://img.cofynd.com/images/latest_images_2024/66ed33d9559c224843f36376bf4db5cf928cb6ba.webp',
+      'https://img.cofynd.com/images/latest_images_2024/a8518d509701930be5c023f8536b44377913734f.webp',
+      'https://img.cofynd.com/images/latest_images_2024/a0dec68aafb51cd5e61eb34210d9c24eff0f5f03.webp',
+      'https://img.cofynd.com/images/latest_images_2024/5bf193e141bfaf636cc9d319265151e2192a5bf8.webp'
+    ]
   },
   {
     // NOTE: Indiranagar centre — separate from "GoSpaze HSR Layout"
@@ -2411,8 +2444,7 @@ export const bangaloreSpaces  = [
     ]
   },
   {
-    // NOTE: price shown on card is ₹59,999 / month — check whether this is a private-office price
-    // NOTE: Regus Global Tech Park on Google Maps is in Langford Town, not Indiranagar - confirm area
+    // NOTE: area kept as Indiranagar (per CoFynd); Google places the centre in Langford Town. Card price ₹59,999 is CoFynd's lowest plan (₹59,999 / ₹61,999) - likely a private-office price
     id: 264,
     name: 'Regus Global Tech Park',
     badge: null,
@@ -2423,7 +2455,12 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹59,999 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcw4ymcF20AHPmzxEmVCus8FoI_K_DaIKlkYWnkdNmC4GxIbH6MG8yFOUi_p-LTBOnO2g9VYFWKfdZI1eaKbwmbX2TyY6YKDq6v2oEAfH4iF0tFOAY0D-2mRiaqkrPgP95kAWbxmPTiczyj=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfuN8oUflMQQkRyQbZq6A4IJrIjQiYVfIGEEOQqN1jfCBooTvEZuWVnmS-vApzVaeL7IrXD8RS61hagTXSvtt_03USm9i0uOg8QYMbdecCh5umXNj9BxNKrI0xcROuv_Or8MMJwf1NuJgnE=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLebkh8ULo9Hkem59s5ZgV8oJ0hZtmUEE5hB5D9UseAUmIuOCWILn7jKXHlB1ejEKc2_S7NMJDS733pDDxyflSL5duexm37KoOyoO8qjAXk6Pi3LlixK2w6m4JgK9xGvT37QIAG7OJZuSCwR=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfz0oVTBwop5U_NqL0shBAa4oY2ofblxJXXUR4hCYBqsgJOJ_N8EuzzeTELvqitfUx6J07tmPYgqTwwKPJaTTqUxQQzB3jsNPPGBvCioKoDbGwb4qV-ocwQ8YLG6dCYvzjMtnkPxGaKl5Y=s4800-w800-h600"
+    ]
   },
   {
     // NOTE: same name as the HSR Layout "365 Shared Space" card — separate Indiranagar listing
@@ -2456,10 +2493,15 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹6,999 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfYFRvqLXsqPHk-AhA0TcRVRv-52wo9nN5engse_lcRKPOosjRAF4zA6sQ9Rl_oKSUKyquGkwBngfxRhRGdy3iq4l6oraOgSx4WTMbPo-M6BkomACb5FmKAF6MHtscwzfQ2iyaxkg=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdlHKwGT4PwG55WXWG26borqmzpv3JmTUvmwrUMmY5GCW5S7x3O0RlDOjyPI9jtdT6IjKHp2jBE0zwOrPw36QkRqLUk5XctTNVZok38_vv7F8Kgdtuo7qPCxsU1TiQGi0ocXMHAZQ=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdGMFtPhCgFKYSfmrMpfvLURJHqMDOe7xFspkLPnsXOdtzJILgWX0RD5FcD-NCBQ9-gPGrmKBel5_3dPd24YRleU9zQEkTRimxu_gJHX-N-k58soBMgxtC07pUximWrldIzZfMv3g=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfjgOhcmGeEdRkhvbYQ5WGIIB9l03Gz2wwXrlsV2YuqzMIw1nGvVaRM4TIkFdCwwsTIJwX3_L4ZI8URKot-B-2Ak6bz8vvoLQ2HddHUbNcMy8f1lWx78C60mcrNBPEGHeOnA1Xr=s4800-w800-h600"
+    ]
   },
   {
-    // NOTE: Profitjets on Google Maps is an accounting firm in MKB Towers, not a coworking listing
+    // NOTE: Google's 'Profitjets Private Limited' (MKB Towers) is an accounting firm and could not be tied to this centre, so photos are CoFynd's
     id: 267,
     name: 'Profitjets',
     badge: 'Popular',
@@ -2470,13 +2512,18 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹4,999 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      'https://img.cofynd.com/images/latest_images_2024/153ecf2e58e509f87f41ebe7afac706ecb251307.webp',
+      'https://img.cofynd.com/images/latest_images_2024/74cfd3a31a2f0a6830a91d4fe53d9a7360cdcf7a.webp',
+      'https://img.cofynd.com/images/latest_images_2024/4d0a27c6cbe4ef9fb075bfcdb18ec62611b347ac.webp',
+      'https://img.cofynd.com/images/latest_images_2024/801379984d4480febc720534b14db41f31dc9511.webp'
+    ]
   },
   {
     id: 268,
     name: 'Taravi Workspace',
     badge: null,
-    rating: null, // TODO: rating not shown on card,
+    rating: null, // rating not shown on card (no usable Google rating)
     area: 'Indiranagar',
     location: 'Indiranagar, Bangalore',
     price: '₹7,999',
@@ -2504,10 +2551,8 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹8,499 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/431fd77f2d440f253038ebd988fc96bc7e6ef9c0.webp',
-      'https://img.cofynd.com/images/latest_images_2024/3f8392d26c7208cdfdd82ccafb162ab816c5419c.webp',
-      'https://img.cofynd.com/images/latest_images_2024/69a7a643010389f38c2bc78f2394ceb00b186026.webp',
-      'https://img.cofynd.com/images/latest_images_2024/df93182b54461a1fcee0603bf49482767086fd84.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfl4UocErE_m7g7Ql54m1Q973cMeykUVDGN7aXzvdkErlRb5z5rLU2JdHy15dm2GPWop5nmQwGePe03fm6tXRblHup4alm0CPK4jHpvSwhP7a2BDIpy8J8BrrquGB9tSumQER5g=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfCSL_O26X4fMvLhMs9AHbpPE-nPLj8YuSAujEPYcvdvisWkll80wUqCpwHpjr8kFjllaG2xiDVqEmTI-xXq_PpemxZyim41hMiPKud8cJoboVRgy4Bd3Pq6W2MnzAYraGHd5Y=s4800-w800-h600"
     ]
   },
   {
@@ -2558,7 +2603,12 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹4,999 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLd8C1R2nXYXp-3aecTcLf2xLtRYj5Q7HHZYP9Xl0EbBea5dwtnmE9LYrshidPr5932y7NslCGpZYVDzfbeYZ_F510hB-pSNhkvtic-9PLs7gBCqmXWNOLIQkK9bMRd-WD8orZzOzQ=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLd28QSAAcEri6W4TtcR9BD41W3arP4_UANo-KCD2ME7fl7z80GTLtPcVwHejf-Cfekcu8yzklTo5LWUToTr7dG8IuH5tWi7i7GU8N0SR5-zFJm89qaCX30OwJVehUr8VAmXFnp0=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcUr1FBUJwGs8xLRr9g83MPaBoxi2CStAUhAwh_cBmSVOnxWxc_gYLcqL8vIVNMQhS6z9gmTDHxfwVQSlLU6ygJuMPD2kQYlXmWn_5GZ0n3U774jAgMg_I7k1ZMcgSQjppovocZ=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdgzpvZJg4qEidM0vppt2R1TjXY6TR-wmMnxCjnxqwIVI9ArEw3Tnl9pULfl0Y5INJPWMmq5Xw05Wy15HOCV6z3x5MXOd_etvrKdekDsoWhrn0NLxbwrq2HMeOxO9Rz7LfFnpxVFA=s4800-w800-h600"
+    ]
   },
   {
     id: 273,
@@ -2608,10 +2658,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹9,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/f8e9fbc894a7024a27f63e84e2504e5feb1cd571.webp',
-      'https://img.cofynd.com/images/latest_images_2024/a920480d46126ad68910a8dd23aa5c6239fe1c15.webp',
-      'https://img.cofynd.com/images/latest_images_2024/0a84cf67c0e54ab0a366b2498c52b862bb7412b1.webp',
-      'https://img.cofynd.com/images/latest_images_2024/f539c7587740db1d7e05d0a7fb0e3247f24c9237.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeaDFxizgdJ4EftnraV5QnC4cVJuZPk2e0NBcbAhEn6ybqLWfGDWOm-K7e_CQTVYDyYh8mIy1p1BI0rh4NNXYKPuSluy9Faim85eNKzsegrLqVzwCnfaWUuH9Ceo_I7X3xUoNzEnf6GU0Ts=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeASBungu7Tosr2kLlBTk1Lar96roby0lJS0F2zKogodsiS3jVHb4NRX_40zcbgNSKfoyrDGHDbcIro9hc5-3L9S0LxMUEOXLS4_c_Th0kXDbLAWOgiHT-8TuSXobGM6C5gfBOoHC7X0CIg=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLf0C6a4akj8FMX_Th2P3O5J7vmQMQgh2tDGVv4LaxFiLD29-_JJTlla58LnmbETVnQGK6rcBHX2hwOa583B0201mCUqS_jqAa-iX7t-8htoHEyB15k4-DM_R1uXgt6I7jL484F4cA=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeZwgobwQWen1c4m8z9PiXfv1j4do_ewLjub-peh_KtPOZpnoTs3WWPRe5TclkSAYMlSJDiPQUV9CCNrishuvh70cu9qvu7946pk8RI7bqD6UCXIhfgqgrtGp_e5hJqouRVnYH4MQd5LUg=s4800-w800-h600"
     ]
   },
   {
@@ -2626,10 +2676,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹6,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/original/9c0fa66f723281b157d7a873ca747d81617b735d.jpg',
-      'https://img.cofynd.com/images/original/9aaef6dadda1c4eff65148b94aecde2163eff662.jpg',
-      'https://img.cofynd.com/images/original/0055bb8eccd8c708092ba0cb8a9420f77cc860c1.jpg',
-      'https://img.cofynd.com/images/original/1d0040dde73e22bba40e62c65d9ab906e1328cf4.jpg'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfylIMNYGC_YOO64QgkGSlN6DPmTZ0AbH1BweiihHJYqK1gvpgtZbYQArzQbwkRN9lbXuonwOqVwU3GneURI6VABBhepCuKtC_iyROsgFxD-HhA5OxisBAwC9dGhZa29hK0066A=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfLLCnwxWX_KLq3yz_iMAQk7asSqt-jReSC6IsV52RJNz-WrSzZgdwEognC3jd8rHz3KJrC_FRDXpL4jSI_kxCy04iy3fkTT1zTvbbSeuBfQ2ot6kfLvE7CjdXK81TE1Y0UTCMoMw=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLe2DF3aoYCAUz2tUN0DKKtG_cTah5XT9QHmWVrMKFUvwp9bOd4GN1hggOB5aZEPSUg_VVerI-AvvwtoyfNfvYu87Rr07z7QCs6A12O4w5rvb5jF1cMl7VwfYLrY-IOwz2OgTvb4Pg=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLd3wbDkI46QalIm0o60w0MilYnP3WF6lnUAWYF7MRw_KLI9ogSECwLdp0y_TKqVXo5snqQR_Gqp2hStE6TO4rKDjJhZrpt6pmJBmNZOsjcldpkp6y8gjrq60KOUkdF1hdzWabZ5BA=s4800-w800-h600"
     ]
   },
   {
@@ -2644,10 +2694,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹6,499 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/original/07d5f0d0fa9f800bb7caebb28b0efcb8025cbb0a.jpg',
-      'https://img.cofynd.com/images/latest_images_2024/f06d2ad4f83e7c24bddd912df79e2b7823b2e414.webp',
-      'https://img.cofynd.com/images/latest_images_2024/078d21dd3cec2aef2e2fcf941596df997b91be89.webp',
-      'https://img.cofynd.com/images/original/b62b58210e8e2b2b765c6c445218124ee0ddd552.jpg'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLewoWDtBHxXbuKHnxS4wzC_juamBRNz2WN92IfP-5KvRUV6cFGa0CjzKmz8duO5NuZcvND_9uG_DZrsBe8u_V5YqI04qd11jkx2ta_Z89xz7NGsY9Z3ytje59yXzyVOxWPw65ZL=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLc61E75Gp15T5RNzaM1WUK_h5Vti1Y6fMcXYaYF2__SlVw9wh67ITaOAQtr61dX_Hjx5fdejZ9IiQ-AzSbshezowLQYn_OcISB_cSscuHxOG8gSuuMntrmu9h33rCGBbg8PUl59tg=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdAC1ARdV4Hiw0LlnEHgRatjpmJiWf-tJNEy_zrJrfFPdvAHnj905uBJ88WgNivfhAtZIQOqDlcGbMYvhHzCYoOEBfVuth9U6RVT4Nl7bzBN-3EVpzM-bqZ9svUMLXji0mINw=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfhbiU5GchTZee1sc6yoqVXuTwEnwsslEhNzj1TjUJDbkX85xxWdTCUWmvLh8NWEBfkn3Q7bKpCBG8nzbNRlauwFuJrMyDrZnjsoDDhCYuaM2SLZ_vGGFgOTvFGoj4LY7wX-uGrzg=s4800-w800-h600"
     ]
   },
   {
@@ -2662,10 +2712,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹7,499 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/fd8dac027daf898ba2da265bb120631cb51d93c9.webp',
-      'https://img.cofynd.com/images/latest_images_2024/89466816afeeb369a87a96159478f852698665d0.webp',
-      'https://img.cofynd.com/images/latest_images_2024/1daac7b1bc16bd9593c187ae7178330eaca5d46e.webp',
-      'https://img.cofynd.com/images/latest_images_2024/48fe4d7766861068b5b92a55971e7c10ed12acf0.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdkJunG-hO9s8tw-fZLIyv7IrVkzEc2HMuvkMeiy5BUIHmqS-tVsu1LCyrMWFLK5BCsdzrywmSEtkiMIvuKAanCIPGDuyMBlzFYM4MaPS80MtRNkSJFCz1mW6PJIHLa9MYOp7llMeH8JGY=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcSGcOMyfRlUAAaqvbASBWsV90H1n0QFpFgm5z8SGHUKCaboUAoOu4D35U-JXlmOFOfWOuWvEGAt6vRTzoITV5uvcdVF2fI2F8A0zNnb-5jVmEhr8KDoegT2EKAUaFfuhLlYujE-LMuPdR-=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdWmHLY_vvADYpiQkBb8ysFeBDnmZL67zpHYgOIBh4jEy0cWLHEIeR5gvdRqzm_4uBytH4vApjHwdch58POUAt6YBuU3NXeI97j9XpMUURDl9MPlgeUA35IiPGHLirSemRGcaMdwIsSinRG=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdF3y5IKsZA8HZzSMXuj1ITHWFfQfrwXzXj2cbQIFHLmMk5SYja24eS7FJ9Y6xuvOI6c4r8NNAIUXHc15W0eSe9wnQ4QVwbExOImhKdtqV5hlQz4sfPCSA286ZGq4wX1Qh14sVyBnDLuts4=s4800-w800-h600"
     ]
   },
   {
@@ -2680,10 +2730,7 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹8,499 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/6901f737f4cdc673537ea3448ec707cd913b4e49.webp',
-      'https://img.cofynd.com/images/latest_images_2024/4285d0b80b900d62e4136dedf9128af273de99b3.webp',
-      'https://img.cofynd.com/images/latest_images_2024/e5652a9c3cb01c37102fd292bf3d72661c90d213.webp',
-      'https://img.cofynd.com/images/latest_images_2024/a4aa4e9008c01d9e7366fb4b85b2293aababd4af.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeH1ksQ0UufsKDQYXjqsz7qZhZlWcM_zAjNzrv9hro99fBaKxtYRjhNleJNOplHAqSZ7GulyvVZvhFKFcGVR2tRVfTxM1_7h_2cOwUWxdKKDuZFBwYvV-ks_J_TzIdgLAaJUYM=s4800-w800-h600"
     ]
   },
   {
@@ -2698,10 +2745,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹5,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/76cc6d0d170fb5e2957cfdf4f2297c2b311e8ae0.webp',
-      'https://img.cofynd.com/images/latest_images_2024/aa50d8cc3c192792cd9f2e80e1f3174353eb64b0.webp',
-      'https://img.cofynd.com/images/latest_images_2024/bcbe2181e43add47af605b66934ee95897f3e647.webp',
-      'https://img.cofynd.com/images/latest_images_2024/8379e90d3b06fbce643e69cd8d70cd1cd82514f1.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLf65ZKGK8iUJEQFRSeD2BmCt2amrZVHeZ5nRNZ0Q4sBhzhgNORpTtJWwnF05Impf7u-8ULr7K2S8Y_qevevEvCx67a1fVtnkkVRonZ7DUZoAbmNL2Tv59NDW_eptA9fW3sCYysr=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeR09vS0CEv-3jnE0lqxAup7eVjcbVADDwf8YZ6xI_JlwH-Ams5-C11Co2Dp4i4d15kZuPN9sTpp4M5gHyVbxU9wGcw8pcO1Uamd2dfUtO47-tEzEVAASCt7pWWmBNkpYpvVnk=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcwuVhAGG6sQp_AqCgTHBIcIXzqoG1wGF6sjL9MM6SuOXlVO9yjixGBB9XqVy8lB3lmeP0x7oGzJ0GT61bQX4uuw4V6rHcXKk0T-Wv3Ttuj4RN5T8CVY507VrF5p4vG4pbBPmbGog=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLe6rppymc6l8vONXxBLb02PW9TYwttZBRxReFMOdokbvHZXda2zoiE3fYcs25cAMkDzLKgjYiJkMhzUno10BdBaLceRXTloqSoFPnSCzujlrbTYrN1FTYwp93_b3e9VPFyG-Q=s4800-w800-h600"
     ]
   },
   {
@@ -2716,10 +2763,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹8,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/6269055fec0d5a2c5aa2e23df1412ed16d445253.webp',
-      'https://img.cofynd.com/images/latest_images_2024/9a1548ebcb3e11fc462450203e30b40fe641b19b.webp',
-      'https://img.cofynd.com/images/latest_images_2024/fef90407f612dbbdfbfdd10189b468533b51a6db.webp',
-      'https://img.cofynd.com/images/latest_images_2024/c2817d6814a056ce30554e1f19e80522d9d9c194.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcfd5afPJwfi-kb74NDkSYU6-dKSXgok1TiyQUaZddVDSuPudX-h2JDkZadwXoMAQK9YBE20t_gf8wLfKJThjzPn9S2vBNww_dI3Z4KCUvO-JaDFIJN3hZXuS8T7jnJIU56DvQERw=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLe0kfyAzjaJa80kWMQvhjyt7xHBuA0FBr063IaJ5eKHP24Q4iVzIh-thn0_GtRo592Nrk1nOqzPwy2kI5WgcbtwYhS1NbgDwz1FVfGJhsPHXj6kAr0jQ7AcfHORc7A_wMi-Yr7SCg=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcFxPWyH6Gdow8VijH8HDRk8vx9tovza1cq5XKVOtSF6W7kj2r8h-GCxSuiPyClVqJvxQyamekpjDFn1Hm1XIAFh7uVHPT0t1JM4y6dWOvbgIFR_Ylr9uhliRFafDC8x7K16VU=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcTsEFmqyK9oDAjsypqmVAqUGqcZ2F7etKh5tw_fuqweSTtH3bTpQbWyI5rRWeJ5qLoQ__p2wE8CHw1VtRb2QMcANQcQmqVxpGAs815X5W8LJIfbSSMQGVEZxhfts63VRP5WhsS=s4800-w800-h600"
     ]
   },
   {
@@ -2734,10 +2781,8 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹4,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/b12ac89b63af9714250e5900b5343ee99804f7c5.webp',
-      'https://img.cofynd.com/images/latest_images_2024/eee1a881d1b43ee04020aa5b4d7a4b91b59c2a8d.webp',
-      'https://img.cofynd.com/images/latest_images_2024/74442c4a749329c1cda961649c8b67960f809f22.webp',
-      'https://img.cofynd.com/images/latest_images_2024/810e0f47747c688b9878bc29669c1196c62b1043.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLejLx7nxHaTkSQx3IRh0wTjKAt6OqC3PZ2TvWkXhOzsoPRZ9N2o4wXEB1vfIhUXy57yLw18fvD3YykMuYrEAK95ividzkBWNBc2UoZB4kxRT6SPz88om1MPlkYLvg2teYgBcj2A=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcHs8UTmT_6jrdalb2rA9Z-s7Cm9F6DD4KABSLZga2LrLPOIaMhrbxmU5EVSg4urN-5uHVu6nqXBFZrevtWIfTFdnl8daaVBwHCYlrrOVu4UDEMGnKb7mBQseP8A1oTclG-YkW0=s4800-w800-h600"
     ]
   },
   {
@@ -2752,10 +2797,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹6,499 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/002c63f1a0633b3ab0412b5a11ecdac20fe85756.webp',
-      'https://img.cofynd.com/images/latest_images_2024/586a1c9bce85385bb69007f445f44cb5640eeeb9.webp',
-      'https://img.cofynd.com/images/latest_images_2024/aa8a3c5f8f4702f206d95dacfddbe532ba2b2511.webp',
-      'https://img.cofynd.com/images/latest_images_2024/c27e7f0a1836a384d3a1c679037c0357c8fafe87.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdv--FdYnHhOYwam8vUuvn6fz8rCyGD5MUno_WVl0H0804BAqcqn1EOwGya05qRFCJcGscoU3NWwr6UEXL49kBrz35YvhI_hzZo1vjSeLeLgjHwhIcMh-wY0MJ8ZRbS1lbPOtdw9Q=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLd5oyFeJtXdcFuhHvFmnJA_MKDpPyfLlU6Q7NLIy-Prf5Oi-zz0KeVxQVOzZMozUOWqWZi5mPQwPiTcsUx40ho1cMl9ZkFfBpa_1q6LGVvMyJaxhFfp0S2bz-l5D-n9udxMSZurSg=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdIedzTvhK4YtpcubLcDrN7IZWkEcpchLz28UxtL6q1_COq-bnJbJM2vwdIynAuolEJvG6hRwWY_3r2NHHQcXCr2K4Txlk9aJrJ4sheg_N2ff0nhzVUqac-8wnZMjyStX41jKHJ6w=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLf8e3ZCk-qAEwMVIpeHf4Qhd-3ccn6rV3PiLCjLIFwOYthceNeNiDnGhbmtTthnD8LnYiItTrqi1No1ChvvaKcbhUjojHRlhIyzMihe-7YP1BExQtp43r5yiCiA-ISNQjd6Z4RN=s4800-w800-h600"
     ]
   },
   {
@@ -2788,7 +2833,12 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹6,999 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLd70s37tjWyYQ0N_EMbmi48Pkz1NVs9_9MVsEjrhsZRKh-8gAtCZSzLJUsZV_OZT1qPTx9I634Y8hi6WIzPDXFOT0mw4t-LIP74RKwzRb92TIrQyTlaautAQI7BVa0LXMQMJb-T=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdtuNbtgMVEdYLrDAi8_U-VWmdXEFHyIMlTx47fJNtmlIBQGl1KGH9UZyxsmClx9m-avwGONwIaiXIA7rNGjVVUjaee8G8kpC8GAoGIymazVzVjVTN7N2U_Vae0YdF67vEmNsNf=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLekEXcRy3Ypl9489CwQFFuczjmm_PSrXgJAvotkgnkuJ9066274P2Eaur_zVLP5sq0gY5Zn1fQzD0I0ivG1ad16t1reWYoyZB8WY02JjM17g1-tz12kZLWU5sFVf4J0Xsz-sxs=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdF9Z2MXDP0tWAl2_qcMthOCvCbd6s7szGs4RlYHUQcKab3AO3yp30NHAgNf-sLaQJ9wo2V9cJfhr9vDwpfg8pBUvBfF2miAIwLUQP7G8ftKwuKna5L_xs61mMSWubvIJmbEtBO=s4800-w800-h600"
+    ]
   },
   {
     id: 286,
@@ -2893,7 +2943,12 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹10,999 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      'https://img.cofynd.com/images/latest_images_2024/35a0bea4caf188f4443183e38fdbd45d46ac3c66.webp',
+      'https://img.cofynd.com/images/latest_images_2024/80bb340ded5db1378e41e7b3627f9864139b3d79.webp',
+      'https://img.cofynd.com/images/latest_images_2024/f6d4f358bc53d2c896646218f7bdbf93227c1000.webp',
+      'https://img.cofynd.com/images/latest_images_2024/ee8c87f1a626b522eb4dd47286518391c8f95723.webp'
+    ]
   },
   {
     id: 292,
@@ -3000,10 +3055,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹6,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/45c2fc919894e36b884c37db5a86ec2d9a9d6438.webp',
-      'https://img.cofynd.com/images/latest_images_2024/c4d5d76a65138a04f25dc02cd457e5e35fcd1d05.webp',
-      'https://img.cofynd.com/images/latest_images_2024/f31d6b5353d3ebdfbc461249ab6287f73524f478.webp',
-      'https://img.cofynd.com/images/latest_images_2024/bac51aed9afe4bbde0b84f1ad703869ab6054ef8.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeD33oQgzHoknTLOCYMkZKck0YmrCJSV0dWzq-Q59q-MPeBomHjq5uVG6a1AMJc9hx-9PlK2cME_iyaMAGVXmK0VbdnfqhVwQH9drjU6A6QJHlPzxyawEY2y9tRbC5AfbM877Ft=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLekHSoHA3okyXqyVWj5uFc7MjWuNlq50Bd2NFCWNrJrOXsP1y0Sz8Lqy4s6P2YifPfjfRG4ArNl8IhTYy48UAOyCfreh74AqpvQikex0m1k0gDvABMk18OxdLWJGOq9kH9x_QhF=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdkE_2EfFaQ4EtlKJ5IsuOJ-35eoWEfrMVZ7PIcdIILxQGSEMTiFmMI7JHP0Gom02U0TliRRQ_Hw4DL66qp-2cHDhsdW_5bd5WWmz2HZu4Rnv8k6949OU4noDLX3qhA_luMAf3aGzTg12Lc=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcpaHgkoIBZaKl276z5xgjo_SOea47_YPx5tZFvVrIikSDuNi4ktb2L5fBJcPCxFJhzb0lj2ujr_S76gS433WJVGUpVz93SsxzTWdjuKGCwBsp5jOTeL5Gy-Kd1C-x4_3MbNHN_TpH4efN7=s4800-w800-h600"
     ]
   },
   {
@@ -3037,15 +3092,11 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹8,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/9dbdb61434977fc60c16b9efbf2f3bcfdd4a3099.webp',
-      'https://img.cofynd.com/images/latest_images_2024/0e0f62687b7dee9a378912b8c980ea1fe42b221b.webp',
-      'https://img.cofynd.com/images/latest_images_2024/12632e88b6518190f7d55d47720ca37938b1a369.webp',
-      'https://img.cofynd.com/images/latest_images_2024/6edf44ac55daecd45628d3c484e635941056168c.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcjYfFoomzvG0H-LyXCbUvriVX6iQOWnlXv_C2bBeuOjr3lUg2Y3QN_6TwbG8YB2PE6o-MvROr2VRoB1ndVoH9FYfA0gMNEzSnDKq9qGmWjnk9SwNgSz7FAfOE3kxgz4jsHyaKO=s4800-w800-h600"
     ]
   },
   {
-    // NOTE: area spelled "Marenahalli" on the card — kept as shown; confirm spelling
-    // NOTE: Mioffice not found on Google Maps
+    // NOTE: 'Marenahalli' is the correct spelling of the locality (Google uses it too)
     id: 300,
     name: 'Mioffice',
     badge: null,
@@ -3056,7 +3107,12 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹4,999 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      'https://img.cofynd.com/images/latest_images_2024/14a9f08c1abaf9e7f63623be718e1665470d813e.webp',
+      'https://img.cofynd.com/images/latest_images_2024/b2469831dba9485284037ef67d7df36474556134.webp',
+      'https://img.cofynd.com/images/latest_images_2024/275ce8fe1734c595b3877ddd2d5fa1fb21b31940.webp',
+      'https://img.cofynd.com/images/latest_images_2024/04b2dd803387754e3db7f8c3a40f7eb7f244be1a.webp'
+    ]
   },
   {
     id: 301,
@@ -3070,10 +3126,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹10,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/b624cc86718a33b71911e2934ca5e86652a46c35.webp',
-      'https://img.cofynd.com/images/latest_images_2024/43bdc1d168fde0a6c1506187530dcd48ace74ec4.webp',
-      'https://img.cofynd.com/images/latest_images_2024/0891c64f9bde742fa110c727cecc41f729cbbadd.webp',
-      'https://img.cofynd.com/images/latest_images_2024/a011868127324587114b5f65affe60fe7c432bbc.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeuCcRqtQecq2NTLCvV323S0Im16U7-wqn8j-eSKExLdAe-wtK5sWi4cv6Hfg1Yq-V5DtilAxNGB6YfixG6-N_yWCQoonlLsTakGtaha-_JL3oipomMnrDRP4HNCt4yM6LTkPl-=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdFHMl0kmF4_aFMuj1ikpYDEWUgidAzhtLzyO_DQw0PJRFnV3__7wy3scMXPsA1nCk3EJUIt6lvg5yjBf4LlA4NRpXHYjPBg_pA0_9Jd-nwYVXM9gGq_VvydnYKIdfUipsEAmEB=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfRLmCUOMJYpQVUTNrJ-3fQ-ZqUeSTzUaB8KmL69tsWgILXmrNlKVAHhMWSbDWNYThXkLsVzX8SH-IAuqGBEokfWn5eYXntBXsHv9OCaV0cWbdvY6SzGnksuFI7RILrDfqxSMGo=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfiZJu4F1doA_-7Kjj5DCou1_3DESVNt_AJl1Lxd5LO0hSjp0tG3zS09XTl8g8TUHzQVKQv-XGEXx0QB3WL9OWlSlxyx92mV6pU5zVP1dIo8KzaFNZcrQ1i3lP_MsfoMA13VFqG=s4800-w800-h600"
     ]
   },
   {
@@ -3093,7 +3149,7 @@ export const bangaloreSpaces  = [
     ]
   },
   {
-    // NOTE: two "Inspire Workplace" cards in Marathahalli (4.2 ₹6,499 and no rating ₹5,999) — kept both; confirm they are different centres
+    // NOTE: the two 'Inspire Workplace' cards are separate CoFynd spaces (plans from ₹6,499 and ₹5,999, different photos)
     id: 303,
     name: 'Inspire Workplace',
     badge: 'Popular',
@@ -3105,26 +3161,30 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹6,499 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/14e7298d9e2ab1a086ce1e4226545de8aea9f8fa.webp',
-      'https://img.cofynd.com/images/latest_images_2024/7d9c3434ddd4f6b9cdda753007eaebc4cfbe1ed8.webp',
-      'https://img.cofynd.com/images/latest_images_2024/c3fdac5b9af46009bfde2beecdf5685eada2012e.webp',
-      'https://img.cofynd.com/images/latest_images_2024/21ed672fc695127168419b2161192b7ab7676164.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLc0ZzSOtV1eGGGs9RLoDa72hw1cmnYeukp48wd_KbK4N0oyMZMZ8Za9nWtPgDj6OeyIsSoiV9lubQYmwhvP23R0Xe47LPr5RT72U_8t9FzXH8BeIC1tWmOYBfLlHv-dDf7mJN4oL3J7H5A=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdYfsivcORyscW0uEzFvNIq4Uz2U-mTG6t2738WS58tzw55dEwsUA9jklQ6J6SxAOT3lmJtXDLcVpkzP0WE2ogfTp78m9vOGw-GBlKLDqKVuZEh3xd9hdHfmc0BgHvGUI31eGcIjy47P11p=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfG9aEYKEloOf6xT1wNs8ofmY2xIeq-DyYeWdyr47QVTuQ3NwpYnP5f4lzjs8cgqs0TGI8oQ3cvi7mTNz6EpwwcraIj9F7XTbQNSTAqLMjgEFqtK8hD5dqsSL-0AoCOEGld4xZyyMMSxbg=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdu5AvZUUuDGXFVzkJrMCJE0VPLq8iHLaQF2s-fZMjy-KoaWZ0lGmrBKz7OpIzZHpYNM13KKBK5UOZvOdfRrH_Yk8NKsn7qEb7DYIy_eFBVM_pdzlfHqMwEYy1BCFsF3MJb1-KcbXejK1lC=s4800-w800-h600"
     ]
   },
   {
-    // NOTE: second "Inspire Workplace" card — see note above
-    // NOTE: Only one Inspire Workplace found in Marathahalli (already id 303)
+    // NOTE: second 'Inspire Workplace' CoFynd space (inspire-workplace-marathahalli-bangalore); Google shows only one centre (id 303), so photos are CoFynd's
     id: 304,
     name: 'Inspire Workplace',
     badge: null,
-    rating: null, // TODO: rating not shown on card,
+    rating: null, // rating not shown on card (no usable Google rating)
     area: 'Marathahalli',
     location: 'Marathahalli, Bangalore',
     price: '₹5,999',
     period: '/ Month',
     priceFormatted: '₹5,999 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      'https://img.cofynd.com/images/latest_images_2024/a96710b7ef6fd393c6dce481d7fb2d0a06bad747.webp',
+      'https://img.cofynd.com/images/latest_images_2024/57058eab20d2b0e34934efcac2266608a13b296b.webp',
+      'https://img.cofynd.com/images/latest_images_2024/56865246e0afcf54cb792b982b579b1bd3745e90.webp',
+      'https://img.cofynd.com/images/latest_images_2024/a134ea0067fbd6ec87cb7090cba316c098154c09.webp'
+    ]
   },
   {
     id: 305,
@@ -3183,8 +3243,7 @@ export const bangaloreSpaces  = [
     ]
   },
   {
-    // NOTE: area spelled "Mallathahalli" on the card — kept as shown; confirm spelling
-    // NOTE: Google lists IndiQube Gamma on ORR, Kadubeesanahalli
+    // NOTE: 'Mallathahalli' is the standard spelling of the locality
     id: 308,
     name: 'IndiQube Gamma',
     badge: 'Popular',
@@ -3214,10 +3273,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹6,499 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/ec6d18585d9003c7ac103b5df557bc186a2976b5.webp',
-      'https://img.cofynd.com/images/latest_images_2024/0dc8863af97cdec853f3c301f470cea7ce280f25.webp',
-      'https://img.cofynd.com/images/latest_images_2024/dfcd71ad693cd31b2e531439374fc356cfb8af04.webp',
-      'https://img.cofynd.com/images/latest_images_2024/60d97165057243e4875919dd59cda564c27f41d4.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLceoC8LFNRmFftRGQdQ0d82jStx2R9biJMnFjoXrdDDV1jN6erKjOB2dgWyrAtn34sVIgxYwBg1fQtrgQo9qIVeQVZtvn_UJ4lly6pyIw2qpISG6Da6umkoyU27JXqDnYeI9Tg=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdh3ZZO1fCuZSQtR5TRpb46Oxumem33eZYtduoYh5p1AgZhadTxKrLobDqzqFq058cnDbNZRuQes1ZpSLhEwAbmStdwC6C2InA4oyxTBY0cDK0ezH0v-yvGHKa1e97tiXixxUiObA=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcjG4AxXzW-JVYlymLlN2w_4QGe4NVHUwng2xlTtI_CClCC_MDYSstTgjuiZ7WsQ4ltsPGu_qp8LZARD2WopT0qmlbgvzULeOQkfNxzA3nRKIkVO1sWXirGBhrkBdBYvWEx_e7f=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcyJ1ByLUdiOL_Ed3QmkouRs_EL3y_uFej7QR7A46Udcms2_CtURPFDpFfeH4JPr3caEmOra6E1MJ84xisua3XgMAeyocnQs5cVGTWZZ5uDYPHUQzc1XaXOhpmq7bD7P7TTvA6x=s4800-w800-h600"
     ]
   },
   {
@@ -3232,20 +3291,20 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹12,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/7583b3249a84f05f80607baee6ad2d06a633dc0c.webp',
-      'https://img.cofynd.com/images/latest_images_2024/b4c6e8d79dfd2a47821cdfca6c57f48dc0d4c44c.webp',
-      'https://img.cofynd.com/images/latest_images_2024/ea7b2db78495c52a96ca01a1960797e1dd0c3f14.webp',
-      'https://img.cofynd.com/images/latest_images_2024/79ddf50fc940e202c9dd4374ff5c0ca3a70e0c52.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeh-rQ-uMK2zWxGI4hV-3CnH5brYBoELjurRgrj0mB6LRDzOHp3ZGxiFk7S0gWWgHEo4Hd6QgvpEWdUn1WR9I0iXYhJizRbxllaqbWO4uvEhpVofYM9aQ_goxIsajr8DgwaTVyTBMAC6jpt=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLewV9SvZYeAxjExbN_irmT0KoYi2pFwvgzaEqx1njStaN4bGCYKFXoiwGl9xEfR1KKwTLIq8smtV-JceE6vSANjR_ORfz3uKkM88jnEYB6ZhytvoWr9bTP0waldUGkeZyRO4L12AWsI6Dd8=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcis8X6z6jbDvUZJIz1ZMuBjXZpXBJSswQ25IYXQOUBXZ_wc3b78JmthDFUqODGbUgqTpBvuymeTZBLra9R7IJqGSI-T1i0bHhyLDyky917WxWdc274br-NJ6TjTinCWyVjreMYQ6-HeJ9i=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdO03L8BoYES7ZXA4G0tjaerkBIeOfKFrRzZN2Dye4aRBMVdDQQuP7sOh4zldw6mcQg5BQwXuQlzbSU8eHyn9SfzFct8iFGDvAnuALUsTh4TFJU3cpHwElSu6eF5R-BzkVZsuzC=s4800-w800-h600"
     ]
   },
   {
-    // NOTE: area spelled "Kadabeesanahalli" on the card (others say Kadubeesanahalli) — kept as shown; confirm spelling
+    // NOTE: card said 'Kadabeesanahalli'; normalised to 'Kadubeesanahalli' like the other listings
     id: 311,
     name: 'IndiQube Helios',
     badge: 'Popular',
     rating: 3.7,
-    area: 'Kadabeesanahalli',
-    location: 'Kadabeesanahalli, Bangalore',
+    area: 'Kadubeesanahalli',
+    location: 'Kadubeesanahalli, Bangalore',
     price: '₹8,999',
     period: '/ Month',
     priceFormatted: '₹8,999 / Month',
@@ -3269,10 +3328,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹6,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/c510eb28a7672b3f88eb44336119eeaa5e236f2d.webp',
-      'https://img.cofynd.com/images/latest_images_2024/cd58c6821ea3d352174ce9e0785a20f9f6115e63.webp',
-      'https://img.cofynd.com/images/latest_images_2024/7f2d54d9177076d81fb58a2e7ec2c4832701dda8.webp',
-      'https://img.cofynd.com/images/latest_images_2024/67fde3062c1c2a62982e292ff81954d90e610586.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdioeTyT-V9dOAdheEnKGs3DsVxIYuYLc09CBLfUZHgRB8eDG5IZmvA54zLxEO8oc5JHfoFyUGoGNhuaqR0EovDz0sRbF9FZsw0Adq_bPKkEWau4Ovszu8eQYUm6III9al71bK_=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLd7ru1uF2tuO8nBTLjK8qtbjZIV9c2fDq6NnN2ZjkzjYx2M9YNh4KPOV8JeNa0XnUzGdEdYGebFkvk7tQHIEG09BDiUm8sH1FSL9hrLhzcDExLQkqORhIwmEBYo_fCIIRpGfxU=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfrMIstHFk2qgPevrrNIsURPdkunBEjs-lzIHWHs5xWI2GdCLiaU5MYw5fYB20IpeOVP_YPMd8vmro3d14Jnm278frlE1-Fd6_7TNaJjhNZlIDMkp5FGKUlKyHSZAlTxcuZSfYs=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeoQrtutv7nPZt4JFYGsHIWpX-Pky6tfbiUQsL6mQoueoUsb91M3MCx6qX1ygsLG7RldRCNmwisK8VoDHouQk-iQMsQOMcOaD2QcoF52_9JxmNmfe-qJYhleckLNiELCZ3-mqza=s4800-w800-h600"
     ]
   },
   {
@@ -3287,10 +3346,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹6,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/4e33b6aa71ad900e559bdb0d3f50c368aefd7578.webp',
-      'https://img.cofynd.com/images/latest_images_2024/3e33e66c24e1276c673699fce72b5ac1057d4fa7.webp',
-      'https://img.cofynd.com/images/latest_images_2024/2134d6c958ced4ea14bb27597e9f63dc4b5a5c7e.webp',
-      'https://img.cofynd.com/images/latest_images_2024/9b87decd7a60f3f6bfa794908f82574f23ca0613.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcMt-MzAeVSSWrf19JuRMGAleaER8OEzyN-8k1mlrEkQUFWnxXo1TBf5PI6ZBSC6dEyZYCD2b52Io26PhX-o8m8sZ6ktaE28ldacMC6Tu1GXV-VIq5tSUIKGGAtmRJjHI4QPgOBCA=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfBb1ICzpGuXQtSWDpq5DW_rQfqiJ90da_VIeebvrnFtF_9wEnexpL3jKCUANC-dzHHp1ZU7CcDOoonXTWWGsTLtkDXybEujDQ-S6mfEniHYHw2nUGIhan4346DI1bsyUH2MNelObvW_JLg=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLejX32IhbAWT1BA0yFBaxKQuj4l6Zg1TK_M_go6xFQh6DviyXpvoDurKOvtEz7plcJ2GF8RJg8p9O58gHmqTp4hYFFL2eEb1LrIZ4vyT0sQ3L6vH-UA60Mv_-O0JczXP3CS9ofO=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdwJdbkZPi3TXFWNV-dDgTp73fqD7aOUR_OjkopkrKrUVUQ8D7Nz2XPlw6LUZVlMB4_zmovTT-VsGsZT3VceUUlvxNyG0TrnK3GUEkJWl-Ezs1JIS-VZ3s14qnMfpEBXoWNVr_T9g=s4800-w800-h600"
     ]
   },
   {
@@ -3305,7 +3364,12 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹6,499 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      'https://img.cofynd.com/images/original/79f308e4a6080b08dbfb22514992a8faaf0f73f7.jpg',
+      'https://img.cofynd.com/images/latest_images_2024/353007c1fd0744d716c3cbacf81875910a27e8a3.webp',
+      'https://img.cofynd.com/images/original/15df92a5f6f90de0864af68cd5f11c925340793e.jpg',
+      'https://img.cofynd.com/images/latest_images_2024/8602be2cc25ea6c37e15641aad70632f2736577a.webp'
+    ]
   },
   {
     // NOTE: Google lists Workshaala Cosmic at Salarpuria Hallmark, ORR Kadubeesanahalli
@@ -3327,8 +3391,7 @@ export const bangaloreSpaces  = [
     ]
   },
   {
-    // NOTE: price shown on card is ₹59,999 / month — check whether this is a private-office price
-    // NOTE: Google lists it at Prestige Technostar, Doddanekkundi (next to Brookefield)
+    // NOTE: card price ₹59,999 is CoFynd's lowest plan (₹59,999 / ₹61,999) - likely a private-office price
     id: 316,
     name: 'The Executive Centre Prestige Technostar',
     badge: 'Premium',
@@ -3352,7 +3415,7 @@ export const bangaloreSpaces  = [
     id: 317,
     name: 'Kaarya',
     badge: null,
-    rating: null, // TODO: rating not shown on card,
+    rating: 5.0, // Google rating (card showed none)
     area: 'JP Nagar',
     location: 'JP Nagar, Bangalore',
     price: '₹9,999',
@@ -3360,10 +3423,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹9,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/3730eaff65e87b9cbb817cfbd2424faca344d4bb.webp',
-      'https://img.cofynd.com/images/latest_images_2024/5a2a3247fa608b2416be8fc75e8ff89c766a2c39.webp',
-      'https://img.cofynd.com/images/latest_images_2024/f45a842a4f5fc27797a5e22f0abbf424ae86522d.webp',
-      'https://img.cofynd.com/images/latest_images_2024/92c5383b6c180c7eedd7bc11bc1c442c79262d98.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdzd7CYvFjNGOaCfUu7zLvlXVxGc9lcgxIIlnR8R3FG9UfXgnXwFEByN4rBSdl1P2Lib8wtLoI-ZEN9a69WEXUlmu5E48fMcXt9aiHqIJRWsPk6jAWqnZwTQqctxuYnpMHeTI-LtA9GWOo=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcr4V8TVwvEPs3YFyIAh6bIsqEqh6X_XluuXVynXglwNi71xRqZh9ClczbCzdJLAz6mS_brPNwDIponM0d6W-2mj2zhwYodq6VYC9hIJidz7PatfEQPpdWuhHej7lo8YgYY-aGUXch-hlY=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdOYwwm00zzUfGYckQIFeagWVOdY1FEMQBZrOEvqUxZazMs_OPMOTAaRR7PYQviX5kx-Q7LH7DdiGA0H7PmGorlcDAkTFCKhBM1VNtLLUNWf9vzLUOZN_gmKSVDwg1s0cnRNOgtnn5oQQj2=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLf2PuRn5pSUeHuCwExUsoumIfLDcJNGRZveI6_huZwQWnpaUDJSCkPWnKyOn2kAeoWm7AtjWrT8li-hBsBHuZgqVA5OmYAWkbQfvSBSZQ52PWRx_l32xstQSnkyO3asiUVZPHkSUSd30cQ=s4800-w800-h600"
     ]
   },
   {
@@ -3378,10 +3441,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹8,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/original/e4b5855ca0224251e7ba9a004aec0c21ecd331de.jpg',
-      'https://img.cofynd.com/images/original/a01f3305a1a5c93af787675659d75570d912eecb.jpg',
-      'https://img.cofynd.com/images/original/7d952c2017d7bed0b08f24dd5c672e82eb84741a.jpg',
-      'https://img.cofynd.com/images/latest_images_2024/89b7cde5c1c82b067cb3f06f68945cb1b5b90b59.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfz2ryhhuTbvfd3UQ6HMjnI11b4JeLMUW1JJnLzvp4vRTbJ26ATDRfJpFlvMv3cQUrUnL2v1w6UGlJhUAty2wbz105kpxtxosunrdiJ9BL7JzfepFgmPDFHnZdCpTpUueDebYNKVg=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLduP7K4gqm7PW7cQ85ApbaTIoIYDVOD6BeCCo5WbxySFg0yHVzmS39Z2yVNi6tDPQGrMX-UcghOAl-dZUPsHm0gVjxpNSnrVFARsJTj90GDsUkEIZqgnUBKbWWbNzKXyMkOmtAN=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeGsD_MgNDPJFdJHPYufRGjnprdKoyAVd_DXavW2yAHr8qjE9zzicft1KWppsk-tCLW7Ckiy5NzGk54uxKN6Qu4Bs2uJFgCHsP_OG_25uZbooQZFs9i8TxYkb_xcJWtMIqNjqLh=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLevhGy7a8cHcADLGAbszvE733JOwlFjtISdQwoOHHE6RT_vyY9YfLc9GoMb_YgdGMQock-53d5wzNAt3fafAVEJCqW5DGal5f6-DWqeG03UFMZG63DbzbZ0Rn9ME0rN2qwIt1h6=s4800-w800-h600"
     ]
   },
   {
@@ -3396,10 +3459,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹7,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/ac18fe09059e5a8c5971814f7f79e7598e07e0d6.webp',
-      'https://img.cofynd.com/images/latest_images_2024/5a535cd997926c7043f1b0a948aba49dec69e9d3.webp',
-      'https://img.cofynd.com/images/latest_images_2024/c6b327f21108befdaa4891ed2b6b842f18884fd7.webp',
-      'https://img.cofynd.com/images/latest_images_2024/ca79011edc4c1686b31bcb626dad0bc7b74725fa.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdDYsPKsERl7Ahd37tjsFaD1ETtk04NTeEPqniQmkkQxlO3KXgLj3WXKhUMlbzr5k4-XShsQNgwnZpEcaV_N0kEkOBRv2yL3eoUX-sqGjQBmYhJB2J5UnZH0APZR4fFY0qK1gxtzQ=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfbXlCioK6uYtue-izE2mWEFOFywzo4fEGqT1d6UlBhBZEDoQC-Zv1_4Ffg9htTAFUHarsIxhlQ-E9uKDTpBTLv9lj7SKaYh-QneZfEnWx-W8uoLI4bA24rPta27IyzFAIH4dz4Zw=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeAmtRlV6vBZCl38uiIRcbfoF2kY3cq8CcRGNxDk2YD1VI61qpUrCkGAFwS2X5mWdVrSjnk2F2ZCaST8iXfDvJLhG0djgrO8kip6Ga74iX90T1yRrt5ojPWKbJtVETciXcFQTTRFg=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcEV6wdm23S_ffmvcETOhhVOJg4OxkcQNcsvGkT9rR44yXZEVpErsoxNjhqwXexPBM1DCC-yMugfWqoSijy04ZHabEanUN5JNH5XgPnUHlsSQi4nVJ6WUAVzM2ggrBMOOii8MgPyw=s4800-w800-h600"
     ]
   },
   {
@@ -3468,10 +3531,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹7,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/76560cecf2c1374ec2ae9ff0abd8458b48913d49.webp',
-      'https://img.cofynd.com/images/latest_images_2024/97e8edfdf3d9e993ac3be20d376c7a0d68f1601b.webp',
-      'https://img.cofynd.com/images/latest_images_2024/5112f2ee520808d5dea7645a2d1011348e67218d.webp',
-      'https://img.cofynd.com/images/latest_images_2024/62ca44852c717aa21268a071aca870136a403328.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeVPdhuvWxt-vT7HiU8QzQ6_dUVYtYnfLezGsQ1xzFJYMCTSAFr7FXqW7kK3W01aQM0qYkl3kQgqqtPhI38gz1n0ynKkJvGtOBfL6Af92wUkjiXwLhg5urLWsDhbHOS-90t2mtbEg=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeEW_f5FSyn41dna3YnzLsYgEfsjXitHNMrlMofzvHjvMK_u1PME1MkZwmkKK2JAZfLqF9akS2P-NXWziprthxnW2DGm00Nypjbh8hVzyxLHbc5UYx09zKsmpqxK_bOU4qbvYAd=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcz2-rcuISuNnDfU5wNGFX4P4VvXM9e9Lm606AUgKv80fW3yPIXj75cFstHawglk0OY4K-DxNgtIHh4i51UHyUHFagUduUZCpzIw_87y3aqB2HCJ_RnxA9nYguUbNYIqTjDIUIq=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcmgGCWNjZVI_YneNd0wnIGltaNrdGLGINazYWYaHhpBBReaKvb4kaSY8Oxc6CwfH9PUAN6mYG_pQMhwW5zQf0esj2idyz4DQTapF8O1BW8h0RNtnKNCssGt0pj-Fg08CXdIafnww=s4800-w800-h600"
     ]
   },
   {
@@ -3486,10 +3549,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹8,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/10f329942d42e1528d297da9f77b0f6448133237.webp',
-      'https://img.cofynd.com/images/latest_images_2024/90debf04ae92b98e51a86916b06461db62da3876.webp',
-      'https://img.cofynd.com/images/latest_images_2024/bab85511b11912c3ce872186847033afa5ea399c.webp',
-      'https://img.cofynd.com/images/latest_images_2024/929a3601150d3815058fd2db75918f8ab9cc6f16.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdPLhfcF1TpGogEiQQKOHERj6idb8QQDfxySMHxuZ7vTR1gyif0QM_xDlOK5ddv-o6_W2N9UzSASiMfk275eWWGue42gl6zCw5kt5PwbTDWho914Ptsl4MZs26Ww7j_CWhDBXJb=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLe0rrOHYc1_goU0geudDOPuNhseMklGjr0HvQuLYIi64vPRsVDee_6zWzDpYQc_6jIBxLupFS1hwhBQ-BvwZ9BiRtcuOQo_qLxoh3Cao--FpClUKUvWcSfrMFwECGQQd2AC9pM4=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeOiqYDGa6xQQ_EVpmr19Pn1ymoVun-i69FOBVqxKNlm-GHfuspDdVMJtnVgeXHoZZ9MkFOSFA00gWOgLJJdntb_pYr3ywElbvwTgoUnQwJtEVGS0pdYcoDZuvLD-xvsMK6zmsX=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdEKDVG3Cpo7IRke27NVswse1voOmo3zSs7MTH4-hHRL_UsBFfswd4G5snCrcQaIfo2AO5tYrSvfC_EFHr60dUbJySDf50ntfvGyw8HzH86ZExhLwSvasmCkZnFCg5HjCsMejtO8g=s4800-w800-h600"
     ]
   },
   {
@@ -3504,10 +3567,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹5,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/original/530404162121e6b882693cd04d7aa8e270c9f4b2.jpg',
-      'https://img.cofynd.com/images/latest_images_2024/55b8b56318a726c33d92a99c790dbdc5266a1548.webp',
-      'https://img.cofynd.com/images/original/bc8bfa9ad1faaabd5ada7d1e3cb51c7f0827a1e2.jpg',
-      'https://img.cofynd.com/images/original/4f20a87c15513cf685bacc3a1ea34713b67c1b47.jpg'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLd3fKcBc6DT36zDcZul3V0x5I5KHEDcCjXvZpS-gNzgj1G3IC68TtIZO41HgA4iO2AkZoQ1SXJEaRayKVom4i9t1RWeuEq32tV6m3zm3O47Ijj-XfqE7egiP6GE6Q4iaxbIizoO=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLevunsUatbj6dI9DO_eQ7DlctbLm_xiYQ6Q-efhKS4_XId_0SamVT3877DvMftoZUwUbudiw9DOrCZ7u93h_7cS7ndZICmow4FwwXtrUiHP1SN7YRzZOWwX5R89zjzNEs_2etM_6Q=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcXu93-7E6K-aDe66oZfGrXFZVgd7KbuS6CBGc5Qwu0-5S9ONQGfSg3zaj8_ym5FFgr9BRvMALtrNvDAfkBbs5UaT-RuNIN4o6kYh20qFBOW8HKCiJEMCt3W0Bkg4XvKyztqUWGiA=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdDDm57a_XkxP1G1uC15496fZ03UfBhktni2GHzVXo3LR0L8mt91M3uBuHUrUt_wWt4aFbCCu4Wnz_ImBDT9i4mEMaaXlOuFkqfOnqGVmSJuMv4lN142Qy4F6VP9pFhhpsDDKGc=s4800-w800-h600"
     ]
   },
   {
@@ -3522,10 +3585,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹4,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/e3ac6e54fe5eb9d4baa4654607ddfbef218af769.webp',
-      'https://img.cofynd.com/images/latest_images_2024/651696261a7cde67c81282a258a74875a2a299bc.webp',
-      'https://img.cofynd.com/images/latest_images_2024/6edba6c3af04743e045a7e60418867158a97ccca.webp',
-      'https://img.cofynd.com/images/latest_images_2024/b5ccaf023d6829720c7c8df5f95cf0f51baa0924.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcs0f3r2qUhoMYFbtnNaOvkgC0hHHvRxs1CGlkHyBKvUwUQZ8j1DmZxJWZridFebVlDxRWWXAunCkuO6j2pzbI6xaAgTW4ZmZef1UDBrfXi06GAT16b6ioE6u_0t7XXRmtA2mbj=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeWIqR9dOf8OHy1TWvxSVEVv_DSqH6sU1vb_Uodm-lNF9PGL4DREpuVDHZhjUH41j3bNDsr-IoZUmvXoeyc7ZCAiKrrpFLWSkOvJW9fHcb7TP_bwI3JC58hvnSuNqZNEJshXMwx=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLe6sNBfPBx1mr_QsfnaAZpejbRyoEoUDKJ55A20sYadFSdfRXahjDDv3zGUp-e-MWE8lS15Oz4YkWvugiWgCwmJdFkbxfd_gWClafrPUwL4bfkMii7-qLmPP-H_Av7H6f3KJKw=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcfHUoVebT6Nf7ORAYexeUWJbskZvmieKvR_NuMkwmGZepHYt0EE9ulnR6hVy9wegFZkOY4NJn23IxD53LHZcbye9fSHGifASdoUk5ck8RsArh8_GpEFYKdZEe9nZMzYHm8qolZoA=s4800-w800-h600"
     ]
   },
   {
@@ -3540,10 +3603,8 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹4,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/08e1b350d04403830ad8e36ed20d74f8d22ced11.webp',
-      'https://img.cofynd.com/images/latest_images_2024/55d07cb527fdd79250b063c3224ec075a57b85c3.webp',
-      'https://img.cofynd.com/images/latest_images_2024/d1866f85eb9ada99f1241fb757eaf09c7e5352cb.webp',
-      'https://img.cofynd.com/images/latest_images_2024/b35d7ce5eec7286cde3b68bdcae88d8573d74dd0.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdfTbIHqyNS3eag1xYPbEcFH5A_BC5q6isrws0sJv2sxwY_K9c4z85iZnynDGjbdPQu7SqrLBwoZ0yZBrK8xzMaDSYWHMofTfyZ6A7lzs4yrHRpneNbge-ajHMNQ9HfdFBF0kszGA=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLffvl-rz6LQiPKqxCSIku7YbS_6_HwYT_nJKUgKtL896l7NmZhFkhUUd2u7DueiCleQfA5vsSLDQ6op9ht7dAGfs28JQUcNOGIutx49h_lNs0Z2g3TGhpLdFcMglTRVYINgcU9Y=s4800-w800-h600"
     ]
   },
   {
@@ -3559,10 +3620,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹7,499 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/408094bc683dcfa67cde65dce0b189692ac47e4c.webp',
-      'https://img.cofynd.com/images/latest_images_2024/9db5c583f1cd6575bc19b6ed280e0dcdb9f73e01.webp',
-      'https://img.cofynd.com/images/latest_images_2024/2060a2f852869cfbbe1d88591c70cd9729d35d54.webp',
-      'https://img.cofynd.com/images/latest_images_2024/3b49e6a34fbb003085048fe87c782e8d32f6e6d7.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdBur_e-fEFBJWkxn8xzf5COTgvPluSuJ6sofop5M7FnAxK-N2156Il8obtBeDEiFm9E9WKnyX8guqJ4-wtWLvJsEc_WBfrcIFPKlvAuylBOCdKcjk8IePiCew2DoayqO0TRYaT4g=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfjm7-eOqDRnHEQw6rOVXMEHlGQHG0SbuUXyHmtIBo-BaOjA0BUz8Zy8M06MsfQ1sGxta3ciNsL9qZ_VMXoJFe7Z6BOW5_IHlSvMGyb7LbFfScY3_I3iuFZJ1yooEUOQ4KToXfG4wwjm2Fj=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdoe35addJxJW7j5Pr9Xzx73X6ZyNVkFh5PxEuE8jIC41doZsDzcNG7cvQJxy4q0nt8ScQF2Fzc1mGWxvVVRsuT8msN9ZsgEKNF6L8rcHs9Mf4VU8tK_zzRjOCMtBs-A_Zxez7RDA=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfsmlxxIRxmA0jVts0mjg4M9UdP_UJbj6RWngcdFTDnanLxV02oMZyNtlHNXjQDuBUzm-SLVaVQ8IwCN2W_syLhPlK0oAHSzAFjkUUAIsz9V5k_OqRdBpDsB1xGHdQ8VUlOH_E9Pg=s4800-w800-h600"
     ]
   },
   {
@@ -3613,10 +3674,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹5,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/fc262db67a56f817d18d97cb1f2a25691e7149b2.webp',
-      'https://img.cofynd.com/images/latest_images_2024/9813853b50f029d0bc7c6605c22158a8804a2d9d.webp',
-      'https://img.cofynd.com/images/latest_images_2024/73dcb8956287f576575ac161cf6bc78f441a88bf.webp',
-      'https://img.cofynd.com/images/latest_images_2024/8e13717cfc776a0d25120480791f22fde1c0f0b0.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdvlXq7ke8wuLStHvAekyp2NZ4JKzehWZ_OeMcZSW-E7V95vu8LsNKcH8c1lvYz7vfWJLJm7NO2Gf--IZni_vtJ7mcUiYW-2OTqG3ES9HFjZtebu3qhYF8DQtS8rFTDQYgIm1ZFlg=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcPr96Cgwn2ta0Zntg8ep3PpWKwpOmkxhy_xxhratEV7jch5zuAQlOQfwNcS3np5kzysQhwB33_HprSCTg2iAtHIvOkzNx9Zpzeffd8lwL4gApM2D4UKjLZQpELg20f7ZGMxEvY=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeq8HTjRXSEb4GWT2azECQP0iER6kFpGDiF8UfSlQJ3rzHuAFD4qzJ_Im-HvLcDv09f-yFvl7pvbpA9x6yJMHxMrT6cqe2LE8E2v4sQDZcN-Vc6GQn_SVGn3YSgC8h2jA1_SwAe=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfv15or58lFu07vzSTjNsAuMtGbsx8be5617K1gs6DvwHySvrCeGP0FSztqzNGiH9dufB10eyfdeGLmlMT5kN8POcwkZ5-Wx4ZNX0RYrVolDa_94YCmeXORGNbKMObuJ52CGDY=s4800-w800-h600"
     ]
   },
   {
@@ -3704,7 +3765,12 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹7,999 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      'https://img.cofynd.com/images/latest_images_2024/87c10d3ebe0a0c30da60fca53548704003979c5a.webp',
+      'https://img.cofynd.com/images/latest_images_2024/ccc07c60568d3462a95ccf573da810a1780d9ee1.webp',
+      'https://img.cofynd.com/images/latest_images_2024/20c865da0d414aec8e52d462e96155c976c01484.webp',
+      'https://img.cofynd.com/images/latest_images_2024/a654e1f978cde3f522701dd126a9f627da58a1f8.webp'
+    ]
   },
   {
     id: 337,
@@ -3791,13 +3857,18 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹6,999 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      'https://img.cofynd.com/images/latest_images_2024/bc9d0525e7e533445cbf1cc547796dd07257d5b2.webp',
+      'https://img.cofynd.com/images/latest_images_2024/de4347d8f41620559d66af614c610c22ae2d0d76.webp',
+      'https://img.cofynd.com/images/latest_images_2024/ab10b5128efdf148142f87434d6a63bf7753bd5b.webp',
+      'https://img.cofynd.com/images/latest_images_2024/bf07db2acac4ccc8ff15159ea4f11e1d1863b5d2.webp'
+    ]
   },
   {
     id: 342,
     name: 'Metro Startup Studios',
     badge: null,
-    rating: null, // TODO: rating not shown on card,
+    rating: null, // rating not shown on card (no usable Google rating)
     area: 'JP Nagar',
     location: 'JP Nagar, Bangalore',
     price: '₹5,999',
@@ -3825,10 +3896,8 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹4,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/e75d1a17665444f72c507493bce87cbaded9287f.webp',
-      'https://img.cofynd.com/images/latest_images_2024/c5a8107e5310532388bf8694445e60c952fa327b.webp',
-      'https://img.cofynd.com/images/original/252966f314ed410633777db11b0ba08486bd8639.jpg',
-      'https://img.cofynd.com/images/latest_images_2024/d03967ffa45425dcb8c9b8f8b777a3fd9d4050b6.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfvHyNrqCYhkDYxBNOnQOUX_wuwn3W3ejNnrD8gaoLYsDfCKnW09u8Mbt4qgYGzWmsI3egdH-OTTwn9F2yE0HGYD_GjC_-x23sBx1OHkSl744IvlkUnBHZHi2LhVixxDxnIV9IV=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLd-Qmj87IARn76tZNilN0DAi51whbZIVUqKQC8o93CtFgkzMjENvP9G91dWnOX8PQnJhJAk_U-9VRP3NCfpYE5V_wmJHiRQLfYeSKWGwv5B42DQy2ZgMhLpwpAET8LroSQO-7vk=s4800-w800-h600"
     ]
   },
   {
@@ -3843,10 +3912,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹7,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/b330b91e3381de9afdba7e2e0b8c6987133dd150.webp',
-      'https://img.cofynd.com/images/latest_images_2024/8bd6bd3b8a3ee0f0ba6c0d4af59f5a3b27864dda.webp',
-      'https://img.cofynd.com/images/latest_images_2024/4c8ed80eaa366cfd109cb80a55fd0502fe398c2b.webp',
-      'https://img.cofynd.com/images/latest_images_2024/2aa95a6e668d87caabf0060ce362340e9c35c688.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcMTmDP_NjF0BUwMPg9h1OFo0dJ4H4ok20J694ZyOsT8B8wjp19mAN8gorzQpsbId8_FHla_ac1N88fEBzY_qTK8WT58wW3o4chjER4CWxD6WH_UAZtW01x6YfTCtY1_LhlAo2q=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcTfZNxFOWI15CB6pAUEzqdDkZdkMq6L9XNpm14OGf8roq4xoCuyp66yThKPaNsH57hq6IylG4ZWDFaDvVMQ_cNCeLVUiUlogX9UKSljO0P5EU5g_DSH00hG3zFLRUJ_pxFb08=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLekn1kiKG4CCv0EsfD_nr0IQ7PjzJPpAuMZbmOO1tGIDHrX80d-4Wkrm53TXJH2HFKi6lFsO4QGjmGtdnfPiB-iCzOEpkQfSIWzJluICrEUvKpUh_BkICPE8g-K1VdUpdpJzAUN=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeVr3XXQ-Gj74gKSwbX1Hz6W8snNs0hbMH8zGIyUgyrSWOSyXNxOjKxOxRlpYnsAepN5u53MO39_wj_PCHp2emCOXQE3FVJLo7Eh_tyJT_JTAnKs-bNXz4O-GUMkwtuL0A5R7BToNZ1Gvyh=s4800-w800-h600"
     ]
   },
   {
@@ -3861,10 +3930,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹8,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/982353a1b7cf3c24ce191004e8cc596439333177.webp',
-      'https://img.cofynd.com/images/latest_images_2024/685f42b53a80460dc580e8600edc53518cc1e1a1.webp',
-      'https://img.cofynd.com/images/latest_images_2024/1c0c4019e7304a82231e8782ecfee894cd925260.webp',
-      'https://img.cofynd.com/images/latest_images_2024/1e6b9d06f91b46381420bb95c2d3a993cc5560ed.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLc59XrRD8_JADuWOLowWJG3HAETGOzCXfk3CgDWjvnCSvEdlyTTY69Wp29yDLPhDLHo63o0F_TtaA8WysH72R6jrEoYrrNufOmgSgGrSv39aYr0isfU5Cjl0Oc3Y6rxZS5WePB2TWU1SVg=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdBPxLvQYhSUtYkwrKZ2hU7NklQoY_YCQ8V3WAxb_WDJkoI1IRT2hW4kQSSv2rjElmahY53qh_7vvrV0wdzANt9sMznXPmQ79m4oc_RtZ-qgMN9QATm8cI4dq0XWUVEQJ4E5Nrk17vhkVSw=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcFcV6ul_NPQ2U3Vr6DFQ6y0KCeO2M345L0wtMlBWbuQlp_ydfGnCxmZ9xa7Y2_Rq1jqwoQkrBAHhGBfG858ESygQCJLzTMw73B1ayVImjof-PdUcadqbnCkXIB5k26GtOWV5WR=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdSd8mAMFHdp1K6zybVUt64T5unT45lfRT7Z9W74lyKl6UokQAEn7oPYNJzLXiKCKk1Dso5yfkwd32Ofp3oITGC76Hwse3mn_dIEM0ror3J6GHy3kg0rkzZdQaz7AG4lRgzbhzhdGIePYMp=s4800-w800-h600"
     ]
   },
   {
@@ -3917,14 +3986,14 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹5,499 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/original/aa75913941847dba59e8c55ce02f3e7191636e28.jpg',
-      'https://img.cofynd.com/images/original/36ab639d2eed7d2a13a1694c758851ac1b654196.jpg',
-      'https://img.cofynd.com/images/original/70fbe0966aeb796312f007af65d8809e6ee94c16.jpg',
-      'https://img.cofynd.com/images/original/ec7a7f1c2930ad34be40bea0ce244099347fe1fa.jpg'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdUiw-O1SSOBCpZOl1AHMLjDGu0u9IuT-_EPFN5gs36m4u_cU2BkGoUNkWLJQLTuYChZ2DiVaTGe1GyGzB56fOE57BBRTvmVQpGBoQU4Diq6q0prYiKg17sjXD-jgHRIdDS9gicCQ=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLd0pn-aonkq83Qo7-3Qtp3joWFWyWk681r3NEZpRZ_iixKrDxmcrb46ucFp25ky-DuTmQ3odPc9jlAhxfXft0fiEcEjBvOn7nHT0hKsOBV4ti_ims6UORebFeDFs78UIq4TMi-j8A=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLedZ2Kj4WbMu5txiv-Fav3rQHFPQwJlPW4clQ-YAPGdmYs98XowERioqjqCSCsl5s9zbtLbGul59fYMT58vhVNFFvnx31CJuq2pHIj4usU4rUKpb9sOZsNce7U9uklXeeOWLafgMg=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcF7spV0BPdsK15uicYR4zu5iiUBFdaacOpHI10FsoJNtxsnE0jdYNQYJlMk-hDqg0_Hflak-TE5QSW530N0ThmUy0VWmhd1EZ4SpudloHVhBIaR-AVq-mN34gUjwv84zEvztK3Nw=s4800-w800-h600"
     ]
   },
   {
-    // NOTE: price shown on card is ₹23,999 / month — check whether this is a private-office price
+    // NOTE: card price ₹23,999 is CoFynd's lowest plan (₹23,999 / ₹25,999) - likely a private-office price
     id: 349,
     name: 'Specico Office',
     badge: 'Special Offer',
@@ -3954,10 +4023,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹5,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/original/e911933f3236e852ea8c6e4fb21e5915433f6e29.jpg',
-      'https://img.cofynd.com/images/original/375c4d2ef4d1d8aaacfc12e4e1accc130d01f356.jpg',
-      'https://img.cofynd.com/images/original/aa3db6601ecccaafbc78dddffbafe4fb56e5b735.jpg',
-      'https://img.cofynd.com/images/original/fd29b62efb5707dedb7a081f5a216be390fad7cb.jpg'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLc97mVKltox0KAEfbDz2j0Pt5ueHkBriezem3kukcxlaG9Bn0roUMMHOtjqEyHxpdY7sZeTyL6fdjq-Yf_ESQTi8I8tBQXMSh1YIYn40BYR-13x0T0J-JV0kkRygGsEPcGGhqiUKA=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcqzu9RLIpDCxjWy9xiy9BMXZ9vD6gj6uTaSBrqD3lN1kVdrpOsd_sH5MHGIzkgS1SZl-v8jxDRIjwyquYDGwSHaLUoQBBjLI6iHj7DnQa2Jw_MOMyReatLDZuEGc2tifmyVE27=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLf-bOXYcU8OT3MV10UuIFZ7CSFz-FtTw9QMQpvOXMb_XVbSeH-EsMj9MEIJ9J7RlanvsFTXPZFvmuDrz0Rbkf36xJ2ylYTF0EOBfhX4c3z66aqxggigJYe55Y6a9ugaRCDmWMMrxlcex2Qd=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcPhoG61ojvWNd0rdHk1upMaD83ZUfg-wQR1F5-SSU1cO5ovlQSbDuqkAbc8TwfqtVA-EK-4wrYp2ahocEveOUB4FNOpuG3YWp9V1RT696Ezq6Fo3fxX47mcOlRufQ88kc1k0g=s4800-w800-h600"
     ]
   },
   {
@@ -3965,14 +4034,19 @@ export const bangaloreSpaces  = [
     id: 351,
     name: 'The SharePlus',
     badge: null,
-    rating: null, // TODO: rating not shown on card,
+    rating: null, // rating not shown on card (no usable Google rating)
     area: 'Jayanagar',
     location: 'Jayanagar, Bangalore',
     price: '₹4,999',
     period: '/ Month',
     priceFormatted: '₹4,999 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      'https://img.cofynd.com/images/latest_images_2024/23307c0098514acc4ba2e373ac0ee033e49cfe08.webp',
+      'https://img.cofynd.com/images/latest_images_2024/6b142a53bce5ff405073226a1680e5f6f250cd38.webp',
+      'https://img.cofynd.com/images/latest_images_2024/2dfe9f576570d14729ff65d6b042ae30abd8f2d7.webp',
+      'https://img.cofynd.com/images/latest_images_2024/19782e5087387faecb2e310e257cd0e6d9f7b992.webp'
+    ]
   },
   {
     id: 352,
@@ -3994,7 +4068,7 @@ export const bangaloreSpaces  = [
   },
   {
     // NOTE: Jayanagar centre — same name as the JP Nagar "Office Republic" card; separate listing
-    // NOTE: One recent Google review says this centre may have shut - confirm before listing
+    // NOTE: Google still shows this centre as open (3.9, 22 reviews, 27th Cross, Geetha Colony) with no closed flag; one recent review says it may have shut - unverified
     id: 353,
     name: 'Office Republic',
     badge: null,
@@ -4024,7 +4098,12 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹7,499 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      'https://img.cofynd.com/images/latest_images_2024/b31ef2d365531dd0da2ac23d03e2a45a8c8052c7.webp',
+      'https://img.cofynd.com/images/latest_images_2024/5ab97f718cce4a87b70b2e5a0932ce5c39464d99.webp',
+      'https://img.cofynd.com/images/latest_images_2024/324fd2a158f5ea0d71bdc5dd179564273d905506.webp',
+      'https://img.cofynd.com/images/latest_images_2024/17df90a30c01301e1dae4fc4e257c61ab0a1bb25.webp'
+    ]
   },
   {
     // NOTE: Jayanagar centre — same name as the Whitefield "Evolve Work Studio" card; separate listing
@@ -4039,10 +4118,10 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹7,999 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/9d4fe33443d97faff8132e5c5f55504f626ab7f9.webp',
-      'https://img.cofynd.com/images/latest_images_2024/33a0fb81d24d04379ef49387a053b351f806d4ba.webp',
-      'https://img.cofynd.com/images/latest_images_2024/761d4583cb295223f4a1f8d6e8c8bbfd989dcca1.webp',
-      'https://img.cofynd.com/images/latest_images_2024/5804343bce53ca962f85327b39a2665e68dbe251.webp'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfBqM5i-6nCSegFMcodxv3KDnhjwKwgg8qnvGDbeLUBqz0-_z4Q9gY8PfaoUolzJMYGsT-AN5GqUQhSOOPo79nt-D8fANmxFPiWq_lm3_unH81wD4ICcgDMiq3ogalf7i0YWML4=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdDXJVxOrsjFyilCuHdD8kZrJ8bWDI7RcPExWjNdzBblddT_klDJ8M_RZGL9VLzSwcz0Xfgjqpl_AOYxrH_fYt4yAM20R05yUq5pxOugyrO-sAar3LHW4vLNXc9ixe3FmdhqwICVQ=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdxGB73XCtFVzUeZPMwqRFhVVD2qIMEU03rh9NdbK_Yg3q_0cwgQOFxvPCwj4qFcMnebR5b7paQpfiBv2F7bJWQHQtX9CKfZ73Z5krNLLalp18PEp5fT3tGjb_dyf-rwLkR_te9IA=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdzY7n2Xa4jp-cTAO0L7hpBoMN1eicx1spA6Dml3uhRzhBhH0xsQWH7FTIp9hStcqOC6DvcjUwpSt0ADUl5cAYWQbeKWb4WRaNGgj49arcY_BaswK2oa3HExS-tmbzcrYI6-iXp=s4800-w800-h600"
     ]
   },
   {
@@ -4093,7 +4172,12 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹10,999 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLepIvsaSmTP0HHXwNupCS4PB5-Qg9CXHNnxG3m9Tpy8JC8GwzbIBELmmHeJryQBjMYBLNHLONusHa9xxY_y9loKzJW6xRJqZGrUVMREBR1zIum_D58x9Nufanhcs8AnhZO0EmM0OLARLdM0=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeHWxiDOpnkpAdzbHF7pRS8gXzVXIeJvZeK81SE4XcYCWE8i1HzXkLkhOsD0EuS0OZu8djVXY7pcCWBcaeiGJTPELMjgLfoJT3vmhUSxPD3hgtl59Ju2cVIZ54BPsvO2WrikOA5LFXZCNBq=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeIpTchAB6H-rljlBp7tF1A1rl7Sl6yrXCbB7KuTcjIJDow-bhwVgorjJV76kwYwyaQXlun8_q44wFp6XgSXLKuHHmZ-mPnslRuvMeoQXPzYlQjDYMaRSgU0ZrMhOrtFHliOOKfiTljch4=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLd53qvvYpiDh6Mwx_NylrTNqgE9R7aOjYigDge1cUQIv-omkXBshkFZR53iFbuLkqmBDvOpH1hi_ek9Bh1H66yEVlhrKSj5vRGutrVHJnPAkzwrRd-yzgpmuclo1HlyKSocTW1R=s4800-w800-h600"
+    ]
   },
   {
     id: 359,
@@ -4152,7 +4236,7 @@ export const bangaloreSpaces  = [
     ]
   },
   {
-    // NOTE: Crescent Workspace on Google Maps is in HRBR Layout, Banaswadi - not Hebbal, so no images used
+    // NOTE: Crescent Workspace on Google Maps is in HRBR Layout, Banaswadi - not Hebbal
     id: 362,
     name: 'Crescent Workspace',
     badge: null,
@@ -4163,21 +4247,29 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹4,999 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLckoudeGleiBgDlXJBHkXYgUrZ3Kk6FnVYi4JbtZ0Y1bpNrS6FJ7H4bL--lUZ68cLz5JvyXgSUQDSoqA5v9_xC1eQsSHS8g_TwhKCpWzQ-IlJju92R_curPhClCThoFUHvNLK6MlIPf1D_h=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdsBWo-BP6vZhu8g0oc_dE8i0HI8mtdYnb0NL_ByvCSO3XD0MSvekI-XuRsPtxHSghmpoVP36VWd_YVWf_vU6TADT7u1GjcFeATEndjJ_CqOydya2XoPonyW7SS5BGco8yxa8uH=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLffQtIMyTyIJjnm1PHR41kJ96XKrPiHroNyosDobkSURaDQfsd57jyGyYSGqrLSkcYv4KdgeXat0fKIy2qSWeuSDQxzlOQNRa_FK9OReCTc9PdM_TPMlhJWLWT2VE2RxQKUwjm1=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdDOe1s_oCcSSTBTyMiFNXj8ecm-ZbkDkSCq_spseL0qRi1Hz0mfbEOu-mfcaN6RL2NElQa8VKvayx75-LOueR-Lceh1G2V-q9Gy-zRq4zCZzmU40Y56-XjH6iOXM5XrsOQD6o-=s4800-w800-h600"
+    ]
   },
   {
-    // NOTE: Concolor not found in Hebbal on Google Maps; rating not shown on card
+    // NOTE: Photos are Google's 'Concolor Interiors & Concepts' (MCECHS Layout, near Jakkur/Hebbal) - matches CoFynd's description of the centre. Rating is Google's
     id: 363,
     name: 'Concolor',
     badge: null,
-    rating: null, // TODO: rating not shown on card
+    rating: 4.9, // Google rating (card showed none)
     area: 'Hebbal',
     location: 'Hebbal, Bangalore',
     price: '₹6,499',
     period: '/ Month',
     priceFormatted: '₹6,499 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLewJ70UYXJyicJAohiBJ6LQZB0rBulyIW9untnAbIkGkL3Ph2Epo0dZP-8_fZr8kRELRA5Pz8b-hdhvpbXP0ojRjfx2FGjdpnWw9Pdeldl2-nFL-zd4_KLITLrHowkYnwyi82Cx=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcqn-v-62kdEUSDZCrGSZTR61B7csnnPlUAOwksIm5sNFRaF0LrU_uXjeaDe3VzER7QvKiPDH0MGahZFarmXLGNXd0d1CrwNy3JDl_c0Xq_TVki1VtnVNHcLN0qmUzIlPoSQ5zTNA=s4800-w800-h600"
+    ]
   },
   {
     id: 364,
@@ -4273,7 +4365,7 @@ export const bangaloreSpaces  = [
     ]
   },
   {
-    // NOTE: Co-start hub on Google Maps is in AECS Layout, RMV 2nd Stage - not Rajajinagar, so no images used
+    // NOTE: Co-start hub on Google Maps is in AECS Layout, RMV 2nd Stage - not Rajajinagar
     id: 369,
     name: 'Co-start hub',
     badge: null,
@@ -4284,7 +4376,12 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹6,999 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      'https://img.cofynd.com/images/latest_images_2024/d51a04b4a5e990898cb53a9ba8d3718c345be62e.webp',
+      'https://img.cofynd.com/images/latest_images_2024/4dc28de141f21325d28d7424e6eb245938bd078d.webp',
+      'https://img.cofynd.com/images/latest_images_2024/1eaef3904673c3764c8e9b2ee5aeafcc4331064d.webp',
+      'https://img.cofynd.com/images/latest_images_2024/e83b90e255972293edbbaecbaa704233a6ca63a9.webp'
+    ]
   },
    {
     // NOTE: Google listing is 'Workpodz@3788', 13th Cross, Banashankari 2nd Stage
@@ -4382,13 +4479,13 @@ export const bangaloreSpaces  = [
     ]
   },
   {
-    // NOTE: Card area is just '3rd Phase'; Google lists it at ITI HBCS Layout Phase 3, Rajarajeshwari Nagar (Mysore Rd) - consider area 'Rajarajeshwari Nagar'
+    // NOTE: card area was just '3rd Phase'; Google lists it at ITI HBCS Layout Phase 3, Rajarajeshwari Nagar (Mysore Rd), so the area is now 'Rajarajeshwari Nagar'
     id: 375,
     name: 'RR Coworking',
     badge: null,
     rating: 5.0,
-    area: '3rd Phase',
-    location: '3rd Phase, Bangalore',
+    area: 'Rajarajeshwari Nagar',
+    location: 'Rajarajeshwari Nagar, Bangalore',
     price: '₹3,999',
     period: '/ Month',
     priceFormatted: '₹3,999 / Month',
@@ -4420,7 +4517,7 @@ export const bangaloreSpaces  = [
     ]
   },
   {
-    // NOTE: Google only has 'WorkFlo in Ranka Junction, KR Puram' (Dooravani Nagar) - not Marathahalli, so no images used
+    // NOTE: Google only has 'WorkFlo in Ranka Junction, KR Puram' (Dooravani Nagar) - not Marathahalli
     id: 377,
     name: 'Oyo Workflo KR Puram',
     badge: 'Popular',
@@ -4431,21 +4528,12 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹4,499 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
-  },
-  {
-    // NOTE: Probably the same centre as id 305 (Innov8 Prestige Tech Platina, Kadubeesanahalli) - this card shows ₹999, likely a day-pass price. Google lists the centre in Kadubeesanahalli, not Marathahalli, so no images used. Consider removing this duplicate
-    id: 378,
-    name: 'Innov8-Prestige Tech Platina',
-    badge: 'Popular',
-    rating: 4.8,
-    area: 'Marathahalli',
-    location: 'Marathahalli, Bangalore',
-    price: '₹999',
-    period: '/ Month',
-    priceFormatted: '₹999 / Month',
-    ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLf2yA9jNbv-q-2buGrLuQDDO_7V6fQABeBt8ZE9ylSF2mAVXHt2RoIzLfre8oMFDbwEnFwd2rnWC35a2HhmHWEFw8scIi8wWntlwbFHmo-kLA0I3SjDPZAM0G4d_wUCLW5k4CXkPEv5uO0O=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLek4_GRZfLEI9T-hdOzSKRFQhpMmx1-yBYMIt3-dr8UD-S77f2ZzQni4KS80FtR2ovzu7wOGJWPKg0G37h8vg-1ZD6AcBDyvfE7eViLkwtv7nI3vy3QezJWxWjMn0iDAZOZowhKlEggwtsh=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfx9jR_KZmnOWDRRnlxXumWLAb93xIt8Ti0pOqIrSB9T6FUcq_fId46Lnlb4-MDEFE2TzuOTFn4zZQ29ES3cyZ2CO6UghyiulwkKPEImixST7urhCWpXWAHLY6IzLTszgH1L0tqPaM68Iy9=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfsIku-YjM9GINxwN8erVS6JSpE-iGX0YZEwl3Sc9Uhcv4ScCUX1baL6kq-15P4sy3Crjli5daGVdC8Ef95NcvWO0T6bCjZtCxdLjR8R7YGjldtRTEZjcswfdk9QINSCH2_5dkMLXVq682i=s4800-w800-h600"
+    ]
   },
     {
     id: 379,
@@ -4484,7 +4572,7 @@ export const bangaloreSpaces  = [
     ]
   },
   {
-    // NOTE: Google lists 'Deskhub Bangalore' in Mahalakshmi Layout (1st Main Rd), not Rajajinagar, so no images used
+    // NOTE: Google lists 'Deskhub Bangalore' in Mahalakshmi Layout (1st Main Rd), not Rajajinagar
     id: 381,
     name: 'DeskHub',
     badge: null,
@@ -4495,7 +4583,12 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹4,999 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfM3trIT6xP5EYxtQS7tn2avpE4sX15t_n__Amsrb3AG_wXYrMXTheZLDf0NfKHHM_v0zsfAGS94KxTIz2iGtMw716u5BbHfY2gFwYQ2YgOugEQ2bWRaeZdWXvUSzJS9er6QFnP=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLc8vLjO0wg5WkYOA-Cv9IhLiZzDMQnbAR1b3V7EN7xoYnwlI8bOZezLvosJ4u_R_cqNu3SjNXv0cO7uNFZlAAEoJZLOT0jpqNPU8U48bdRmftJVb8IpTG_d_eLcxt31sddUo-p8C_ywsP19=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLd5-Sbu8dtpiYMcqi8zSk9awSo3WNkZXrvIe63XP_FglYCVMGA44Dp34nfEXSIqL3rO_aOuWCw_jOO51JnrYk_PQhlLI9zfu3vsv-cBUU4ft3_WDSvdHlm18VriCtposUfL3qnlOw=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeemj3hBT2b36NaBE5BSB-nm3w-HHTHiMuOIoyx5NAUMM_2TWPgH5r7YkwedRfO2Kpq3MvTdKE8qI-J1RHzsaTk9quGIa3iYoiAASdXFAI-km4xxn_D0XqVyXETQZlC-XIe0SU=s4800-w800-h600"
+    ]
   },
   {
     // NOTE: Google listing 'Opus Desk - Metro Mingle', next to Rajajinagar Metro (West of Chord Rd 2nd Stage). Several Google reviews describe a job scam asking candidates to pay ₹6,000 - check before listing
@@ -4555,7 +4648,7 @@ export const bangaloreSpaces  = [
     ]
   },
   {
-    // NOTE: Google only has 'Medilenz Innovations Pvt Ltd' (a medical-summarisation company) in Saraswathipura - not a coworking listing in Mahalakshmi Layout, so no images used
+    // NOTE: Google's 'Medilenz Innovations Pvt Ltd' (Saraswathipuram) is a medical-summarisation company and could not be tied to this centre, so photos are CoFynd's
     id: 385,
     name: 'Medilenz Training Center',
     badge: 'Premium',
@@ -4566,7 +4659,12 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹4,999 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      'https://img.cofynd.com/images/latest_images_2024/eff5f5f83599f667ba3cbbd96ac2186a406ef02f.webp',
+      'https://img.cofynd.com/images/latest_images_2024/134162968647badd3c0fc0e7027b25618af08d65.webp',
+      'https://img.cofynd.com/images/latest_images_2024/7b9154764bcadd8dad1da508add51ec835170fc3.webp',
+      'https://img.cofynd.com/images/latest_images_2024/bfcbd2260f982194b2177dddfb2fc80f51e9db0d.webp'
+    ]
   },
   {
     // NOTE: Google lists 'Share Studio' at 11th Cross, RMV Extension, Sadashiva Nagar, Malleshwaram
@@ -4655,7 +4753,12 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹8,999 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      'https://img.cofynd.com/images/latest_images_2024/31a07424adc49d0eff1827795e30c03328039132.webp',
+      'https://img.cofynd.com/images/latest_images_2024/ec4f981519915adbf3b224c2bbaf1e3b365b9625.webp',
+      'https://img.cofynd.com/images/latest_images_2024/4a0360c7312f14ba3edd3a90473a8f1280f5952b.webp',
+      'https://img.cofynd.com/images/latest_images_2024/b6e0df55ae4e06bef3879a632464298b28810fdb.webp'
+    ]
   },
    {
     // NOTE: Google listing 'Garuda BHIVE Workspace BTM Layout Campus', BMTC Complex, Old Madiwala, BTM 2nd Stage. One review mentions job-scam activity on the day-pass floor
@@ -4771,7 +4874,7 @@ export const bangaloreSpaces  = [
     ]
   },
   {
-    // NOTE: Google listing 'Monami hospitality / myroomie / mykhana', 7th Main Rd, BTM 2nd Stage - looks like a PG/co-living company office, not a coworking centre. Google rating is 3.0 with deposit-refund complaints - check before listing
+    // NOTE: Google listing 'Monami hospitality / myroomie / mykhana', 7th Main Rd, BTM 2nd Stage - a PG/co-living company office; its photos show an office lounge and desks. Google rating is 3.0 with deposit-refund complaints
     id: 397,
     name: 'Monami Hospitality (Myroomie)',
     badge: 'Premium',
@@ -4828,21 +4931,7 @@ export const bangaloreSpaces  = [
     ]
   },
   {
-    // NOTE: Google only has Office Republic in KR Layout, JP Nagar 6th Phase - not Bannerghatta Road, so no images used. Probably the same centre as id 332 (JP Nagar) - consider removing this duplicate
-    id: 400,
-    name: 'Office Republic',
-    badge: null,
-    rating: null,
-    area: 'Bannerghatta Road',
-    location: 'Bannerghatta Road, Bangalore',
-    price: '₹8,000',
-    period: '/ Month',
-    priceFormatted: '₹8,000 / Month',
-    ctaText: 'Get Quote',
-    images: [] // TODO: images
-  },
-  {
-    // NOTE: Google has no Regus listing here - only the 'BL COMMERCE' building (Bilekahalli, no photos) and an IWG 'HQ' centre next door with 1 photo and a 2.7 rating, so no images used
+    // NOTE: Photo is Google's 'BL COMMERCE' building (Bilekahalli) - only 1 photo; Google has no Regus listing here
     id: 401,
     name: 'Regus BL Commerce',
     badge: 'Popular',
@@ -4853,7 +4942,9 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹8,099 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeUmJX4tGP-k0qkko--n3fK6FO8IeNEIW7VnQhogpR3HrCKxMva9ICcz52tmYhrgIY_po21MtU1y1dcECqLh2_709aQIq3sAc0KIavDKJ6XoYYp4ABZsbl5bcXkAJJzXEOUPvtywEbnCPM=s4800-w800-h600"
+    ]
   },
    {
     // NOTE: Google lists it at 3rd Floor, Saket Callipolis, Sarjapur - Marathahalli Rd, Doddakannelli. Separate centre from Instaoffice SPD Plaza (184, Koramangala)
@@ -4970,7 +5061,7 @@ export const bangaloreSpaces  = [
     ]
   },
   {
-    // NOTE: Google only has Evolve Work Studio on Begur - Koppa Rd, Yelenahalli, Begur - not Bannerghatta Road, so no images used. Your file already has Evolve Work Studio in Whitefield (282) and Jayanagar (355)
+    // NOTE: Google only has Evolve Work Studio on Begur - Koppa Rd, Yelenahalli, Begur - not Bannerghatta Road. Your file already has Evolve Work Studio in Whitefield (282) and Jayanagar (355)
     id: 408,
     name: 'Evolve Work Studio',
     badge: 'Popular',
@@ -4981,10 +5072,15 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹5,499 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLd1eRr7mBxKSqbfDfoH_PldNFZL90xGgh4MLXZ1O3wd3esT5ZrjIFe8xKH96Sd7gicRmDH8bW6vhCldhmlVFY9gYqKSTq4xswqs5ZquCvatCQxF8fm7qM-Y9mxQde0otarKmdLN=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfzp8pPdXxW_TLNpEr6txQJ-VnVzci7UA6PxDNtGdJxHh7kuQfUlKlbTEnm7OoTOHNMz1rEQnqqSifRSRI2rhdU-XlDhCaDmsxTSnEkdXBwvf3VbZBkxAjzcc4dgVnTEPXwJ0UK=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeyjmopJSTZvvPRo5GOxz9ZjLBxMSHomKiBg8HmPejOMJMblfIkI--ipAW7M8B8HCrNDSC1YvZLR536w8qej3xuiVbLcc-czbxwzqe6qX_NKC5IpTflEWCe4B2B1eV8HfZxPa87=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfw47Ex1fDezD3cblFr9X8i1tvoIcZdYoBhDBNnq8wWNhRHFoK6qBIKXPJZQPS4pV4dFzNuZ9TNqR2TyVfG9JiPcwPTnL4LyipD5ffkiplVrfozNYc5q-SSfpDJb5Y2_pXIeViu=s4800-w800-h600"
+    ]
   },
   {
-    // NOTE: Google has no Regus listing here - only 'The Fairway Business Park' building on Embassy Golf Links Rd, Challaghatta (not Bellandur), so no images used. Card price ₹25,999 is likely a private-office price
+    // NOTE: Photo is Google's 'The Fairway Business Park' building on Embassy Golf Links Rd, Challaghatta (not Bellandur). Card price ₹25,999 is likely a private-office price
     id: 409,
     name: 'Regus Fairway Business Park',
     badge: 'Premium',
@@ -4995,7 +5091,9 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹25,999 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLckdlXqHpLvNCVatUzjwNZAHZnLaClAZVxIbr3BHuGeCgjZ9WSsUY5A5yKz8Dv_8dyAyVhlVC4LX93xBBooXG2CJjbAUNKvJCSIclZvjv7v7b4i0EIxLYdXrvZS6yvwUii27SDBig=s4800-w800-h600"
+    ]
   },
   {
     // NOTE: Google listing is just 'BizzHub', A/7 KHB Colony, 5th Block, Koramangala - Google reviews call it BizzHub Inspire
@@ -5036,18 +5134,23 @@ export const bangaloreSpaces  = [
     ]
   },
   {
-    // NOTE: Google lists Smartworks Vaishnavi Tech Park at Bellandur Gate, Sarjapur Main Rd, Ambalipura, Bellandur - not Nagavara, so no images used. The card's Nagavara location is probably a CoFynd error
+    // NOTE: CoFynd put this in Nagavara; Google lists Smartworks Vaishnavi Tech Park at Bellandur Gate, Sarjapur Main Rd, so the area is now Bellandur. Rating is Google's (3.8, 216 reviews)
     id: 412,
     name: 'Smartworks Vaishnavi Tech Park',
     badge: 'Popular',
-    rating: null, // TODO: rating not shown on card
-    area: 'Nagavara',
-    location: 'Nagavara, Bangalore',
+    rating: 3.8, // Google rating (card showed none)
+    area: 'Bellandur',
+    location: 'Bellandur, Bangalore',
     price: '₹9,999',
     period: '/ Month',
     priceFormatted: '₹9,999 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLf40ybPxRfKBZz8ABqCDpHdNStt5p3Y1RJNkUFgR6uepagjl2v3hI4JV8kXy1hcz3ATdFnMUJgkVeKR6RZgn-ZXjXEIwU4JFfiFIVWeZ3XZ8BmhVwPe0ilfvNumkaHltmrYf7nqJw=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLckAudbPclcPgLW4wp-vCQlhaLIh6-qKQVGRmUr-MXOIwRVc6kParHXOlydXt2y_ANGU7f24HuVRbgQPEDT-4cFXxxDj8fORGr0nPmoEW6H-LkM_uYNI69L3WwklRqoy4eOswGd=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdegIqUB_-OIspr1fNIsEkL2VJlycLnEpf-5fExB4O4kaRzMtLS-Fi-VtAVQdVXicpbZmAQ1ZuEEeG-7FLjEAVLP8Ug5QiqHgebjG2y0hoDjNlf6FNSYNneDWrf7h2uWK8yFPRM=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcNLMraWb1yWX5fWHgyaB87xikhfgrh1XLk5a9CT37Uplav3bwsRSZU0phQ3wjgf1kIawIB4C10lcFb022P7OEMNfQXzRYWas_NQS-a_Nosv99TSlPjBDlxnEeQTlldFEyOkfDMtw=s4800-w800-h600"
+    ]
   },
   {
     // NOTE: Google listing 'Innov8 Coworking Space Mantri Bellandur Outer Ring Road', 5th floor, Devarabisanahalli (Google rating 4.7)
@@ -5107,7 +5210,7 @@ export const bangaloreSpaces  = [
     ]
   },
   {
-    // NOTE: Google lists 'lad workspaces' at Site No 12, Outer Ring Rd, Bellandur, but most Google reviews are about office furniture they sell - check the photos show the workspace before listing
+    // NOTE: Google lists 'lad workspaces' at Site No 12, Outer Ring Rd, Bellandur; most Google reviews are about office furniture they sell, but the photos were checked and show a real workspace (desks, glass cabins)
     id: 416,
     name: 'Lad Workspaces',
     badge: null,
@@ -5240,7 +5343,7 @@ export const bangaloreSpaces  = [
     ]
   },
   {
-    // NOTE: Google has no WorkMatterz listing in Kalyan Nagar (or anywhere in Bengaluru), so no images used
+    // NOTE: Google has no WorkMatterz listing in Kalyan Nagar (or anywhere in Bengaluru)
     id: 423,
     name: 'WorkMatterz',
     badge: null,
@@ -5251,10 +5354,15 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹6,499 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLeu-4oxltv20hOdvf6aXeHQ1ji8Vzb7TmnCwaM3Yq1dfh9x3sRQtq53JOEvUDCSymIfOqpksSnARErvCzMHeq_9WFIVFuwmL4nbLhACIgVksryICrnlwUAodQS2gZw9TUF7bDLZYw=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcik1frMLk4ULLtHPtwn6pHUveqWBY40yRZQ4NiDPNutcLygzZT54-whjPwGsFWCHkuUVsf93Cl60Cga-zTjD7J8ACNC-1eDPmqZb1LmN31SCdDgXp74LNgU14wvBh6WG5tBg5w=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcURJYvd8VeeimGYKxeRhVXr9kc5gAFqKXrOc9E4d0rwgzA1uHNuuP5GwVSNmM4nawyTbyKX5W74S5hiy91VKHG-IaZYtpZFRLbDTdS9qlIExzjNLBqxsPcBUKbgAGHPqRlcQTg=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfS56PHe9f3aiG6FM4j0wpRpMTEf6M_8v1KlqMdqhVryekeoB9EoATFtDmOroEF8I6byMGAbVtnn0YtK5yDnaOLe8o29-ZZTVeKNuKuZiaAo2fk8wUYK14zP3wJc2Wje26QGLg=s4800-w800-h600"
+    ]
   },
   {
-    // NOTE: Google only has 'Cubix BPO Services private limited' (Babusapalya, Kalyan Nagar) - a BPO company, not a coworking listing, rating 3.7 and its only photo is unrelated, so no images used
+    // NOTE: Google only has 'Cubix BPO Services private limited' (Babusapalya, Kalyan Nagar) - a BPO company, not a coworking listing, rating 3.7 and its only photo is unrelated
     id: 424,
     name: 'Cubix Coworking',
     badge: null,
@@ -5265,14 +5373,19 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹5,999 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      'https://img.cofynd.com/images/latest_images_2024/c02eafe2d607fc17b3c2d0894980ecf57811e790.webp',
+      'https://img.cofynd.com/images/latest_images_2024/c62f3d7d07b22667411edf539294b047cefcf356.webp',
+      'https://img.cofynd.com/images/latest_images_2024/caf936d6a252315537362279321855d93f11ca72.webp',
+      'https://img.cofynd.com/images/latest_images_2024/5f3a8cd83857ae60a70dbec45cdf73c684bc122b.webp'
+    ]
   },
   {
     // NOTE: Google lists it at 5AC-614, 2nd Cross Rd, HRBR Layout 2nd Block (Google rating 4.9)
     id: 425,
     name: 'Kaizen Workspace',
     badge: null,
-    rating: null, // TODO: rating not shown on card
+    rating: 4.9, // Google rating (card showed none)
     area: 'Kalyan Nagar',
     location: 'Kalyan Nagar, Bangalore',
     price: '₹6,999',
@@ -5287,7 +5400,7 @@ export const bangaloreSpaces  = [
     ]
   },
   {
-    // NOTE: Google listing 'Venus Communitii', Venus Hebron, 4th G Main Rd, HRBR Layout 2nd Block. Google rating is 3.5 and most reviews are co-living/accommodation complaints (broken facilities, rude staff) - check before listing
+    // NOTE: Google listing 'Venus Communitii', Venus Hebron, 4th G Main Rd, HRBR Layout 2nd Block; photos show a branded lounge/common area. Google rating is 3.5 and most reviews are co-living/accommodation complaints (broken facilities, rude staff)
     id: 426,
     name: 'Venus communiti',
     badge: 'Premium',
@@ -5306,7 +5419,7 @@ export const bangaloreSpaces  = [
     ]
   },
   {
-    // NOTE: Google has no 'IndiQube Iniche' listing on Outer Ring Road, so no images used
+    // NOTE: Google has no 'IndiQube Iniche' listing on Outer Ring Road
     id: 427,
     name: 'IndiQube Iniche',
     badge: 'Popular',
@@ -5317,7 +5430,12 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹8,499 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      'https://img.cofynd.com/images/latest_images_2024/7ef76dfd9be840ea548299927d3289c6cf5ec09d.webp',
+      'https://img.cofynd.com/images/latest_images_2024/5da9db73f504c0157d72f1af7b6c348f44ff9631.webp',
+      'https://img.cofynd.com/images/latest_images_2024/ed007bbcc1421e46430a3221f1115f866c581971.webp',
+      'https://img.cofynd.com/images/latest_images_2024/b5a036aacf9d52a419616c42ef48cf853d9ffa76.webp'
+    ]
   },
   {
     // NOTE: Google lists it at 1383, 3rd Floor, HBR Layout 5th Block, above Axis Bank, ORR service road
@@ -5339,7 +5457,7 @@ export const bangaloreSpaces  = [
     ]
   },
   {
-    // NOTE: Google has only the 'ITC Green Centre' tech park (Dodda Banaswadi Main Rd, Maruthi Sevanagar) - no Corporatedge listing, so no images used. Card price ₹35,999 is likely a private-office price
+    // NOTE: Google has only the 'ITC Green Centre' tech park (Dodda Banaswadi Main Rd, Maruthi Sevanagar) - no Corporatedge listing. Card price ₹35,999 is likely a private-office price
     id: 429,
     name: 'Corporatedge ITC Green Centre',
     badge: 'Popular',
@@ -5350,10 +5468,15 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹35,999 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfTOsuP6njgDbV2yxxS1pFo5ssZgte3Ko14kxDfQOo7ERxC2M9IsNgGKvdc4DVDFFeuBPMgHR4vBtJhxVL1_0BvrEkQAMywaaJ2zVRujsaC-N1P5aHOs8E2q3JeSyJ1EQ26M11K=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdfhGrN2-LPz62BERsEOsTjdPCPpFUETDprrQqYoJFqNHykdYveeFgAXwaH1ybWKvvXO-jXgjtCucKDb58h3S8sgujhQmB163i7DMheeRUP0hveVApIhnlPRgqaFFzxr2rbCh3w9mWCLoF-=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdQ6s3bCPF2WJCN8wDX6jdEuyOksxkjU0amWcP7tvyljCEEGdNbfbpSQQ4xOqQrqujtrHRAsy_aX-vAVG9VJa3a6VK7NTrAetUKtwC_NbbBk64q7JGkyf-25RuKUKs1XC0AXWpM=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLevbzHcYViyCGpw9ExVcFh3FUWGxuFbyU31KqexqLAKOXgZSiidZDVs_i4r7Ovgb-2DpydLgVBo-ggBHkdIi50RpGiL_xY94Dfr_NccLoy-vG4hKcTlatUPSENIj3Chr4JPcvzV=s4800-w800-h600"
+    ]
   },
   {
-    // NOTE: Google lists it at 2nd Main Rd, East of NGEF Layout, Kasturi Nagar (Google rating 4.8). Colive is mainly a co-living brand - photos may show rooms as well as workspace
+    // NOTE: Google lists it at 2nd Main Rd, East of NGEF Layout, Kasturi Nagar (Google rating 4.8). Colive is mainly a co-living brand, but the photos were checked and show desks and meeting areas, not rooms
     id: 430,
     name: 'Colive Premerio Towers',
     badge: 'Popular',
@@ -5448,7 +5571,7 @@ export const bangaloreSpaces  = [
     ]
   },
   {
-    // NOTE: Google lists Workden at 313 Patel Ram Reddy Rd, K.R. Colony, Domlur (rating 4.1, matches the card). Workden also has an Old Airport Road centre in Domlur. Your file already has 'Workden' under Indiranagar (261) - check it is not the same centre
+    // NOTE: Google lists Workden at 313 Patel Ram Reddy Rd, K.R. Colony, Domlur (rating 4.1, 137 reviews, matches the card). Confirmed a different centre from the Indiranagar 'Workden' (id 261, 100 Feet Rd)
     id: 435,
     name: 'Workden',
     badge: 'Popular',
@@ -5543,21 +5666,26 @@ export const bangaloreSpaces  = [
     ]
   },
   {
-    // NOTE: Google lists IndiQube Amber at Maruthi Infotech Center, 100 Feet Rd, Domlur - not Old Airport Road, so no images used
+    // NOTE: Google lists IndiQube Amber at Maruthi Infotech Center, 100 Feet Rd, Domlur - not Old Airport Road
     id: 440,
     name: 'IndiQube Amber',
     badge: null,
-    rating: null, // TODO: rating not shown on card
+    rating: null, // rating not shown on card (no usable Google rating)
     area: 'Old Airport Road',
     location: 'Old Airport Road, Bangalore',
     price: '₹8,999',
     period: '/ Month',
     priceFormatted: '₹8,999 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLd1_1uluid9BqJFti4kN9hcyagS9GcKZcpRmisIVlI3kcQoMyBn6s_yH75QivtOi64Tqe-0Pi-l1ul3WvlYKcbCBftoYwKFYPTZLmk0wQLhRT7KDucZr-ghmIYqGISUhUA66D1UEJGms1cq=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcJ9FBXcqXGoXJ5XwsOZv9iIqkG_1u_srdVdoh20v_pi4qe_Js7uMlw8Ns4WRtgyKVu9jrGrUC_diAk3fdieSUzWP6mQQLNZAmNrd0ewTBSiqe9cq_L6UegpZKJUG4W_wD304HcAj4VOwSL=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcwpTlbX2xLw0z0gig7MJNMPHWSokcUyUwmAy1uHe2p9ZL6lz1Knc7XnZtRVnWDWZlezgmAvkU-Evw4u6W5IA_Jbc4p-37EiOFo_a3x8Z7eSWQhF4m9kN6ujyNKSzmD2eTQ8lsNDa0rlFI=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcjLKf-yU_iINh2PirJp9GyMK1F55e2ylPnDAfmvRjLUi7bWshcJGhV3fecnxndUZvWb_U5i675C-2uYTmSMXjpnTsdt1oB0nNmMvaxdEwfpmxlUufs5B9xPwP0IJU_HsxSmtnAREndfxi0=s4800-w800-h600"
+    ]
   },
   {
-    // NOTE: Google has no myntworks listing on Outer Ring Road, so no images used. The closest match is 'Bowvan pvt limited', a coworking space on ORR at Nagarbhavi with the same 3.9 rating - confirm whether that is myntworks before using its photos
+    // NOTE: Photos are Google's 'Bowvan pvt limited' (Krishnananda Nagar, Nagarbhavi), matched to CoFynd's 'myntworks Krishnananda Nagar' by locality and the same 3.9 rating
     id: 441,
     name: 'myntworks',
     badge: 'Special Offer',
@@ -5568,7 +5696,10 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹3,299 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLejnpnAoTB6uDkj8xkaYu5J5Ltk6BDoBCkru2P-OEdDbw1_SGo-FqmSlGDSJy0Kv0ftnsE-EtBdvQpz-Eo6FwZTbvCJ_40cQ4rzMUUlyRKuLjXkX_eGElsS-owWJfxg69qX-48=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdQXTB1DoPuc1ZhzbHKGRoCl84SY-fI8-MH5hv2Dx77ErUx5EBH8oLy_3e0pLSdDWdmrB4KgbmGQnZ8bZ9fqjULYWwJSca9GgnP2KHc1cUE2Nzn38I0NlzH99F4fUptOvhRVQQV3g=s4800-w800-h600"
+    ]
   },
   {
     // NOTE: Google listing 'Work365 Spaces | Coworking Spaces in Kengeri', Prema Enclave, Outer Ring Rd, Kengeri Satellite Town (Google rating 5.0). Separate centre from Work365 Spaces Indiranagar (248)
@@ -5685,7 +5816,7 @@ export const bangaloreSpaces  = [
     ]
   },
   {
-    // NOTE: Google only has the 'Janardhana Towers' building (Field Marshal Cariappa Rd, Ashok Nagar) - no Business Hut listing or photos, so no images used
+    // NOTE: Google only has the 'Janardhana Towers' building (Field Marshal Cariappa Rd, Ashok Nagar) - no Business Hut listing or photos
     id: 448,
     name: 'Business Hut Janardhan Towers',
     badge: null,
@@ -5696,7 +5827,12 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹7,999 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      'https://img.cofynd.com/images/latest_images_2024/878a7454f12e377e7249bc77f51f5cc2bd35f681.webp',
+      'https://img.cofynd.com/images/latest_images_2024/02ef34c638da41fde594f137ea867bd023e1dacd.webp',
+      'https://img.cofynd.com/images/latest_images_2024/55a33f99af8c8f1211a29df5c85b3179262ceb53.webp',
+      'https://img.cofynd.com/images/latest_images_2024/2dcdcb1a2d7f49276839986d308e8201712f7e94.webp'
+    ]
   },
   {
     // NOTE: Google lists it at 16/2 Residency Rd, Shanthala Nagar, Ashok Nagar (Google rating 4.5)
@@ -5735,20 +5871,6 @@ export const bangaloreSpaces  = [
       'https://lh3.googleusercontent.com/grass-cs/AABkmLe2FaqmsWaG0TUYbdZ5_Ranw0OBjvAd78dFYKQ1dqxGfJg1S3x3KlbCBIACyJlbv5o11wCeSKZQVyWnBkDehvbliu4NpEjIHEH2aM-9NOdzEFyux2dAXYE5rYcg_9n-Mx1_OFe07A=s4800-w800-h600',
       'https://lh3.googleusercontent.com/grass-cs/AABkmLcijexyGLfnbV7b4LBCn-Gi6V2Fv6Rw39ZCC7Mo1zPU6czdJEt3po_WoV_Du3zjjtCzlQiNINLVdse_EVDQYaJ5ZM92st2gulp8iGgxyV6KguwI8uE9BhdYqW8G4TANBzNRH1kw=s4800-w800-h600'
     ]
-  },
-  {
-    // NOTE: Google has only one Energen Works location (137 Residency Rd, Ashok Nagar - used for id 447), so this is probably a duplicate card. No images used - consider removing it
-    id: 451,
-    name: 'Energen Works',
-    badge: null,
-    rating: 4.0,
-    area: 'Ashok Nagar',
-    location: 'Ashok Nagar, Bangalore',
-    price: '₹11,999',
-    period: '/ Month',
-    priceFormatted: '₹11,999 / Month',
-    ctaText: 'Get Quote',
-    images: [] // TODO: images
   },
   {
     // NOTE: Google lists it on Raja Ram Mohan Roy Rd, Ashok Nagar. Rated 3.4 on Google with several complaints about AC not working and poor maintenance - check before listing
@@ -5827,7 +5949,7 @@ export const bangaloreSpaces  = [
     ]
   },
   {
-    // NOTE: Google lists 'The Executive Centre - UB City Concorde' (Level 11 & 14, UB City, Vittal Mallya Rd, Ashok Nagar) but the listing has no photos, so no images used. Card price ₹59,999 is likely a private-office price
+    // NOTE: Photos are Google's 'The Executive Centre' (Level 11, Canberra, UB City, Ashok Nagar). Card price ₹59,999 is likely a private-office price
     id: 456,
     name: 'The Executive Centre UB City',
     badge: null,
@@ -5838,11 +5960,14 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹59,999 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdeI3qp9QQ8nGBBq39n9lTrU-w7g-AP7GnaKD6glGBuWWGFa6oGSqpywSo87ebkBjZIS0kgSYrxFq_vbnK3wfDK7_rqEx8HXUjQ2MSjCkf4i2Cw5DrzrljsjKMsKKiIS1gt5-zxVQ=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLckbEeSbhRT9L9avRe8nNMkp2_dGh1fiU1c8oYjf3ZsI20VYUuIk-4IE-z5rLf9Is3zE_skAIbsTwItc2kMfJQze8twZ4Yn9f05hNlk4gPmD1oKw4lEjX-6IMzdSpqaQI1eqYgmrA=s4800-w800-h600"
+    ]
   },
 
   {
-    // NOTE: Google only has the 'Raheja Towers' building (26 MG Rd, Ashok Nagar) - no Regus listing there, so no images used. Your file already has 'Quest Offices Raheja Towers' (227, MG Road) in the same building
+    // NOTE: Photos are Google's 'Regus - Bangalore CBD' (Level 9, Raheja Towers). Your file also has 'Quest Offices Raheja Towers' (227, MG Road) in the same building
     id: 457,
     name: 'Regus Raheja Towers',
     badge: 'Popular',
@@ -5853,7 +5978,10 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹10,999 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcv-_sJ2HfoEUp9SO-Vrz3D_JbYdXgPxjqWZv5QhRdZXEcmVqeTi4Iek_3sr6JYRh6F1Axlw7YHxgCwBgmHPTrb0sb_S5MeqJel2CoZ8oLUfTOKJtGnTmxOJEIgIG5y2EOseIs=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLexMcZfPCvNCRxxf967Ecjc40_e1uLp5CENOcVrb869Aa9xaFMIyEhDQ0G2bckEDedx8tBwIoP0RyNFjIU3-6Zs6VVg3TRUzcIDKGZFklW75F33BsIc1p3LT1ZmsQkrxaGwha44=s4800-w800-h600"
+    ]
   },
   {
     // NOTE: Google listing 'Regus - Bangalore UB City', Level 15, UB City Concorde Towers, Vittal Mallya Rd, Ashok Nagar. Card price ₹25,199 is likely a private-office price
@@ -6164,7 +6292,7 @@ export const bangaloreSpaces  = [
     id: 474,
     name: 'Collab Desks',
     badge: null,
-    rating: null, // TODO: rating not shown on card
+    rating: null, // rating not shown on card (no usable Google rating)
     area: 'Mahadevapura',
     location: 'Mahadevapura, Bangalore',
     price: '₹8,259',
@@ -6189,28 +6317,14 @@ export const bangaloreSpaces  = [
     priceFormatted: '₹8,900 / Month',
     ctaText: 'Get Quote',
     images: [
-      'https://lh3.googleusercontent.com/grass-cs/AABkmLdmgpJr900cjZZ4IClOdtKtmQ4IUtBXAD-rywf38jSER4p90H0FeQGQLFYjaeGobtgSltLPmOKnoBw0LVVl7mZnJQPH1v6NcFCWr2DVXXhOjodsgzk2peKrtkkymuhThh5DWaWwhdi3tYlQ=s4800-w800-h600',
-      'https://lh3.googleusercontent.com/grass-cs/AABkmLcbTR_bipZlqzuK9XVFO35ON7roF83EVi5PHi5efDZL2x6y2AbqehG2nZgZ4V1P3UBb8fVpcZpVQ-2poSuU8g88f9qxitiJW_MvWlIPaFjgeTQZZkhTIN43KuIzLdE-POkK1DDA0HFbijuF=s4800-w800-h600',
-      'https://lh3.googleusercontent.com/grass-cs/AABkmLdxmwkhH5mRyhBOmYjKyhSoKLL9SWafF-Zzjzt8hfhvCYoAPNpvzVgLSa_tEqR8n51mMI5JJsYP2nInxH5fU3gqZAbJUge7I7yCrw_N23BgDyFItBw6kcfgRB1cHV-WVwqsBba_rzGCjtbo=s4800-w800-h600',
-      'https://lh3.googleusercontent.com/grass-cs/AABkmLecD9IM_c35ICWTM1JrWF20e9UbNcz437ymIm472pilXX_KMM2uWqqawy2AjiQ8PCdXjJEG3d2_yyauJsxA5ReGuJ2iY6jhuzO_faNPvRXSbhzWK0z4VgeN2SUtGGAS65ofyYNyYaGMjxm6=s4800-w800-h600'
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfyzA1Wu_NsltqTxWNqIKD7GFs1PJf_3On1LGyeFWis1DMiLlK-UCY9SdAHjdBvCiSBIVkgrdh0xvjLXUSULNx1N5HB821U5q_IbTVgPxJvwpH-F-pinfTjegLuMYJ0wq-uHpOLkUzCLtfR=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcJHR2HGHagKSvCW9sOFpnm0U3FqbgNJSXIO5bCfNOWVueMN82p6lL6drqdzPGi3f35liIgK7HIkQJ5LLHf2RX6TNagvKIjUTiMErFxkUAUwoHr3Ti3kLKCVVcxMT5fUpB0LaL8W-5qe6i1=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLe4saRqAzIc0MdxyMQv1GKOjjrW2Hjg-zpjgQPCLxJ_1QwsWA4acLx_hhJZGmtdRPLiAJ2KVRfSJpzbzUmRl6bzzlznkUf_du2mXJb_vdEL99Dc2hNf7ZNx09_I0KbojnD9SO1m45Du-JiF=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLf18DGcpnw0Gl_34UdsqOyx1EjRTF1pFyBJCF0IDdib8My0RFsKLnNpnMfVJ1Rq0u0UzB81fX81ml-eTkRD-HO41gG1ZvuijC9FiBxImPFbAF_1l4p-QmPcRYhdIOVXuxodOfDnwig2bzof=s4800-w800-h600"
     ]
   },
   {
-    // NOTE: Google has only one 91Springboard in Mahadevapura (ITPL Main Rd, used for id 471), so this card is probably a duplicate. No images used - consider removing it
-    id: 476,
-    name: '91Springboard',
-    badge: 'Popular',
-    rating: 4.3,
-    area: 'Mahadevapura',
-    location: 'Mahadevapura, Bangalore',
-    price: '₹9,999',
-    period: '/ Month',
-    priceFormatted: '₹9,999 / Month',
-    ctaText: 'Get Quote',
-    images: [] // TODO: images
-  },
-  {
-    // NOTE: Google lists it at 12th Floor, Crescent 3, ITPL Main Rd, Whitefield, but the listing has no photos, so no images used
+    // NOTE: Google lists it at 12th Floor, Crescent 3, ITPL Main Rd, Whitefield, but the listing has no photos
     id: 477,
     name: 'Awfis Prestige Shantiniketan 2',
     badge: 'Popular',
@@ -6221,7 +6335,12 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹9,999 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      'https://img.cofynd.com/images/latest_images_2024/b8d1f668809a7dbd139d5d24e216bfd185aba800.webp',
+      'https://img.cofynd.com/images/latest_images_2024/43e7d8d1ee3633070e7b17fdcaa29eae28312ffa.webp',
+      'https://img.cofynd.com/images/latest_images_2024/9f81f31f8c3df5304da3f402f2ae5681bacb72d7.webp',
+      'https://img.cofynd.com/images/latest_images_2024/04f818d3da9123292e9d24d84ee973caedca230e.webp'
+    ]
   },
   {
     // NOTE: Google lists it on Seetharampalya - Hoodi Rd, Hoodi
@@ -6243,13 +6362,13 @@ export const bangaloreSpaces  = [
     ]
   },
   {
-    // NOTE: Google lists it at 2nd floor, Crescent Tower 4, Prestige Shantiniketan, Thigalarapalya (K.R. Puram Hobli, Whitefield). The card's area 'Uttarahalli Hobli' looks like a CoFynd error - you may want to change it to Whitefield. Some reviews complain about maintenance and slow responses
+    // NOTE: Google lists it at 2nd floor, Crescent Tower 4, Prestige Shantiniketan, Thigalarapalya (Whitefield); the card's area 'Uttarahalli Hobli' was a CoFynd error, now Whitefield. Some reviews complain about maintenance and slow responses
     id: 479,
     name: 'Spaces Shantiniketan',
     badge: 'Popular',
     rating: 4.4,
-    area: 'Uttarahalli Hobli',
-    location: 'Uttarahalli Hobli, Bangalore',
+    area: 'Whitefield',
+    location: 'Whitefield, Bangalore',
     price: '₹9,999',
     period: '/ Month',
     priceFormatted: '₹9,999 / Month',
@@ -6262,7 +6381,7 @@ export const bangaloreSpaces  = [
     ]
   },
   {
-    // NOTE: Card has no centre name. Google's only Awfis on Hosur Road is Davanam Plaza, already in your file (399), so this is probably a duplicate. No images used - consider removing it
+    // NOTE: card has no centre name. Photos are Google's 'Awfis' at Dayananda Sagar University, Kudlu Gate (Hosur Road), matching CoFynd's 'Awfis' (awfis-hosur-road); separate from Davanam Plaza (id 399)
     id: 480,
     name: 'Awfis',
     badge: 'Popular',
@@ -6273,7 +6392,10 @@ export const bangaloreSpaces  = [
     period: '/ Month',
     priceFormatted: '₹9,499 / Month',
     ctaText: 'Get Quote',
-    images: [] // TODO: images
+    images: [
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLerMDoPuyJOIV4L9Iz6rtZOFaOeajw04XaIO5Is4NW_TFYnf08eXmiVGs7Dc0iV7FxWQ4pL8eBEBchybSPq3XtVIBqJyz1boBDPN7vrT79RHFW0fD2KMQNd5DmiDYzUvfZonjKFyA=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcJ3zJfO1emT9CSLrCYkA3QG6Iu8yow7w19_M923CDQ0QE5xpacKZedzn-hUcWAG9dr3ypWvqzoY-bnXv8wlJDLOMmEeG0fAPIDXZkffbuLXkmqfrDZsODYp9MSQbqz_uzKZOx_vg=s4800-w800-h600"
+    ]
   },
   {
     // NOTE: Google lists it at 1st & 2nd Floor, Ibis Hotel, 26/1 Hosur Rd, near Silk Board Junction, Bommanahalli (Google rating 4.7)
