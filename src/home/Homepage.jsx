@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import CityGrid from '../components/city/CityGrid';
 import CityPopup from '../components/city/CityPopup';
+import Morecities from '../morecities/Morecities.jsx';
 import Section from '../sections/Section';
 import Footer from '../footer/Footer';
 import { virtualOfficePath } from '../virtual/virtual.js';
@@ -212,16 +213,6 @@ const Homepage = () => {
   };
 
   /**
-   * Handles city selection from the native "Select City" HTML dropdown.
-   */
-  const handleCityDropdownChange = (event, openModal = false) => {
-    const matchedCity = availableCities.find((city) => city.name === event.target.value);
-    if (matchedCity) {
-      selectCityAndOpenPopup(matchedCity, openModal);
-    }
-  };
-
-  /**
    * Closes the city options popup modal.
    */
   const closeCityPopup = () => {
@@ -314,21 +305,8 @@ const Homepage = () => {
                 </select>
               </label>
               
-              {/* City Selector Dropdown */}
-              <label className="border border-slate-200 rounded-xl px-2.5 py-1.5 flex flex-col bg-white shadow-xs">
-                <span className="text-[10px] font-semibold text-slate-400 leading-tight">
-                  {heroSectionData.searchFilters.selectCityLabel}
-                </span>
-                <select 
-                  value={selectedCityName} 
-                  onChange={handleCityDropdownChange}
-                  className="text-xs sm:text-sm font-medium text-slate-800 bg-transparent focus:outline-none cursor-pointer mt-0.5"
-                >
-                  {availableCities.map((city) => (
-                    <option key={city.name} value={city.name}>{city.name}</option>
-                  ))}
-                </select>
-              </label>
+              {/* More Cities button + popup (src/morecities) */}
+              <Morecities onCitySelect={(city) => selectCityAndOpenPopup(city, true)} />
             </div>
 
             {/* Primary Search Button */}
