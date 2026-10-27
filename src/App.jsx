@@ -19,6 +19,8 @@ import ChandigarhOfficeDetail from './pages/chandigarh/ChandigarhOfficeDetail';
 import { getChandigarhOfficeCardById } from './pages/chandigarh/chandigarhData';
 import ChennaiPage from './pages/chennai/Chennai';
 import CoimbatorePage from './pages/coimbatore/Coimbatore';
+import CoimbatoreOfficeDetail from './pages/coimbatore/CoimbatoreOfficeDetail';
+import { getCoimbatoreOfficeCardById } from './pages/coimbatore/coimbatoreData';
 import DelhiPage from './pages/delhi/Delhi';
 import DelhiOfficeDetails from './pages/delhi/DelhiOfficeDetails';
 import GoaPage from './pages/goa/Goa';
@@ -55,6 +57,7 @@ const OfficeRoute = () => {
   if (getAhmedabadOfficeCardById(id)) return <AhmedabadOfficeDetails />;
   if (getGurugramOfficeCardById(id)) return <GurugramOfficeDetail />;
   if (getIndoreOfficeCardById(id)) return <IndoreOfficeDetails />;
+  if (getCoimbatoreOfficeCardById(id)) return <CoimbatoreOfficeDetail />;
   if (getBhubaneshwarOfficeCardById(id)) return <BhubaneshwarOfficeDetail />;
   return <Homepage />;
 };
