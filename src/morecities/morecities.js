@@ -92,4 +92,5 @@ export const moreCities = rawMoreCityNames
     seenKeys.add(key);
     return true;
   })
-  .map((name) => ({ name, image: getCityImage(name) }));
+  .map((name) => ({ name, image: getCityImage(name) }))
+  .sort((a, b) => a.name.localeCompare(b.name));
