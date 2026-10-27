@@ -37,6 +37,8 @@ import KolkataPage from './pages/kolkata/Kolkata';
 import LucknowPage from './pages/lucknow/Lucknow';
 import MumbaiPage from './pages/mumbai/Mumbai';
 import NoidaPage from './pages/noida/Noida';
+import NoidaOfficeDetail from './pages/noida/NoidaOfficeDetail';
+import { getNoidaOfficeCardById } from './pages/noida/noidaData';
 import PunePage from './pages/pune/Pune';
 import PuneOfficeDetail from './pages/pune/PuneOfficeDetail';
 import BhubaneshwarOfficeDetail from './pages/bhubaneswar/BhubaneshwarOfficeDetail';
@@ -56,6 +58,7 @@ const OfficeRoute = () => {
   if (getGurugramOfficeCardById(id)) return <GurugramOfficeDetail />;
   if (getIndoreOfficeCardById(id)) return <IndoreOfficeDetails />;
   if (getBhubaneshwarOfficeCardById(id)) return <BhubaneshwarOfficeDetail />;
+  if (getNoidaOfficeCardById(id)) return <NoidaOfficeDetail />;
   return <Homepage />;
 };
 
@@ -93,6 +96,7 @@ const App = () => {
         <Route path="/coworking/lucknow" element={<LucknowPage />} />
         <Route path="/coworking/mumbai" element={<MumbaiPage />} />
         <Route path="/coworking/noida" element={<NoidaPage />} />
+        <Route path="/coworking/noida/:id" element={<NoidaOfficeDetail />} />
         <Route path="/coworking/pune" element={<PunePage />} />
         <Route path="/coworking/pune/:id" element={<PuneOfficeDetail />} />
         <Route path="/virtual-office/:city" element={<VirtualOffice />} />
