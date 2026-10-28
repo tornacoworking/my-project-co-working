@@ -1,12 +1,5 @@
 // Data store for Goa
-export const goaAreas = [
-  "All",
-  "Panjim",
-  "Porvorim",
-  "Margao",
-  "Candolim",
-  "Anjuna"
-];
+export const goaAreas = 
 
 export const goaSpaces = [
   {
