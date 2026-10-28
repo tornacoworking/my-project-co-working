@@ -279,10 +279,10 @@ const Coimbatore = () => {
     : [];
 
   // Combined cards to display in top grid (area filtered):
-  const combinedSpaces = selectedNeighborhood
-    ? [...allCoimbatoreOfficeCards, ...extraAreaCards].filter(
+  const ownAreaSpaces = selectedNeighborhood
+    ? allCoimbatoreOfficeCards.filter(
         (space, index, list) =>
-          // only cards that really belong to the clicked area, each card once (the data repeats some cards)
+          // cards that really belong to the clicked area, each card once (the data repeats some cards)
           space.area?.toLowerCase() === selectedNeighborhood.toLowerCase() &&
           list.findIndex(
             (other) =>
@@ -290,6 +290,14 @@ const Coimbatore = () => {
               other.name.toLowerCase() === space.name.toLowerCase()
           ) === index
       )
+    : [];
+
+  // Extra cards (nearby real listings) come after the area's own cards, each card once
+  const combinedSpaces = selectedNeighborhood
+    ? [
+        ...ownAreaSpaces,
+        ...extraAreaCards.filter((extra) => !ownAreaSpaces.some((own) => own.id === extra.id))
+      ]
     : activeTopSpaces;
 
   // Apply price filter to displayedSpaces
