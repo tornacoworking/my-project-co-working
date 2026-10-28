@@ -24,6 +24,7 @@ import { jaipurNeighborhoods,
     getJaipurOfficeSlug
    } from './jaipurData.js';
 import QuoteModal from '../../components/QuoteModal.jsx';
+import { rebalanceBlocks } from '../../common/balanceBlocks.js';
 
 /**
  * Individual Coworking Space Card with isolated multi-image sliding closure mechanism
@@ -269,7 +270,14 @@ const Jaipur = () => {
   };
 
   // Cards of the top grid for the active page
-  const activeTopSpaces = currentPage === 1 ? jaipurOfficeCards : currentPage === 2 ? pageTwoJaipurOfficeCards : currentPage === 3 ? pageThreeJaipurOfficeCards : currentPage === 4 ? pageFourJaipurOfficeCards : [];
+  // Cards of this page regrouped in rows of 4 so no block leaves empty white slots (see src/common/balanceBlocks.js)
+  const pageBlocks = rebalanceBlocks([
+    currentPage === 1 ? jaipurOfficeCards : currentPage === 2 ? pageTwoJaipurOfficeCards : currentPage === 3 ? pageThreeJaipurOfficeCards : currentPage === 4 ? pageFourJaipurOfficeCards : [],
+    currentPage === 1 ? moreJaipurOfficeCards : currentPage === 2 ? pageTwoMoreJaipurOfficeCards : currentPage === 3 ? pageThreeMoreJaipurOfficeCards : [],
+    currentPage === 1 ? finalJaipurOfficeCards : currentPage === 2 ? pageTwoFinalJaipurOfficeCards : currentPage === 3 ? pageThreeFinalJaipurOfficeCards : [],
+    currentPage === 1 ? featuredJaipurOfficeCards : currentPage === 2 ? pageTwoFeaturedJaipurOfficeCards : currentPage === 3 ? pageThreeFeaturedJaipurOfficeCards : []
+  ]);
+  const activeTopSpaces = pageBlocks[0];
 
   // ============================================================================
   // Area Filtering Logic with Extra 10 Real Internet Office Cards per Area
@@ -315,7 +323,7 @@ const Jaipur = () => {
     : combinedSpaces;
 
   // Cards of the second ("Additional") grid for the active page
-  const activeMoreSpaces = currentPage === 1 ? moreJaipurOfficeCards : currentPage === 2 ? pageTwoMoreJaipurOfficeCards : currentPage === 3 ? pageThreeMoreJaipurOfficeCards : [];
+  const activeMoreSpaces = pageBlocks[1];
 
   // Second grid after the area filter and the price filter are applied
   const displayedMoreSpaces = selectedNeighborhood ? [] : activeMoreSpaces.filter((space) => {
@@ -326,7 +334,7 @@ const Jaipur = () => {
   });
 
   // Cards of the third ("Spotlight") grid for the active page
-  const activeFinalSpaces = currentPage === 1 ? finalJaipurOfficeCards : currentPage === 2 ? pageTwoFinalJaipurOfficeCards : currentPage === 3 ? pageThreeFinalJaipurOfficeCards : [];
+  const activeFinalSpaces = pageBlocks[2];
 
   // Third grid after the area filter and the price filter are applied
   const displayedFinalSpaces = selectedNeighborhood ? [] : activeFinalSpaces.filter((space) => {
@@ -337,7 +345,7 @@ const Jaipur = () => {
   });
 
   // Cards of the fourth ("Featured") grid for the active page
-  const activeOfficeCards = currentPage === 1 ? featuredJaipurOfficeCards : currentPage === 2 ? pageTwoFeaturedJaipurOfficeCards : currentPage === 3 ? pageThreeFeaturedJaipurOfficeCards : []; 
+  const activeOfficeCards = pageBlocks[3];
 
   // Fourth grid after the area filter and the price filter are applied
   const displayedFeaturedSpaces = selectedNeighborhood ? [] : activeOfficeCards.filter((space) => {

@@ -24,6 +24,7 @@ import { goaNeighborhoods,
     getGoaOfficeSlug
    } from './goaData.js';
 import QuoteModal from '../../components/QuoteModal.jsx';
+import { rebalanceBlocks } from '../../common/balanceBlocks.js';
 
 /**
  * Individual Coworking Space Card with isolated multi-image sliding closure mechanism
@@ -252,7 +253,14 @@ const Goa = () => {
     return true;
   };
 
-  const activeTopSpaces = currentPage === 1 ? goaOfficeCards : currentPage === 2 ? pageTwoGoaOfficeCards : currentPage === 3 ? pageThreeGoaOfficeCards : currentPage === 4 ? pageFourGoaOfficeCards : [];
+  // Cards of this page regrouped in rows of 4 so no block leaves empty white slots (see src/common/balanceBlocks.js)
+  const pageBlocks = rebalanceBlocks([
+    currentPage === 1 ? goaOfficeCards : currentPage === 2 ? pageTwoGoaOfficeCards : currentPage === 3 ? pageThreeGoaOfficeCards : currentPage === 4 ? pageFourGoaOfficeCards : [],
+    currentPage === 1 ? moreGoaOfficeCards : currentPage === 2 ? pageTwoMoreGoaOfficeCards : currentPage === 3 ? pageThreeMoreGoaOfficeCards : [],
+    currentPage === 1 ? finalGoaOfficeCards : currentPage === 2 ? pageTwoFinalGoaOfficeCards : currentPage === 3 ? pageThreeFinalGoaOfficeCards : [],
+    currentPage === 1 ? featuredGoaOfficeCards : currentPage === 2 ? pageTwoFeaturedGoaOfficeCards : currentPage === 3 ? pageThreeFeaturedGoaOfficeCards : []
+  ]);
+  const activeTopSpaces = pageBlocks[0];
 
   // ============================================================================
   // Area Filtering Logic with Extra 10 Real Internet Office Cards per Area
@@ -297,7 +305,7 @@ const Goa = () => {
     ? combinedSpaces.filter(matchesPrice)
     : combinedSpaces;
 
-  const activeMoreSpaces = currentPage === 1 ? moreGoaOfficeCards : currentPage === 2 ? pageTwoMoreGoaOfficeCards : currentPage === 3 ? pageThreeMoreGoaOfficeCards : [];
+  const activeMoreSpaces = pageBlocks[1];
 
   const displayedMoreSpaces = selectedNeighborhood ? [] : activeMoreSpaces.filter((space) => {
     const matchesArea = !selectedNeighborhood ||
@@ -306,7 +314,7 @@ const Goa = () => {
     return matchesArea && matchesPrice(space);
   });
 
-  const activeFinalSpaces = currentPage === 1 ? finalGoaOfficeCards : currentPage === 2 ? pageTwoFinalGoaOfficeCards : currentPage === 3 ? pageThreeFinalGoaOfficeCards : [];
+  const activeFinalSpaces = pageBlocks[2];
 
   const displayedFinalSpaces = selectedNeighborhood ? [] : activeFinalSpaces.filter((space) => {
     const matchesArea = !selectedNeighborhood ||
@@ -315,7 +323,7 @@ const Goa = () => {
     return matchesArea && matchesPrice(space);
   });
 
-  const activeOfficeCards = currentPage === 1 ? featuredGoaOfficeCards : currentPage === 2 ? pageTwoFeaturedGoaOfficeCards : currentPage === 3 ? pageThreeFeaturedGoaOfficeCards : []; 
+  const activeOfficeCards = pageBlocks[3];
 
   const displayedFeaturedSpaces = selectedNeighborhood ? [] : activeOfficeCards.filter((space) => {
     const matchesArea = !selectedNeighborhood ||

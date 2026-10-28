@@ -24,6 +24,7 @@ import { chandigarhNeighborhoods,
     getChandigarhOfficeSlug
    } from './chandigarhData.js';
 import QuoteModal from '../../components/QuoteModal.jsx';
+import { rebalanceBlocks } from '../../common/balanceBlocks.js';
 
 /**
  * Individual Coworking Space Card with isolated multi-image sliding closure mechanism
@@ -269,7 +270,14 @@ const Chandigarh = () => {
   };
 
   // Cards of the top grid for the active page
-  const activeTopSpaces = currentPage === 1 ? chandigarhOfficeCards : currentPage === 2 ? pageTwoChandigarhOfficeCards : currentPage === 3 ? pageThreeChandigarhOfficeCards : currentPage === 4 ? pageFourChandigarhOfficeCards : [];
+  // Cards of this page regrouped in rows of 4 so no block leaves empty white slots (see src/common/balanceBlocks.js)
+  const pageBlocks = rebalanceBlocks([
+    currentPage === 1 ? chandigarhOfficeCards : currentPage === 2 ? pageTwoChandigarhOfficeCards : currentPage === 3 ? pageThreeChandigarhOfficeCards : currentPage === 4 ? pageFourChandigarhOfficeCards : [],
+    currentPage === 1 ? moreChandigarhOfficeCards : currentPage === 2 ? pageTwoMoreChandigarhOfficeCards : currentPage === 3 ? pageThreeMoreChandigarhOfficeCards : [],
+    currentPage === 1 ? finalChandigarhOfficeCards : currentPage === 2 ? pageTwoFinalChandigarhOfficeCards : currentPage === 3 ? pageThreeFinalChandigarhOfficeCards : [],
+    currentPage === 1 ? featuredChandigarhOfficeCards : currentPage === 2 ? pageTwoFeaturedChandigarhOfficeCards : currentPage === 3 ? pageThreeFeaturedChandigarhOfficeCards : []
+  ]);
+  const activeTopSpaces = pageBlocks[0];
 
   // ============================================================================
   // Area Filtering Logic with Extra 10 Real Internet Office Cards per Area
@@ -323,7 +331,7 @@ const Chandigarh = () => {
     : combinedSpaces;
 
   // Cards of the second ("Additional") grid for the active page
-  const activeMoreSpaces = currentPage === 1 ? moreChandigarhOfficeCards : currentPage === 2 ? pageTwoMoreChandigarhOfficeCards : currentPage === 3 ? pageThreeMoreChandigarhOfficeCards : [];
+  const activeMoreSpaces = pageBlocks[1];
 
   // Second grid after the area filter and the price filter are applied
   const displayedMoreSpaces = selectedNeighborhood ? [] : activeMoreSpaces.filter((space) => {
@@ -334,7 +342,7 @@ const Chandigarh = () => {
   });
 
   // Cards of the third ("Spotlight") grid for the active page
-  const activeFinalSpaces = currentPage === 1 ? finalChandigarhOfficeCards : currentPage === 2 ? pageTwoFinalChandigarhOfficeCards : currentPage === 3 ? pageThreeFinalChandigarhOfficeCards : [];
+  const activeFinalSpaces = pageBlocks[2];
 
   // Third grid after the area filter and the price filter are applied
   const displayedFinalSpaces = selectedNeighborhood ? [] : activeFinalSpaces.filter((space) => {
@@ -345,7 +353,7 @@ const Chandigarh = () => {
   });
 
   // Cards of the fourth ("Featured") grid for the active page
-  const activeOfficeCards = currentPage === 1 ? featuredChandigarhOfficeCards : currentPage === 2 ? pageTwoFeaturedChandigarhOfficeCards : currentPage === 3 ? pageThreeFeaturedChandigarhOfficeCards : []; 
+  const activeOfficeCards = pageBlocks[3];
 
   // Fourth grid after the area filter and the price filter are applied
   const displayedFeaturedSpaces = selectedNeighborhood ? [] : activeOfficeCards.filter((space) => {

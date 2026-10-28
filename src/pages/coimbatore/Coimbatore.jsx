@@ -24,6 +24,7 @@ import { coimbatoreNeighborhoods,
     getCoimbatoreOfficeSlug
    } from './coimbatoreData.js';
 import QuoteModal from '../../components/QuoteModal.jsx';
+import { rebalanceBlocks } from '../../common/balanceBlocks.js';
 
 /**
  * Individual Coworking Space Card with isolated multi-image sliding closure mechanism
@@ -252,7 +253,14 @@ const Coimbatore = () => {
     return true;
   };
 
-  const activeTopSpaces = currentPage === 1 ? coimbatoreOfficeCards : currentPage === 2 ? pageTwoCoimbatoreOfficeCards : currentPage === 3 ? pageThreeCoimbatoreOfficeCards : currentPage === 4 ? pageFourCoimbatoreOfficeCards : [];
+  // Cards of this page regrouped in rows of 4 so no block leaves empty white slots (see src/common/balanceBlocks.js)
+  const pageBlocks = rebalanceBlocks([
+    currentPage === 1 ? coimbatoreOfficeCards : currentPage === 2 ? pageTwoCoimbatoreOfficeCards : currentPage === 3 ? pageThreeCoimbatoreOfficeCards : currentPage === 4 ? pageFourCoimbatoreOfficeCards : [],
+    currentPage === 1 ? moreCoimbatoreOfficeCards : currentPage === 2 ? pageTwoMoreCoimbatoreOfficeCards : currentPage === 3 ? pageThreeMoreCoimbatoreOfficeCards : [],
+    currentPage === 1 ? finalCoimbatoreOfficeCards : currentPage === 2 ? pageTwoFinalCoimbatoreOfficeCards : currentPage === 3 ? pageThreeFinalCoimbatoreOfficeCards : [],
+    currentPage === 1 ? featuredCoimbatoreOfficeCards : currentPage === 2 ? pageTwoFeaturedCoimbatoreOfficeCards : currentPage === 3 ? pageThreeFeaturedCoimbatoreOfficeCards : []
+  ]);
+  const activeTopSpaces = pageBlocks[0];
 
   // ============================================================================
   // Area Filtering Logic with Extra 10 Real Internet Office Cards per Area
@@ -297,7 +305,7 @@ const Coimbatore = () => {
     ? combinedSpaces.filter(matchesPrice)
     : combinedSpaces;
 
-  const activeMoreSpaces = currentPage === 1 ? moreCoimbatoreOfficeCards : currentPage === 2 ? pageTwoMoreCoimbatoreOfficeCards : currentPage === 3 ? pageThreeMoreCoimbatoreOfficeCards : [];
+  const activeMoreSpaces = pageBlocks[1];
 
   const displayedMoreSpaces = selectedNeighborhood ? [] : activeMoreSpaces.filter((space) => {
     const matchesArea = !selectedNeighborhood ||
@@ -306,7 +314,7 @@ const Coimbatore = () => {
     return matchesArea && matchesPrice(space);
   });
 
-  const activeFinalSpaces = currentPage === 1 ? finalCoimbatoreOfficeCards : currentPage === 2 ? pageTwoFinalCoimbatoreOfficeCards : currentPage === 3 ? pageThreeFinalCoimbatoreOfficeCards : [];
+  const activeFinalSpaces = pageBlocks[2];
 
   const displayedFinalSpaces = selectedNeighborhood ? [] : activeFinalSpaces.filter((space) => {
     const matchesArea = !selectedNeighborhood ||
@@ -315,7 +323,7 @@ const Coimbatore = () => {
     return matchesArea && matchesPrice(space);
   });
 
-  const activeOfficeCards = currentPage === 1 ? featuredCoimbatoreOfficeCards : currentPage === 2 ? pageTwoFeaturedCoimbatoreOfficeCards : currentPage === 3 ? pageThreeFeaturedCoimbatoreOfficeCards : []; 
+  const activeOfficeCards = pageBlocks[3];
 
   const displayedFeaturedSpaces = selectedNeighborhood ? [] : activeOfficeCards.filter((space) => {
     const matchesArea = !selectedNeighborhood ||
