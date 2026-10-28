@@ -1,14 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
 import { findOfficeBySlug, officePath } from "../../common/slug.js";
 /**
  * Pune Coworking Spaces Matrix Layout Data & Neighborhood Filters
