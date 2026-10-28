@@ -9,7 +9,6 @@ import { findOfficeBySlug, officePath } from "../../common/slug.js";
 
 export const goaNeighborhoods = [
   "Panjim",
-  "Porvorim",
   "Margao",
   "Candolim",
   "Anjuna",
