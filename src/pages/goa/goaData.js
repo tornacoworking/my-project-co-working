@@ -26,3 +26,14 @@ export const goaSpaces = [
 export const areas = goaAreas;
 export const spaces = goaSpaces;
 export default { areas: goaAreas, spaces: goaSpaces };
+
+
+
+
+
+
+
+
+
+
+
