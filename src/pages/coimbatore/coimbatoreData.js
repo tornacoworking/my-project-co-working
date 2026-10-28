@@ -1,32 +1,54 @@
 import { findOfficeBySlug, officePath } from "../../common/slug.js";
 /**
  * Coimbatore Coworking Spaces Matrix Layout Data & Neighborhood Filters
- * Sourced from verified active coworking listings in Coimbatore (cofynd.com):
+ * Sourced from verified active coworking listings in Coimbatore (cofynd.com and qdesq.com):
  * name, area, starting price and photos are taken from each real listing.
+ * Prices are the monthly price per seat shown on the listing ("On Request" when none is published).
  * Ratings are not published for these listings, so they are left empty.
  */
 
 export const coimbatoreNeighborhoods = [
   "Avinashi Road",
-  "Saravanampatti",
-  "Cheran Ma Nagar",
-  "Kalapatti",
   "Peelamedu",
+  "Saravanampatti",
+  "Gandhipuram",
+  "Ram Nagar",
+  "Vadavalli",
+  "RS Puram",
+  "Cheran Ma Nagar",
+  "Civil Aerodrome Post",
+  "Kalapatti",
+  "Saibaba Colony",
   "Tatabad",
   "100 Feet Road",
+  "Amman Nagar",
   "Annur",
-  "Gandhipuram",
+  "Avarampalayam",
+  "Brookefields",
+  "Chinnavedampatti",
+  "Eachanari",
+  "Edayarpalayam",
+  "Ganapathy",
+  "GKS Nagar",
   "Induma Nagar",
   "Kamarajar Road",
-  "Ram Nagar",
-  "Saibaba Colony",
+  "Kovai",
+  "Lakshmipuram",
+  "Nadar Colony",
+  "Nehru Nagar West",
+  "Pappanaickenpalayam",
+  "Peelamedu West",
+  "Race Course",
   "Sidhapudur",
   "Singanallur",
   "Sitra",
-  "Vadavalli"
+  "STV Nagar",
+  "TNHB Colony"
 ];
 
-// Page 1 - top grid (right under the area filter buttons)
+// ============================================================================
+// Page 1 (blocks: top grid, second, third, featured)
+// ============================================================================
 export const coimbatoreOfficeCards = [
   {
     "id": 1,
@@ -157,7 +179,10 @@ export const coimbatoreOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/bcf3c803a9a4d2a5c562d56716165fd094927245.webp",
       "https://img.cofynd.com/images/latest_images_2024/bb4d82af18834890a8595bd51d52ebf5533a8719.webp"
     ]
-  },
+  }
+];
+
+export const moreCoimbatoreOfficeCards = [
   {
     "id": 7,
     "name": "Workfiiy Spaces",
@@ -194,11 +219,7 @@ export const coimbatoreOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/c410e1a38822e19e1f5e6491b226872a2a8f3b03.webp",
       "https://img.cofynd.com/images/latest_images_2024/b80cab0abd52060ec386ea25f7a86cf48540fb9a.webp"
     ]
-  }
-];
-
-// Page 1 - second block
-export const moreCoimbatoreOfficeCards = [
+  },
   {
     "id": 9,
     "name": "IndiQube Echo",
@@ -278,7 +299,19 @@ export const moreCoimbatoreOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/d3e22ab8728111175b195f8c2c37b6edef627c2e.webp",
       "https://img.cofynd.com/images/latest_images_2024/6c9585c0cdfc30ac1040b5aac51d64a1489f3132.webp"
     ]
-  },
+  }
+];
+
+export const perfectWorkspaceBanner = {
+  title: 'Discover your perfect workspace with Mycoworking',
+  subtitle: 'Explore Flexible Coworking Solutions, Premium Amenities, and Prime Locations Across India',
+  ctaText: 'Enquire Now',
+  bgImage: 'https://img.cofynd.com/images/latest_images_2024/28f41de2ee6c67528d528dc3b55fc7ad2801dcbc.webp'
+};
+
+// Page 1 - third block
+
+export const finalCoimbatoreOfficeCards = [
   {
     "id": 13,
     "name": "Lotus Startup-zone",
@@ -361,18 +394,7 @@ export const moreCoimbatoreOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/4cf378610f1167a364033351fdd7c69de8e2e1c1.webp",
       "https://img.cofynd.com/images/latest_images_2024/ae5e24dc5d17aa249bccf5e2f2ba7ea547d28f1c.webp"
     ]
-  }
-];
-
-export const perfectWorkspaceBanner = {
-  title: 'Discover your perfect workspace with Mycoworking',
-  subtitle: 'Explore Flexible Coworking Solutions, Premium Amenities, and Prime Locations Across India',
-  ctaText: 'Enquire Now',
-  bgImage: 'https://img.cofynd.com/images/latest_images_2024/28f41de2ee6c67528d528dc3b55fc7ad2801dcbc.webp'
-};
-
-// Page 1 - third block
-export const finalCoimbatoreOfficeCards = [
+  },
   {
     "id": 17,
     "name": "Icity Inc Coworking",
@@ -418,7 +440,10 @@ export const finalCoimbatoreOfficeCards = [
       "https://img.cofynd.com/images/latest_images_2024/61d97a313a7fe57e2fd6cf4ed704c9c0f660ba6b.webp",
       "https://img.cofynd.com/images/latest_images_2024/6e6d4806f9bef21fa9a1e8823a850be7485ac2a8.webp"
     ]
-  },
+  }
+];
+
+export const featuredCoimbatoreOfficeCards = [
   {
     "id": 19,
     "name": "Innovspace Edge Zone",
@@ -534,8 +559,40 @@ export const finalCoimbatoreOfficeCards = [
   }
 ];
 
-// Page 1 - featured block
-export const featuredCoimbatoreOfficeCards = [
+// Aliases for compatibility
+export const coimbatoreAreas = coimbatoreNeighborhoods;
+export const coimbatoreSpaces = coimbatoreOfficeCards;
+export const areas = coimbatoreNeighborhoods;
+export const spaces = coimbatoreOfficeCards;
+
+export const customizedOfficeBanner = {
+  title: 'Customized office solutions for your team',
+  features: [
+    { id: 1, text: 'Customized Office Spaces' },
+    { id: 2, text: 'Prime Locations' },
+    { id: 3, text: 'Free Guided Tours' },
+    { id: 4, text: 'Perfect for 50+ Team Size' }
+  ],
+  ctaText: 'Enquire Now',
+  bgImage: 'https://img.cofynd.com/images/latest_images_2024/83bb813890447d5d3d6bda55c7133a5fd48cdbc5.webp'
+};
+
+export const stillNotFindingBanner = {
+  title: 'Still not able to find coworking space?',
+  subtitle: 'Our space experts will help you find the perfect coworking space in prime locations',
+  ctaText: 'Enquire Now',
+  bgImage: 'https://img.cofynd.com/images/latest_images_2024/406c83ccb0729b57d9beb973b7e4088ab7640ef3.webp'
+};
+
+export const paginationData = {
+  totalPages: 3,
+  initialPage: 1
+};
+
+// ============================================================================
+// Page 2
+// ============================================================================
+export const pageTwoCoimbatoreOfficeCards = [
   {
     "id": 25,
     "name": "OneDesq",
@@ -660,45 +717,692 @@ export const featuredCoimbatoreOfficeCards = [
   }
 ];
 
-// Aliases for compatibility
-export const coimbatoreAreas = coimbatoreNeighborhoods;
-export const coimbatoreSpaces = coimbatoreOfficeCards;
-export const areas = coimbatoreNeighborhoods;
-export const spaces = coimbatoreOfficeCards;
+export const pageTwoMoreCoimbatoreOfficeCards = [
+  {
+    "id": 31,
+    "name": "Learning Loft",
+    "badge": null,
+    "rating": null,
+    "area": "Eachanari",
+    "location": "Eachanari, Coimbatore",
+    "price": "₹6,500",
+    "period": "/ Month",
+    "priceFormatted": "₹6,500 / Month",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1702638029/tagrvvskrvbz50boriwe.webp"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "MyWork",
+    "badge": null,
+    "rating": null,
+    "area": "Nadar Colony",
+    "location": "Nadar Colony, Coimbatore",
+    "price": "₹7,500",
+    "period": "/ Month",
+    "priceFormatted": "₹7,500 / Month",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://ik.imagekit.io/qdesq/qdesq/8c3892bc92b21c7e7d1743af38b59539_HzpCiZ2BUn.JPG",
+      "https://ik.imagekit.io/qdesq/qdesq/54eec04a4e1fbab459407ef1bdfa2f1b_GV4b9U113k.JPG",
+      "https://ik.imagekit.io/qdesq/qdesq/3ea4ab2a51abce27522dd2bc155f182d_iN_F0ZgZZ.JPG",
+      "https://ik.imagekit.io/qdesq/qdesq/444d55699afc0e55481517369973bcda_WzSGY66aN.JPG",
+      "https://ik.imagekit.io/qdesq/qdesq/5ab436bef41b2f13ffe12c8199583f32_LvLTtHS9M.JPG",
+      "https://ik.imagekit.io/qdesq/qdesq/763209053af6720acaf39d3b112506c3_MMzlLFohG.JPG",
+      "https://ik.imagekit.io/qdesq/qdesq/a502c274b37da0987d7b072fba3ca9f6_LcLRu8_LQ.JPG",
+      "https://ik.imagekit.io/qdesq/qdesq/0bea6ed7cec61558751dae2098ff36bd_yVjtZOBpJ.JPG"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Regus",
+    "badge": null,
+    "rating": null,
+    "area": "Race Course",
+    "location": "Race Course, Coimbatore",
+    "price": "On Request",
+    "period": "",
+    "priceFormatted": "On Request",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1511347603/rd9jepdot7pemzdecycx.webp"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Aztech Lotus Workspace",
+    "badge": null,
+    "rating": null,
+    "area": "Brookefields",
+    "location": "Brookefields, Coimbatore",
+    "price": "₹6,500",
+    "period": "/ Month",
+    "priceFormatted": "₹6,500 / Month",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://ik.imagekit.io/qdesq/qdesq/52763a7392144d931d0823b8700818a8_da-GUCfCp.JPG",
+      "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1684501076/fvwkr5rr9mjodcutefe0.jpg"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Aztech coworking",
+    "badge": null,
+    "rating": null,
+    "area": "RS Puram",
+    "location": "RS Puram, Coimbatore",
+    "price": "₹5,500",
+    "period": "/ Month",
+    "priceFormatted": "₹5,500 / Month",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1714477242/wxhs7lfddfi9kart9rd3.webp"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Krisan Workspaces",
+    "badge": null,
+    "rating": null,
+    "area": "RS Puram",
+    "location": "RS Puram, Coimbatore",
+    "price": "₹12,500",
+    "period": "/ Month",
+    "priceFormatted": "₹12,500 / Month",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1663249917/fj0j7pzhs0y1pdvwshov.webp",
+      "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1663249883/lyb1bikgc2tgi2tkuyca.webp"
+    ]
+  }
+];
 
-export const customizedOfficeBanner = {
-  title: 'Customized office solutions for your team',
-  features: [
-    { id: 1, text: 'Customized Office Spaces' },
-    { id: 2, text: 'Prime Locations' },
-    { id: 3, text: 'Free Guided Tours' },
-    { id: 4, text: 'Perfect for 50+ Team Size' }
-  ],
-  ctaText: 'Enquire Now',
-  bgImage: 'https://img.cofynd.com/images/latest_images_2024/83bb813890447d5d3d6bda55c7133a5fd48cdbc5.webp'
-};
+export const pageTwoFinalCoimbatoreOfficeCards = [
+  {
+    "id": 37,
+    "name": "Aztech coworking space",
+    "badge": null,
+    "rating": null,
+    "area": "RS Puram",
+    "location": "RS Puram, Coimbatore",
+    "price": "₹3,000",
+    "period": "/ Month",
+    "priceFormatted": "₹3,000 / Month",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1687344569/orrxrcxcbzvgjqj3q4ao.webp",
+      "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1687344586/gh0rwiwz3n2iyovwqr2j.webp",
+      "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1687344584/iudobzdcrgcntbyjxvqc.webp"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Mikro Grafeio Services Private Limited",
+    "badge": null,
+    "rating": null,
+    "area": "Saibaba Colony",
+    "location": "Saibaba Colony, Coimbatore",
+    "price": "₹6,200",
+    "period": "/ Month",
+    "priceFormatted": "₹6,200 / Month",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1711021053/iyevbjhtcsg4exyg3ren.webp"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Discover workspace",
+    "badge": null,
+    "rating": null,
+    "area": "Ram Nagar",
+    "location": "Ram Nagar, Coimbatore",
+    "price": "₹8,000",
+    "period": "/ Month",
+    "priceFormatted": "₹8,000 / Month",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1695297765/kwh7unz9zogeedhjnjfp.webp"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Aztech Coworks",
+    "badge": null,
+    "rating": null,
+    "area": "Ram Nagar",
+    "location": "Ram Nagar, Coimbatore",
+    "price": "₹5,000",
+    "period": "/ Month",
+    "priceFormatted": "₹5,000 / Month",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://ik.imagekit.io/qdesq/qdesq/868cde644d72d3e982389e05331588f3_16N8R7RNi.JPG"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Beta Space",
+    "badge": null,
+    "rating": null,
+    "area": "Gandhipuram",
+    "location": "Gandhipuram, Coimbatore",
+    "price": "₹6,000",
+    "period": "/ Month",
+    "priceFormatted": "₹6,000 / Month",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1681364432/eczdfgntxdnu40p0vmkt.webp",
+      "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1681364453/kwp5qdt71uvjoriyk87v.webp",
+      "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1681364453/yyixyc0twt8i94eqac7o.webp",
+      "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1681364465/w9vdx9vlxpdyiyhdfzcr.webp",
+      "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1681364465/nkzztp9ainqrryx6xmyi.webp"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Perfect Space",
+    "badge": null,
+    "rating": null,
+    "area": "Ram Nagar",
+    "location": "Ram Nagar, Coimbatore",
+    "price": "₹3,000",
+    "period": "/ Month",
+    "priceFormatted": "₹3,000 / Month",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1706860685/bfdltwgidtigqlxyxbj7.jpg"
+    ]
+  }
+];
 
-export const stillNotFindingBanner = {
-  title: 'Still not able to find coworking space?',
-  subtitle: 'Our space experts will help you find the perfect coworking space in prime locations',
-  ctaText: 'Enquire Now',
-  bgImage: 'https://img.cofynd.com/images/latest_images_2024/406c83ccb0729b57d9beb973b7e4088ab7640ef3.webp'
-};
+export const pageTwoFeaturedCoimbatoreOfficeCards = [
+  {
+    "id": 43,
+    "name": "Covai Tech Park",
+    "badge": null,
+    "rating": null,
+    "area": "Kovai",
+    "location": "Kovai, Coimbatore",
+    "price": "₹6,000",
+    "period": "/ Month",
+    "priceFormatted": "₹6,000 / Month",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1683892339/fguttga70lbmypzki6vq.webp",
+      "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1683892189/misyqql0qgvubzkivnp3.webp",
+      "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1683795597/ajiywhk9u4d2ryfzutsc.webp"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Innovspace",
+    "badge": null,
+    "rating": null,
+    "area": "Nehru Nagar West",
+    "location": "Nehru Nagar West, Coimbatore",
+    "price": "₹14,80,000",
+    "period": "/ Month",
+    "priceFormatted": "₹14,80,000 / Month",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1608701604/z6nu0jsvm7slt4rmtkvi.jpg",
+      "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/ae7dfb6009da6f5ccb7cabf0a4979cb8_uam20cNB4.jpeg",
+      "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/a4a460c04bed05f99cb1f2a2a4ef143b_S2wHE6ZZq.jpg",
+      "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/47cc5a4340635638596906288fb8df1a_kd7s3jmdR.JPG",
+      "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/e441a6c35bd3909298462446c4b5e820_Zj-P590Kh_.JPG"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "CoSpazes",
+    "badge": null,
+    "rating": null,
+    "area": "Civil Aerodrome Post",
+    "location": "Civil Aerodrome Post, Coimbatore",
+    "price": "On Request",
+    "period": "",
+    "priceFormatted": "On Request",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1713184587/iyk286jjv7r0bxlqyfzv.webp",
+      "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1713184605/vnlm5mssf3zliojwqepo.webp",
+      "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1713184605/fba3ded2xjznpzyicqwq.webp",
+      "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1713184605/lw9ooqy9pjccvemhqhmi.webp",
+      "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1713184606/bnqmexnetae8pvgd7tiq.webp"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Indiqube",
+    "badge": null,
+    "rating": null,
+    "area": "TNHB Colony",
+    "location": "TNHB Colony, Coimbatore",
+    "price": "On Request",
+    "period": "",
+    "priceFormatted": "On Request",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1679296808/cr3yhjphfbaryzbkgwta.webp",
+      "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1679296823/fctbaeho3igzkrbxr09z.webp"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "GRG Incubators",
+    "badge": null,
+    "rating": null,
+    "area": "Civil Aerodrome Post",
+    "location": "Civil Aerodrome Post, Coimbatore",
+    "price": "₹4,500",
+    "period": "/ Month",
+    "priceFormatted": "₹4,500 / Month",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/s--M10AelTw--/v1723032273/zebjjmqaptve6vzjeaiq.webp",
+      "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/s--3rRQko5p--/v1722852433/q70ssiwpkkbbomrtnesr.webp",
+      "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/s--Bnj0uSWV--/v1722852184/zlj6ffm18wsupwa8l8bm.webp"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Ecowrkz",
+    "badge": null,
+    "rating": null,
+    "area": "STV Nagar",
+    "location": "STV Nagar, Coimbatore",
+    "price": "₹8,000",
+    "period": "/ Month",
+    "priceFormatted": "₹8,000 / Month",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://ik.imagekit.io/qdesq/qdesq/035609d6c9e60e299ab94bcd6fd63bd9_Da8z32EAD.jpeg"
+    ]
+  }
+];
 
-export const paginationData = {
-  totalPages: 1,
-  initialPage: 1
-};
+// ============================================================================
+// Page 3
+// ============================================================================
+export const pageThreeCoimbatoreOfficeCards = [
+  {
+    "id": 49,
+    "name": "Ravaan Workspace",
+    "badge": null,
+    "rating": null,
+    "area": "Avinashi Road",
+    "location": "Avinashi Road, Coimbatore",
+    "price": "₹6,500",
+    "period": "/ Month",
+    "priceFormatted": "₹6,500 / Month",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1689567657/fkttfkzh87nbwxglqelz.jpg",
+      "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689567709/q9im966tb9mldio5dqya.jpg"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Krisan Workspaces",
+    "badge": null,
+    "rating": null,
+    "area": "Avinashi Road",
+    "location": "Avinashi Road, Coimbatore",
+    "price": "On Request",
+    "period": "",
+    "priceFormatted": "On Request",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1539410677/uemvwtojobdkjvwslmiy.webp",
+      "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1539410715/pttr2gd6uwq52lefhmgd.webp",
+      "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1539410796/wleulw6woqs0poa0bnjk.webp",
+      "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1539410960/ybjt84wybdiiinzg6ssp.webp",
+      "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1539411490/ktpejwexmmno3lbpbrwo.webp",
+      "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1539410857/fgubnj3jhhhk3ncs5c7b.webp"
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Indiqube",
+    "badge": null,
+    "rating": null,
+    "area": "Peelamedu West",
+    "location": "Peelamedu West, Coimbatore",
+    "price": "On Request",
+    "period": "",
+    "priceFormatted": "On Request",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1679297183/ipbwponjcs2dqotzcg5p.webp",
+      "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1679297066/qd0y0uimfz8iwpx6ofwo.webp",
+      "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1679298105/cbta3xcfuhwthw3showu.webp",
+      "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1679298103/nftxhj2tkdwnuo9hnngc.webp"
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Playworkz Coworking Space",
+    "badge": null,
+    "rating": null,
+    "area": "Peelamedu",
+    "location": "Peelamedu, Coimbatore",
+    "price": "₹6,500",
+    "period": "/ Month",
+    "priceFormatted": "₹6,500 / Month",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1626418125/kmga3skxdugnnwv9ugna.jpg"
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Forge",
+    "badge": null,
+    "rating": null,
+    "area": "Chinnavedampatti",
+    "location": "Chinnavedampatti, Coimbatore",
+    "price": "₹7,500",
+    "period": "/ Month",
+    "priceFormatted": "₹7,500 / Month",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1566815359/nlzimabnixhzvgven23l.webp",
+      "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1545470703/qbdlbo5udbnwslrzfmc0.webp",
+      "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1545470753/bgkd8p1vctwl3wvajvvi.webp",
+      "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1545470792/shb8vt0blvgqsm0cxlzh.webp"
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Kamsys Coworksz",
+    "badge": null,
+    "rating": null,
+    "area": "Ganapathy",
+    "location": "Ganapathy, Coimbatore",
+    "price": "₹2,500",
+    "period": "/ Month",
+    "priceFormatted": "₹2,500 / Month",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://ik.imagekit.io/qdesq/qdesq/400cc7068728ca0a3c35a187001dd6ee_SgugB9RDP.JPG",
+      "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/71f265d26bbd89a0de72312278b1eb36_y3rvuP7DD.jpg"
+    ]
+  }
+];
 
-// Pages 2-4 have no extra listings (all real Coimbatore listings fit on page 1)
-export const pageTwoCoimbatoreOfficeCards = [];
-export const pageTwoMoreCoimbatoreOfficeCards = [];
-export const pageTwoFinalCoimbatoreOfficeCards = [];
-export const pageTwoFeaturedCoimbatoreOfficeCards = [];
-export const pageThreeCoimbatoreOfficeCards = [];
-export const pageThreeMoreCoimbatoreOfficeCards = [];
-export const pageThreeFinalCoimbatoreOfficeCards = [];
-export const pageThreeFeaturedCoimbatoreOfficeCards = [];
+export const pageThreeMoreCoimbatoreOfficeCards = [
+  {
+    "id": 55,
+    "name": "Cultiv8 Coworks",
+    "badge": null,
+    "rating": null,
+    "area": "Peelamedu",
+    "location": "Peelamedu, Coimbatore",
+    "price": "On Request",
+    "period": "",
+    "priceFormatted": "On Request",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1538654004/wsvhzmip5v33kbcjr2rj.webp",
+      "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1538654220/mkilpdhlvpgrh6erwkg6.webp",
+      "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1538654257/o36w5x3fuedvewtsmv0a.webp"
+    ]
+  },
+  {
+    "id": 56,
+    "name": "CoSpazes",
+    "badge": null,
+    "rating": null,
+    "area": "Amman Nagar",
+    "location": "Amman Nagar, Coimbatore",
+    "price": "On Request",
+    "period": "",
+    "priceFormatted": "On Request",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1698676883/rvtq3wg1otagcefyaus7.webp",
+      "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1698676916/vxcgcoctwzqfemokmrdr.webp",
+      "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1698676916/pd1ilpwgjhtirimtl8jp.webp",
+      "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1698676916/gz4weh763qez73oiqpxj.webp"
+    ]
+  },
+  {
+    "id": 57,
+    "name": "iCity inc",
+    "badge": null,
+    "rating": null,
+    "area": "Vadavalli",
+    "location": "Vadavalli, Coimbatore",
+    "price": "On Request",
+    "period": "",
+    "priceFormatted": "On Request",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1658909046/qktfpnv21elx03qzapt9.jpg"
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Nestora CoWorking Space",
+    "badge": null,
+    "rating": null,
+    "area": "Vadavalli",
+    "location": "Vadavalli, Coimbatore",
+    "price": "₹4,750",
+    "period": "/ Month",
+    "priceFormatted": "₹4,750 / Month",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://ik.imagekit.io/qdesq/qdesq/23e3c3668285f59b29c41c3c98a56e39_vMASlDX6B.JPG"
+    ]
+  },
+  {
+    "id": 59,
+    "name": "NexGen Space",
+    "badge": null,
+    "rating": null,
+    "area": "Vadavalli",
+    "location": "Vadavalli, Coimbatore",
+    "price": "₹3,999",
+    "period": "/ Month",
+    "priceFormatted": "₹3,999 / Month",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1682936768/cmojcyzrqq38hdmk6qxl.png",
+      "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1683036311/vehegzefvgtooywhvpzm.png",
+      "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1683036311/lehtcdw5zibqfo7gpore.png",
+      "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1683036311/fubwmgmhruaugoejen0t.png",
+      "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1683036311/silut4wc5f668ptbczlu.png",
+      "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1683036311/vnas2axm7j5nnx2vsn6z.png",
+      "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1683036332/w4mcfnwzaasqviqp5afc.png",
+      "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1683036332/jrs1zkllxfeihxb34rwy.png"
+    ]
+  },
+  {
+    "id": 60,
+    "name": "My Branch",
+    "badge": null,
+    "rating": null,
+    "area": "Edayarpalayam",
+    "location": "Edayarpalayam, Coimbatore",
+    "price": "₹7,150",
+    "period": "/ Month",
+    "priceFormatted": "₹7,150 / Month",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1625803346/pxbxh8y0c9via4i2megy.webp",
+      "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1568010697/tqqci7cqivicnji2nzrw.webp",
+      "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1568010728/xn1c11k5ul2dzqcoknqc.webp",
+      "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1568010775/orwexfiym3kx4hy4myce.webp",
+      "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1568010753/ndhdqo9hdlaob6u19pqe.webp"
+    ]
+  }
+];
+
+export const pageThreeFinalCoimbatoreOfficeCards = [
+  {
+    "id": 61,
+    "name": "Viya Workspace",
+    "badge": null,
+    "rating": null,
+    "area": "Saravanampatti",
+    "location": "Saravanampatti, Coimbatore",
+    "price": "On Request",
+    "period": "",
+    "priceFormatted": "On Request",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://ik.imagekit.io/qdesq/qdesq/3e0a2f93a8aee1192fbf26183865eced_f5JzMzeJI7.JPG"
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Mikro Grafeio Services Private Limited",
+    "badge": null,
+    "rating": null,
+    "area": "Pappanaickenpalayam",
+    "location": "Pappanaickenpalayam, Coimbatore",
+    "price": "₹5,000",
+    "period": "/ Month",
+    "priceFormatted": "₹5,000 / Month",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1711022033/fjo9ouri2rx3sn41yjsb.webp"
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Zyre Workspace",
+    "badge": null,
+    "rating": null,
+    "area": "GKS Nagar",
+    "location": "GKS Nagar, Coimbatore",
+    "price": "₹3,699",
+    "period": "/ Month",
+    "priceFormatted": "₹3,699 / Month",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://ik.imagekit.io/qdesq/qdesq/b4a1243e3471538736c0a7aa1c6d58de_DTy_LPxMXO.jpg",
+      "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/d5c9565ff8234a026eb204c3e7de9ba1_WtAEY7GTd.JPG"
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Spaze One",
+    "badge": null,
+    "rating": null,
+    "area": "Peelamedu",
+    "location": "Peelamedu, Coimbatore",
+    "price": "₹11,000",
+    "period": "/ Month",
+    "priceFormatted": "₹11,000 / Month",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1693299210/zjzn231tcwqzrf419vmp.webp",
+      "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1693299240/glpdxokp2uzh9ifrcgyk.webp",
+      "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1693299240/dau6mtpxg5hhjgjaunmt.webp",
+      "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1693299240/wqgkrqsvl2gwaawsl2xw.webp",
+      "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1693299241/lpekihb8tlaw5yd9tgfk.webp",
+      "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1693299242/gywq3vx18ds7qulu67x1.webp",
+      "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1693299242/msld6mpgub5pea6wv7ls.webp",
+      "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1693299244/c2htahbnk4h6ckbdzyhj.webp"
+    ]
+  },
+  {
+    "id": 65,
+    "name": "NEXSPACE",
+    "badge": null,
+    "rating": null,
+    "area": "Lakshmipuram",
+    "location": "Lakshmipuram, Coimbatore",
+    "price": "₹6,200",
+    "period": "/ Month",
+    "priceFormatted": "₹6,200 / Month",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/1dc7dbb6b91b17a469681f6ef88c3a40_n-Y8gKnmo6.jpeg",
+      "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/08a9d49ab2867846b6e08081f1077496_mMGqKzrhA.jpeg"
+    ]
+  },
+  {
+    "id": 66,
+    "name": "RMJ Hall",
+    "badge": null,
+    "rating": null,
+    "area": "Peelamedu",
+    "location": "Peelamedu, Coimbatore",
+    "price": "On Request",
+    "period": "",
+    "priceFormatted": "On Request",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/9351b297793483128c799744c2de28b7_quMpsX8Ew9.jpg",
+      "https://ik.imagekit.io/qdesq/qdesq/8707c762edeaf80447cad7ce34a6b02a_1oz7v_Yxu.JPG",
+      "https://ik.imagekit.io/qdesq/qdesq/45640707e03b4a773c516fba7421ae99_Yq6LmY0ItO.JPG",
+      "https://ik.imagekit.io/qdesq/qdesq/612c313569e786844ce7b733516871f2_M6f2MEhc-.JPG",
+      "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/f8713d42f3ba3460f5fdf426427a40ca_7jBA6BtywB.jpg"
+    ]
+  }
+];
+
+export const pageThreeFeaturedCoimbatoreOfficeCards = [
+  {
+    "id": 67,
+    "name": "Wrkpod",
+    "badge": null,
+    "rating": null,
+    "area": "Avarampalayam",
+    "location": "Avarampalayam, Coimbatore",
+    "price": "₹6,500",
+    "period": "/ Month",
+    "priceFormatted": "₹6,500 / Month",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1537446446/ggoygmrfqdfxbecc2ach.webp",
+      "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1537446798/fdbzoyhhacdyzbbsgqmq.webp",
+      "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1537446898/qtvjco9wnzwin12tqyhs.webp",
+      "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1537447151/rw1iyolkqqkzqeyokwuu.webp",
+      "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1537447058/ccnjzg4wj315zgutna6a.webp",
+      "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1537447382/nmwnxw8nxkllznhqnid1.webp"
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Ravaan Space",
+    "badge": null,
+    "rating": null,
+    "area": "Gandhipuram",
+    "location": "Gandhipuram, Coimbatore",
+    "price": "₹6,500",
+    "period": "/ Month",
+    "priceFormatted": "₹6,500 / Month",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1690434149/jlmxkkgjca9hlwlur3lu.jpg"
+    ]
+  },
+  {
+    "id": 69,
+    "name": "VShare Coworking Spaces",
+    "badge": null,
+    "rating": null,
+    "area": "Gandhipuram",
+    "location": "Gandhipuram, Coimbatore",
+    "price": "₹6,600",
+    "period": "/ Month",
+    "priceFormatted": "₹6,600 / Month",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1557732964/qmvg14t4a5ggyqhxak4d.webp",
+      "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1557733261/doiw0h7wogftmodjivjq.webp",
+      "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1557733138/qd2ygp5ymojganqe4qf9.webp"
+    ]
+  }
+];
+
 export const pageFourCoimbatoreOfficeCards = [];
 
 // Extra cards shown only when an area filter is clicked (none needed - every listing is already in the pages above)
@@ -748,27 +1452,6 @@ export const topCoimbatoreCoworkingLocations = [
     "ctaText": "Explore Spaces"
   },
   {
-    "id": "loc-saravanampatti",
-    "name": "Saravanampatti",
-    "title": "Coworking Space in Saravanampatti",
-    "image": "https://img.cofynd.com/images/latest_images_2024/4b996ede04baceaae39b9bea67562ea1210b8787.webp",
-    "ctaText": "Explore Spaces"
-  },
-  {
-    "id": "loc-cheran-ma-nagar",
-    "name": "Cheran Ma Nagar",
-    "title": "Coworking Space in Cheran Ma Nagar",
-    "image": "https://img.cofynd.com/images/latest_images_2024/15e7a6f455d3a5cd858923f743d88ec8cf4a4d5f.webp",
-    "ctaText": "Explore Spaces"
-  },
-  {
-    "id": "loc-kalapatti",
-    "name": "Kalapatti",
-    "title": "Coworking Space in Kalapatti",
-    "image": "https://img.cofynd.com/images/latest_images_2024/5fbe06e88edd335f7c7bf8fb01cce23cc2085fa4.webp",
-    "ctaText": "Explore Spaces"
-  },
-  {
     "id": "loc-peelamedu",
     "name": "Peelamedu",
     "title": "Coworking Space in Peelamedu",
@@ -776,24 +1459,10 @@ export const topCoimbatoreCoworkingLocations = [
     "ctaText": "Explore Spaces"
   },
   {
-    "id": "loc-tatabad",
-    "name": "Tatabad",
-    "title": "Coworking Space in Tatabad",
-    "image": "https://img.cofynd.com/images/latest_images_2024/65cd7026ede337858139cf047107b5616b012adc.webp",
-    "ctaText": "Explore Spaces"
-  },
-  {
-    "id": "loc-100-feet-road",
-    "name": "100 Feet Road",
-    "title": "Coworking Space in 100 Feet Road",
-    "image": "https://img.cofynd.com/images/latest_images_2024/6dee16f32b51dc5f2ed36b5d85bdf17ec9688584.webp",
-    "ctaText": "Explore Spaces"
-  },
-  {
-    "id": "loc-annur",
-    "name": "Annur",
-    "title": "Coworking Space in Annur",
-    "image": "https://img.cofynd.com/images/latest_images_2024/3950ca10b5b38b7d0f1d5b3799407c49ffc2fa64.webp",
+    "id": "loc-saravanampatti",
+    "name": "Saravanampatti",
+    "title": "Coworking Space in Saravanampatti",
+    "image": "https://img.cofynd.com/images/latest_images_2024/4b996ede04baceaae39b9bea67562ea1210b8787.webp",
     "ctaText": "Explore Spaces"
   },
   {
@@ -804,10 +1473,45 @@ export const topCoimbatoreCoworkingLocations = [
     "ctaText": "Explore Spaces"
   },
   {
-    "id": "loc-induma-nagar",
-    "name": "Induma Nagar",
-    "title": "Coworking Space in Induma Nagar",
-    "image": "https://img.cofynd.com/images/latest_images_2024/18506d98b749ef623b5350d90be0b092aaf97c50.webp",
+    "id": "loc-ram-nagar",
+    "name": "Ram Nagar",
+    "title": "Coworking Space in Ram Nagar",
+    "image": "https://img.cofynd.com/images/latest_images_2024/06a6358ac137df992702f735b5de03a447aebd9f.webp",
+    "ctaText": "Explore Spaces"
+  },
+  {
+    "id": "loc-vadavalli",
+    "name": "Vadavalli",
+    "title": "Coworking Space in Vadavalli",
+    "image": "https://img.cofynd.com/images/latest_images_2024/79578e65e99d8bad047c5ce5471abc0506eed39a.webp",
+    "ctaText": "Explore Spaces"
+  },
+  {
+    "id": "loc-rs-puram",
+    "name": "RS Puram",
+    "title": "Coworking Space in RS Puram",
+    "image": "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1714477242/wxhs7lfddfi9kart9rd3.webp",
+    "ctaText": "Explore Spaces"
+  },
+  {
+    "id": "loc-cheran-ma-nagar",
+    "name": "Cheran Ma Nagar",
+    "title": "Coworking Space in Cheran Ma Nagar",
+    "image": "https://img.cofynd.com/images/latest_images_2024/15e7a6f455d3a5cd858923f743d88ec8cf4a4d5f.webp",
+    "ctaText": "Explore Spaces"
+  },
+  {
+    "id": "loc-civil-aerodrome-post",
+    "name": "Civil Aerodrome Post",
+    "title": "Coworking Space in Civil Aerodrome Post",
+    "image": "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1713184587/iyk286jjv7r0bxlqyfzv.webp",
+    "ctaText": "Explore Spaces"
+  },
+  {
+    "id": "loc-kalapatti",
+    "name": "Kalapatti",
+    "title": "Coworking Space in Kalapatti",
+    "image": "https://img.cofynd.com/images/latest_images_2024/5fbe06e88edd335f7c7bf8fb01cce23cc2085fa4.webp",
     "ctaText": "Explore Spaces"
   }
 ];
