@@ -1,28 +1,28 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { puneNeighborhoods,
-   puneOfficeCards,
-   morePuneOfficeCards,
-   finalPuneOfficeCards, 
-   featuredPuneOfficeCards,
-    pageTwoPuneOfficeCards, 
-    pageTwoMorePuneOfficeCards, 
-    pageTwoFinalPuneOfficeCards, 
-    pageTwoFeaturedPuneOfficeCards, 
+import { goaNeighborhoods,
+   goaOfficeCards,
+   moreGoaOfficeCards,
+   finalGoaOfficeCards, 
+   featuredGoaOfficeCards,
+    pageTwoGoaOfficeCards, 
+    pageTwoMoreGoaOfficeCards, 
+    pageTwoFinalGoaOfficeCards, 
+    pageTwoFeaturedGoaOfficeCards, 
     perfectWorkspaceBanner, 
     customizedOfficeBanner, 
     stillNotFindingBanner, 
     paginationData,
-    pageThreePuneOfficeCards,
-    pageThreeMorePuneOfficeCards,
-    pageThreeFinalPuneOfficeCards,
-    pageThreeFeaturedPuneOfficeCards,
-    pageFourPuneOfficeCards,
-    topPuneCoworkingLocations,
+    pageThreeGoaOfficeCards,
+    pageThreeMoreGoaOfficeCards,
+    pageThreeFinalGoaOfficeCards,
+    pageThreeFeaturedGoaOfficeCards,
+    pageFourGoaOfficeCards,
+    topGoaCoworkingLocations,
     areaExtraOfficeCards,
-    allPuneOfficeCards,
-    getPuneOfficeSlug
-   } from './puneData.js';
+    allGoaOfficeCards,
+    getGoaOfficeSlug
+   } from './goaData.js';
 import QuoteModal from '../../components/QuoteModal.jsx';
 
 /**
@@ -86,7 +86,7 @@ const OfficeCard = ({ space }) => {
   const handleCardClick = (event) => {
     // Avoid triggering if clicked on inner action buttons
     if (event.target.closest('button')) return;
-    window.open(`${getPuneOfficeSlug(space)}`, '_blank', 'noopener,noreferrer');
+    window.open(`${getGoaOfficeSlug(space)}`, '_blank', 'noopener,noreferrer');
   };
 
   return (
@@ -165,7 +165,7 @@ const OfficeCard = ({ space }) => {
           <div className="flex items-start justify-between gap-2">
             <h3 className="text-sm font-bold text-slate-900 leading-snug line-clamp-1 group-hover:text-[#007bff] transition-colors">
               <a
-                href={`${getPuneOfficeSlug(space)}`}
+                href={`${getGoaOfficeSlug(space)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={(e) => e.stopPropagation()}
@@ -212,9 +212,9 @@ const OfficeCard = ({ space }) => {
 };
 
 /**
- * Main Pune Coworking Listings Page Container
+ * Main Goa Coworking Listings Page Container
  */
-const Pune = () => {
+const Goa = () => {
   const [selectedNeighborhood, setSelectedNeighborhood] = useState(null);
   const [selectedPrice, setSelectedPrice] = useState('');
   const [currentPage, setCurrentPage] = useState(paginationData.initialPage || 1);
@@ -252,7 +252,7 @@ const Pune = () => {
     return true;
   };
 
-  const activeTopSpaces = currentPage === 1 ? puneOfficeCards : currentPage === 2 ? pageTwoPuneOfficeCards : currentPage === 3 ? pageThreePuneOfficeCards : currentPage === 4 ? pageFourPuneOfficeCards : [];
+  const activeTopSpaces = currentPage === 1 ? goaOfficeCards : currentPage === 2 ? pageTwoGoaOfficeCards : currentPage === 3 ? pageThreeGoaOfficeCards : currentPage === 4 ? pageFourGoaOfficeCards : [];
 
   // ============================================================================
   // Area Filtering Logic with Extra 10 Real Internet Office Cards per Area
@@ -280,7 +280,7 @@ const Pune = () => {
 
   // Combined cards to display in top grid (area filtered):
   const combinedSpaces = selectedNeighborhood
-    ? [...allPuneOfficeCards, ...extraAreaCards].filter(
+    ? [...allGoaOfficeCards, ...extraAreaCards].filter(
         (space, index, list) =>
           // only cards that really belong to the clicked area, each card once (the data repeats some cards)
           space.area?.toLowerCase() === selectedNeighborhood.toLowerCase() &&
@@ -297,7 +297,7 @@ const Pune = () => {
     ? combinedSpaces.filter(matchesPrice)
     : combinedSpaces;
 
-  const activeMoreSpaces = currentPage === 1 ? morePuneOfficeCards : currentPage === 2 ? pageTwoMorePuneOfficeCards : currentPage === 3 ? pageThreeMorePuneOfficeCards : [];
+  const activeMoreSpaces = currentPage === 1 ? moreGoaOfficeCards : currentPage === 2 ? pageTwoMoreGoaOfficeCards : currentPage === 3 ? pageThreeMoreGoaOfficeCards : [];
 
   const displayedMoreSpaces = selectedNeighborhood ? [] : activeMoreSpaces.filter((space) => {
     const matchesArea = !selectedNeighborhood ||
@@ -306,7 +306,7 @@ const Pune = () => {
     return matchesArea && matchesPrice(space);
   });
 
-  const activeFinalSpaces = currentPage === 1 ? finalPuneOfficeCards : currentPage === 2 ? pageTwoFinalPuneOfficeCards : currentPage === 3 ? pageThreeFinalPuneOfficeCards : [];
+  const activeFinalSpaces = currentPage === 1 ? finalGoaOfficeCards : currentPage === 2 ? pageTwoFinalGoaOfficeCards : currentPage === 3 ? pageThreeFinalGoaOfficeCards : [];
 
   const displayedFinalSpaces = selectedNeighborhood ? [] : activeFinalSpaces.filter((space) => {
     const matchesArea = !selectedNeighborhood ||
@@ -315,7 +315,7 @@ const Pune = () => {
     return matchesArea && matchesPrice(space);
   });
 
-  const activeOfficeCards = currentPage === 1 ? featuredPuneOfficeCards : currentPage === 2 ? pageTwoFeaturedPuneOfficeCards : currentPage === 3 ? pageThreeFeaturedPuneOfficeCards : []; 
+  const activeOfficeCards = currentPage === 1 ? featuredGoaOfficeCards : currentPage === 2 ? pageTwoFeaturedGoaOfficeCards : currentPage === 3 ? pageThreeFeaturedGoaOfficeCards : []; 
 
   const displayedFeaturedSpaces = selectedNeighborhood ? [] : activeOfficeCards.filter((space) => {
     const matchesArea = !selectedNeighborhood ||
@@ -335,10 +335,10 @@ const Pune = () => {
           </li>
           <li aria-hidden="true">/</li>
           <li>
-            <Link to="/coworking/pune" className="hover:text-blue-600 transition-colors">Coworking</Link>
+            <Link to="/coworking/goa" className="hover:text-blue-600 transition-colors">Coworking</Link>
           </li>
           <li aria-hidden="true">/</li>
-          <li className="text-slate-800 font-medium" aria-current="page">Pune</li>
+          <li className="text-slate-800 font-medium" aria-current="page">Goa</li>
           <li aria-hidden="true">/</li>
         </ol>
       </nav>
@@ -346,7 +346,7 @@ const Pune = () => {
       {/* Header Section: Title and Filter Controls */}
       <header id="coworking-listings-header" className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-4">
         <h1 className="text-xl sm:text-2xl font-bold text-slate-900 tracking-tight">
-          Coworking Spaces In Pune
+          Coworking Spaces In Goa
         </h1>
         <div className="flex items-center gap-2">
           <div className="relative">
@@ -356,7 +356,7 @@ const Pune = () => {
               defaultValue=""
             >
               <option value="" disabled>Popular Locations</option>
-              {puneNeighborhoods.map((neighborhood) => (
+              {goaNeighborhoods.map((neighborhood) => (
                 <option key={`opt-${neighborhood}`} value={neighborhood}>
                   {neighborhood}
                 </option>
@@ -401,7 +401,7 @@ const Pune = () => {
           >
             All
           </button>
-          {puneNeighborhoods.map((neighborhood) => {
+          {goaNeighborhoods.map((neighborhood) => {
             const isSelected = selectedNeighborhood === neighborhood;
             return (
               <button
@@ -433,7 +433,7 @@ const Pune = () => {
               onClick={() => setSelectedNeighborhood(null)}
               className="mt-2 text-xs text-blue-600 underline cursor-pointer"
             >
-              Show all Pune spaces
+              Show all Goa spaces
             </button>
           </div>
         ) : (
@@ -628,14 +628,14 @@ const Pune = () => {
         </div>
       </nav>
 
-      {/* Section: Explore Top Coworking Locations in Pune */}
-      <section aria-label="Explore top coworking locations in Pune" className="my-6 pt-4 border-t border-slate-200/80">
+      {/* Section: Explore Top Coworking Locations in Goa */}
+      <section aria-label="Explore top coworking locations in Goa" className="my-6 pt-4 border-t border-slate-200/80">
         <h2 className="text-xl sm:text-2xl font-bold text-slate-900 tracking-tight mb-5">
-          Explore Top Coworking Locations in Pune
+          Explore Top Coworking Locations in Goa
         </h2>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3.5 sm:gap-4.5">
-          {topPuneCoworkingLocations.map((location) => {
+          {topGoaCoworkingLocations.map((location) => {
             const isSelected = selectedNeighborhood?.toLowerCase() === location.name.toLowerCase();
             return (
               <div
@@ -696,4 +696,4 @@ const Pune = () => {
   );
 };
 
-export default Pune;
+export default Goa;

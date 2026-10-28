@@ -24,6 +24,8 @@ import { getCoimbatoreOfficeCardById } from './pages/coimbatore/coimbatoreData';
 import DelhiPage from './pages/delhi/Delhi';
 import DelhiOfficeDetails from './pages/delhi/DelhiOfficeDetails';
 import GoaPage from './pages/goa/Goa';
+import GoaOfficeDetail from './pages/goa/GoaOfficeDetail';
+import { getGoaOfficeCardById } from './pages/goa/goaData';
 import GurugramPage from './pages/gurugram/Gurugram';
 import GurugramOfficeDetail from './pages/gurugram/GurugramOfficialDetail';
 import HyderabadPage from './pages/hyderabad/Hyderabad';
@@ -59,6 +61,7 @@ const OfficeRoute = () => {
   if (getAhmedabadOfficeCardById(id)) return <AhmedabadOfficeDetails />;
   if (getGurugramOfficeCardById(id)) return <GurugramOfficeDetail />;
   if (getIndoreOfficeCardById(id)) return <IndoreOfficeDetails />;
+  if (getGoaOfficeCardById(id)) return <GoaOfficeDetail />;
   if (getCoimbatoreOfficeCardById(id)) return <CoimbatoreOfficeDetail />;
   if (getBhubaneshwarOfficeCardById(id)) return <BhubaneshwarOfficeDetail />;
   if (getNoidaOfficeCardById(id)) return <NoidaOfficeDetail />;
