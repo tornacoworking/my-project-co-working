@@ -11,7 +11,6 @@ export const goaNeighborhoods = [
   "Panjim",
   "Margao",
   "Candolim",
-  "Anjuna",
   "Verna"
 ];
 
