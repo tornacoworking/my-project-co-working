@@ -494,6 +494,43 @@ export const featuredGoaOfficeCards = [
     "images": [
       "https://www.thedigitalnomad.asia/wp-content/uploads/2024/01/barefoot-goa-1.jpg"
     ]
+  },
+  {
+    "id": 26,
+    "name": "NomadGao Vila Nova",
+    "badge": null,
+    "rating": null,
+    "area": "Anjuna",
+    "location": "Mazal Waddo, Anjuna, Goa",
+    "price": "On Request",
+    "period": "",
+    "priceFormatted": "On Request",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://colivingams3.ams3.digitaloceanspaces.com/uploads/listings/16751/photos/community_vVJ1nh11rQ.jpg",
+      "https://colivingams3.ams3.digitaloceanspaces.com/uploads/listings/16751/photos/community_028D134NhB.jpg",
+      "https://colivingams3.ams3.digitaloceanspaces.com/uploads/listings/16751/photos/community_9Q98yD1Esm.jpg",
+      "https://colivingams3.ams3.digitaloceanspaces.com/uploads/listings/16751/photos/community_WWMZ3OCOL9.jpg"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Ashvattha Technology Park",
+    "badge": null,
+    "rating": null,
+    "area": "Verna",
+    "location": "Verna Industrial Estate, Nagve, Goa",
+    "price": "₹8,000",
+    "period": "/ Month",
+    "priceFormatted": "₹8,000 / Month",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://imagedelivery.net/hqJxI8rUiqlrmmYC5X1wIA/08daf270-0c63-457f-db02-ec22d4451600/public",
+      "https://imagedelivery.net/hqJxI8rUiqlrmmYC5X1wIA/eeed65f2-4a48-4a61-e1b5-83b64bfb8100/public",
+      "https://imagedelivery.net/hqJxI8rUiqlrmmYC5X1wIA/3a318cc2-3e9b-44f3-2685-8835745ffa00/public",
+      "https://imagedelivery.net/hqJxI8rUiqlrmmYC5X1wIA/6f2a83fb-b9c3-4d0e-2ade-3af4bf248b00/public",
+      "https://imagedelivery.net/hqJxI8rUiqlrmmYC5X1wIA/fc085dd9-55f7-4701-dd15-acc91faae300/public"
+    ]
   }
 ];
 
@@ -585,6 +622,20 @@ export const topGoaCoworkingLocations = [
     "ctaText": "Explore Spaces"
   },
   {
+    "id": "loc-verna",
+    "name": "Verna",
+    "title": "Coworking Space in Verna",
+    "image": "https://img.cofynd.com/images/latest_images_2024/88b871ce8ecfb80579a65e3b973cd618e080a7a0.webp",
+    "ctaText": "Explore Spaces"
+  },
+  {
+    "id": "loc-anjuna",
+    "name": "Anjuna",
+    "title": "Coworking Space in Anjuna",
+    "image": "https://digest.myhq.in/wp-content/uploads/2021/08/Clay-Coworking-Cafe-coworking-space-in-Goa.jpg",
+    "ctaText": "Explore Spaces"
+  },
+  {
     "id": "loc-mandrem",
     "name": "Mandrem",
     "title": "Coworking Space in Mandrem",
@@ -599,13 +650,6 @@ export const topGoaCoworkingLocations = [
     "ctaText": "Explore Spaces"
   },
   {
-    "id": "loc-verna",
-    "name": "Verna",
-    "title": "Coworking Space in Verna",
-    "image": "https://img.cofynd.com/images/latest_images_2024/88b871ce8ecfb80579a65e3b973cd618e080a7a0.webp",
-    "ctaText": "Explore Spaces"
-  },
-  {
     "id": "loc-vagator",
     "name": "Vagator",
     "title": "Coworking Space in Vagator",
@@ -617,13 +661,6 @@ export const topGoaCoworkingLocations = [
     "name": "Dona Paula",
     "title": "Coworking Space in Dona Paula",
     "image": "https://res.cloudinary.com/myhq/image/upload/f_auto,q_auto/w_1200/workspaces/the-cove-goa-cacravillage/2.jpg",
-    "ctaText": "Explore Spaces"
-  },
-  {
-    "id": "loc-anjuna",
-    "name": "Anjuna",
-    "title": "Coworking Space in Anjuna",
-    "image": "https://digest.myhq.in/wp-content/uploads/2021/08/Clay-Coworking-Cafe-coworking-space-in-Goa.jpg",
     "ctaText": "Explore Spaces"
   },
   {
