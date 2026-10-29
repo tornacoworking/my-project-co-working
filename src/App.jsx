@@ -40,6 +40,8 @@ import { getKochiOfficeCardById } from './pages/kochi/kochiData';
 import KolkataPage from './pages/kolkata/Kolkata';
 import LucknowPage from './pages/lucknow/Lucknow';
 import MumbaiPage from './pages/mumbai/Mumbai';
+import MumbaiOfficeDetail from './pages/mumbai/MumbaiOfficeDetail';
+import { getMumbaiOfficeCardById } from './pages/mumbai/mumbaiData';
 import NoidaPage from './pages/noida/Noida';
 import NoidaOfficeDetail from './pages/noida/NoidaOfficeDetail';
 import { getNoidaOfficeCardById } from './pages/noida/noidaData';
@@ -61,6 +63,7 @@ const OfficeRoute = () => {
   if (getAhmedabadOfficeCardById(id)) return <AhmedabadOfficeDetails />;
   if (getGurugramOfficeCardById(id)) return <GurugramOfficeDetail />;
   if (getIndoreOfficeCardById(id)) return <IndoreOfficeDetails />;
+  if (getMumbaiOfficeCardById(id)) return <MumbaiOfficeDetail />;
   if (getGoaOfficeCardById(id)) return <GoaOfficeDetail />;
   if (getCoimbatoreOfficeCardById(id)) return <CoimbatoreOfficeDetail />;
   if (getBhubaneshwarOfficeCardById(id)) return <BhubaneshwarOfficeDetail />;

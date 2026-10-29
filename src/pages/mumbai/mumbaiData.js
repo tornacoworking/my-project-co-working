@@ -10,8 +10,8 @@ import { findOfficeBySlug, officePath } from "../../common/slug.js";
 export const mumbaiNeighborhoods = [
   "Andheri East",
   "Andheri",
-  "Powai",
   "Lower Parel",
+  "Powai",
   "Navi Mumbai",
   "Thane",
   "BKC",
@@ -20,9 +20,9 @@ export const mumbaiNeighborhoods = [
   "Vashi",
   "Bandra East",
   "Thane West",
+  "Fort",
   "Mulund West",
   "Chembur",
-  "Fort",
   "Worli",
   "Bandra West",
   "Churchgate",
@@ -36,37 +36,31 @@ export const mumbaiNeighborhoods = [
   "Malad West",
   "Nariman Point",
   "Santacruz West",
+  "Ballard Estate",
   "Bandra",
   "Bhandup",
   "Borivali",
+  "CBD Belapur",
   "Chandivali",
   "Dadar East",
-  "G Block BKC",
+  "Goregaon East",
   "Goregaon West",
   "Kala Ghoda",
   "Kurla",
-  "Lower Parel West",
   "Malad",
   "Mulund",
   "Nerul",
+  "Prabhadevi",
   "Vikhroli West",
   "Wagle Industrial Estate",
   "Amrut Nagar",
-  "Andheri (W",
   "Andheri Kurla Road",
   "B Wing",
-  "Ballard Estate",
-  "Ballard Estate,",
   "Belapur",
   "Bhim Nagar",
-  "Cbd Belapur",
-  "CBD Belapur",
   "Colaba",
   "Deonar",
   "Equinox",
-  "Fort Mumbai",
-  "Goregaon East",
-  "Goregoan East",
   "Gundavali",
   "Jogeshwari East",
   "Juhu",
@@ -76,7 +70,6 @@ export const mumbaiNeighborhoods = [
   "Kharghar",
   "LBS Marg",
   "Lightbridge",
-  "Lower Pare",
   "Mahim",
   "Mahim West",
   "Marine Drive",
@@ -84,8 +77,6 @@ export const mumbaiNeighborhoods = [
   "Marzban Road",
   "Mulund East",
   "Netaji Subhash Nagar",
-  "Prabhadevi",
-  "Prabhadevi Road",
   "Railway Colony",
   "Sai Wadi",
   "Sakinaka",
@@ -3908,8 +3899,8 @@ export const mumbaiPages = [
         "name": "Table Space",
         "badge": null,
         "rating": null,
-        "area": "G Block BKC",
-        "location": "G Block BKC, Mumbai",
+        "area": "BKC",
+        "location": "BKC, Mumbai",
         "price": "On Request",
         "period": "",
         "priceFormatted": "On Request",
@@ -4076,8 +4067,8 @@ export const mumbaiPages = [
         "name": "CST Co-working Space",
         "badge": null,
         "rating": null,
-        "area": "Ballard Estate,",
-        "location": "Ballard Estate,, Mumbai",
+        "area": "Ballard Estate",
+        "location": "Ballard Estate, Mumbai",
         "price": "On Request",
         "period": "",
         "priceFormatted": "On Request",
@@ -4153,8 +4144,8 @@ export const mumbaiPages = [
         "name": "My Branch",
         "badge": null,
         "rating": null,
-        "area": "Cbd Belapur",
-        "location": "Cbd Belapur, Mumbai",
+        "area": "CBD Belapur",
+        "location": "CBD Belapur, Mumbai",
         "price": "₹15,400",
         "period": "/ Month",
         "priceFormatted": "₹15,400 / Month",
@@ -4633,8 +4624,8 @@ export const mumbaiPages = [
         "name": "Dextrus",
         "badge": null,
         "rating": null,
-        "area": "Lower Parel West",
-        "location": "Lower Parel West, Mumbai",
+        "area": "Lower Parel",
+        "location": "Lower Parel, Mumbai",
         "price": "₹16,250",
         "period": "/ Month",
         "priceFormatted": "₹16,250 / Month",
@@ -4653,8 +4644,8 @@ export const mumbaiPages = [
         "name": "UrbanWrk",
         "badge": null,
         "rating": null,
-        "area": "Lower Parel West",
-        "location": "Lower Parel West, Mumbai",
+        "area": "Lower Parel",
+        "location": "Lower Parel, Mumbai",
         "price": "On Request",
         "period": "",
         "priceFormatted": "On Request",
@@ -5113,8 +5104,8 @@ export const mumbaiPages = [
         "name": "GM Coworks",
         "badge": null,
         "rating": null,
-        "area": "Andheri (W",
-        "location": "Andheri (W, Mumbai",
+        "area": "Andheri West",
+        "location": "Andheri West, Mumbai",
         "price": "₹10,000",
         "period": "/ Month",
         "priceFormatted": "₹10,000 / Month",
@@ -5243,23 +5234,6 @@ export const mumbaiPages = [
       },
       {
         "id": 259,
-        "name": "Executive Spaces",
-        "badge": null,
-        "rating": null,
-        "area": "G Block BKC",
-        "location": "G Block BKC, Mumbai",
-        "price": "₹58,000",
-        "period": "/ Month",
-        "priceFormatted": "₹58,000 / Month",
-        "ctaText": "Get Quote",
-        "images": [
-          "https://ik.imagekit.io/qdesq/qdesq/29ee8d185f4489a01941185570498916_pAu7vPwb_.JPG",
-          "https://ik.imagekit.io/qdesq/qdesq/75b54dee455841e9a0ef43067967860d_ZAAdiV43J.JPG",
-          "https://ik.imagekit.io/qdesq/qdesq/e432bdb3c19fcdfcbfff047e848d4028__TOeagNZga.JPG"
-        ]
-      },
-      {
-        "id": 260,
         "name": "Regus",
         "badge": null,
         "rating": null,
@@ -5281,7 +5255,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 261,
+        "id": 260,
         "name": "91SpringBoard",
         "badge": null,
         "rating": null,
@@ -5302,7 +5276,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 262,
+        "id": 261,
         "name": "Classic Group",
         "badge": null,
         "rating": null,
@@ -5319,7 +5293,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 263,
+        "id": 262,
         "name": "Viva Connect",
         "badge": null,
         "rating": null,
@@ -5335,7 +5309,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 264,
+        "id": 263,
         "name": "Sunrise Coworking",
         "badge": null,
         "rating": null,
@@ -5350,11 +5324,9 @@ export const mumbaiPages = [
           "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1677136949/nrkwvvsz9p2uqmdfxg70.webp",
           "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1677137101/ao9su1t1jxadfjs6qk3c.webp"
         ]
-      }
-    ],
-    [
+      },
       {
-        "id": 265,
+        "id": 264,
         "name": "91springboard",
         "badge": null,
         "rating": null,
@@ -5373,9 +5345,11 @@ export const mumbaiPages = [
           "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1676530773/yarpnnqcmmagbp8chqnj.webp",
           "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1545293478/kqjkjwgu97n6cmnzopih.webp"
         ]
-      },
+      }
+    ],
+    [
       {
-        "id": 266,
+        "id": 265,
         "name": "Executive Spaces",
         "badge": null,
         "rating": null,
@@ -5391,7 +5365,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 267,
+        "id": 266,
         "name": "Zon CollabHub",
         "badge": null,
         "rating": null,
@@ -5413,7 +5387,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 268,
+        "id": 267,
         "name": "VENUES AND AVENUES",
         "badge": null,
         "rating": null,
@@ -5429,7 +5403,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 269,
+        "id": 268,
         "name": "Table Space",
         "badge": null,
         "rating": null,
@@ -5447,7 +5421,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 270,
+        "id": 269,
         "name": "Innov8",
         "badge": null,
         "rating": null,
@@ -5469,7 +5443,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 271,
+        "id": 270,
         "name": "LetsWork",
         "badge": null,
         "rating": null,
@@ -5486,7 +5460,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 272,
+        "id": 271,
         "name": "WeWork",
         "badge": null,
         "rating": null,
@@ -5504,11 +5478,9 @@ export const mumbaiPages = [
           "https://ik.imagekit.io/qdesq/qdesq/c1cb53c52cddc7cfef37e9e06aa74cec_ah5bnLwvL.JPG",
           "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1559374990/a0hxtdt8lgskbbpgy5aa.webp"
         ]
-      }
-    ],
-    [
+      },
       {
-        "id": 273,
+        "id": 272,
         "name": "WeWork Andheri",
         "badge": null,
         "rating": null,
@@ -5528,9 +5500,11 @@ export const mumbaiPages = [
           "https://coworkingers.com/wp-content/uploads/2021/10/we-work-andheri-7.jpg",
           "https://coworkingers.com/wp-content/uploads/2021/10/we-work-andheri-8.jpg"
         ]
-      },
+      }
+    ],
+    [
       {
-        "id": 274,
+        "id": 273,
         "name": "Veda CoWorks",
         "badge": null,
         "rating": null,
@@ -5549,7 +5523,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 275,
+        "id": 274,
         "name": "Blue Mushroom Malad West",
         "badge": null,
         "rating": null,
@@ -5567,7 +5541,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 276,
+        "id": 275,
         "name": "Blue Mushroom In Malad West",
         "badge": null,
         "rating": null,
@@ -5589,7 +5563,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 277,
+        "id": 276,
         "name": "CFE Offices In Goregaon",
         "badge": null,
         "rating": null,
@@ -5606,7 +5580,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 278,
+        "id": 277,
         "name": "WeWork Spectrum Tower In Malad",
         "badge": null,
         "rating": null,
@@ -5628,7 +5602,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 279,
+        "id": 278,
         "name": "603 The CoWorking Space Bandra",
         "badge": null,
         "rating": null,
@@ -5650,7 +5624,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 280,
+        "id": 279,
         "name": "Dextrus BKC Bandra East",
         "badge": null,
         "rating": null,
@@ -5667,11 +5641,9 @@ export const mumbaiPages = [
           "https://coworkingers.com/wp-content/uploads/2021/10/5bb748574994581a8c1106f7_1538738263750.jpg",
           "https://coworkingers.com/wp-content/uploads/2021/11/day-pass-12.png"
         ]
-      }
-    ],
-    [
+      },
       {
-        "id": 281,
+        "id": 280,
         "name": "Innov8 Vikhroli",
         "badge": null,
         "rating": null,
@@ -5691,9 +5663,11 @@ export const mumbaiPages = [
           "https://coworkingers.com/wp-content/uploads/2020/07/Innov8-Vikhroli-Thane-007.jpg",
           "https://coworkingers.com/wp-content/uploads/2020/07/Innov8-Vikhroli-Thane-008.jpg"
         ]
-      },
+      }
+    ],
+    [
       {
-        "id": 282,
+        "id": 281,
         "name": "WorkAmp Nitco",
         "badge": null,
         "rating": null,
@@ -5715,7 +5689,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 283,
+        "id": 282,
         "name": "AccessWork",
         "badge": null,
         "rating": null,
@@ -5735,7 +5709,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 284,
+        "id": 283,
         "name": "Awfis In Powai",
         "badge": null,
         "rating": null,
@@ -5757,7 +5731,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 285,
+        "id": 284,
         "name": "Access Work In Powai",
         "badge": null,
         "rating": null,
@@ -5779,7 +5753,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 286,
+        "id": 285,
         "name": "WeWork Oberoi Commerz II In Goregaon",
         "badge": null,
         "rating": null,
@@ -5801,7 +5775,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 287,
+        "id": 286,
         "name": "Community Coworks In Powai",
         "badge": null,
         "rating": null,
@@ -5819,7 +5793,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 288,
+        "id": 287,
         "name": "The Millennial Pod In Powai",
         "badge": null,
         "rating": null,
@@ -5838,13 +5812,9 @@ export const mumbaiPages = [
           "https://coworkingers.com/wp-content/uploads/2021/10/25-min-1.jpg",
           "https://coworkingers.com/wp-content/uploads/2021/11/Day-Pass-4.png"
         ]
-      }
-    ]
-  ],
-  [
-    [
+      },
       {
-        "id": 289,
+        "id": 288,
         "name": "91springboard Vikhroli",
         "badge": null,
         "rating": null,
@@ -5862,9 +5832,13 @@ export const mumbaiPages = [
           "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-Vikhroli-Thane-004.jpg",
           "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-Vikhroli-Thane-005.jpg"
         ]
-      },
+      }
+    ]
+  ],
+  [
+    [
       {
-        "id": 290,
+        "id": 289,
         "name": "IKeva In Powai",
         "badge": null,
         "rating": null,
@@ -5886,7 +5860,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 291,
+        "id": 290,
         "name": "Of10",
         "badge": null,
         "rating": null,
@@ -5907,7 +5881,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 292,
+        "id": 291,
         "name": "WorkWise Solutions In Vashi",
         "badge": null,
         "rating": null,
@@ -5929,7 +5903,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 293,
+        "id": 292,
         "name": "TriggerXchange Navi Mumbai Maharashtra",
         "badge": null,
         "rating": null,
@@ -5951,7 +5925,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 294,
+        "id": 293,
         "name": "WeWork In Worli",
         "badge": null,
         "rating": null,
@@ -5973,7 +5947,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 295,
+        "id": 294,
         "name": "Arch N Rock",
         "badge": null,
         "rating": null,
@@ -5993,7 +5967,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 296,
+        "id": 295,
         "name": "WeWork Seawoods Grand Central",
         "badge": null,
         "rating": null,
@@ -6013,11 +5987,9 @@ export const mumbaiPages = [
           "https://coworkingers.com/wp-content/uploads/2020/07/WeWork-Navi-Mumbai-007.jpg",
           "https://coworkingers.com/wp-content/uploads/2020/07/WeWork-Navi-Mumbai-008.jpg"
         ]
-      }
-    ],
-    [
+      },
       {
-        "id": 297,
+        "id": 296,
         "name": "WeGrow Group",
         "badge": null,
         "rating": null,
@@ -6037,9 +6009,11 @@ export const mumbaiPages = [
           "https://coworkingers.com/wp-content/uploads/2020/07/WeGrow-Group-Navi-Mumbai-006.jpg",
           "https://coworkingers.com/wp-content/uploads/2020/07/WeGrow-Group-Navi-Mumbai-007.jpg"
         ]
-      },
+      }
+    ],
+    [
       {
-        "id": 298,
+        "id": 297,
         "name": "Cowrks In Worli",
         "badge": null,
         "rating": null,
@@ -6061,11 +6035,11 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 299,
+        "id": 298,
         "name": "Bootstart Cowork In Ballard Estate",
         "badge": null,
         "rating": null,
-        "area": "Fort Mumbai",
+        "area": "Fort",
         "location": "Fort Mumbai, Mumbai",
         "price": "₹7,999",
         "period": "/ Month",
@@ -6081,7 +6055,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 300,
+        "id": 299,
         "name": "The Garage Coworking In Marine Drive",
         "badge": null,
         "rating": null,
@@ -6103,7 +6077,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 301,
+        "id": 300,
         "name": "Garage Coworking Lower Parel",
         "badge": null,
         "rating": null,
@@ -6125,7 +6099,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 302,
+        "id": 301,
         "name": "Awfis Andheri West Modi House",
         "badge": null,
         "rating": null,
@@ -6144,7 +6118,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 303,
+        "id": 302,
         "name": "Awfis Lokhandwala",
         "badge": null,
         "rating": null,
@@ -6164,7 +6138,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 304,
+        "id": 303,
         "name": "The BoardRoom Co-Working",
         "badge": null,
         "rating": null,
@@ -6183,11 +6157,9 @@ export const mumbaiPages = [
           "https://coworkingers.com/wp-content/uploads/2020/07/THE-BOARDROOM-Co-working-Andheri-006-min.jpg",
           "https://coworkingers.com/wp-content/uploads/2020/07/THE-BOARDROOM-Co-working-Andheri-007-min.jpg"
         ]
-      }
-    ],
-    [
+      },
       {
-        "id": 305,
+        "id": 304,
         "name": "IKeva BKC Annexe",
         "badge": null,
         "rating": null,
@@ -6207,9 +6179,11 @@ export const mumbaiPages = [
           "https://coworkingers.com/wp-content/uploads/2021/10/ib-7.jpg",
           "https://coworkingers.com/wp-content/uploads/2021/10/ib-8.jpg"
         ]
-      },
+      }
+    ],
+    [
       {
-        "id": 306,
+        "id": 305,
         "name": "Awfis Vashi Navi Mumbai Cyber One",
         "badge": null,
         "rating": null,
@@ -6229,7 +6203,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 307,
+        "id": 306,
         "name": "Lemon Tree Premier In Andheri East",
         "badge": null,
         "rating": null,
@@ -6248,7 +6222,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 308,
+        "id": 307,
         "name": "Awfis Andheri East",
         "badge": null,
         "rating": null,
@@ -6267,7 +6241,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 309,
+        "id": 308,
         "name": "Flignite Spaces Andheri East",
         "badge": null,
         "rating": null,
@@ -6288,7 +6262,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 310,
+        "id": 309,
         "name": "Divine Hub Coworking Space Andheri",
         "badge": null,
         "rating": null,
@@ -6308,7 +6282,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 311,
+        "id": 310,
         "name": "YesssWorks Andheri East",
         "badge": null,
         "rating": null,
@@ -6328,7 +6302,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 312,
+        "id": 311,
         "name": "IKeva BKC Annexe",
         "badge": null,
         "rating": null,
@@ -6346,11 +6320,9 @@ export const mumbaiPages = [
           "https://coworkingers.com/wp-content/uploads/2020/07/iKeva-BKC-Annexe-Mumbai-Thane-005.jpg",
           "https://coworkingers.com/wp-content/uploads/2020/07/iKeva-BKC-Annexe-Mumbai-Thane-006.jpg"
         ]
-      }
-    ],
-    [
+      },
       {
-        "id": 313,
+        "id": 312,
         "name": "New Bridge Business Centre Andheri |Price And Images |",
         "badge": null,
         "rating": null,
@@ -6366,9 +6338,11 @@ export const mumbaiPages = [
           "https://coworkingers.com/wp-content/uploads/2021/10/NBC-2.png",
           "https://coworkingers.com/wp-content/uploads/2021/10/NBC-3.png"
         ]
-      },
+      }
+    ],
+    [
       {
-        "id": 314,
+        "id": 313,
         "name": "Chitrshaala In New Link Road",
         "badge": null,
         "rating": null,
@@ -6387,7 +6361,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 315,
+        "id": 314,
         "name": "DevX Dynasty In Andheri East",
         "badge": null,
         "rating": null,
@@ -6407,7 +6381,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 316,
+        "id": 315,
         "name": "At 101 Workshare Vibe In Andheri West",
         "badge": null,
         "rating": null,
@@ -6426,7 +6400,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 317,
+        "id": 316,
         "name": "91Springboard 74 Techno Park Andheri East",
         "badge": null,
         "rating": null,
@@ -6446,7 +6420,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 318,
+        "id": 317,
         "name": "Quest Coworks",
         "badge": null,
         "rating": null,
@@ -6468,7 +6442,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 319,
+        "id": 318,
         "name": "Redbrick",
         "badge": null,
         "rating": null,
@@ -6490,7 +6464,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 320,
+        "id": 319,
         "name": "603 The Coworking Space",
         "badge": null,
         "rating": null,
@@ -6510,13 +6484,9 @@ export const mumbaiPages = [
           "https://coworkingers.com/wp-content/uploads/2020/07/603-The-Coworking-Space-Andheri-East-006-min.jpg",
           "https://coworkingers.com/wp-content/uploads/2021/11/Day-Pass.png"
         ]
-      }
-    ]
-  ],
-  [
-    [
+      },
       {
-        "id": 321,
+        "id": 320,
         "name": "The Mosaic Co-working Space Maharashtra",
         "badge": null,
         "rating": null,
@@ -6536,9 +6506,13 @@ export const mumbaiPages = [
           "https://coworkingers.com/wp-content/uploads/2020/07/The-Mosaic-Co-working-Space-Andheri-East-007-min.jpg",
           "https://coworkingers.com/wp-content/uploads/2021/11/Day-Pass.png"
         ]
-      },
+      }
+    ]
+  ],
+  [
+    [
       {
-        "id": 322,
+        "id": 321,
         "name": "Native Spaces Andheri",
         "badge": null,
         "rating": null,
@@ -6557,7 +6531,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 323,
+        "id": 322,
         "name": "Ecospaze By One Co.Work",
         "badge": null,
         "rating": null,
@@ -6576,7 +6550,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 324,
+        "id": 323,
         "name": "AccessWork Lower Parel",
         "badge": null,
         "rating": null,
@@ -6595,7 +6569,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 325,
+        "id": 324,
         "name": "Workwise",
         "badge": null,
         "rating": null,
@@ -6615,7 +6589,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 326,
+        "id": 325,
         "name": "Innov8 Coworking Boston House Andheri East",
         "badge": null,
         "rating": null,
@@ -6637,7 +6611,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 327,
+        "id": 326,
         "name": "Lumos CoWork",
         "badge": null,
         "rating": null,
@@ -6659,7 +6633,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 328,
+        "id": 327,
         "name": "The Matchbox CoWork",
         "badge": null,
         "rating": null,
@@ -6678,11 +6652,9 @@ export const mumbaiPages = [
           "https://coworkingers.com/wp-content/uploads/2020/07/The-Matchbox-Cowork-006-min.jpg",
           "https://coworkingers.com/wp-content/uploads/2020/07/The-Matchbox-Cowork-007-min.jpg"
         ]
-      }
-    ],
-    [
+      },
       {
-        "id": 329,
+        "id": 328,
         "name": "WeWork Chromium In Andheri East",
         "badge": null,
         "rating": null,
@@ -6699,9 +6671,11 @@ export const mumbaiPages = [
           "https://coworkingers.com/wp-content/uploads/2021/10/Web_150DPI-WeWork_Chromium_11th_sept_20190049-min.jpg",
           "https://coworkingers.com/wp-content/uploads/2021/10/Web_150DPI-WeWork_Chromium_11th_sept_20190022-min.jpg"
         ]
-      },
+      }
+    ],
+    [
       {
-        "id": 330,
+        "id": 329,
         "name": "WeWork Raheja Platinum In Andheri East",
         "badge": null,
         "rating": null,
@@ -6723,7 +6697,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 331,
+        "id": 330,
         "name": "WeWork Enam Sambhav In BKC",
         "badge": null,
         "rating": null,
@@ -6745,7 +6719,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 332,
+        "id": 331,
         "name": "JITO Incubation And Innovation Foundation In Andheri East",
         "badge": null,
         "rating": null,
@@ -6767,7 +6741,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 333,
+        "id": 332,
         "name": "Guac Spaces In Andheri East",
         "badge": null,
         "rating": null,
@@ -6789,7 +6763,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 334,
+        "id": 333,
         "name": "91springboard Lotus Andheri East",
         "badge": null,
         "rating": null,
@@ -6811,7 +6785,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 335,
+        "id": 334,
         "name": "Incuspaze In Andheri East",
         "badge": null,
         "rating": null,
@@ -6831,7 +6805,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 336,
+        "id": 335,
         "name": "Servcorp BKC",
         "badge": null,
         "rating": null,
@@ -6846,11 +6820,9 @@ export const mumbaiPages = [
           "https://coworkingers.com/wp-content/uploads/2021/10/Screenshot-2021-11-25-122227.png",
           "https://coworkingers.com/wp-content/uploads/2021/10/Screenshot-2021-11-25-122307.png"
         ]
-      }
-    ],
-    [
+      },
       {
-        "id": 337,
+        "id": 336,
         "name": "Community Coworks In Andheri East",
         "badge": null,
         "rating": null,
@@ -6866,9 +6838,11 @@ export const mumbaiPages = [
           "https://coworkingers.com/wp-content/uploads/2021/10/Community-Coworks-Andheri-East.-min-1.jpg",
           "https://coworkingers.com/wp-content/uploads/2021/10/Community-Coworks-Andheri-East-min-1.jpg"
         ]
-      },
+      }
+    ],
+    [
       {
-        "id": 338,
+        "id": 337,
         "name": "Co.Lab.Oratory Asia In Andheri East",
         "badge": null,
         "rating": null,
@@ -6887,7 +6861,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 339,
+        "id": 338,
         "name": "Quest Offices In BKC",
         "badge": null,
         "rating": null,
@@ -6906,7 +6880,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 340,
+        "id": 339,
         "name": "IKeva BKC",
         "badge": null,
         "rating": null,
@@ -6923,7 +6897,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 341,
+        "id": 340,
         "name": "WeWork - Andheri East",
         "badge": null,
         "rating": null,
@@ -6945,7 +6919,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 342,
+        "id": 341,
         "name": "WorkAmp Futurex Lower Parel",
         "badge": null,
         "rating": null,
@@ -6964,7 +6938,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 343,
+        "id": 342,
         "name": "Awfis Lower Parel",
         "badge": null,
         "rating": null,
@@ -6983,7 +6957,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 344,
+        "id": 343,
         "name": "Rise Mumbai Lower Parel",
         "badge": null,
         "rating": null,
@@ -7003,11 +6977,9 @@ export const mumbaiPages = [
           "https://coworkingers.com/wp-content/uploads/2020/07/Rise-Mumbai-Lower-Parel-007-min-1.jpg",
           "https://coworkingers.com/wp-content/uploads/2020/07/Rise-Mumbai-Lower-Parel-008-min-1.jpg"
         ]
-      }
-    ],
-    [
+      },
       {
-        "id": 345,
+        "id": 344,
         "name": "Work Square Andheri East",
         "badge": null,
         "rating": null,
@@ -7027,9 +6999,11 @@ export const mumbaiPages = [
           "https://coworkingers.com/wp-content/uploads/2020/07/Work-Square-Lower-Parel-003-min-1.jpg",
           "https://coworkingers.com/wp-content/uploads/2020/07/Work-Square-Lower-Parel-004-min-1.jpg"
         ]
-      },
+      }
+    ],
+    [
       {
-        "id": 346,
+        "id": 345,
         "name": "Avirahi Office Spaces In Kandivali West",
         "badge": null,
         "rating": null,
@@ -7049,7 +7023,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 347,
+        "id": 346,
         "name": "Spartan Co-Work",
         "badge": null,
         "rating": null,
@@ -7071,7 +7045,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 348,
+        "id": 347,
         "name": "The Playce",
         "badge": null,
         "rating": null,
@@ -7093,7 +7067,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 349,
+        "id": 348,
         "name": "ZoomStart India",
         "badge": null,
         "rating": null,
@@ -7114,7 +7088,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 350,
+        "id": 349,
         "name": "91springboard",
         "badge": null,
         "rating": null,
@@ -7134,7 +7108,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 351,
+        "id": 350,
         "name": "Mascots CoWork Andheri East",
         "badge": null,
         "rating": null,
@@ -7156,7 +7130,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 352,
+        "id": 351,
         "name": "OfficeBing",
         "badge": null,
         "rating": null,
@@ -7173,13 +7147,9 @@ export const mumbaiPages = [
           "https://coworkingers.com/wp-content/uploads/2020/11/OfficeBing-003.jpg",
           "https://coworkingers.com/wp-content/uploads/2020/11/OfficeBing-004.jpg"
         ]
-      }
-    ]
-  ],
-  [
-    [
+      },
       {
-        "id": 353,
+        "id": 352,
         "name": "Guac Spaces",
         "badge": null,
         "rating": null,
@@ -7196,9 +7166,13 @@ export const mumbaiPages = [
           "https://coworkingers.com/wp-content/uploads/2021/10/SpaceImages593430836.jpg",
           "https://coworkingers.com/wp-content/uploads/2021/11/day-pass-12.png"
         ]
-      },
+      }
+    ]
+  ],
+  [
+    [
       {
-        "id": 354,
+        "id": 353,
         "name": "The Boho Pad In Santacruz West",
         "badge": null,
         "rating": null,
@@ -7220,7 +7194,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 355,
+        "id": 354,
         "name": "One Degree Coworking In LBS Marg",
         "badge": null,
         "rating": null,
@@ -7242,7 +7216,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 356,
+        "id": 355,
         "name": "WeWork In Nesco IT Park",
         "badge": null,
         "rating": null,
@@ -7264,7 +7238,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 357,
+        "id": 356,
         "name": "WISE SNDTWU INCUBATION CENTRE",
         "badge": null,
         "rating": null,
@@ -7279,7 +7253,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 358,
+        "id": 357,
         "name": "Attari Classes",
         "badge": null,
         "rating": null,
@@ -7294,7 +7268,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 359,
+        "id": 358,
         "name": "EFC Limited",
         "badge": null,
         "rating": null,
@@ -7309,7 +7283,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 360,
+        "id": 359,
         "name": "The Learning Galaxy",
         "badge": null,
         "rating": null,
@@ -7322,11 +7296,9 @@ export const mumbaiPages = [
         "images": [
           "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1641279912/o8xkkej1yjrl5hypsfld.png"
         ]
-      }
-    ],
-    [
+      },
       {
-        "id": 361,
+        "id": 360,
         "name": "Matulya Center",
         "badge": null,
         "rating": null,
@@ -7339,9 +7311,11 @@ export const mumbaiPages = [
         "images": [
           "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1645615021/wfixwqc4ajaxls2mlamt.jpg"
         ]
-      },
+      }
+    ],
+    [
       {
-        "id": 362,
+        "id": 361,
         "name": "Grove Workspaces",
         "badge": null,
         "rating": null,
@@ -7356,12 +7330,12 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 363,
+        "id": 362,
         "name": "NVL Services",
         "badge": null,
         "rating": null,
-        "area": "Lower Pare",
-        "location": "Lower Pare, Mumbai",
+        "area": "Lower Parel",
+        "location": "Lower Parel, Mumbai",
         "price": "₹10,000",
         "period": "/ Month",
         "priceFormatted": "₹10,000 / Month",
@@ -7371,12 +7345,12 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 364,
+        "id": 363,
         "name": "AIIG",
         "badge": null,
         "rating": null,
-        "area": "Prabhadevi Road",
-        "location": "Prabhadevi Road, Mumbai",
+        "area": "Prabhadevi",
+        "location": "Prabhadevi, Mumbai",
         "price": "On Request",
         "period": "",
         "priceFormatted": "On Request",
@@ -7386,7 +7360,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 365,
+        "id": 364,
         "name": "Ztartup",
         "badge": null,
         "rating": null,
@@ -7401,7 +7375,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 366,
+        "id": 365,
         "name": "DBS India",
         "badge": null,
         "rating": null,
@@ -7416,7 +7390,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 367,
+        "id": 366,
         "name": "Kohinoor Banquet's",
         "badge": null,
         "rating": null,
@@ -7431,7 +7405,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 368,
+        "id": 367,
         "name": "CfE Offices",
         "badge": null,
         "rating": null,
@@ -7444,11 +7418,9 @@ export const mumbaiPages = [
         "images": [
           "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1647251313/kkbijzltg66wtx8eqk8d.webp"
         ]
-      }
-    ],
-    [
+      },
       {
-        "id": 369,
+        "id": 368,
         "name": "CfE Offices",
         "badge": null,
         "rating": null,
@@ -7461,9 +7433,11 @@ export const mumbaiPages = [
         "images": [
           "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1647251027/djteuzdgmmcm8bywqak4.webp"
         ]
-      },
+      }
+    ],
+    [
       {
-        "id": 370,
+        "id": 369,
         "name": "Isloan",
         "badge": null,
         "rating": null,
@@ -7478,7 +7452,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 371,
+        "id": 370,
         "name": "AIIG",
         "badge": null,
         "rating": null,
@@ -7493,7 +7467,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 372,
+        "id": 371,
         "name": "Oval By Galaxy",
         "badge": null,
         "rating": null,
@@ -7508,7 +7482,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 373,
+        "id": 372,
         "name": "DBS India",
         "badge": null,
         "rating": null,
@@ -7523,7 +7497,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 374,
+        "id": 373,
         "name": "Bunder Room",
         "badge": null,
         "rating": null,
@@ -7538,7 +7512,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 375,
+        "id": 374,
         "name": "DBS",
         "badge": null,
         "rating": null,
@@ -7553,7 +7527,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 376,
+        "id": 375,
         "name": "Rex Chamber Fort",
         "badge": null,
         "rating": null,
@@ -7566,11 +7540,9 @@ export const mumbaiPages = [
         "images": [
           "https://ik.imagekit.io/qdesq/qdesq/3c58d76c3698a574e8a8159ec1333912_glsV3BYWsa.jpg"
         ]
-      }
-    ],
-    [
+      },
       {
-        "id": 377,
+        "id": 376,
         "name": "Trackster Spaces",
         "badge": null,
         "rating": null,
@@ -7583,9 +7555,11 @@ export const mumbaiPages = [
         "images": [
           "https://qdesq.imagekit.io/img/image/upload/s--Q6kd_3-d--/v1724242435/y2pjmf6mouu9jiuyb6xq.webp"
         ]
-      },
+      }
+    ],
+    [
       {
-        "id": 378,
+        "id": 377,
         "name": "Corpliance Business Solutions",
         "badge": null,
         "rating": null,
@@ -7600,7 +7574,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 379,
+        "id": 378,
         "name": "Netiizen Creative Spaces",
         "badge": null,
         "rating": null,
@@ -7615,7 +7589,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 380,
+        "id": 379,
         "name": "Book My Space",
         "badge": null,
         "rating": null,
@@ -7630,7 +7604,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 381,
+        "id": 380,
         "name": "The Workables",
         "badge": null,
         "rating": null,
@@ -7645,7 +7619,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 382,
+        "id": 381,
         "name": "Brubaabaa Cafe",
         "badge": null,
         "rating": null,
@@ -7660,7 +7634,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 383,
+        "id": 382,
         "name": "The Coworking company",
         "badge": null,
         "rating": null,
@@ -7675,12 +7649,12 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 384,
+        "id": 383,
         "name": "Bubble Office",
         "badge": null,
         "rating": null,
-        "area": "Goregoan East",
-        "location": "Goregoan East, Mumbai",
+        "area": "Goregaon East",
+        "location": "Goregaon East, Mumbai",
         "price": "On Request",
         "period": "",
         "priceFormatted": "On Request",
@@ -7688,13 +7662,9 @@ export const mumbaiPages = [
         "images": [
           "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1672142770/cyalt0bid3allwjv6x6p.jpg"
         ]
-      }
-    ]
-  ],
-  [
-    [
+      },
       {
-        "id": 385,
+        "id": 384,
         "name": "Toutle Space",
         "badge": null,
         "rating": null,
@@ -7707,9 +7677,13 @@ export const mumbaiPages = [
         "images": [
           "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1677131843/ckalaabbdged1igahcg9.webp"
         ]
-      },
+      }
+    ]
+  ],
+  [
+    [
       {
-        "id": 386,
+        "id": 385,
         "name": "Inspire Cospaces",
         "badge": null,
         "rating": null,
@@ -7724,7 +7698,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 387,
+        "id": 386,
         "name": "The Playce",
         "badge": null,
         "rating": null,
@@ -7739,7 +7713,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 388,
+        "id": 387,
         "name": "Vkube Coworking Space",
         "badge": null,
         "rating": null,
@@ -7754,7 +7728,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 389,
+        "id": 388,
         "name": "Unitop",
         "badge": null,
         "rating": null,
@@ -7769,7 +7743,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 390,
+        "id": 389,
         "name": "Ukase Consultancy",
         "badge": null,
         "rating": null,
@@ -7784,7 +7758,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 391,
+        "id": 390,
         "name": "SLP BPO Services",
         "badge": null,
         "rating": null,
@@ -7799,7 +7773,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 392,
+        "id": 391,
         "name": "RedBrick",
         "badge": null,
         "rating": null,
@@ -7812,11 +7786,9 @@ export const mumbaiPages = [
         "images": [
           "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1571382184/ogclw7bxlqkbujv3pyjb.webp"
         ]
-      }
-    ],
-    [
+      },
       {
-        "id": 393,
+        "id": 392,
         "name": "Chintamani Jewellers Office",
         "badge": null,
         "rating": null,
@@ -7829,9 +7801,11 @@ export const mumbaiPages = [
         "images": [
           "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/54acd3d70cea72b4185c9fa85d1b35fc_vOt4sQyva.jpeg"
         ]
-      },
+      }
+    ],
+    [
       {
-        "id": 394,
+        "id": 393,
         "name": "OfficeBing",
         "badge": null,
         "rating": null,
@@ -7846,7 +7820,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 395,
+        "id": 394,
         "name": "Megastar Office",
         "badge": null,
         "rating": null,
@@ -7861,7 +7835,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 396,
+        "id": 395,
         "name": "The Common Desk",
         "badge": null,
         "rating": null,
@@ -7876,7 +7850,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 397,
+        "id": 396,
         "name": "COWORKS BY STM",
         "badge": null,
         "rating": null,
@@ -7891,7 +7865,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 398,
+        "id": 397,
         "name": "The Millennial Pod",
         "badge": null,
         "rating": null,
@@ -7906,7 +7880,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 399,
+        "id": 398,
         "name": "Opulence",
         "badge": null,
         "rating": null,
@@ -7921,7 +7895,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 400,
+        "id": 399,
         "name": "Ginger Hotel",
         "badge": null,
         "rating": null,
@@ -7934,11 +7908,9 @@ export const mumbaiPages = [
         "images": [
           "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1608635092/fohwkayvdqws4nxog5qz.png"
         ]
-      }
-    ],
-    [
+      },
       {
-        "id": 401,
+        "id": 400,
         "name": "BLUE HAT FUSION",
         "badge": null,
         "rating": null,
@@ -7951,9 +7923,11 @@ export const mumbaiPages = [
         "images": [
           "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1710243568/aehczjx0ajje23nmfidk.webp"
         ]
-      },
+      }
+    ],
+    [
       {
-        "id": 402,
+        "id": 401,
         "name": "Times Square",
         "badge": null,
         "rating": null,
@@ -7968,7 +7942,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 403,
+        "id": 402,
         "name": "Redbrick",
         "badge": null,
         "rating": null,
@@ -7983,7 +7957,7 @@ export const mumbaiPages = [
         ]
       },
       {
-        "id": 404,
+        "id": 403,
         "name": "WeWork ﻿Zenia",
         "badge": null,
         "rating": null,
@@ -8080,17 +8054,17 @@ export const topMumbaiCoworkingLocations = [
     "ctaText": "Explore Spaces"
   },
   {
-    "id": "loc-powai",
-    "name": "Powai",
-    "title": "Coworking Space in Powai",
-    "image": "https://img.cofynd.com/images/latest_images_2024/22e5b985e9532e4f57bc0ce4e221c5c440c93086.webp",
-    "ctaText": "Explore Spaces"
-  },
-  {
     "id": "loc-lower-parel",
     "name": "Lower Parel",
     "title": "Coworking Space in Lower Parel",
     "image": "https://img.cofynd.com/images/original/e811ca2e79ef8557c9025628365d7031d2520daf.jpg",
+    "ctaText": "Explore Spaces"
+  },
+  {
+    "id": "loc-powai",
+    "name": "Powai",
+    "title": "Coworking Space in Powai",
+    "image": "https://img.cofynd.com/images/latest_images_2024/22e5b985e9532e4f57bc0ce4e221c5c440c93086.webp",
     "ctaText": "Explore Spaces"
   },
   {
