@@ -394,7 +394,6 @@ export const finalGoaOfficeCards = [
       "https://coworkingers.com/wp-content/uploads/2021/12/Barefoot-Goa.004-1.jpg"
     ]
   },
-  
   {
     "id": 19,
     "name": "Ashvattha Technology Park",
