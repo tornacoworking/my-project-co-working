@@ -394,24 +394,7 @@ export const finalGoaOfficeCards = [
       "https://coworkingers.com/wp-content/uploads/2021/12/Barefoot-Goa.004-1.jpg"
     ]
   },
-  {
-    "id": 18,
-    "name": "NomadGao Vila Nova",
-    "badge": null,
-    "rating": null,
-    "area": "Anjuna",
-    "location": "Mazal Waddo, Anjuna, Goa",
-    "price": "On Request",
-    "period": "",
-    "priceFormatted": "On Request",
-    "ctaText": "Get Quote",
-    "images": [
-      "https://colivingams3.ams3.digitaloceanspaces.com/uploads/listings/16751/photos/community_vVJ1nh11rQ.jpg",
-      "https://colivingams3.ams3.digitaloceanspaces.com/uploads/listings/16751/photos/community_028D134NhB.jpg",
-      "https://colivingams3.ams3.digitaloceanspaces.com/uploads/listings/16751/photos/community_9Q98yD1Esm.jpg",
-      "https://colivingams3.ams3.digitaloceanspaces.com/uploads/listings/16751/photos/community_WWMZ3OCOL9.jpg"
-    ]
-  },
+  
   {
     "id": 19,
     "name": "Ashvattha Technology Park",
