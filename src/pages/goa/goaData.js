@@ -9,8 +9,16 @@ import { findOfficeBySlug, officePath } from "../../common/slug.js";
 
 export const goaNeighborhoods = [
   "Panjim",
+  "Porvorim",
   "Margao",
-  "Verna"
+  "Candolim",
+  "Anjuna",
+  "Verna",
+  "Vagator",
+  "Dona Paula",
+  "Mandrem",
+  "Ucassaim",
+  "Penha de Franca"
 ];
 
 // ============================================================================
@@ -140,10 +148,7 @@ export const goaOfficeCards = [
       "https://img.cofynd.com/images/original/d3fac31cd0707e97f700337a3e93ccf327e68600.jpg",
       "https://img.cofynd.com/images/original/777a474b6812b7a2879bd835c972b5f3573b8ce8.jpg"
     ]
-  }
-];
-
-export const moreGoaOfficeCards = [
+  },
   {
     "id": 7,
     "name": "B2B Business Service",
@@ -191,7 +196,10 @@ export const moreGoaOfficeCards = [
       "https://img.cofynd.com/images/original/8782451e266696752bf30af5db24f58b5fe01bd8.jpg",
       "https://img.cofynd.com/images/original/fca009a6564fdc7a11e276695269f30b64359d49.jpg"
     ]
-  },
+  }
+];
+
+export const moreGoaOfficeCards = [
   {
     "id": 9,
     "name": "FiiRE HQ",
@@ -270,17 +278,7 @@ export const moreGoaOfficeCards = [
       "https://img.cofynd.com/images/original/82dfb853bdcfc451bc057daa29ae89b81ae31e67.jpg",
       "https://img.cofynd.com/images/original/a66597c93a2c17b674912edbf858039108c305c9.jpg"
     ]
-  }
-];
-
-export const perfectWorkspaceBanner = {
-  title: 'Discover your perfect workspace with Mycoworking',
-  subtitle: 'Explore Flexible Coworking Solutions, Premium Amenities, and Prime Locations Across India',
-  ctaText: 'Enquire Now',
-  bgImage: 'https://img.cofynd.com/images/latest_images_2024/28f41de2ee6c67528d528dc3b55fc7ad2801dcbc.webp'
-};
-
-export const finalGoaOfficeCards = [
+  },
   {
     "id": 13,
     "name": "KOENIG Solutions",
@@ -331,6 +329,136 @@ export const finalGoaOfficeCards = [
     "ctaText": "Get Quote",
     "images": [
       "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1507879118/pdptur4r6kx29cqmfabd.webp"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "GreenSpace Bistro",
+    "badge": null,
+    "rating": null,
+    "area": "Vagator",
+    "location": "Vagator, Goa",
+    "price": "On Request",
+    "period": "",
+    "priceFormatted": "On Request",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://digest.myhq.in/wp-content/uploads/2021/08/GreenSpace-Bistro-coworking-space-in-Goa.jpg"
+    ]
+  }
+];
+
+export const perfectWorkspaceBanner = {
+  title: 'Discover your perfect workspace with Mycoworking',
+  subtitle: 'Explore Flexible Coworking Solutions, Premium Amenities, and Prime Locations Across India',
+  ctaText: 'Enquire Now',
+  bgImage: 'https://img.cofynd.com/images/latest_images_2024/28f41de2ee6c67528d528dc3b55fc7ad2801dcbc.webp'
+};
+
+export const finalGoaOfficeCards = [
+  {
+    "id": 17,
+    "name": "The Cove",
+    "badge": null,
+    "rating": null,
+    "area": "Dona Paula",
+    "location": "Dona Paula, Goa",
+    "price": "On Request",
+    "period": "",
+    "priceFormatted": "On Request",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://res.cloudinary.com/myhq/image/upload/f_auto,q_auto/w_1200/workspaces/the-cove-goa-cacravillage/2.jpg"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Clay Coworking Cafe",
+    "badge": null,
+    "rating": null,
+    "area": "Anjuna",
+    "location": "Anjuna, Goa",
+    "price": "On Request",
+    "period": "",
+    "priceFormatted": "On Request",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://digest.myhq.in/wp-content/uploads/2021/08/Clay-Coworking-Cafe-coworking-space-in-Goa.jpg"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Moustache Cowork Hostel",
+    "badge": null,
+    "rating": null,
+    "area": "Mandrem",
+    "location": "Mandrem, Goa",
+    "price": "On Request",
+    "period": "",
+    "priceFormatted": "On Request",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://digest.myhq.in/wp-content/uploads/2021/08/Moustache-Cowork-Hostel-coworking-space-in-Goa.jpg"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Old Quarter Hostel",
+    "badge": null,
+    "rating": null,
+    "area": "Panjim",
+    "location": "Fontainhas, Panjim, Goa",
+    "price": "On Request",
+    "period": "",
+    "priceFormatted": "On Request",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://digest.myhq.in/wp-content/uploads/2021/08/Old-Quarter-Hostel.jpg"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Blue Lotus",
+    "badge": null,
+    "rating": null,
+    "area": "Ucassaim",
+    "location": "Ucassaim, Goa",
+    "price": "On Request",
+    "period": "",
+    "priceFormatted": "On Request",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://digest.myhq.in/wp-content/uploads/2021/08/Blue-Lotus.jpg"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Barabor Betim",
+    "badge": null,
+    "rating": null,
+    "area": "Penha de Franca",
+    "location": "Penha de Franca, Goa",
+    "price": "On Request",
+    "period": "",
+    "priceFormatted": "On Request",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://digest.myhq.in/wp-content/uploads/2021/08/Barabor-Betim-coworking-space-in-Goa.jpg"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Bootstart",
+    "badge": null,
+    "rating": null,
+    "area": "Mandrem",
+    "location": "Mandrem, Goa",
+    "price": "On Request",
+    "period": "",
+    "priceFormatted": "On Request",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://digest.myhq.in/wp-content/uploads/2021/08/Bootstart-coworking-space-in-Goa.jpg"
     ]
   }
 ];
@@ -425,6 +553,13 @@ export const topGoaCoworkingLocations = [
     "ctaText": "Explore Spaces"
   },
   {
+    "id": "loc-mandrem",
+    "name": "Mandrem",
+    "title": "Coworking Space in Mandrem",
+    "image": "https://digest.myhq.in/wp-content/uploads/2021/08/Moustache-Cowork-Hostel-coworking-space-in-Goa.jpg",
+    "ctaText": "Explore Spaces"
+  },
+  {
     "id": "loc-margao",
     "name": "Margao",
     "title": "Coworking Space in Margao",
@@ -436,6 +571,41 @@ export const topGoaCoworkingLocations = [
     "name": "Verna",
     "title": "Coworking Space in Verna",
     "image": "https://img.cofynd.com/images/latest_images_2024/88b871ce8ecfb80579a65e3b973cd618e080a7a0.webp",
+    "ctaText": "Explore Spaces"
+  },
+  {
+    "id": "loc-vagator",
+    "name": "Vagator",
+    "title": "Coworking Space in Vagator",
+    "image": "https://digest.myhq.in/wp-content/uploads/2021/08/GreenSpace-Bistro-coworking-space-in-Goa.jpg",
+    "ctaText": "Explore Spaces"
+  },
+  {
+    "id": "loc-dona-paula",
+    "name": "Dona Paula",
+    "title": "Coworking Space in Dona Paula",
+    "image": "https://res.cloudinary.com/myhq/image/upload/f_auto,q_auto/w_1200/workspaces/the-cove-goa-cacravillage/2.jpg",
+    "ctaText": "Explore Spaces"
+  },
+  {
+    "id": "loc-anjuna",
+    "name": "Anjuna",
+    "title": "Coworking Space in Anjuna",
+    "image": "https://digest.myhq.in/wp-content/uploads/2021/08/Clay-Coworking-Cafe-coworking-space-in-Goa.jpg",
+    "ctaText": "Explore Spaces"
+  },
+  {
+    "id": "loc-ucassaim",
+    "name": "Ucassaim",
+    "title": "Coworking Space in Ucassaim",
+    "image": "https://digest.myhq.in/wp-content/uploads/2021/08/Blue-Lotus.jpg",
+    "ctaText": "Explore Spaces"
+  },
+  {
+    "id": "loc-penha-de-franca",
+    "name": "Penha de Franca",
+    "title": "Coworking Space in Penha de Franca",
+    "image": "https://digest.myhq.in/wp-content/uploads/2021/08/Barabor-Betim-coworking-space-in-Goa.jpg",
     "ctaText": "Explore Spaces"
   }
 ];
