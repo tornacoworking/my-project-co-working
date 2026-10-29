@@ -18,7 +18,8 @@ export const goaNeighborhoods = [
   "Dona Paula",
   "Mandrem",
   "Ucassaim",
-  "Penha de Franca"
+  "Penha de Franca",
+  "Parra"
 ];
 
 // ============================================================================
@@ -460,10 +461,41 @@ export const finalGoaOfficeCards = [
     "images": [
       "https://digest.myhq.in/wp-content/uploads/2021/08/Bootstart-coworking-space-in-Goa.jpg"
     ]
+  },
+  {
+    "id": 24,
+    "name": "Cafe Rasa",
+    "badge": null,
+    "rating": null,
+    "area": "Panjim",
+    "location": "Fontainhas, Panjim, Goa",
+    "price": "On Request",
+    "period": "",
+    "priceFormatted": "On Request",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://www.thedigitalnomad.asia/wp-content/uploads/2024/01/cafe-rasa-goa-1.jpg"
+    ]
   }
 ];
 
-export const featuredGoaOfficeCards = [];
+export const featuredGoaOfficeCards = [
+  {
+    "id": 25,
+    "name": "Barefoot Goa",
+    "badge": null,
+    "rating": null,
+    "area": "Parra",
+    "location": "Parra, Goa",
+    "price": "On Request",
+    "period": "",
+    "priceFormatted": "On Request",
+    "ctaText": "Get Quote",
+    "images": [
+      "https://www.thedigitalnomad.asia/wp-content/uploads/2024/01/barefoot-goa-1.jpg"
+    ]
+  }
+];
 
 // Aliases for compatibility
 export const goaAreas = goaNeighborhoods;
@@ -606,6 +638,13 @@ export const topGoaCoworkingLocations = [
     "name": "Penha de Franca",
     "title": "Coworking Space in Penha de Franca",
     "image": "https://digest.myhq.in/wp-content/uploads/2021/08/Barabor-Betim-coworking-space-in-Goa.jpg",
+    "ctaText": "Explore Spaces"
+  },
+  {
+    "id": "loc-parra",
+    "name": "Parra",
+    "title": "Coworking Space in Parra",
+    "image": "https://www.thedigitalnomad.asia/wp-content/uploads/2024/01/barefoot-goa-1.jpg",
     "ctaText": "Explore Spaces"
   }
 ];
