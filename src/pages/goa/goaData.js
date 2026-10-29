@@ -394,6 +394,7 @@ export const finalGoaOfficeCards = [
       "https://coworkingers.com/wp-content/uploads/2021/12/Barefoot-Goa.004-1.jpg"
     ]
   },
+  how much card have in mumbai city
   {
     "id": 19,
     "name": "Ashvattha Technology Park",
