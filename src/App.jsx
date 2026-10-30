@@ -29,6 +29,8 @@ import { getGoaOfficeCardById } from './pages/goa/goaData';
 import GurugramPage from './pages/gurugram/Gurugram';
 import GurugramOfficeDetail from './pages/gurugram/GurugramOfficialDetail';
 import HyderabadPage from './pages/hyderabad/Hyderabad';
+import HyderabadOfficeDetail from './pages/hyderabad/HyderabadOfficeDetail';
+import { getHyderabadOfficeCardById } from './pages/hyderabad/hyderabadData';
 import IndorePage from './pages/indore/Indore';
 import IndoreOfficeDetails from './pages/indore/Indoreofficedetails';
 import JaipurPage from './pages/jaipur/Jaipur';
@@ -57,6 +59,7 @@ const OfficeRoute = () => {
   if (getDehliOfficeCardById(id)) return <DelhiOfficeDetails />;
   if (getPuneOfficeCardById(id)) return <PuneOfficeDetail />;
   if (getBangaloreOfficeCardById(id)) return <BangaloreOfficeDetail />;
+  if (getHyderabadOfficeCardById(id)) return <HyderabadOfficeDetail />;
   if (getKochiOfficeCardById(id)) return <KochiOfficeDetail />;
   if (getChandigarhOfficeCardById(id)) return <ChandigarhOfficeDetail />;
   if (getJaipurOfficeCardById(id)) return <JaipurOfficeDetail />;
@@ -95,6 +98,7 @@ const App = () => {
         <Route path="/coworking/gurugram" element={<GurugramPage />} />
         <Route path="/coworking/gurugram/:id" element={<GurugramOfficeDetail />} />
         <Route path="/coworking/hyderabad" element={<HyderabadPage />} />
+        <Route path="/coworking/hyderabad/:id" element={<HyderabadOfficeDetail />} />
         <Route path="/coworking/indore" element={<IndorePage />} />
         <Route path="/coworking/indore/:id" element={<IndoreOfficeDetails />} />
         <Route path="/coworking/jaipur" element={<JaipurPage />} />
