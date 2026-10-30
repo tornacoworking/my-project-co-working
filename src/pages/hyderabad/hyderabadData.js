@@ -72,6 +72,8 @@ export const topHyderabadCoworkingLocations = Object.entries(sampleLocationImage
   ctaText: 'Explore Spaces'
 }));
 
+// images = first 4 photos from each space's Cofynd listing (img.cofynd.com). The Google Maps thumbnails used before were tiny
+// (w203) and blocked/throttled by Google when loaded in the browser, so they showed as broken images.
 export const hyderabadSpaces = [
  
   {
@@ -87,10 +89,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=6524660098372834091',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T_PKQGQLAyV0MqUG5I80rPAhTS_PeiVT4EC7Ur8KLJybk3cuTeLvja3pg_6J83i2IFD_qgmOKq46Pz76PbCZV8ObUP_kTxlT9ycvllfHdqYEpSzQXKnANP1-DRkHfdGvlyLL8ByRirpmzA=w203-h361-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RuCRTivSyw4fv9DsDHlgX8IFJTI-2H--QExbeMLvyrFyKa5nhAXKD7UGoc1TXQ_IjyL7HpLKujZHRrR_8WXDfz6DFcrRfBowelCJFLteG3hCY52eVxlJy2iHOHmnZusZR4JgDn=w203-h253-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Qwp9oXSEDmakorKiC_eOa6rcHXhPf_21oOqAIJPRWVP9UT0XULg4EcSkJGmeQj9QL4p3Cn26HF663GF9ri9_g8cOGZD5xj3a0GT90tH42ZSixrPcQSZt5JZ5JY-ohPYuqF5LfK=w203-h441-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RLnG21ZyvCjM1KRgAbv9ZF58HV31OA5N7eUTGH6ucNo_Y9EfV7a5DWdF9ZfkVZWWnw73H1RKXmjPZ0XcqH1lsZwhFcBuqQZKo3ZT4q5hE7YeZlGKdzBIYRapTM8JaqHf-swnp8DsrmbdwN=w203-h135-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/6d5e96929eb857ce550b5ef945c625fca17df552.webp',
+      'https://img.cofynd.com/images/latest_images_2024/b09ccc78a283ed1d2a3538fb63953df313bd33c0.webp',
+      'https://img.cofynd.com/images/original/f4e97ddabee29eb107d4e841b36320b7238e4ae1.jpg',
+      'https://img.cofynd.com/images/original/cb3c39bee6b6ede20e213ad26fe3e9186e9541a9.jpg'
     ]
   },
   {
@@ -106,10 +108,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=3560220882924040293',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TndWFOBkFtkLLd5OPAkgdbF4QYETtXC7jqyr-wyrqgYl7qZFE17nvdClSekdAkgPCL78hbeVLhKDgvn5_UDzo31iuvH_1e9t4lrvLFAf306kEokGl7w9xZ1AoDW0AKmlB6XiuPUq9TFz77=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QWNwRxBgeonA_JJHxNyF62sgF63cL30jYJre8uoQPHj1GBgbkLC3lMgERGDWykg4pAnvJ3lTsKQnCGVD3_nwSpwgE6XT_hp-PGO0MrRhX_Mk_Um908a0FANdHqtVbKnDP8O4rBMJ6OtzA=w203-h360-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QLKIG7GxyVHlXcnDtnh4JeuSqgFwYbFzN6y5MOxJDjt5ChhBbzDDe9sDGqfYAHs6-JPe3nq_dbGTgG8vvi0iDD1ofrW5KqaisrdLpY_A9zRa4kY8TwGgctsu7TPOQYZj_L1IUG0KF7N3pQ=w203-h270-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9ROf94V4SgvC1B8kndZvM_pylhrjeWVW6Okr40WhJL3RR7beOL_Aqw69b7lWcsQ_gOsnr5po7XouKxHWjT9_peZm3h_sqG2-a75rT4Xf6mFHrE479wUUilRA3ZebEMvWCooTep8G8X4VyPW=w203-h152-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/7fff396a73b30ec2a23fd8707ce9a7b2036ab326.webp',
+      'https://img.cofynd.com/images/latest_images_2024/d37bd2442eec2396b6d1691e5798b61e7fa338ab.webp',
+      'https://img.cofynd.com/images/latest_images_2024/a13c5aaf7c59f79309144a965e767a891855fd05.webp',
+      'https://img.cofynd.com/images/latest_images_2024/e9de8d64060cca7dfcb3013b01bb406932a25ace.webp'
     ]
   },
   {
@@ -125,10 +127,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=17067560690901518063',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QavA-QokkOR7qakzYG1hJQc5pl70MmFPapkP3sOhFbXTl_UvpW8H3VI41qF7mFPTbGLWliTOsB8KmO5KZF579nx2tz17PAWjbI8SG8Kn7jx-3kJTT34ENUjXYlJFpedPfk-aMPdICJIR7X=w203-h248-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RRqqPgogu1Rrykplf-E4fBzTa9d9e1Ghf9SHrHF1CeRpMShQq5FEnme7hE1pHRpszc4noZMf2PhJZhTJl8B5EGzqPvz_kII07estwVbgzsG7YfAySKvj1kXTPUkyTwv85AKRW_Vw=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SD5jkohDf_hZ_CblneJ23ZRMuxxjOQv0PSGq4laVcWInlRE7IWDgOK3b0cXmVfbWWM3HeJ1fzpd_BQWHnGUMzlZMUUbjppOZfJNQQc8XUVZbOs1EdjtyntmwPgW80QhSW1U39S8ivdTfGG=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QsNF4IUVBFmou0yNAiKhLr_lyb2eWlO_lGWKJwLDdCvKc2P0ngk4MubQ8b6rkhfgGpABjhLoAXxkp297XzUPyeVXWECPbuVJFhFc7kU3GrtXkU78VRbPmC-eXMtX63_tEPNMve8sNTpcXN=w203-h152-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/96541484d014bdaa256947500c8c00989aab334f.webp',
+      'https://img.cofynd.com/images/latest_images_2024/331eaf18322d5789a64d2c13dd400f1ef95ebe9e.webp',
+      'https://img.cofynd.com/images/latest_images_2024/f8a0aa44bc83e4105188bc0475a093f64d528f4c.webp',
+      'https://img.cofynd.com/images/latest_images_2024/836503796dcd9cef2cd38d6d25588ca8f809c0f4.webp'
     ]
   },
   {
@@ -144,10 +146,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=16243398428054456803',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QfaCMuIwOJtNOVB_azTVTVOIFkNvWge2kvu-01b2KCP0B78hpu4sfiaCtWgNhPaBFX4UGdm9e3pj96Zk2Bzs8FsLwsLIKnS2fNkw-RQqf27DWeYBLz6QJ8lZMPTbl7GeUrIm38zJD8QusS=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SEdqGhCb39_A6GzAB1MpiKpM2sEHp7iQ0FF9iil8gMwxEFqs6c_b4Q33Qz1fQBl52-o1sQZXNt8pqFdQ0J_z8ZNaYbKikN7961dHsfx7uc9HWRWdfe11mRzrFo0htu0NHeBB2PfPJ-Nhg=w203-h269-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TG4FrrYssb73wKa5z--wXRb8FZriSJIQBNil5zBSZCMSo3-L1Dm7mzdg0pqSbAOX3JCPyWgbP8fSDySf4dD_EV32586z0GRMXCM_Fuig41GxP3uIBwPzhceKpvaRkPtHpos8OUPZRCNWQb=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SpGt1qqbAGbWai7eEzLOI1sd6P3qY413zxbN5j0-4nQxw3z8RXSSqlQzirbE2HHiEc6yTwN_2QuU2c79B_ctV5AwWvgGVDh2U-XOWOkvqZ2PkH4OBnShjbW9yuJ373C2-7XGa8PQ=w203-h360-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/4a3bdca7616401a977478eae2ac292cff4b1048b.webp',
+      'https://img.cofynd.com/images/original/56344fa07d9e54ae882603220cdb25a461dc28ae.jpg',
+      'https://img.cofynd.com/images/latest_images_2024/b913be3ca1b20da8af3ab329f4235b3ba60b1a0b.webp',
+      'https://img.cofynd.com/images/original/dffb12050372988090b66b0539b63b7dec072e54.jpg'
     ]
   },
   {
@@ -163,10 +165,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=10897804861633670574',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SaczQy31NBHTAYP4fVABy5hS-DyobqMQQOsmriIdCNnGRD_3HmD28U9DC3oOS6xI1YB4XGGB7rQcTZa8oZqYVh3RpMHLPYRj61DXkklCaIN9WZ9dIB1E1oAk0tvW-iHhurBNnQxYRoShYI=w400-h100-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TJ51zhbzf57zCbfSg5j_9blj__D6wUnOLy4pPu4t3lembRbE2GbG3L6BXpDI_oJTCL-oIouxVIourh4W7vIz71i3Kmd7NHQGHxEyD6Ozmzi6C60zViuEibxZ0ZjV81qckDJU55=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QHM_8PRNLVLrmhAHVz0HXsxPimNJpQvIvXTaPHgGQ6O3lgdKAbxmTJE4V_br__yyWYBZbxi5TVRKsvuPNdnGrcFC2NpD-ywZEHdUnzC1vFaG0evS5qSMKKIjW37_QSqYOJmBKv=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SpUq80ZBvBljrM1ASEHYZNwPEarEPpXcgMBL7ulG-6y5viUf7pp8zoOVpevZcC9TZgstWD5oVIzV-UVhUrdJ-TLZ7FM-oSNdsxYwTL_iXx_72Opp91F1dGH1qVuZJlmWsfszWB7g=w203-h152-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/ecd1509153a2f2e52e4dbf1081170becaddc4cd5.webp',
+      'https://img.cofynd.com/images/latest_images_2024/d514f95ec73dc027a6b291a9e5a33c5f784e263d.webp',
+      'https://img.cofynd.com/images/latest_images_2024/043822d151a773c7d6bb3c6f2f03f74ae50d4024.webp',
+      'https://img.cofynd.com/images/latest_images_2024/649697561906dc86566b697dd587d32f7acc8e53.webp'
     ]
   },
   // CHECK: same name & area, but Maps listing reviews mostly describe a software firm
@@ -183,10 +185,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=7040501682459097879',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RNHWcF9ebVYKczMk1x_DUksWhgLXvLTiQp3iRbTUrX57iAEjaKPxkM9bVBDCqIKLeV4UJZqXwNsJjiqp1qejnvBxQZwH3y82nQZOYiyaUjK1BqxfA_68ekrr1x7WWOvpNzad3BaA=w203-h113-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QDCdRTfyVlTQFohGKdJviZYwYDYJCd6-AEk25Yh6ZSHfIQiEutDY7kX72JCwWVpjnNI5ZumD2Hd4DlJClP_PpW54l4OjkQFJFt5Zc12H2XJkz6PFF5JUYgujNVRlv50FlmlZ4=w203-h360-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RPhfxEEh7dzJauCdZf6ogHcGNSSGxxYeKh8hryM1spLJ1AMuCyBRDKly5ng46YOcdVRYli3-DnLH69mi4j5XrosllTlpOUBBD9okH67HEsblmRHI9OCqjS-5WcjFfP2JmWnKon=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SuQCrcCHTVCz81K9hi8vQApBtCvj3Pk2guttlQh1eOfOKUVYnwLOvAXCGxH8wrWk674KxVZ5RapQF4xd2tOXbqf53qY0kYBejy-jF30J08vbufAlACTyLFZBW2K9GUQGVBe2ox=w203-h270-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/40be88943a09214c92dfd0cb4f53b40045385b1c.webp',
+      'https://img.cofynd.com/images/latest_images_2024/769821701afff299384466203e9626dad03e337e.webp',
+      'https://img.cofynd.com/images/latest_images_2024/2b74bfc886abe7bcb03e347d83a14e294fd66a18.webp',
+      'https://img.cofynd.com/images/latest_images_2024/49b10925c57c6ea046c7efc3be1081eceddf242c.webp'
     ]
   },
   {
@@ -202,10 +204,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=3204034845381624601',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QxNinjn3GMYixgwQKAZMyg4rWW3rsLX11yL3zh1EDcMpbh-iGdr9ZpupEWALqDnl9m4Eq0zo5RWxTFR81u0msnrbQv_UmvRz1jgc5ceUf5M9IJzcQRRpknvewrqemsGMVku64=w203-h113-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QdYSyR8Mxu_pJR3I35ewqiKSMDICOYPAIHPf8_2p3p8cufh20TkY5WzZi_iSRc6UENsFABeNnaUzz58dEoQ_Ks33wcSwsbsPXG1zL0YYqXHXH_zNidThLN5eIja43maGhtFOl1mEzxxE3H=w203-h360-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TPl4mcMTKONRSoRdYEB9ZM5UFfABxnu9h5PCq2s73GpBvH62Gmm5Kf6GThmi6c1_ATqL9KoYJE53YD5JmarvLybCBqUAmt7G1knb15nDYEKXxg9htuNeQH81t7hT99yN8_qGN6pCDcD8VY=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Rqy9zyUjHpFpibn0cs1BaxsKVeb8JuMy50tlzugDPKh-omTem0A22kDEtcgt2E0boxrcazfD7i9QAu2WgHxBgknPsByxlmpC673IUzJGihem9lOV4_cmD5d1YyjzQsDlReOBZnNA=w203-h113-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/f82668f336fd9d32e85a721e66e1a36261c7ac91.webp',
+      'https://img.cofynd.com/images/latest_images_2024/11d4f04c21fc555315f34b824811155e50d3cd70.webp',
+      'https://img.cofynd.com/images/latest_images_2024/ea295c78733aff4e9dbcc33c6504b4e18bab5a6a.webp',
+      'https://img.cofynd.com/images/latest_images_2024/80a9a601305822957280ae3505daccb82ca9662d.webp'
     ]
   },
   {
@@ -221,10 +223,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=8091726731184710925',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SRqOpicmCYCSYD9g8YGiu-6SU4DJrKgRGgH8oj-_sYb78Qw1Thb4Xw35dIRtiI3qRhClrJbunI2eCmUJUalR-rIZfzpyPt-FktIosVuZsiIRITF_kObuc1jdFnf1it3l939XDE1g=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S0wb0umM03CJ66UypyRvQjy0h1GHSQ2RD81nrhOehcyaKh9k8eBRPAbNfKJXCqfDa67qaw7iyXNY-XDyooV_1CU27ZOTiyhelNY7fSswMEfF9H5LR73XKS5WthmZoGbuBt4CRj=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TFJ9pPFk8jNCTqviNJzYoxnJSBLJ71uX8C95tQl8kMPWA36FQWDcNXDMvjJBwvvwtwBZ-CfvCx_Y0lQmhwdc6adwPhIH6mdUpfWv-ya1tCvGiG45y7dvtczGnOr84fFWUZwqLI8w=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SlgoGTIl5-_6W7TttkpodnBfmy4LTpSBROUwl5iqUFRIQFO0njxr-Qa5AJm7IMwrRr_aZa-_GqmxL9Zow3MOt_ZPvRaO8fRO30Upldvxrc5DX583VRz8pNYqo5rMYEDni1bbe_lw=w203-h152-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/093c591374c43bcd3c6186644f3adb6e1a1b0121.webp',
+      'https://img.cofynd.com/images/latest_images_2024/3b496c55b19b4635f5797f6cad4c183ae933e1a5.webp',
+      'https://img.cofynd.com/images/latest_images_2024/72e1797bf7f41e4a0e13b71093a4ab34d18aef50.webp',
+      'https://img.cofynd.com/images/latest_images_2024/43a8093f751e166bff49757c8482aa2d7b6a3878.webp'
     ]
   },
   {
@@ -240,10 +242,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=1847815800394451921',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RuTskFbPmXduabuI0NryM-WUyOcKp2ieb7CpyIfbuzoHrc_XwlNV6CxryO-XDj2M6Tf_dW-EnUXEC_6LkdmSuzdJZUIXLSomX5RSJdh7RsuQ-0EXc2lEahbCK7BW3k-CIo69A1=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SfkA_W9aECsGBgcpaBGYLYQd7p0uxam-JmeO6S-kgdfXQI_8h0ndPrEnyA6H3cxqf1eu3aTawBbgxME4LfOJZXhs6rlyd9esL9NCDQ9LaZiPi6_HGWXccD7o_AS7tESzI1MMee0eclr8hm=w203-h360-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QRXs0q_SJkQX_Ly3ddXUco2DzUImyqo59EPWTAfziuEfTFOxOd8i42l5N3c5wemqEUxySK9WoR1PSCZHDWp6NqqkOYL97cb59DS2mVRpqVjsdeCDWXZ9x3v8b3tJQmWu-9izwq=w203-h124-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T0sWW-Rvn68aBi8xzBjT1VwJMxa0SViPJotKTYmBqMZygDNyAgAMODNP5Ua-85aOM2StcamAAlGQmqlAsYs4ZO0qwDxvnIoURrw2B3y7SCALZe9oAmO3yHlB8tS0Htha22EufQ0jjIzkrg=w203-h152-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/cc53b285b2ee3dafcce5ffc4fad10459192ea6b7.webp',
+      'https://img.cofynd.com/images/latest_images_2024/e8a75ac8b81f47e23f639aec202b84914ba72819.webp',
+      'https://img.cofynd.com/images/original/f3a8357c2d156944d6de1ff45d968882528a9317.jpg',
+      'https://img.cofynd.com/images/latest_images_2024/640c39f774e180d527ac1b8b78a3b33883b6bda0.webp'
     ]
   },
   {
@@ -259,10 +261,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=13137013546260006116',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R-dhKTDGppKWSvT7eiEzAmBoaDGAilzhGpvMkl9o-qghm0EUMttnzddCUJwH447THviaHAZdm2UqZaDLCxDkYsrqmUbyJ9SjWAPKRMi7gvRA3zb0I7oZQhQwZhqKBJ1shp0x-W=w203-h107-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TvrvRDA_TWO9AShkBBOk_B1xbN0P7c-aPc-tvtcgGzTw-6EtSKDgUr0VAz7gA-pDTDVbYpum0QHCw_HkwBE9zNcB1jvt9n0SKsSGLW8WdxOgZih3F_QxPXy54g8UiqzjN7cxl-=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QxRL_H30__YCeqVP_03e9dMEttZ4T1X_jR-8u6rIsF_bKyX21q2-XqJ7SDYKcrXcLKZHt255yymH5VCwcphfC4IGZsTNXcNx0IF5iTrofyV5Gk-860m1j0tHWhz7T1Lj8dVzQx=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TBo-SZ64TzFTk4VnrPOfNkSFfmfTPNHvvYMjTTMkEIsXFC5A_X0QwyT0RgBfvgQPN1e-a2ifcm9-tdkBXkchQYduk7iZY7G7hkD5u-TeHegAJ3paWEIcsv7Nm84QPgHuFLos8R=w203-h152-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/e1232645376ab708ba84f8ca65b827455768c379.webp',
+      'https://img.cofynd.com/images/latest_images_2024/302bf16c8cbffcd09aa171b47019a27bf6e3bb97.webp',
+      'https://img.cofynd.com/images/latest_images_2024/8b243763432801b5d8d7391d3947af57146de275.webp',
+      'https://img.cofynd.com/images/latest_images_2024/793d325715d2158019d586997d47514ad2748e84.webp'
     ]
   },
   {
@@ -278,13 +280,12 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=13884769855746688618',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QC3BiTkeq9GlnjaHxP-MD3s_WGkSHSVx5co1wfITBTGqOXRjIW91A8zD-PZdTGMYwknW_cHpju6mzMiEgy-EP83CWsKtFhqFZsWQ4YWIdJ8J3aNHVECbU-iLyXXtrez_-TsqaQ=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9STutXRfg3icSMW5GCZo9GEykJT4X5-cE9DQnPQoniE81i-ZJs0n7iNT874ecn9Vnzo8gfjCRCMxt9kOaHPTNofMTyDPl9nQna1ty0tD6-Zb1SQ6pX51rZ9Z84Kg1iRCSSouvzRxg=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9THrQN62o4-3IjdpJwouLKWZpDgLFCOf7HkgXt3DK4d0faQ6RuWPsoJorX1PoFXupvJqdnxt8iE9e-QjXMvupIeD_6IInLHP80JQAsGC4Cm94pGeZ3sGjqhEcUONedLPNPKpPrRpg=w203-h123-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SrA9qhd_2nO6GRiinDlC7fq2el5klV0zYjveMT9SO6JUkr2QYw96A_QeSn9ufblRy2IfQh_IosI40EbsuAlK17DyduK6UkGuwq7ubmENgj6W7EEEHIYGrKNCyeatZfK31jmlc=w203-h270-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/146e4db97020c5a7c47c2c33d4dd16fb1b71008a.webp',
+      'https://img.cofynd.com/images/latest_images_2024/0f3c381e5824f092990af16fd1944df8d2134a27.webp',
+      'https://img.cofynd.com/images/latest_images_2024/c5912d76794a3ac42ebd9aac5c1e1f58b86ed72e.webp',
+      'https://img.cofynd.com/images/latest_images_2024/f0d43af677a3122042a85b6337c1d926ce71f8c2.webp'
     ]
   },
-  // NOT_VERIFIED: no iSprout listing found at Ramky Selenium; only the building itself
   {
     id: 12,
     name: 'iSprout Ramky Selenium',
@@ -296,8 +297,13 @@ export const hyderabadSpaces = [
     period: '/ month',
     priceFormatted: '₹7,499 / month',
     ctaText: 'Get Quote',
-    googleMapsUrl: 'NOT_VERIFIED',
-    images: []
+    googleMapsUrl: 'https://www.google.com/maps?q=17.421465,78.333093',
+    images: [
+      'https://img.cofynd.com/images/latest_images_2024/16bd9063c7c8c6589eff3ea35309dd5b9d98df47.webp',
+      'https://img.cofynd.com/images/latest_images_2024/3ec6629d41fec2fab611dbe55fe5b524a971c01a.webp',
+      'https://img.cofynd.com/images/latest_images_2024/a55293c209a8b4321ea356a300dc17cb4676ec03.webp',
+      'https://img.cofynd.com/images/latest_images_2024/f51d3ad99901de493f3a61898ae6eeb1098df62a.webp'
+    ]
   },
   {
     id: 13,
@@ -312,10 +318,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=6480587416277050426',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QYTkDkvMPK0W5vk5v2zQ1uLOow5bm8nwU1GrU5zL7SoAWNOuAMGa_hIkU9Arc0GuOKeBH-CSktWmC4PTjRcEh5ty3qQVGRZ87mctUxPTnGq4hQPBBGinqTvzLuxN-vv6qRpySQbX6bK3DM=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q_iz5xS7_yC43sZ2Dg1BnnvXNyP4ahcoy2UlFjHBCVjNuTIlGqHLNFXKytB6SaPPMN-UGp0rACAoXIr7Qjq4YmAgMlTzshq-NG0gKl6H53xILVODm5_dcoOzGA-UB7tcZZIHlobIVhIFZ4=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QZDMpmo70C94F4Tq2gBm7xxTmTtu_pbWDz1VlesOQCIHCA-Egd5B3NKILJ_Ie0t0hXFAu2ckqjOyYqzQ9onn2vu7PPi1LB80Bat7JnE376ei_c4FieJlmBo0j1GU7D9QrCdW4=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TZS1xF_oEmZ3GyqYE1y6noSnA3FZCoctMMIUFT_Vzo3Uw5vic11hAkX1EUuQEoJdo78Rn-1CtEQG3iuqaJ5CQcN7mP5F9Jw9oyJKWMcV_b4p3BSF9mwlezRuzhnG79zDCYt4t0=w203-h152-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/994dd5e081fe70af017077634618623c1f3dbdaa.webp',
+      'https://img.cofynd.com/images/latest_images_2024/dafbd07161893ea8c7e0183bc229f5457ca3b74a.webp',
+      'https://img.cofynd.com/images/latest_images_2024/dfb1a9feafe995585d4ebbdbd1b3b7f71702a081.webp',
+      'https://img.cofynd.com/images/latest_images_2024/58aae33dc3142775a7bfcdc4193a8d2792771890.webp'
     ]
   },
   {
@@ -331,10 +337,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=10603024995945904054',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Sy8Y0aUoIex2cdBfrohHxL0Fv2OMbIHBmOy8bAF_IrfiBLyWgfAi_pxDb7a8hWmp-R6jcLXC9sIb9hmKhCe2tHJLMtuolrf3kpV9MGoPs5YazFJmn9w5Navni8K7twalTp2_yf=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Qj7yjlmOpZXrVxaMncCp-anJVKNNlujL6t0S16kWh5vzCWETUD6Kv2OloGLmeDdDDawUwXFieV6bIXbuH_jVaa62AMogLiBYox3Qk8F28A4k8rwO-5I1NaJmiOxqL51rXUl9uc=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TjHnwTycHXdFyIAPr_M5_RGhmQzyM6owZO-nR6q5vKalSAR6WerecEkfec4QYfemEBtXH7pBoH_9OM64EiBCAC_XR2P2SXPI6_Y5o6wtOhXoo1Eswmi7AOZEs1NeiyaKsbFbc6=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SU6C7KlaDjHuRoTGMUtOozRUVBOVc1NpHpNJBN3P9WP9gy3ah5h9pKHPfPi3WrqoDXsloNv6vo2-LnWK8rOmQ1e7Y7LFihOZd8AmupORN-H3SFPIqU6fQjE9eLTvooV8nhmO3Ahw=w203-h152-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/bf78dee0a039feafe068abc708086e3da23dcdbc.webp',
+      'https://img.cofynd.com/images/latest_images_2024/6d9a25627da9f99f92cd4a2bf20591530021d0a7.webp',
+      'https://img.cofynd.com/images/original/86a00f64b86803c971f8ecafb5b35ef76474cfb9.jpg',
+      'https://img.cofynd.com/images/latest_images_2024/1939b8a0c5d58825438a021a6f08b0a941832cc2.webp'
     ]
   },
   {
@@ -350,8 +356,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=5491669055629151393',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R6iXg2Q5EZIH3ieKWeRVP1o_hgYmdYe-w-AI09q77dAzcdXcsgJBou9AypRbTpQmbbdbXKs-14v6EZYkQv35Up26gN4eOnu4_nRDaDFuZEmvzmT5i6sfMXUs6uralFLADz0zd2=w203-h190-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QE5xnoZm4eJT0s-3yJH9AWEpNKBy4K9QFBwW6l5SbVOMYmuk7i8aD3kLdXbyflYQBOmMY82YVB0sISMapsi8s8nIHj4uIXsA6PhJk3aI5haEUusuOOubqYZHtbgEQ3uY8n9pfRFg=w203-h152-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/6116726593a97a1daa1109aba5fc8cb8f43878a8.webp',
+      'https://img.cofynd.com/images/latest_images_2024/6abb97965cd38a895de7b675f93e2c3735b98a88.webp',
+      'https://img.cofynd.com/images/latest_images_2024/663736b46ac11bf1cacea99b35b74a530fb63e35.webp',
+      'https://img.cofynd.com/images/latest_images_2024/95793c298a56ffb9ce3f8381b9010ba45840b191.webp'
     ]
   },
   {
@@ -367,13 +375,12 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=891657279914766333',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RAmkcPafmb-yMoWctN-gpyTOZm45-kutW-Snjl958h0W3PckQ7rohb1bfhzktFusiXPZXVHAXS0w-4jd3Wd446PIIZbGAypYNoxfQV9DYlVAD_7E_mBYu_V4qk4K-rbTOfANj05XVWZAKt=w203-h270-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SxRZcqfO7ZMAy4ubc4pFskQuyFRL5KVj1uswsHqfHWlQysPpfk7PhxlSMpmxhPMHfXixmZyVIaibsbiF42JCPob2DuRQ5hLMSqVUVBoxsaI9Bn41pucaRM5Zcv3zDOlTE5nDBOehye9GSE=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SevNPyxBniviVkIAuzFyVkJ4OapeduoAdefWNPU7dhVEAgwTUGABRkU72PvGlN1g_ICW3kxt5gM-M6MMvjksizzJ0sy73sp4KtAdzM9nVIBd5S-_OeCjjxjtbFRT9DcZArT6vK=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R7-Wh1EX-h26v5pr-FWKi_ahgpDwlPyPgFn19-9YML_Yo9C7FOqgnGLXoJP6uJJkli5EKK8QRzAgvX90S8jTyK70P-HKG4LypMO_MxUbDURib7SZE6lCj10oEHffVQYBtU68VHMw=w203-h152-k-no'
+      'https://img.cofynd.com/images/original/cc8668c3e05f5b6638ef5f1b2a50773516a33a1f.jpg',
+      'https://img.cofynd.com/images/original/60b93a2716b7c8d53007c7031e3468a138b71c89.jpg',
+      'https://img.cofynd.com/images/latest_images_2024/462232e907a3bf56c1c8c186c010f533f75263bc.webp',
+      'https://img.cofynd.com/images/latest_images_2024/2e3f46097225315042c3be55990b688b05cdd667.webp'
     ]
   },
-  // NOT_VERIFIED: only Maps listing found is in Gachibowli (Fantasy Square) with no reviews; doesn't match HITEC City
   {
     id: 17,
     name: 'InDesk',
@@ -386,7 +393,12 @@ export const hyderabadSpaces = [
     priceFormatted: '₹5,000 / month',
     ctaText: 'Get Quote',
     googleMapsUrl: 'NOT_VERIFIED',
-    images: []
+    images: [
+      'https://img.cofynd.com/images/latest_images_2024/0e7c07208d6fab4544c743e05ddc54df1642e1aa.webp',
+      'https://img.cofynd.com/images/latest_images_2024/c7274ad630cf990a21f4cf8e257978b670773423.webp',
+      'https://img.cofynd.com/images/original/be28b9b179f67147fca0fb6e5bab8fe323184238.jpg',
+      'https://img.cofynd.com/images/original/021314ed339d61101a11b045ec104d9a4ba12c20.jpg'
+    ]
   },
   {
     id: 18,
@@ -401,10 +413,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=12169802285139536396',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SneKqLtzGoYb5jI1Sbke8kn4dtqdWaou_LufeT3e8ouyZe_bkV3o7CgD_Q5zEgntrCR3JQQrLr6iMLFjcuuY54Q3ZdYPpQrj7ZbLIkWcrBkydlI3rKpMiu0qycMugjDiYkgnGz=w203-h270-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q6jGKDYGLDYwgKCPauSO7UeX89bzOkB3AXhtqEgyynx5l_eMmZ31OqP8xC1N7_9LKAedhyB_GNWA1Nghx2SSCh5elNhY4L2d_Vr0b7gr9l8gIXOBJadxstqD3FHEuJjbSj_jxMiw=w203-h270-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SbUMVVS7M3903HkWk3vLu-1etMU2nDrY5UioTI1sW0l1KKfHFv5SsB-O1et7HBBHQjgNiWXZW9wUQLQo9EnYZb9E4mx4lYcCTHsE4aWoRldjfL9NPnhHKb1ReE2_y9DXmv49HZfA=w203-h270-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TkbF4FhBarN5vIohCD8uPg-TwCKxl2EUUfEWrecAf48jw2fD2E4GsrO2hnRiUXxYJBHnzfMyDZ5DvzDDgoQpyVlkwqYpPvmeEYLPIOFo8HEPxt5Ke0jpMwOgYKFyZF6njTDu7M-g=w203-h270-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/89c0e4601508f40de0dd9a373ab614b7415a38de.webp',
+      'https://img.cofynd.com/images/latest_images_2024/f752481261ab92ca1e8fa95dcbd5418722a845b9.webp',
+      'https://img.cofynd.com/images/latest_images_2024/51402d0d7756b206d5345470acfd852ec9add53c.webp',
+      'https://img.cofynd.com/images/latest_images_2024/cb871fd4478e251b9ebbfb8a6ef4ca383f1e21fc.webp'
     ]
   },
   {
@@ -420,10 +432,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=8195305218894582956',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R2-EBPZZGKH4wFvfr_2dvpGB2RJgPkOQ8whw_eoUmTqLGDDMMUAOMPYMwS2zTGVzYMg1pua1QYd6SLFvBjWjLu67gdU1E7pgNq6X35aeOpNBgVblHX8ZCsyN3mdODT_V5Qd0Vd=w203-h270-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Sy6U4t8HcJCatRLr0cZ6HB7g5nv8PRWoAmjAjf0JxE8ivtmCn-Y0Kj9YfEa2UUb4SE-jap2ly-v3-E6MyUKXutf0QktTECClpws0kWun-yQYzeuLZiUrilS10Do7azZKlzeyjS=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QQ4D3pgZMbE3wb8YOKZG2VEsCQccQtH31PqVmPAORg1QuWGwAJsPU5rGKpuMlbFFe49rdlo9HWunHtnLWqMF-LV8ubNTRmei_-DFry732ATjtnvhoQrVS53k-7Ck2ytrZq-K1Z=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TZvoKZkQwWJymbkEI062d-E9cjAAYk4Gq-ZxhXKZI76fPQZkpSyhh1tgCSkuuGgdMLq8RTrNM6mt4663yCRuRY7QJ0xS4txB3uu9NQuACUocLbRETXA-JtLwZwFP4K3pp4QLheRA=w203-h152-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/66627d5bb2dcc3a465b1254d3f49fc263e55fbe0.webp',
+      'https://img.cofynd.com/images/latest_images_2024/4bb8a75130acbe8e8bdea6c54298daf4884e87dd.webp',
+      'https://img.cofynd.com/images/latest_images_2024/9854d23db24dfef79ef6cefe3f116522070ec5e0.webp',
+      'https://img.cofynd.com/images/latest_images_2024/d038b46b6c3b80ad1dd9a3dd2276b084224a719d.webp'
     ]
   },
   {
@@ -439,10 +451,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=8066643642140792476',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Tsr0p0NULrScqtsNUMisaGHOPYelcQbB6jYBjTIP6aCipLug9IwmnNZUwVZChEUCiwX14q-WSX7DomNyJhxPZAuusV_U3oDqIjH9QeX4-Y54hjcGIvlDEbAS7yZkXqIXqdTuNAkg=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Tk0mszzI3mBScZTHWgTGpnrnj7IvmsLPDsG4EVBxsITy55d_vZyyy0Ncp09irBq8qo9CrqV3aIS7itToOgDqHSfTpQy502Js6tOkHfPuyeoyGWHewJg7PZNADQ0TQUJlTXVw1g=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RPlMjHkEemae3R3MGOwkbI_fABwGlFKtvna7p78rpuA8hp5YY6Ut72dd942_5E5zKJF418E7R1fG6pkHQpQqtX4kkhLZ2ICfUVUqEI6KD_XaxLdflOY_lh7SQUpeWiWoCvQuk=w203-h270-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Ql0kDMS2TMRhJwMZRvBkhfmIr8ompoQ12XlMP36gjtZ9svG_pnYcFT8yR1ThnFGQ08d8J7bQVwgMWV02Td2WwO--IQBGxsQvnSu2VGeDpDvDdyb6AM0838F243iUQTBg-he74=w203-h152-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/057e7f3a05f6c78755d20b347becc3f3eeda9b15.webp',
+      'https://img.cofynd.com/images/latest_images_2024/a07b0c95258e161e3df9e0919c37f0658b822571.webp',
+      'https://img.cofynd.com/images/latest_images_2024/38df3d65dfb3457702b100b336693c235f459f4b.webp',
+      'https://img.cofynd.com/images/latest_images_2024/2fdf08c7782ddccadad421fb47fb97198b16e8f2.webp'
     ]
   },
   {
@@ -458,10 +470,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=10904377907859921405',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TLYLlQXaQqKHqr95qYL4CIwgaRkoKgVk05wjjWsgrxznZ5xIAyCmQZX1aPcVOmNlm7OYuci4Cy833xNYKhRDntHLPef68Ya5hmh2-YtUhcOesuJ5zc1UdD1Y7cDNn0KoygR70M=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QdXfkB5YvEPdb0VOFJQu9vBKsciQLD8riZ03fAMhHnrM7E4R8J4Ovndbh1KF6Y98G2yQX2W3PT3laZhaM3Qi7ZASQtMX5PF_DSZb67QRZjPSYNwnqV_8pHKU_coJdS6J_4Q3eJ=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SEvdjhOwytEhjVUwiXBM6BPm6zT7wz998zoStMBhuZlOJdhDKMAQVPbaqa222TDK9sDMBKaqe4Aox7pQuNSFZKzOBdLD7jhju1CCoFY_nWc2T64us5dSfXwTi6zJh__Q=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RmTg5UZZfsJm5tSfbBu43BB95gKRoVU2Y5DYqw_1_NglM4HyUBiJATtTcIkgfe6WSYKneOiDRpw04UaB2fJkn_H6yaFVz83Bq-_k-LLihIsWb0ahMKCiedaWo4Abtlirjx3yqF=w203-h114-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/9d5a6c836ff9efc6e0b9a54c5ab82bbbe0f0f305.webp',
+      'https://img.cofynd.com/images/latest_images_2024/672480e1b07c77ddc2d6369f4a13e16f59d908df.webp',
+      'https://img.cofynd.com/images/latest_images_2024/831c196a88f313641260a3835376c07c2409dd1a.webp',
+      'https://img.cofynd.com/images/latest_images_2024/ea3254558bcf17ad571b254ac15a45a1e6c490a0.webp'
     ]
   },
   {
@@ -477,13 +489,12 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=1688978926522240211',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Te8VO-Mc1CzsrwD_4V2yCFH69R4KfBJmuRoDVBETG226sBRxYkR5IQE6m9oXjKcAROYd1sxXgV-0KRZutD3dF1hFOfPoeIs7j6R5QSxqpabiAlSp5aaFmg1Yx3SM0iTaiDm4RE=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RdnonY7W6RD2p4J1AyU37Cd6SJ_1-DT-9Y12kiSdSrt12tNdqeQNRGm9xUa0gCP2l-zK2y7MupZNRzW3VQeUVQQA4kDQWs6in-7CLFeuB3PqF3nBRzBBTfxnuwu-Kx885i6tFmIw=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SZkgQ2HZOJAoaFf7BNQMS0CWfkPx1ziPhMEaTGZolJP2yiAXoOL5nKRe8KPC_9sgagwOshzcV3JZ7WZBqRxf7rJA00ZGmynq3agR6NaN4HgVVK1PqJuxN_BZIKxmZOoYD_PEyY=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SV0rBiSBv7080T5lLRJxGAyKLUr4H4nooobpkoK7DbWZiAZAUCDbOl_58kLFaFOhTesIAEJsTbiNuuVK7Z5fY542Pmu6xz1NWTtERAFKlHrwpYfrzV6M4RkSdV0o28KdYI3Mfe=w203-h135-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/4c9f7362632000e837bc1601aad49a45d288e901.webp',
+      'https://img.cofynd.com/images/latest_images_2024/8645af8273f975b3e46cb9dd4f83e76f49a9f833.webp',
+      'https://img.cofynd.com/images/latest_images_2024/ae36e4b15b2fa5073bc9b414d339d9aecd40a204.webp',
+      'https://img.cofynd.com/images/latest_images_2024/7b4b26482f146e15e1d7bcba5dbe6a28fc4459ee.webp'
     ]
   },
-  // NOT_VERIFIED: two RedBrick Offices listings nearby (Salarpuria Knowledge City / NTR Pride, Jubilee Enclave); can't tell which
   {
     id: 23,
     name: 'Redbricks',
@@ -495,10 +506,14 @@ export const hyderabadSpaces = [
     period: '/ month',
     priceFormatted: '₹11,999 / month',
     ctaText: 'Get Quote',
-    googleMapsUrl: 'NOT_VERIFIED',
-    images: []
+    googleMapsUrl: 'https://www.google.com/maps?q=17.453003,78.361397',
+    images: [
+      'https://img.cofynd.com/images/latest_images_2024/3129499d1390c17f958fccbc0a0832712cf2db8e.webp',
+      'https://img.cofynd.com/images/original/158e091b79fcbcaa4f0593b892ccaa71ce46e3c8.jpg',
+      'https://img.cofynd.com/images/original/e588048cdaf5fe3831ed80b54b891a10c2c953b2.jpg',
+      'https://img.cofynd.com/images/latest_images_2024/035c39e47764713b153eaa0e7a30d5802ea52a9a.webp'
+    ]
   },
-  // NOT_VERIFIED: three Unispace branches in Madhapur/Patrika Nagar; can't tell which
   {
     id: 24,
     name: 'Unispace',
@@ -510,8 +525,13 @@ export const hyderabadSpaces = [
     period: '/ month',
     priceFormatted: '₹5,999 / month',
     ctaText: 'Get Quote',
-    googleMapsUrl: 'NOT_VERIFIED',
-    images: []
+    googleMapsUrl: 'https://www.google.com/maps?q=17.447857,78.381224',
+    images: [
+      'https://img.cofynd.com/images/original/8be11d6d6f245203e4b248bb7c9b2627793bdd2b.jpg',
+      'https://img.cofynd.com/images/original/2fa56c2d2c20a91b240865695e9765f02dfea8f7.jpg',
+      'https://img.cofynd.com/images/original/8130c249b6edaba458f8faff33abf654b22c9b56.jpg',
+      'https://img.cofynd.com/images/latest_images_2024/f195db26d537b481dbcad888a25ca16a5ec7fe75.webp'
+    ]
   },
   {
     id: 25,
@@ -526,10 +546,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=2620974429198856318',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QRXq3LiNA___-t3LMyLnwErPu3qPNhgECG-IagAhXAK6A937TsgIhhqOf-leFuas_gMTO8JriqRIjQV9OFNklUroiIcdE1nfm0QuQOkfnD5CUv2TQYXNmacP4D-iVJrBigCUfS=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SQE-JfJGC8mRHOpAAyL3EKn11x_rcUe3hl-aF3Spbkp65z40EWBAM8NwZcidskGIHvE5trfMJaVvtV0hdqFy_NzKFENh0TZ5hIPZ981hS7naNhiCXDcyJM4Hh59z8zIUiaYVL4=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RmLAnVbbVGUpugq7PGydwXxCph3XGFhgivfK9hLUcwaUHny9Z4DiH5a9PoqEGTku2k9vvZ1Tv0MH5hDlOZI9ck0e_yr1ZpWFuFAAqDK6bGou78SC67FhKgpgKn5r7LuzmL931n=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T_C84O-qoE0xbe6aTP7MgQAvOiuraYa3pJCiQ4BdVhFPFpGKzqX-wXT3GY1Eh1cSodK364Le2NGe24sQHeLHEXRjX9v7p1NcnLFI7WCEDYg4PF5oKL4i1apWqNZ5JPvSHic5J1=w203-h152-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/2d19a6c09d79e34d51798ad8ee235aa2c8b1dd52.webp',
+      'https://img.cofynd.com/images/latest_images_2024/e6bd5bb199814f788378c0a11d4551663d5fd361.webp',
+      'https://img.cofynd.com/images/latest_images_2024/c60fa739e0f850edfbfe62f6dc5b691bef738557.webp',
+      'https://img.cofynd.com/images/latest_images_2024/38f632264e9afb0072c7b766570346c67882385e.webp'
     ]
   },
   {
@@ -545,10 +565,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=2577773943575560579',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TJlwoRNBx_-vGES2rsQnORAw6cWxb1BGiz0P-rykSIJDUtt-lmgFbtANiPi_8VCPuUVgFrbG8scPs7BQZRXU62l2Q_xw2LXFL_WMrnBSNoLfbQZmGAM6HAoX2clpm9O-gtukzkvAeeoMs=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RYMnXpYr8-rDnK4nIXcAkDDoF4uKeTU8jNc4tX5iQQIXhoKrlZ25xpMUuL6nw4qMA1HkgEBmbee52Rm2sMt7RBS9SYkgCEJOEkgNwyZAgb1m7B3RLbh-n9n-zT3FiQ0okuoGcbjQ=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QThMH_X7lOlG5vJ7NG7-IUHezYwTfdQ4_JnSKrK0FpkgisnFNsC73x_JfdJKLu73k1JtKW81nxFGMSXCrIkxw4wKm2DME63sVkTH-7g6OjYsw_7rCDR0dKltKfEfn2KwMXRrR5bQ=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RACGVhzZCiHzypDEZPUPVWKp4AZqW73bfREo9F6KLTahsj71_ZhtfMhCMixlg0PMQYaOMJOBK51LucYSZ-jTojMeCLbV-UkOQFfVV2EHtwUitxtX7usQHCK0n4vW4L2oxkh62-=w203-h152-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/62014bdd526d500e1a9fcc4f39b1a29ab0cbf676.webp',
+      'https://img.cofynd.com/images/latest_images_2024/d34b807c3536cc12e879b642a05068bd0dde9211.webp',
+      'https://img.cofynd.com/images/latest_images_2024/cfdc35c9ab2c131f8ef925b34aed4f83f7344b51.webp',
+      'https://img.cofynd.com/images/latest_images_2024/1a35b26ff35609f4ff6205623b82cc7b723c5d88.webp'
     ]
   },
   {
@@ -564,10 +584,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=16010978273108568740',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Ry-HOSuj0SqZOLifrzWZ1mP6gnJ1Tg1UTd8o1AwSEFVAWz_rb9QTINJJHjkZ1ILHONjj3RWtQ_5ewAqZQVH58qA0KEqZF7fHO-Nx5usqNj-kdBR4dGvLLiFlYJwRcdMK-UmynLAQ=w203-h113-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TuOaz0Yw2WgITi2yEVL2s1JFR6SqVMU5PY_op4qVBqoQYymAZ30Xm9gr5-aonl9Ii545JAWuzRdCPTs367wcKgMoCcljoLfm8Fq_5RLG1MCdmY5pupZFMNHMN6L9cjoksE_RM=w203-h360-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SkS4zvpd7BfOu3Uud_-XtAYBRsixn-jTogNaHfO6MQeDmLiJLV2gD3E96ByYtIn-wEThBuwBFDHGcSM-VMIaqUV_oFQXHAjeS4pMLv9Mzlzg9fXsHRBBBw7Np8cZWT17RRCMDyCQ=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R4hNCHcjvbp5MP_L3bVW1Byiy-abkX8PYPSdw-DIovj7Qug7yo5_iFcFSJTGuXLg9zhFmWUOZL8xjBgTCVoPPoWjjRcANtbLTCxS0vy-CXPc2fnOhsHhcS-1SxgmSPYwozPV9f=w203-h270-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/33c9f4fc0e4c84585cc572ea7dd72e62a340e2db.webp',
+      'https://img.cofynd.com/images/latest_images_2024/48b306cf7e8b4126ad6bab2ff9effb20f07b6c21.webp',
+      'https://img.cofynd.com/images/latest_images_2024/8cd244e8d95110d351e93a83052117805cc3fb6e.webp',
+      'https://img.cofynd.com/images/latest_images_2024/f987083c7b525fb5fffe6757dbd79e41913b1dd2.webp'
     ]
   },
   {
@@ -583,10 +603,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=4340618276901827592',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TsDwCGDP9Je5Jd-QvjGczCYPhqoj7turpgqEcdnAAALwW4yAAIUVtrWHNwlYVP3dsQegp4qR46qLNsAikXqpb_i9aLtNvleZiz2cXJh_SU0o99GkvsdOermtVgshqd0qVYftgz=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QVXNfHj887pO_JJR3UK6zN07aPgsmsWve8jWL-dUZtF0rsQnmoWZgGFZK86yWVUOe5unjKKfNGwbDespyhPI8xRWgy2dYmFgtzwcpsLYRv8Fm9i52CvKVGfswVoLjdEGTsOJTulA=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Rk2faEEpE7BQzmMYD7Qf_6GOQL-bTICPoeG1WbVzjkjmSJuXyIFgKxnUIwhFIE7KP3ASIt6LczTwtQSfA29T_oZjWBp-AnK4ccHj4s5_syK_eGxeWhFB2LAkGaxVURT8fyr8gbVQ=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QckcF584n-8T1yZinA9Q5HeSOjdAmlhU_IaNV5WPgf14VXKHzmElZLvn1E2rp3GaRiKzfF0u8RNjSQahFpEJNt6ySrjrnYffbLhkTntDJ7b6kKyDfZgusZdYA511hdeXgCoaRgMw=w203-h135-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/97355b5444ac6fdb8b77f7b15bebd4a1b6867afd.webp',
+      'https://img.cofynd.com/images/latest_images_2024/f171ed9dee5c7a5545d5af53e6d95a8163f700cf.webp',
+      'https://img.cofynd.com/images/latest_images_2024/f202efd91edc65a5dd049679ea7316d215ce7c63.webp',
+      'https://img.cofynd.com/images/latest_images_2024/34ebf452868aa1f6910affff8f5743e4b5538157.webp'
     ]
   },
   {
@@ -602,13 +622,12 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=2941588062087893190',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9REth_jNElRSLrxSSzJzp-s8Z9HWxPBCWwiyYPGantclBQWaSMQelQD2LBdX-YZkuyD0UpfOc3Bx079tlzFp-muaf5s7hgHiokZvGoCeMiVKAZ-x1DJoFSjl3udrIIjdRY393O1WQ=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Qhbd0-zN0wsw3zf2fdnqtVtYCcCw7XwjoQpg6axTYZ-WVV9b6cNByPJblqWg0TVWAVqaJPE3Wj-IWIxe86NmKQVwjarkkrYWSOHNV9GrcKnqWgSzoPS2l70EZ2eNYIH26s6oKWJg=w203-h270-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SN6-94kxD0g73ZlqvMqesahvWehhfaV4uDV1AdEB9QejpDJEb9gzm1LaHyOABLjsWVulKtD-qaRH8AuxL2u8HBE8KIpD4Fls3oz-cnHbTklhgrJHXWI_4usr_y7mgZV1Nv7rLX_A=w203-h360-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QxCWbqI-1EWv5uMhUmsb0I3pRofYhUXlirhGUFbNo7fn0hvfphMF9D-ASkmO2G-wbAPIJuHldrT8bifWb08QCN6H8MbRMRzWI7KKAWLaWNGHNc3GpBv598EVvBRynxe1vQ_X82=w203-h270-k-no'
+      'https://img.cofynd.com/images/original/f629db339c628552c8573693d394e638aace1ac2.jpg',
+      'https://img.cofynd.com/images/original/68ac0a621f95e67ed60b5b7c01ae6600c1c69124.jpg',
+      'https://img.cofynd.com/images/original/0e7cc38f41f78d35180d2803b90bb55121206d1d.jpg',
+      'https://img.cofynd.com/images/latest_images_2024/1e70d9b6bae5abae9aaa2ddf1468be34dd94c0a9.webp'
     ]
   },
-  // NOT_VERIFIED: two Rent A Desk branches in Madhapur (RAM SVR Huda Techno Enclave / Serenity Square); can't tell which
   {
     id: 30,
     name: 'Rent A desk',
@@ -620,8 +639,13 @@ export const hyderabadSpaces = [
     period: '/ month',
     priceFormatted: '₹7,999 / month',
     ctaText: 'Get Quote',
-    googleMapsUrl: 'NOT_VERIFIED',
-    images: []
+    googleMapsUrl: 'https://www.google.com/maps?q=17.444606,78.385112',
+    images: [
+      'https://img.cofynd.com/images/original/dabf9a6fb260b4dd49f5aa34d054c9d7937a181c.jpg',
+      'https://img.cofynd.com/images/original/134808f32472d0a3e9a277b690a6fefa415f5eeb.jpg',
+      'https://img.cofynd.com/images/latest_images_2024/0962636a4d1c5042453d2da4a7719f9b33a8aa5f.webp',
+      'https://img.cofynd.com/images/original/2ec75522dc663221e031b69426504ba8135f0eb9.jpg'
+    ]
   },
   {
     id: 31,
@@ -636,18 +660,17 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=5595206102535678352',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T9svm_1dc4lD7PDoP1SU5dlZYUgMrGmfLkqCs86NExkKpqBllGwfAZJ9sAHkueCZKDUKhjLCl37DX94EntKX6_39YqYZJ5GZQFsq0OIVi2VnQ_h7Hc6d39rGQ0xsP-7JB-Kwdo=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QC7rXqaERwTlfa5HVRP3T8CUG7YY-v0NLbLaYFGll0l12ga43BIXp-wxX1bUOUmNcw2S9mQDHEZ9RU7g7OeIQic23YisnfVcvPeeR19jXo268v7hwWlLYNTvelKmGozv6Uxb5M=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QnXyN5S4fd6RpGUObKf2iuFRDX8_J9XeUkMP0ouowHG6pKDuyKIQv3RnK-tiABNuCAJVZrnxsFR21St6kNI0OSZcuhCmPbrxlP8zVjSl4c6Fl3rChZIlmgwjshQ6Skbqxfk3SD=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q9bSv00j46R0F5ry3PVKTVmIouSwFNyaXnuv7ovBEVacHOAlGak8WEnxIM4zPAkI5NF0qEpQcPLsbSp56iBSeb5CkhWsC0yVV-s9ZxgeUfFREzzDuI4VT3czlS3fH89vrB-RrMng=w224-h298-n-k-no-pi-10-ya259-ro0-fo100'
+      'https://img.cofynd.com/images/original/ab0a1b31bdba3089b01999197faa024b5bdb4862.jpg',
+      'https://img.cofynd.com/images/original/f90cc6eda190f9ea14d8d165a19a98f1599fd723.jpg',
+      'https://img.cofynd.com/images/original/0a705d9947e8b707b1060a73bd0c65828e63b9c4.jpg',
+      'https://img.cofynd.com/images/original/2578e1fb09706b1bc10948edfe3f7d16b35db69e.jpg'
     ]
   },
-  // rating cut off in screenshot (4.x) — fill in manually
   {
     id: 32,
     name: 'CLOwork Newmark House',
     badge: 'Popular',
-    rating: null,
+    rating: 4.3,
     area: 'Hitec City',
     location: 'First Floor & 403, New Mark House, 103, Hitech City Rd, opposite Medicover Hospital, Patrika Nagar, HITEC City, Hyderabad, Telangana 500081',
     price: '₹6,499',
@@ -656,10 +679,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=8951285958445979023',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q2mHFFdIQusbybTMDT8UJYWDcQ6p3hWn4WVLGKbEv16q-Cj02VhEJrWYx5p17zh11IrQ64ku4tM9-FOFUIllX-40mwE0PG_duiA0P4of0qfLvZcR5n-Ex3k89WSnoBaK6rLkXT=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QkHK0C55v7Qsg_-IFXzrdi2_TCbpKMZSFpLli9mqXO-adk9h6_MooeUkqiAD-5B514b1YNFlydqUEgOl1OdSZ2iO0sRPXeOuceZd7_pbDNdEQQL1_uNn27i255FeHg58Wyqjqx=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SDoITkWAoUJvGGtIDnYtBDSlVXFZUpHIvk-0Ne9f9zH0oAqnaZYpoJ177X-J9EYiEwbT9MQGTSblyRTWHkvhDSTQQ3hxgbN3Xf3XjBvnQTa1QJd0OhsZw-8JWx4yCiwznxXxpS=w203-h134-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QzUriyWIyXiXlgCoUHhv6Tm3q2iRqnTHbMGl3pjoa0e2JR3JaHZihthI4_nB49zIZhIBXE82zwkEQxy2-SKhM7V-Jrvcjbi3U4fM637Nf-3FefHddA4HYc7Kl54euEHzZ42yeB=w203-h134-k-no'
+      'https://img.cofynd.com/images/original/f1799d4da945d4357b9988e8de036ad06b7cf125.jpg',
+      'https://img.cofynd.com/images/latest_images_2024/522a3713ec24ade5fcadff4101141c07a80f0260.webp',
+      'https://img.cofynd.com/images/latest_images_2024/061cefff2aa4c1a3f563931828dc377f6dac6ee7.webp',
+      'https://img.cofynd.com/images/latest_images_2024/0d044e8d408a8b6f335ca323b8151c64ee156e97.webp'
     ]
   },
   // CHECK: only Incuspaze centre in Begumpet on Maps (name, area and 4.9 rating match), but the listing doesn't name Gumidelli Towers
@@ -676,10 +699,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=2897866041066132776',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S9znzuttWaBNDE5sC09g8iPXuNqoBQGvVBF7UmyEkOTDCYKg-YZt3RgBmISLw56RdvMeO5wAVmSrnA0h31DmJsq5UsaUwL8tVuieuf_IemZ4fUzdeyo3iXTOM8BZQqkkQ41YWB=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RQcFLNfCu-vdk2MBQViWV_gRUJyOBNPrcKzynGDs7qhryaBYVMbqh42pQZ9boS6p3ioJRpqH4zYMpKaL4lT0D1DaEACSl-09b5PASQQamW0tm33l_OqBwbMxHvm9SCf2aDYa4=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RKqr4m98njPhI-eCx_zAbrnE22c0zmO67v3V36XRD5TZJSOY-rO1EkjVgWvmzLLlPljtYcmqL_5ENI6rVuv8UUVG3bMr0BmR2P-UfT0vbnUYp_2NHu2T_pkpOREng048wsU9tw=w203-h205-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SZjtV3gY-o2hyuIdTJuZhUtgXwKf9921UvDpt868Hq0m85YmV7fluZ5yLLni4s6-8xgMDuAkjHEd9TFfPG0X86mm3mwsa6Y9zUN5Pb_41kI6saqkKMpUH1VsbU8vFTUQjVlvcS=w203-h135-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/7071838fcaa367a6fc0a1ea12de2c75342c21070.webp',
+      'https://img.cofynd.com/images/latest_images_2024/3341444ce73507fd527527c07dc1effa5f03aa22.webp',
+      'https://img.cofynd.com/images/latest_images_2024/37bf0207db91a8ce0466c4ade1809b341b636a3e.webp',
+      'https://img.cofynd.com/images/latest_images_2024/042c3fa725ea12400ef57334871f96d856b12d62.webp'
     ]
   },
   {
@@ -695,13 +718,12 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=16932425769699324359',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Qk7yQGm7avW4ijsIOQa2dt-hTaw_yzdLWXfue8ZB-P6gn0257gq-tnl5Xhs8XP1cFVFnAYS6NxcXdO3C-eliReZlT-53NFIYoaC-unirnXjjXIh09YF2LVJ57g9XavmXyIoUQvFw=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RyvkLFCQUsLXG1hhgCuf2NNgF6bWII_1c9E60_mfSX24e_UziuEKUanvS99_czHHCOa8le_d7OnoUPBrK6CkstdCD1iYEJZT0lzau7Oqtu34zgFk3gJV797nsa-NmUG16SQZPgOg=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RaRzgVw19FO7mdihvh5Vd51ZMTyom9rak95IIFx3kLo1hsIcSgL7MMjYCQpE4OSadzcW_oOiH6oCBxLBv0pTB8a41RTUHGlpAdmD-vpN-5ckXGnFsBUsADl0flxourLk0b8tcUew=w203-h151-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TbqWPN_QQx0cEO3X5j4G2qiNSFaal_DKj5nxmU4gM3khN7-LbMyyh4sFen54vhtbda4oHiOx9JzNy5yO4q06X5rRNqcF_VYjoEz0MzHgX5YNEsmBabgaOz4i9nmKeyfpCk0quh=w203-h152-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/a3638ce467c2a78924c5522b15262428c56fa5a3.webp',
+      'https://img.cofynd.com/images/latest_images_2024/95e8e7f192f31f3246ff5c4473c46440edf62d64.webp',
+      'https://img.cofynd.com/images/latest_images_2024/6e3adfb07816f71dfe58f1fb92713d6c72ad0c9c.webp',
+      'https://img.cofynd.com/images/latest_images_2024/a240f10ba5d40089afd6f160c1d9e7e82085d085.webp'
     ]
   },
-  // NOT_VERIFIED: two Hatch Station listings in Begumpet (Prakash Nagar / PG Road, Sindhi Colony); can't tell which
   {
     id: 35,
     name: 'Hatch Station',
@@ -713,8 +735,13 @@ export const hyderabadSpaces = [
     period: '/ month',
     priceFormatted: '₹5,999 / month',
     ctaText: 'Get Quote',
-    googleMapsUrl: 'NOT_VERIFIED',
-    images: []
+    googleMapsUrl: 'https://www.google.com/maps?q=17.443479,78.387524',
+    images: [
+      'https://img.cofynd.com/images/original/83b2b2c472295d43bc0568cab6a54e50866ca18d.jpg',
+      'https://img.cofynd.com/images/original/e23c303f7c91724972ff94dc715fdcc66951bf4b.jpg',
+      'https://img.cofynd.com/images/original/46cd4a2c24f5fe15c6974b8fe81a88d9cb6f2f3a.jpg',
+      'https://img.cofynd.com/images/latest_images_2024/7165843d3bc0fd60d41e8a374db79ba967dff48a.webp'
+    ]
   },
   {
     id: 36,
@@ -729,10 +756,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=9829743946648312453',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QTqTdcv9q63yQGLVKlBEWHsNVk8uQ5Qdzj2xbOhZWl42WYjNMRo3XnKTeKppGLJHv1S4X9Oeqm02Cf85QlnEl8C4oqGtg7velFmOEjvXVMkANf54kUylAwpskFJX5DdjDlbRJ2Dw=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TbwZ1vSlEWGRmAbCcSmA9g1k9GepobOuE9VOjXBqR6Owx9_3J7DPD7J98yAHyQ7XSJpXS7sZOLx7J4OQz_8u2TgDIsn31X0KlcdxIp_8ES6xQ410Wb2vfi_fgkHOOD5VLshjWk=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QRqjglwhx4tFc1cS1PQOWf_NvihWy5UdDXc6ljSKz_sL1EvfBkUY8uyJcuUebmLtkSEndYAveek0KW9Ia9xUi12nL-ayrHfOwjVjFv_Hqwr9fYQIePr5YzUwoOMV2344gCAV8-Sw=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RUVkJ8k8rdsU9h61p3nKNQuzpl97USUScBnnvSJGaPKymBvBqxEX-6czFv3CgXQxkMQGbKZKpVVsVFhfxAnUID_tXycQlEBBVwY356qxqN_AwhEYkIqh7NScsV_owQH4h4ijc7VQ=w203-h152-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/fa5f91ad03f20d9f00de5a49a68237e62b6c209d.webp',
+      'https://img.cofynd.com/images/latest_images_2024/ddf6bd38e14d42631d467aba0657111c904f08ab.webp',
+      'https://img.cofynd.com/images/latest_images_2024/d96b228e4e8579f8a76684a53edb5365f623f8f4.webp',
+      'https://img.cofynd.com/images/latest_images_2024/ffb5cc834f9c3eb998ba3f1088c495713bb30c3d.webp'
     ]
   },
   {
@@ -748,10 +775,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=826437737810807225',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SaXDCq_nQV1LbUG7ETHRBeoYKMjGneRAqnFch5jxoS71_sYdvITo6x-SleMjmioKQyO7Y0Hhr2psmR-boCRmCCDyjyMT1M0DGgknFISDDF99o5hgaafepehejDoTOavoMOBAUpXg=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QOJlZLLeUNtVbyFjx63iTfy04lV7U7bCebsCaMZRcbPMz8go8FewhjIXoucrAmy8ymG2uF4FMFPrTv5nJqd7DATLo5yeURmE2wf3RdkVI8TTyfT2XVlEkWG1zhhgWXEvKTd8zW=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QhyWrwJ5X1omjlHPA6bklOwMM5K3b1FQ14Sten3YDBZLTq2GBNXdN1jqhdPFPikvptUEOWw8fd9UZ1IOSiUqvJ6T1Ys46ngTwFPabFLba5woM79hbjScyzuz38NGNrFE7OT6XR=w203-h300-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Rd6DpVR8jf-XUDZVkrMWwbcWAzPbFBaaCF0IvNcXDnAEHYFTvUuYeE3E7QE29O0oi1PMQWbdVfvu4xAuud4Fl87GZy63PusqQIwfmTrjuzpVAV55T4k5q-1D9H0u6Ppj-azIQ=w203-h152-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/d81994d3aaf8ec6defe2f0a1eb9ae522a6f486d1.webp',
+      'https://img.cofynd.com/images/latest_images_2024/fcd95d920543c67b07ccf07beb4e03bc4d44a4ec.webp',
+      'https://img.cofynd.com/images/latest_images_2024/8716d7bff3e8cce7eed5eda7e438f280e1540b7d.webp',
+      'https://img.cofynd.com/images/latest_images_2024/ebb5688842b90e6cd18fb2ef0fce693b97887e96.webp'
     ]
   },
   {
@@ -767,28 +794,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=3257261116652942845',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SO_1SpEzPljuBdJ_etZ9Ix7daQt8qSaBHTdbyI7-1CUk7v_nxkobaWOgnTrDJ1BfOted660alFm5ivz8brabHlVIQjA0NLHQYcp9v4lOqPHWcWiZjwVv_Or_gfYnMngvessE99aAiTaQg=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TFgAdNcBaV2nkVwVna3BiSgKRo8ft7jrW5AzHBHdJ68KxHi0HoeSUqrjtYfu_C7FrrCwppKmRZ6Ae9QypRSSkd74VTkxJ8vlNCerwRXQpVdJQsMhIra6pqxIBPUsbGLcLexbCdyym7KngF=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9STfjEQ_7pD7SO8HLDoS7ejxIYZjBGaGk1Nx8W4xw1uXTsseUHdov_6Cf3hChkUzhPpf3qujg2aGPCKT0uTMgWMcU6XKRfnr9injVqhnMW91CtrdhbXUNCzkxPsVdJ87HzFI7tmXZRIRPs=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R8kLdkj3RGkmTYp6uwmMUD4qSOypRk4GvsY-irwzb2kJ956FJqmaG7h2zBz9ekD1rLeUecPJ8CpllnnzgS3pg9wfwa-x1IyQU2QarbCXwLAyJIxyMB7RffwARtAwshqvIDU9udYZ-mVJr2=w203-h135-k-no'
-    ]
-  },
-  {
-    id: 39,
-    name: 'UrbanWrk Private Limited',
-    badge: 'Popular',
-    rating: 5.0,
-    area: 'Hitec City',
-    location: 'Bldg 10, Raheja Mindspace, HUDA Techno Enclave, HITEC City, Hyderabad, Telangana 500081',
-    price: '₹10,499',
-    period: '/ month',
-    priceFormatted: '₹10,499 / month',
-    ctaText: 'Get Quote',
-    googleMapsUrl: 'https://maps.google.com/?cid=12860972132937656305',
-    images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Ro1kT_YuJzHy3CyYTQh8J4GKcf481L28CSRK4KDxx0i_ZyfBwEW69BU_OWnOyajRLufFgSZDO9FPzMaEhcu2MqCRjHm-7NsqcvdGqsczpv27GvVk__qW3mgC9UbYkBaGIvo0kEAA=w446-h298-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T9IOEW6Tc3QM4kEXbo68WLeA2Z5OwIa0qdi2OkMr46fG6HWb7GPV-OOoiKmkhaPfXLuPIxqseSNbagn0U9ZFZ1vzVDOAZsfMFMyTATnFI_uSel-6lCzqlABzsqP955D6zksNRJox7_GL25=w224-h298-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QK34z9VKhYNiIPqa8P69uR0LqTCnW565NnwSetQBhdzDP2wUF5yPmLGisWE8G1HiNh5YLAliL6V-IismQywnphLbg-6W3AytzvUOSwKlwaeQ_DN0PMACsyDI3Xix7F-jyNzyx1=w529-h298-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/285bbd7e3eb51710a64a2dbc6515dc9bfd054a36.webp',
+      'https://img.cofynd.com/images/latest_images_2024/0d0ff1920ca0048b494be1675997668e04485f46.webp',
+      'https://img.cofynd.com/images/latest_images_2024/fda62ab4f79b2558fe59c4d4e188b3dab2e622a4.webp',
+      'https://img.cofynd.com/images/latest_images_2024/23ba46e880ed8df8af68087b136bc2bf54bc23ba.webp'
     ]
   },
     {
@@ -804,13 +813,12 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=14276957513799516631',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S3fmjqXmjUlcYxIPTqXAwnBju4t5YjynlOgb-tFQU5ct_y-dNGiX03-LTx5CZJ-V6XFNhRKnWkpnXtCxHXv-38cUS0J519_qPyJdeD-kE2ViwH09oukJY3U5mpZ_Nih1aVALVX47BT4s5q=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S3ZsZCSHvhb1dk2M9iXUdIEkc3br6Ws7knUV_Y6_NlS2DRXWHEBUrQGXWDTUPnbggtjR9I1wVKU3oqv7DFHVdrhfFJuy-s2IFhZffrdWwlw9fFv927FAwcxv_UEhZG-7kCS9j9n8Koz3n5=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Szlu-yY9JE09X93pEjeM2LaoaNtoLYLLbbjh-HCe-pOUYQ-c6HkSOoGD3RLfM7JpGPSAL9NvwHkP4sM2MWjGM-3Pqw_tF0TeFEBP9TcDV4ElKueA7KTa-SGUa4YDZKy-pD5i-7mo6zeAnS=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QRMITUr3-2bR6HKtfM0YpvUdLHwLR5Vu1XOVklMpDOMi3xm2EQjc-nMHQSk9CwJAqo7SgRgC2PjyxuRWtaDwOcBeNL728FZS5IHfOO6s2cchOHbUelm0VsczUtbZk37NfFwN0MgKqR59uT=w203-h270-k-no'
+      'https://img.cofynd.com/images/original/ede92de298d5b3e208ec152db8f605ad9d104495.jpg',
+      'https://img.cofynd.com/images/original/2e69c231740a0cbfd88a278b252821573592330b.jpg',
+      'https://img.cofynd.com/images/original/cf1721e3be63484b0e1a7218eb9bcd3e0670b633.jpg',
+      'https://img.cofynd.com/images/original/cf35d6903ede2516603e1910acae454eb26c0fd5.jpg'
     ]
   },
-  // NOT_VERIFIED: no CoKarma listing at Liberty Plaza / Banjara Hills on Maps
   {
     id: 41,
     name: 'CoKarma Liberty Plaza',
@@ -822,8 +830,13 @@ export const hyderabadSpaces = [
     period: '/ month',
     priceFormatted: '₹4,999 / month',
     ctaText: 'Get Quote',
-    googleMapsUrl: 'NOT_VERIFIED',
-    images: []
+    googleMapsUrl: 'https://www.google.com/maps?q=17.406672,78.477713',
+    images: [
+      'https://img.cofynd.com/images/original/3bb526e232c21916cbe79664eb0acc86ef2a83c0.jpg',
+      'https://img.cofynd.com/images/original/12c719b7241b7361d7f353a453f23b405db5a92e.jpg',
+      'https://img.cofynd.com/images/original/57fd7b36f481bd238c534f40315ce140edbaa5ec.jpg',
+      'https://img.cofynd.com/images/latest_images_2024/2db5ffd7ad6ad7b5e1512966eb5bcad3f501a236.webp'
+    ]
   },
   {
     id: 42,
@@ -838,10 +851,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=17947100296554234844',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QgOOdTS8L6TNJ5W3N2RZ0lIHQsjpvfGJwi1DwPq_fyySpNI33eV_-VCvxRt_3G4v7qgfL5Zf5MnOGeCHeoOyuh4ML5zHetE88jeTjk6ghKsEUTOsJJmF729X1N8v99ajW3ZsE6yA=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S8Vb_yvw5MvKrcfKiEqqaCA0n-ZpN5K4grHQogf7mtOxjnAQumyMPzulik1VK_3y8HQvWKYiCkwvIf2tBOwLfpFf0zcAo9EGaLv_0NUw3HOL-LcdHLXdHaNryykp_ITp0HrmER=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TOlwsUNkUA3sPny7yPZW_qOVI16U41ViRHz5cXTllDfNtR0ULGiCX98JfKkiiqrNFZofESZ0vqB0tMmniapdwHWRmspnyP7V0IK30owbl9PA6MHKg31VXFIT_zdkjNvZO5RpeC=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QMNAur10dJa8BacOzM-yRa87bgv3e2nI1GRzMd4aXLYWVl21u0V7EntCIxyzH3UKwJT9G9xJSUBDo1py6jy1a7D-pqnmRa2_9oQCZcZA2-F0tlk3Jh-E1C4Hs9F7uVLSXd7yG9=w224-h298-n-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/7125c659d2e994309c4712456a1b95e4adb31ffb.webp',
+      'https://img.cofynd.com/images/original/314c65d9ec2cb7ff476b4d8cf8841277ef1d3af5.jpg',
+      'https://img.cofynd.com/images/original/d90abec8b8988024243768c25109463c6b76b8ba.jpg',
+      'https://img.cofynd.com/images/latest_images_2024/4fee640365c5231883c21673aed5519aba40d92a.webp'
     ]
   },
   {
@@ -857,10 +870,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=8971148982396539264',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QtR-fFo9thMYxZ7jbux1qAjr0nZ0vthWQ7hEZ2TcFe_Mdf1FDhG_bQelHBo4qcM7N4akWrf_g_OgxHg8WibEZUHTEAD4btfNQ9bTHvgNxlS6dvEKAWmSIqXtrcoiuye1gx8ntNUw=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RDcjX98XsLzd1Ir1cFrCG1Mi06x072dMOElbcGJaz6xMxzy5fRYchsAisiTKCDi2c27q-QCG6wERtJJXLcOmIbGxmTYewXZASgrIEScMN896yunJieYGET0Bzbu_1S5a-W2BTQ=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Qrrzn9JFUwksqWZLBcmOcq9aLHTB3N-uurFaxdFO4VLS1Hqhd-MrsveoYC0b3Dm4Q-mRt5oT3W7IoSKQrR2Rv8hACob24OOZ088cIg7PdOTB13g1M0S0sDDvcmXqYKTOo8CxL0=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Qe2Ue23MaTu8dRnk_YPtE_W6PvIr1iUd0tPin6lFamv7TwvAgYCyk_Rn2l70LSrrUB8mKRlKc26woXyc3oPfiYGxEkqg7JGSpTo0GAAsaCysxupEE_M9q4MeKwXTEHGdHMCtoa=w203-h114-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/ee03e99ee4140758bb7fb16434bca0191cdd1a83.webp',
+      'https://img.cofynd.com/images/latest_images_2024/7c1cd375e6a49cccf05fba3d597c8fc5121b4f51.webp',
+      'https://img.cofynd.com/images/latest_images_2024/61b1cdc65d58a9a0fb85fb7b743ea60ac6d67660.webp',
+      'https://img.cofynd.com/images/original/c2d2839500d063035ab61b50e986cda5cc58edd2.jpg'
     ]
   },
   {
@@ -876,10 +889,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=8672985955626634728',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TGJ1Gjtd8UOTIoT4Hgub2ooTOMlwSzvWB8_4_ZgU9ZDXutfGnQsBwd8VeTufeSEZY3b-Zosf_9B12Ln4u-xCpj8GW534n4ldaKtaGyhVYdchXAxuzGc-IAYbH39rT_QwVy1ND0=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QamaFxubWMiaWZ6qh76RFbDroSi7Wsxkw91I4UpAl9bTnuT2bvHPasTd7ykcZoVtB7FHUy1wf1fo_lDwG-GIOwrg6sbr-TekouEugwYbq8gzvJ24Wvq5Sy2qx42XAukffa5ewAag=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QrIjrqFA4aPNdXcn5PMdxBmMIXaBGw52eaewiqsKWAPAuvLz84MltD8924SrOtxtXzFFhFUTd5O5DUNgXgSO0qDkhjouDwfZaYvpA7GOFQenbjUu8j4RJj6zaUA5jEwGuFeUZKFQ=w203-h136-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q3ed7Vm5DgHiETpJ7ZqgtGaWIpRT0ohQh2uBw4zKoJfl2RwuW-v1jybN3pWF-kbE3pRiObM-5e2hf95fvpltUcnfXU-3Gl5x23BarFwaBpW_0lnTgDht-tXlOrSpfmzM5V_P7FVqsGH4hs=w203-h152-k-no'
+      'https://img.cofynd.com/images/original/c28ff56bf51def1775856f5631f999fa44a69020.jpg',
+      'https://img.cofynd.com/images/latest_images_2024/61f3d6536098794c61dc4d7a128db5ea0e004150.webp',
+      'https://img.cofynd.com/images/original/c7cb5a81f6b2537f0c650c0cfaf64be6e64784f0.jpg',
+      'https://img.cofynd.com/images/original/07b6abfd58f7a9940516c1bb7a278ca37235ddae.jpg'
     ]
   },
   {
@@ -895,10 +908,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=1643233057903159594',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Ssz3U3tsT5Yc88k1U2ZCTkMljBrPxyCsTHFQBYr8Xl--4TXFEsjciAee6Pi7d2CIJj4circC96WIt4yua6GN9sZcQb0mdrTM6jVc61aFK-IHqx_ccgoZwsvU8bfUP5jZ7X4J2V=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RQVvQtuSBQFzKtXzSLhMgg4npucd6017Dw7_k5sPqkeHRTcFLCau2mfsFyPcl_KJz_1qJ4Qeb6pGV4HKjMwaxUtO-Zx6QDLRJ0Illh2NnJ7HAzzf-THHXLe6u60TXUh1EyG8k3=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RtjwxKqkJopGjSELza0lkp2PTyfmytBKOJDETw88qrCRTlPuitya0k2j8_vCS_2vsoelTrrynrNOXc_F4O3yzsIzWz79vCKcV_ze64a53cmBLLk5cGjwVlWaEwnr0QnQcvlWSo=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SJMqiyvPUDErwKIK4FMyUJZiMMD84GQkBDTtW8sOndnX2ycO9XFwFhbd3UPxKu9HoHnV3o-4R5O6VIM30VMM4IW7JP_T-jUVWvOxON3IiCKGCQNz8uWibZctsUA2WW78I7W0oX=w203-h360-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/f336f389de4834662cfd77a97a535945a96d82af.webp',
+      'https://img.cofynd.com/images/latest_images_2024/12af457daf1d9510e174e2aed3ed1206a30b52ce.webp',
+      'https://img.cofynd.com/images/original/427f562b690e8d1ffb44ed1aada143150c837c3c.jpg',
+      'https://img.cofynd.com/images/latest_images_2024/d16e644895e0605e9376def7ee80a582b114db6a.webp'
     ]
   },
   {
@@ -914,10 +927,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=6326855249078680311',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RLHdFGnIDR6uYDI5-RCJOo2kkuVBXWQ8qogHt-iHZDa7JIcimbfnmR5uhaDW1_dBs8lAXfaWygkATLh2hUDonHcmmHBJygqFrtTl6moy-egzfxwPx9bMGEaXjuKZwu2Xb4IdFl=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RCTIu85vTBzZDn8e13anPkf5tzXHaqQmA-JBJb0v2ODBh7nxaHlAFiZ352QLPrpfwFRO-fZyWubF8x5hDjnxO7nMXGSQzVea73f3HfxXrNNa5H9pydLtoR6TuCkvhmANhLyAim=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RqsI5Y9ELNpp3vhfoX7-lXp3W4b9QXnfpnmJUKA2ClBsDTSJVEfFdKpm6ZJne72tTS979iTBLzhcGpdAQVguCIvrpCpAJeojf8HJGDOR4yN2xhtg-_sp_M18zFfsjydBa2yKgY=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QFBcfJCqZIedwT-JZ4tXQdt9vIOUYCCSv_NufhH0kbddiUln7yy-aAhLwGsl5t24Acf6YDX_R3Et_evx5ml56PxxayNJPLVSIViRNC1qCsjvyDiZeH9p33wkdX139CEm9mSQ=w203-h152-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/f448a4779fd93e8592b491341022acfdd804263e.webp',
+      'https://img.cofynd.com/images/latest_images_2024/cfecef8170eba126501d393aa3ac0cd1539f23bf.webp',
+      'https://img.cofynd.com/images/latest_images_2024/e056b37648d5f994446b8b882863d07605cc34e5.webp',
+      'https://img.cofynd.com/images/original/7e5d3f65e11f2fec63138970c2f7f2d52cd1d729.jpg'
     ]
   },
   {
@@ -933,10 +946,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=9438919512733630701',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SrMNOXThC9JBHBYJGjT_FgdOB6RMLVcFfucYOqoApj6-yIV0pLzVGWCGdc_5fIA0Fd9i2-3IkjSUzKA4AjBNPLHT-1Ow2Mo5LpDG--Q4SdubvDHDIlSnQ4Y8Hu-orBIdPDWSWARw=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q0crQAVPodd_ago7jdFinToy4i5xMH93_d4_3VX5zF2hEvy5ZL3281aOZUocoY7RQklkPdab1R6flxjSRg5ss_n3CfC9AuQ3-xAcFatlVYdJnVUt9h2ijpHg-E4BQx1045VluL=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RkU2QMTdi0m4qPS6nI_5yErEMJ37uc-VH3vUu7i2C27sZRqRoszb9XKUEWlUh3f4lRYqnLnRAf28XjqzQq8snykb1qwra39D7NbsQ8cfvZuUWSqzYT_YVUjJiS5WzeglXfBHET=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SCqDIPZd9D7frSZUAfvWDcLB2TEXrB9kipYm-QAH9W-x41ojkoqXZIH76vedyAlSBnc9vfV28F7I4M1aq3ZJGoLzqzL2ulv5YPCmBYqYYPH7CXMAULNByXKCJ-Ri85Zi4HGhzK=w203-h360-k-no'
+      'https://img.cofynd.com/images/original/e79ed2a24bac406e8350f90d207a148e4584e359.jpg',
+      'https://img.cofynd.com/images/latest_images_2024/e1577f4a2100884d32e35d765c483310fa53f704.webp',
+      'https://img.cofynd.com/images/original/4f31328f7e8a6210318a1bc59db4d0073b34413f.jpg',
+      'https://img.cofynd.com/images/latest_images_2024/e29c12c680ac4fb2e5d94aa66392c1c0c7970760.webp'
     ]
   },
   {
@@ -952,10 +965,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=4119728592405867802',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QgZmw_dniaS2rR3zDlFfSx3LaD1Sd52aEFqo1JeX1-mkUaCnsdK4y5diVQCs8g5-y-4bCWKgtzUFiIT85DGtAToU7E42_gG9In_p-pF0ZMfiqL1xt0O9kqKUvQjG18rNgqin-Ryw=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SJBM0fIEcB6DSptlChwROVpHc6S3tnsO0PPAMZ_dD2qkPx1v-nKAzKd57wYTZwgqSsc83cbqB6A2MKT2NFp5S0zvRpGJUngr7eQGk-yHY3j9USNOsQHN7UjXxXRo8xlrueeWI=w203-h270-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SqKO9Xo6n15MbVcA06f_rRxahIKNsGuMR7esTHCC5P4tWfhJePSkCCOa9xhGqBUbOZo7X22aB82CQeHOkCZpKMcYiJN0u-3QOsSd5aLuCL1wxy3EmE1OQQU_BWOH5RVlyQugI=w203-h270-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R0Sy7SEj7-r_6gdWXkljbXo_tRl0u4PgpV7ax0Jj4J1UEnscBtUJ9MwmtLDtXe7BlpeVm2kYjtJ0vqnqtz5PKhbeX7KEZpgfmbP3LWsEPiLkONUO8Qo6tHsI-vS0B-dU-0vxLf=w203-h152-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/51fb31a96c58701e690c1f6b0a6278eb5a20c209.webp',
+      'https://img.cofynd.com/images/latest_images_2024/8710fdb4db2e8f7bbba48b6b94c75396f6c23646.webp',
+      'https://img.cofynd.com/images/latest_images_2024/c90340a60efd7ab47549feceb8361fae32a3737b.webp',
+      'https://img.cofynd.com/images/latest_images_2024/3cf84622b8197bb0fd3d163dbcd3f98cb989a33b.webp'
     ]
   },
   {
@@ -971,10 +984,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=16816495750301267716',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QFTDd3zti4d8-MTQrrSbkFPVTBB6ScUiywlyvx4UnFpL33ddEGnTpokQtoYk47ozCauCWRKKkcKSJW-JMR_P5wRxhNLPdr64qZssJneSBaZHKkua4VmsdK4Y8y1MXWeYiuLmQ=w397-h298-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QUjcHIjYJawud-mstMQVIlFlY8ffUJRiQTUi3mwyz5tcmukjqrfZE9ZszXU7HCh1lUB-JzcrLpSxN1YEBFANbDfZd8HGM2LZgQYBhhKBpCd8TNliudwP2CcTkz0eBcnqi90d4jUZ8pfhSr=w224-h298-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Two6lbC92OHer048eMCujep-87zEB6UhaSn_BhEuN6dI1TQ_rMWJ9Me2iY86OB3WQB4Pvx5Y-YfDEhJSBK0jOVJWLdfo4MfY9sIRfvQkXTHdrxOTJ4O-rugoAhuvhRxLPt4boG6g=w458-h298-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SwwF-go4-_lkHdgjAbfnFBFII0lWm2K7GiEW_8l2605ui0_88OpsDLVksQHtU1TFZF_n5SpRSHkr7roE3hPj2YXMKNyIAWVd9i5Xnfkk4eNpv87qjY7vhgG_-VTUX2bp5CLsZe=w224-h298-k-no-pi-0-ya143.21848-ro0-fo100'
+      'https://img.cofynd.com/images/latest_images_2024/77318f401d39e8cff9a755a49de1b6c66cc437bf.webp',
+      'https://img.cofynd.com/images/latest_images_2024/68ba4d7ca0a6cfadbac9cc59fc27a36445cebd86.webp',
+      'https://img.cofynd.com/images/latest_images_2024/b39e9494e30068fe8fb904f8d7db4ed42a179060.webp',
+      'https://img.cofynd.com/images/original/6bcdf67ba428d94da8060ba71b22911bd6d24d3b.jpg'
     ]
   },
   {
@@ -990,10 +1003,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=9896923479013034457',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QsLmDj6Kf9tpdTiZEK7gHvFrEjkqkJ6L-B9xBJri0VQOmowvEtlP067PC3W_lR8cbnPDaORutknKMFx8m45AR2YRRJNUN4fvTKimjoEYPW2NkSkingUY2UvHahHNY63bUjDEyb1g=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9So4Jxn-XhMGrM3pFSlWEJrWdJ5W6zogY7AO8f0KiSRNx818eIWiVu9R01ycZ5mKReASB_v2h10sdzwBAMw5cP5jweKWlNVBmkhZwC6yycuUExOeNKG5UQJppQSty4MhrnqaDIk=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QT2w5JijffVZ4RYE92z2ca8l4fmYY1LUbfBHk_0A2gQ18HHqyH6iVtnHg-5CtyCyXeLXmvpBtGQ44cXSFQhrVGLp4qqrGNrPo2pXD5JYm4XMx7m8iIgNY7mN7hOtG6u7vPTchN=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QQ2LYWfirXoQERsa2VCmh1uDugiGi2Kzql3-3TSd1SkvM_eH0e1G2oWw9JiU4N-MrizafKxtTrUpndCoOVAHa1YIlRx9lUDU45kjqDXcak53QWqeeF1WQ2oG13GvRtOr7dluo=w203-h152-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/04461119ebd09458090623dfcdfe913960655bf3.webp',
+      'https://img.cofynd.com/images/latest_images_2024/a7695684c4a0b3cee5576aabc74e05bb9ed5eae9.webp',
+      'https://img.cofynd.com/images/latest_images_2024/4fdb66a66483b673061b960198cd8bbd1934c7da.webp',
+      'https://img.cofynd.com/images/latest_images_2024/fe6f7b20db88be4cdfa0a9a7010a1b08d0beca47.webp'
     ]
   },
   {
@@ -1009,8 +1022,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=4383142836699921608',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TWMh3OiygHEUr5S61qRWR4WMzVtqW_cUWFk5HVDuT9VA-CMe6SnVkVlmge6OoYRJNohpBkw_XFJNSFs1VqPmrAoVkrrHT7dDLFXLFIF7JR532tEQ7zbbitfZ_1JrUlck-5hpCG=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TIKPMy88TGxJ7IjE3Ds3oUHGmlUENVRO-4vTXLS1c9tGnIeVFJgDQE-qnovK56B_MvQrGNCDBd3yWZpeY8Bd98EIc52sUJyNInb8H1ycGDuioXW2ATqjije3sSf7hSiXl4fU-Fsg=w203-h360-k-no'
+      'https://img.cofynd.com/images/original/4e91abf4e382dbb686e913b80630f97a9ba55b4d.jpg',
+      'https://img.cofynd.com/images/original/1d75e0e855e86c3eaa9cfaddeee860182b7cb957.jpg',
+      'https://img.cofynd.com/images/original/88d5ad0b310ec7c3aa437605af4e5b085bcaad54.jpg',
+      'https://img.cofynd.com/images/latest_images_2024/847dfba163bbea053ed24da932367bca4f6592b0.webp'
     ]
   },
   {
@@ -1026,8 +1041,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=15420223676637693458',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QhUBXpKfPdxSxcpgHkGyh0vDe9hHkKIUcaJZT-Z_GpkUAl1kIjKU-5JtDC4ENnlSgqENXwfMt5Q37A19hf4i0CSD2jIa09iiPayZyQYtVx0gjiY3qbO1LiIxADZtq1fBrYRsQ=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R7HktEh6NiVxKvB4q3aLk-A2hgjp1AO0JAlaXNN1Fp1vEV3tTIusGHGybJiS_mTTpzN3KzSdeksdZ2fhKAFLYwoEDooRMmfAX-I3wExKBUPqVM_rKbCNyeb5-oJ9ECw-Uk9aov=w224-h298-n-k-no'
+      'https://img.cofynd.com/images/original/93604cef50e341d3349158d17a627ea5fafdf063.jpg',
+      'https://img.cofynd.com/images/original/0578746d7bbe0237e9cf3484a2c42bc90d123987.jpg',
+      'https://img.cofynd.com/images/original/4da7d86553a54a06741387904f5e79ac4a53af80.jpg',
+      'https://img.cofynd.com/images/original/fb43a996cc8706edb8e55c2415cb9d5d82cea4b8.jpg'
     ]
   },
   {
@@ -1043,13 +1060,12 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=15272950277111080949',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SQTsXb5Ts36RkpFw0xbvZn4VVBpe8wS1E3FFEoDgBQb7F5Us9VDmVgusJY4gHckkj6G-gBgF0D1wDroKd0cMGFD35kzDSmZxD38ajm2p_Kvmz9ga0t3VEDc84qitF78mWpDqK1=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QKQgCsW3TQcSNgsJ9uYrfv6LsYdBthKiassmqlklOhatqngeHD9W-YXsgVPRS0h7Fe_PVXC9EM2z-f0CIPF9XhfZ--qPUdVHARtvqkN9I_uHmRYiCHkS42wZRxgffng7Wg86oIRg=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R5xpUjqDDWEMZ7JjBlvuOSSRJeFXrTvTivs4TLeoigshepfSkcw8EnyuaQEtenIw2Z8vFSFEXrzXxGqXQBemkOd1i1hjTvf12bs6WcSJWMDYyzuTnvbO5nUTP6Z_0gKcmds-0SaeB3j4uE=w224-h298-n-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SjZlikbf7TC0cgvBayVv9cfszy88NgHgLtVH-G_iA7eJokvHxIjieDMGrtDPao9mqDrkie-N6sUi4kPQHPmz1CjrCYC7pyFlF1ZzQnGuVUsXH7qGwmpIqeyHJd-SmUwR65CzdLnsxBot93=w203-h360-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/b9949956f7c878921364a361f47945bea3cee83b.webp',
+      'https://img.cofynd.com/images/latest_images_2024/2a24777bffe6e44e117e228362c1e65def0a1533.webp',
+      'https://img.cofynd.com/images/latest_images_2024/c58c6546c042f280d4ad45e9a50548387958b328.webp',
+      'https://img.cofynd.com/images/latest_images_2024/28d8510fb074de50c6ca2507b1fd60dedf4ab318.webp'
     ]
   },
-  // NOT_VERIFIED: only Maps match is 'Autonetic®' in DLF Cyber City, Gachibowli (not a coworking listing, 1 review); doesn't match Hitec City
   {
     id: 54,
     name: 'Autonetic Space',
@@ -1061,8 +1077,13 @@ export const hyderabadSpaces = [
     period: '/ month',
     priceFormatted: '₹7,999 / month',
     ctaText: 'Get Quote',
-    googleMapsUrl: 'NOT_VERIFIED',
-    images: []
+    googleMapsUrl: 'https://www.google.com/maps?q=17.442361,78.374656',
+    images: [
+      'https://img.cofynd.com/images/original/d605e81bb6e3bc372cd2eae53579b92444797156.jpg',
+      'https://img.cofynd.com/images/original/afb71d352263da85d60cad7753581598f36e454e.jpg',
+      'https://img.cofynd.com/images/latest_images_2024/53efccb96c5a22eeebc4feb4f9ce768f49793f18.webp',
+      'https://img.cofynd.com/images/original/71e5d0e125f62a71ac19dc9bf80287fefb833a2b.jpg'
+    ]
   },
   {
     id: 55,
@@ -1077,13 +1098,12 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=13292803086606433889',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QBZWnZfGWWhGByCE8ZPj0mKLLZLpuSYS3Czp0NiCuEn_uTJjwdIDRhLUp7f-BSh8rozP9nyuXlXlFiOEUHvTzBenMjVnCpSTjP1HFb7IGWn8SRi8FF0WCUL7gEMSj5EOdLbbiZ9UJuVCc=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TWZ2yHPhzgcnXrfpH-mDN7QxemaH80GNDFjbpmwASzIxKtJ1ABH8VwxgW0x8VYjIS7wGphXJBz-csa6AYwpx2Mv3v0sM6nhN3XHOlkmcq7wdJ9NGWc3xoUxaPl6VnewXiQxYz_Kw2BRhAl=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RRaUMe-QRwFG28HvL4UtfIoeDc_TmH_uUshHreAKPPhd71MkMuMPJDc64PCB5vPpc5Y0EOTtDzujbFhb_BeS9FuMGMRu-sVQ0TMdydZQCAkL10PqwBCMbx5pMDkLJzKiwHnGqL9l7Ema1c=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QI_vZyO2pmgPqNhSZhqW1JrEmsNXHaHtrqTziWdViHjeU9nj8Wg8rdhhKrChUzCpCpnqqSR1Lc318YCQcE-j77UvPnCF0Q5if_P6LSHtChkgKM6GaeH7ESjAIf9hVGlSOeM4OyqniOnDY=w203-h304-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/21a760840b3cdb736eed7fbb81120835975b7b3e.webp',
+      'https://img.cofynd.com/images/latest_images_2024/e6bb3ef0c239da9bba47663d6b2b71339ef83e2c.webp',
+      'https://img.cofynd.com/images/latest_images_2024/815184c8353a7d696a0b6cfdbc37ea009d5d90ba.webp',
+      'https://img.cofynd.com/images/latest_images_2024/a3e0b22b22619f730bd7de51f10958a1ddf411f2.webp'
     ]
   },
-  // NOT_VERIFIED: two Unispace branches list Gachibowli (Old Mumbai Hwy / Modern Profound Tech Park, Kondapur); can't tell which
   {
     id: 56,
     name: 'Unispace',
@@ -1095,8 +1115,13 @@ export const hyderabadSpaces = [
     period: '/ month',
     priceFormatted: '₹5,999 / month',
     ctaText: 'Get Quote',
-    googleMapsUrl: 'NOT_VERIFIED',
-    images: []
+    googleMapsUrl: 'https://www.google.com/maps?q=17.436831,78.367207',
+    images: [
+      'https://img.cofynd.com/images/latest_images_2024/23e7a3bc13846bde355c5f3b5c996830c4aa56e8.webp',
+      'https://img.cofynd.com/images/original/19f48c9d78d594e6818ad75235b9496b56964645.jpg',
+      'https://img.cofynd.com/images/original/e9944eb0ba9c732d6da9c642690e7a6fef21f050.jpg',
+      'https://img.cofynd.com/images/original/1946316516bfb6db33c376a475bf2dacb956da3f.jpg'
+    ]
   },
   {
     id: 57,
@@ -1111,10 +1136,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=5107968291087983663',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RAH-DltptVzlPciwoOiqMRcvK9K8igKfnOyANRsWBiD3miiZeagq3HmggEq3DP6tBr66lzo87BNNfKML1fcflH1_IuGVY-AA0806KnyKeb5hV4kSaloKIgU9S-KYFLr106Jgg=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TZANwQOtwTumIAV1W-NjhLU6viWJ5Ox2lQ0OP_1R1EJKEyYN14Wx7WjZs41UqXmNF2WqLK20tZYIWIBg5tUBm3k7QxCGHkhrjjGbCyxSrXiZifFOioX-dQUcbSvdEu2qGgXcvm=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S8jO9upYnG6T1yRHPRu6T-7XtpGNuzBHWdzzs8k4DvLHn5dOoEFc5vMUpEMdjmXXoKm9gqSJFdOsvcsmRmRitRo80Mv_ywJhlyfuyHQSXoSw7Kch7NCcAqVFz3M7PK1obDKlEt5w=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RKVOjD_G4yMNlQCpfIbVb4sneJHuzMhNjZNbtpzK659j0_jj_wxiYydqRFWvrNO7DmItJRsL181_BM3uOH2W4-PA978aVVjnYjQV3IFLWs_OF1kYFrwaYqcmVcb32gOEAXwBfnfQ=w203-h152-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/6ea46cbc74d181359cb9022d519d1153dec7cb49.webp',
+      'https://img.cofynd.com/images/latest_images_2024/bcc50ed7ed7b0298efe5f31a3d06f47dcef8202b.webp',
+      'https://img.cofynd.com/images/latest_images_2024/977d2ba49428518070391659b515cfc2b164ebb9.webp',
+      'https://img.cofynd.com/images/latest_images_2024/1debaa05bdcd69c079e96f858bae4070110dc3f9.webp'
     ]
   },
   {
@@ -1130,10 +1155,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=11726088352723803338',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RWe4P0fpps6Gn5pXgqwdf2URIGpdeTtRToylHBRrqo6UnH63YQG0gV4NxrI6Zwsdj_AXvca1TkemNrxWUcOoXSOO5bVCzKVMy9f8bHnvzlbLSbuSz8JxYgeK8sLl_-jD0F2IE5=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QNgGmppjuo2TLwDeisdl3fGlrdADZMAys7zXlSN3eHVef5nhzsTGVEvTLCTSd4fddOfejh9e90LFczgNfkaq3CGiPo3NU1ECMr29OgWoWVKXh9IB97mJ1yc7ehYckWWVDZAkCkRQ=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RJRbRVsJ4coXGjY9dwHf4hIgxNFL0XSW_oHOU3H-KfLwDD4lGnLRwbztG4ZarsMoQB-5Kyt_-GHI5uPLLpCu-YdiG0_Si7RW7BrAN64yRvNz-_XXrJQl59surV96A-_2xLv6Q=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QQYhSXquskSK8GiyqmXuFg6k7fAVdljVfVeLLKn6CJVExMyBKhzIDfgoqcVhYasVb11zxuZKawwgVFJiTiTnhPo89DyslXC2otx3rmeTWMTtoa0sbyHTQGJBidryh7A4uUpsBc=w203-h135-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/1a036196b5f49addb570140368eba9ba503bd605.webp',
+      'https://img.cofynd.com/images/latest_images_2024/54fc1bb1d3cc3fabbe0be7ded27526d2007b8378.webp',
+      'https://img.cofynd.com/images/latest_images_2024/b404f099703875bc98e7d0b8f112cb041f92931b.webp',
+      'https://img.cofynd.com/images/latest_images_2024/2be10179738f9a815546a11bd90a9d4a4a05d748.webp'
     ]
   },
   // CHECK: Maps listing is an IT company office, not tagged as coworking; no badge/rating on your card
@@ -1150,10 +1175,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=4370628572697052554',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TwqrYd2vjV_BQbuK-smorOpGiYIUYI92m5tbe7cYeprHGS25khBRUaXLNUm0PXWXkZyMsJGV0a6ldoEWnLavpVT5WyWOn2ydOnZViEJT0bMuFC6ShYhX-TDrmnvFinn6kF6k5M9A=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SvDFjEO3y9osSy8RRe-7ic0Ja5hCSPjMwIFutCXdNP8uowXzuNx10861E3pErzWIIgyPabnvgvx_VtaV2e_Q-fOSoxI6tHL_imCpLQtqN1acpMzQjJm_zyHFXQ2VjLP9ptyPw=w203-h360-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TlK8iSKUNhUSrTJyyWIiQdOG5U1j1wZ0hDzIPVv3xsQQYd-DJyyV4W9mKVnTsizldsf-m4MrOoLYZUOpSBio-4V88bGpSq1sRYXChhXAyZl9VF-0vXaC7in6Ko7X7vHl0XDMQ=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q7MoVYTbDOMxb8Y_AcXPpm4t_KBKSXzbUGqrpa0E41GG3yU0u5LEe24IRm3L_5uerYlSNwEb9gNSpb4M60WAYspFlXTsZzfOUPqtMp0HKykPBmo3r6dEGNOyRIspZ8UY8JeVh9=w203-h152-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/4b9a957754c5c4cdfd6cf16583f334b22696609e.webp',
+      'https://img.cofynd.com/images/latest_images_2024/d0c53f5303324bc54688001bcafaee386f9db8f4.webp',
+      'https://img.cofynd.com/images/latest_images_2024/e40ed664aee6b302a4003bfa17b52d0a5cb0a0fa.webp',
+      'https://img.cofynd.com/images/latest_images_2024/813a5a855f24b233ee0d90ab2d7ee426231d80bd.webp'
     ]
   },
   {
@@ -1169,10 +1194,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=10682465508281460252',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SFWt73lErYMfTm2XF7KoRRwG1ZPZEE32epWaZGeYOYY2TfvagixxZR5FF_dorYgdpEbB2c9tkuahKgTA3TiEkHwTyirazMoI4YOGBPfwLEZGx3CyvLSPwA4q9qzo6rYQ5NnW917g=w222-h100-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QUV_htB6e75Ojahjito_j4GoPv9w1OZKO3Mx9q7jGGMJRt9zLsnS4cYBDz7uX0q5ZQ2MaJornANKItuj9pIVxFO6N6gKHlocYOiIyY6mftgh6sEhyBw2N7Qvg25QAU2bbEyC57ja7LaMA=w203-h360-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S3HNHLW4B-BvlCurp_Ery93G61Ho60CKTR97p71GTYwN2OgNOoxD4iGlnqvXQ8yfECvwlQSkTaUQOsaQctENoAMpVlTZeUd3xhcGmh4vzJgZTW9RJJ32OEDSFx_4WakX632ETJ=w203-h203-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QHVSltW0nJTyIGVWJMm-5b06LawWyWMpRkbPPH8RKhNUCZ3g-Colj1I6ZBKBTud9tp0PL5M4OdUiK7vudylhch_c8aeiefoD6D4SmlhmhZT5fENHpsyVFVx2C9t_tvtdlb19DLd-ZuFagz=w222-h100-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/300bc6d3010bd8d57366c46be43e06fb7a0e195f.webp',
+      'https://img.cofynd.com/images/latest_images_2024/844455b5a57724d587dfc54c51f640322231d8a3.webp',
+      'https://img.cofynd.com/images/latest_images_2024/4328a7be29125a4fbf9975970c61203db7926aee.webp',
+      'https://img.cofynd.com/images/latest_images_2024/b3dc810076946c666b5766df4bf2f7bca03c45cc.webp'
     ]
   },
   {
@@ -1188,10 +1213,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=14195552941024254275',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T7plr1d2mqcUqLzSb5aCswcUw1bmL8lpnkKJ3BptYryUx8Lxxa-BPB1rgk1N-YMgLQbD-Lw9WHWQOry-Hu9k2VEkOefqBHEzdAc8jvOz9o2yrHnIUga2EHYanOYJ-heJM6i52cDf6RB_q8=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TR1k_bXc8wVXWmPNwn5ZwTCbDXUCzXdXmRrKmj82fUYSlQ2EycyhHLnNlrSXI47SlRg_LqdUV-Bth7lSHTZVyopk4PiXlyXai_dH1p5EIcv5ciQ9vDF5EuAAtRlmChLOtp3E4ayk-XjoXj=w203-h255-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RG2J_GUMvbaNX3N_3ESORMf9biwRh905s6IjDp50b9nNcrYHf25mq-u7tbaOAC_Qc8hZw4CzKyoC2L-ommTeeHtkHcMpgsOBWro8QtE6MuBXgA6cfVQgCv569byLqOpPxjomRrTTJvqchh=w203-h304-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R0RuhwiiyTAYJLaoAn5R9QRiOMRrC5z2urIDqmr5WGHIO6JBchZ3mrLZZXbRTbRS1bZJcDL1P82Dcbdi-eEK33ZzJAWADYCAJefDc2VSrekEem1Xuxu5XIwsBkgbi0Fuerqs7Itg=w203-h270-k-no'
+      'https://img.cofynd.com/images/original/aef2b2a26689f5a2dc832c63a1e565d58ff7eac5.jpg',
+      'https://img.cofynd.com/images/original/2306cb1eff8a4232b9903ddd941a8a3a8278134d.jpg',
+      'https://img.cofynd.com/images/original/69aaa27d36c561bc60b41040ac9ef00d098419e3.jpg',
+      'https://img.cofynd.com/images/original/f8fc392cd5d187886b5fc959bc0a9b2238e51280.jpg'
     ]
   },
   {
@@ -1207,10 +1232,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=16991332781816669071',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RQrZVfGf6BOj02xfMMH-FQv0N8OispkD0kL9PbVY5GoNkuq8H8CA1hasszucpvjPozcvVK9wZrNZD-xw1f7Ql-AUq3Ymqg3PgTtuCNDmxuxO2hwi9DjjsjYeCLEUUJPGVCnnfL=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TC4Z1GDN77nWX1M1n5G6-gkZ7jMUnaGkVl8HgXcIhENZd4TPqGXDrsXR9I9qE_t8ZWlJo7WS9jSOMuAJku0Stzv-Uaf2p8DELPkifVSbzW72jcWYVqWo-hw_CCOXbLul_Lw2lK=w203-h360-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TFQg_6W8HNlonWtPMkB4yofWz46_T1oof94yntM4jaUnCcnvQ04lwlHeuDuA5xPqKYpihHd-oRvCZ0te0iVKLSd6wUiM97izPXmJ9LSriRzt707vE7A_ImfRxsKadXWnAFPEYZAg=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S0nJS34y6C3OtH2h-S9jH_Mnnuhtwlx-hONnkjvOG9qjvi_4fYhpXjSoaowh9flYvNl4ML_lDHX6ceE144qX95-EZnRQidewp30g-BZERSgJR6y8vitFw8udZ1qfnk5ZJ3-Pju=w203-h135-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/417fb8a7abff0cb6374d9cace6421fceffd1371d.webp',
+      'https://img.cofynd.com/images/latest_images_2024/c0cd263958637a93445474160470fbce202e5163.webp',
+      'https://img.cofynd.com/images/latest_images_2024/42e5e5ec75060edc1d7387fc11a6d5117b6a2228.webp',
+      'https://img.cofynd.com/images/latest_images_2024/8cff8c5e364b6bc53a066a4c9f5b8e80f2a8c382.webp'
     ]
   },
   {
@@ -1226,10 +1251,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=12344402414767440633',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q5aXAgE1qjIlDiajtxgLBhU_6UJ3Wc64aiQu2idavScCI-9mXzrvsomoeeKk9zdfjhu6zMPHStzAr3oCUOt3AihRKUWzOS6OtD__WB42km5umScKJDzRFRxikRw_rBeQGCcZAa=w203-h134-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SF5PlJYJqNAzWOv-4Gucn_75O6g91rLdQwMRN2hpSiYux1co0edzwlvzyLOH4u6vVJivBTBlt9dT1hLlJZiMuyhVL3Zcv2yHXWGWkMtKE-SPNi47yX1BLoWJtgZsVSCJ_VlFA=w203-h358-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QTttj0O8FI0AHwO84hu_rgfwfW1WRN28o4k8lNw8a-Fv_Znw28lJZtdvUZ_o_wDHR8u_lwZB5Gi7HaeskGc_63G1ml23TOjjyh285cP2UKnd0ovyq75vDHgbe5k6V0faMUDhjY=w203-h270-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SUukCNLEUA6LIZYk-8VC0GWFDv3A8RcuoaTBImoDh3nDENzDBexfmiekvx5rpBZo2_V-fLbDYDm2nmBc8S0yf1bN3tbAOnU2Yr78AWqf5XIqdeXVN2SxGwSsClZO-OwRowCNk=w203-h134-k-no'
+      'https://img.cofynd.com/images/original/6701eb54bb374288a7e138951b3656c96ecd49f4.jpg',
+      'https://img.cofynd.com/images/original/ddbbc264b2664e3c1d72c5cad90964191926473a.jpg',
+      'https://img.cofynd.com/images/original/6b5a5bb4ca2b44ec57c9817111ed4156288996ae.jpg',
+      'https://img.cofynd.com/images/original/e33ec06d303a3fe479e667234e59f432f91717a1.jpg'
     ]
   },
   {
@@ -1245,10 +1270,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=3873141257933285359',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RGfMhb5cNz-6Uw7xospIaGi9BgYADAcuVqp_ZPCmV_SiWewajm0sfJRbEeMuSLU4yv0-ZP2BWhCl2ilS8C04EcIso92pDRX8gZ1U_4HMuo7aw5Z3SUqCvvamcODsPXUGnwwOFly40QPXfo=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QQR6oVFwkqbm5YGg7AllSrv9vZKS2nbBYYb0LSGW3g6M8o7t_On5Hqsny6puZJeAWfP7yUyqRgKTG7gpVeQQO0XHxfNbP27FIh8iZqVWPmwubqbwQTvLeJH8iJ4SLrs1vV58ETR5pUMTMJ=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SXQmi5OJC4eE-GD-dzaOKp9NcXgQW_1siHEQscWvUJCjIsM-_ZhD9i7wUkPDpIhnJE-RqYIawpEngYpp3EUl8MTW28Ghst5WIzEAGCmmzd3H7nVBOD8_j5hTaeZVbxNzvRP9s=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9ToirIWlzK-L06JdDS76wAoSufAIuZZECj8a3tF8pfcusebY6g9qr30hg7hv01y2RNTjuY_wetpSAoLHSWqumbmwnCDL5BvkKMnnWt_vSBVmE1v0mIybVIzrEj3fYYSNRG-iCGCZw=w203-h152-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/4ebd4ad39ef4645f1431aa7f76b174ca32f2a8a3.webp',
+      'https://img.cofynd.com/images/latest_images_2024/71f62515ec59105c8310ad098ba65fa44a58c819.webp',
+      'https://img.cofynd.com/images/latest_images_2024/6550955a4036fbd826282f0d13e5cac04240f9c0.webp',
+      'https://img.cofynd.com/images/latest_images_2024/ccd7254fcc8ff002d2d011f2dc5f5306e1621505.webp'
     ]
   },
   {
@@ -1264,10 +1289,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=1644007677573665895',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RorjQP__JGhvVyEJOYe1ZkJsucop8taSmcjniI-H-gqn79FGyd-39w51O0EwAYYXqYUBMZfVU5SZQb_l3iIOmkOykUpTrfq84SmMi8r1jdWOa_8b9yuCagE3z5OrqwdZ62QNWT2g=w203-h100-k-no-pi-0-ya32.999996-ro-0-fo100',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QXAuLvKe8pt8vkUHLIphao6XmeCqXIJEG-0Rmyyvi9idGtZbPQ1VnF-sGlkrTuPs1HY80WbbrUR0__xBT_Y9CADM_j0_Ty5rizVBj9EVLsPLCq0fR5fC_lUBlPDg7YmOcETjwrgA=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SkSGXu2dbXMZJ2YQVHCCktY-OwXcQJXEhjaiqfZ6JlmreWyPZdbFVAmO-sh25x7bkq1dkEV1WKo1Sswz11LZIz9i9Qa3TKBK8FsX6UpvvVMNaRvCkoQA9cPY71Y0p24C0ocfbH=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QLer4iGMaoKWK36Am8JnRmzFwp0SJSiOQcAo2AB8TDWjmZ3BkoGsQ-xWYGL6uHitaRWnTUc5ZJhlTEl8PLstZp0hkGVQ4O9CP4TgSvFXxqZxtJZcO1AkrzRDz33A-gIpvkQqo-=w203-h114-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/048231e48dafa77bda69d3217cbd5efa94d95c78.webp',
+      'https://img.cofynd.com/images/latest_images_2024/f8d4c3c894df351bf098aed4e76b9b96afad6fa8.webp',
+      'https://img.cofynd.com/images/latest_images_2024/3ded9597393b379dd74679df995377309e44c0fd.webp',
+      'https://img.cofynd.com/images/latest_images_2024/bebf4a01e8597fd6a87d59b4bd00388effd88e12.webp'
     ]
   },
   {
@@ -1283,10 +1308,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=446747466504548351',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9REp7vwRwbSmSKa3I360_Dsz6qMYflosPvLiY-Fwt8_z-7U21x4iRvPQGo_OgO2DdVPH7IgnhCFldamFOgIPUuQ2aIeVwS557rP6bT6YKw1fF9RLNoR7_cWzzvynBXtvlxr0JNYqw=w203-h203-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T6tZH7BjxMsxYrqzZVE7GbdyL9CELQ3XMR19p650aHJjCtj1DwHXeHtYs588lJJuHg1UXjuSev2ec44b-lEAK3Hdcx6NlTYQ8ZSzoa9vUIm0oK-sCUSdHtIwG9jNW-g9oNu4c=w203-h203-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TqhtO7H7vNvHGzzPo_H7Hi0mxiRCvSzIMx3TRgfyM8AfmcPjhyMvT9V_YVX6nfc8kyXhnO_8BpkzYpZCVybrZoYZujTe6QdXQ17TxozD9QMR7hMbLg3vwLDY2LES7YBJC9rqUi=w203-h203-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QokbOd1AQYq_u-D2xa3OkGvcSWIV1cICB8O9bj6zYCQrwZ5RxWsY8vUOoXBgBsxPEc7vy3rv2HB6GxkPU4IdLbFh5ZIiDvhd5_pCWIppeoVCZSnXwt_4-R-zN0sDFz9vR56lyKVg=w203-h203-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/687879160f5c409068290e8f6299757b8111e168.webp',
+      'https://img.cofynd.com/images/latest_images_2024/177a60c00fbb593443cd4968249a12a2bbeb98a5.webp',
+      'https://img.cofynd.com/images/latest_images_2024/3b01814c295efaa5f142d08badd8b06ca4af2a87.webp',
+      'https://img.cofynd.com/images/latest_images_2024/6beef382d4a06d135a32f3898c0268fb36a4babc.webp'
     ]
   },
   {
@@ -1302,10 +1327,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=3403082449006230353',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RP7lsn-QI9t6O9Ibwri0ethqfiMgww86NVmp68Q7zV2R_62yreVwcJHjYSBzSDOyGHIqQbn98pMWBl7yFBSodUb07HODfX9cNhL_T88A1zfRXox5Yf3ebtaGd0jBSGsOlYVEXK4M7uQnId=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QR8ixJCrGMsUzGvRZBectefsZZiQ6bSp28wusw0JjQJFqxClH4kBsI1qIiVm4dQdvX4eX4ltGzZAbd4sZJKAdSSXn4F75rgm4xAM2bgrTcm37WzzTmCkmcaNi9txNxdBlE50pF_NXJ1v3_=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SV1wYZqcVxHXmBwtMFgBjhhPJxO8BX5leIe816jRk6UIb-Y8OgQ6MUIPzdZvECJ0Vw2LNDnjKC5FAhnWDNChEKo8vT6WxWAr-fR3Sid8juvjekV9qLUgYhy6rvmxaa2lhUq8bNMxWaXwlM=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SZ-cEpbGb0yqjJQ63LfPXFkrLW3tVEnamyktnOrCgQVnLVNVrZ2dFHx-jWi7Pbst66uHo4gQTJns6Nq44EEma9ugXHO9RpEyyAcjOjeYTrAqcVJdFU0dOOJqLA3b8f5eLWnh0oLXPiqlg=w203-h135-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/b8b2e82cc88452e1e200e7895971a8ad5d99a941.webp',
+      'https://img.cofynd.com/images/latest_images_2024/7ea7cc60b65b949e066e973e56399ed7890989b8.webp',
+      'https://img.cofynd.com/images/latest_images_2024/7dfaf28a5cf0cfa7f2359b48b7862c4dfcd2419d.webp',
+      'https://img.cofynd.com/images/latest_images_2024/0167dc26e8137fb6671fed7466003499e080ef27.webp'
     ]
   },
   {
@@ -1321,10 +1346,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=8101034979992877860',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SNBeshM6XJbYkQY7zLIxFyTiTY3DIZzhkrujQtCDIoPi36E47PCbHqEjBIo5dII6IZmuEubj8dGGAZXtcCQujCWLy52u5ECsrz42cnzrnYPkul7izOmGbDC5fJinp3cCLod5YuPGSsoupc=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SmXR6F5VE1uzRUgeBejf2nlxWEt3-G4jUKWpWvGG8gfOhSFasVYtC31w9fLDFjJHO8NiUceLKHi6h30hzcjUaJyjs59jY9G0l450HULy3-fPddKE3QGP6Ke4qif078Hxt7fS82Ja8MB7lo=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Ry72sQtCx1Gyvh5uOASXvEqVd-Cz15iNjVUIIaSnTHKmGspSZduI-LnuDksiSMiBGMyrAXz_UqaNRr-ouo5imS947_d3ynH_KziPVC1uWZBxTpKaRHxSU0QotRlbATq037pVuA=w203-h360-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QcTrZh1ZEYD7yasTA-bCbloQGdZw7uB14KEN-in801yPmy-igNcrH7-d8C-h3aMxR7-XZJKB3bHWzRVOiCmyauhWkAWp26yOXdUkxebY8Qo9gM8SBNpCchq6N87fxFKPOM1ExROA=w203-h360-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/eccff5683abbada31ef04313cd4cd134ce13687b.webp',
+      'https://img.cofynd.com/images/latest_images_2024/11bec46892a68831fde2461482aff7acf4b4876c.webp',
+      'https://img.cofynd.com/images/latest_images_2024/c2d2f12db4cf5ff4a1ba95b0d8ae2f52728d128e.webp',
+      'https://img.cofynd.com/images/latest_images_2024/d9599922b5bc5cff28c490c8e2014a0473cce87a.webp'
     ]
   },
   {
@@ -1340,10 +1365,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=18191068146545397652',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RiYPRwMZ7V6-HE1AMNTqEmor_U3PuYYultXJp42X8Mg2QaivavXhCLx0cjOjLKBDzheW03iuSMTnI5HRzfBugy1su3-2ckJWOt1uiFEmARDxJIwyWJFnhT9xO7_fSrhLV8jGOiXgq9NlF3=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R__HJGPbu6sMH_X6eNMjTsOvgLGaW_VtlOexQv1-dZrPhU8F3_GR80nezT2n3fC5RYjcySsqF0oWFsCxtFmsbL2PRly7PmwjnwVpF4rTtC30CS8VHMTsKVy73b2RT7hoZkQYfMag=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TPSQ1wMpYlOs3SWcN3xX0BEXFW3q74_QYDGl_FtPa-1N9zI3pEQokMnhO1nt25vp9HBBzv-kvqZR7LEY0U-QOQTt36pO4a8_vc3daBObsRDq4hRUWDOAvJ5bs6ILCyqo4v2CdZ=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QM6XmYiZxEHvFGMoy7H_Byf9113PZDk7eBshhTKgdlAunOl1xH4Z65vRYr6nuVXEd8vXa53pziYPJjM8zdUHSJU4ehDsEoUSD3uy5Q9LUWinE03d9_1chfbacU3JKq_6IbiQsEEr1QTOJA=w203-h135-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/229a7eac253f02ea52ac92bc1d0a7599698de8b9.webp',
+      'https://img.cofynd.com/images/latest_images_2024/fa094a4203b2399df62b70d2cf089ebcc8b6a072.webp',
+      'https://img.cofynd.com/images/latest_images_2024/206ea22238fce9e5e567f1f9976ed3905b662af9.webp',
+      'https://img.cofynd.com/images/latest_images_2024/1181f1d59475e6aa2e27134d938fb41cacefd1fb.webp'
     ]
   },
   {
@@ -1359,10 +1384,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=17726194110001474505',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TrbOm-Nsrdq7rfi3fplx6F0fxxVccDHwPBiI5Ax1lWdfOHVrRahNyzaJfa2x8oI0kEZqL7SdTFKsMU9GfdvU-9FFZex-bQOv4JYOteuKoOnU0k893qpw5y5R1SdRzajdkMoBmxNBLretM=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SPaLfA43hdwT96dItR4jWM0hHfHbfUvx_5AvHggO96y7MOIt-OIsP03fQqC2RYgn49GADoga2q5QHeG8uC1ecq311UdTpLTOPbyaUthMwCDYBuluoBE5JyOeZcTHn7SwnpsvP4Zy0TaKE7=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RgmqUR9HlBTS1GguHKyUXlc5Hrd3L5-nWMeAbrrSkerk63UA5mAcDj2tyMmUtG5JNMvTQ1V-rQIeIoOJVMaDlfER2zemlgtGSKF2BSTvRb6ShtgmC2WDaPGULThVKRi4JD1TSFHcP2l6DO=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TMxn0R0DYYbRXW9DOdpcq0QTkC-g2X8_OW3od7G1BmQW9CG7oz0dd9dOjI54BI6fIVWpOVABNmOhsRIUel4nkDm0AkO-DaR7G-6NZr3jVXlgmK-2nTf7HVizaPEHZkkYA5BAe9ZE2Xd6ab=w203-h360-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/27dbd207a40af6ab7987b153bacbbf63f60f15bb.webp',
+      'https://img.cofynd.com/images/latest_images_2024/c703a45b35dc5b76eccb3590ceddc6cbf507d864.webp',
+      'https://img.cofynd.com/images/latest_images_2024/1a9bdf2b5fc5f72c3d194e77cd93a1ee567e9c17.webp',
+      'https://img.cofynd.com/images/latest_images_2024/37420bc368b5dae7f1d9a8aa53eb1babaee4c777.webp'
     ]
   },
   {
@@ -1378,10 +1403,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=10774990012639854890',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Tf94_xrF5_oSIdPYx_AgOrgNVziJvkhL0oCD2Dd_MM-FSJQ3QBbNpSCnnfqQj_f_TJnY9ppkyrVJal867bAwvBFYi85T7UMHnz-e-2R3Zdk5tas603drNZ7JcXn9l2sBKc_wdu=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QnheTvA0O5NlLcQUdtUGiuJi1p-mxErvNG_hmkKExeB2UToEws6RNLXx_tvbo2Y-fUKj30ZN-bUctusxiI6_EbRHypr-WEl5VfNakjUraLVkNRz2qamSTJuLuzXu3rsK6N6zyg=w203-h151-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S5pWHQiBK3N-bzmQsvWaUKAQttl-Uzu4M1YrIAO3ybmR3taf7HevUZSEzlwzFk0nh8cHy80V-mLJyWAA3ntrPARj9NdTTF4-U1BdAH0S2YtcLos_lZWXmhpdjJSvlkixbrBRpcRg=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T57pE1IttZ7IBRr9pNYZ0cN-rhBdykENNB0VRE3hZfh6O4Bavue7IEvY1-yNaUyPFJpq97kbRmoYd7RInIVqEvQeRYV1pZLowr_-qwqNCrjfytLszlFO_rKW9yRO0wE9mPNiH7vwlT46I6=w203-h135-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/534c67210ed6952b6446b92e8a7eb5cb2ce9d1c8.webp',
+      'https://img.cofynd.com/images/latest_images_2024/841185a50c859f1680057ee8fac2c3440fb2bca8.webp',
+      'https://img.cofynd.com/images/latest_images_2024/60850897036909bf9e61507d0fb69220781496ed.webp',
+      'https://img.cofynd.com/images/latest_images_2024/217d7c5b2f163f9490a6df3d44a82b565b0564f0.webp'
     ]
   },
   {
@@ -1397,10 +1422,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=9603387333758165177',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TSVlCWYejTCVQzn0wQvqisZSymudfrrXbN-A5dUwtQligiWXTZ9KwwcvzZWL7oloTeC4eqjOEPT-VM0uPzv-3BrsXSY6uvFI-D_oq-EVHei8T3CcGT2hgqzJYeWLoWXuiQFr_g=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SLIf-JineI3Qd_3rr-1Lr6MTF5MjAfc3dB90sXjzO60czvNKqghs2xHX7UA9d5KZARTOGLL0qMeVNnlauPP_cxMeSI2fH0Qvbpxxh5G1xZXnNE7dTEdEXN5SPOPhE5ZlC8D8fp=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Qd4DFHk1YLUs3BZc3lgYbburyxEhdI5VtovJkPUlXhk230rJaVq05Fmz1BHKS8tZpl5-fo71X71tQ-Q9h2WLlXniNpxsyIJCFmPx53Hx5LhEaZZfhFuJP2KJcxJutfTOkbt6zg=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QO4DEqKl4TsGY6sY7Deqjf2b21S7H12isbcRQyGFsb2c3hnNsLCvmlZISG8k9dvQRfy4Xrwe3e19YHos3oivmZzvWIovUUNgphlp3JTv_GzucJJFoznhg7wHMtu2PzB4tvTthgPA=w203-h152-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/42398e7f5da5357e02b30dc16ce4bd2fff5b5344.webp',
+      'https://img.cofynd.com/images/latest_images_2024/bdc339dce8be1f7c17f70d60a7f7fb30c22515cf.webp',
+      'https://img.cofynd.com/images/latest_images_2024/e217e9653ce7157ab5305070aab4efe1c84741da.webp',
+      'https://img.cofynd.com/images/latest_images_2024/b05ed365530559acb244d40d9b093f3376790e5d.webp'
     ]
   },
   {
@@ -1416,10 +1441,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=15077627226700183205',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RJp0XBFQBMkxq39HzW0r0WlPGxZA7wjjnh91jMmU_1VXEsoMHuGHXi3SdA_heIlqHWa2gxTlfHieU_irxwm2wUwLiO842Cd_iOL9OWfXAMeiTPApCQFl72pWovWkq3T2YR4QG2=w203-h270-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RRQJBdqCr7Vy9u2ougPHMzTs-osa3JZ3QeqJdkdaYXH6Nwq3CJQXHjxwbXbpR45MlGrCXv3hrRv1bgGSjdmUqsFZ7T4DpK-BOfk9LMPHneoY9MWsS8lRalIpsVV03zoLZO21Wd=w203-h270-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QUfafP0EiRYnc2J_GL7IETyOgo76Y9wd81XHm2oh2jg2nk5_IOuwhKATiDKeYJnkPVjN9LQy_TzBuJ4JlOP486fmPmziJGCeqFz9uGBa61A4TChDStn4HuJALsfoQoyd_MtpMI=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QHq8B0tLFfKAd_ziPH4CMtj6xiMfcl5udE8-JHK_P4XzFp5ioDgCzNKInWeXU_0EcfOoY02bKRDUq5pYVwSSJXKqqtFFmv6ZZ1NN4Dg9QI_b8GN8Uy2qk2bZnBIQr15bZk8Ei2hA=w203-h151-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/f4cb3a0a61229b6ef75fd51a8f9c361ddcaa18e8.webp',
+      'https://img.cofynd.com/images/latest_images_2024/6efa611c6116f54c49208ff0907abcd5f99106f1.webp',
+      'https://img.cofynd.com/images/latest_images_2024/075b7c6d176265290c5ac1f4ac57b4456bf3bd19.webp',
+      'https://img.cofynd.com/images/latest_images_2024/362757e0a6d58d2de66bdbd59d883c692fa5531a.webp'
     ]
   },
   {
@@ -1435,10 +1460,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=12056890681026454876',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Tw_ZSkJ89QDCilsGfxwuNEtuohY9Zj8WsWbsq3ucpKYOsnUHw0sR_qvUasBEk7vKfQcoOqJY6DsIRCkG57DtX3hLhkdZZv25YLXQua2sMupoEyN3EAW0m50AnpCpmVWOkqVrHbexuI65Yu=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TbEnjAIkv-8OglPhH5yXdztxwrZSxLs2sCgrTiOKT7fNDMhn3GS6j-nkkmhUsdjUQq0df-kqewersE3x5kIukChkv4i2FuA_onHDrJPWt9MedqrvH2YpP1Kf44rrdlHUd8djO1W_ILqKEp=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T2ipRPUcxOPCatDX7RU4id1Mxjj4iBhRMCWsobJf3LFhoK0iTliZW8XOXWdTsWpoQVJNi5UtRtYcxj_ugVhKqp4ifzYQRIckG4JhKi-k0F0k44RY7SvYBb-Gxl1siyWcB-K37Ob03rNSTC=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RrfCQfHs_Tz6Pkuj1g29Va1eOU5aCAJBu1fKt4WT-zFClRXUvO9F9_VDiW6VqN8nC9lhegZv0hU3mJAk8_UBX2HxJlKE8RGBkWp8LKIeV-nt8I22XcVQhV7kVZv2aJ-9uYtVzM1TXvTt5-=w203-h135-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/8e46972f829b62ced5008a153993c061343895c7.webp',
+      'https://img.cofynd.com/images/latest_images_2024/1a88376000210a8ff05461e8a4b568efa32b1741.webp',
+      'https://img.cofynd.com/images/latest_images_2024/24d8a95a6d1c3e08932a866a19af8ed1f47dfe6c.webp',
+      'https://img.cofynd.com/images/latest_images_2024/657cf907df2cd8ef879d4dbe6930720dad8efc5b.webp'
     ]
   },
   {
@@ -1454,10 +1479,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=15113381347321784602',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QjG_mFVVY-PpHsl5Wyi8l_1GwhAJqhkh6FBiSn3VfViQ3uaW-BN0QoanIxJ696XgXiFd1W10momn8CQhQbJcrdoOufpp7O54YwMUN4o63tSN0cMuSJuWqEZQ5vyidIdVV7gHMv=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Ruy6WNStbHtndPNzlu_819YwsnQDl7Awo4eVKb9Z65Pl8W4tVYQOS1hqg6Dc8P7rV1Aq-4OCtxtPZs1sHHklcAtSEsQYjbPcNncZryE3nRPM6UWEdoyYjC6jrz0ROmDdm1gFdn=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q5KwO2SjCtgXRcJtDewFmvpG4di6nyJVJOyy5lShXcsu_0tnI4SG0YUTV6OBmY8-FF1IZnfAVKZdsy1uHFO2W3tSb1ggPOrZHzlbtDd7A-PpRQX4FLVr555w1FKy5YUL3VkN1eOA=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Td-_nUpMYu-g2Ms6m3R3hG1tPXdf9LQIAuuGbrAo6fMqYKgPE6az_5Wx2PxkT9fHZiuaaE9fmAgRLXpsu-HJ2yTjXuv2o29-9C7ggWGJh3DQgb5k1NlUXKWwxbgE5zInZSa3Qb=w203-h270-k-no'
+      'https://img.cofynd.com/images/original/5caf0899b69e1b92ce2077a59e6fe3bf176bc430.jpg',
+      'https://img.cofynd.com/images/original/c1ba04cb17ddb979932d1da5cff815372058e66b.jpg',
+      'https://img.cofynd.com/images/original/075b26030a27776888bfb4e4afd3447950263b0f.jpg',
+      'https://img.cofynd.com/images/original/360c9c7f6aab2a512b4ad709d6bd43e5fa70197a.jpg'
     ]
   },
   {
@@ -1473,10 +1498,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=5716707303385059509',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QCHkZdYQH1_QCpRgFURWm3lxwdDFvuSQPMHRQZqhEBttk5BjaVRmBUg7xryeihQ_0TvzYJAnVx5UW1NDzdVZUMMEAAb-Igg-wcr_x9oGQRKtsRyQ0cJ4QgD-n7MUcLDWZ2a1o=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SJH4MpcE6rTHCXxjo5mRbM6iXmAQIsvyrMbrlE0MRNUeoulUrdOCiO2sixqeFzyImfd2KM4QYgyXeFJTiKVpQK4kZIvsYlrzHMIEBKDRjSpSfx2LJidjP2HZ0K8u269I-CUcjW=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TzGNS_XJ4z7gR5Xpt8vnpJcEq9fwV0qXF11MWPIFnXAsjMwscjNBn7kYmu1DyYxlxz13TvX68BimRNUbfgZsgVxQb9ArhvCD5McH5_auBguLj-iAPBYFZ2krEoLT4nqBvJa0w=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RcMglKYxUBUqvaJD5cgswPnRmI__APuBsvz6tNMWNhDYjbVcX_W3s6bdq33gVmQIrKvKBDh9Yg7Na0TRK1sRv1KqOAurn5ZAjGhZyjGxz_f4wJvC_YwIRKxQ3Q9qi7aTZIVPcN1QI04lc=w203-h152-k-no'
+      'https://img.cofynd.com/images/original/9b095985b807fe35c0743b8bd8ee43ffc1c9c889.jpg',
+      'https://img.cofynd.com/images/original/7d22108b5a3bc1ef20e7859d309e4c560fda117f.jpg',
+      'https://img.cofynd.com/images/latest_images_2024/fb55a3fbd80bd3cb8aa7bdfa48a7f31d4d294d0f.webp',
+      'https://img.cofynd.com/images/original/7870aa22ebd182757818e98a8080fe5113a95408.jpg'
     ]
   },
   {
@@ -1492,10 +1517,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=3747347229323647779',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SIXKt4w1Vi82N9QYwzxBBERdYG2Su16yRVXisr2nnHft_nk1ln7Y928LLYTg8pPZLVCp5zgxc8Dg4GeldGpilxtyITh_uH2R3CSHLrnoE6YNYlB3-w5Eidaus4kqCFEcPMbgaMEg=w203-h134-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Sg0IrAGAireYONZHfwSaxBJa4yNYveD4cF-t4-fpGipDMJH-HNOHu-ZUtNRZtSzxipGhzxONiMKaRAqqoKmxKBZxiylPK4xfYUO_MmCcy-JLugfOUqdcbFOQ_U6_ZF35I8fc1W=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TD5v5FBIzDi8WDBz-mvinm9aqYh0RF-gq1aPg8uozXJGBv5zWq0dj1PAxvU-DdPkOdMunT9dPwQFzLBsI_rNWch_USe88PJBpjTg6j87Fm-PsvnegeVpQwRFyaSMmpmFOPl7yb=w203-h134-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q7N6_CGN51PzZeh0P7SfzPte9X3foYXVWYYvEKdT8-qzFHRoNJ2I-pcUmNOPX50KJ_9kCHc01lIv3LmBDOxa_9X1j414IguXiXwEuW0RTJHXI8cmwXZbwvv-1-L0-BAOuWZ5sl=w203-h152-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/db96f7d9a4df609b80955d6e96792453eb7b618f.webp',
+      'https://img.cofynd.com/images/latest_images_2024/8bd10ced10d6d641ba093c6a8945c684b0271e7b.webp',
+      'https://img.cofynd.com/images/latest_images_2024/d7ac991936d8968663dadd0afb4809b561c42711.webp',
+      'https://img.cofynd.com/images/latest_images_2024/b712a9fe30fb872e4f9a8ef124685efb94660893.webp'
     ]
   },
   {
@@ -1511,10 +1536,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=13316634591917907032',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T_ipFCtnrGMQsuS7sAf4KQBEpVGYni9HulGdq4pw4VlVw6RXX6Y47UCJBa1XqyircTzueuvK0oX1p2LuaM0sz6OEOFTa7izTfiz6Me09ajz_fDPWeEUFmYFZFcw0eUDGlJMWx2=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RVDSz40_X4TUzCPGzhPnUaEdBnlvVmd_FPf5Yo-xHfsylrrtpF27aHIPyjrqRiuC2Q8Yhmwf8wg3tup0VCf46855c9BJrpwLMLJ-Tv5YSphmFospbHb4LeYXl11W-Vs9tuBNfC8Q=w203-h158-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QLJKAG88-7YDJcJAsOGE_z3y3mASxstRxiUe8K8xrCJnwcdSWzn1T6P6n8VasSqGCZd_5m1pNcr74hq4ONAWUYx9Q_Y2h4vYIDJMxWYq9cfiTqBVGJF1zAGBwlnV_o_VF3tArv=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S8xv1xOlXIrpo-MpHMnHz3HlgtlBnA-JETK3kzzlOR7YEPnxKrVy9SYXSi-9T5w7W4-C9UCxfVSPSZrgut1ceV4IeqKIV7Ll3L3w97bOc32JWKQkpNfa2LelmbSMxQeTaPfD4Y=w203-h152-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/36d4106c8834e220942cd458549fe1ca3047568b.webp',
+      'https://img.cofynd.com/images/latest_images_2024/53c614c4d74867da700a352ae1a9fe90d5325b62.webp',
+      'https://img.cofynd.com/images/latest_images_2024/820c9080dd8e51ceb92ce10b36bad9674a834ab6.webp',
+      'https://img.cofynd.com/images/latest_images_2024/3a43131ba62fa7bbaf1f30cb5b81f374060d5fee.webp'
     ]
   },
   // CHECK: matched the main Hive Space listing (name + 4.7 rating match), but Maps places it in Kondapur, not Hitec City
@@ -1531,10 +1556,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=4971099867963894381',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Ts5v2ilNdurh2E_D67pMcYySYuCb6zlxutsm7dzsnt5NhiUYirvL0ap3cGmbDZmQluftI7kq2UHKUAf4n51Ag_zYRbug6KZAZPGkOWkDUQrk0b_jahbMjFtDdpeedKONQHGaFO=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RpSvlHANqf6N6hkdxT3fDbM6-N0DO2wcOtERwRotqbgY7N8E8oHvvgfdZfJeSTnEUOfecf7vzCgOB32NbGYgqmFHibbGnydzaxD3cwyG67rlrSrhFHezk22n53cVcS-AkBolTjPg=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SpiuDZ0YKb_ISDc9SYdsYUxBqrieN5HQ-RoTXosc8Q56Xcl47ghI83wLC2VY7mbc2bGjmMC7FadooAbPZzD9CMuzJluZY8WW4QM8ih-CU8n793TRWjVnFX9CK_39N15BiQBJsI=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SpahW0CH4li5J1pJRiahiEIq4bQaMwHrrUY47vxqPPRxgg3RF6cayivdrN7Df6IsBOFfHU8KT7x3QU2Q6mPIRRtDVA02At9vg7UDFKVF3icKNQsR-6BLefaXoUjOq9yWtWCby59w=w203-h135-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/72666157505972691f817597722a135d4451f1d4.webp',
+      'https://img.cofynd.com/images/latest_images_2024/0497749355ea07c0cbd8be1bc2c109b5b0707dfa.webp',
+      'https://img.cofynd.com/images/latest_images_2024/42c951a373950daed6eced2e8b40451e3fe93fc4.webp',
+      'https://img.cofynd.com/images/latest_images_2024/ead9a2a2d25a408d4d842f971f33d01bba33b13c.webp'
     ]
   },
   {
@@ -1550,13 +1575,12 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=17528677072460908812',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QspXDK-NzEvt-rIv762OYMLgv9W9BNLAb_8E2Yz0M5n4MM5XC3e7ZT4s_iAk7VV-GtJoMn6gHxWAH16bzem1b7i8U3yJ600TdA_wMiGr2V3wDRBhgXgz9V9lvuVo3aoLGD55M0=w203-h101-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SJqOu3HsibI9KgkgGFrk5EDt-JT7LCFKLNtycCz_E5idWinRMP9Ql6ss-L5w2fDFVdWkrsBxeSOP3BVzoM4NVYd5mxeBhw_o80MKc-tXtyiLZ9sAHRIKDGp0YavAEJqGLxkwmEsA=w203-h101-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T0M7ebr11jJeQwE2chnxgpK53y5sl2kKqJxybcqjFBZVf3QbeDn3kUzwHGneuP7wtSs3XCklM8FLlxlJI6muatqUDrf8gVDMztGwLti3WUEUjZJti5jXqCVvDYcOFNeGkQ22SH=w203-h406-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RPhGqrewHC7dp_2IIwEbOpe3jRfeCOPCCuQQ3wTc_WHeI0X0AULIjUzoxS0G6qC6VDh7LIRaHUzpc6nOdAbGV94wpsJyXExJlDVeqiC1AWYNQUXWno4rBFbNYvzcOLxPmsLdzG=w203-h101-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/0f4917fd7a4c168e6b7fbfe1bd596366a91b51a1.webp',
+      'https://img.cofynd.com/images/latest_images_2024/7b01225f4820db8d713d67e861e495cff5387776.webp',
+      'https://img.cofynd.com/images/latest_images_2024/a78b24e8c64cef3f6d28b4577116b827bbfc06c4.webp',
+      'https://img.cofynd.com/images/latest_images_2024/0d5c1cb6c890ae523ae98d540d7db8bbce29abf6.webp'
     ]
   },
-  // NOT_VERIFIED: no Maps listing for a Trendz coworking at Durgam Cheruvu; nearest is 'Trendz Workspace' (Trendz Sapphire, Madhapur, no rating)
   {
     id: 81,
     name: 'Trendz Durgam Cheruvu',
@@ -1568,8 +1592,13 @@ export const hyderabadSpaces = [
     period: '/ month',
     priceFormatted: '₹8,499 / month',
     ctaText: 'Get Quote',
-    googleMapsUrl: 'NOT_VERIFIED',
-    images: []
+    googleMapsUrl: 'https://www.google.com/maps?q=17.442938,78.388186',
+    images: [
+      'https://img.cofynd.com/images/latest_images_2024/697eda6b319d91cd30eae694beed0df7cbefea95.webp',
+      'https://img.cofynd.com/images/latest_images_2024/d3727e7fd31afca9d47c184a73027f8ad5394ce4.webp',
+      'https://img.cofynd.com/images/latest_images_2024/5025bcca358a43ec9165162fa238b2595716ee8f.webp',
+      'https://img.cofynd.com/images/latest_images_2024/bed415f1d507e1ea2ceb7b8ce33ffb8180288d80.webp'
+    ]
   },
   {
     id: 82,
@@ -1584,10 +1613,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=440019104161154706',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RiEL9JelyLt6b28b1l6n7Azu2HyJuFdiGiDjLRhUwKu2Osybvgm1weaotep9Jgkg7yhba4W4CW0-7T7YaXTOU5l15wrNkCnwH8hvwu__b7wZYdUyBs5_VtHRQ_wM8BXOMtY1wBFw=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Ts7gCg3xry1d06J0fR3crC7XBnB5XG8dRgnigFImXTOIMEUAHpNA-5FTyRQgTjJkkonlNOKwquw1S-DzLlgyyvdBEuSCrkOgqgvWwlGrGvTf2mqPlFnYBuQRhViDHbCkyKHriC=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Tpow02BktE5EmJqUZFDE0d528QV9tTPhDaQQridCsb33msQuPxoT55XSusHwlSaSpcy0RtN_aucSvvSp5mhSLw6US-sRGhqRW5P7V_UJTenfFDM-vZQwv2ofQzM6CDcUgn67r-=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Sr001GBLoqkW-wU02J0fCW43Iu3cC-azrRjWJuESHfpzjKNtcwM9S7EA8FFhk0SE6Ng7gX3KoS5mwnB3tvoPgPFzqBPuqv-NZcKo2E5gYTE4Z3sDLDzOVlXgjKcWqbQq7AwsQS=w203-h114-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/34c93eb7c8747ad60e2e8a4f180acd984a43302b.webp',
+      'https://img.cofynd.com/images/latest_images_2024/42a2f3e82004aba40651fbb715e418971be18b38.webp',
+      'https://img.cofynd.com/images/latest_images_2024/65b05df70dd8ef833284a6623baba5c279b0d1e0.webp',
+      'https://img.cofynd.com/images/latest_images_2024/4d918c38c9f56f879cb013bbba7df7eb13063d08.webp'
     ]
   },
   {
@@ -1603,10 +1632,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=11857473561098162302',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QNZw5zGt4MwHN2cS5SXp5LiHtSqIn5g6mKVqHLd77cQ14xvV7eb0pVss25FVllVv_aoiuv-MrbYjoLu2q-2TKTbpvVTT-QNaoFPI0TF8sPlyz4SK5Jn1QWpkp3eIFVp7-X0hdmdg=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QuE8gq311HkgvRm5huYmhkovJ-XwMIZpj9cL5l6fiippS7eBmyT4UZhiq6nGy7N1t5mpGPp9d6B48vV66S4DzLgjTOkaj-VvjhHAxjRVnPLAgX9s9EQ8L4WSpf1CLhGnSkpdnA=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Qk1Bf7RLYx7EqtfZNVYSiEQt8FDJd-yZ4IrV9DHh29LZbh8R-tFVXRmJuZT6h5uEW4KwhqIvJXpqT3_tlWGt_qHrZ9KXMHJ6j7zjtWJmpEh7mHpfhTvAjJzVPHfqLyUA-SlwG9=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TwAXxOWXxg1BjwZUalNWZ0m5dPkN5NcjHRCzLT8EU3Pc6J6IKY9-CMIuwgQJbIRd7z5EeEiY9HLecuwevYACYugHsQaoLh_dmm4XXSWPTgXH0H9zK-_betajL8eJa6cSYus6zf=w203-h120-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/81cb38589f9b7ad6fb41a57dd6fb95128d34dc01.webp',
+      'https://img.cofynd.com/images/latest_images_2024/054171847b4b536ae56c9532b63947b6f506716c.webp',
+      'https://img.cofynd.com/images/latest_images_2024/cb62b341cfa135557c308362ef78ad6048bbe986.webp',
+      'https://img.cofynd.com/images/latest_images_2024/9069b6e0902ab80ac042ae2b48ca1c7a687ce58a.webp'
     ]
   },
   {
@@ -1622,10 +1651,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=7439448667164796219',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TRsJKIwVE1LOzI5Le6Ny6QriSbAMyvmn-Rd1Z58rROAWkcNOcsL20E8A2O7KpiOYCPIPBQz6FyfqGC6I5uma01aHjg8ApYwP3CoUzBoY9vfytV8LRYKsvoT_RWTMsZ3LIgxprTe3m4KQQ=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QwwITEBcucNDGH6fVsJ5pI1gAp5C5NaepcqdsejXGCuUmZLZ2vbgQ1nz9Kokb4nUquxXLtIZmDpu5Wi3GG5wJ6bIjD73Z5KALQxHn4chZnYo-gA1FVl8ZzFj9xDNJkldCUgLuVMWAEGDRY=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RNw7zaNZfb1lS5mUQIp3Y2fPsImfiVU-JKoWk9zeOYRrnv90Ewf_9aliZ1VdCtb-pMCKldHrZgG7teuMeOL1yxDBGEuF5H_XrAW7b_4jJRp6BtmapuvLvtRohgorqwqH5icGzT3_uQpLgO=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q8KWowvacdcS-6vak5UY5T13U_LAMwimXdfEciGOy4Uc6z6JNhIrrrM566YlIvd_TVFv7uRzYA8pZzurgWgy8NMlvwbOAcmFUhx0JDkjWqABfZxHBAM08NmOZ_LeP9zYlRY123m0fFZfQ=w203-h134-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/c1aba11a98585847b1a3531c6fd7b14e69761e90.webp',
+      'https://img.cofynd.com/images/latest_images_2024/893252e3ddcbbba9704001cb258ad9ea1bd7f17f.webp',
+      'https://img.cofynd.com/images/latest_images_2024/ed5343d9e512290fb891f60aaec4369b73ccd36c.webp',
+      'https://img.cofynd.com/images/latest_images_2024/2f34971aae6c0fcb240dad0d884a18893c434d92.webp'
     ]
   },
   {
@@ -1641,10 +1670,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=12524914044068216428',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RG8Um4JKACtKScJiilrqV37Q_t7KAyzelo-NzK7lE--dqKs4Akfa3FFpQTzHe7fSz0ym536iZpXSmcm60tf2QwxdFgeXT1LyU0blYaTXIVam2isc6w0CVu8-7_eVfFqZ5onrZAvIWbIEhs=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RkR1XMEjftRt1pm0Nij20AlS4hTotRfiLjfb5qXdbMAe9JlTcw3ssMnVYVxMF6xM9za7aYarSCOGoacl8r5gYsOQoK5ZqPWFfi3Za4PHU1vUyTlMhVxlOL5ys0TKtE6mrV8yM2XPqqDrg0=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9THRHbEz1dQaUfd9tmIVuv-ZnCGbST19VD0gMEY2epg6RTUWCEDgbmsgtYBuJd2-_JD6HKamo2R-QagDl4OnJLyS1iGBr9eLVRi2_8Ues2fL7FcjrQnDw3f3vRZ4m4fA2o6_4TUOUiwi0dM=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RlawnmP88VTFHSCQ21EM3zhd7SU1_2qbfHcEP76hWZYXC_PRwzAxAzs4fvqRjvDtt8L61yT3INCyWcVVdF6ELWyKGaoYHPmTaakhIwHP75177aqNj6sh0OYVaJlL8cwoLpVbgahQ=w203-h152-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/f5cbce5d8966a7f0a572d445354525ab8cb01ea9.webp',
+      'https://img.cofynd.com/images/latest_images_2024/677a8e03820144fcd818481c96730e822c1532fd.webp',
+      'https://img.cofynd.com/images/latest_images_2024/25e77ec2878bc14594fad093cda93f3c7e045e45.webp',
+      'https://img.cofynd.com/images/latest_images_2024/0466cdcda098d4c4261689221d03e83fd9abf5ea.webp'
     ]
   },
   {
@@ -1660,10 +1689,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=3354306477961076309',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RE5y3LtAVzuLhuIScnmJek9ftSm4UIY3NNVYUmcqoRExoOMqIussUvfKPGhXhaGKl8SDxSh47PU696CdLZ-EcCc-lennZHreONQEFTqP4ZrB_cm0GUYHqfCKYvMEhpwROTlWN1kurSk14f=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S9redKX0InmPret4RcObR9iATgdd5fxh89WYsGmfXdy4KTFlz0xTgA7HcfKgTdZhSysXNTaTMOAhGfaO0Ec6T3C_-Nzv5H05aob6jg0VbsDKFtqpAk_5cKVU5iPQhJnf8f9GKs2jugXxmE=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T7gvRnmyXAN398NuEo21ZW9FInDi1itOfMzwWeKYuvb_apGX9PDGiJMFE5tyR4UqivgQT9O8sIkqpWTNJtuC20eYcAwoakOvXQOogRg-b8uLGfgz0ZBINliWdrEiFj6gD6UGEjPegiO4yR=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QKJZEZzvOwvMPZVdGLT-O-ac-Szs1NG29SrqzcLrL3cOnJLX19-maDJd5jn3vabtFOLjbkRtP_KJyOUyu9IsaRiQj73pnGeIY8aYXVYhy8t-2KK98RTYwRwtoxvLqBwfSuJ2YGPtQiXOvz=w203-h135-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/3eb174fe6792131536195f61f502a7d288039683.webp',
+      'https://img.cofynd.com/images/latest_images_2024/a6bd7f706d9577c28b42ba528a74b6707d405c27.webp',
+      'https://img.cofynd.com/images/latest_images_2024/998dd24f8a47d1240421fbe743539b3a927c6d33.webp',
+      'https://img.cofynd.com/images/latest_images_2024/37a0133ff427900d5545ff2a62338a6784aa37d2.webp'
     ]
   },
   {
@@ -1679,10 +1708,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=1076700495648742977',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Rcq19G5LnCctsvs5KDn-H2E-rvqFtxsQ-Zu6FTKomHkOlJbeuuSegRKn3eMZL6nDSMzhb2wmWaXOVoXgCOPg1RPyzCoLJxBx3_J4EaOfYdzVMOSMB9bLK0U6sWI5broBKwd2jw=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Qkcb-2GC-PfEx6t5bmux3bQS7H7Kp3GfpOH5L8kqXcXyhUoSbxpOb0cPZSeSD_0N1R-2-4NTBVBI7OcFezM_PhdtXrXlEXvX7ViW9OW_pnuaR0ZAEoF60Un83UEk7xMd8wnxFM=w203-h360-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TtrIv8F74anVhlHbID9O15EhqxbDCnUdss_VAHTXOfGAMJCN1wJmfc_g6mPQ8Pm1QQwXUPRKIuthJL37RY7DiVRGAWd2juamKyvJgGKXujuUGDPTriTaXt4CwgY23A5c_mVdxRHKTn1Ig=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RSxk0FKROq8Q9LHSbXmgsPgKpLjCmdoTGceekZL2yYE8JZvgUMXxLehd0riX3VZdQzlVOEMPkoyBd2M4o5OWaTTUktr1gEzTRPCqGphq5hGbyzPH1ifVxKmStGnhwL5K5ZBDgx=w203-h360-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/08ab09ef40973d569cd64eb3ae689c8017bb0261.webp',
+      'https://img.cofynd.com/images/latest_images_2024/92c2cc116e61a091a7afb68e2fe769440552865c.webp',
+      'https://img.cofynd.com/images/latest_images_2024/69a0b0e5adff7d35e96d0af5a08db14b56957d21.webp',
+      'https://img.cofynd.com/images/latest_images_2024/70bcb9d502ff9aeaca6dd2abe9adbfe38003d912.webp'
     ]
   },
   {
@@ -1698,8 +1727,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=14221952262106500160',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R9uPIju1iAorO7qCkT94wMpcrXcQcmElL-ql3kbo9wHxXN_iKgfVMgTfUGb7Kr5A9H6tMte6eUAqH9xD_zLyW_glQcLISXxIgCgHTnkpEhByj3CmqBwhE_UfOG1FpDNhsVGx-07JfhsoZu=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TKTYQ7VLxRDBKWYqTlOXFBnsaSWxhb1o63z6tp3Gt5H21eFAXDgT3dC4ql8LnJC41ndtg9rJRBMi1WrDBtXokFz3dIQqDY-LGSplQv_OB0vYsV3Y0v8y2Q3ERNR0mKW8CAJ8Q5UzaK6qU=w203-h253-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/185aeb87ba625240c5000c3756dddf4714a147ee.webp',
+      'https://img.cofynd.com/images/latest_images_2024/62c68e06ef3242e86bdc7ea94a5a971ed5b96931.webp',
+      'https://img.cofynd.com/images/latest_images_2024/cbd31912696fe487a51dc10e87945dc9e531a291.webp',
+      'https://img.cofynd.com/images/latest_images_2024/e73084dfc7c63131a8462b2de1fd3fa54d2a4537.webp'
     ]
   },
   {
@@ -1715,13 +1746,12 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=16472219549808720826',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RJMI1nhuP_cFnA4N7zqHCi7RtCGlgp1A1RbBljgMongB8b3HnjLBpsGOWos4YtekSdcHfwesZ4zIFC12-wEp3EgAFCV029X13c1PFUTfLrKW25q156kjRM9bpJrpZ7GDgGirRhYqFINfA=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q9UdROJ2_Orn_CCmpfT_RRL08n3R0cgX_auVqAhvjbiXCgt4iW_G3DZ7QXkkpEfqN0xn8iPT82BRAHaOJFZ3GcfnQs1Bqm3aps3kb1HLXwDakv-TeAvwLx7LkcoNtN619R3S0QlRRYPAI6=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RkGrivTuwniqW1i1GB9uux-GkFYkv2yIbO-3PzdTFZ-iYVM0wehE8RpiX02F0Lg3xoVsaTWyFCqKAHo46k1MtwiYFk30AkmJaLPdGNtW93yhWqk6glVliXMdvuMa9WwILqp9zAr-AnmZo=w203-h304-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Qco5dkhoak6wNtkpdPM3amXpIoDZGYl4PC9dinnj2SU22KLzRn3MK3xtM_BsEA8ilOMWa1GDXjd-Sx_-i_pGGt71ytJkI9ca4FzXh-6cpKDT7QaCRcOoN8Kx9JVcX0g-aWGqRoaa0wC8Y=w203-h135-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/a3ccda672bb4662c991d69e3471bb762b30662d8.webp',
+      'https://img.cofynd.com/images/latest_images_2024/c5f889fd820ba45142f25bfd85ae6681424bb76f.webp',
+      'https://img.cofynd.com/images/latest_images_2024/ba35eb16592810b023aeacc806f2262ff62fd9eb.webp',
+      'https://img.cofynd.com/images/latest_images_2024/d75813eb523fa8062eefe8b4d972a21a1a42b3fa.webp'
     ]
   },
-  // NOT_VERIFIED: no Regus listing named Acendia Arc; Jubilee Hills has two Regus listings (SL Jubilee / Road No. 36 #787) and neither matches
   {
     id: 90,
     name: 'Regus Acendia Arc',
@@ -1733,10 +1763,14 @@ export const hyderabadSpaces = [
     period: '/ month',
     priceFormatted: '₹59,999 / month',
     ctaText: 'Get Quote',
-    googleMapsUrl: 'NOT_VERIFIED',
-    images: []
+    googleMapsUrl: 'https://www.google.com/maps?q=17.456975,78.370469',
+    images: [
+      'https://img.cofynd.com/images/latest_images_2024/57b9c333505fa25f7937120657c4408268788b40.webp',
+      'https://img.cofynd.com/images/latest_images_2024/014d45c6a67d46aa95b28216d9a78806f2ba618e.webp',
+      'https://img.cofynd.com/images/latest_images_2024/c62475db6721ceb3dd088c1b799fb612523422fe.webp',
+      'https://img.cofynd.com/images/latest_images_2024/3c511ef99ce13ed642bdfb0abfb65d6a308b83aa.webp'
+    ]
   },
-  // NOT_VERIFIED: card has no building name and none of the Madhapur Regus listings matches the 3.5 rating
   {
     id: 91,
     name: 'Regus',
@@ -1748,8 +1782,13 @@ export const hyderabadSpaces = [
     period: '/ month',
     priceFormatted: '₹59,999 / month',
     ctaText: 'Get Quote',
-    googleMapsUrl: 'NOT_VERIFIED',
-    images: []
+    googleMapsUrl: 'https://www.google.com/maps?q=17.472301,78.410995',
+    images: [
+      'https://img.cofynd.com/images/latest_images_2024/79c234d4678bd020c597914e844c2988d33e93cd.webp',
+      'https://img.cofynd.com/images/latest_images_2024/600fc16e4ce287acaf5170bb77e409effe4b7fd7.webp',
+      'https://img.cofynd.com/images/latest_images_2024/c81263b107152ba4dbaad7c8cf35a2ca51ccdcb1.webp',
+      'https://img.cofynd.com/images/latest_images_2024/b430e73321ac067a2ebce43055ddbe7793d45be2.webp'
+    ]
   },
   {
     id: 92,
@@ -1764,10 +1803,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=10015576475245174027',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TcexiACmgDiI49seF5DunuT2KXWZz-ApGrxOJsII5NPBK-HkwVhn6ZzYpoDzvxi4FJMJnIeYK6GVcfCTL-ixVMujRHXiMPWjrOKq636zO40RZo2oe5P-ANq16A8A7pcgQWGas01DEcmt_W=w203-h240-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SXdBvB9H3NosOCgCsAdH-OvYtMX-aail9DZF7H-4cVJyDIp_TmLPYmU-FzcnYyqbzmfTNIZh4q8l9GsvQEh4d7GRMpVEzJHlT8QEL0evEM67Aaq1nwWB0OnFTLVtO-tZ-nqVGuXSfM4Rs=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QG8uSOvIUJO27V8REl0M94-1e_UC-mjX-85yl6-qJ1XgUVlhKv2UbKccDcKehOIsxOfkgJbS-6H0MAsMxjFAJPJuJDXp-Y9ju-a1sBAzXKEvRc_0ZrcQYNFd7dA0xNSqGQgPnv8HiIyDM=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QyOIuVFWs6kiyT6MLk5a7xsMmxFg9ed5X5yeJQJHGAR2DbABlxUbgJxpOeWIWYmyFc2DBq8ZyPtqikcnzxqK4jb14h9c6iPyM-tOsIQZgsREUG4ncoqaB0a6o7Mm_dU2IgV8m76livAZGS=w203-h152-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/028651cefa8d9755d1837ad8da7569c333e45f30.webp',
+      'https://img.cofynd.com/images/latest_images_2024/fa29772e728b5531f375f5aa50cfa3404a1192d5.webp',
+      'https://img.cofynd.com/images/latest_images_2024/599817e20966c5df2b83ed6967447de9d32c734f.webp',
+      'https://img.cofynd.com/images/latest_images_2024/88d6136f179609bae36666eedb2ad66e7633d418.webp'
     ]
   },
   {
@@ -1783,10 +1822,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=4041326348622145142',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q-pDpsO9qQmrAdG9JfSDm5twI3JG5_AICBABqdoi3hqDWpFwWJbsf-FGlauhuh3FRCaQ7SzF9RvcAQxlfGq4y6yBU8xjpNeYjux7gVgnYVuvizjaH9dtIhPn0bJ1oaaVjTXHygfbtWhkMu=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Tmt7LVrDD-x-gPCEYrY3xgVtC-d4vpdjaM0r5mqyVcBhGOya7Y1BTx-61qpD3DPrUx1NIS6VJs-8PQtSDP5Nd00pKKyVwq0C88w3uQxgUChNYuRKHwfnelJUvn3gBudDBrDqgb50vO0JXz=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R9x7GVfZaXP20Bs4TCHDEzYaQzfHSjETY6mmAU3fj1tBXlWe1QyAC7yBOoxLsRX5Q60OOt0u-3I1L0UpLHJHCF0F1fLybOPzcX4eYzGWOUUqVi3BdgwwlzLqRO3s8F-VaVGVwPem79QDHb=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R9PKzYP_rpA9eX-M537B5tcf0B8vpz-ovsvgbMCsUPKKVA13E6aZdJ98bXzIHSHFycfVUSSiblyoorKbpEuT62DFWF0fljAHQ5FGcsvfmyjgIKoIbG172Q1VToYBiRK21qvTecOLQ9pags=w203-h135-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/abb05bce22c601e4685a8a555027a5aa1e47aa5f.webp',
+      'https://img.cofynd.com/images/latest_images_2024/74292fc02c5a447ecd8e19436af5ecc23df3c69e.webp',
+      'https://img.cofynd.com/images/latest_images_2024/5f5a0c1c5db75e91570fff37ae339bf82ee8fb79.webp',
+      'https://img.cofynd.com/images/latest_images_2024/f4f725ebb75e7521d4fddf2c7dc50b5d53e16edc.webp'
     ]
   },
   // CHECK: matched via the Vijaya Krishna Towers building in your card photo; Maps calls it the Nanakramguda branch (a separate Gachibowli branch at SNP Towers also exists)
@@ -1803,13 +1842,12 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=16653314141068326098',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TW3VsUrkQhVh-AAhn0Mwo3NaxRzZexOTQZ94UPo6NTp67OPu_h2jrI9cdzl1SYRR9Bzs_RO8TtyMN9CRaA0Z1DeZaOmE9GB31iTeFRWp1Gy0-8HgTxbXDvRpAihnV9yoXbfPK0OiQKwdo=w203-h270-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TFi24XfhQ4a_05dN0pKHAe1h5Xm7rv1PKijbcnWLX_hMF-ICR3UD_82DHgYXH8ie2wYMa0QR6hzMVuvDzitqS8FK6RdiIP2Lzi4pGL3Tiwoi6WJWDYuYbaedt5cEdsjli9H7s0Nvq8U235=w203-h270-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TpEa9ojGxhwthcZhtybUs1TBYYnqWvLHqV6StMH3_VEIDorxpz8NrGvb5zyVkloA1W-GbxomBMtiu3O1SgGqR5HzL2yS1X_rUkBF0Cepa9BESpXOk8fKbyKPIkHUfQ8Tk19ey1gDOkVIBi=w203-h270-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Sj1MiF-UH_SGRLmbVMNkZ_nnM4E5mWNz-9AN4GoLzBNyVgzgQM6burbWRrhbJIlpAjIsWMR5pUWrH2hLAcIbU9eXFGuaBwleXaaO2dQOBm0kw5tI7romXaQ7JKNpZnBXgI_gOga37vVTgw=w203-h270-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/08b7b196bc05a6e63678c023d8d2a2f077a5c9d7.webp',
+      'https://img.cofynd.com/images/latest_images_2024/ceeadb03018369f0ec23730979803d23a10af797.webp',
+      'https://img.cofynd.com/images/latest_images_2024/7d34fc725bfe5a47326e113e5c68ce08e0a4d7e8.webp',
+      'https://img.cofynd.com/images/latest_images_2024/e737d1418b6df6fdbb62f0b8ebc1186b4035e247.webp'
     ]
   },
-  // NOT_VERIFIED: no Mozaik coworking listing in Hyderabad on Maps
   {
     id: 95,
     name: 'Mozaik',
@@ -1821,10 +1859,14 @@ export const hyderabadSpaces = [
     period: '/ month',
     priceFormatted: '₹8,500 / month',
     ctaText: 'Get Quote',
-    googleMapsUrl: 'NOT_VERIFIED',
-    images: []
+    googleMapsUrl: 'https://www.google.com/maps?q=17.416938,78.438721',
+    images: [
+      'https://img.cofynd.com/images/latest_images_2024/13cd27e31e2f7fbeafaceecc149d07fbacbcf842.webp',
+      'https://img.cofynd.com/images/latest_images_2024/1d3e6ffcf91897f70bc8c3401c3d24036de537d8.webp',
+      'https://img.cofynd.com/images/latest_images_2024/29bdd1baf19902a7bd6189ac66db6a69b35e14d3.webp',
+      'https://img.cofynd.com/images/latest_images_2024/57b68e9ce1e39305d1d62555f30aa5f86428b966.webp'
+    ]
   },
-  // NOT_VERIFIED: only Maps match is 'FARTECH SOLUTIONS' in Khairtabad — not a coworking listing and has no rating (card shows 4.8)
   {
     id: 96,
     name: 'Fartech Solutions',
@@ -1836,26 +1878,12 @@ export const hyderabadSpaces = [
     period: '/ Month',
     priceFormatted: '₹3,999 / Month',
     ctaText: 'Get Quote',
-    googleMapsUrl: 'NOT_VERIFIED',
-    images: []
-  },
-  {
-    id: 97,
-    name: 'KOCOwork',
-    badge: 'Popular',
-    rating: 4.9,
-    area: 'Champapet',
-    location: 'Vaishali Nagar Rd, Vaishali Nagar, Champapet, Hyderabad, Telangana 500079',
-    price: '₹499',
-    period: '/ day',
-    priceFormatted: '₹499 / day',
-    ctaText: 'Get Quote',
-    googleMapsUrl: 'https://maps.google.com/?cid=3504656728705330378',
+    googleMapsUrl: 'https://www.google.com/maps?q=17.415768,78.455622',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RFW_kkFRPOtGFBP7JNy38mSK11XjCAI3db7AyREJ1PxbRGSJAVRRbsxYBhQRFrzE3u32WyMXuyKkFBpSGpT6tCqM6z0_yxlXcFL-s7QbS8UvPiW5J7BlNrtrC5okrTmfM4DDEtjJWY1K-_=w203-h142-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R4_d_acS3vWnJHnLNSXIgvYv9QSJkqYXBUtdUrGA00BhS0XDVliTdbbrVPvqlz4gIRHO7bkZgS4dddUWuefHkhBGMKMIK6Hxng0FhG-aOVojkci0ecck7ibYyQXaLaxlA4OUDndGTbPZQ=w203-h360-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QLEqK8vm6ScauCAJlm0o7ujBPoZOBuigEOdi31ial6sHH9FQ-SXTSHyp8b7t47_56WeCpVh6A2Os3qLlNeAkj2FJ0L_1wk15nFwmQYim6vpj8Xxrtj1eDidefp3orVhzWCzXnVkmYxiJE=w203-h269-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TAW27BDBWpR5yyIwXKY_gTAX4nbq-3QIAQdc7zlVEnLXDqqRklKQbw9oWq_Yy_EK4XXShaNql-VTqXnXpll4elWiw6AyDtptMtW_pkpZ8b7MYYgfIWcacviZQ0CcyLdtSpjV0n8u7ouX6J=w203-h270-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/d1f05a1a28e4b7356370fe76d2d8a585704539b8.webp',
+      'https://img.cofynd.com/images/latest_images_2024/c114fd6d5b01d0dc249c68e2cc8e81356325ef2f.webp',
+      'https://img.cofynd.com/images/latest_images_2024/876282409f951c5f54103c07fc45bff8d513fbb8.webp',
+      'https://img.cofynd.com/images/latest_images_2024/34cee681a9f7e052508885f253540be3154aec6d.webp'
     ]
   },
   {
@@ -1871,10 +1899,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=5070646769085642220',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TlnpOBMiT7PBnMLyxfbOdm1dNWXZa9P-TH4PxiWV1BDTBKz1LUhW42Fr9KolYPbFfo0rXmHF0K15wrgctV-czYP930Zv21hHNMqIG6ux6c-PghuWyM1endKuAwbj4ehvxCV6sM=w270-h100-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RakgwBbxv52rxzMoWSZny3IR4kA0WDBFFUiIM4Q6r6EQc30r0ysbqfiF7UYlllhwMq-Y87AdHcJJj4tXgEQQRl5Oljiexf6Q-7PU8KKnVgNFJ9F02sXaTIfJB8-2wZzoXsM7M=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SSGzj_0h9rxkamHl2HycEnEbZOn2bNjvVKD_LkJ8d6upTmDh89RwixW3gnkpUVp4s2-RLEvnIFV1cnp7FTdqxrinCwdJdBAaiRBzH90dEbKcr9e5L0_K2JKXToZy6fat0_xp1eKw=w218-h100-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S1uERtN03qAbPZkl04X3zP4Ful3F8e7aDNsts3P5wAdJWCsZC-hnZt4RLrIc4frOLB6UvdB4S8-_aBGmg3uzZ7Ql-pwDBBBqIB3t8RprrqeHrQQVrjvuzoysPrdWKs7K74X65Y=w203-h304-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/81e6b341284f5dc54be6cd4b6e8720b59e5bd877.webp',
+      'https://img.cofynd.com/images/latest_images_2024/f65e0dc50c0c35d12b2450cfb103046ee204901b.webp',
+      'https://img.cofynd.com/images/latest_images_2024/f088bfc46e8e7c7e02335c40917a8df616c0e730.webp',
+      'https://img.cofynd.com/images/latest_images_2024/12a32c199d89a5c165dc5fcd85ef6b6f553af903.webp'
     ]
   },
   {
@@ -1890,10 +1918,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=18052466833206104584',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Qync-a_6XpoBsmD2eZVtbh_2SFbOvjuGFL5tFp5GBUWpmcffo_xYmkGCuShO6WZXeVS_DkhiqdUelKaYdz_X7v0aWnf5rlkB8Zr_yNZ0yneS2HJjK55w-E9XinbRXAuUxUdm3Z=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Qa2FMOgjr6kt3-LuJRL4KQUca_R2zyiKLKPIe7ZuvEpJA-W3nWwoLN6jjMfIrGWkiB1LfxPY5B3jqLrbtLDnzWOHKvxVqhzitpzSb8wlY9RjKJgK2oT9sZQ0G2yyZull12ZkuH=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RhTm4WQPDyERcB5DkYF22W9hidI_dK2O6F4FJeCdsD3iAzcExrA-HnqmrkZJo26CtLQN3LUqIPr3wC774cqObxoLL4DtZ1wh_d7m1k81zj2pZJek9A3OBZR7TNLlU6A3GBM5vfJw=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RkpLrfJNOD1rXHyojiXnikQ3j-xJjDLYGp5Y9Fda52_l7uAUSs_U865y0hS4IFMWRj2AQHMdhRP4rIjg6qRjm5oxGOLyr8DowVFuxdXQ4eVnkG4Nx6p5ED660I3HQ5_Id0wIQM=w203-h135-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/f4c20c3460c6456bff6757a9bd294736df9a2068.webp',
+      'https://img.cofynd.com/images/latest_images_2024/509f5414e34cb0c745755ab31347b799d85e9b16.webp',
+      'https://img.cofynd.com/images/latest_images_2024/9edd4027d9a4123305914ede0e293dc202da042d.webp',
+      'https://img.cofynd.com/images/latest_images_2024/606a4137716677b5ecbf80d3a9b2b7c3680104e9.webp'
     ]
   },
   {
@@ -1909,10 +1937,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=135231438643396605',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R0plvtAa0eLhH-cC9moQXXTmpDXweXwGBrleWiGBDu8E71Wl47-lOFNM386yqPT9jyaGKmThG8Io0yfsh8PSnsO4aaTXCM4hLZqyc53G116ghrbO1DomGKWBs680Hv_MYob2jMKBQo2eto=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QYwQjjyCKZwDPTrZEN2SXhydDPI0L1m_FlFp4Qul02sxdqvWTyPJuh_wfEUqZbaVLm0W9LYBTiBValwU9GdjUmG0xDMV1rqZQkNHQRbidUi5a1WtGgc69FQJUisHCrAn_KKU_CQCNfw3w=w203-h358-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9THohGrSkt7ETQqtRFJDwEBVjWel7HrchRQ9eTXdRMSZ5rKKWyC0DqV1vnL0yZIifLyUql7d6QeZqK8bAAoWyPX_iOgC_INoqZZXN3V2SaOToLkl41s93zvWgIq5zYgRNaFu8z6W8Ys-_Dr=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S5hzBBTlc9gOLzapIAXMsS_9eTrgm0EQz0KL9yrcBKIexktAoL9mXzzm-05zSVkJkSV2vWODudD7xWOxeBDjJ7hAky2HzhuD2TsqAPir92Y9DvPWiRREnglt_K_UmFruG1MMC1aWITH-w=w203-h135-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/b33985758841f97e0ebadf844148d07c09feabf0.webp',
+      'https://img.cofynd.com/images/latest_images_2024/1852ba92e136961552c9403591ee10fa23e4aa5b.webp',
+      'https://img.cofynd.com/images/latest_images_2024/855b3cccdebe46009d9b743577320ae79586d192.webp',
+      'https://img.cofynd.com/images/latest_images_2024/ad2d2318de9e5f447824baccc30160b790f51112.webp'
     ]
   },
   {
@@ -1928,10 +1956,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=12972904773020985214',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SWOPGlNt7swXoI9ugAY3PQvf9d9IWpea5nLLvsKo-Oj4I-tLgxpODanrJHh_OezGXcopdLjMmBnHel2BTNOJsrD-eUyeCzVRsgB41LUHAoqun_7GEPi6Lj4qEmZe9xPhVChbZLWaDUadzT=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TfdFLslLJPUl_4UNC7fVF39SJIxaLBDLmw3u1AN1AQGva87E_In0wC1zUxsv1G1OWbmTs5df528OG-nPdUxdcOVUZSxMXwxcRwVjeRa0zjkowJ47Xy3aaykHHO4WiK0i_PXBZaXYYQG_7x=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Qc99PXPV5wBzGLarFcdYXL6fI4RpvEwP01FYTOfwIMzICn1md4TXanNbYiiZwUHBCVeZpyW5sZEw-H-6NFvht1KhQ-1emXze30uukvzHWiwJrhSwoTIYJHD0iv6eV_7TGbcarK6BKOBalB=w203-h203-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SAhDJGR2FQ8gHR6jfleVkRmpNe24AfQH4wWACJRA7oW1Cbyd01a5Y5n-CeSAMn_9moqA-euNOsEf0M-PmWGGdhNc3QCv8sGqdPoJ-_9t_K6eV1lbFBXxMJV8qZ6IbEGF8ruMG5ilIHYs29=w203-h360-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/f64e407459f18d56e4cb72bcf9655eb53a026eb4.webp',
+      'https://img.cofynd.com/images/latest_images_2024/73613c95a0f010ef943a014fd9ddb300c67f3970.webp',
+      'https://img.cofynd.com/images/latest_images_2024/e62cc4faa7c650d3d31012b83b52f92a66cb366e.webp',
+      'https://img.cofynd.com/images/latest_images_2024/e7aa7c84a5ab7d6715dfdde44bb8f6d388753b2f.webp'
     ]
   },
   {
@@ -1947,10 +1975,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=9399848080319697880',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Rgmya6pHlJuQc_Yficq_Sz4CJ-VuOcBq9BPXjyLI8MadoclKS4pYAdAsyBlu8D3zvHDBFzHX95nXZKwbikgh1SRHI5GB2E6jcFYfZ1jBTGOL1vaVOkumBdP03srEXWpFwyA3RJQHL_y8p5=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SGW6OLHQ3YZbonWc4N_ukesxzRuidRaE-zyXu9o12NGnptw325j9gaq-Wylwm7n0vkj4fjLK7bhnJac1Wa59mB24CWYvtQlftb7og1MHo2TVT8aLjBOO-Sgam5Lrwr2hPDzYesNvE65cCo=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R0iO6eAtT__nxVeUjLVYM2KJwZk666WxUh4kk1d3hMTFhu8E11OCwGYOc0NZ7dmh8lh1j-pxaqwTlHBGF10XznbKrXLuV7bEyeNzAgBJO8TtKFTruB3SfRjdjH6fjZTlrN2hkWYHRxiUzi=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Tmfej57MRY7lRt9N4TBiXrLeOJq3M-vwdKjzasWL3DIQpXhzs6KeBvZfCfwF86e-aJxf0fNrOzMe1GKxKDgZeILnH60saXJfvBkckj3s1TuF-1NKxrT6tSH5g5mF-TJS56IrWYACr5hlss=w203-h114-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/7903983cd25ba385a93bd995ee373516489b9695.webp',
+      'https://img.cofynd.com/images/latest_images_2024/1bdbb48381e7d7b1a59c1925745211293608c207.webp',
+      'https://img.cofynd.com/images/latest_images_2024/ab1f09f2ca54e8c9a93a26d6b3c40b14dd76cfc2.webp',
+      'https://img.cofynd.com/images/latest_images_2024/2989ba92c1c975c974c3fd68c1de8a6eba058b0e.webp'
     ]
   },
   {
@@ -1966,13 +1994,12 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=14916063250537021204',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SIBHCvYtRWCExNPKA0cJ3Qoq0yesBrK7hoh115B7ftlwz00ZM1yY1n5kog754s1lLnb008UcyTwvYzUgltQ4AGGQWJ3CyYiH_59J4v67VoY1QuGYGEQVF4_MLxKOwrJj6Nmg7LYs279Bo7=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T3D9GsnObx0T4oVnD4RgPaJBu2CIrtp02F1GCQzAsdZhsA5fBhzoqBAuqS_B33qYrFt2saoqGmBSdYo2-P4ihpc4Du3YPI_LBaqmtmcTs4vXynGwwLuBuGaSEMWhf0RedFh1WQ=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QApg-CHSqyNBlVW1CyBszlJTvV-Bgj_J_rtV0yQ8SjtdRzRqKA9nHIPjal0VzeMICzeEX7qcUKj2cYSH6NkWrN_vSZ_4Gwp8oAXYJ8PGIYeGCvKle3V3ivMpuj3tkF3KaM17Be=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SMpX-9EsPPcvgcPL_WTSkKBZIqahHTga6WEHchOr1GfTtir3fNxBcv8Sh7QokrQHkpytX4kii5UOcYFy65Drxsr-juZ3271NR9-AOia2devkg-Oc1UVsVMIkft2PX0OtSrCT_ysA=w203-h182-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/9ed0b96a57248209a7b507614e885c6abea75c8e.webp',
+      'https://img.cofynd.com/images/latest_images_2024/eb25521e471a58c2737fb98a946078c10e22cc5c.webp',
+      'https://img.cofynd.com/images/latest_images_2024/4aee0f5b043d50648d88101f6135fcb56b03fce2.webp',
+      'https://img.cofynd.com/images/latest_images_2024/beb549ce375cd9d6e7ce9ee238bf1a3d2d6b04f9.webp'
     ]
   },
-  // NOT_VERIFIED: only Maps match is 'TRILAX CONSULTANTS' in Izzathnagar — not a coworking listing, not Madhapur
   {
     id: 104,
     name: 'Trilax',
@@ -1984,10 +2011,14 @@ export const hyderabadSpaces = [
     period: '/ month',
     priceFormatted: '₹7,499 / month',
     ctaText: 'Get Quote',
-    googleMapsUrl: 'NOT_VERIFIED',
-    images: []
+    googleMapsUrl: 'https://www.google.com/maps?q=17.465983,78.372146',
+    images: [
+      'https://img.cofynd.com/images/latest_images_2024/857422262faa7e077a9015aa7bd56697c17faa60.webp',
+      'https://img.cofynd.com/images/latest_images_2024/eadb0e83515d5bb0ae4c0eeaee28ee38ed267d19.webp',
+      'https://img.cofynd.com/images/latest_images_2024/3fcbd0258c27e299f8d0ba9280e0d3c2678fcb07.webp',
+      'https://img.cofynd.com/images/latest_images_2024/022b7211e119c798c261b73c71d810b32b544591.webp'
+    ]
   },
-  // NOT_VERIFIED: no Maps listing found for Partime Co-Work
   {
     id: 105,
     name: 'PARTIME CO-WORK',
@@ -1999,10 +2030,14 @@ export const hyderabadSpaces = [
     period: '/ month',
     priceFormatted: '₹7,499 / month',
     ctaText: 'Get Quote',
-    googleMapsUrl: 'NOT_VERIFIED',
-    images: []
+    googleMapsUrl: 'https://www.google.com/maps?q=17.439968,78.352736',
+    images: [
+      'https://img.cofynd.com/images/latest_images_2024/5e3daef5b7345ef1ec662b86e2aa3435ce9a91a7.webp',
+      'https://img.cofynd.com/images/latest_images_2024/3a80b53761e8968acb2c7959108c7d7d42f4b0c4.webp',
+      'https://img.cofynd.com/images/latest_images_2024/e59569f205c3e1b76fc316fb41dcfe2753319896.webp',
+      'https://img.cofynd.com/images/latest_images_2024/6ae7964dbbbd8e3270858b56f473265f464f2858.webp'
+    ]
   },
-  // listing has no photos on Maps (only Street View), so images is empty
   {
     id: 106,
     name: 'Innov8 Sri Harsha Icon',
@@ -2015,9 +2050,13 @@ export const hyderabadSpaces = [
     priceFormatted: '₹7,999 / month',
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=17458006881639416080',
-    images: []
+    images: [
+      'https://img.cofynd.com/images/latest_images_2024/27866f83652e98b3e33cec036e646b40c5723026.webp',
+      'https://img.cofynd.com/images/latest_images_2024/bfd1cf54248ce4af3a6f570bb5d71733c6796cdd.webp',
+      'https://img.cofynd.com/images/latest_images_2024/a68806ef797cf83dc1a5f87e6952914ab9deebdb.webp',
+      'https://img.cofynd.com/images/latest_images_2024/68e3d4be91624bb78b296f4b61a2c15e12c7717c.webp'
+    ]
   },
-  // listing has only 1 photo on Maps
   {
     id: 107,
     name: 'InfySpaces',
@@ -2031,7 +2070,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=14002340093520977404',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q0GZhzdpJsoUrXaobkFG9y4PCFXNCTCQOe2PHUUSVaqRb20TLQKNytagc64qfHgNvzQkSjIlIIsIGXS8tOKmRTkVMnNgFIMAuHUAYFvYnaiUR7XR-9D8Dlc31WyrfSXDgEt-ugLIUBCCQZ=w203-h270-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/74f153efd73280910ccbb907268cee0f7bbe62a0.webp',
+      'https://img.cofynd.com/images/latest_images_2024/d4e11a39f13b7870f23a92d112381a7c5ae7c2a5.webp',
+      'https://img.cofynd.com/images/latest_images_2024/78d8e322e2dea751590acffed687deb97bb82006.webp',
+      'https://img.cofynd.com/images/latest_images_2024/d0d4febf77e7ab2b7c380c323401e4d7d1ff68e5.webp'
     ]
   },
   // Kondapur branch — separate listing from the Gachibowli branch (id 51)
@@ -2048,10 +2090,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=18143796176827652229',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SbQNLlnu0iBqwBgD2wjWFI4uJitEzPjyNARt2pgoV6up-4LqRkCpgom7tRn6SLmbaw7p09Sp3zzqEH_cEqqVBCNIBpecDYMIM74eMYDoVeUCIRIXUg-BN55RkuUkF9uzI5ffP-_eOp_-cy=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TUrIK3UOfM9GId4G77-sjv_SU1G2r5IdR67Ie1xqq9tMmW01is0zkTXC1XVOMzbCw9z7um7oYNvtBlsTRU5M0Y-imXkilIYDhg0NNRm0umuxidUDUkTE2u_IHAwkvxuRhn38YYHtY1On0=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Rsh9DrDlfd64FwycdWcxZ0pVWFH9DECSX7n8TbHNAaaERNTH93jgBcnFPGJKZ8E3b6h14r91CIx78IDKW03LJa4jEWKglF2CTC74vdtPR8dKSJXsbZDRU3jpkVO1MeslCD-3VfcuNONhvF=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q6dI8vtK7HAijCXLbjZ6z5T1lH0gfIry0mck8x4qTD1gBFnEMJHq4LxBcF-ao3V79Su0Agqqby0zsEX25URSXqCTZQCnAy178Thw4MWOG9y9-PEPGs7w8n-R9eTLo3t51W-8eQrnaeEtE=w203-h360-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/19c02381ac672686b4937bf750ea5292c9fe0c21.webp',
+      'https://img.cofynd.com/images/latest_images_2024/e25f16470aa0c56a2612bd35e53a99479f633d54.webp',
+      'https://img.cofynd.com/images/latest_images_2024/b404505630b8f39e3b6cb50e6504324c5974e189.webp',
+      'https://img.cofynd.com/images/latest_images_2024/1c197a4788ec30dac9e9bb4d4a03a23db158d64f.webp'
     ]
   },
   {
@@ -2067,9 +2109,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=11177242034783620874',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RlPCuh49gycNNqf8ETLwSTQdiM1Pk5W9-1uqSQasTlgWD0FZ1MtgABOMcw9O1kolYvrqmoowPdAwDJBMI2nJQiCotYDsgrq5iA4Go11N2FfOl3OHp2_bofPaG710km7ln3zq0hYP_xOzv3=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TzxFk_J_CFx-aBBnGc_W4dTcysffbt9CcbPKlrOTs3H21uKinaVtjU2-YFuAjvqedE-59SJx0ogRPO6nHvwMeutoXol6FscRCxarP6vSF2s7IG3klTILicii4uYcVqOQ2XmVJKZJ1uUyY=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S1larC_cPYluixreEvS3n-oQZ57INFIcr1XXIu-7EwM6CprtBtlksE6pYj_oSx2i4a09fKrtZt-WWnjwdVHZbMYojm0U_koHtr9D8ST1I9vJttqnlBGnzevvqdesJQHz32-dmFTKBDZrQ=w203-h139-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/87a7302f9c24951ee1338f607dc2b52e1e895478.webp',
+      'https://img.cofynd.com/images/latest_images_2024/506309b58d494884b19bf844585cc6238d3ad15d.webp',
+      'https://img.cofynd.com/images/latest_images_2024/31e04d0df17e2a2a38a6a09209b790f59112e651.webp',
+      'https://img.cofynd.com/images/latest_images_2024/b52113f29e9a5ba1a70e8da9c416d0ad8e179b1f.webp'
     ]
   },
   // NOT_VERIFIED: three Quickstart branches in Gachibowli (Eclipse 4.9 / Orion 4.8 / Nebula 4.8); none shows 4.7 — can't tell which
@@ -2086,10 +2129,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=13253402970017859293',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QpARSQMNnsTZTRRUsZ6FXQhxe3LmhHqcN94e74Kn4S7OxDzhQZv-4aRdmr-OxXt2vcUWOFHZR8QckyZSM68IbQEyYhaR8pxBSuuodAuu7ARi50VwcxeekpMNy8sQ2Xo-3qOpwA=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SVDNsQ8qKSv-TddDP4vU8ErVZQ3uKyJot4CTeqNmAbQBJWjECsC4DXut2TIPRuaY0ZW8j5WxGpPSfhsmbOL6eAhqZ3G8fS8AhZYRc0B-ovxyGP61K7GSB1hdUf18dLBZzv=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TISX1BskgOwWdRaGKkPEs4oC_u6FDy4qfcaSIfR7VfR6vaDLh4mpnbth2_3nFML0j9hSikz8dTgEBb4vXXaS6bV8ZF9CpLTYhaiA5i1cuMfl-ntoFcrqVslPVUuNi7xG4fY4gG=w203-h135-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QsR7bT2Y44q4XjxeX9_uc_stP7gg3a2c7SvuruI29SHaJcZU-I08XleEYy7s2n_HPHp5E4x3Cxq1ksZPJ6zhL2WfSn2For4lBxL9Y9Es309D00rag-3-DsTSyjXw3iKqN7zTsO=w203-h437-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/44068f0365f2e6daeefa77ccf1e49c4406db6e9d.webp',
+      'https://img.cofynd.com/images/latest_images_2024/5b03f761dd8b267955a393834f2fd461e189eea3.webp',
+      'https://img.cofynd.com/images/latest_images_2024/09b4f8dfe681630c83f902fc1ab9aa6a13af3462.webp',
+      'https://img.cofynd.com/images/latest_images_2024/ec401c3cab9cb13f19f26b225690fa4c44928ba7.webp'
     ]
   },
   {
@@ -2105,10 +2148,10 @@ export const hyderabadSpaces = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=14575195168724923341',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TIPdItYU_32ZO0WcDZTUFxWR55MQKN139FswRyasa4lcySPX2LYtHY7Bkcn3QqVNJYeGFt8c3gdtPIX4mYGQ9fDJNGnnLKTPm-7X4jZkMJaj34P5Wa5-uEqdZ20jtw0eckL1MA9dI2U2lg=w203-h114-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9StpdrzFkKkrhAoh5CzSdSz4yzWYYtql4_dcfJlveEqjqyiwBqPMtubAYq52BqSf3ETK_elwFOGshvdKKyYlCOIE8_8XiF8MwpPENLyqyNYzJIOQh-odgDFfbUR8_vDEjcwrzjgMYcnj1DI=w203-h360-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RPRuWQgXwkGMoAZxMNRpAMMmnfyqxArZyfMBzgOWYrP9IE1Spi4jVWIumMaDpDooocaXa-Y8EbTNRF7Y91UVN41suR_21d9ijCIEoAA-mtlr66PUnSGxCxXuD42-8vUHjWUB7cAgZKTV8T=w203-h152-k-no',
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T_Ga6ofJU4TF5WGHuI0QsCpInK6Tvq5gd_lpsptsYBemKmXTrBDIDhavFUeY2FIA_i-JInHCIdBxKGFIIPnwzzzPljgMZ3G12YXnQaNgdLNX2R2G-BKnAchIw8fv5J3hPCqmIgnL3YHEhN=w203-h152-k-no'
+      'https://img.cofynd.com/images/latest_images_2024/e20d9743ca19504193a142be789ba11ae02128f1.webp',
+      'https://img.cofynd.com/images/latest_images_2024/12b1d478bde281f978cd1dd05da666ffadc36d5b.webp',
+      'https://img.cofynd.com/images/latest_images_2024/63b88fb07c167759c575cc239fc427e460f229ad.webp',
+      'https://img.cofynd.com/images/latest_images_2024/efd8c0187a5a7a60af5b89ecbd29fbc71830ca01.webp'
     ]
   }
 ];

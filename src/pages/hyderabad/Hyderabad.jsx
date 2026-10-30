@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import {
   hyderabadNeighborhoods,
@@ -12,6 +12,8 @@ import {
   getHyderabadOfficeSlug
 } from './hyderabadData.js';
 import QuoteModal from '../../components/QuoteModal.jsx';
+
+const CARDS_PER_BLOCK = 8;
 
 /**
  * Individual Coworking Space Card with isolated multi-image sliding closure mechanism
@@ -268,9 +270,104 @@ const Hyderabad = () => {
   const pageStart = (currentPage - 1) * SPACES_PER_PAGE;
   const pageSpaces = filteredSpaces.slice(pageStart, pageStart + SPACES_PER_PAGE);
 
-  // Page layout (32 cards per page): 8 cards, banner, remaining 24 cards
-  const displayedSpaces = pageSpaces.slice(0, 8);
-  const displayedFinalSpaces = pageSpaces.slice(8);
+  // Page layout: cards are shown in blocks of 8, with a promo banner after every full block (banners repeat in order)
+  const cardBlocks = Array.from({ length: Math.ceil(pageSpaces.length / CARDS_PER_BLOCK) }, (_, blockIndex) =>
+    pageSpaces.slice(blockIndex * CARDS_PER_BLOCK, (blockIndex + 1) * CARDS_PER_BLOCK)
+  );
+
+  const banners = [
+    // Discover your perfect workspace banner
+    <section
+      aria-label="Discover perfect workspace"
+      className="w-full rounded-2xl overflow-hidden my-8 sm:my-10 shadow-xs relative bg-cover bg-right bg-no-repeat min-h-[190px] sm:min-h-[220px] md:min-h-[250px] flex items-center border border-blue-100/60"
+      style={{
+        backgroundImage: `url(${perfectWorkspaceBanner.bgImage})`
+      }}
+    >
+      {/* Soft light blue gradient overlay on left fading smoothly into photo on right */}
+      <div className="absolute inset-0 bg-gradient-to-r from-[#eaf4fb] via-[#eaf4fb]/95 sm:via-[#eaf4fb]/85 to-transparent pointer-events-none"></div>
+
+      <div className="relative z-10 px-6 sm:px-10 md:px-12 py-8 sm:py-10 max-w-xl">
+        <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 leading-tight mb-2 tracking-tight">
+          {perfectWorkspaceBanner.title}
+        </h2>
+        <p className="text-xs sm:text-sm text-slate-600 mb-6 leading-relaxed max-w-md">
+          {perfectWorkspaceBanner.subtitle}
+        </p>
+        <button
+          type="button"
+          className="bg-[#007bff] hover:bg-blue-600 active:scale-95 text-white text-xs sm:text-sm font-semibold px-5 py-2.5 rounded-lg shadow-xs transition-all w-fit cursor-pointer"
+        >
+          {perfectWorkspaceBanner.ctaText}
+        </button>
+      </div>
+    </section>,
+    // Customized office solutions banner
+    <section
+      aria-label="Customized office solutions"
+      className="w-full rounded-2xl overflow-hidden my-8 sm:my-10 shadow-xs relative bg-cover bg-right bg-no-repeat min-h-[190px] sm:min-h-[220px] md:min-h-[240px] flex items-center border border-blue-100/60"
+      style={{
+        backgroundImage: `url(${customizedOfficeBanner.bgImage})`
+      }}
+    >
+      {/* Soft light blue gradient overlay on left fading smoothly into photo on right */}
+      <div className="absolute inset-0 bg-gradient-to-r from-[#e3f4fc] via-[#e3f4fc]/95 sm:via-[#e3f4fc]/85 to-transparent pointer-events-none"></div>
+
+      <div className="relative z-10 px-6 sm:px-10 md:px-12 py-8 sm:py-10 max-w-2xl">
+        <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-slate-900 leading-tight mb-4 tracking-tight">
+          {customizedOfficeBanner.title}
+        </h2>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-3 gap-x-6 sm:gap-x-10 mb-6">
+          {customizedOfficeBanner.features.map((feature) => (
+            <div key={feature.id} className="flex items-center gap-2.5">
+              <span className="w-5 h-5 rounded-full bg-[#027fff] flex items-center justify-center shrink-0 shadow-2xs">
+                <svg className="w-3 h-3 text-white" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <polyline points="3.5 8.5 6.5 11.5 12.5 4.5" />
+                </svg>
+              </span>
+              <span className="text-xs sm:text-sm text-slate-800 font-medium">
+                {feature.text}
+              </span>
+            </div>
+          ))}
+        </div>
+
+        <button
+          type="button"
+          className="bg-[#027fff] hover:bg-blue-600 active:scale-95 text-white text-xs sm:text-sm font-semibold px-5 py-2.5 rounded-lg shadow-xs transition-all w-fit cursor-pointer"
+        >
+          {customizedOfficeBanner.ctaText}
+        </button>
+      </div>
+    </section>,
+    // Still not able to find coworking space banner
+    <section
+      aria-label="Still not able to find coworking space"
+      className="w-full rounded-2xl overflow-hidden my-8 sm:my-10 shadow-xs relative bg-cover bg-right bg-no-repeat min-h-[170px] sm:min-h-[190px] md:min-h-[210px] flex items-center border border-blue-100/60"
+      style={{
+        backgroundImage: `url(${stillNotFindingBanner.bgImage})`
+      }}
+    >
+      {/* Soft light blue gradient overlay on left fading smoothly into photo on right */}
+      <div className="absolute inset-0 bg-gradient-to-r from-[#eaf4fb] via-[#eaf4fb]/95 sm:via-[#eaf4fb]/85 to-transparent pointer-events-none"></div>
+
+      <div className="relative z-10 px-6 sm:px-10 md:px-12 py-8 sm:py-10 max-w-xl">
+        <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-slate-900 leading-tight mb-2 tracking-tight">
+          {stillNotFindingBanner.title}
+        </h2>
+        <p className="text-xs sm:text-sm text-slate-600 mb-6 leading-relaxed max-w-md">
+          {stillNotFindingBanner.subtitle}
+        </p>
+        <button
+          type="button"
+          className="bg-[#007bff] hover:bg-blue-600 active:scale-95 text-white text-xs sm:text-sm font-semibold px-5 py-2.5 rounded-lg shadow-xs transition-all w-fit cursor-pointer"
+        >
+          {stillNotFindingBanner.ctaText}
+        </button>
+      </div>
+    </section>
+  ];
 
   return (
     <main className="w-full min-h-screen bg-[#fafbfc] px-4 py-4 sm:px-8 sm:py-6 lg:px-12 antialiased font-sans">
@@ -371,9 +468,9 @@ const Hyderabad = () => {
         </div>
       </section>
 
-      {/* Section: Coworking Spaces Grid */}
-      <section aria-label="Coworking spaces list">
-        {displayedSpaces.length === 0 ? (
+      {/* Section: Coworking Spaces Grid - cards in blocks of 8, with a banner after every full block */}
+      {pageSpaces.length === 0 ? (
+        <section aria-label="Coworking spaces list">
           <div className="py-12 text-center text-slate-500 text-sm">
             <p>No coworking spaces found for {selectedNeighborhood}.</p>
             <button
@@ -384,119 +481,21 @@ const Hyderabad = () => {
               Show all Hyderabad spaces
             </button>
           </div>
-        ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
-            {displayedSpaces.map((space) => (
-              <OfficeCard key={space.id} space={space} />
-            ))}
-          </div>
-        )}
-      </section>
-
-      {/* Section: Discover your perfect workspace banner */}
-      <section
-        aria-label="Discover perfect workspace"
-        className="w-full rounded-2xl overflow-hidden mt-6 sm:mt-8 mb-12 shadow-xs relative bg-cover bg-right bg-no-repeat min-h-[190px] sm:min-h-[220px] md:min-h-[250px] flex items-center border border-blue-100/60"
-        style={{
-          backgroundImage: `url(${perfectWorkspaceBanner.bgImage})`
-        }}
-      >
-        {/* Soft light blue gradient overlay on left fading smoothly into photo on right */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#eaf4fb] via-[#eaf4fb]/95 sm:via-[#eaf4fb]/85 to-transparent pointer-events-none"></div>
-
-        <div className="relative z-10 px-6 sm:px-10 md:px-12 py-8 sm:py-10 max-w-xl">
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 leading-tight mb-2 tracking-tight">
-            {perfectWorkspaceBanner.title}
-          </h2>
-          <p className="text-xs sm:text-sm text-slate-600 mb-6 leading-relaxed max-w-md">
-            {perfectWorkspaceBanner.subtitle}
-          </p>
-          <button
-            type="button"
-            className="bg-[#007bff] hover:bg-blue-600 active:scale-95 text-white text-xs sm:text-sm font-semibold px-5 py-2.5 rounded-lg shadow-xs transition-all w-fit cursor-pointer"
-          >
-            {perfectWorkspaceBanner.ctaText}
-          </button>
-        </div>
-      </section>
-
-      {/* Section: Spotlight Coworking Spaces Grid */}
-      {displayedFinalSpaces.length > 0 && (
-        <section aria-label="Spotlight coworking spaces list" className="mb-6">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
-            {displayedFinalSpaces.map((space) => (
-              <OfficeCard key={space.id} space={space} />
-            ))}
-          </div>
         </section>
-      )}
-
-      {/* Section: Customized Office Solutions Banner */}
-      <section
-        aria-label="Customized office solutions"
-        className="w-full rounded-2xl overflow-hidden mb-12 shadow-xs relative bg-cover bg-right bg-no-repeat min-h-[190px] sm:min-h-[220px] md:min-h-[240px] flex items-center border border-blue-100/60"
-        style={{
-          backgroundImage: `url(${customizedOfficeBanner.bgImage})`
-        }}
-      >
-        {/* Soft light blue gradient overlay on left fading smoothly into photo on right */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#e3f4fc] via-[#e3f4fc]/95 sm:via-[#e3f4fc]/85 to-transparent pointer-events-none"></div>
-
-        <div className="relative z-10 px-6 sm:px-10 md:px-12 py-8 sm:py-10 max-w-2xl">
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-slate-900 leading-tight mb-4 tracking-tight">
-            {customizedOfficeBanner.title}
-          </h2>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-3 gap-x-6 sm:gap-x-10 mb-6">
-            {customizedOfficeBanner.features.map((feature) => (
-              <div key={feature.id} className="flex items-center gap-2.5">
-                <span className="w-5 h-5 rounded-full bg-[#027fff] flex items-center justify-center shrink-0 shadow-2xs">
-                  <svg className="w-3 h-3 text-white" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                    <polyline points="3.5 8.5 6.5 11.5 12.5 4.5" />
-                  </svg>
-                </span>
-                <span className="text-xs sm:text-sm text-slate-800 font-medium">
-                  {feature.text}
-                </span>
+      ) : (
+        cardBlocks.map((block, blockIndex) => (
+          <Fragment key={`block-${blockIndex}`}>
+            <section aria-label={blockIndex === 0 ? 'Coworking spaces list' : `Coworking spaces list ${blockIndex + 1}`}>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
+                {block.map((space) => (
+                  <OfficeCard key={space.id} space={space} />
+                ))}
               </div>
-            ))}
-          </div>
-
-          <button
-            type="button"
-            className="bg-[#027fff] hover:bg-blue-600 active:scale-95 text-white text-xs sm:text-sm font-semibold px-5 py-2.5 rounded-lg shadow-xs transition-all w-fit cursor-pointer"
-          >
-            {customizedOfficeBanner.ctaText}
-          </button>
-        </div>
-      </section>
-
-      {/* Section: Still Not Finding Coworking Space Banner */}
-      <section
-        aria-label="Still not able to find coworking space"
-        className="w-full rounded-2xl overflow-hidden mb-8 shadow-xs relative bg-cover bg-right bg-no-repeat min-h-[170px] sm:min-h-[190px] md:min-h-[210px] flex items-center border border-blue-100/60"
-        style={{
-          backgroundImage: `url(${stillNotFindingBanner.bgImage})`
-        }}
-      >
-        {/* Soft light blue gradient overlay on left fading smoothly into photo on right */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#eaf4fb] via-[#eaf4fb]/95 sm:via-[#eaf4fb]/85 to-transparent pointer-events-none"></div>
-
-        <div className="relative z-10 px-6 sm:px-10 md:px-12 py-8 sm:py-10 max-w-xl">
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-slate-900 leading-tight mb-2 tracking-tight">
-            {stillNotFindingBanner.title}
-          </h2>
-          <p className="text-xs sm:text-sm text-slate-600 mb-6 leading-relaxed max-w-md">
-            {stillNotFindingBanner.subtitle}
-          </p>
-          <button
-            type="button"
-            className="bg-[#007bff] hover:bg-blue-600 active:scale-95 text-white text-xs sm:text-sm font-semibold px-5 py-2.5 rounded-lg shadow-xs transition-all w-fit cursor-pointer"
-          >
-            {stillNotFindingBanner.ctaText}
-          </button>
-        </div>
-      </section>
+            </section>
+            {block.length === CARDS_PER_BLOCK && banners[blockIndex % banners.length]}
+          </Fragment>
+        ))
+      )}
 
       {/* Section: Pagination Controls */}
       <nav aria-label="Coworking spaces pagination" className="flex items-center justify-center my-8">
