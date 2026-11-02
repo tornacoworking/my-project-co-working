@@ -1,0 +1,476 @@
+COWORKING CARDS INFORMATION - 12 CITIES
+=======================================
+Source: src/pages/<city>/<city>Data.js (counted from the data files, nothing in the code was changed).
+
+HOW TO READ THIS FILE
+- Main cards      = cards shown on the city page in the normal "All" view (listing pages 1,2,3...).
+                    "Unique" = same coworking name counted once (some data repeats a card).
+- Sub-locations   = the area buttons / filter tiles of the city page (the "All" button is not counted).
+- Cards per area  = main cards whose area is that sub-location.
+- Extra cards     = cards that are NOT in the main listing and appear ONLY when a user clicks that
+                    sub-location (from areaExtraOfficeCards / similar cards). Extra cards are hidden in the "All" view.
+- Shown on click  = main cards of that area + extra cards of that area (what the user sees after clicking the area).
+- Cards not under any sub-location = main cards whose area is not in the sub-location list;
+                    they show only in the "All" view.
+
+SUMMARY TABLE
+City         Main cards  (Unique)  Pages  Sub-locations  Extra cards
+--------------------------------------------------------------------
+Pune                102        72      4             18          137
+Noida                98        92      4             31            0
+Delhi               136       136      8             24            8
+Indore               80        80      3             13            0
+Ahmedabad            68        62      3             12            0
+Jaipur               77        75      3              7           27
+Chandigarh           84        72      3              8            1
+Kochi                56        46      2             13            0
+Kolkata              39        39      2             17            0
+Coimbatore           69        65      3             36            0
+Goa                  32        32      1             13            0
+Mumbai              403       347     13             79            0
+--------------------------------------------------------------------
+TOTAL              1244      1118                   271          173
+
+
+1. PUNE
+========
+Total cards on the Pune page (main) : 102  (72 unique, 30 repeated in the data)
+Listing pages                          : 4
+Sub-locations in this city             : 18
+Extra cards (shown only on area click) : 137
+Cards under the sub-locations (unique per area) : 63
+Cards not under any sub-location       : 9  [BMCC Road: 2, Camp: 3, NIBM: 2, Nanded City: 1, Wanowrie: 1]
+
+No.  Sub-location                    Main cards  Extra cards  Shown on click
+----------------------------------------------------------------------------
+1    Baner                                   21            2              23
+2    Kharadi                                  4            6              10
+3    Viman Nagar                              7            3              10
+4    Koregaon Park                            5            5              10
+5    Wakad                                    3            7              10
+6    Balewadi                                 2            9              11
+7    Hinjewadi                                3            9              12
+8    Kothrud                                  1            9              10
+9    Aundh                                    2            8              10
+10   Pimple Saudagar                          3            7              10
+11   Kalyani Nagar                            1           11              12
+12   Bavdhan                                  1            9              10
+13   Magarpatta                               2           10              12
+14   Hadapsar                                 1            9              10
+15   Pimpri Chinchwad                         3            7              10
+16   Yerwada                                  1            9              10
+17   Karve Nagar                              0           10              10
+18   Shivaji Nagar                            3            7              10
+----------------------------------------------------------------------------
+     TOTAL                                   63          137             200
+
+
+2. NOIDA
+=========
+Total cards on the Noida page (main) : 98  (92 unique, 6 repeated in the data)
+Listing pages                          : 4
+Sub-locations in this city             : 31
+Extra cards (shown only on area click) : 0
+Cards under the sub-locations (unique per area) : 97
+
+No.  Sub-location                    Main cards  Extra cards  Shown on click
+----------------------------------------------------------------------------
+1    Sector 62                               19            0              19
+2    Sector 63                               16            0              16
+3    Sector 16                                7            0               7
+4    Sector 3                                 6            0               6
+5    Sector 2                                 4            0               4
+6    Sector 4                                 4            0               4
+7    Sector 142                               4            0               4
+8    Sector 8                                 3            0               3
+9    Sector 90                                3            0               3
+10   Sector 125                               3            0               3
+11   Sector 126                               3            0               3
+12   Sector 127                               3            0               3
+13   Sector 1                                 2            0               2
+14   Sector 96                                1            0               1
+15   Sector 135                               2            0               2
+16   Sector 136                               2            0               2
+17   Sector 16A                               1            0               1
+18   Sector 18                                1            0               1
+19   Sector 32                                1            0               1
+20   Sector 58                                1            0               1
+21   Sector 59                                1            0               1
+22   Sector 64                                1            0               1
+23   Sector 65                                1            0               1
+24   Sector 67                                1            0               1
+25   Sector 68                                1            0               1
+26   Sector 73                                1            0               1
+27   Sector 78                                1            0               1
+28   Sector 94                                1            0               1
+29   Sector 98                                1            0               1
+30   Sector 143                               1            0               1
+31   Sector 144                               1            0               1
+----------------------------------------------------------------------------
+     TOTAL                                   97            0              97
+
+
+3. DELHI
+=========
+Total cards on the Delhi page (main) : 136
+Listing pages                          : 8
+Sub-locations in this city             : 24
+Extra cards (shown only on area click) : 8
+Cards under the sub-locations (unique per area) : 136
+
+No.  Sub-location                    Main cards  Extra cards  Shown on click
+----------------------------------------------------------------------------
+1    Connaught Place                         17            8              25
+2    Malviya Nagar                            2            0               2
+3    Aerocity                                 7            0               7
+4    Mohan Cooperative                       11            0              11
+5    Saket                                   16            0              16
+6    Okhla                                   12            0              12
+7    Netaji Subhash Place                    10            0              10
+8    Nehru Place                             13            0              13
+9    Janakpuri                                7            0               7
+10   South Delhi                              3            0               3
+11   Dwarka Delhi                            11            0              11
+12   Rohini                                   5            0               5
+13   Rajouri Garden                           1            0               1
+14   Vasant Kunj                              2            0               2
+15   Laxmi Nagar                              2            0               2
+16   Hauz Khas                                3            0               3
+17   Green Park                               3            0               3
+18   Pusa Road                                1            0               1
+19   Jasola                                   2            0               2
+20   Karol Bagh                               3            0               3
+21   Defence Colony                           1            0               1
+22   Patel Nagar                              1            0               1
+23   Lajpat Nagar                             2            0               2
+24   Uttam Nagar                              1            0               1
+----------------------------------------------------------------------------
+     TOTAL                                  136            8             144
+
+
+4. INDORE
+==========
+Total cards on the Indore page (main) : 80
+Listing pages                          : 3
+Sub-locations in this city             : 13
+Extra cards (shown only on area click) : 0
+Cards under the sub-locations (unique per area) : 77
+Cards not under any sub-location       : 3  [Sarvanad Nagar: 1, Manorama Ganj: 1, Scheme No 131: 1]
+NOTE: on click, Indore shows only the area's own list (areaExtraOfficeCards), not the main listing cards.
+
+No.  Sub-location                    Main cards  Extra cards  Shown on click
+----------------------------------------------------------------------------
+1    AB Road                                 10            0              10
+2    LIC Colony                               1            0               1
+3    Ratna Lok Colony                         3            0               3
+4    Ravindra Nagar                           4            0               4
+5    South Tukoganj                           5            0               5
+6    Vijay Nagar                             37            0              37
+7    M.G. Road                                1            0               1
+8    Jawahar Marg                             2            0               2
+9    Bhawarkua                                3            0               3
+10   Mahalaxmi Nagar                          2            0               2
+11   New Palasia                              4            0               4
+12   Scheme 54                                3            0               3
+13   Pipliyahana                              2            0               2
+----------------------------------------------------------------------------
+     TOTAL                                   77            0              77
+
+
+5. AHMEDABAD
+=============
+Total cards on the Ahmedabad page (main) : 68  (62 unique, 6 repeated in the data)
+Listing pages                          : 3
+Sub-locations in this city             : 12
+Extra cards (shown only on area click) : 0
+Cards under the sub-locations (unique per area) : 64
+
+No.  Sub-location                    Main cards  Extra cards  Shown on click
+----------------------------------------------------------------------------
+1    SG Highway                              28            0              28
+2    Navrangpura                             16            0              16
+3    Vastrapur                                8            0               8
+4    Prahlad Nagar                            1            0               1
+5    Satellite                                5            0               5
+6    Ellisbridge                              3            0               3
+7    Makarba                                  1            0               1
+8    Bopal                                    2            0               2
+9    Thaltej                                  0            0               0
+10   Sindhu Bhavan Road                       0            0               0
+11   Sola                                     0            0               0
+12   Nikol                                    0            0               0
+----------------------------------------------------------------------------
+     TOTAL                                   64            0              64
+
+
+6. JAIPUR
+==========
+Total cards on the Jaipur page (main) : 77  (75 unique, 2 repeated in the data)
+Listing pages                          : 3
+Sub-locations in this city             : 7
+Extra cards (shown only on area click) : 27
+Cards under the sub-locations (unique per area) : 50
+Cards not under any sub-location       : 26  [Gyan Path: 1, Tagore Nagar: 1, Malviya Nagar: 8, Civil Lines: 2, MI Road: 1, Ajmer Road: 1, Jaipur: 1, Shastri Nagar: 1, Jagatpura: 2, Bani Park: 1, C-Scheme: 2, Triveni Nagar: 1, Raja Park: 1, DCM: 1, Gandhi Path: 1, Jhotwara: 1]
+
+No.  Sub-location                    Main cards  Extra cards  Shown on click
+----------------------------------------------------------------------------
+1    Vaishali Nagar                          16            7              23
+2    Mansarovar                              13            9              22
+3    Tonk Road                                8            3              11
+4    Lalkothi                                 6            2               8
+5    Pratap Nagar                             1            2               3
+6    Nirman Nagar                             4            1               5
+7    Shyam Nagar                              2            3               5
+----------------------------------------------------------------------------
+     TOTAL                                   50           27              77
+
+
+7. CHANDIGARH
+==============
+Total cards on the Chandigarh page (main) : 84  (72 unique, 12 repeated in the data)
+Listing pages                          : 3
+Sub-locations in this city             : 8
+Extra cards (shown only on area click) : 1
+Cards under the sub-locations (unique per area) : 84
+
+No.  Sub-location                    Main cards  Extra cards  Shown on click
+----------------------------------------------------------------------------
+1    Mohali                                  26            0              26
+2    Zirakpur                                16            0              16
+3    Madhya Marg                              7            0               7
+4    Sahibzada Ajit Singh Nagar              11            0              11
+5    Sector 34A                               6            0               6
+6    Phase 8B                                 3            0               3
+7    Phase 7                                  1            0               1
+8    Industrial Area Phase 1                 14            1              15
+----------------------------------------------------------------------------
+     TOTAL                                   84            1              85
+
+
+8. KOCHI
+=========
+Total cards on the Kochi page (main) : 56  (46 unique, 10 repeated in the data)
+Listing pages                          : 2
+Sub-locations in this city             : 13
+Extra cards (shown only on area click) : 0
+Cards under the sub-locations (unique per area) : 50
+Cards not under any sub-location       : 3  [Tripunithura: 1, KPCC Junction: 1, Vallathol Padi: 1]
+
+No.  Sub-location                    Main cards  Extra cards  Shown on click
+----------------------------------------------------------------------------
+1    Kakkanad                                12            0              12
+2    MG Road                                  5            0               5
+3    Edappally                                8            0               8
+4    Panampilly Nagar                         2            0               2
+5    Infopark                                 1            0               1
+6    Palarivattom                             5            0               5
+7    Kalamassery                              3            0               3
+8    Ernakulam                                7            0               7
+9    Marine Drive                             1            0               1
+10   Padamughal                               2            0               2
+11   Thrikkakara                              2            0               2
+12   Vytilla                                  1            0               1
+13   Kadavanthara                             1            0               1
+----------------------------------------------------------------------------
+     TOTAL                                   50            0              50
+
+
+9. KOLKATA
+===========
+Total cards on the Kolkata page (main) : 39
+Listing pages                          : 2
+Sub-locations in this city             : 17
+Extra cards (shown only on area click) : 0
+Cards under the sub-locations (unique per area) : 39
+
+No.  Sub-location                    Main cards  Extra cards  Shown on click
+----------------------------------------------------------------------------
+1    Camac Street                             2            0               2
+2    Salt Lake                                6            0               6
+3    Sarani Road                              1            0               1
+4    Dalhousie                                2            0               2
+5    New Town                                 7            0               7
+6    Dharmatala                               2            0               2
+7    Bidhannagar                              3            0               3
+8    Kasba                                    1            0               1
+9    Rajarhat                                 1            0               1
+10   Ballygunge                               2            0               2
+11   Park Street                              5            0               5
+12   Chowringhee                              1            0               1
+13   Golaghata Road                           1            0               1
+14   Gariahat                                 1            0               1
+15   Bhowanipore                              1            0               1
+16   Sector V                                 2            0               2
+17   Bose Road                                1            0               1
+----------------------------------------------------------------------------
+     TOTAL                                   39            0              39
+
+
+10. COIMBATORE
+==============
+Total cards on the Coimbatore page (main) : 69  (65 unique, 4 repeated in the data)
+Listing pages                          : 3
+Sub-locations in this city             : 36
+Extra cards (shown only on area click) : 0
+Cards under the sub-locations (unique per area) : 69
+
+No.  Sub-location                    Main cards  Extra cards  Shown on click
+----------------------------------------------------------------------------
+1    Avinashi Road                            9            0               9
+2    Peelamedu                                6            0               6
+3    Saravanampatti                           5            0               5
+4    Gandhipuram                              4            0               4
+5    Ram Nagar                                4            0               4
+6    Vadavalli                                4            0               4
+7    RS Puram                                 3            0               3
+8    Cheran Ma Nagar                          2            0               2
+9    Civil Aerodrome Post                     2            0               2
+10   Kalapatti                                2            0               2
+11   Saibaba Colony                           2            0               2
+12   Tatabad                                  2            0               2
+13   100 Feet Road                            1            0               1
+14   Amman Nagar                              1            0               1
+15   Annur                                    1            0               1
+16   Avarampalayam                            1            0               1
+17   Brookefields                             1            0               1
+18   Chinnavedampatti                         1            0               1
+19   Eachanari                                1            0               1
+20   Edayarpalayam                            1            0               1
+21   Ganapathy                                1            0               1
+22   GKS Nagar                                1            0               1
+23   Induma Nagar                             1            0               1
+24   Kamarajar Road                           1            0               1
+25   Kovai                                    1            0               1
+26   Lakshmipuram                             1            0               1
+27   Nadar Colony                             1            0               1
+28   Nehru Nagar West                         1            0               1
+29   Pappanaickenpalayam                      1            0               1
+30   Peelamedu West                           1            0               1
+31   Race Course                              1            0               1
+32   Sidhapudur                               1            0               1
+33   Singanallur                              1            0               1
+34   Sitra                                    1            0               1
+35   STV Nagar                                1            0               1
+36   TNHB Colony                              1            0               1
+----------------------------------------------------------------------------
+     TOTAL                                   69            0              69
+
+
+11. GOA
+=======
+Total cards on the Goa page (main) : 32
+Listing pages                          : 1
+Sub-locations in this city             : 13
+Extra cards (shown only on area click) : 0
+Cards under the sub-locations (unique per area) : 32
+
+No.  Sub-location                    Main cards  Extra cards  Shown on click
+----------------------------------------------------------------------------
+1    Panjim                                  18            0              18
+2    Porvorim                                 0            0               0
+3    Margao                                   2            0               2
+4    Candolim                                 0            0               0
+5    Anjuna                                   1            0               1
+6    Verna                                    2            0               2
+7    Dona Paula                               1            0               1
+8    Penha de Franca                          1            0               1
+9    Parra                                    2            0               2
+10   Arambol                                  1            0               1
+11   Vagator                                  1            0               1
+12   Mandrem                                  2            0               2
+13   Ucassaim                                 1            0               1
+----------------------------------------------------------------------------
+     TOTAL                                   32            0              32
+
+
+12. MUMBAI
+==========
+Total cards on the Mumbai page (main) : 403  (347 unique, 56 repeated in the data)
+Listing pages                          : 13
+Sub-locations in this city             : 79
+Extra cards (shown only on area click) : 0
+Cards under the sub-locations (unique per area) : 403
+
+No.  Sub-location                    Main cards  Extra cards  Shown on click
+----------------------------------------------------------------------------
+1    Andheri East                            63            0              63
+2    Andheri                                 28            0              28
+3    Lower Parel                             28            0              28
+4    Navi Mumbai                             24            0              24
+5    Powai                                   26            0              26
+6    Andheri West                            20            0              20
+7    BKC                                     21            0              21
+8    Thane                                   24            0              24
+9    Bandra East                              8            0               8
+10   Chembur                                  5            0               5
+11   Goregaon                                11            0              11
+12   Worli                                    5            0               5
+13   Borivali West                            3            0               3
+14   Fort                                     6            0               6
+15   Vikhroli                                 4            0               4
+16   Borivali                                 2            0               2
+17   Churchgate                               4            0               4
+18   Dadar                                    3            0               3
+19   Kandivali West                           3            0               3
+20   Mulund                                   2            0               2
+21   Mulund West                              6            0               6
+22   Thane West                               8            0               8
+23   Vashi                                   11            0              11
+24   B Wing                                   1            0               1
+25   Ballard Estate                           2            0               2
+26   Bandra                                   2            0               2
+27   Bandra West                              4            0               4
+28   CBD Belapur                              2            0               2
+29   Colaba                                   1            0               1
+30   Dadar East                               2            0               2
+31   Dadar West                               3            0               3
+32   Deonar                                   1            0               1
+33   Equinox                                  1            0               1
+34   Ghatkopar West                           4            0               4
+35   Goregaon East                            2            0               2
+36   Goregaon West                            2            0               2
+37   Jogeshwari East                          1            0               1
+38   Juinagar                                 1            0               1
+39   Kala Ghoda                               2            0               2
+40   LBS Marg                                 1            0               1
+41   Lightbridge                              1            0               1
+42   Mahim                                    1            0               1
+43   Mahim West                               1            0               1
+44   Malad                                    2            0               2
+45   Malad West                               3            0               3
+46   Nariman Point                            3            0               3
+47   Nerul                                    2            0               2
+48   Sakinaka                                 1            0               1
+49   Shanti Nagar                             1            0               1
+50   Vikhroli West                            2            0               2
+51   Vile Parle                               1            0               1
+52   Belapur                                  1            0               1
+53   Kharghar                                 1            0               1
+54   Sanpada                                  1            0               1
+55   Sector 14                                1            0               1
+56   Santacruz East                           4            0               4
+57   Santacruz West                           3            0               3
+58   Khar West                                1            0               1
+59   Juhu                                     1            0               1
+60   Netaji Subhash Nagar                     1            0               1
+61   Amrut Nagar                              1            0               1
+62   Yashodham                                1            0               1
+63   Bhandup                                  2            0               2
+64   Wagle Industrial Estate                  2            0               2
+65   Chandivali                               2            0               2
+66   Gundavali                                1            0               1
+67   Bhim Nagar                               1            0               1
+68   Andheri Kurla Road                       1            0               1
+69   South Mumbai                             1            0               1
+70   Marine Drive                             1            0               1
+71   Kurla                                    2            0               2
+72   Prabhadevi                               2            0               2
+73   Marzban Road                             1            0               1
+74   Kamala Nagar                             1            0               1
+75   Mulund East                              1            0               1
+76   Turbhe                                   1            0               1
+77   Railway Colony                           1            0               1
+78   Marol MIDC Industry Estate               1            0               1
+79   Sai Wadi                                 1            0               1
+----------------------------------------------------------------------------
+     TOTAL                                  403            0             403
