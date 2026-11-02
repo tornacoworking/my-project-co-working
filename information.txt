@@ -107,7 +107,7 @@ No.  Sub-location                    Main cards  Extra cards  Shown on click
 30   Sector 143                               1            0               1
 31   Sector 144                               1            0               1
 ----------------------------------------------------------------------------
-     TOTAL                                   97                0              97
+     TOTAL                                   97                 0              97
 
 
 3. DELHI
