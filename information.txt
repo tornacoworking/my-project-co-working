@@ -27,9 +27,9 @@ Kochi                56        46      2             13            0
 Kolkata              39        39      2             17            0
 Coimbatore           69        65      3             36            0
 Goa                  32        32      1             13            0
-Mumbai              200       189      7             51            0
+Mumbai              403       347     13             79            0
 --------------------------------------------------------------------
-TOTAL              1041       960                   243          173
+TOTAL              1244      1118                   271          173
 
 
 1. PUNE
@@ -385,64 +385,92 @@ No.  Sub-location                    Main cards  Extra cards  Shown on click
 
 12. MUMBAI
 ==========
-Total cards on the Mumbai page (main) : 200  (189 unique, 11 repeated in the data)
-Listing pages                          : 7
-Sub-locations in this city             : 51
+Total cards on the Mumbai page (main) : 403  (347 unique, 56 repeated in the data)
+Listing pages                          : 13
+Sub-locations in this city             : 79
 Extra cards (shown only on area click) : 0
-Cards under the sub-locations (unique per area) : 200
+Cards under the sub-locations (unique per area) : 403
 
 No.  Sub-location                    Main cards  Extra cards  Shown on click
 ----------------------------------------------------------------------------
-1    Andheri East                            23            0              23
-2    Andheri                                 19            0              19
-3    Lower Parel                             15            0              15
-4    Navi Mumbai                             15            0              15
-5    Powai                                   15            0              15
-6    Andheri West                            14            0              14
-7    BKC                                     14            0              14
-8    Thane                                   13            0              13
-9    Bandra East                              5            0               5
+1    Andheri East                            63            0              63
+2    Andheri                                 28            0              28
+3    Lower Parel                             28            0              28
+4    Navi Mumbai                             24            0              24
+5    Powai                                   26            0              26
+6    Andheri West                            20            0              20
+7    BKC                                     21            0              21
+8    Thane                                   24            0              24
+9    Bandra East                              8            0               8
 10   Chembur                                  5            0               5
-11   Goregaon                                 5            0               5
-12   Worli                                    4            0               4
+11   Goregaon                                11            0              11
+12   Worli                                    5            0               5
 13   Borivali West                            3            0               3
-14   Fort                                     3            0               3
-15   Vikhroli                                 3            0               3
+14   Fort                                     6            0               6
+15   Vikhroli                                 4            0               4
 16   Borivali                                 2            0               2
-17   Churchgate                               2            0               2
-18   Dadar                                    2            0               2
-19   Kandivali West                           2            0               2
+17   Churchgate                               4            0               4
+18   Dadar                                    3            0               3
+19   Kandivali West                           3            0               3
 20   Mulund                                   2            0               2
-21   Mulund West                              2            0               2
-22   Thane West                               2            0               2
-23   Vashi                                    2            0               2
+21   Mulund West                              6            0               6
+22   Thane West                               8            0               8
+23   Vashi                                   11            0              11
 24   B Wing                                   1            0               1
-25   Ballard Estate                           1            0               1
-26   Bandra                                   1            0               1
-27   Bandra West                              1            0               1
-28   CBD Belapur                              1            0               1
+25   Ballard Estate                           2            0               2
+26   Bandra                                   2            0               2
+27   Bandra West                              4            0               4
+28   CBD Belapur                              2            0               2
 29   Colaba                                   1            0               1
-30   Dadar East                               1            0               1
-31   Dadar West                               1            0               1
+30   Dadar East                               2            0               2
+31   Dadar West                               3            0               3
 32   Deonar                                   1            0               1
 33   Equinox                                  1            0               1
-34   Ghatkopar West                           1            0               1
-35   Goregaon East                            1            0               1
-36   Goregaon West                            1            0               1
+34   Ghatkopar West                           4            0               4
+35   Goregaon East                            2            0               2
+36   Goregaon West                            2            0               2
 37   Jogeshwari East                          1            0               1
 38   Juinagar                                 1            0               1
-39   Kala Ghoda                               1            0               1
+39   Kala Ghoda                               2            0               2
 40   LBS Marg                                 1            0               1
 41   Lightbridge                              1            0               1
 42   Mahim                                    1            0               1
 43   Mahim West                               1            0               1
-44   Malad                                    1            0               1
-45   Malad West                               1            0               1
-46   Nariman Point                            1            0               1
-47   Nerul                                    1            0               1
+44   Malad                                    2            0               2
+45   Malad West                               3            0               3
+46   Nariman Point                            3            0               3
+47   Nerul                                    2            0               2
 48   Sakinaka                                 1            0               1
 49   Shanti Nagar                             1            0               1
-50   Vikhroli West                            1            0               1
+50   Vikhroli West                            2            0               2
 51   Vile Parle                               1            0               1
+52   Belapur                                  1            0               1
+53   Kharghar                                 1            0               1
+54   Sanpada                                  1            0               1
+55   Sector 14                                1            0               1
+56   Santacruz East                           4            0               4
+57   Santacruz West                           3            0               3
+58   Khar West                                1            0               1
+59   Juhu                                     1            0               1
+60   Netaji Subhash Nagar                     1            0               1
+61   Amrut Nagar                              1            0               1
+62   Yashodham                                1            0               1
+63   Bhandup                                  2            0               2
+64   Wagle Industrial Estate                  2            0               2
+65   Chandivali                               2            0               2
+66   Gundavali                                1            0               1
+67   Bhim Nagar                               1            0               1
+68   Andheri Kurla Road                       1            0               1
+69   South Mumbai                             1            0               1
+70   Marine Drive                             1            0               1
+71   Kurla                                    2            0               2
+72   Prabhadevi                               2            0               2
+73   Marzban Road                             1            0               1
+74   Kamala Nagar                             1            0               1
+75   Mulund East                              1            0               1
+76   Turbhe                                   1            0               1
+77   Railway Colony                           1            0               1
+78   Marol MIDC Industry Estate               1            0               1
+79   Sai Wadi                                 1            0               1
 ----------------------------------------------------------------------------
-     TOTAL                                  200            0             200
+     TOTAL                                  403            0             403

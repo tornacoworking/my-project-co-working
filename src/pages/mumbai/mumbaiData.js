@@ -58,7 +58,35 @@ export const mumbaiNeighborhoods = [
   "Sakinaka",
   "Shanti Nagar",
   "Vikhroli West",
-  "Vile Parle"
+  "Vile Parle",
+  "Belapur",
+  "Kharghar",
+  "Sanpada",
+  "Sector 14",
+  "Santacruz East",
+  "Santacruz West",
+  "Khar West",
+  "Juhu",
+  "Netaji Subhash Nagar",
+  "Amrut Nagar",
+  "Yashodham",
+  "Bhandup",
+  "Wagle Industrial Estate",
+  "Chandivali",
+  "Gundavali",
+  "Bhim Nagar",
+  "Andheri Kurla Road",
+  "South Mumbai",
+  "Marine Drive",
+  "Kurla",
+  "Prabhadevi",
+  "Marzban Road",
+  "Kamala Nagar",
+  "Mulund East",
+  "Turbhe",
+  "Railway Colony",
+  "Marol MIDC Industry Estate",
+  "Sai Wadi"
 ];
 
 // ============================================================================
@@ -4131,8 +4159,3819 @@ export const mumbaiPages = [
         ]
       }
     ],
-    [],
-    [],
+    [
+      {
+        "id": 201,
+        "name": "WorkLoft",
+        "badge": null,
+        "rating": null,
+        "area": "CBD Belapur",
+        "location": "CBD Belapur, Mumbai",
+        "price": "₹9,000",
+        "period": "/ Month",
+        "priceFormatted": "₹9,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1612256317/c51x24ovzp5yohdxgmb2.jpg",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689670959/v8j3gquvv1fovrjxijzv.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689670959/barb1opsmtgk97drca0z.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689670959/ua41jsv58hq8emlmu19y.webp"
+        ]
+      },
+      {
+        "id": 202,
+        "name": "Inspire Cospaces",
+        "badge": null,
+        "rating": null,
+        "area": "Belapur",
+        "location": "Belapur, Mumbai",
+        "price": "₹8,800",
+        "period": "/ Month",
+        "priceFormatted": "₹8,800 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1689749726/i8r9apmdo2t0vaygfftz.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689749740/kgpmziv8c182jw58z3jr.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689749740/nogkse0g3lrdzgfg9fzw.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689749740/pcv672bfmudlgsii13i7.webp"
+        ]
+      },
+      {
+        "id": 203,
+        "name": "School of RPA",
+        "badge": null,
+        "rating": null,
+        "area": "Kharghar",
+        "location": "Kharghar, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1578899971/gmvqeug2t74wpqaot5ar.webp",
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1578905746/dgrif1xshjlkpfksodca.webp"
+        ]
+      },
+      {
+        "id": 204,
+        "name": "Ellora Fiesta",
+        "badge": null,
+        "rating": null,
+        "area": "Sanpada",
+        "location": "Sanpada, Mumbai",
+        "price": "₹8,000",
+        "period": "/ Month",
+        "priceFormatted": "₹8,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1721901568/dkwa7lpnukriu46jqu9k.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1721901585/rigsppdwwjrlh2pyouyo.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1721901585/wxxofkvovcudra9zklwz.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1721901585/t7hukrdrqqllqjsy8kqc.webp"
+        ]
+      },
+      {
+        "id": 205,
+        "name": "Swastik Mukherjee",
+        "badge": null,
+        "rating": null,
+        "area": "Vashi",
+        "location": "Vashi, Mumbai",
+        "price": "₹7,00,00,000",
+        "period": "/ Month",
+        "priceFormatted": "₹7,00,00,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/28c0414e19a0e6c253cde23208393f14_PMdPBYoea.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/45ce81ff7bc3d9a6097163b41fd89d4d_9bbBqMkzxi.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/5fab65bc7052a7f585375f4fc4bbdf90__zv6GDCfu6.JPG"
+        ]
+      },
+      {
+        "id": 206,
+        "name": "COWORKS BY STM",
+        "badge": null,
+        "rating": null,
+        "area": "Sector 14",
+        "location": "Sector 14, Mumbai",
+        "price": "₹6,500",
+        "period": "/ Month",
+        "priceFormatted": "₹6,500 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://ik.imagekit.io/qdesq/qdesq/4e6158b5d8723e6ae68bf11007e31ab3_XjY-gDwAIQ.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/83462e611b9887e36e02f5f917b42a80_oRvbmIF21d.JPG"
+        ]
+      },
+      {
+        "id": 207,
+        "name": "Grid Consultants Pvt. Ltd.",
+        "badge": null,
+        "rating": null,
+        "area": "Santacruz East",
+        "location": "Santacruz East, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/image/upload/tr:n-listing_image/v1472287467/cow9x7tnwhh9gjdirgrz.webp",
+          "https://qdesq.imagekit.io/image/upload/tr:n-listing_image/v1472286374/jgm8upbhooqnbabz1r6r.webp"
+        ]
+      },
+      {
+        "id": 208,
+        "name": "Taj Hotel",
+        "badge": null,
+        "rating": null,
+        "area": "Santacruz East",
+        "location": "Santacruz East, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1654148577/lzev0kevevbnuwenlopq.jpg",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1654148681/ugvsnmyojakckx1rqqpo.webp"
+        ]
+      }
+    ],
+    [
+      {
+        "id": 209,
+        "name": "Lemon Tree Co",
+        "badge": null,
+        "rating": null,
+        "area": "Santacruz West",
+        "location": "Santacruz West, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://ik.imagekit.io/qdesq/qdesq/8c101e84b46900821f917181001aff6a_KSWfGH-xlX.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/5a71d8bfc749989eccf175a7590e898e_I9VFlZG4u.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/8002aefc3b7213a90a746b9e85e57e1d_jkQUHrbom.jpg"
+        ]
+      },
+      {
+        "id": 210,
+        "name": "OURDESK",
+        "badge": null,
+        "rating": null,
+        "area": "Khar West",
+        "location": "Khar West, Mumbai",
+        "price": "₹14,000",
+        "period": "/ Month",
+        "priceFormatted": "₹14,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://ik.imagekit.io/qdesq/qdesq/767b9bf6613f02bd96b429b868b1e407_Jbth9av5gt.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/d6041df6bcb79e7218273199463be8bc__-R03qPuc.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/8654dd6bdec1286fd3a7cc381fa987b2_mMJ1i8GEsr.jpg"
+        ]
+      },
+      {
+        "id": 211,
+        "name": "The Emerald Hotel & Service Apartments",
+        "badge": null,
+        "rating": null,
+        "area": "Juhu",
+        "location": "Juhu, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/image/upload/tr:n-listing_image/v1583738762/cwbpfuv4ju8fpo2uvmdu.webp",
+          "https://qdesq.imagekit.io/image/upload/tr:n-listing_image/v1583748758/e73wwkidnu2lk7cwnswg.webp",
+          "https://qdesq.imagekit.io/image/upload/tr:n-listing_image/v1583748784/uo6khuk52fgxl3kveyao.webp"
+        ]
+      },
+      {
+        "id": 212,
+        "name": "Innov8",
+        "badge": null,
+        "rating": null,
+        "area": "Netaji Subhash Nagar",
+        "location": "Netaji Subhash Nagar, Mumbai",
+        "price": "₹20,000",
+        "period": "/ Month",
+        "priceFormatted": "₹20,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://ik.imagekit.io/qdesq/qdesq/9135ca97d93940e63697bf98acc93725_wpfD0Rt_yv.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/17609cee119a67da9dd1f66169f0d718_Lxhr66WQI.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/450d5e78d6eeeef1ab5dcb6214f789bd_ChrPwQNux.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/ecbc8eb7c23d916d2e4e81a66394f8aa_TSiUoyCQS.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/b3ad68772b6c4b5d55ff33463f69ab1f_JAfOI1Nbbb.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/6b1d24b480ac822e7914dc71ff5ff910_6uD5RmBbYZ.JPG"
+        ]
+      },
+      {
+        "id": 213,
+        "name": "Biostadt",
+        "badge": null,
+        "rating": null,
+        "area": "Bandra East",
+        "location": "Bandra East, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://ik.imagekit.io/qdesq/qdesq/c6f73f45299a29f8e6282a4ded42986b_PN158TMB-M.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/336c118b458ce2ddd003386fcac6df6b_PbFZFrWFC.JPG"
+        ]
+      },
+      {
+        "id": 214,
+        "name": "AIIG",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri West",
+        "location": "Andheri West, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1580463307/hyx7xspctf4bwlrkikhq.webp",
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1580463648/abthgwkfk9cjhgs5l8do.webp",
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1580464735/mqzdralzpz162sfvptyw.webp",
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1580464404/ezjruldoks3uzripqhpm.webp"
+        ]
+      },
+      {
+        "id": 215,
+        "name": "Nehru Library & Research Centre",
+        "badge": null,
+        "rating": null,
+        "area": "Bandra East",
+        "location": "Bandra East, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1696597367/f8njbdv8eh6rfm3btp49.webp",
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1696481579/wkr3numifqco5ecitxua.jpg"
+        ]
+      },
+      {
+        "id": 216,
+        "name": "Innov8",
+        "badge": null,
+        "rating": null,
+        "area": "Amrut Nagar",
+        "location": "Amrut Nagar, Mumbai",
+        "price": "₹11,000",
+        "period": "/ Month",
+        "priceFormatted": "₹11,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://ik.imagekit.io/qdesq/qdesq/f26ba89b43ea37a5744d9be78c28ef6a_3qGz3v-wFf.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/cae89c69b43a56afc9e420af3326fdd9_IbptdQrZi.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/c1d2cb7894d39fa1051c1067d581b8e8_OA8X61Dcl.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/ce828d0826d01b2abbd4013f1a91df52_80hjPsevE.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/a68b7c9ba81ae2da35f211ac78974caa_qqBxyRlPB.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/746ff096c7cb23dc33f7bb9ddbbf57e5_YezIeVkIb.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/ce365c615895290bc6ce77fb2fb20992_BS9SzVjdf.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/a62f189d37d77211c92e144c22658b8f_lQDDRny4J.jpg"
+        ]
+      }
+    ],
+    [
+      {
+        "id": 217,
+        "name": "Eazy2Work C/O Detangle",
+        "badge": null,
+        "rating": null,
+        "area": "Ghatkopar West",
+        "location": "Ghatkopar West, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1708149004/i23zikoucuxzovilimmg.jpg",
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1708149028/fcb8mdlqazbaszml4kxr.jpg"
+        ]
+      },
+      {
+        "id": 218,
+        "name": "Simpliwork Offices",
+        "badge": null,
+        "rating": null,
+        "area": "Vikhroli",
+        "location": "Vikhroli, Mumbai",
+        "price": "₹12,500",
+        "period": "/ Month",
+        "priceFormatted": "₹12,500 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1627973746/lonjepe9fak2jscuj5ua.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689660704/qhjhraxjdq6bbnf2qdq3.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689660704/q6hff0oo95u0vuzzuceo.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689660705/xefycjwedo24qmscb9h5.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689660705/haovbvo1ntp9ot0jrw9d.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689660705/aj7raivhjhdshyejo2kb.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689660705/ecdzbvxpwafromuec6ip.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689660644/ue7tih7fwdhreaqlte3w.webp"
+        ]
+      },
+      {
+        "id": 219,
+        "name": "OfficeBing",
+        "badge": null,
+        "rating": null,
+        "area": "Vikhroli West",
+        "location": "Vikhroli West, Mumbai",
+        "price": "₹13,499",
+        "period": "/ Month",
+        "priceFormatted": "₹13,499 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/image/upload/s--tAzmbjeb--/v1726658092/avpijo7flozhfpwkffzr.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/s--3Zoc1KfW--/v1726657994/s0cilnj49xtzlppjbelh.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/s--DgfHvke2--/v1726658133/wygwstfrvexqijpspxr2.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/s--ok0_YUuD--/v1726658152/wusurylmyvdwnmdja32m.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/s--0Qby3bLo--/v1726658244/dexrr8i6olls9yn9j0tl.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/s--VI07Hi6y--/v1726658261/fl3u2ezhpkk6tzzkfjod.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/s--d0GQl_p1--/v1726658310/ktvxtbwovqvsppncmkqv.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/s--kOk5kmSa--/v1726658361/dskgrcay4abw3wcf2sn8.webp"
+        ]
+      },
+      {
+        "id": 220,
+        "name": "COWRKS Powai",
+        "badge": null,
+        "rating": null,
+        "area": "Powai",
+        "location": "Powai, Mumbai",
+        "price": "₹25,000",
+        "period": "/ Month",
+        "priceFormatted": "₹25,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1705304707/g4q9mu8qfbqkxjsvrfxf.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1705304726/xavnxzsxcuhfrna2emxl.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1705304727/cvkvgl9lxsnl4q2m9fqp.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1705304727/s8mjrfebjwzmwuwcayiy.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1705304727/sgwqzwcdoh0tt0nxbyvx.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1705304728/lu9t7iip9homq50hbgn9.webp"
+        ]
+      },
+      {
+        "id": 221,
+        "name": "Regus",
+        "badge": null,
+        "rating": null,
+        "area": "Powai",
+        "location": "Powai, Mumbai",
+        "price": "₹15,000",
+        "period": "/ Month",
+        "priceFormatted": "₹15,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1669270338/zzrfskvn153uxnuramdl.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1669270352/uoakune8wjr7tklocdfw.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1669270352/l5t889g6nindcvalmgxp.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1669270353/egve0xakzdlu4mtw6oze.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689311968/h5fuag1oatd1e7mlpm7b.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689311968/eapybe8b2d522plbinrk.webp"
+        ]
+      },
+      {
+        "id": 222,
+        "name": "Bharti Co Space",
+        "badge": null,
+        "rating": null,
+        "area": "Ghatkopar West",
+        "location": "Ghatkopar West, Mumbai",
+        "price": "₹6,000",
+        "period": "/ Month",
+        "priceFormatted": "₹6,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1659427028/m7csapaa1hzsw0nmwwi9.jpg",
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1659427036/jmm6iczyovzxngzcyrmb.jpg"
+        ]
+      },
+      {
+        "id": 223,
+        "name": "LetsWork",
+        "badge": null,
+        "rating": null,
+        "area": "Ghatkopar West",
+        "location": "Ghatkopar West, Mumbai",
+        "price": "₹8,000",
+        "period": "/ Month",
+        "priceFormatted": "₹8,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://ik.imagekit.io/qdesq/qdesq/b471f024117a0bfe5c6fd2fe066e8f45_8wDliFm0te.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/7aed1e1f627e5d02e81c1e0c70c79100_TZY5U3a-A.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/1ec8513956ee6e3e0f907b848cab8d37_qp4mTUsctH.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/880b43c7e093d8922dc7da46263aa149_0SgIKPQBZ.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/ad3644fa8f076f1086852e22ae6658d8_fApqy-jmj.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/5d692caa70dc244f20d85a262d95275f_BR2NBRG8N.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/6c6e88fff3d9a75eed16696a60485721_8odyu_zq65.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/29f21020d52a91a4e4f5f48d6ca4e9b5_EZeHowSbZ_.JPG"
+        ]
+      },
+      {
+        "id": 224,
+        "name": "Awfis",
+        "badge": null,
+        "rating": null,
+        "area": "Powai",
+        "location": "Powai, Mumbai",
+        "price": "₹17,000",
+        "period": "/ Month",
+        "priceFormatted": "₹17,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://ik.imagekit.io/qdesq/qdesq/d68d1eaeb5785db18b398d7b478ced91_fQXemrmp11.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/23933a69d965460815d4fc215f239d75_LCkaSs56aW.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/2ac611f41ab45b30240c652337deaa6f_0Mgy3lf6xv.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/e14970489de92197ac1ccca198d89fb0_NxXKLfmzS.JPG"
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "id": 225,
+        "name": "iKeva Powai",
+        "badge": null,
+        "rating": null,
+        "area": "Powai",
+        "location": "Powai, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1676544047/wnjpknppryznc6eegngx.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1676544003/bz4tagwmkvriyywfv7js.webp",
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1525933144/o8b2lschzwqhvtn4ndfq.webp"
+        ]
+      },
+      {
+        "id": 226,
+        "name": "Dextrus",
+        "badge": null,
+        "rating": null,
+        "area": "Lower Parel",
+        "location": "Lower Parel, Mumbai",
+        "price": "₹16,250",
+        "period": "/ Month",
+        "priceFormatted": "₹16,250 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1689752020/qyoqghsgidpntsnndxj3.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689751999/ltchz4vqsmi6hohjnkhr.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689751999/xh5ffpbnn9dpcfcgka5x.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689751999/pq0sgzfrcj0fc3gserpa.webp",
+          "https://qdesq.imagekit.io/image/upload/tr:n-listing_image/v1585303855/hjtnzriuiwycs26tj5sp.webp",
+          "https://qdesq.imagekit.io/image/upload/tr:n-listing_image/v1585303877/jgzlxnfgmbfvittq12zq.webp"
+        ]
+      },
+      {
+        "id": 227,
+        "name": "UrbanWrk",
+        "badge": null,
+        "rating": null,
+        "area": "Lower Parel",
+        "location": "Lower Parel, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://ik.imagekit.io/qdesq/qdesq/2a19c13635e35837aaeca7344070bfef_TwThzH963n.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/29209abd147fa4cab33ffc5fba7d36f6_DbDn9eZ_D.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/b66309c17e0da6b2abad53b6a61b20cb_EaGrsZsROK.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/642fc5926236b33c1724bc18959ae5cd_MaJ803Dp0.jpg"
+        ]
+      },
+      {
+        "id": 228,
+        "name": "Collaborate Hub",
+        "badge": null,
+        "rating": null,
+        "area": "Vashi",
+        "location": "Vashi, Mumbai",
+        "price": "₹7,000",
+        "period": "/ Month",
+        "priceFormatted": "₹7,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1688025890/bepi9dxtzsbvk0ul9bgn.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1688025698/zzn0f39rdeqbbvv8dr4r.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1688025698/jt3scapygv76mjzoe48m.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1688025698/mxguqdbpcsx3pivfp3iv.webp"
+        ]
+      },
+      {
+        "id": 229,
+        "name": "AWFIS",
+        "badge": null,
+        "rating": null,
+        "area": "Vashi",
+        "location": "Vashi, Mumbai",
+        "price": "₹11,000",
+        "period": "/ Month",
+        "priceFormatted": "₹11,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1590050318/bcpovxhcove4gb4ooavc.jpg",
+          "https://qdesq.imagekit.io/img/tr:n-detail_image/image/upload/v1590048705/ialajg9c8bq7qdg0qseb.jpg",
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1499245495/wz9rmg7dvrjdsanwdfjj.webp",
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1499244747/qfr0wmvwogagohv9qsmu.webp",
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1499244194/nl4hx8cthukv8ptntmdq.webp",
+          "https://awfis-bpm-bucket.s3.ap-south-1.amazonaws.com/compliance/1680721932912.jpg"
+        ]
+      },
+      {
+        "id": 230,
+        "name": "MFC",
+        "badge": null,
+        "rating": null,
+        "area": "Vashi",
+        "location": "Vashi, Mumbai",
+        "price": "₹10,000",
+        "period": "/ Month",
+        "priceFormatted": "₹10,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/image/upload/s--nOAtzF07--/v1726469852/dhnuykcafsnehr2gmtdr.webp",
+          "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/31ef0b03d01b794bd51e3aee8cf1c0ce_d5xYkvp9r.jpeg"
+        ]
+      },
+      {
+        "id": 231,
+        "name": "Minidesks",
+        "badge": null,
+        "rating": null,
+        "area": "Vashi",
+        "location": "Vashi, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1680845337/xhf2frcvuhd81rv0hoxp.jpg",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1682340221/pl3smijei9pcdis9709h.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1682340238/qiejuvqtg27oedzvnfsz.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1680844517/ksrvykin4al16hxy9xz3.jpg"
+        ]
+      },
+      {
+        "id": 232,
+        "name": "Trigger Xchange",
+        "badge": null,
+        "rating": null,
+        "area": "Vashi",
+        "location": "Vashi, Mumbai",
+        "price": "₹6,500",
+        "period": "/ Month",
+        "priceFormatted": "₹6,500 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1551356537/yycnx3pt9mfzvjyvclf6.png",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689923258/cnv3z8iy5if5tsegukih.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689923259/vknohjxruxmsrt0qiqbf.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689923262/ubvoahslymszq79vfnue.webp"
+        ]
+      }
+    ],
+    [
+      {
+        "id": 233,
+        "name": "WeGrow",
+        "badge": null,
+        "rating": null,
+        "area": "Vashi",
+        "location": "Vashi, Mumbai",
+        "price": "₹9,000",
+        "period": "/ Month",
+        "priceFormatted": "₹9,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1548067001/po66ijxcxsjcxd4n9h9f.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1661849717/lko7nd9kedvzjquukhtk.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1661849717/adgyyovkbblyt0gbbavy.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1676976792/qwdowa0gpsfzotdrnvdh.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1676976829/fv0kcma7hqluzoafrypd.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1676976844/lptmo1fnxxrqk9iueu5t.webp",
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1548065396/nuzx9ankdhywgqmemj6e.webp",
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1548067258/yqildyqzwbmdzgnaltw0.webp"
+        ]
+      },
+      {
+        "id": 234,
+        "name": "Teloz Spaces",
+        "badge": null,
+        "rating": null,
+        "area": "Goregaon",
+        "location": "Goregaon, Mumbai",
+        "price": "₹8,999",
+        "period": "/ Month",
+        "priceFormatted": "₹8,999 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1714734014/bwjn6kpddnfzwmznktgp.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1714734041/mikgodhlh5x4prcvg55r.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1714734041/xjjpcs9xvtfufcoshooj.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1714734042/nfgdsbj4s76wblqznck4.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1714734041/fltxigoggduqrrqzff0l.webp"
+        ]
+      },
+      {
+        "id": 235,
+        "name": "WeWork",
+        "badge": null,
+        "rating": null,
+        "area": "Goregaon",
+        "location": "Goregaon, Mumbai",
+        "price": "₹23,000",
+        "period": "/ Month",
+        "priceFormatted": "₹23,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://ik.imagekit.io/qdesq/qdesq/4258febdf9fd72eb432c8cd66954ea5d_ES_repHfkC.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/d9a6f3ac17b4f5444e76023e5cd1edbd_N8vr2vk3Lm.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/68d244a10dfb617e5a48a605a44099c8_uDohbpGRZ.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/14296dd10d6d2e619fed44c96697c556_b13N9qmQe.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/14c06722fd8b503f29e2f5ee38954246_6VzUlotEbE.JPG",
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1616672930/ayh2lmldaww13pxgslfz.png"
+        ]
+      },
+      {
+        "id": 236,
+        "name": "Table Space",
+        "badge": null,
+        "rating": null,
+        "area": "Yashodham",
+        "location": "Yashodham, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://ik.imagekit.io/qdesq/qdesq/7875fbc931ed3423469fd0f41a15b4dc_LFCE1Ya-2.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/08b0fad8cb330e0a6a904147891b62c6_Otto-w8Oe.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/145cf30c9b221d83da551fe35b1bd850_oBL1cL6RQ.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/1754d1da9dffb964eb51f931e627b447_4aazR1yoC.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/11bd74852655b952c1900c98f41f590a_2wy9O03x4.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/4fd6cc8bb5c5b9c2a622bb8e74d207c0_YOZOWadIX.jpg"
+        ]
+      },
+      {
+        "id": 237,
+        "name": "The Playce",
+        "badge": null,
+        "rating": null,
+        "area": "Bhandup",
+        "location": "Bhandup, Mumbai",
+        "price": "₹6,500",
+        "period": "/ Month",
+        "priceFormatted": "₹6,500 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1689749100/bcrekw34vuldlp5yv8xf.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689749082/ymd19ovdn05nm6sveeq1.webp",
+          "https://qdesq.imagekit.io/image/upload/tr:n-listing_image/v1595570303/rt9qx3hevvy0wxcwfaad.webp",
+          "https://qdesq.imagekit.io/image/upload/tr:n-listing_image/v1595570433/qbxc7xigt1xucrguogqx.webp",
+          "https://qdesq.imagekit.io/image/upload/tr:n-listing_image/v1595570592/xigr3w0mp6gsavwrrpo1.webp"
+        ]
+      },
+      {
+        "id": 238,
+        "name": "Josho Learning",
+        "badge": null,
+        "rating": null,
+        "area": "Mulund West",
+        "location": "Mulund West, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1483429336/tmgh7waxvedebloqwufn.webp",
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1483517033/g47esdyjyf7dzb5xscfo.webp",
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1483517209/bxjsx3bvkmytzqx2andx.webp",
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1483517300/uox7vtqlbmkpenlkzs0e.webp"
+        ]
+      },
+      {
+        "id": 239,
+        "name": "NEXT School",
+        "badge": null,
+        "rating": null,
+        "area": "Mulund West",
+        "location": "Mulund West, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://ik.imagekit.io/qdesq/qdesq/ce903dcd88e7c3e863be22e6d63104d3_FtEyjmfyb.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/4644a2ababf48d0a516b6788fa98e4bb_nthiylIo6.jpeg",
+          "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/7811e08fc79d874f396e304e0f64d109_ruft1WxhC.jpeg"
+        ]
+      },
+      {
+        "id": 240,
+        "name": "Diamond Event Space and Ruby Training Hall",
+        "badge": null,
+        "rating": null,
+        "area": "Mulund West",
+        "location": "Mulund West, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1547350306/ozrxk29icdtxdgodilez.webp",
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1547350145/lmigo3armboxxviftwo2.webp"
+        ]
+      }
+    ],
+    [
+      {
+        "id": 241,
+        "name": "AWFIS",
+        "badge": null,
+        "rating": null,
+        "area": "Thane",
+        "location": "Thane, Mumbai",
+        "price": "₹13,000",
+        "period": "/ Month",
+        "priceFormatted": "₹13,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1689398688/hipsoatp0wdc1wf2ywoz.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689398672/u7luegxztrb2vwcrh88e.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689398672/im9swadqtt6ddukom9bv.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689398672/gsmo5nz3rnddv60d03wi.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689398672/krng9axok06dlkcunlsb.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689398673/mvsmncz9yoo6haiuczfc.webp",
+          "https://awfis-bpm-bucket.s3.ap-south-1.amazonaws.com/compliance/1680773524286.jpg"
+        ]
+      },
+      {
+        "id": 242,
+        "name": "Inspire Cospaces",
+        "badge": null,
+        "rating": null,
+        "area": "Thane",
+        "location": "Thane, Mumbai",
+        "price": "₹10,497",
+        "period": "/ Month",
+        "priceFormatted": "₹10,497 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1603892651/pu6vuvw40vez32ux0nmo.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689749476/pduoaqfyz1kgmswgrisn.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689749476/saczjdj6oznbwnb7ng8e.webp",
+          "https://qdesq.imagekit.io/image/upload/tr:n-listing_image/v1594902153/c7qgdoarxghsdpvvnzn6.webp"
+        ]
+      },
+      {
+        "id": 243,
+        "name": "JP INFRA",
+        "badge": null,
+        "rating": null,
+        "area": "Wagle Industrial Estate",
+        "location": "Wagle Industrial Estate, Mumbai",
+        "price": "₹7,500",
+        "period": "/ Month",
+        "priceFormatted": "₹7,500 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/image/upload/tr:n-listing_image/v1593767499/uj9zh81ltgxm1mwwtuva.webp",
+          "https://qdesq.imagekit.io/image/upload/tr:n-listing_image/v1593767456/wgizieptmqwshvzleccn.webp"
+        ]
+      },
+      {
+        "id": 244,
+        "name": "East Corp Group",
+        "badge": null,
+        "rating": null,
+        "area": "Thane",
+        "location": "Thane, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1567492534/j9q1uhjnxyu3cih9mpym.webp",
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1655975177/qtin33x49bvukjeqiazq.png"
+        ]
+      },
+      {
+        "id": 245,
+        "name": "Silgate Solutions Limited",
+        "badge": null,
+        "rating": null,
+        "area": "Thane West",
+        "location": "Thane West, Mumbai",
+        "price": "₹6,000",
+        "period": "/ Month",
+        "priceFormatted": "₹6,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1539604371/db2bwohvh5mxwuf0pqsg.webp",
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1539604432/scdv2wrfkya25q5p0ftl.webp",
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1539604447/zvpfoyo6i821kgtukgdm.webp"
+        ]
+      },
+      {
+        "id": 246,
+        "name": "Executive Spaces",
+        "badge": null,
+        "rating": null,
+        "area": "BKC",
+        "location": "BKC, Mumbai",
+        "price": "₹95,000",
+        "period": "/ Month",
+        "priceFormatted": "₹95,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://ik.imagekit.io/qdesq/qdesq/171efb6591bd8b976c88857ee849bf52_4vymUqQ9B.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/57d0b9e932932638bea7953ab6de7879_PCgxV6A-i.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/a2dd29d92a04410f98dd96655b7b6983_HBFUvYc8D.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/d3368addbc54580ae6652ac9e226705c_CCUOf8vH_.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/1887c28368e47b9d85a1df95098ae3dc_Dl-L3xP7Y.JPG"
+        ]
+      },
+      {
+        "id": 247,
+        "name": "RocketBox",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1517313132/wfwxsxfppxq4uptvwiem.webp",
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1517313339/kzu829dukkz42rv6q6aj.webp"
+        ]
+      },
+      {
+        "id": 248,
+        "name": "RedBrick",
+        "badge": null,
+        "rating": null,
+        "area": "Chandivali",
+        "location": "Chandivali, Mumbai",
+        "price": "₹12,000",
+        "period": "/ Month",
+        "priceFormatted": "₹12,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1690188987/grjctuyop98fwbourwz3.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1690188971/ozgdvdn4u3dnts26dvgm.webp",
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1516865597/jpliri7vn5kc5dhmfz5f.webp",
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1517396100/vdjzqwxmblel5biq8hgo.webp"
+        ]
+      }
+    ],
+    [
+      {
+        "id": 249,
+        "name": "Kowo.Club",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "₹15,000",
+        "period": "/ Month",
+        "priceFormatted": "₹15,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://ik.imagekit.io/qdesq/qdesq/7d3bd56042743ec3cc2457ff06b3fea1_qU0cfS5Rm.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/3708aef4ce3eb59a19971c6e35ee665f_gAb_KzAIJ.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/7b40e79466935c62410e147eae6e7ec1_lKo8YevyI.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/763d8fee966f61e3ed60ec971690bea6_ksxfFVhf8c.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/4cdf7f528295da8bdc5475e68735605b_AC_aP9VJe.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/0a7cf34c58e9798bf7e9c8c230561824_Y_fi5lhOu.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/dcca0dbec8d1ddc47d2e9a6ed293864c_6PpRUJ08b.jpg"
+        ]
+      },
+      {
+        "id": 250,
+        "name": "Chase Consultancy",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1568096605/h1qi92sjw7ln0mww2fo7.webp",
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1568096641/ej1wmlgpwexdnbolfi36.webp"
+        ]
+      },
+      {
+        "id": 251,
+        "name": "Teloz Spaces",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri West",
+        "location": "Andheri West, Mumbai",
+        "price": "₹11,000",
+        "period": "/ Month",
+        "priceFormatted": "₹11,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://ik.imagekit.io/qdesq/qdesq/09cabf16ef0c6d2c740fc739e5f57b85_dujBVi6lp.png",
+          "https://ik.imagekit.io/qdesq/qdesq/915a9692e83da49471ca2c6311873fd9_RM_33JxRd.png",
+          "https://ik.imagekit.io/qdesq/qdesq/b742c3d724109264fd07f35932791af9_HLmBA708G.png"
+        ]
+      },
+      {
+        "id": 252,
+        "name": "GM Coworks",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri West",
+        "location": "Andheri West, Mumbai",
+        "price": "₹10,000",
+        "period": "/ Month",
+        "priceFormatted": "₹10,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://ik.imagekit.io/qdesq/qdesq/2e879e8d1c223d355a038aa81baa4b98_-QOEusXjZ.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/5c65644733660862e5752ddc04b896a0_YMcb76M8R.jpeg"
+        ]
+      },
+      {
+        "id": 253,
+        "name": "DBS India",
+        "badge": null,
+        "rating": null,
+        "area": "Nariman Point",
+        "location": "Nariman Point, Mumbai",
+        "price": "₹22,000",
+        "period": "/ Month",
+        "priceFormatted": "₹22,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1626955107/h9wbol5x0w3ho44lgduz.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1680156635/bydhvgquqqpzysmufqvj.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1680156635/vhovhzvwuieeentgifdq.webp",
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1583229675/p2gjniuayjmyheekeygi.webp"
+        ]
+      },
+      {
+        "id": 254,
+        "name": "Smith and Thomson",
+        "badge": null,
+        "rating": null,
+        "area": "Nariman Point",
+        "location": "Nariman Point, Mumbai",
+        "price": "₹7,500",
+        "period": "/ Month",
+        "priceFormatted": "₹7,500 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1576835629/h5bkn09ckwe7fuxusnlv.webp",
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1576835878/pkmrgihsqjfsesfpt9fc.webp",
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1576835912/a7zl5sqzysmfi3j3klbr.webp",
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1576836099/ggwwfqofa7n7nbscz2ls.webp"
+        ]
+      },
+      {
+        "id": 255,
+        "name": "Millennial Pod Powai",
+        "badge": null,
+        "rating": null,
+        "area": "Powai",
+        "location": "Powai, Mumbai",
+        "price": "₹16,000",
+        "period": "/ Month",
+        "priceFormatted": "₹16,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1712562029/rdjzymkqkl4hmsrr88ch.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1712562045/p7zy7bclwad6a2pduzw8.webp"
+        ]
+      },
+      {
+        "id": 256,
+        "name": "Gloria Business Centre",
+        "badge": null,
+        "rating": null,
+        "area": "Thane West",
+        "location": "Thane West, Mumbai",
+        "price": "₹7,000",
+        "period": "/ Month",
+        "priceFormatted": "₹7,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1721209627/sifawwkkmvn0degzhyht.webp",
+          "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/4b410ebe824f96cce6e57ccab032abce_3TqVh4ips.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/f3273af25242c4caf6b59e9ee5c20534_wfMxGUMC0.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/e09f587480763e71ac3ec3d4a3e9ecae_0XWf42fRDd.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/2da679bcc297ea39bf9781c7cb054549_khJNVVLyT.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/6c86045c0f3028db9356cc196598e8cf_6mOijm1_rW.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/4c79842037d9aff8148f1ebf29c99f91_HVJe6lpOTc.jpg",
+          "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/68f32dbce824c21cef5b583d50bd445a_WR33SiAL7O.jpg"
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "id": 257,
+        "name": "RedBrick",
+        "badge": null,
+        "rating": null,
+        "area": "Thane West",
+        "location": "Thane West, Mumbai",
+        "price": "₹12,000",
+        "period": "/ Month",
+        "priceFormatted": "₹12,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1509086177/ejp6lizbcqkctwbxqagm.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1690270436/bclu5i4vde4hyv8j7w2v.webp",
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1517310940/jepfjtmgufoxyk5bogm5.webp"
+        ]
+      },
+      {
+        "id": 258,
+        "name": "KontorSpace",
+        "badge": null,
+        "rating": null,
+        "area": "Wagle Industrial Estate",
+        "location": "Wagle Industrial Estate, Mumbai",
+        "price": "₹9,000",
+        "period": "/ Month",
+        "priceFormatted": "₹9,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1690181605/bwxzcz3uzthaesvnlmd2.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1690181624/ijqvzhfrodf6ovz6bx4y.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1690181624/m6pxun5nrins3reycsj6.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1690181624/xpjeclvijfocd4htxkyt.webp",
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1531128880/p2ceykce1zhhulnjym1r.webp",
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1531129003/kxn2mubpxatsul1bbwco.webp",
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1531129254/gszicmjofueh4ccb3tou.webp",
+          "https://wybrid-vendor-portal-public-prod.s3.ap-south-1.amazonaws.com/file1764756137411.jpg"
+        ]
+      },
+      {
+        "id": 259,
+        "name": "Regus",
+        "badge": null,
+        "rating": null,
+        "area": "Chandivali",
+        "location": "Chandivali, Mumbai",
+        "price": "₹11,900",
+        "period": "/ Month",
+        "priceFormatted": "₹11,900 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://ik.imagekit.io/qdesq/qdesq/408d49f94be76a4b6a777aa0a0878ffe_dSPQ4kdYV.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/aa914f6b01886d0bed8657845f5c0f0c_UtKzmCXDf.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/77cb95bd46c298add640d4d50aee46ed_oH6j44vRN.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/db62b8ea3a3566c9c96e640521d75a56_y06Z_uYep.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/7edb2b304e64e207da7fc0c2980fe7f7_BNnNQj9DE.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/1e9d6d343e8f50754f7745b6e31a97d4_m6VesBRMv.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/df12df672a4ace0c44552b413cdd9bf3_XB0P9hMb7.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/eed8ffc89ed1a0d27be3365f8a1a4233_73xyfrDG5.JPG"
+        ]
+      },
+      {
+        "id": 260,
+        "name": "91SpringBoard",
+        "badge": null,
+        "rating": null,
+        "area": "Santacruz East",
+        "location": "Santacruz East, Mumbai",
+        "price": "₹15,400",
+        "period": "/ Month",
+        "priceFormatted": "₹15,400 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1676536661/xgwv1czaucltxjw3ww9u.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1676536645/rvlqpedguy1kwqrwm6dk.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1676536646/wk3ao8rhwhobdbaxvgqr.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1676536753/v9om7nluhy9iubqqnnlx.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689163822/abms7qumak6aaajg9tps.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689163823/hekxppwh6p7f9y3e6qeq.webp",
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1512641766/clng9nvfvvlzks1lhemg.webp"
+        ]
+      },
+      {
+        "id": 261,
+        "name": "Classic Group",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "₹12,000",
+        "period": "/ Month",
+        "priceFormatted": "₹12,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1571990716/y51hyaenniezh0lnaawp.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1681204715/jggr4lrkeipkazgeoobo.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1681204715/ce1ys3dam0yrg0znczp1.webp"
+        ]
+      },
+      {
+        "id": 262,
+        "name": "Viva Connect",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1537783156/jbssqqwgq7yng4qletvw.webp",
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1537526276/opzrdgd6jkfhtbafga6h.webp"
+        ]
+      },
+      {
+        "id": 263,
+        "name": "Sunrise Coworking",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1677136989/srhtx4333vijcv0r71fg.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1677136949/nrkwvvsz9p2uqmdfxg70.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1677137101/ao9su1t1jxadfjs6qk3c.webp"
+        ]
+      },
+      {
+        "id": 264,
+        "name": "91springboard",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "₹11,800",
+        "period": "/ Month",
+        "priceFormatted": "₹11,800 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1676530679/gxsvrvvb3c1dn69r0pvx.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1676530527/xjdxtesbcdurq6ilfhmm.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1676530526/goebkhjezegh9mpsopzu.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1676530527/c9rujlqkka2hdf7yo1fg.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1676530527/sqqkn95jvewvfiss9tpc.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1676530773/yarpnnqcmmagbp8chqnj.webp",
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1545293478/kqjkjwgu97n6cmnzopih.webp"
+        ]
+      }
+    ],
+    [
+      {
+        "id": 265,
+        "name": "Executive Spaces",
+        "badge": null,
+        "rating": null,
+        "area": "Gundavali",
+        "location": "Gundavali, Mumbai",
+        "price": "₹13,000",
+        "period": "/ Month",
+        "priceFormatted": "₹13,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1691062356/g5b3opt2epzuvyce1jp9.webp",
+          "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1691062371/p4lkapj3c7vzatmweuys.webp"
+        ]
+      },
+      {
+        "id": 266,
+        "name": "Zon CollabHub",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "₹14,000",
+        "period": "/ Month",
+        "priceFormatted": "₹14,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://ik.imagekit.io/qdesq/qdesq/0bf757cd60360415ca525a73bf5a5ad2_nGa8kqIcs.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/e270b270919a8a967c74cfc611a6ac71_zxTgC5VH8.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/f70d22a626da3a1f866378d53115b59b_uxAYisbjV.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/115d0367ed59410c9c8d8e47d99456a0_J3FoCt83f.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/375402c50eda804a6239afaa5944077b_PfgflfQA_.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/2715e1404ee4384dff0274ea90e58a40_9GeOAeFKR.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/8aec0bc1ba6eba29f96fa12cda929f5d_5N-E2m9Ut.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/e4d7d6e354ed2fc9f031b3497eeaf907_AZIgBACG_z.JPG"
+        ]
+      },
+      {
+        "id": 267,
+        "name": "VENUES AND AVENUES",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "₹9,000",
+        "period": "/ Month",
+        "priceFormatted": "₹9,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1636567375/ezwfsz9vspk9nzvllsgc.jpg",
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1636567375/vlngycxqcm5jfxqv302l.jpg"
+        ]
+      },
+      {
+        "id": 268,
+        "name": "Table Space",
+        "badge": null,
+        "rating": null,
+        "area": "Bhim Nagar",
+        "location": "Bhim Nagar, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://ik.imagekit.io/qdesq/qdesq/9f8e40dd67a83fd9fc6753bd8e895090_12uUUxPLr.jpeg",
+          "https://ik.imagekit.io/qdesq/qdesq/1d0edadf25830157f492f8f8dadc9c88_RtmZSOwyL.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/4277d32831db83208241c464ca1928a5_UDGXXSnUe.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/b61202dbcdf4561f18a2d40575e5c601_V3_f1Wc8L.JPG"
+        ]
+      },
+      {
+        "id": 269,
+        "name": "Innov8",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri Kurla Road",
+        "location": "Andheri Kurla Road, Mumbai",
+        "price": "₹18,000",
+        "period": "/ Month",
+        "priceFormatted": "₹18,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://ik.imagekit.io/qdesq/qdesq/b2192f43f1f45ef0dbdd42b4ddd981d9_xisg54Okx.jpeg",
+          "https://ik.imagekit.io/qdesq/qdesq/041cb5e9509ebc7f2e1582b79e8ae986_oska2bJjr.jpeg",
+          "https://ik.imagekit.io/qdesq/qdesq/b8ce3d0d4800f1344a6d7349b04f4dac_aXgdJb3Bm.jpeg",
+          "https://ik.imagekit.io/qdesq/qdesq/567bced5b5f822a1b6fedc1eebab355a_JsCoGWiWk.jpeg",
+          "https://ik.imagekit.io/qdesq/qdesq/3f044e8d1c97ea0cc82c277b6878f772_BiL8gaxBX.jpeg",
+          "https://ik.imagekit.io/qdesq/qdesq/e55eae6c8939b4bcf044a9e874a0d3f4_2tWWl2bpn.jpeg",
+          "https://ik.imagekit.io/qdesq/qdesq/41a7d3ee05e58e2dca2499bb2dabb971_rvV6-IM63.jpeg",
+          "https://ik.imagekit.io/qdesq/qdesq/223ef43c34f0a988e0fb58a17999af10_ztNmnGSn9.jpeg"
+        ]
+      },
+      {
+        "id": 270,
+        "name": "LetsWork",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "₹12,000",
+        "period": "/ Month",
+        "priceFormatted": "₹12,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://ik.imagekit.io/qdesq/qdesq/82e322c03033f134edd164c97ea6b229_zBQNmvlGXW.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/9d4ff259ef514076c6d9f7621abde67e_v_zkEj1Zu.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/996714f920ec91b7e155225a685bf17d_3keApdbJoL.JPG"
+        ]
+      },
+      {
+        "id": 271,
+        "name": "WeWork",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "₹15,000",
+        "period": "/ Month",
+        "priceFormatted": "₹15,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://ik.imagekit.io/qdesq/qdesq/057b21fa3844888d649566cdb5559507_gfrmVgUto.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/1a6d3fd0082c899e95406ec399d208bf_j5IPPIgdG.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/5541b8055d4e4676f0555b981c44cf0d_zZaOHVSOy.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/42752a9083957fce8032d747b2853b31_jYVoJpppx.JPG",
+          "https://ik.imagekit.io/qdesq/qdesq/c1cb53c52cddc7cfef37e9e06aa74cec_ah5bnLwvL.JPG",
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1559374990/a0hxtdt8lgskbbpgy5aa.webp"
+        ]
+      },
+      {
+        "id": 272,
+        "name": "WeWork Andheri",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "₹10,500",
+        "period": "/ Month",
+        "priceFormatted": "₹10,500 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/2-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/we-work-andheri-2.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/we-work-andheri-3.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/we-work-andheri-4.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/we-work-andheri-5.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/we-work-andheri-6.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/we-work-andheri-7.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/we-work-andheri-8.jpg"
+        ]
+      }
+    ],
+    [
+      {
+        "id": 273,
+        "name": "Veda CoWorks",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri",
+        "location": "Andheri, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/Veda-CoWorks-003-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Veda-CoWorks-001-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Veda-CoWorks-002-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Veda-CoWorks-004-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Veda-CoWorks-005-min.jpg"
+        ]
+      },
+      {
+        "id": 274,
+        "name": "Blue Mushroom Malad West",
+        "badge": null,
+        "rating": null,
+        "area": "Malad West",
+        "location": "Malad West, Mumbai",
+        "price": "₹8,500",
+        "period": "/ Month",
+        "priceFormatted": "₹8,500 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/Blue-mushroom-Malad-West.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/Blue-mushroom-Malad-West-2.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/Blue-mushroom-Malad-West-3.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/Blue-mushroom-Malad-West-4.jpg"
+        ]
+      },
+      {
+        "id": 275,
+        "name": "Blue Mushroom In Malad West",
+        "badge": null,
+        "rating": null,
+        "area": "Malad West",
+        "location": "Malad West, Mumbai",
+        "price": "₹8,500",
+        "period": "/ Month",
+        "priceFormatted": "₹8,500 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/blue-mushroom.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/blue-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/blue-2.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/blue-3.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/blue-4.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/blue-5.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/blue-6.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/blue-7.jpg"
+        ]
+      },
+      {
+        "id": 276,
+        "name": "CFE Offices In Goregaon",
+        "badge": null,
+        "rating": null,
+        "area": "Goregaon",
+        "location": "Goregaon, Mumbai",
+        "price": "₹5,000",
+        "period": "/ Month",
+        "priceFormatted": "₹5,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/CFE-offices-Goregaon-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/CFE-offices-Goregaon.-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/CFE-offices-Goregaon-min-1.jpg"
+        ]
+      },
+      {
+        "id": 277,
+        "name": "WeWork Spectrum Tower In Malad",
+        "badge": null,
+        "rating": null,
+        "area": "Malad",
+        "location": "Malad, Mumbai",
+        "price": "₹10,000",
+        "period": "/ Month",
+        "priceFormatted": "₹10,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/WeWork-Spectrum-Tower.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/wwm-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/wwm-2.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/wwm-3.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/wwm-4.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/wwm-5.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/wwm-6.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/wwm-7.jpg"
+        ]
+      },
+      {
+        "id": 278,
+        "name": "603 The CoWorking Space Bandra",
+        "badge": null,
+        "rating": null,
+        "area": "Bandra",
+        "location": "Bandra, Mumbai",
+        "price": "₹12,999",
+        "period": "/ Month",
+        "priceFormatted": "₹12,999 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/603-coworking-space.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/603-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/603-2.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/603-3.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/603-4.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/603-5.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/603-6.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/603-7.jpg"
+        ]
+      },
+      {
+        "id": 279,
+        "name": "Dextrus BKC Bandra East",
+        "badge": null,
+        "rating": null,
+        "area": "Bandra East",
+        "location": "Bandra East, Mumbai",
+        "price": "₹17,750",
+        "period": "/ Month",
+        "priceFormatted": "₹17,750 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/4.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/1-1548758765.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/5bb748574994581a8c1106f5_1538738263748.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/5bb748574994581a8c1106f7_1538738263750.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/11/day-pass-12.png"
+        ]
+      },
+      {
+        "id": 280,
+        "name": "Innov8 Vikhroli",
+        "badge": null,
+        "rating": null,
+        "area": "Thane",
+        "location": "Thane, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/Innov8-Vikhroli-Thane-006.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Innov8-Vikhroli-Thane-001.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Innov8-Vikhroli-Thane-002.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Innov8-Vikhroli-Thane-003.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Innov8-Vikhroli-Thane-004.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Innov8-Vikhroli-Thane-005.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Innov8-Vikhroli-Thane-007.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Innov8-Vikhroli-Thane-008.jpg"
+        ]
+      }
+    ],
+    [
+      {
+        "id": 281,
+        "name": "WorkAmp Nitco",
+        "badge": null,
+        "rating": null,
+        "area": "Thane",
+        "location": "Thane, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp-Nitco-Thane-002-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp-Nitco-Thane-001-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp-Nitco-Thane-003-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp-Nitco-Thane-004-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp-Nitco-Thane-005-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp-Nitco-Thane-006-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp-Nitco-Thane-007-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp-Nitco-Thane-008-min.jpg"
+        ]
+      },
+      {
+        "id": 282,
+        "name": "AccessWork",
+        "badge": null,
+        "rating": null,
+        "area": "Thane",
+        "location": "Thane, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/11/12334.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/11/AccessWork-Thane-GB-Road-Serviced-Offices-001.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/11/AccessWork-Thane-GB-Road-Serviced-Offices-002.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/11/AccessWork-Thane-GB-Road-Serviced-Offices-003.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/11/AccessWork-Thane-GB-Road-Serviced-Offices-004.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/11/AccessWork-Thane-GB-Road-Serviced-Offices-005.jpg"
+        ]
+      },
+      {
+        "id": 283,
+        "name": "Awfis In Powai",
+        "badge": null,
+        "rating": null,
+        "area": "Powai",
+        "location": "Powai, Mumbai",
+        "price": "₹10,000",
+        "period": "/ Month",
+        "priceFormatted": "₹10,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/awfis.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ap-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ap-2.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ap-3.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ap-4.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ap-5.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ap-6.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/AP-7.jpg"
+        ]
+      },
+      {
+        "id": 284,
+        "name": "Access Work In Powai",
+        "badge": null,
+        "rating": null,
+        "area": "Powai",
+        "location": "Powai, Mumbai",
+        "price": "₹14,000",
+        "period": "/ Month",
+        "priceFormatted": "₹14,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/Access-Work-Powai.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/aw-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/aw-2.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/aw-3.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/aw-4.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/aw-5.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/aw-6.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/aw-7.jpg"
+        ]
+      },
+      {
+        "id": 285,
+        "name": "WeWork Oberoi Commerz II In Goregaon",
+        "badge": null,
+        "rating": null,
+        "area": "Goregaon",
+        "location": "Goregaon, Mumbai",
+        "price": "₹15,000",
+        "period": "/ Month",
+        "priceFormatted": "₹15,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/WeWork-Goregaon.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ww-gg-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ww-gg-2.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ww-gg-3.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ww-gg-4.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ww-gg-5.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ww-gg-6.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ww-gg-7.jpg"
+        ]
+      },
+      {
+        "id": 286,
+        "name": "Community Coworks In Powai",
+        "badge": null,
+        "rating": null,
+        "area": "Powai",
+        "location": "Powai, Mumbai",
+        "price": "₹7,500",
+        "period": "/ Month",
+        "priceFormatted": "₹7,500 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/community-coworks.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/Community-Coworks-Powai-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/Community-Coworks-Powai.-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/Community-Coworks-Powai-min-1.jpg"
+        ]
+      },
+      {
+        "id": 287,
+        "name": "The Millennial Pod In Powai",
+        "badge": null,
+        "rating": null,
+        "area": "Powai",
+        "location": "Powai, Mumbai",
+        "price": "₹12,500",
+        "period": "/ Month",
+        "priceFormatted": "₹12,500 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/milenial-pod.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/21-min-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/22-min-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/23-min-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/24-min-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/25-min-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/11/Day-Pass-4.png"
+        ]
+      },
+      {
+        "id": 288,
+        "name": "91springboard Vikhroli",
+        "badge": null,
+        "rating": null,
+        "area": "Thane",
+        "location": "Thane, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-Vikhroli-scaled.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-Vikhroli-Thane-001.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-Vikhroli-Thane-002.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-Vikhroli-Thane-003.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-Vikhroli-Thane-004.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-Vikhroli-Thane-005.jpg"
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "id": 289,
+        "name": "IKeva In Powai",
+        "badge": null,
+        "rating": null,
+        "area": "Powai",
+        "location": "Powai, Mumbai",
+        "price": "₹8,500",
+        "period": "/ Month",
+        "priceFormatted": "₹8,500 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/Ikeva-powai.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ikeva-powai-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ikeva-powai-2.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ikeva-powai-3.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ikeva-powai-4.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ikeva-powai-5.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ikeva-powai-6.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ikeva-powai-7.jpg"
+        ]
+      },
+      {
+        "id": 290,
+        "name": "Of10",
+        "badge": null,
+        "rating": null,
+        "area": "Thane",
+        "location": "Thane, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/Of10-Thane-006.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Of10-Thane-001.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Of10-Thane-002.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Of10-Thane-003.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Of10-Thane-004.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Of10-Thane-005.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Of10-Thane-008.jpg"
+        ]
+      },
+      {
+        "id": 291,
+        "name": "WorkWise Solutions In Vashi",
+        "badge": null,
+        "rating": null,
+        "area": "Navi Mumbai",
+        "location": "Navi Mumbai, Mumbai",
+        "price": "₹5,000",
+        "period": "/ Month",
+        "priceFormatted": "₹5,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/Workwise-vashi.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ww1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ww2.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ww3.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ww4.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ww5.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ww6.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ww7.jpg"
+        ]
+      },
+      {
+        "id": 292,
+        "name": "TriggerXchange Navi Mumbai Maharashtra",
+        "badge": null,
+        "rating": null,
+        "area": "Navi Mumbai",
+        "location": "Navi Mumbai, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/TriggerXchange-Navi-Mumbai-003.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/TriggerXchange-Navi-Mumbai-001.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/TriggerXchange-Navi-Mumbai-002.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/TriggerXchange-Navi-Mumbai-004.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/TriggerXchange-Navi-Mumbai-005.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/TriggerXchange-Navi-Mumbai-006.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/TriggerXchange-Navi-Mumbai-007.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/TriggerXchange-Navi-Mumbai-008.jpg"
+        ]
+      },
+      {
+        "id": 293,
+        "name": "WeWork In Worli",
+        "badge": null,
+        "rating": null,
+        "area": "South Mumbai",
+        "location": "South Mumbai, Mumbai",
+        "price": "₹15,000",
+        "period": "/ Month",
+        "priceFormatted": "₹15,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/wework-vaswani.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/www-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/www-2.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/www-3.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/www-4.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/www-5.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/www-6.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/www-7.jpg"
+        ]
+      },
+      {
+        "id": 294,
+        "name": "Arch N Rock",
+        "badge": null,
+        "rating": null,
+        "area": "Navi Mumbai",
+        "location": "Navi Mumbai, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/fab852d305eaab358ac402fbdf308d3b43e5d05c.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Arch-n-Rock-Navi-Mumbai-001.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Arch-n-Rock-Navi-Mumbai-002.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Arch-n-Rock-Navi-Mumbai-003.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Arch-n-Rock-Navi-Mumbai-004.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Arch-n-Rock-Navi-Mumbai-005.jpg"
+        ]
+      },
+      {
+        "id": 295,
+        "name": "WeWork Seawoods Grand Central",
+        "badge": null,
+        "rating": null,
+        "area": "Navi Mumbai",
+        "location": "Navi Mumbai, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/WeWork-Navi-Mumbai-003.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/WeWork-Navi-Mumbai-001.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/WeWork-Navi-Mumbai-002.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/WeWork-Navi-Mumbai-004.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/WeWork-Navi-Mumbai-005.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/WeWork-Navi-Mumbai-006.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/WeWork-Navi-Mumbai-007.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/WeWork-Navi-Mumbai-008.jpg"
+        ]
+      },
+      {
+        "id": 296,
+        "name": "WeGrow Group",
+        "badge": null,
+        "rating": null,
+        "area": "Navi Mumbai",
+        "location": "Navi Mumbai, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/Screenshot-2021-11-23-181602.png",
+          "https://coworkingers.com/wp-content/uploads/2020/07/WeGrow-Group-Navi-Mumbai-001.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/WeGrow-Group-Navi-Mumbai-002.jpeg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/WeGrow-Group-Navi-Mumbai-003.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/WeGrow-Group-Navi-Mumbai-004.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/WeGrow-Group-Navi-Mumbai-005.jpeg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/WeGrow-Group-Navi-Mumbai-006.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/WeGrow-Group-Navi-Mumbai-007.jpg"
+        ]
+      }
+    ],
+    [
+      {
+        "id": 297,
+        "name": "Cowrks In Worli",
+        "badge": null,
+        "rating": null,
+        "area": "Worli",
+        "location": "Worli, Mumbai",
+        "price": "₹22,499",
+        "period": "/ Month",
+        "priceFormatted": "₹22,499 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/cowrks-worli.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/cw-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/cw-2.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/cw-3.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/cw-4.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/cw-5.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/cw-6.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/cw-7.jpg"
+        ]
+      },
+      {
+        "id": 298,
+        "name": "Bootstart Cowork In Ballard Estate",
+        "badge": null,
+        "rating": null,
+        "area": "Fort",
+        "location": "Fort Mumbai, Mumbai",
+        "price": "₹7,999",
+        "period": "/ Month",
+        "priceFormatted": "₹7,999 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/Boostart-1-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/B1-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/B2-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/B4-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/B5-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/11/Day-Pass-4.png"
+        ]
+      },
+      {
+        "id": 299,
+        "name": "The Garage Coworking In Marine Drive",
+        "badge": null,
+        "rating": null,
+        "area": "Marine Drive",
+        "location": "Marine Drive, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/Garage-Coworking-Marine-Drive.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/garage-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/garage-2.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/garage-3.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/garage-4.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/garage-5.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/garage-6.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/garage-7.jpg"
+        ]
+      },
+      {
+        "id": 300,
+        "name": "Garage Coworking Lower Parel",
+        "badge": null,
+        "rating": null,
+        "area": "Lower Parel",
+        "location": "Lower Parel, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/Garage-coworking-Lower-Parel-004-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp-Futurex-Lower-Parel-001-min-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp-Futurex-Lower-Parel-002-min-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp-Futurex-Lower-Parel-003-min-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp-Futurex-Lower-Parel-004-min-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp-Futurex-Lower-Parel-005-min-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp-Futurex-Lower-Parel-006-min-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp-Futurex-Lower-Parel-007-min-1.jpg"
+        ]
+      },
+      {
+        "id": 301,
+        "name": "Awfis Andheri West Modi House",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri",
+        "location": "Andheri, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Andheri-West-Modi-House-001-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Andheri-West-Modi-House-002-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Andheri-West-Modi-House-003-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Andheri-West-Modi-House-004-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Andheri-West-Modi-House-005-min.jpg"
+        ]
+      },
+      {
+        "id": 302,
+        "name": "Awfis Lokhandwala",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri",
+        "location": "Andheri, Mumbai",
+        "price": "₹5,000",
+        "period": "/ Month",
+        "priceFormatted": "₹5,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Lokhandwala-Aston-Building-001-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Lokhandwala-Aston-Building-002-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Lokhandwala-Aston-Building-003-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Lokhandwala-Aston-Building-004-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Lokhandwala-Aston-Building-005-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/11/Day-Pass-5.png"
+        ]
+      },
+      {
+        "id": 303,
+        "name": "The BoardRoom Co-Working",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri",
+        "location": "Andheri, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/THE-BOARDROOM-Co-working-Andheri-004-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/THE-BOARDROOM-Co-working-Andheri-001-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/THE-BOARDROOM-Co-working-Andheri-002-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/THE-BOARDROOM-Co-working-Andheri-003-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/THE-BOARDROOM-Co-working-Andheri-005-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/THE-BOARDROOM-Co-working-Andheri-006-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/THE-BOARDROOM-Co-working-Andheri-007-min.jpg"
+        ]
+      },
+      {
+        "id": 304,
+        "name": "IKeva BKC Annexe",
+        "badge": null,
+        "rating": null,
+        "area": "Kurla",
+        "location": "Kurla, Mumbai",
+        "price": "₹8,000",
+        "period": "/ Month",
+        "priceFormatted": "₹8,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/Ikeva-BKc.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/iB-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ib-3.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ib-4.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ib-5.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ib-6.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ib-7.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ib-8.jpg"
+        ]
+      }
+    ],
+    [
+      {
+        "id": 305,
+        "name": "Awfis Vashi Navi Mumbai Cyber One",
+        "badge": null,
+        "rating": null,
+        "area": "Navi Mumbai",
+        "location": "Navi Mumbai, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Vashi-Navi-Mumbai-Cyber-One-Navi-Mumbai-001.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Vashi-Navi-Mumbai-Cyber-One-Navi-Mumbai-002.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Vashi-Navi-Mumbai-Cyber-One-Navi-Mumbai-003.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Vashi-Navi-Mumbai-Cyber-One-Navi-Mumbai-004.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Vashi-Navi-Mumbai-Cyber-One-Navi-Mumbai-005.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Vashi-Navi-Mumbai-Cyber-One-Navi-Mumbai-006.jpg"
+        ]
+      },
+      {
+        "id": 306,
+        "name": "Lemon Tree Premier In Andheri East",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "₹22,500",
+        "period": "/ Month",
+        "priceFormatted": "₹22,500 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/lemon-tree-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/Lemon-Tree-Premier-Andheri-East-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/Lemon-Tree-Premier-Andheri-East-min-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/Lemon-Tree-Premier-Andheri-East-min-2.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/11/Day-Pass-4.png"
+        ]
+      },
+      {
+        "id": 307,
+        "name": "Awfis Andheri East",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Andheri-East-Akruti-Trade-Center-Andheri-East-002-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Andheri-East-Akruti-Trade-Center-Andheri-East-001-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Andheri-East-Akruti-Trade-Center-Andheri-East-003-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Andheri-East-Akruti-Trade-Center-Andheri-East-004-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Andheri-East-Akruti-Trade-Center-Andheri-East-005-min.jpg"
+        ]
+      },
+      {
+        "id": 308,
+        "name": "Flignite Spaces Andheri East",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "₹6,500",
+        "period": "/ Month",
+        "priceFormatted": "₹6,500 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/11/coworking.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/11/Flignite-Spaces-001.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/11/Flignite-Spaces-002.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/11/Flignite-Spaces-003.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/11/Flignite-Spaces-004.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/11/Flignite-Spaces-005.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/11/Flignite-Spaces-006.jpg"
+        ]
+      },
+      {
+        "id": 309,
+        "name": "Divine Hub Coworking Space Andheri",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "₹9,999",
+        "period": "/ Month",
+        "priceFormatted": "₹9,999 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/11/divine-hub.png",
+          "https://coworkingers.com/wp-content/uploads/2020/11/WhatsApp-Image-2020-01-01-at-2.51.26-PM-min.jpeg",
+          "https://coworkingers.com/wp-content/uploads/2020/11/IMG_4123-min.jpeg",
+          "https://coworkingers.com/wp-content/uploads/2020/11/unnamed-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/11/WhatsApp-Image-2020-01-01-at-2.28.36-PM-min.jpeg",
+          "https://coworkingers.com/wp-content/uploads/2021/11/Day-Pass-8.png"
+        ]
+      },
+      {
+        "id": 310,
+        "name": "YesssWorks Andheri East",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri",
+        "location": "Andheri, Mumbai",
+        "price": "₹9,000",
+        "period": "/ Month",
+        "priceFormatted": "₹9,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/11/2.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/11/YesssWorks-001.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/11/YesssWorks-002.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/11/YesssWorks-003.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/11/YesssWorks-004.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/11/YesssWorks-005.jpg"
+        ]
+      },
+      {
+        "id": 311,
+        "name": "IKeva BKC Annexe",
+        "badge": null,
+        "rating": null,
+        "area": "Thane",
+        "location": "Thane, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/iKeva-BKC-Annexe-Mumbai-Thane-003.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/iKeva-BKC-Annexe-Mumbai-Thane-001.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/iKeva-BKC-Annexe-Mumbai-Thane-002.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/iKeva-BKC-Annexe-Mumbai-Thane-004.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/iKeva-BKC-Annexe-Mumbai-Thane-005.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/iKeva-BKC-Annexe-Mumbai-Thane-006.jpg"
+        ]
+      },
+      {
+        "id": 312,
+        "name": "New Bridge Business Centre Andheri |Price And Images |",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "₹54,000",
+        "period": "/ Month",
+        "priceFormatted": "₹54,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/New-Bridge-Centre.png",
+          "https://coworkingers.com/wp-content/uploads/2021/10/NBC-1.png",
+          "https://coworkingers.com/wp-content/uploads/2021/10/NBC-2.png",
+          "https://coworkingers.com/wp-content/uploads/2021/10/NBC-3.png"
+        ]
+      }
+    ],
+    [
+      {
+        "id": 313,
+        "name": "Chitrshaala In New Link Road",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri West",
+        "location": "Andheri West, Mumbai",
+        "price": "₹7,500",
+        "period": "/ Month",
+        "priceFormatted": "₹7,500 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/75-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/71-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/72-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/73-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/74-min.jpg"
+        ]
+      },
+      {
+        "id": 314,
+        "name": "DevX Dynasty In Andheri East",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "₹11,490",
+        "period": "/ Month",
+        "priceFormatted": "₹11,490 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/dev-x.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/61-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/62-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/63-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/65-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/64-min.jpg"
+        ]
+      },
+      {
+        "id": 315,
+        "name": "At 101 Workshare Vibe In Andheri West",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri West",
+        "location": "Andheri West, Mumbai",
+        "price": "₹5,000",
+        "period": "/ Month",
+        "priceFormatted": "₹5,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/a5-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/a1-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/a2-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/a3-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/a4-min.jpg"
+        ]
+      },
+      {
+        "id": 316,
+        "name": "91Springboard 74 Techno Park Andheri East",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-74-Techno-Park-Andheri-East-001-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-74-Techno-Park-Andheri-East-002-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-74-Techno-Park-Andheri-East-003-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-74-Techno-Park-Andheri-East-004-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-74-Techno-Park-Andheri-East-005-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-74-Techno-Park-Andheri-East-006-min.jpg"
+        ]
+      },
+      {
+        "id": 317,
+        "name": "Quest Coworks",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "₹9,000",
+        "period": "/ Month",
+        "priceFormatted": "₹9,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/Quest-Coworks-Andheri-East-006-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Quest-Coworks-Andheri-East-001-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Quest-Coworks-Andheri-East-002-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Quest-Coworks-Andheri-East-003-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Quest-Coworks-Andheri-East-004-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Quest-Coworks-Andheri-East-005-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Quest-Coworks-Andheri-East-007-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Quest-Coworks-Andheri-East-008-min.jpg"
+        ]
+      },
+      {
+        "id": 318,
+        "name": "Redbrick",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "₹10,000",
+        "period": "/ Month",
+        "priceFormatted": "₹10,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/Redbrick-Andheri-East-001-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Redbrick-Andheri-East-002-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Redbrick-Andheri-East-003-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Redbrick-Andheri-East-004-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Redbrick-Andheri-East-005-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Redbrick-Andheri-East-006-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Redbrick-Andheri-East-007-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Redbrick-Andheri-East-008-min.jpg"
+        ]
+      },
+      {
+        "id": 319,
+        "name": "603 The Coworking Space",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "₹7,000",
+        "period": "/ Month",
+        "priceFormatted": "₹7,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/603-The-Coworking-Space-Andheri-East-007-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/603-The-Coworking-Space-Andheri-East-001-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/603-The-Coworking-Space-Andheri-East-002-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/603-The-Coworking-Space-Andheri-East-003-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/603-The-Coworking-Space-Andheri-East-004-min-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/603-The-Coworking-Space-Andheri-East-005-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/603-The-Coworking-Space-Andheri-East-006-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/11/Day-Pass.png"
+        ]
+      },
+      {
+        "id": 320,
+        "name": "The Mosaic Co-working Space Maharashtra",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "₹15,000",
+        "period": "/ Month",
+        "priceFormatted": "₹15,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/The-Mosaic-Co-working-Space-Andheri-East-005-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/The-Mosaic-Co-working-Space-Andheri-East-001-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/The-Mosaic-Co-working-Space-Andheri-East-002-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/The-Mosaic-Co-working-Space-Andheri-East-003-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/The-Mosaic-Co-working-Space-Andheri-East-004-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/The-Mosaic-Co-working-Space-Andheri-East-006-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/The-Mosaic-Co-working-Space-Andheri-East-007-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/11/Day-Pass.png"
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "id": 321,
+        "name": "Native Spaces Andheri",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri",
+        "location": "Andheri, Mumbai",
+        "price": "₹7,500",
+        "period": "/ Month",
+        "priceFormatted": "₹7,500 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/Native-Spaces-003-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Native-Spaces-001-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Native-Spaces-002-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Native-Spaces-004-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Native-Spaces-005-min.jpg"
+        ]
+      },
+      {
+        "id": 322,
+        "name": "Ecospaze By One Co.Work",
+        "badge": null,
+        "rating": null,
+        "area": "Lower Parel",
+        "location": "Lower Parel, Mumbai",
+        "price": "₹17,999",
+        "period": "/ Month",
+        "priceFormatted": "₹17,999 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/11/Ecospaze-by-One-Co.Work-Mumbai-004.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/11/Ecospaze-2.png",
+          "https://coworkingers.com/wp-content/uploads/2020/11/Ecospaze-3.png",
+          "https://coworkingers.com/wp-content/uploads/2020/11/Ecospaze-4.png",
+          "https://coworkingers.com/wp-content/uploads/2020/11/Ecospaze.png"
+        ]
+      },
+      {
+        "id": 323,
+        "name": "AccessWork Lower Parel",
+        "badge": null,
+        "rating": null,
+        "area": "Lower Parel",
+        "location": "Lower Parel, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/AccessWork-Lower-Parel-003-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/AccessWork-Lower-Parel-001-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/AccessWork-Lower-Parel-002-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/AccessWork-Lower-Parel-004-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/AccessWork-Lower-Parel-005-min.jpg"
+        ]
+      },
+      {
+        "id": 324,
+        "name": "Workwise",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri",
+        "location": "Andheri, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/Workwise-Solutions-Pvt.-Ltd-003-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Wokrwise-2.png",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Wokrwise.png",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Workwise-4.png",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Workwise3.png",
+          "https://coworkingers.com/wp-content/uploads/2020/07/workwise-5.png"
+        ]
+      },
+      {
+        "id": 325,
+        "name": "Innov8 Coworking Boston House Andheri East",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "₹6,399",
+        "period": "/ Month",
+        "priceFormatted": "₹6,399 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/Innov8-Coworking-Boston-House-Andheri-East-004-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Innov8-Coworking-Boston-House-Andheri-East-001-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Innov8-Coworking-Boston-House-Andheri-East-002-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Innov8-Coworking-Boston-House-Andheri-East-003-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Innov8-Coworking-Boston-House-Andheri-East-005-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Innov8-Coworking-Boston-House-Andheri-East-006-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Innov8-Coworking-Boston-House-Andheri-East-007-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Innov8-Coworking-Boston-House-Andheri-East-008-min.jpg"
+        ]
+      },
+      {
+        "id": 326,
+        "name": "Lumos CoWork",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "₹7,500",
+        "period": "/ Month",
+        "priceFormatted": "₹7,500 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/Lumos-Cowork-001-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Lumos-Cowork-002-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Lumos-Cowork-003-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Lumos-Cowork-004-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Lumos-Cowork-005-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Lumos-Cowork-006-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Lumos-Cowork-007-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Lumos-Cowork-008-min.jpg"
+        ]
+      },
+      {
+        "id": 327,
+        "name": "The Matchbox CoWork",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri",
+        "location": "Andheri, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/The-Matchbox-Cowork-001-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/The-Matchbox-Cowork-002-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/The-Matchbox-Cowork-003-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/The-Matchbox-Cowork-004-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/The-Matchbox-Cowork-005-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/The-Matchbox-Cowork-006-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/The-Matchbox-Cowork-007-min.jpg"
+        ]
+      },
+      {
+        "id": 328,
+        "name": "WeWork Chromium In Andheri East",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "₹9,000",
+        "period": "/ Month",
+        "priceFormatted": "₹9,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/Chromium.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/Web_150DPI-WeWork_Chromium_11th_sept_20190115-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/Web_150DPI-WeWork_Chromium_11th_sept_20190078-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/Web_150DPI-WeWork_Chromium_11th_sept_20190049-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/Web_150DPI-WeWork_Chromium_11th_sept_20190022-min.jpg"
+        ]
+      }
+    ],
+    [
+      {
+        "id": 329,
+        "name": "WeWork Raheja Platinum In Andheri East",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "₹15,000",
+        "period": "/ Month",
+        "priceFormatted": "₹15,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/wework-raheja.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ww-rp-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ww-rp-2.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ww-rp-3.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ww-rp-4.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ww-rp-5.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ww-rp-6.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ww-rp-7.jpg"
+        ]
+      },
+      {
+        "id": 330,
+        "name": "WeWork Enam Sambhav In BKC",
+        "badge": null,
+        "rating": null,
+        "area": "BKC",
+        "location": "Bkc, Mumbai",
+        "price": "₹18,900",
+        "period": "/ Month",
+        "priceFormatted": "₹18,900 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/wework-bkc.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/wbkc-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/wbkc-2.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/wbkc-3.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/wbkc-4.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/wbkc-5.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/wbkc-6.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/wbkc-7.jpg"
+        ]
+      },
+      {
+        "id": 331,
+        "name": "JITO Incubation And Innovation Foundation In Andheri East",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "₹4,899",
+        "period": "/ Month",
+        "priceFormatted": "₹4,899 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/Jito.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/jito-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/jito-2.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/jito-3.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/jito-4.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/jito-5.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/jito-6.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/jito-7.jpg"
+        ]
+      },
+      {
+        "id": 332,
+        "name": "Guac Spaces In Andheri East",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "₹5,999",
+        "period": "/ Month",
+        "priceFormatted": "₹5,999 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/guac-spaces.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/GS-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/gs-2.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/gs-3.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/gs-4.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/gs-5.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/gs-6.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/gs-7.jpg"
+        ]
+      },
+      {
+        "id": 333,
+        "name": "91springboard Lotus Andheri East",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "₹8,000",
+        "period": "/ Month",
+        "priceFormatted": "₹8,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/91springboard-Lotus.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/91-lotus-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/91-lotus-2.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/91-lotus-3.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/91-lotus-4.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/91-lotus-5.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/91-lotus-6.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/91-lotus-7.jpg"
+        ]
+      },
+      {
+        "id": 334,
+        "name": "Incuspaze In Andheri East",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "₹7,499",
+        "period": "/ Month",
+        "priceFormatted": "₹7,499 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/incuspaze.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/Incuspaze-Andheri-East-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/Incuspaze-Andheri-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/Incuspaze-Andheri-East-min-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/Incuspaze-Andheri-East.-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/11/Day-Pass-4.png"
+        ]
+      },
+      {
+        "id": 335,
+        "name": "Servcorp BKC",
+        "badge": null,
+        "rating": null,
+        "area": "BKC",
+        "location": "Bkc, Mumbai",
+        "price": "₹25,000",
+        "period": "/ Month",
+        "priceFormatted": "₹25,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/Screenshot-2021-11-25-122323.png",
+          "https://coworkingers.com/wp-content/uploads/2021/10/Screenshot-2021-11-25-122227.png",
+          "https://coworkingers.com/wp-content/uploads/2021/10/Screenshot-2021-11-25-122307.png"
+        ]
+      },
+      {
+        "id": 336,
+        "name": "Community Coworks In Andheri East",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "₹7,500",
+        "period": "/ Month",
+        "priceFormatted": "₹7,500 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/Community-Coworks-Andheri-East-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/Community-Coworks-Andheri-East.-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/Community-Coworks-Andheri-East.-min-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/Community-Coworks-Andheri-East-min-1.jpg"
+        ]
+      }
+    ],
+    [
+      {
+        "id": 337,
+        "name": "Co.Lab.Oratory Asia In Andheri East",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "₹4,500",
+        "period": "/ Month",
+        "priceFormatted": "₹4,500 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/colab-Asia.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/Co.Lab_.Oratory-Asia-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/Co.Lab_.Oratory-Asia-min-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/Co.Lab_.Oratory-Asia-min-2.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/Co.Lab-Oratory-Asia-min.jpg"
+        ]
+      },
+      {
+        "id": 338,
+        "name": "Quest Offices In BKC",
+        "badge": null,
+        "rating": null,
+        "area": "BKC",
+        "location": "Bkc, Mumbai",
+        "price": "₹9,999",
+        "period": "/ Month",
+        "priceFormatted": "₹9,999 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/quest-offices.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/Quest-Offices-BKC-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/Quest-Offices-BKC.-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/Quest-Offices-BKC-min-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/11/Day-Pass-4.png"
+        ]
+      },
+      {
+        "id": 339,
+        "name": "IKeva BKC",
+        "badge": null,
+        "rating": null,
+        "area": "BKC",
+        "location": "Bkc, Mumbai",
+        "price": "₹8,800",
+        "period": "/ Month",
+        "priceFormatted": "₹8,800 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/Screenshot-2021-11-25-112041.png",
+          "https://coworkingers.com/wp-content/uploads/2021/10/ikeva1.png",
+          "https://coworkingers.com/wp-content/uploads/2021/10/Screenshot-2021-11-25-112131.png"
+        ]
+      },
+      {
+        "id": 340,
+        "name": "WeWork - Andheri East",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "₹15,000",
+        "period": "/ Month",
+        "priceFormatted": "₹15,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/wework-andheri.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Wework-Andheri-East-001-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Wework-Andheri-East-002-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Wework-Andheri-East-003-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Wework-Andheri-East-004-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Wework-Andheri-East-005-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Wework-Andheri-East-006-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Wework-Andheri-East-007-min.jpg"
+        ]
+      },
+      {
+        "id": 341,
+        "name": "WorkAmp Futurex Lower Parel",
+        "badge": null,
+        "rating": null,
+        "area": "Lower Parel",
+        "location": "Lower Parel, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp-Futurex-Lower-Parel-003-min-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp.png",
+          "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp2.png",
+          "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp3.png",
+          "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp4.png"
+        ]
+      },
+      {
+        "id": 342,
+        "name": "Awfis Lower Parel",
+        "badge": null,
+        "rating": null,
+        "area": "Lower Parel",
+        "location": "Lower Parel, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Lower-Parel-Poddar-Chambers-Lower-Parel-002-min-2.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Lower-Parel-Poddar-Chambers-Lower-Parel-005-min-2.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Lower-Parel-Poddar-Chambers-Lower-Parel-001-min-2.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Lower-Parel-Poddar-Chambers-Lower-Parel-003-min-2.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Lower-Parel-Poddar-Chambers-Lower-Parel-004-min-2.jpg"
+        ]
+      },
+      {
+        "id": 343,
+        "name": "Rise Mumbai Lower Parel",
+        "badge": null,
+        "rating": null,
+        "area": "Lower Parel",
+        "location": "Lower Parel, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/Rise-Mumbai-Lower-Parel-004-min-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Rise-Mumbai-Lower-Parel-001-min-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Rise-Mumbai-Lower-Parel-002-min-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Rise-Mumbai-Lower-Parel-003-min-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Rise-Mumbai-Lower-Parel-005-min-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Rise-Mumbai-Lower-Parel-006-min-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Rise-Mumbai-Lower-Parel-007-min-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Rise-Mumbai-Lower-Parel-008-min-1.jpg"
+        ]
+      },
+      {
+        "id": 344,
+        "name": "Work Square Andheri East",
+        "badge": null,
+        "rating": null,
+        "area": "Lower Parel",
+        "location": "Lower Parel, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/Work-Square-Lower-Parel-001-min-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Work-Square-Lower-Parel-005-min-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Work-Square-Lower-Parel-006-min-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Work-Square-Lower-Parel-007-min-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Work-Square-Lower-Parel-008-min-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Work-Square-Lower-Parel-002-min-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Work-Square-Lower-Parel-003-min-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Work-Square-Lower-Parel-004-min-1.jpg"
+        ]
+      }
+    ],
+    [
+      {
+        "id": 345,
+        "name": "Avirahi Office Spaces In Kandivali West",
+        "badge": null,
+        "rating": null,
+        "area": "Kandivali West",
+        "location": "Kandivali West, Mumbai",
+        "price": "₹7,000",
+        "period": "/ Month",
+        "priceFormatted": "₹7,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/avirahi.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/Avirahi-Office-Space-Kandivali-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/Avirahi-Office-Space-Kandivali.-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/Avirahi-Office-Space-Kandivali.-min-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/Avirahi-Office-Space-Kandivali-min-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/11/Day-Pass-4.png"
+        ]
+      },
+      {
+        "id": 346,
+        "name": "Spartan Co-Work",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri",
+        "location": "Andheri, Mumbai",
+        "price": "₹1,250",
+        "period": "/ Month",
+        "priceFormatted": "₹1,250 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/Spartan-Co-Work-005-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Spartan-Co-Work-001-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Spartan-Co-Work-002-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Spartan-Co-Work-003-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Spartan-Co-Work-004-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Spartan-Co-Work-006-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Spartan-Co-Work-007-min.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/Spartan-Co-Work-008-min.jpg"
+        ]
+      },
+      {
+        "id": 347,
+        "name": "The Playce",
+        "badge": null,
+        "rating": null,
+        "area": "Thane",
+        "location": "Thane, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/The-Playce-Thane-008.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/The-Playce-Thane-001.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/The-Playce-Thane-002.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/The-Playce-Thane-003.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/The-Playce-Thane-004.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/The-Playce-Thane-005.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/The-Playce-Thane-006.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/The-Playce-Thane-007.jpg"
+        ]
+      },
+      {
+        "id": 348,
+        "name": "ZoomStart India",
+        "badge": null,
+        "rating": null,
+        "area": "Navi Mumbai",
+        "location": "Navi Mumbai, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/ZoomStart-India-Navi-Mumbai-001.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/ZoomStart-India-Navi-Mumbai-002.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/ZoomStart-India-Navi-Mumbai-003.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/ZoomStart-India-Navi-Mumbai-004.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/ZoomStart-India-Navi-Mumbai-005.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/ZoomStart-India-Navi-Mumbai-006.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/ZoomStart-India-Navi-Mumbai-007.jpg"
+        ]
+      },
+      {
+        "id": 349,
+        "name": "91springboard",
+        "badge": null,
+        "rating": null,
+        "area": "Navi Mumbai",
+        "location": "Navi Mumbai, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-Turbhe-Navi-Mumbai-002.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-Turbhe-Navi-Mumbai-001.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-Turbhe-Navi-Mumbai-003.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-Turbhe-Navi-Mumbai-004.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-Turbhe-Navi-Mumbai-005.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-Turbhe-Navi-Mumbai-006.jpg"
+        ]
+      },
+      {
+        "id": 350,
+        "name": "Mascots CoWork Andheri East",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "₹10,999",
+        "period": "/ Month",
+        "priceFormatted": "₹10,999 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/11/3.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/11/Mascots-CoWork-001.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/11/Mascots-CoWork-002.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/11/Mascots-CoWork-003.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/11/Mascots-CoWork-004.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/11/Mascots-CoWork-005.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/11/Mascots-CoWork-006.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/11/Mascots-CoWork-007.jpg"
+        ]
+      },
+      {
+        "id": 351,
+        "name": "OfficeBing",
+        "badge": null,
+        "rating": null,
+        "area": "Navi Mumbai",
+        "location": "Navi Mumbai, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/11/OfficeBing-005.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/11/OfficeBing-001.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/11/OfficeBing-002.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/11/OfficeBing-003.jpg",
+          "https://coworkingers.com/wp-content/uploads/2020/11/OfficeBing-004.jpg"
+        ]
+      },
+      {
+        "id": 352,
+        "name": "Guac Spaces",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "₹5,999",
+        "period": "/ Month",
+        "priceFormatted": "₹5,999 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/2.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/1582202995088.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/SpaceImages593430836.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/11/day-pass-12.png"
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "id": 353,
+        "name": "The Boho Pad In Santacruz West",
+        "badge": null,
+        "rating": null,
+        "area": "Santacruz West",
+        "location": "Santacruz West, Mumbai",
+        "price": "₹10,000",
+        "period": "/ Month",
+        "priceFormatted": "₹10,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/the-boho-pad.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/boho-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/boho-2.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/boho-3.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/boho-4.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/boho-5.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/boho-6.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/boho-7.jpg"
+        ]
+      },
+      {
+        "id": 354,
+        "name": "One Degree Coworking In LBS Marg",
+        "badge": null,
+        "rating": null,
+        "area": "Bhandup",
+        "location": "Bhandup, Mumbai",
+        "price": "₹5,000",
+        "period": "/ Month",
+        "priceFormatted": "₹5,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/one-degree.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/one-degree-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/one-degree-2.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/one-degree-3.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/one-degree-4.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/one-degree-5.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/one-degree-6.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/one-degree-7.jpg"
+        ]
+      },
+      {
+        "id": 355,
+        "name": "WeWork In Nesco IT Park",
+        "badge": null,
+        "rating": null,
+        "area": "Goregaon",
+        "location": "Goregaon, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2021/10/wework-nesco.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/we-work-it-park-1.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/we-work-it-park-2.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/we-work-it-park-3.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/we-work-it-park-4.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/we-work-it-park-5.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/we-work-it-park-6.jpg",
+          "https://coworkingers.com/wp-content/uploads/2021/10/we-work-it-park-7.jpg"
+        ]
+      },
+      {
+        "id": 356,
+        "name": "WISE SNDTWU INCUBATION CENTRE",
+        "badge": null,
+        "rating": null,
+        "area": "Santacruz West",
+        "location": "Santacruz West, Mumbai",
+        "price": "₹30,000",
+        "period": "/ Month",
+        "priceFormatted": "₹30,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1710154982/tvfqib4g3ufwdqqkyqem.webp"
+        ]
+      },
+      {
+        "id": 357,
+        "name": "Attari Classes",
+        "badge": null,
+        "rating": null,
+        "area": "Kurla",
+        "location": "Kurla, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1530681932/ijjbkatsqqhgg2vqkwtx.webp"
+        ]
+      },
+      {
+        "id": 358,
+        "name": "EFC Limited",
+        "badge": null,
+        "rating": null,
+        "area": "BKC",
+        "location": "BKC, Mumbai",
+        "price": "₹23,000",
+        "period": "/ Month",
+        "priceFormatted": "₹23,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1640595341/hbqvlmrqozjngi1aazts.webp"
+        ]
+      },
+      {
+        "id": 359,
+        "name": "The Learning Galaxy",
+        "badge": null,
+        "rating": null,
+        "area": "Lower Parel",
+        "location": "Lower Parel, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1641279912/o8xkkej1yjrl5hypsfld.png"
+        ]
+      },
+      {
+        "id": 360,
+        "name": "Matulya Center",
+        "badge": null,
+        "rating": null,
+        "area": "Lower Parel",
+        "location": "Lower Parel, Mumbai",
+        "price": "₹12,000",
+        "period": "/ Month",
+        "priceFormatted": "₹12,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1645615021/wfixwqc4ajaxls2mlamt.jpg"
+        ]
+      }
+    ],
+    [
+      {
+        "id": 361,
+        "name": "Grove Workspaces",
+        "badge": null,
+        "rating": null,
+        "area": "Lower Parel",
+        "location": "Lower Parel, Mumbai",
+        "price": "₹18,000",
+        "period": "/ Month",
+        "priceFormatted": "₹18,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/c93a55acae13ce93bfa0dbb1e73ff045_XUn5VPmWl.jpg"
+        ]
+      },
+      {
+        "id": 362,
+        "name": "NVL Services",
+        "badge": null,
+        "rating": null,
+        "area": "Lower Parel",
+        "location": "Lower Parel, Mumbai",
+        "price": "₹10,000",
+        "period": "/ Month",
+        "priceFormatted": "₹10,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1646051198/drbwyakvgewvwvwedigs.jpg"
+        ]
+      },
+      {
+        "id": 363,
+        "name": "AIIG",
+        "badge": null,
+        "rating": null,
+        "area": "Prabhadevi",
+        "location": "Prabhadevi, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1582623235/esqch0nmitqhdp7vfzdc.webp"
+        ]
+      },
+      {
+        "id": 364,
+        "name": "Ztartup",
+        "badge": null,
+        "rating": null,
+        "area": "Dadar West",
+        "location": "Dadar West, Mumbai",
+        "price": "₹25,000",
+        "period": "/ Month",
+        "priceFormatted": "₹25,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://ik.imagekit.io/qdesq/qdesq/c3e5ba66f4aba0449cf5ce33def4493b_duZNJ3kqu.jpg"
+        ]
+      },
+      {
+        "id": 365,
+        "name": "DBS India",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1551354296/miekn1cnx5hdaeujhbkf.png"
+        ]
+      },
+      {
+        "id": 366,
+        "name": "Kohinoor Banquet's",
+        "badge": null,
+        "rating": null,
+        "area": "Dadar East",
+        "location": "Dadar East, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1583137777/d8vxd6toqbxnm3egsiu5.webp"
+        ]
+      },
+      {
+        "id": 367,
+        "name": "CfE Offices",
+        "badge": null,
+        "rating": null,
+        "area": "Dadar",
+        "location": "Dadar, Mumbai",
+        "price": "₹5,000",
+        "period": "/ Month",
+        "priceFormatted": "₹5,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1647251313/kkbijzltg66wtx8eqk8d.webp"
+        ]
+      },
+      {
+        "id": 368,
+        "name": "CfE Offices",
+        "badge": null,
+        "rating": null,
+        "area": "Dadar West",
+        "location": "Dadar West, Mumbai",
+        "price": "₹6,000",
+        "period": "/ Month",
+        "priceFormatted": "₹6,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1647251027/djteuzdgmmcm8bywqak4.webp"
+        ]
+      }
+    ],
+    [
+      {
+        "id": 369,
+        "name": "Isloan",
+        "badge": null,
+        "rating": null,
+        "area": "Churchgate",
+        "location": "Churchgate, Mumbai",
+        "price": "₹5,000",
+        "period": "/ Month",
+        "priceFormatted": "₹5,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1542619807/wg87lzjhaxs154lkbzpg.webp"
+        ]
+      },
+      {
+        "id": 370,
+        "name": "AIIG",
+        "badge": null,
+        "rating": null,
+        "area": "Fort",
+        "location": "Fort, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1623049942/tec1sydc03nv7glestqn.jpg"
+        ]
+      },
+      {
+        "id": 371,
+        "name": "Oval By Galaxy",
+        "badge": null,
+        "rating": null,
+        "area": "Churchgate",
+        "location": "Churchgate, Mumbai",
+        "price": "₹12,500",
+        "period": "/ Month",
+        "priceFormatted": "₹12,500 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/s--2up9Zw50--/v1723547360/mzxm6qfu6cguny8mu29a.webp"
+        ]
+      },
+      {
+        "id": 372,
+        "name": "DBS India",
+        "badge": null,
+        "rating": null,
+        "area": "Fort",
+        "location": "Fort, Mumbai",
+        "price": "₹12,900",
+        "period": "/ Month",
+        "priceFormatted": "₹12,900 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1553675196/ry4qwqgkesuigegwjp55.png"
+        ]
+      },
+      {
+        "id": 373,
+        "name": "Bunder Room",
+        "badge": null,
+        "rating": null,
+        "area": "Kala Ghoda",
+        "location": "Kala Ghoda, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1608116965/diduvlrwywwrep6ubjh8.webp"
+        ]
+      },
+      {
+        "id": 374,
+        "name": "DBS",
+        "badge": null,
+        "rating": null,
+        "area": "Marzban Road",
+        "location": "Marzban Road, Mumbai",
+        "price": "₹19,000",
+        "period": "/ Month",
+        "priceFormatted": "₹19,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://ik.imagekit.io/qdesq/qdesq/2f1ff592dbf355ee0b21636f558ff0ab_u9p_-dViW.jpeg"
+        ]
+      },
+      {
+        "id": 375,
+        "name": "Rex Chamber Fort",
+        "badge": null,
+        "rating": null,
+        "area": "Ballard Estate",
+        "location": "Ballard Estate, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://ik.imagekit.io/qdesq/qdesq/3c58d76c3698a574e8a8159ec1333912_glsV3BYWsa.jpg"
+        ]
+      },
+      {
+        "id": 376,
+        "name": "Trackster Spaces",
+        "badge": null,
+        "rating": null,
+        "area": "Nerul",
+        "location": "Nerul, Mumbai",
+        "price": "₹5,500",
+        "period": "/ Month",
+        "priceFormatted": "₹5,500 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/image/upload/s--Q6kd_3-d--/v1724242435/y2pjmf6mouu9jiuyb6xq.webp"
+        ]
+      }
+    ],
+    [
+      {
+        "id": 377,
+        "name": "Corpliance Business Solutions",
+        "badge": null,
+        "rating": null,
+        "area": "Vashi",
+        "location": "Vashi, Mumbai",
+        "price": "₹6,000",
+        "period": "/ Month",
+        "priceFormatted": "₹6,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1648016436/otk4mkouz8uwayh4g0vn.webp"
+        ]
+      },
+      {
+        "id": 378,
+        "name": "Netiizen Creative Spaces",
+        "badge": null,
+        "rating": null,
+        "area": "Santacruz East",
+        "location": "Santacruz East, Mumbai",
+        "price": "₹8,000",
+        "period": "/ Month",
+        "priceFormatted": "₹8,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1675684827/yqg3i3ry9ktuzqivlbvq.webp"
+        ]
+      },
+      {
+        "id": 379,
+        "name": "Book My Space",
+        "badge": null,
+        "rating": null,
+        "area": "Kamala Nagar",
+        "location": "Kamala Nagar, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1613979449/tiq8yz5ua4tk7w5qo0lk.png"
+        ]
+      },
+      {
+        "id": 380,
+        "name": "The Workables",
+        "badge": null,
+        "rating": null,
+        "area": "Bandra West",
+        "location": "Bandra West, Mumbai",
+        "price": "₹15,000",
+        "period": "/ Month",
+        "priceFormatted": "₹15,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1647335248/njx3vucxbplwvuuqfmwt.jpg"
+        ]
+      },
+      {
+        "id": 381,
+        "name": "Brubaabaa Cafe",
+        "badge": null,
+        "rating": null,
+        "area": "Bandra West",
+        "location": "Bandra West, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/223c1ec11fe2b160cf6f6443a531fb3e_adUmrDTzt.jpg"
+        ]
+      },
+      {
+        "id": 382,
+        "name": "The Coworking company",
+        "badge": null,
+        "rating": null,
+        "area": "Bandra West",
+        "location": "Bandra West, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/image/upload/tr:n-listing_image/v1474532070/eqmndircpaqz0bd1lyik.webp"
+        ]
+      },
+      {
+        "id": 383,
+        "name": "Bubble Office",
+        "badge": null,
+        "rating": null,
+        "area": "Goregaon East",
+        "location": "Goregaon East, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1672142770/cyalt0bid3allwjv6x6p.jpg"
+        ]
+      },
+      {
+        "id": 384,
+        "name": "Toutle Space",
+        "badge": null,
+        "rating": null,
+        "area": "Goregaon West",
+        "location": "Goregaon West, Mumbai",
+        "price": "₹8,500",
+        "period": "/ Month",
+        "priceFormatted": "₹8,500 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1677131843/ckalaabbdged1igahcg9.webp"
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "id": 385,
+        "name": "Inspire Cospaces",
+        "badge": null,
+        "rating": null,
+        "area": "Goregaon",
+        "location": "Goregaon, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1603176403/mnbilqki30tf4ztvvssm.jpg"
+        ]
+      },
+      {
+        "id": 386,
+        "name": "The Playce",
+        "badge": null,
+        "rating": null,
+        "area": "Mulund West",
+        "location": "Mulund West, Mumbai",
+        "price": "₹13,000",
+        "period": "/ Month",
+        "priceFormatted": "₹13,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/be244f090fc6f2c5328501836cce4832_z4kmulXFFq.jpg"
+        ]
+      },
+      {
+        "id": 387,
+        "name": "Vkube Coworking Space",
+        "badge": null,
+        "rating": null,
+        "area": "Mulund East",
+        "location": "Mulund East, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1604659282/ur2mtwuhn4ojtz2dhjhl.jpg"
+        ]
+      },
+      {
+        "id": 388,
+        "name": "Unitop",
+        "badge": null,
+        "rating": null,
+        "area": "Thane West",
+        "location": "Thane West, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1504253425/dch9jarjjhr4h1ukrf3v.webp"
+        ]
+      },
+      {
+        "id": 389,
+        "name": "Ukase Consultancy",
+        "badge": null,
+        "rating": null,
+        "area": "Thane West",
+        "location": "Thane West, Mumbai",
+        "price": "₹8,000",
+        "period": "/ Month",
+        "priceFormatted": "₹8,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://ik.imagekit.io/qdesq/qdesq/451032ab01a8721d0567e4956d6730b6_SiZetRc9b.JPG"
+        ]
+      },
+      {
+        "id": 390,
+        "name": "SLP BPO Services",
+        "badge": null,
+        "rating": null,
+        "area": "Thane West",
+        "location": "Thane West, Mumbai",
+        "price": "₹5,500",
+        "period": "/ Month",
+        "priceFormatted": "₹5,500 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1563344480/so2xdgmsvtmv3wprioux.webp"
+        ]
+      },
+      {
+        "id": 391,
+        "name": "RedBrick",
+        "badge": null,
+        "rating": null,
+        "area": "BKC",
+        "location": "BKC, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1571382184/ogclw7bxlqkbujv3pyjb.webp"
+        ]
+      },
+      {
+        "id": 392,
+        "name": "Chintamani Jewellers Office",
+        "badge": null,
+        "rating": null,
+        "area": "Prabhadevi",
+        "location": "Prabhadevi, Mumbai",
+        "price": "₹20,000",
+        "period": "/ Month",
+        "priceFormatted": "₹20,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/54acd3d70cea72b4185c9fa85d1b35fc_vOt4sQyva.jpeg"
+        ]
+      }
+    ],
+    [
+      {
+        "id": 393,
+        "name": "OfficeBing",
+        "badge": null,
+        "rating": null,
+        "area": "Turbhe",
+        "location": "Turbhe, Mumbai",
+        "price": "₹8,500",
+        "period": "/ Month",
+        "priceFormatted": "₹8,500 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1675231181/vpvvicix5ygorrpugelb.webp"
+        ]
+      },
+      {
+        "id": 394,
+        "name": "Megastar Office",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "₹11,000",
+        "period": "/ Month",
+        "priceFormatted": "₹11,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1664786740/njkk1eamuxghyxplzutt.webp"
+        ]
+      },
+      {
+        "id": 395,
+        "name": "The Common Desk",
+        "badge": null,
+        "rating": null,
+        "area": "Railway Colony",
+        "location": "Railway Colony, Mumbai",
+        "price": "₹8,500",
+        "period": "/ Month",
+        "priceFormatted": "₹8,500 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://ik.imagekit.io/qdesq/qdesq/55639d94c7c75397d28d878307a7fa85_NJtWkjRBh.jpg"
+        ]
+      },
+      {
+        "id": 396,
+        "name": "COWORKS BY STM",
+        "badge": null,
+        "rating": null,
+        "area": "Vashi",
+        "location": "Vashi, Mumbai",
+        "price": "₹6,500",
+        "period": "/ Month",
+        "priceFormatted": "₹6,500 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://ik.imagekit.io/qdesq/qdesq/73119ab227402eba964c0461c2663e51_uyP79cwUG.JPG"
+        ]
+      },
+      {
+        "id": 397,
+        "name": "The Millennial Pod",
+        "badge": null,
+        "rating": null,
+        "area": "Powai",
+        "location": "Powai, Mumbai",
+        "price": "₹12,000",
+        "period": "/ Month",
+        "priceFormatted": "₹12,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1547542132/nt1vtjv5jvlpeljpertu.webp"
+        ]
+      },
+      {
+        "id": 398,
+        "name": "Opulence",
+        "badge": null,
+        "rating": null,
+        "area": "Marol MIDC Industry Estate",
+        "location": "Marol MIDC Industry Estate, Mumbai",
+        "price": "₹14,000",
+        "period": "/ Month",
+        "priceFormatted": "₹14,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/84766c317b483ce47213af49fd395c25_Z6N7q5Xu-.jpeg"
+        ]
+      },
+      {
+        "id": 399,
+        "name": "Ginger Hotel",
+        "badge": null,
+        "rating": null,
+        "area": "Sai Wadi",
+        "location": "Sai Wadi, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1608635092/fohwkayvdqws4nxog5qz.png"
+        ]
+      },
+      {
+        "id": 400,
+        "name": "BLUE HAT FUSION",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "₹12,000",
+        "period": "/ Month",
+        "priceFormatted": "₹12,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1710243568/aehczjx0ajje23nmfidk.webp"
+        ]
+      }
+    ],
+    [
+      {
+        "id": 401,
+        "name": "Times Square",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri East",
+        "location": "Andheri East, Mumbai",
+        "price": "₹10,000",
+        "period": "/ Month",
+        "priceFormatted": "₹10,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1636781645/rgpwztlztirqa4ybh3ya.jpg"
+        ]
+      },
+      {
+        "id": 402,
+        "name": "Redbrick",
+        "badge": null,
+        "rating": null,
+        "area": "Andheri West",
+        "location": "Andheri West, Mumbai",
+        "price": "₹12,000",
+        "period": "/ Month",
+        "priceFormatted": "₹12,000 / Month",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1608620337/tozgw6jv9epahsspgxgr.jpg"
+        ]
+      },
+      {
+        "id": 403,
+        "name": "WeWork  Zenia",
+        "badge": null,
+        "rating": null,
+        "area": "Thane",
+        "location": "Thane, Mumbai",
+        "price": "On Request",
+        "period": "",
+        "priceFormatted": "On Request",
+        "ctaText": "Get Quote",
+        "images": [
+          "https://coworkingers.com/wp-content/uploads/2020/07/20190131_WeWork_Zenia_-_Common_Areas_-_Wide-2-min.jpg"
+        ]
+      }
+    ],
     []
   ]
 ];
@@ -4176,7 +8015,7 @@ export const stillNotFindingBanner = {
 };
 
 export const paginationData = {
-  totalPages: 7,
+  totalPages: 13,
   initialPage: 1
 };
 
@@ -4285,3759 +8124,3 @@ export const topMumbaiCoworkingLocations = [
     "ctaText": "Explore Spaces"
   }
 ];
-
-// ============================================================================
-// Cards 201 to 403 are commented out (not shown on the site).
-// To show them again, move them from this comment into the mumbaiPages array above.
-// ============================================================================
-/*
-{
-  "id": 201,
-  "name": "WorkLoft",
-  "badge": null,
-  "rating": null,
-  "area": "CBD Belapur",
-  "location": "CBD Belapur, Mumbai",
-  "price": "₹9,000",
-  "period": "/ Month",
-  "priceFormatted": "₹9,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1612256317/c51x24ovzp5yohdxgmb2.jpg",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689670959/v8j3gquvv1fovrjxijzv.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689670959/barb1opsmtgk97drca0z.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689670959/ua41jsv58hq8emlmu19y.webp"
-  ]
-},
-{
-  "id": 202,
-  "name": "Inspire Cospaces",
-  "badge": null,
-  "rating": null,
-  "area": "Belapur",
-  "location": "Belapur, Mumbai",
-  "price": "₹8,800",
-  "period": "/ Month",
-  "priceFormatted": "₹8,800 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1689749726/i8r9apmdo2t0vaygfftz.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689749740/kgpmziv8c182jw58z3jr.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689749740/nogkse0g3lrdzgfg9fzw.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689749740/pcv672bfmudlgsii13i7.webp"
-  ]
-},
-{
-  "id": 203,
-  "name": "School of RPA",
-  "badge": null,
-  "rating": null,
-  "area": "Kharghar",
-  "location": "Kharghar, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1578899971/gmvqeug2t74wpqaot5ar.webp",
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1578905746/dgrif1xshjlkpfksodca.webp"
-  ]
-},
-{
-  "id": 204,
-  "name": "Ellora Fiesta",
-  "badge": null,
-  "rating": null,
-  "area": "Sanpada",
-  "location": "Sanpada, Mumbai",
-  "price": "₹8,000",
-  "period": "/ Month",
-  "priceFormatted": "₹8,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1721901568/dkwa7lpnukriu46jqu9k.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1721901585/rigsppdwwjrlh2pyouyo.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1721901585/wxxofkvovcudra9zklwz.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1721901585/t7hukrdrqqllqjsy8kqc.webp"
-  ]
-},
-{
-  "id": 205,
-  "name": "Swastik Mukherjee",
-  "badge": null,
-  "rating": null,
-  "area": "Vashi",
-  "location": "Vashi, Mumbai",
-  "price": "₹7,00,00,000",
-  "period": "/ Month",
-  "priceFormatted": "₹7,00,00,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/28c0414e19a0e6c253cde23208393f14_PMdPBYoea.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/45ce81ff7bc3d9a6097163b41fd89d4d_9bbBqMkzxi.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/5fab65bc7052a7f585375f4fc4bbdf90__zv6GDCfu6.JPG"
-  ]
-},
-{
-  "id": 206,
-  "name": "COWORKS BY STM",
-  "badge": null,
-  "rating": null,
-  "area": "Sector 14",
-  "location": "Sector 14, Mumbai",
-  "price": "₹6,500",
-  "period": "/ Month",
-  "priceFormatted": "₹6,500 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://ik.imagekit.io/qdesq/qdesq/4e6158b5d8723e6ae68bf11007e31ab3_XjY-gDwAIQ.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/83462e611b9887e36e02f5f917b42a80_oRvbmIF21d.JPG"
-  ]
-},
-{
-  "id": 207,
-  "name": "Grid Consultants Pvt. Ltd.",
-  "badge": null,
-  "rating": null,
-  "area": "Santacruz East",
-  "location": "Santacruz East, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/image/upload/tr:n-listing_image/v1472287467/cow9x7tnwhh9gjdirgrz.webp",
-    "https://qdesq.imagekit.io/image/upload/tr:n-listing_image/v1472286374/jgm8upbhooqnbabz1r6r.webp"
-  ]
-},
-{
-  "id": 208,
-  "name": "Taj Hotel",
-  "badge": null,
-  "rating": null,
-  "area": "Santacruz East",
-  "location": "Santacruz East, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1654148577/lzev0kevevbnuwenlopq.jpg",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1654148681/ugvsnmyojakckx1rqqpo.webp"
-  ]
-},
-{
-  "id": 209,
-  "name": "Lemon Tree Co",
-  "badge": null,
-  "rating": null,
-  "area": "Santacruz West",
-  "location": "Santacruz West, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://ik.imagekit.io/qdesq/qdesq/8c101e84b46900821f917181001aff6a_KSWfGH-xlX.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/5a71d8bfc749989eccf175a7590e898e_I9VFlZG4u.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/8002aefc3b7213a90a746b9e85e57e1d_jkQUHrbom.jpg"
-  ]
-},
-{
-  "id": 210,
-  "name": "OURDESK",
-  "badge": null,
-  "rating": null,
-  "area": "Khar West",
-  "location": "Khar West, Mumbai",
-  "price": "₹14,000",
-  "period": "/ Month",
-  "priceFormatted": "₹14,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://ik.imagekit.io/qdesq/qdesq/767b9bf6613f02bd96b429b868b1e407_Jbth9av5gt.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/d6041df6bcb79e7218273199463be8bc__-R03qPuc.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/8654dd6bdec1286fd3a7cc381fa987b2_mMJ1i8GEsr.jpg"
-  ]
-},
-{
-  "id": 211,
-  "name": "The Emerald Hotel & Service Apartments",
-  "badge": null,
-  "rating": null,
-  "area": "Juhu",
-  "location": "Juhu, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/image/upload/tr:n-listing_image/v1583738762/cwbpfuv4ju8fpo2uvmdu.webp",
-    "https://qdesq.imagekit.io/image/upload/tr:n-listing_image/v1583748758/e73wwkidnu2lk7cwnswg.webp",
-    "https://qdesq.imagekit.io/image/upload/tr:n-listing_image/v1583748784/uo6khuk52fgxl3kveyao.webp"
-  ]
-},
-{
-  "id": 212,
-  "name": "Innov8",
-  "badge": null,
-  "rating": null,
-  "area": "Netaji Subhash Nagar",
-  "location": "Netaji Subhash Nagar, Mumbai",
-  "price": "₹20,000",
-  "period": "/ Month",
-  "priceFormatted": "₹20,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://ik.imagekit.io/qdesq/qdesq/9135ca97d93940e63697bf98acc93725_wpfD0Rt_yv.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/17609cee119a67da9dd1f66169f0d718_Lxhr66WQI.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/450d5e78d6eeeef1ab5dcb6214f789bd_ChrPwQNux.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/ecbc8eb7c23d916d2e4e81a66394f8aa_TSiUoyCQS.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/b3ad68772b6c4b5d55ff33463f69ab1f_JAfOI1Nbbb.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/6b1d24b480ac822e7914dc71ff5ff910_6uD5RmBbYZ.JPG"
-  ]
-},
-{
-  "id": 213,
-  "name": "Biostadt",
-  "badge": null,
-  "rating": null,
-  "area": "Bandra East",
-  "location": "Bandra East, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://ik.imagekit.io/qdesq/qdesq/c6f73f45299a29f8e6282a4ded42986b_PN158TMB-M.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/336c118b458ce2ddd003386fcac6df6b_PbFZFrWFC.JPG"
-  ]
-},
-{
-  "id": 214,
-  "name": "AIIG",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri West",
-  "location": "Andheri West, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1580463307/hyx7xspctf4bwlrkikhq.webp",
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1580463648/abthgwkfk9cjhgs5l8do.webp",
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1580464735/mqzdralzpz162sfvptyw.webp",
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1580464404/ezjruldoks3uzripqhpm.webp"
-  ]
-},
-{
-  "id": 215,
-  "name": "Nehru Library & Research Centre",
-  "badge": null,
-  "rating": null,
-  "area": "Bandra East",
-  "location": "Bandra East, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1696597367/f8njbdv8eh6rfm3btp49.webp",
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1696481579/wkr3numifqco5ecitxua.jpg"
-  ]
-},
-{
-  "id": 216,
-  "name": "Innov8",
-  "badge": null,
-  "rating": null,
-  "area": "Amrut Nagar",
-  "location": "Amrut Nagar, Mumbai",
-  "price": "₹11,000",
-  "period": "/ Month",
-  "priceFormatted": "₹11,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://ik.imagekit.io/qdesq/qdesq/f26ba89b43ea37a5744d9be78c28ef6a_3qGz3v-wFf.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/cae89c69b43a56afc9e420af3326fdd9_IbptdQrZi.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/c1d2cb7894d39fa1051c1067d581b8e8_OA8X61Dcl.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/ce828d0826d01b2abbd4013f1a91df52_80hjPsevE.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/a68b7c9ba81ae2da35f211ac78974caa_qqBxyRlPB.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/746ff096c7cb23dc33f7bb9ddbbf57e5_YezIeVkIb.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/ce365c615895290bc6ce77fb2fb20992_BS9SzVjdf.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/a62f189d37d77211c92e144c22658b8f_lQDDRny4J.jpg"
-  ]
-},
-{
-  "id": 217,
-  "name": "Eazy2Work C/O Detangle",
-  "badge": null,
-  "rating": null,
-  "area": "Ghatkopar West",
-  "location": "Ghatkopar West, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1708149004/i23zikoucuxzovilimmg.jpg",
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1708149028/fcb8mdlqazbaszml4kxr.jpg"
-  ]
-},
-{
-  "id": 218,
-  "name": "Simpliwork Offices",
-  "badge": null,
-  "rating": null,
-  "area": "Vikhroli",
-  "location": "Vikhroli, Mumbai",
-  "price": "₹12,500",
-  "period": "/ Month",
-  "priceFormatted": "₹12,500 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1627973746/lonjepe9fak2jscuj5ua.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689660704/qhjhraxjdq6bbnf2qdq3.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689660704/q6hff0oo95u0vuzzuceo.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689660705/xefycjwedo24qmscb9h5.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689660705/haovbvo1ntp9ot0jrw9d.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689660705/aj7raivhjhdshyejo2kb.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689660705/ecdzbvxpwafromuec6ip.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689660644/ue7tih7fwdhreaqlte3w.webp"
-  ]
-},
-{
-  "id": 219,
-  "name": "OfficeBing",
-  "badge": null,
-  "rating": null,
-  "area": "Vikhroli West",
-  "location": "Vikhroli West, Mumbai",
-  "price": "₹13,499",
-  "period": "/ Month",
-  "priceFormatted": "₹13,499 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/image/upload/s--tAzmbjeb--/v1726658092/avpijo7flozhfpwkffzr.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/s--3Zoc1KfW--/v1726657994/s0cilnj49xtzlppjbelh.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/s--DgfHvke2--/v1726658133/wygwstfrvexqijpspxr2.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/s--ok0_YUuD--/v1726658152/wusurylmyvdwnmdja32m.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/s--0Qby3bLo--/v1726658244/dexrr8i6olls9yn9j0tl.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/s--VI07Hi6y--/v1726658261/fl3u2ezhpkk6tzzkfjod.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/s--d0GQl_p1--/v1726658310/ktvxtbwovqvsppncmkqv.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/s--kOk5kmSa--/v1726658361/dskgrcay4abw3wcf2sn8.webp"
-  ]
-},
-{
-  "id": 220,
-  "name": "COWRKS Powai",
-  "badge": null,
-  "rating": null,
-  "area": "Powai",
-  "location": "Powai, Mumbai",
-  "price": "₹25,000",
-  "period": "/ Month",
-  "priceFormatted": "₹25,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1705304707/g4q9mu8qfbqkxjsvrfxf.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1705304726/xavnxzsxcuhfrna2emxl.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1705304727/cvkvgl9lxsnl4q2m9fqp.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1705304727/s8mjrfebjwzmwuwcayiy.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1705304727/sgwqzwcdoh0tt0nxbyvx.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1705304728/lu9t7iip9homq50hbgn9.webp"
-  ]
-},
-{
-  "id": 221,
-  "name": "Regus",
-  "badge": null,
-  "rating": null,
-  "area": "Powai",
-  "location": "Powai, Mumbai",
-  "price": "₹15,000",
-  "period": "/ Month",
-  "priceFormatted": "₹15,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1669270338/zzrfskvn153uxnuramdl.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1669270352/uoakune8wjr7tklocdfw.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1669270352/l5t889g6nindcvalmgxp.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1669270353/egve0xakzdlu4mtw6oze.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689311968/h5fuag1oatd1e7mlpm7b.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689311968/eapybe8b2d522plbinrk.webp"
-  ]
-},
-{
-  "id": 222,
-  "name": "Bharti Co Space",
-  "badge": null,
-  "rating": null,
-  "area": "Ghatkopar West",
-  "location": "Ghatkopar West, Mumbai",
-  "price": "₹6,000",
-  "period": "/ Month",
-  "priceFormatted": "₹6,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1659427028/m7csapaa1hzsw0nmwwi9.jpg",
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1659427036/jmm6iczyovzxngzcyrmb.jpg"
-  ]
-},
-{
-  "id": 223,
-  "name": "LetsWork",
-  "badge": null,
-  "rating": null,
-  "area": "Ghatkopar West",
-  "location": "Ghatkopar West, Mumbai",
-  "price": "₹8,000",
-  "period": "/ Month",
-  "priceFormatted": "₹8,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://ik.imagekit.io/qdesq/qdesq/b471f024117a0bfe5c6fd2fe066e8f45_8wDliFm0te.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/7aed1e1f627e5d02e81c1e0c70c79100_TZY5U3a-A.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/1ec8513956ee6e3e0f907b848cab8d37_qp4mTUsctH.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/880b43c7e093d8922dc7da46263aa149_0SgIKPQBZ.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/ad3644fa8f076f1086852e22ae6658d8_fApqy-jmj.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/5d692caa70dc244f20d85a262d95275f_BR2NBRG8N.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/6c6e88fff3d9a75eed16696a60485721_8odyu_zq65.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/29f21020d52a91a4e4f5f48d6ca4e9b5_EZeHowSbZ_.JPG"
-  ]
-},
-{
-  "id": 224,
-  "name": "Awfis",
-  "badge": null,
-  "rating": null,
-  "area": "Powai",
-  "location": "Powai, Mumbai",
-  "price": "₹17,000",
-  "period": "/ Month",
-  "priceFormatted": "₹17,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://ik.imagekit.io/qdesq/qdesq/d68d1eaeb5785db18b398d7b478ced91_fQXemrmp11.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/23933a69d965460815d4fc215f239d75_LCkaSs56aW.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/2ac611f41ab45b30240c652337deaa6f_0Mgy3lf6xv.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/e14970489de92197ac1ccca198d89fb0_NxXKLfmzS.JPG"
-  ]
-},
-{
-  "id": 225,
-  "name": "iKeva Powai",
-  "badge": null,
-  "rating": null,
-  "area": "Powai",
-  "location": "Powai, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1676544047/wnjpknppryznc6eegngx.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1676544003/bz4tagwmkvriyywfv7js.webp",
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1525933144/o8b2lschzwqhvtn4ndfq.webp"
-  ]
-},
-{
-  "id": 226,
-  "name": "Dextrus",
-  "badge": null,
-  "rating": null,
-  "area": "Lower Parel",
-  "location": "Lower Parel, Mumbai",
-  "price": "₹16,250",
-  "period": "/ Month",
-  "priceFormatted": "₹16,250 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1689752020/qyoqghsgidpntsnndxj3.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689751999/ltchz4vqsmi6hohjnkhr.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689751999/xh5ffpbnn9dpcfcgka5x.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689751999/pq0sgzfrcj0fc3gserpa.webp",
-    "https://qdesq.imagekit.io/image/upload/tr:n-listing_image/v1585303855/hjtnzriuiwycs26tj5sp.webp",
-    "https://qdesq.imagekit.io/image/upload/tr:n-listing_image/v1585303877/jgzlxnfgmbfvittq12zq.webp"
-  ]
-},
-{
-  "id": 227,
-  "name": "UrbanWrk",
-  "badge": null,
-  "rating": null,
-  "area": "Lower Parel",
-  "location": "Lower Parel, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://ik.imagekit.io/qdesq/qdesq/2a19c13635e35837aaeca7344070bfef_TwThzH963n.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/29209abd147fa4cab33ffc5fba7d36f6_DbDn9eZ_D.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/b66309c17e0da6b2abad53b6a61b20cb_EaGrsZsROK.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/642fc5926236b33c1724bc18959ae5cd_MaJ803Dp0.jpg"
-  ]
-},
-{
-  "id": 228,
-  "name": "Collaborate Hub",
-  "badge": null,
-  "rating": null,
-  "area": "Vashi",
-  "location": "Vashi, Mumbai",
-  "price": "₹7,000",
-  "period": "/ Month",
-  "priceFormatted": "₹7,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1688025890/bepi9dxtzsbvk0ul9bgn.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1688025698/zzn0f39rdeqbbvv8dr4r.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1688025698/jt3scapygv76mjzoe48m.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1688025698/mxguqdbpcsx3pivfp3iv.webp"
-  ]
-},
-{
-  "id": 229,
-  "name": "AWFIS",
-  "badge": null,
-  "rating": null,
-  "area": "Vashi",
-  "location": "Vashi, Mumbai",
-  "price": "₹11,000",
-  "period": "/ Month",
-  "priceFormatted": "₹11,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1590050318/bcpovxhcove4gb4ooavc.jpg",
-    "https://qdesq.imagekit.io/img/tr:n-detail_image/image/upload/v1590048705/ialajg9c8bq7qdg0qseb.jpg",
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1499245495/wz9rmg7dvrjdsanwdfjj.webp",
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1499244747/qfr0wmvwogagohv9qsmu.webp",
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1499244194/nl4hx8cthukv8ptntmdq.webp",
-    "https://awfis-bpm-bucket.s3.ap-south-1.amazonaws.com/compliance/1680721932912.jpg"
-  ]
-},
-{
-  "id": 230,
-  "name": "MFC",
-  "badge": null,
-  "rating": null,
-  "area": "Vashi",
-  "location": "Vashi, Mumbai",
-  "price": "₹10,000",
-  "period": "/ Month",
-  "priceFormatted": "₹10,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/image/upload/s--nOAtzF07--/v1726469852/dhnuykcafsnehr2gmtdr.webp",
-    "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/31ef0b03d01b794bd51e3aee8cf1c0ce_d5xYkvp9r.jpeg"
-  ]
-},
-{
-  "id": 231,
-  "name": "Minidesks",
-  "badge": null,
-  "rating": null,
-  "area": "Vashi",
-  "location": "Vashi, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1680845337/xhf2frcvuhd81rv0hoxp.jpg",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1682340221/pl3smijei9pcdis9709h.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1682340238/qiejuvqtg27oedzvnfsz.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1680844517/ksrvykin4al16hxy9xz3.jpg"
-  ]
-},
-{
-  "id": 232,
-  "name": "Trigger Xchange",
-  "badge": null,
-  "rating": null,
-  "area": "Vashi",
-  "location": "Vashi, Mumbai",
-  "price": "₹6,500",
-  "period": "/ Month",
-  "priceFormatted": "₹6,500 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1551356537/yycnx3pt9mfzvjyvclf6.png",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689923258/cnv3z8iy5if5tsegukih.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689923259/vknohjxruxmsrt0qiqbf.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689923262/ubvoahslymszq79vfnue.webp"
-  ]
-},
-{
-  "id": 233,
-  "name": "WeGrow",
-  "badge": null,
-  "rating": null,
-  "area": "Vashi",
-  "location": "Vashi, Mumbai",
-  "price": "₹9,000",
-  "period": "/ Month",
-  "priceFormatted": "₹9,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1548067001/po66ijxcxsjcxd4n9h9f.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1661849717/lko7nd9kedvzjquukhtk.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1661849717/adgyyovkbblyt0gbbavy.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1676976792/qwdowa0gpsfzotdrnvdh.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1676976829/fv0kcma7hqluzoafrypd.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1676976844/lptmo1fnxxrqk9iueu5t.webp",
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1548065396/nuzx9ankdhywgqmemj6e.webp",
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1548067258/yqildyqzwbmdzgnaltw0.webp"
-  ]
-},
-{
-  "id": 234,
-  "name": "Teloz Spaces",
-  "badge": null,
-  "rating": null,
-  "area": "Goregaon",
-  "location": "Goregaon, Mumbai",
-  "price": "₹8,999",
-  "period": "/ Month",
-  "priceFormatted": "₹8,999 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1714734014/bwjn6kpddnfzwmznktgp.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1714734041/mikgodhlh5x4prcvg55r.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1714734041/xjjpcs9xvtfufcoshooj.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1714734042/nfgdsbj4s76wblqznck4.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1714734041/fltxigoggduqrrqzff0l.webp"
-  ]
-},
-{
-  "id": 235,
-  "name": "WeWork",
-  "badge": null,
-  "rating": null,
-  "area": "Goregaon",
-  "location": "Goregaon, Mumbai",
-  "price": "₹23,000",
-  "period": "/ Month",
-  "priceFormatted": "₹23,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://ik.imagekit.io/qdesq/qdesq/4258febdf9fd72eb432c8cd66954ea5d_ES_repHfkC.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/d9a6f3ac17b4f5444e76023e5cd1edbd_N8vr2vk3Lm.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/68d244a10dfb617e5a48a605a44099c8_uDohbpGRZ.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/14296dd10d6d2e619fed44c96697c556_b13N9qmQe.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/14c06722fd8b503f29e2f5ee38954246_6VzUlotEbE.JPG",
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1616672930/ayh2lmldaww13pxgslfz.png"
-  ]
-},
-{
-  "id": 236,
-  "name": "Table Space",
-  "badge": null,
-  "rating": null,
-  "area": "Yashodham",
-  "location": "Yashodham, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://ik.imagekit.io/qdesq/qdesq/7875fbc931ed3423469fd0f41a15b4dc_LFCE1Ya-2.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/08b0fad8cb330e0a6a904147891b62c6_Otto-w8Oe.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/145cf30c9b221d83da551fe35b1bd850_oBL1cL6RQ.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/1754d1da9dffb964eb51f931e627b447_4aazR1yoC.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/11bd74852655b952c1900c98f41f590a_2wy9O03x4.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/4fd6cc8bb5c5b9c2a622bb8e74d207c0_YOZOWadIX.jpg"
-  ]
-},
-{
-  "id": 237,
-  "name": "The Playce",
-  "badge": null,
-  "rating": null,
-  "area": "Bhandup",
-  "location": "Bhandup, Mumbai",
-  "price": "₹6,500",
-  "period": "/ Month",
-  "priceFormatted": "₹6,500 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1689749100/bcrekw34vuldlp5yv8xf.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689749082/ymd19ovdn05nm6sveeq1.webp",
-    "https://qdesq.imagekit.io/image/upload/tr:n-listing_image/v1595570303/rt9qx3hevvy0wxcwfaad.webp",
-    "https://qdesq.imagekit.io/image/upload/tr:n-listing_image/v1595570433/qbxc7xigt1xucrguogqx.webp",
-    "https://qdesq.imagekit.io/image/upload/tr:n-listing_image/v1595570592/xigr3w0mp6gsavwrrpo1.webp"
-  ]
-},
-{
-  "id": 238,
-  "name": "Josho Learning",
-  "badge": null,
-  "rating": null,
-  "area": "Mulund West",
-  "location": "Mulund West, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1483429336/tmgh7waxvedebloqwufn.webp",
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1483517033/g47esdyjyf7dzb5xscfo.webp",
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1483517209/bxjsx3bvkmytzqx2andx.webp",
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1483517300/uox7vtqlbmkpenlkzs0e.webp"
-  ]
-},
-{
-  "id": 239,
-  "name": "NEXT School",
-  "badge": null,
-  "rating": null,
-  "area": "Mulund West",
-  "location": "Mulund West, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://ik.imagekit.io/qdesq/qdesq/ce903dcd88e7c3e863be22e6d63104d3_FtEyjmfyb.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/4644a2ababf48d0a516b6788fa98e4bb_nthiylIo6.jpeg",
-    "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/7811e08fc79d874f396e304e0f64d109_ruft1WxhC.jpeg"
-  ]
-},
-{
-  "id": 240,
-  "name": "Diamond Event Space and Ruby Training Hall",
-  "badge": null,
-  "rating": null,
-  "area": "Mulund West",
-  "location": "Mulund West, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1547350306/ozrxk29icdtxdgodilez.webp",
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1547350145/lmigo3armboxxviftwo2.webp"
-  ]
-},
-{
-  "id": 241,
-  "name": "AWFIS",
-  "badge": null,
-  "rating": null,
-  "area": "Thane",
-  "location": "Thane, Mumbai",
-  "price": "₹13,000",
-  "period": "/ Month",
-  "priceFormatted": "₹13,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1689398688/hipsoatp0wdc1wf2ywoz.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689398672/u7luegxztrb2vwcrh88e.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689398672/im9swadqtt6ddukom9bv.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689398672/gsmo5nz3rnddv60d03wi.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689398672/krng9axok06dlkcunlsb.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689398673/mvsmncz9yoo6haiuczfc.webp",
-    "https://awfis-bpm-bucket.s3.ap-south-1.amazonaws.com/compliance/1680773524286.jpg"
-  ]
-},
-{
-  "id": 242,
-  "name": "Inspire Cospaces",
-  "badge": null,
-  "rating": null,
-  "area": "Thane",
-  "location": "Thane, Mumbai",
-  "price": "₹10,497",
-  "period": "/ Month",
-  "priceFormatted": "₹10,497 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1603892651/pu6vuvw40vez32ux0nmo.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689749476/pduoaqfyz1kgmswgrisn.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689749476/saczjdj6oznbwnb7ng8e.webp",
-    "https://qdesq.imagekit.io/image/upload/tr:n-listing_image/v1594902153/c7qgdoarxghsdpvvnzn6.webp"
-  ]
-},
-{
-  "id": 243,
-  "name": "JP INFRA",
-  "badge": null,
-  "rating": null,
-  "area": "Wagle Industrial Estate",
-  "location": "Wagle Industrial Estate, Mumbai",
-  "price": "₹7,500",
-  "period": "/ Month",
-  "priceFormatted": "₹7,500 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/image/upload/tr:n-listing_image/v1593767499/uj9zh81ltgxm1mwwtuva.webp",
-    "https://qdesq.imagekit.io/image/upload/tr:n-listing_image/v1593767456/wgizieptmqwshvzleccn.webp"
-  ]
-},
-{
-  "id": 244,
-  "name": "East Corp Group",
-  "badge": null,
-  "rating": null,
-  "area": "Thane",
-  "location": "Thane, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1567492534/j9q1uhjnxyu3cih9mpym.webp",
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1655975177/qtin33x49bvukjeqiazq.png"
-  ]
-},
-{
-  "id": 245,
-  "name": "Silgate Solutions Limited",
-  "badge": null,
-  "rating": null,
-  "area": "Thane West",
-  "location": "Thane West, Mumbai",
-  "price": "₹6,000",
-  "period": "/ Month",
-  "priceFormatted": "₹6,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1539604371/db2bwohvh5mxwuf0pqsg.webp",
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1539604432/scdv2wrfkya25q5p0ftl.webp",
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1539604447/zvpfoyo6i821kgtukgdm.webp"
-  ]
-},
-{
-  "id": 246,
-  "name": "Executive Spaces",
-  "badge": null,
-  "rating": null,
-  "area": "BKC",
-  "location": "BKC, Mumbai",
-  "price": "₹95,000",
-  "period": "/ Month",
-  "priceFormatted": "₹95,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://ik.imagekit.io/qdesq/qdesq/171efb6591bd8b976c88857ee849bf52_4vymUqQ9B.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/57d0b9e932932638bea7953ab6de7879_PCgxV6A-i.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/a2dd29d92a04410f98dd96655b7b6983_HBFUvYc8D.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/d3368addbc54580ae6652ac9e226705c_CCUOf8vH_.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/1887c28368e47b9d85a1df95098ae3dc_Dl-L3xP7Y.JPG"
-  ]
-},
-{
-  "id": 247,
-  "name": "RocketBox",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1517313132/wfwxsxfppxq4uptvwiem.webp",
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1517313339/kzu829dukkz42rv6q6aj.webp"
-  ]
-},
-{
-  "id": 248,
-  "name": "RedBrick",
-  "badge": null,
-  "rating": null,
-  "area": "Chandivali",
-  "location": "Chandivali, Mumbai",
-  "price": "₹12,000",
-  "period": "/ Month",
-  "priceFormatted": "₹12,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1690188987/grjctuyop98fwbourwz3.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1690188971/ozgdvdn4u3dnts26dvgm.webp",
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1516865597/jpliri7vn5kc5dhmfz5f.webp",
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1517396100/vdjzqwxmblel5biq8hgo.webp"
-  ]
-},
-{
-  "id": 249,
-  "name": "Kowo.Club",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "₹15,000",
-  "period": "/ Month",
-  "priceFormatted": "₹15,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://ik.imagekit.io/qdesq/qdesq/7d3bd56042743ec3cc2457ff06b3fea1_qU0cfS5Rm.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/3708aef4ce3eb59a19971c6e35ee665f_gAb_KzAIJ.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/7b40e79466935c62410e147eae6e7ec1_lKo8YevyI.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/763d8fee966f61e3ed60ec971690bea6_ksxfFVhf8c.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/4cdf7f528295da8bdc5475e68735605b_AC_aP9VJe.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/0a7cf34c58e9798bf7e9c8c230561824_Y_fi5lhOu.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/dcca0dbec8d1ddc47d2e9a6ed293864c_6PpRUJ08b.jpg"
-  ]
-},
-{
-  "id": 250,
-  "name": "Chase Consultancy",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1568096605/h1qi92sjw7ln0mww2fo7.webp",
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1568096641/ej1wmlgpwexdnbolfi36.webp"
-  ]
-},
-{
-  "id": 251,
-  "name": "Teloz Spaces",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri West",
-  "location": "Andheri West, Mumbai",
-  "price": "₹11,000",
-  "period": "/ Month",
-  "priceFormatted": "₹11,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://ik.imagekit.io/qdesq/qdesq/09cabf16ef0c6d2c740fc739e5f57b85_dujBVi6lp.png",
-    "https://ik.imagekit.io/qdesq/qdesq/915a9692e83da49471ca2c6311873fd9_RM_33JxRd.png",
-    "https://ik.imagekit.io/qdesq/qdesq/b742c3d724109264fd07f35932791af9_HLmBA708G.png"
-  ]
-},
-{
-  "id": 252,
-  "name": "GM Coworks",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri West",
-  "location": "Andheri West, Mumbai",
-  "price": "₹10,000",
-  "period": "/ Month",
-  "priceFormatted": "₹10,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://ik.imagekit.io/qdesq/qdesq/2e879e8d1c223d355a038aa81baa4b98_-QOEusXjZ.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/tr:n-detail_image_hq/5c65644733660862e5752ddc04b896a0_YMcb76M8R.jpeg"
-  ]
-},
-{
-  "id": 253,
-  "name": "DBS India",
-  "badge": null,
-  "rating": null,
-  "area": "Nariman Point",
-  "location": "Nariman Point, Mumbai",
-  "price": "₹22,000",
-  "period": "/ Month",
-  "priceFormatted": "₹22,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1626955107/h9wbol5x0w3ho44lgduz.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1680156635/bydhvgquqqpzysmufqvj.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1680156635/vhovhzvwuieeentgifdq.webp",
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1583229675/p2gjniuayjmyheekeygi.webp"
-  ]
-},
-{
-  "id": 254,
-  "name": "Smith and Thomson",
-  "badge": null,
-  "rating": null,
-  "area": "Nariman Point",
-  "location": "Nariman Point, Mumbai",
-  "price": "₹7,500",
-  "period": "/ Month",
-  "priceFormatted": "₹7,500 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1576835629/h5bkn09ckwe7fuxusnlv.webp",
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1576835878/pkmrgihsqjfsesfpt9fc.webp",
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1576835912/a7zl5sqzysmfi3j3klbr.webp",
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1576836099/ggwwfqofa7n7nbscz2ls.webp"
-  ]
-},
-{
-  "id": 255,
-  "name": "Millennial Pod Powai",
-  "badge": null,
-  "rating": null,
-  "area": "Powai",
-  "location": "Powai, Mumbai",
-  "price": "₹16,000",
-  "period": "/ Month",
-  "priceFormatted": "₹16,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1712562029/rdjzymkqkl4hmsrr88ch.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1712562045/p7zy7bclwad6a2pduzw8.webp"
-  ]
-},
-{
-  "id": 256,
-  "name": "Gloria Business Centre",
-  "badge": null,
-  "rating": null,
-  "area": "Thane West",
-  "location": "Thane West, Mumbai",
-  "price": "₹7,000",
-  "period": "/ Month",
-  "priceFormatted": "₹7,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1721209627/sifawwkkmvn0degzhyht.webp",
-    "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/4b410ebe824f96cce6e57ccab032abce_3TqVh4ips.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/f3273af25242c4caf6b59e9ee5c20534_wfMxGUMC0.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/e09f587480763e71ac3ec3d4a3e9ecae_0XWf42fRDd.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/2da679bcc297ea39bf9781c7cb054549_khJNVVLyT.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/6c86045c0f3028db9356cc196598e8cf_6mOijm1_rW.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/4c79842037d9aff8148f1ebf29c99f91_HVJe6lpOTc.jpg",
-    "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/68f32dbce824c21cef5b583d50bd445a_WR33SiAL7O.jpg"
-  ]
-},
-{
-  "id": 257,
-  "name": "RedBrick",
-  "badge": null,
-  "rating": null,
-  "area": "Thane West",
-  "location": "Thane West, Mumbai",
-  "price": "₹12,000",
-  "period": "/ Month",
-  "priceFormatted": "₹12,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1509086177/ejp6lizbcqkctwbxqagm.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1690270436/bclu5i4vde4hyv8j7w2v.webp",
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1517310940/jepfjtmgufoxyk5bogm5.webp"
-  ]
-},
-{
-  "id": 258,
-  "name": "KontorSpace",
-  "badge": null,
-  "rating": null,
-  "area": "Wagle Industrial Estate",
-  "location": "Wagle Industrial Estate, Mumbai",
-  "price": "₹9,000",
-  "period": "/ Month",
-  "priceFormatted": "₹9,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1690181605/bwxzcz3uzthaesvnlmd2.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1690181624/ijqvzhfrodf6ovz6bx4y.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1690181624/m6pxun5nrins3reycsj6.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1690181624/xpjeclvijfocd4htxkyt.webp",
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1531128880/p2ceykce1zhhulnjym1r.webp",
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1531129003/kxn2mubpxatsul1bbwco.webp",
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1531129254/gszicmjofueh4ccb3tou.webp",
-    "https://wybrid-vendor-portal-public-prod.s3.ap-south-1.amazonaws.com/file1764756137411.jpg"
-  ]
-},
-{
-  "id": 259,
-  "name": "Regus",
-  "badge": null,
-  "rating": null,
-  "area": "Chandivali",
-  "location": "Chandivali, Mumbai",
-  "price": "₹11,900",
-  "period": "/ Month",
-  "priceFormatted": "₹11,900 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://ik.imagekit.io/qdesq/qdesq/408d49f94be76a4b6a777aa0a0878ffe_dSPQ4kdYV.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/aa914f6b01886d0bed8657845f5c0f0c_UtKzmCXDf.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/77cb95bd46c298add640d4d50aee46ed_oH6j44vRN.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/db62b8ea3a3566c9c96e640521d75a56_y06Z_uYep.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/7edb2b304e64e207da7fc0c2980fe7f7_BNnNQj9DE.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/1e9d6d343e8f50754f7745b6e31a97d4_m6VesBRMv.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/df12df672a4ace0c44552b413cdd9bf3_XB0P9hMb7.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/eed8ffc89ed1a0d27be3365f8a1a4233_73xyfrDG5.JPG"
-  ]
-},
-{
-  "id": 260,
-  "name": "91SpringBoard",
-  "badge": null,
-  "rating": null,
-  "area": "Santacruz East",
-  "location": "Santacruz East, Mumbai",
-  "price": "₹15,400",
-  "period": "/ Month",
-  "priceFormatted": "₹15,400 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1676536661/xgwv1czaucltxjw3ww9u.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1676536645/rvlqpedguy1kwqrwm6dk.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1676536646/wk3ao8rhwhobdbaxvgqr.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1676536753/v9om7nluhy9iubqqnnlx.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689163822/abms7qumak6aaajg9tps.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1689163823/hekxppwh6p7f9y3e6qeq.webp",
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1512641766/clng9nvfvvlzks1lhemg.webp"
-  ]
-},
-{
-  "id": 261,
-  "name": "Classic Group",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "₹12,000",
-  "period": "/ Month",
-  "priceFormatted": "₹12,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1571990716/y51hyaenniezh0lnaawp.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1681204715/jggr4lrkeipkazgeoobo.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1681204715/ce1ys3dam0yrg0znczp1.webp"
-  ]
-},
-{
-  "id": 262,
-  "name": "Viva Connect",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1537783156/jbssqqwgq7yng4qletvw.webp",
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1537526276/opzrdgd6jkfhtbafga6h.webp"
-  ]
-},
-{
-  "id": 263,
-  "name": "Sunrise Coworking",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1677136989/srhtx4333vijcv0r71fg.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1677136949/nrkwvvsz9p2uqmdfxg70.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1677137101/ao9su1t1jxadfjs6qk3c.webp"
-  ]
-},
-{
-  "id": 264,
-  "name": "91springboard",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "₹11,800",
-  "period": "/ Month",
-  "priceFormatted": "₹11,800 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1676530679/gxsvrvvb3c1dn69r0pvx.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1676530527/xjdxtesbcdurq6ilfhmm.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1676530526/goebkhjezegh9mpsopzu.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1676530527/c9rujlqkka2hdf7yo1fg.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1676530527/sqqkn95jvewvfiss9tpc.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1676530773/yarpnnqcmmagbp8chqnj.webp",
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1545293478/kqjkjwgu97n6cmnzopih.webp"
-  ]
-},
-{
-  "id": 265,
-  "name": "Executive Spaces",
-  "badge": null,
-  "rating": null,
-  "area": "Gundavali",
-  "location": "Gundavali, Mumbai",
-  "price": "₹13,000",
-  "period": "/ Month",
-  "priceFormatted": "₹13,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1691062356/g5b3opt2epzuvyce1jp9.webp",
-    "https://qdesq.imagekit.io/tr:n-detail_image_hq/image/upload/v1691062371/p4lkapj3c7vzatmweuys.webp"
-  ]
-},
-{
-  "id": 266,
-  "name": "Zon CollabHub",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "₹14,000",
-  "period": "/ Month",
-  "priceFormatted": "₹14,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://ik.imagekit.io/qdesq/qdesq/0bf757cd60360415ca525a73bf5a5ad2_nGa8kqIcs.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/e270b270919a8a967c74cfc611a6ac71_zxTgC5VH8.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/f70d22a626da3a1f866378d53115b59b_uxAYisbjV.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/115d0367ed59410c9c8d8e47d99456a0_J3FoCt83f.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/375402c50eda804a6239afaa5944077b_PfgflfQA_.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/2715e1404ee4384dff0274ea90e58a40_9GeOAeFKR.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/8aec0bc1ba6eba29f96fa12cda929f5d_5N-E2m9Ut.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/e4d7d6e354ed2fc9f031b3497eeaf907_AZIgBACG_z.JPG"
-  ]
-},
-{
-  "id": 267,
-  "name": "VENUES AND AVENUES",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "₹9,000",
-  "period": "/ Month",
-  "priceFormatted": "₹9,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1636567375/ezwfsz9vspk9nzvllsgc.jpg",
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1636567375/vlngycxqcm5jfxqv302l.jpg"
-  ]
-},
-{
-  "id": 268,
-  "name": "Table Space",
-  "badge": null,
-  "rating": null,
-  "area": "Bhim Nagar",
-  "location": "Bhim Nagar, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://ik.imagekit.io/qdesq/qdesq/9f8e40dd67a83fd9fc6753bd8e895090_12uUUxPLr.jpeg",
-    "https://ik.imagekit.io/qdesq/qdesq/1d0edadf25830157f492f8f8dadc9c88_RtmZSOwyL.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/4277d32831db83208241c464ca1928a5_UDGXXSnUe.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/b61202dbcdf4561f18a2d40575e5c601_V3_f1Wc8L.JPG"
-  ]
-},
-{
-  "id": 269,
-  "name": "Innov8",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri Kurla Road",
-  "location": "Andheri Kurla Road, Mumbai",
-  "price": "₹18,000",
-  "period": "/ Month",
-  "priceFormatted": "₹18,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://ik.imagekit.io/qdesq/qdesq/b2192f43f1f45ef0dbdd42b4ddd981d9_xisg54Okx.jpeg",
-    "https://ik.imagekit.io/qdesq/qdesq/041cb5e9509ebc7f2e1582b79e8ae986_oska2bJjr.jpeg",
-    "https://ik.imagekit.io/qdesq/qdesq/b8ce3d0d4800f1344a6d7349b04f4dac_aXgdJb3Bm.jpeg",
-    "https://ik.imagekit.io/qdesq/qdesq/567bced5b5f822a1b6fedc1eebab355a_JsCoGWiWk.jpeg",
-    "https://ik.imagekit.io/qdesq/qdesq/3f044e8d1c97ea0cc82c277b6878f772_BiL8gaxBX.jpeg",
-    "https://ik.imagekit.io/qdesq/qdesq/e55eae6c8939b4bcf044a9e874a0d3f4_2tWWl2bpn.jpeg",
-    "https://ik.imagekit.io/qdesq/qdesq/41a7d3ee05e58e2dca2499bb2dabb971_rvV6-IM63.jpeg",
-    "https://ik.imagekit.io/qdesq/qdesq/223ef43c34f0a988e0fb58a17999af10_ztNmnGSn9.jpeg"
-  ]
-},
-{
-  "id": 270,
-  "name": "LetsWork",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "₹12,000",
-  "period": "/ Month",
-  "priceFormatted": "₹12,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://ik.imagekit.io/qdesq/qdesq/82e322c03033f134edd164c97ea6b229_zBQNmvlGXW.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/9d4ff259ef514076c6d9f7621abde67e_v_zkEj1Zu.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/996714f920ec91b7e155225a685bf17d_3keApdbJoL.JPG"
-  ]
-},
-{
-  "id": 271,
-  "name": "WeWork",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "₹15,000",
-  "period": "/ Month",
-  "priceFormatted": "₹15,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://ik.imagekit.io/qdesq/qdesq/057b21fa3844888d649566cdb5559507_gfrmVgUto.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/1a6d3fd0082c899e95406ec399d208bf_j5IPPIgdG.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/5541b8055d4e4676f0555b981c44cf0d_zZaOHVSOy.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/42752a9083957fce8032d747b2853b31_jYVoJpppx.JPG",
-    "https://ik.imagekit.io/qdesq/qdesq/c1cb53c52cddc7cfef37e9e06aa74cec_ah5bnLwvL.JPG",
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1559374990/a0hxtdt8lgskbbpgy5aa.webp"
-  ]
-},
-{
-  "id": 272,
-  "name": "WeWork Andheri",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "₹10,500",
-  "period": "/ Month",
-  "priceFormatted": "₹10,500 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/2-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/we-work-andheri-2.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/we-work-andheri-3.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/we-work-andheri-4.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/we-work-andheri-5.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/we-work-andheri-6.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/we-work-andheri-7.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/we-work-andheri-8.jpg"
-  ]
-},
-{
-  "id": 273,
-  "name": "Veda CoWorks",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri",
-  "location": "Andheri, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/Veda-CoWorks-003-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Veda-CoWorks-001-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Veda-CoWorks-002-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Veda-CoWorks-004-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Veda-CoWorks-005-min.jpg"
-  ]
-},
-{
-  "id": 274,
-  "name": "Blue Mushroom Malad West",
-  "badge": null,
-  "rating": null,
-  "area": "Malad West",
-  "location": "Malad West, Mumbai",
-  "price": "₹8,500",
-  "period": "/ Month",
-  "priceFormatted": "₹8,500 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/Blue-mushroom-Malad-West.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/Blue-mushroom-Malad-West-2.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/Blue-mushroom-Malad-West-3.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/Blue-mushroom-Malad-West-4.jpg"
-  ]
-},
-{
-  "id": 275,
-  "name": "Blue Mushroom In Malad West",
-  "badge": null,
-  "rating": null,
-  "area": "Malad West",
-  "location": "Malad West, Mumbai",
-  "price": "₹8,500",
-  "period": "/ Month",
-  "priceFormatted": "₹8,500 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/blue-mushroom.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/blue-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/blue-2.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/blue-3.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/blue-4.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/blue-5.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/blue-6.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/blue-7.jpg"
-  ]
-},
-{
-  "id": 276,
-  "name": "CFE Offices In Goregaon",
-  "badge": null,
-  "rating": null,
-  "area": "Goregaon",
-  "location": "Goregaon, Mumbai",
-  "price": "₹5,000",
-  "period": "/ Month",
-  "priceFormatted": "₹5,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/CFE-offices-Goregaon-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/CFE-offices-Goregaon.-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/CFE-offices-Goregaon-min-1.jpg"
-  ]
-},
-{
-  "id": 277,
-  "name": "WeWork Spectrum Tower In Malad",
-  "badge": null,
-  "rating": null,
-  "area": "Malad",
-  "location": "Malad, Mumbai",
-  "price": "₹10,000",
-  "period": "/ Month",
-  "priceFormatted": "₹10,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/WeWork-Spectrum-Tower.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/wwm-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/wwm-2.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/wwm-3.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/wwm-4.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/wwm-5.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/wwm-6.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/wwm-7.jpg"
-  ]
-},
-{
-  "id": 278,
-  "name": "603 The CoWorking Space Bandra",
-  "badge": null,
-  "rating": null,
-  "area": "Bandra",
-  "location": "Bandra, Mumbai",
-  "price": "₹12,999",
-  "period": "/ Month",
-  "priceFormatted": "₹12,999 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/603-coworking-space.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/603-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/603-2.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/603-3.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/603-4.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/603-5.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/603-6.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/603-7.jpg"
-  ]
-},
-{
-  "id": 279,
-  "name": "Dextrus BKC Bandra East",
-  "badge": null,
-  "rating": null,
-  "area": "Bandra East",
-  "location": "Bandra East, Mumbai",
-  "price": "₹17,750",
-  "period": "/ Month",
-  "priceFormatted": "₹17,750 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/4.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/1-1548758765.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/5bb748574994581a8c1106f5_1538738263748.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/5bb748574994581a8c1106f7_1538738263750.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/11/day-pass-12.png"
-  ]
-},
-{
-  "id": 280,
-  "name": "Innov8 Vikhroli",
-  "badge": null,
-  "rating": null,
-  "area": "Thane",
-  "location": "Thane, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/Innov8-Vikhroli-Thane-006.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Innov8-Vikhroli-Thane-001.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Innov8-Vikhroli-Thane-002.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Innov8-Vikhroli-Thane-003.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Innov8-Vikhroli-Thane-004.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Innov8-Vikhroli-Thane-005.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Innov8-Vikhroli-Thane-007.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Innov8-Vikhroli-Thane-008.jpg"
-  ]
-},
-{
-  "id": 281,
-  "name": "WorkAmp Nitco",
-  "badge": null,
-  "rating": null,
-  "area": "Thane",
-  "location": "Thane, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp-Nitco-Thane-002-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp-Nitco-Thane-001-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp-Nitco-Thane-003-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp-Nitco-Thane-004-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp-Nitco-Thane-005-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp-Nitco-Thane-006-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp-Nitco-Thane-007-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp-Nitco-Thane-008-min.jpg"
-  ]
-},
-{
-  "id": 282,
-  "name": "AccessWork",
-  "badge": null,
-  "rating": null,
-  "area": "Thane",
-  "location": "Thane, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/11/12334.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/11/AccessWork-Thane-GB-Road-Serviced-Offices-001.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/11/AccessWork-Thane-GB-Road-Serviced-Offices-002.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/11/AccessWork-Thane-GB-Road-Serviced-Offices-003.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/11/AccessWork-Thane-GB-Road-Serviced-Offices-004.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/11/AccessWork-Thane-GB-Road-Serviced-Offices-005.jpg"
-  ]
-},
-{
-  "id": 283,
-  "name": "Awfis In Powai",
-  "badge": null,
-  "rating": null,
-  "area": "Powai",
-  "location": "Powai, Mumbai",
-  "price": "₹10,000",
-  "period": "/ Month",
-  "priceFormatted": "₹10,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/awfis.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ap-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ap-2.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ap-3.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ap-4.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ap-5.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ap-6.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/AP-7.jpg"
-  ]
-},
-{
-  "id": 284,
-  "name": "Access Work In Powai",
-  "badge": null,
-  "rating": null,
-  "area": "Powai",
-  "location": "Powai, Mumbai",
-  "price": "₹14,000",
-  "period": "/ Month",
-  "priceFormatted": "₹14,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/Access-Work-Powai.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/aw-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/aw-2.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/aw-3.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/aw-4.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/aw-5.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/aw-6.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/aw-7.jpg"
-  ]
-},
-{
-  "id": 285,
-  "name": "WeWork Oberoi Commerz II In Goregaon",
-  "badge": null,
-  "rating": null,
-  "area": "Goregaon",
-  "location": "Goregaon, Mumbai",
-  "price": "₹15,000",
-  "period": "/ Month",
-  "priceFormatted": "₹15,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/WeWork-Goregaon.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ww-gg-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ww-gg-2.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ww-gg-3.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ww-gg-4.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ww-gg-5.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ww-gg-6.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ww-gg-7.jpg"
-  ]
-},
-{
-  "id": 286,
-  "name": "Community Coworks In Powai",
-  "badge": null,
-  "rating": null,
-  "area": "Powai",
-  "location": "Powai, Mumbai",
-  "price": "₹7,500",
-  "period": "/ Month",
-  "priceFormatted": "₹7,500 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/community-coworks.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/Community-Coworks-Powai-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/Community-Coworks-Powai.-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/Community-Coworks-Powai-min-1.jpg"
-  ]
-},
-{
-  "id": 287,
-  "name": "The Millennial Pod In Powai",
-  "badge": null,
-  "rating": null,
-  "area": "Powai",
-  "location": "Powai, Mumbai",
-  "price": "₹12,500",
-  "period": "/ Month",
-  "priceFormatted": "₹12,500 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/milenial-pod.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/21-min-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/22-min-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/23-min-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/24-min-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/25-min-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/11/Day-Pass-4.png"
-  ]
-},
-{
-  "id": 288,
-  "name": "91springboard Vikhroli",
-  "badge": null,
-  "rating": null,
-  "area": "Thane",
-  "location": "Thane, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-Vikhroli-scaled.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-Vikhroli-Thane-001.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-Vikhroli-Thane-002.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-Vikhroli-Thane-003.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-Vikhroli-Thane-004.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-Vikhroli-Thane-005.jpg"
-  ]
-},
-{
-  "id": 289,
-  "name": "IKeva In Powai",
-  "badge": null,
-  "rating": null,
-  "area": "Powai",
-  "location": "Powai, Mumbai",
-  "price": "₹8,500",
-  "period": "/ Month",
-  "priceFormatted": "₹8,500 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/Ikeva-powai.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ikeva-powai-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ikeva-powai-2.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ikeva-powai-3.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ikeva-powai-4.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ikeva-powai-5.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ikeva-powai-6.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ikeva-powai-7.jpg"
-  ]
-},
-{
-  "id": 290,
-  "name": "Of10",
-  "badge": null,
-  "rating": null,
-  "area": "Thane",
-  "location": "Thane, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/Of10-Thane-006.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Of10-Thane-001.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Of10-Thane-002.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Of10-Thane-003.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Of10-Thane-004.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Of10-Thane-005.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Of10-Thane-008.jpg"
-  ]
-},
-{
-  "id": 291,
-  "name": "WorkWise Solutions In Vashi",
-  "badge": null,
-  "rating": null,
-  "area": "Navi Mumbai",
-  "location": "Navi Mumbai, Mumbai",
-  "price": "₹5,000",
-  "period": "/ Month",
-  "priceFormatted": "₹5,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/Workwise-vashi.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ww1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ww2.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ww3.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ww4.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ww5.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ww6.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ww7.jpg"
-  ]
-},
-{
-  "id": 292,
-  "name": "TriggerXchange Navi Mumbai Maharashtra",
-  "badge": null,
-  "rating": null,
-  "area": "Navi Mumbai",
-  "location": "Navi Mumbai, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/TriggerXchange-Navi-Mumbai-003.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/TriggerXchange-Navi-Mumbai-001.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/TriggerXchange-Navi-Mumbai-002.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/TriggerXchange-Navi-Mumbai-004.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/TriggerXchange-Navi-Mumbai-005.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/TriggerXchange-Navi-Mumbai-006.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/TriggerXchange-Navi-Mumbai-007.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/TriggerXchange-Navi-Mumbai-008.jpg"
-  ]
-},
-{
-  "id": 293,
-  "name": "WeWork In Worli",
-  "badge": null,
-  "rating": null,
-  "area": "South Mumbai",
-  "location": "South Mumbai, Mumbai",
-  "price": "₹15,000",
-  "period": "/ Month",
-  "priceFormatted": "₹15,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/wework-vaswani.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/www-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/www-2.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/www-3.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/www-4.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/www-5.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/www-6.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/www-7.jpg"
-  ]
-},
-{
-  "id": 294,
-  "name": "Arch N Rock",
-  "badge": null,
-  "rating": null,
-  "area": "Navi Mumbai",
-  "location": "Navi Mumbai, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/fab852d305eaab358ac402fbdf308d3b43e5d05c.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Arch-n-Rock-Navi-Mumbai-001.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Arch-n-Rock-Navi-Mumbai-002.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Arch-n-Rock-Navi-Mumbai-003.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Arch-n-Rock-Navi-Mumbai-004.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Arch-n-Rock-Navi-Mumbai-005.jpg"
-  ]
-},
-{
-  "id": 295,
-  "name": "WeWork Seawoods Grand Central",
-  "badge": null,
-  "rating": null,
-  "area": "Navi Mumbai",
-  "location": "Navi Mumbai, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/WeWork-Navi-Mumbai-003.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/WeWork-Navi-Mumbai-001.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/WeWork-Navi-Mumbai-002.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/WeWork-Navi-Mumbai-004.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/WeWork-Navi-Mumbai-005.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/WeWork-Navi-Mumbai-006.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/WeWork-Navi-Mumbai-007.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/WeWork-Navi-Mumbai-008.jpg"
-  ]
-},
-{
-  "id": 296,
-  "name": "WeGrow Group",
-  "badge": null,
-  "rating": null,
-  "area": "Navi Mumbai",
-  "location": "Navi Mumbai, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/Screenshot-2021-11-23-181602.png",
-    "https://coworkingers.com/wp-content/uploads/2020/07/WeGrow-Group-Navi-Mumbai-001.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/WeGrow-Group-Navi-Mumbai-002.jpeg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/WeGrow-Group-Navi-Mumbai-003.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/WeGrow-Group-Navi-Mumbai-004.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/WeGrow-Group-Navi-Mumbai-005.jpeg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/WeGrow-Group-Navi-Mumbai-006.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/WeGrow-Group-Navi-Mumbai-007.jpg"
-  ]
-},
-{
-  "id": 297,
-  "name": "Cowrks In Worli",
-  "badge": null,
-  "rating": null,
-  "area": "Worli",
-  "location": "Worli, Mumbai",
-  "price": "₹22,499",
-  "period": "/ Month",
-  "priceFormatted": "₹22,499 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/cowrks-worli.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/cw-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/cw-2.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/cw-3.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/cw-4.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/cw-5.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/cw-6.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/cw-7.jpg"
-  ]
-},
-{
-  "id": 298,
-  "name": "Bootstart Cowork In Ballard Estate",
-  "badge": null,
-  "rating": null,
-  "area": "Fort",
-  "location": "Fort Mumbai, Mumbai",
-  "price": "₹7,999",
-  "period": "/ Month",
-  "priceFormatted": "₹7,999 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/Boostart-1-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/B1-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/B2-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/B4-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/B5-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/11/Day-Pass-4.png"
-  ]
-},
-{
-  "id": 299,
-  "name": "The Garage Coworking In Marine Drive",
-  "badge": null,
-  "rating": null,
-  "area": "Marine Drive",
-  "location": "Marine Drive, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/Garage-Coworking-Marine-Drive.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/garage-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/garage-2.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/garage-3.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/garage-4.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/garage-5.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/garage-6.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/garage-7.jpg"
-  ]
-},
-{
-  "id": 300,
-  "name": "Garage Coworking Lower Parel",
-  "badge": null,
-  "rating": null,
-  "area": "Lower Parel",
-  "location": "Lower Parel, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/Garage-coworking-Lower-Parel-004-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp-Futurex-Lower-Parel-001-min-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp-Futurex-Lower-Parel-002-min-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp-Futurex-Lower-Parel-003-min-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp-Futurex-Lower-Parel-004-min-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp-Futurex-Lower-Parel-005-min-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp-Futurex-Lower-Parel-006-min-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp-Futurex-Lower-Parel-007-min-1.jpg"
-  ]
-},
-{
-  "id": 301,
-  "name": "Awfis Andheri West Modi House",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri",
-  "location": "Andheri, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Andheri-West-Modi-House-001-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Andheri-West-Modi-House-002-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Andheri-West-Modi-House-003-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Andheri-West-Modi-House-004-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Andheri-West-Modi-House-005-min.jpg"
-  ]
-},
-{
-  "id": 302,
-  "name": "Awfis Lokhandwala",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri",
-  "location": "Andheri, Mumbai",
-  "price": "₹5,000",
-  "period": "/ Month",
-  "priceFormatted": "₹5,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Lokhandwala-Aston-Building-001-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Lokhandwala-Aston-Building-002-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Lokhandwala-Aston-Building-003-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Lokhandwala-Aston-Building-004-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Lokhandwala-Aston-Building-005-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/11/Day-Pass-5.png"
-  ]
-},
-{
-  "id": 303,
-  "name": "The BoardRoom Co-Working",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri",
-  "location": "Andheri, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/THE-BOARDROOM-Co-working-Andheri-004-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/THE-BOARDROOM-Co-working-Andheri-001-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/THE-BOARDROOM-Co-working-Andheri-002-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/THE-BOARDROOM-Co-working-Andheri-003-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/THE-BOARDROOM-Co-working-Andheri-005-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/THE-BOARDROOM-Co-working-Andheri-006-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/THE-BOARDROOM-Co-working-Andheri-007-min.jpg"
-  ]
-},
-{
-  "id": 304,
-  "name": "IKeva BKC Annexe",
-  "badge": null,
-  "rating": null,
-  "area": "Kurla",
-  "location": "Kurla, Mumbai",
-  "price": "₹8,000",
-  "period": "/ Month",
-  "priceFormatted": "₹8,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/Ikeva-BKc.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/iB-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ib-3.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ib-4.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ib-5.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ib-6.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ib-7.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ib-8.jpg"
-  ]
-},
-{
-  "id": 305,
-  "name": "Awfis Vashi Navi Mumbai Cyber One",
-  "badge": null,
-  "rating": null,
-  "area": "Navi Mumbai",
-  "location": "Navi Mumbai, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Vashi-Navi-Mumbai-Cyber-One-Navi-Mumbai-001.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Vashi-Navi-Mumbai-Cyber-One-Navi-Mumbai-002.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Vashi-Navi-Mumbai-Cyber-One-Navi-Mumbai-003.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Vashi-Navi-Mumbai-Cyber-One-Navi-Mumbai-004.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Vashi-Navi-Mumbai-Cyber-One-Navi-Mumbai-005.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Vashi-Navi-Mumbai-Cyber-One-Navi-Mumbai-006.jpg"
-  ]
-},
-{
-  "id": 306,
-  "name": "Lemon Tree Premier In Andheri East",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "₹22,500",
-  "period": "/ Month",
-  "priceFormatted": "₹22,500 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/lemon-tree-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/Lemon-Tree-Premier-Andheri-East-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/Lemon-Tree-Premier-Andheri-East-min-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/Lemon-Tree-Premier-Andheri-East-min-2.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/11/Day-Pass-4.png"
-  ]
-},
-{
-  "id": 307,
-  "name": "Awfis Andheri East",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Andheri-East-Akruti-Trade-Center-Andheri-East-002-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Andheri-East-Akruti-Trade-Center-Andheri-East-001-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Andheri-East-Akruti-Trade-Center-Andheri-East-003-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Andheri-East-Akruti-Trade-Center-Andheri-East-004-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Andheri-East-Akruti-Trade-Center-Andheri-East-005-min.jpg"
-  ]
-},
-{
-  "id": 308,
-  "name": "Flignite Spaces Andheri East",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "₹6,500",
-  "period": "/ Month",
-  "priceFormatted": "₹6,500 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/11/coworking.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/11/Flignite-Spaces-001.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/11/Flignite-Spaces-002.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/11/Flignite-Spaces-003.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/11/Flignite-Spaces-004.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/11/Flignite-Spaces-005.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/11/Flignite-Spaces-006.jpg"
-  ]
-},
-{
-  "id": 309,
-  "name": "Divine Hub Coworking Space Andheri",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "₹9,999",
-  "period": "/ Month",
-  "priceFormatted": "₹9,999 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/11/divine-hub.png",
-    "https://coworkingers.com/wp-content/uploads/2020/11/WhatsApp-Image-2020-01-01-at-2.51.26-PM-min.jpeg",
-    "https://coworkingers.com/wp-content/uploads/2020/11/IMG_4123-min.jpeg",
-    "https://coworkingers.com/wp-content/uploads/2020/11/unnamed-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/11/WhatsApp-Image-2020-01-01-at-2.28.36-PM-min.jpeg",
-    "https://coworkingers.com/wp-content/uploads/2021/11/Day-Pass-8.png"
-  ]
-},
-{
-  "id": 310,
-  "name": "YesssWorks Andheri East",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri",
-  "location": "Andheri, Mumbai",
-  "price": "₹9,000",
-  "period": "/ Month",
-  "priceFormatted": "₹9,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/11/2.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/11/YesssWorks-001.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/11/YesssWorks-002.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/11/YesssWorks-003.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/11/YesssWorks-004.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/11/YesssWorks-005.jpg"
-  ]
-},
-{
-  "id": 311,
-  "name": "IKeva BKC Annexe",
-  "badge": null,
-  "rating": null,
-  "area": "Thane",
-  "location": "Thane, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/iKeva-BKC-Annexe-Mumbai-Thane-003.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/iKeva-BKC-Annexe-Mumbai-Thane-001.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/iKeva-BKC-Annexe-Mumbai-Thane-002.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/iKeva-BKC-Annexe-Mumbai-Thane-004.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/iKeva-BKC-Annexe-Mumbai-Thane-005.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/iKeva-BKC-Annexe-Mumbai-Thane-006.jpg"
-  ]
-},
-{
-  "id": 312,
-  "name": "New Bridge Business Centre Andheri |Price And Images |",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "₹54,000",
-  "period": "/ Month",
-  "priceFormatted": "₹54,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/New-Bridge-Centre.png",
-    "https://coworkingers.com/wp-content/uploads/2021/10/NBC-1.png",
-    "https://coworkingers.com/wp-content/uploads/2021/10/NBC-2.png",
-    "https://coworkingers.com/wp-content/uploads/2021/10/NBC-3.png"
-  ]
-},
-{
-  "id": 313,
-  "name": "Chitrshaala In New Link Road",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri West",
-  "location": "Andheri West, Mumbai",
-  "price": "₹7,500",
-  "period": "/ Month",
-  "priceFormatted": "₹7,500 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/75-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/71-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/72-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/73-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/74-min.jpg"
-  ]
-},
-{
-  "id": 314,
-  "name": "DevX Dynasty In Andheri East",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "₹11,490",
-  "period": "/ Month",
-  "priceFormatted": "₹11,490 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/dev-x.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/61-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/62-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/63-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/65-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/64-min.jpg"
-  ]
-},
-{
-  "id": 315,
-  "name": "At 101 Workshare Vibe In Andheri West",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri West",
-  "location": "Andheri West, Mumbai",
-  "price": "₹5,000",
-  "period": "/ Month",
-  "priceFormatted": "₹5,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/a5-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/a1-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/a2-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/a3-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/a4-min.jpg"
-  ]
-},
-{
-  "id": 316,
-  "name": "91Springboard 74 Techno Park Andheri East",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-74-Techno-Park-Andheri-East-001-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-74-Techno-Park-Andheri-East-002-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-74-Techno-Park-Andheri-East-003-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-74-Techno-Park-Andheri-East-004-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-74-Techno-Park-Andheri-East-005-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-74-Techno-Park-Andheri-East-006-min.jpg"
-  ]
-},
-{
-  "id": 317,
-  "name": "Quest Coworks",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "₹9,000",
-  "period": "/ Month",
-  "priceFormatted": "₹9,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/Quest-Coworks-Andheri-East-006-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Quest-Coworks-Andheri-East-001-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Quest-Coworks-Andheri-East-002-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Quest-Coworks-Andheri-East-003-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Quest-Coworks-Andheri-East-004-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Quest-Coworks-Andheri-East-005-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Quest-Coworks-Andheri-East-007-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Quest-Coworks-Andheri-East-008-min.jpg"
-  ]
-},
-{
-  "id": 318,
-  "name": "Redbrick",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "₹10,000",
-  "period": "/ Month",
-  "priceFormatted": "₹10,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/Redbrick-Andheri-East-001-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Redbrick-Andheri-East-002-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Redbrick-Andheri-East-003-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Redbrick-Andheri-East-004-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Redbrick-Andheri-East-005-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Redbrick-Andheri-East-006-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Redbrick-Andheri-East-007-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Redbrick-Andheri-East-008-min.jpg"
-  ]
-},
-{
-  "id": 319,
-  "name": "603 The Coworking Space",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "₹7,000",
-  "period": "/ Month",
-  "priceFormatted": "₹7,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/603-The-Coworking-Space-Andheri-East-007-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/603-The-Coworking-Space-Andheri-East-001-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/603-The-Coworking-Space-Andheri-East-002-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/603-The-Coworking-Space-Andheri-East-003-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/603-The-Coworking-Space-Andheri-East-004-min-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/603-The-Coworking-Space-Andheri-East-005-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/603-The-Coworking-Space-Andheri-East-006-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/11/Day-Pass.png"
-  ]
-},
-{
-  "id": 320,
-  "name": "The Mosaic Co-working Space Maharashtra",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "₹15,000",
-  "period": "/ Month",
-  "priceFormatted": "₹15,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/The-Mosaic-Co-working-Space-Andheri-East-005-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/The-Mosaic-Co-working-Space-Andheri-East-001-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/The-Mosaic-Co-working-Space-Andheri-East-002-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/The-Mosaic-Co-working-Space-Andheri-East-003-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/The-Mosaic-Co-working-Space-Andheri-East-004-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/The-Mosaic-Co-working-Space-Andheri-East-006-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/The-Mosaic-Co-working-Space-Andheri-East-007-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/11/Day-Pass.png"
-  ]
-},
-{
-  "id": 321,
-  "name": "Native Spaces Andheri",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri",
-  "location": "Andheri, Mumbai",
-  "price": "₹7,500",
-  "period": "/ Month",
-  "priceFormatted": "₹7,500 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/Native-Spaces-003-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Native-Spaces-001-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Native-Spaces-002-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Native-Spaces-004-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Native-Spaces-005-min.jpg"
-  ]
-},
-{
-  "id": 322,
-  "name": "Ecospaze By One Co.Work",
-  "badge": null,
-  "rating": null,
-  "area": "Lower Parel",
-  "location": "Lower Parel, Mumbai",
-  "price": "₹17,999",
-  "period": "/ Month",
-  "priceFormatted": "₹17,999 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/11/Ecospaze-by-One-Co.Work-Mumbai-004.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/11/Ecospaze-2.png",
-    "https://coworkingers.com/wp-content/uploads/2020/11/Ecospaze-3.png",
-    "https://coworkingers.com/wp-content/uploads/2020/11/Ecospaze-4.png",
-    "https://coworkingers.com/wp-content/uploads/2020/11/Ecospaze.png"
-  ]
-},
-{
-  "id": 323,
-  "name": "AccessWork Lower Parel",
-  "badge": null,
-  "rating": null,
-  "area": "Lower Parel",
-  "location": "Lower Parel, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/AccessWork-Lower-Parel-003-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/AccessWork-Lower-Parel-001-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/AccessWork-Lower-Parel-002-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/AccessWork-Lower-Parel-004-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/AccessWork-Lower-Parel-005-min.jpg"
-  ]
-},
-{
-  "id": 324,
-  "name": "Workwise",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri",
-  "location": "Andheri, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/Workwise-Solutions-Pvt.-Ltd-003-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Wokrwise-2.png",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Wokrwise.png",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Workwise-4.png",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Workwise3.png",
-    "https://coworkingers.com/wp-content/uploads/2020/07/workwise-5.png"
-  ]
-},
-{
-  "id": 325,
-  "name": "Innov8 Coworking Boston House Andheri East",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "₹6,399",
-  "period": "/ Month",
-  "priceFormatted": "₹6,399 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/Innov8-Coworking-Boston-House-Andheri-East-004-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Innov8-Coworking-Boston-House-Andheri-East-001-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Innov8-Coworking-Boston-House-Andheri-East-002-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Innov8-Coworking-Boston-House-Andheri-East-003-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Innov8-Coworking-Boston-House-Andheri-East-005-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Innov8-Coworking-Boston-House-Andheri-East-006-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Innov8-Coworking-Boston-House-Andheri-East-007-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Innov8-Coworking-Boston-House-Andheri-East-008-min.jpg"
-  ]
-},
-{
-  "id": 326,
-  "name": "Lumos CoWork",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "₹7,500",
-  "period": "/ Month",
-  "priceFormatted": "₹7,500 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/Lumos-Cowork-001-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Lumos-Cowork-002-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Lumos-Cowork-003-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Lumos-Cowork-004-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Lumos-Cowork-005-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Lumos-Cowork-006-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Lumos-Cowork-007-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Lumos-Cowork-008-min.jpg"
-  ]
-},
-{
-  "id": 327,
-  "name": "The Matchbox CoWork",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri",
-  "location": "Andheri, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/The-Matchbox-Cowork-001-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/The-Matchbox-Cowork-002-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/The-Matchbox-Cowork-003-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/The-Matchbox-Cowork-004-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/The-Matchbox-Cowork-005-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/The-Matchbox-Cowork-006-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/The-Matchbox-Cowork-007-min.jpg"
-  ]
-},
-{
-  "id": 328,
-  "name": "WeWork Chromium In Andheri East",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "₹9,000",
-  "period": "/ Month",
-  "priceFormatted": "₹9,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/Chromium.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/Web_150DPI-WeWork_Chromium_11th_sept_20190115-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/Web_150DPI-WeWork_Chromium_11th_sept_20190078-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/Web_150DPI-WeWork_Chromium_11th_sept_20190049-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/Web_150DPI-WeWork_Chromium_11th_sept_20190022-min.jpg"
-  ]
-},
-{
-  "id": 329,
-  "name": "WeWork Raheja Platinum In Andheri East",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "₹15,000",
-  "period": "/ Month",
-  "priceFormatted": "₹15,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/wework-raheja.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ww-rp-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ww-rp-2.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ww-rp-3.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ww-rp-4.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ww-rp-5.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ww-rp-6.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ww-rp-7.jpg"
-  ]
-},
-{
-  "id": 330,
-  "name": "WeWork Enam Sambhav In BKC",
-  "badge": null,
-  "rating": null,
-  "area": "BKC",
-  "location": "Bkc, Mumbai",
-  "price": "₹18,900",
-  "period": "/ Month",
-  "priceFormatted": "₹18,900 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/wework-bkc.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/wbkc-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/wbkc-2.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/wbkc-3.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/wbkc-4.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/wbkc-5.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/wbkc-6.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/wbkc-7.jpg"
-  ]
-},
-{
-  "id": 331,
-  "name": "JITO Incubation And Innovation Foundation In Andheri East",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "₹4,899",
-  "period": "/ Month",
-  "priceFormatted": "₹4,899 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/Jito.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/jito-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/jito-2.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/jito-3.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/jito-4.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/jito-5.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/jito-6.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/jito-7.jpg"
-  ]
-},
-{
-  "id": 332,
-  "name": "Guac Spaces In Andheri East",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "₹5,999",
-  "period": "/ Month",
-  "priceFormatted": "₹5,999 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/guac-spaces.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/GS-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/gs-2.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/gs-3.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/gs-4.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/gs-5.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/gs-6.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/gs-7.jpg"
-  ]
-},
-{
-  "id": 333,
-  "name": "91springboard Lotus Andheri East",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "₹8,000",
-  "period": "/ Month",
-  "priceFormatted": "₹8,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/91springboard-Lotus.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/91-lotus-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/91-lotus-2.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/91-lotus-3.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/91-lotus-4.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/91-lotus-5.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/91-lotus-6.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/91-lotus-7.jpg"
-  ]
-},
-{
-  "id": 334,
-  "name": "Incuspaze In Andheri East",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "₹7,499",
-  "period": "/ Month",
-  "priceFormatted": "₹7,499 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/incuspaze.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/Incuspaze-Andheri-East-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/Incuspaze-Andheri-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/Incuspaze-Andheri-East-min-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/Incuspaze-Andheri-East.-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/11/Day-Pass-4.png"
-  ]
-},
-{
-  "id": 335,
-  "name": "Servcorp BKC",
-  "badge": null,
-  "rating": null,
-  "area": "BKC",
-  "location": "Bkc, Mumbai",
-  "price": "₹25,000",
-  "period": "/ Month",
-  "priceFormatted": "₹25,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/Screenshot-2021-11-25-122323.png",
-    "https://coworkingers.com/wp-content/uploads/2021/10/Screenshot-2021-11-25-122227.png",
-    "https://coworkingers.com/wp-content/uploads/2021/10/Screenshot-2021-11-25-122307.png"
-  ]
-},
-{
-  "id": 336,
-  "name": "Community Coworks In Andheri East",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "₹7,500",
-  "period": "/ Month",
-  "priceFormatted": "₹7,500 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/Community-Coworks-Andheri-East-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/Community-Coworks-Andheri-East.-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/Community-Coworks-Andheri-East.-min-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/Community-Coworks-Andheri-East-min-1.jpg"
-  ]
-},
-{
-  "id": 337,
-  "name": "Co.Lab.Oratory Asia In Andheri East",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "₹4,500",
-  "period": "/ Month",
-  "priceFormatted": "₹4,500 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/colab-Asia.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/Co.Lab_.Oratory-Asia-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/Co.Lab_.Oratory-Asia-min-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/Co.Lab_.Oratory-Asia-min-2.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/Co.Lab-Oratory-Asia-min.jpg"
-  ]
-},
-{
-  "id": 338,
-  "name": "Quest Offices In BKC",
-  "badge": null,
-  "rating": null,
-  "area": "BKC",
-  "location": "Bkc, Mumbai",
-  "price": "₹9,999",
-  "period": "/ Month",
-  "priceFormatted": "₹9,999 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/quest-offices.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/Quest-Offices-BKC-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/Quest-Offices-BKC.-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/Quest-Offices-BKC-min-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/11/Day-Pass-4.png"
-  ]
-},
-{
-  "id": 339,
-  "name": "IKeva BKC",
-  "badge": null,
-  "rating": null,
-  "area": "BKC",
-  "location": "Bkc, Mumbai",
-  "price": "₹8,800",
-  "period": "/ Month",
-  "priceFormatted": "₹8,800 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/Screenshot-2021-11-25-112041.png",
-    "https://coworkingers.com/wp-content/uploads/2021/10/ikeva1.png",
-    "https://coworkingers.com/wp-content/uploads/2021/10/Screenshot-2021-11-25-112131.png"
-  ]
-},
-{
-  "id": 340,
-  "name": "WeWork - Andheri East",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "₹15,000",
-  "period": "/ Month",
-  "priceFormatted": "₹15,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/wework-andheri.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Wework-Andheri-East-001-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Wework-Andheri-East-002-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Wework-Andheri-East-003-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Wework-Andheri-East-004-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Wework-Andheri-East-005-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Wework-Andheri-East-006-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Wework-Andheri-East-007-min.jpg"
-  ]
-},
-{
-  "id": 341,
-  "name": "WorkAmp Futurex Lower Parel",
-  "badge": null,
-  "rating": null,
-  "area": "Lower Parel",
-  "location": "Lower Parel, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp-Futurex-Lower-Parel-003-min-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp.png",
-    "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp2.png",
-    "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp3.png",
-    "https://coworkingers.com/wp-content/uploads/2020/07/WorkAmp4.png"
-  ]
-},
-{
-  "id": 342,
-  "name": "Awfis Lower Parel",
-  "badge": null,
-  "rating": null,
-  "area": "Lower Parel",
-  "location": "Lower Parel, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Lower-Parel-Poddar-Chambers-Lower-Parel-002-min-2.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Lower-Parel-Poddar-Chambers-Lower-Parel-005-min-2.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Lower-Parel-Poddar-Chambers-Lower-Parel-001-min-2.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Lower-Parel-Poddar-Chambers-Lower-Parel-003-min-2.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Awfis-Lower-Parel-Poddar-Chambers-Lower-Parel-004-min-2.jpg"
-  ]
-},
-{
-  "id": 343,
-  "name": "Rise Mumbai Lower Parel",
-  "badge": null,
-  "rating": null,
-  "area": "Lower Parel",
-  "location": "Lower Parel, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/Rise-Mumbai-Lower-Parel-004-min-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Rise-Mumbai-Lower-Parel-001-min-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Rise-Mumbai-Lower-Parel-002-min-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Rise-Mumbai-Lower-Parel-003-min-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Rise-Mumbai-Lower-Parel-005-min-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Rise-Mumbai-Lower-Parel-006-min-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Rise-Mumbai-Lower-Parel-007-min-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Rise-Mumbai-Lower-Parel-008-min-1.jpg"
-  ]
-},
-{
-  "id": 344,
-  "name": "Work Square Andheri East",
-  "badge": null,
-  "rating": null,
-  "area": "Lower Parel",
-  "location": "Lower Parel, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/Work-Square-Lower-Parel-001-min-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Work-Square-Lower-Parel-005-min-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Work-Square-Lower-Parel-006-min-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Work-Square-Lower-Parel-007-min-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Work-Square-Lower-Parel-008-min-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Work-Square-Lower-Parel-002-min-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Work-Square-Lower-Parel-003-min-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Work-Square-Lower-Parel-004-min-1.jpg"
-  ]
-},
-{
-  "id": 345,
-  "name": "Avirahi Office Spaces In Kandivali West",
-  "badge": null,
-  "rating": null,
-  "area": "Kandivali West",
-  "location": "Kandivali West, Mumbai",
-  "price": "₹7,000",
-  "period": "/ Month",
-  "priceFormatted": "₹7,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/avirahi.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/Avirahi-Office-Space-Kandivali-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/Avirahi-Office-Space-Kandivali.-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/Avirahi-Office-Space-Kandivali.-min-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/Avirahi-Office-Space-Kandivali-min-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/11/Day-Pass-4.png"
-  ]
-},
-{
-  "id": 346,
-  "name": "Spartan Co-Work",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri",
-  "location": "Andheri, Mumbai",
-  "price": "₹1,250",
-  "period": "/ Month",
-  "priceFormatted": "₹1,250 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/Spartan-Co-Work-005-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Spartan-Co-Work-001-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Spartan-Co-Work-002-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Spartan-Co-Work-003-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Spartan-Co-Work-004-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Spartan-Co-Work-006-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Spartan-Co-Work-007-min.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/Spartan-Co-Work-008-min.jpg"
-  ]
-},
-{
-  "id": 347,
-  "name": "The Playce",
-  "badge": null,
-  "rating": null,
-  "area": "Thane",
-  "location": "Thane, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/The-Playce-Thane-008.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/The-Playce-Thane-001.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/The-Playce-Thane-002.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/The-Playce-Thane-003.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/The-Playce-Thane-004.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/The-Playce-Thane-005.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/The-Playce-Thane-006.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/The-Playce-Thane-007.jpg"
-  ]
-},
-{
-  "id": 348,
-  "name": "ZoomStart India",
-  "badge": null,
-  "rating": null,
-  "area": "Navi Mumbai",
-  "location": "Navi Mumbai, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/ZoomStart-India-Navi-Mumbai-001.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/ZoomStart-India-Navi-Mumbai-002.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/ZoomStart-India-Navi-Mumbai-003.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/ZoomStart-India-Navi-Mumbai-004.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/ZoomStart-India-Navi-Mumbai-005.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/ZoomStart-India-Navi-Mumbai-006.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/ZoomStart-India-Navi-Mumbai-007.jpg"
-  ]
-},
-{
-  "id": 349,
-  "name": "91springboard",
-  "badge": null,
-  "rating": null,
-  "area": "Navi Mumbai",
-  "location": "Navi Mumbai, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-Turbhe-Navi-Mumbai-002.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-Turbhe-Navi-Mumbai-001.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-Turbhe-Navi-Mumbai-003.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-Turbhe-Navi-Mumbai-004.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-Turbhe-Navi-Mumbai-005.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/07/91springboard-Turbhe-Navi-Mumbai-006.jpg"
-  ]
-},
-{
-  "id": 350,
-  "name": "Mascots CoWork Andheri East",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "₹10,999",
-  "period": "/ Month",
-  "priceFormatted": "₹10,999 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/11/3.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/11/Mascots-CoWork-001.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/11/Mascots-CoWork-002.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/11/Mascots-CoWork-003.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/11/Mascots-CoWork-004.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/11/Mascots-CoWork-005.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/11/Mascots-CoWork-006.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/11/Mascots-CoWork-007.jpg"
-  ]
-},
-{
-  "id": 351,
-  "name": "OfficeBing",
-  "badge": null,
-  "rating": null,
-  "area": "Navi Mumbai",
-  "location": "Navi Mumbai, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/11/OfficeBing-005.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/11/OfficeBing-001.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/11/OfficeBing-002.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/11/OfficeBing-003.jpg",
-    "https://coworkingers.com/wp-content/uploads/2020/11/OfficeBing-004.jpg"
-  ]
-},
-{
-  "id": 352,
-  "name": "Guac Spaces",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "₹5,999",
-  "period": "/ Month",
-  "priceFormatted": "₹5,999 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/2.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/1582202995088.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/SpaceImages593430836.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/11/day-pass-12.png"
-  ]
-},
-{
-  "id": 353,
-  "name": "The Boho Pad In Santacruz West",
-  "badge": null,
-  "rating": null,
-  "area": "Santacruz West",
-  "location": "Santacruz West, Mumbai",
-  "price": "₹10,000",
-  "period": "/ Month",
-  "priceFormatted": "₹10,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/the-boho-pad.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/boho-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/boho-2.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/boho-3.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/boho-4.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/boho-5.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/boho-6.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/boho-7.jpg"
-  ]
-},
-{
-  "id": 354,
-  "name": "One Degree Coworking In LBS Marg",
-  "badge": null,
-  "rating": null,
-  "area": "Bhandup",
-  "location": "Bhandup, Mumbai",
-  "price": "₹5,000",
-  "period": "/ Month",
-  "priceFormatted": "₹5,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/one-degree.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/one-degree-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/one-degree-2.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/one-degree-3.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/one-degree-4.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/one-degree-5.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/one-degree-6.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/one-degree-7.jpg"
-  ]
-},
-{
-  "id": 355,
-  "name": "WeWork In Nesco IT Park",
-  "badge": null,
-  "rating": null,
-  "area": "Goregaon",
-  "location": "Goregaon, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2021/10/wework-nesco.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/we-work-it-park-1.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/we-work-it-park-2.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/we-work-it-park-3.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/we-work-it-park-4.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/we-work-it-park-5.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/we-work-it-park-6.jpg",
-    "https://coworkingers.com/wp-content/uploads/2021/10/we-work-it-park-7.jpg"
-  ]
-},
-{
-  "id": 356,
-  "name": "WISE SNDTWU INCUBATION CENTRE",
-  "badge": null,
-  "rating": null,
-  "area": "Santacruz West",
-  "location": "Santacruz West, Mumbai",
-  "price": "₹30,000",
-  "period": "/ Month",
-  "priceFormatted": "₹30,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1710154982/tvfqib4g3ufwdqqkyqem.webp"
-  ]
-},
-{
-  "id": 357,
-  "name": "Attari Classes",
-  "badge": null,
-  "rating": null,
-  "area": "Kurla",
-  "location": "Kurla, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1530681932/ijjbkatsqqhgg2vqkwtx.webp"
-  ]
-},
-{
-  "id": 358,
-  "name": "EFC Limited",
-  "badge": null,
-  "rating": null,
-  "area": "BKC",
-  "location": "BKC, Mumbai",
-  "price": "₹23,000",
-  "period": "/ Month",
-  "priceFormatted": "₹23,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1640595341/hbqvlmrqozjngi1aazts.webp"
-  ]
-},
-{
-  "id": 359,
-  "name": "The Learning Galaxy",
-  "badge": null,
-  "rating": null,
-  "area": "Lower Parel",
-  "location": "Lower Parel, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1641279912/o8xkkej1yjrl5hypsfld.png"
-  ]
-},
-{
-  "id": 360,
-  "name": "Matulya Center",
-  "badge": null,
-  "rating": null,
-  "area": "Lower Parel",
-  "location": "Lower Parel, Mumbai",
-  "price": "₹12,000",
-  "period": "/ Month",
-  "priceFormatted": "₹12,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1645615021/wfixwqc4ajaxls2mlamt.jpg"
-  ]
-},
-{
-  "id": 361,
-  "name": "Grove Workspaces",
-  "badge": null,
-  "rating": null,
-  "area": "Lower Parel",
-  "location": "Lower Parel, Mumbai",
-  "price": "₹18,000",
-  "period": "/ Month",
-  "priceFormatted": "₹18,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/c93a55acae13ce93bfa0dbb1e73ff045_XUn5VPmWl.jpg"
-  ]
-},
-{
-  "id": 362,
-  "name": "NVL Services",
-  "badge": null,
-  "rating": null,
-  "area": "Lower Parel",
-  "location": "Lower Parel, Mumbai",
-  "price": "₹10,000",
-  "period": "/ Month",
-  "priceFormatted": "₹10,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1646051198/drbwyakvgewvwvwedigs.jpg"
-  ]
-},
-{
-  "id": 363,
-  "name": "AIIG",
-  "badge": null,
-  "rating": null,
-  "area": "Prabhadevi",
-  "location": "Prabhadevi, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1582623235/esqch0nmitqhdp7vfzdc.webp"
-  ]
-},
-{
-  "id": 364,
-  "name": "Ztartup",
-  "badge": null,
-  "rating": null,
-  "area": "Dadar West",
-  "location": "Dadar West, Mumbai",
-  "price": "₹25,000",
-  "period": "/ Month",
-  "priceFormatted": "₹25,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://ik.imagekit.io/qdesq/qdesq/c3e5ba66f4aba0449cf5ce33def4493b_duZNJ3kqu.jpg"
-  ]
-},
-{
-  "id": 365,
-  "name": "DBS India",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1551354296/miekn1cnx5hdaeujhbkf.png"
-  ]
-},
-{
-  "id": 366,
-  "name": "Kohinoor Banquet's",
-  "badge": null,
-  "rating": null,
-  "area": "Dadar East",
-  "location": "Dadar East, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1583137777/d8vxd6toqbxnm3egsiu5.webp"
-  ]
-},
-{
-  "id": 367,
-  "name": "CfE Offices",
-  "badge": null,
-  "rating": null,
-  "area": "Dadar",
-  "location": "Dadar, Mumbai",
-  "price": "₹5,000",
-  "period": "/ Month",
-  "priceFormatted": "₹5,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1647251313/kkbijzltg66wtx8eqk8d.webp"
-  ]
-},
-{
-  "id": 368,
-  "name": "CfE Offices",
-  "badge": null,
-  "rating": null,
-  "area": "Dadar West",
-  "location": "Dadar West, Mumbai",
-  "price": "₹6,000",
-  "period": "/ Month",
-  "priceFormatted": "₹6,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1647251027/djteuzdgmmcm8bywqak4.webp"
-  ]
-},
-{
-  "id": 369,
-  "name": "Isloan",
-  "badge": null,
-  "rating": null,
-  "area": "Churchgate",
-  "location": "Churchgate, Mumbai",
-  "price": "₹5,000",
-  "period": "/ Month",
-  "priceFormatted": "₹5,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1542619807/wg87lzjhaxs154lkbzpg.webp"
-  ]
-},
-{
-  "id": 370,
-  "name": "AIIG",
-  "badge": null,
-  "rating": null,
-  "area": "Fort",
-  "location": "Fort, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1623049942/tec1sydc03nv7glestqn.jpg"
-  ]
-},
-{
-  "id": 371,
-  "name": "Oval By Galaxy",
-  "badge": null,
-  "rating": null,
-  "area": "Churchgate",
-  "location": "Churchgate, Mumbai",
-  "price": "₹12,500",
-  "period": "/ Month",
-  "priceFormatted": "₹12,500 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/s--2up9Zw50--/v1723547360/mzxm6qfu6cguny8mu29a.webp"
-  ]
-},
-{
-  "id": 372,
-  "name": "DBS India",
-  "badge": null,
-  "rating": null,
-  "area": "Fort",
-  "location": "Fort, Mumbai",
-  "price": "₹12,900",
-  "period": "/ Month",
-  "priceFormatted": "₹12,900 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1553675196/ry4qwqgkesuigegwjp55.png"
-  ]
-},
-{
-  "id": 373,
-  "name": "Bunder Room",
-  "badge": null,
-  "rating": null,
-  "area": "Kala Ghoda",
-  "location": "Kala Ghoda, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1608116965/diduvlrwywwrep6ubjh8.webp"
-  ]
-},
-{
-  "id": 374,
-  "name": "DBS",
-  "badge": null,
-  "rating": null,
-  "area": "Marzban Road",
-  "location": "Marzban Road, Mumbai",
-  "price": "₹19,000",
-  "period": "/ Month",
-  "priceFormatted": "₹19,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://ik.imagekit.io/qdesq/qdesq/2f1ff592dbf355ee0b21636f558ff0ab_u9p_-dViW.jpeg"
-  ]
-},
-{
-  "id": 375,
-  "name": "Rex Chamber Fort",
-  "badge": null,
-  "rating": null,
-  "area": "Ballard Estate",
-  "location": "Ballard Estate, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://ik.imagekit.io/qdesq/qdesq/3c58d76c3698a574e8a8159ec1333912_glsV3BYWsa.jpg"
-  ]
-},
-{
-  "id": 376,
-  "name": "Trackster Spaces",
-  "badge": null,
-  "rating": null,
-  "area": "Nerul",
-  "location": "Nerul, Mumbai",
-  "price": "₹5,500",
-  "period": "/ Month",
-  "priceFormatted": "₹5,500 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/image/upload/s--Q6kd_3-d--/v1724242435/y2pjmf6mouu9jiuyb6xq.webp"
-  ]
-},
-{
-  "id": 377,
-  "name": "Corpliance Business Solutions",
-  "badge": null,
-  "rating": null,
-  "area": "Vashi",
-  "location": "Vashi, Mumbai",
-  "price": "₹6,000",
-  "period": "/ Month",
-  "priceFormatted": "₹6,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1648016436/otk4mkouz8uwayh4g0vn.webp"
-  ]
-},
-{
-  "id": 378,
-  "name": "Netiizen Creative Spaces",
-  "badge": null,
-  "rating": null,
-  "area": "Santacruz East",
-  "location": "Santacruz East, Mumbai",
-  "price": "₹8,000",
-  "period": "/ Month",
-  "priceFormatted": "₹8,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1675684827/yqg3i3ry9ktuzqivlbvq.webp"
-  ]
-},
-{
-  "id": 379,
-  "name": "Book My Space",
-  "badge": null,
-  "rating": null,
-  "area": "Kamala Nagar",
-  "location": "Kamala Nagar, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1613979449/tiq8yz5ua4tk7w5qo0lk.png"
-  ]
-},
-{
-  "id": 380,
-  "name": "The Workables",
-  "badge": null,
-  "rating": null,
-  "area": "Bandra West",
-  "location": "Bandra West, Mumbai",
-  "price": "₹15,000",
-  "period": "/ Month",
-  "priceFormatted": "₹15,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1647335248/njx3vucxbplwvuuqfmwt.jpg"
-  ]
-},
-{
-  "id": 381,
-  "name": "Brubaabaa Cafe",
-  "badge": null,
-  "rating": null,
-  "area": "Bandra West",
-  "location": "Bandra West, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/223c1ec11fe2b160cf6f6443a531fb3e_adUmrDTzt.jpg"
-  ]
-},
-{
-  "id": 382,
-  "name": "The Coworking company",
-  "badge": null,
-  "rating": null,
-  "area": "Bandra West",
-  "location": "Bandra West, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/image/upload/tr:n-listing_image/v1474532070/eqmndircpaqz0bd1lyik.webp"
-  ]
-},
-{
-  "id": 383,
-  "name": "Bubble Office",
-  "badge": null,
-  "rating": null,
-  "area": "Goregaon East",
-  "location": "Goregaon East, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1672142770/cyalt0bid3allwjv6x6p.jpg"
-  ]
-},
-{
-  "id": 384,
-  "name": "Toutle Space",
-  "badge": null,
-  "rating": null,
-  "area": "Goregaon West",
-  "location": "Goregaon West, Mumbai",
-  "price": "₹8,500",
-  "period": "/ Month",
-  "priceFormatted": "₹8,500 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1677131843/ckalaabbdged1igahcg9.webp"
-  ]
-},
-{
-  "id": 385,
-  "name": "Inspire Cospaces",
-  "badge": null,
-  "rating": null,
-  "area": "Goregaon",
-  "location": "Goregaon, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1603176403/mnbilqki30tf4ztvvssm.jpg"
-  ]
-},
-{
-  "id": 386,
-  "name": "The Playce",
-  "badge": null,
-  "rating": null,
-  "area": "Mulund West",
-  "location": "Mulund West, Mumbai",
-  "price": "₹13,000",
-  "period": "/ Month",
-  "priceFormatted": "₹13,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/be244f090fc6f2c5328501836cce4832_z4kmulXFFq.jpg"
-  ]
-},
-{
-  "id": 387,
-  "name": "Vkube Coworking Space",
-  "badge": null,
-  "rating": null,
-  "area": "Mulund East",
-  "location": "Mulund East, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1604659282/ur2mtwuhn4ojtz2dhjhl.jpg"
-  ]
-},
-{
-  "id": 388,
-  "name": "Unitop",
-  "badge": null,
-  "rating": null,
-  "area": "Thane West",
-  "location": "Thane West, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1504253425/dch9jarjjhr4h1ukrf3v.webp"
-  ]
-},
-{
-  "id": 389,
-  "name": "Ukase Consultancy",
-  "badge": null,
-  "rating": null,
-  "area": "Thane West",
-  "location": "Thane West, Mumbai",
-  "price": "₹8,000",
-  "period": "/ Month",
-  "priceFormatted": "₹8,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://ik.imagekit.io/qdesq/qdesq/451032ab01a8721d0567e4956d6730b6_SiZetRc9b.JPG"
-  ]
-},
-{
-  "id": 390,
-  "name": "SLP BPO Services",
-  "badge": null,
-  "rating": null,
-  "area": "Thane West",
-  "location": "Thane West, Mumbai",
-  "price": "₹5,500",
-  "period": "/ Month",
-  "priceFormatted": "₹5,500 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1563344480/so2xdgmsvtmv3wprioux.webp"
-  ]
-},
-{
-  "id": 391,
-  "name": "RedBrick",
-  "badge": null,
-  "rating": null,
-  "area": "BKC",
-  "location": "BKC, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1571382184/ogclw7bxlqkbujv3pyjb.webp"
-  ]
-},
-{
-  "id": 392,
-  "name": "Chintamani Jewellers Office",
-  "badge": null,
-  "rating": null,
-  "area": "Prabhadevi",
-  "location": "Prabhadevi, Mumbai",
-  "price": "₹20,000",
-  "period": "/ Month",
-  "priceFormatted": "₹20,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/54acd3d70cea72b4185c9fa85d1b35fc_vOt4sQyva.jpeg"
-  ]
-},
-{
-  "id": 393,
-  "name": "OfficeBing",
-  "badge": null,
-  "rating": null,
-  "area": "Turbhe",
-  "location": "Turbhe, Mumbai",
-  "price": "₹8,500",
-  "period": "/ Month",
-  "priceFormatted": "₹8,500 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1675231181/vpvvicix5ygorrpugelb.webp"
-  ]
-},
-{
-  "id": 394,
-  "name": "Megastar Office",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "₹11,000",
-  "period": "/ Month",
-  "priceFormatted": "₹11,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1664786740/njkk1eamuxghyxplzutt.webp"
-  ]
-},
-{
-  "id": 395,
-  "name": "The Common Desk",
-  "badge": null,
-  "rating": null,
-  "area": "Railway Colony",
-  "location": "Railway Colony, Mumbai",
-  "price": "₹8,500",
-  "period": "/ Month",
-  "priceFormatted": "₹8,500 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://ik.imagekit.io/qdesq/qdesq/55639d94c7c75397d28d878307a7fa85_NJtWkjRBh.jpg"
-  ]
-},
-{
-  "id": 396,
-  "name": "COWORKS BY STM",
-  "badge": null,
-  "rating": null,
-  "area": "Vashi",
-  "location": "Vashi, Mumbai",
-  "price": "₹6,500",
-  "period": "/ Month",
-  "priceFormatted": "₹6,500 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://ik.imagekit.io/qdesq/qdesq/73119ab227402eba964c0461c2663e51_uyP79cwUG.JPG"
-  ]
-},
-{
-  "id": 397,
-  "name": "The Millennial Pod",
-  "badge": null,
-  "rating": null,
-  "area": "Powai",
-  "location": "Powai, Mumbai",
-  "price": "₹12,000",
-  "period": "/ Month",
-  "priceFormatted": "₹12,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1547542132/nt1vtjv5jvlpeljpertu.webp"
-  ]
-},
-{
-  "id": 398,
-  "name": "Opulence",
-  "badge": null,
-  "rating": null,
-  "area": "Marol MIDC Industry Estate",
-  "location": "Marol MIDC Industry Estate, Mumbai",
-  "price": "₹14,000",
-  "period": "/ Month",
-  "priceFormatted": "₹14,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://ik.imagekit.io/qdesq/qdesq/tr:n-listing_image_hq/84766c317b483ce47213af49fd395c25_Z6N7q5Xu-.jpeg"
-  ]
-},
-{
-  "id": 399,
-  "name": "Ginger Hotel",
-  "badge": null,
-  "rating": null,
-  "area": "Sai Wadi",
-  "location": "Sai Wadi, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1608635092/fohwkayvdqws4nxog5qz.png"
-  ]
-},
-{
-  "id": 400,
-  "name": "BLUE HAT FUSION",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "₹12,000",
-  "period": "/ Month",
-  "priceFormatted": "₹12,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/img/tr:n-listing_image_hq/image/upload/v1710243568/aehczjx0ajje23nmfidk.webp"
-  ]
-},
-{
-  "id": 401,
-  "name": "Times Square",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri East",
-  "location": "Andheri East, Mumbai",
-  "price": "₹10,000",
-  "period": "/ Month",
-  "priceFormatted": "₹10,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1636781645/rgpwztlztirqa4ybh3ya.jpg"
-  ]
-},
-{
-  "id": 402,
-  "name": "Redbrick",
-  "badge": null,
-  "rating": null,
-  "area": "Andheri West",
-  "location": "Andheri West, Mumbai",
-  "price": "₹12,000",
-  "period": "/ Month",
-  "priceFormatted": "₹12,000 / Month",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://qdesq.imagekit.io/tr:n-listing_image_hq/image/upload/v1608620337/tozgw6jv9epahsspgxgr.jpg"
-  ]
-},
-{
-  "id": 403,
-  "name": "WeWork  Zenia",
-  "badge": null,
-  "rating": null,
-  "area": "Thane",
-  "location": "Thane, Mumbai",
-  "price": "On Request",
-  "period": "",
-  "priceFormatted": "On Request",
-  "ctaText": "Get Quote",
-  "images": [
-    "https://coworkingers.com/wp-content/uploads/2020/07/20190131_WeWork_Zenia_-_Common_Areas_-_Wide-2-min.jpg"
-  ]
-}
-*/
