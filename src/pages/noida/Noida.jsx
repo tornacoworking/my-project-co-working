@@ -1,5 +1,5 @@
 import { Fragment, useEffect, useMemo, useState } from 'react';
-import { noidaAreas, noidaOfficeCards, getNoidaOfficeSlug, normalizeNoidaArea } from './noidaData.js';
+import { noidaAreas, noidaOfficeCards, getNoidaOfficeSlug, normalizeNoidaArea, topNoidaCoworkingLocations } from './noidaData.js';
 import QuoteModal from '../../components/QuoteModal.jsx';
 
 // Cards on one page, and cards between two banners (4 per row x 2 rows).
@@ -199,6 +199,17 @@ const Noida = () => {
     setCurrentPage(1);
   };
 
+  // Clicking a location tile filters the list to that area (click again to clear) and scrolls back up to it.
+  const handleLocationClick = (locationName) => {
+    selectArea(activeArea === locationName ? 'All' : locationName);
+    const headerElement = document.getElementById('coworking-listings-header');
+    if (headerElement) {
+      headerElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    } else {
+      window.scrollTo({ top: 200, behavior: 'smooth' });
+    }
+  };
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -206,7 +217,7 @@ const Noida = () => {
   return (
     <div className="min-h-screen w-full bg-white text-slate-800">
       <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
-        <div className="mb-8">
+        <div id="coworking-listings-header" className="mb-8 scroll-mt-4">
           <p className="mb-3 text-sm font-semibold uppercase tracking-[0.18em] text-[#007bff]">Coworking in Noida</p>
           <h1 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">Find your ideal workspace in Noida</h1>
           <p className="mt-3 max-w-2xl text-base text-slate-600">
@@ -306,6 +317,66 @@ const Noida = () => {
             </div>
           </nav>
         )}
+
+        {/* Section: Explore Top Coworking Locations in Noida */}
+        <section aria-label="Explore top coworking locations in Noida" className="my-6 pt-4 border-t border-slate-200/80">
+          <h2 className="mb-5 text-xl font-bold tracking-tight text-slate-900 sm:text-2xl">
+            Explore Top Coworking Locations in Noida
+          </h2>
+
+          <div className="grid grid-cols-2 gap-3.5 sm:grid-cols-3 sm:gap-4.5 md:grid-cols-4 lg:grid-cols-5">
+            {topNoidaCoworkingLocations.map((location) => {
+              const isSelected = activeArea === location.name;
+              return (
+                <div
+                  key={location.id}
+                  role="button"
+                  tabIndex={0}
+                  aria-pressed={isSelected}
+                  onClick={() => handleLocationClick(location.name)}
+                  onKeyDown={(event) => {
+                    if (event.key === 'Enter' || event.key === ' ') {
+                      event.preventDefault();
+                      handleLocationClick(location.name);
+                    }
+                  }}
+                  className={`group flex cursor-pointer flex-col overflow-hidden rounded-lg border bg-white shadow-2xs transition-all duration-200 hover:shadow-md ${
+                    isSelected ? 'border-blue-600 ring-2 ring-blue-500/20 shadow-xs' : 'border-slate-200 hover:border-blue-300'
+                  }`}
+                >
+                  <div className="relative h-32 w-full overflow-hidden bg-slate-100 sm:h-36">
+                    <img
+                      src={location.image || FALLBACK_IMAGE}
+                      alt={`Coworking spaces in ${location.name}`}
+                      loading="lazy"
+                      onError={(event) => {
+                        event.target.onerror = null;
+                        event.target.src = FALLBACK_IMAGE;
+                      }}
+                      className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    />
+                    {isSelected && (
+                      <span className="absolute right-2 top-2 rounded bg-blue-600 px-2 py-0.5 text-[10px] font-bold text-white shadow-xs">
+                        Selected
+                      </span>
+                    )}
+                  </div>
+
+                  <div className="flex flex-1 flex-col justify-between bg-white p-3 sm:p-3.5">
+                    <div>
+                      <p className="text-xs font-normal leading-snug text-slate-600 sm:text-[13px]">Coworking Space in</p>
+                      <h3 className="mt-0.5 text-sm font-bold leading-tight text-slate-900 sm:text-[15px]">{location.name}</h3>
+                    </div>
+                    <div className="mt-3 flex items-center gap-1.5 border-t border-slate-50 pt-2 text-xs font-semibold text-blue-600 transition-colors group-hover:text-blue-700">
+                      <span>{location.ctaText}</span>
+                      <span className="text-[11px] transition-transform group-hover:translate-x-0.5" aria-hidden="true">→</span>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </section>
       </div>
 
       {isEnquiryOpen && <QuoteModal onClose={() => setIsEnquiryOpen(false)} />}

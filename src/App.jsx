@@ -18,6 +18,8 @@ import ChandigarhPage from './pages/chandigarh/Chandigarh';
 import ChandigarhOfficeDetail from './pages/chandigarh/ChandigarhOfficeDetail';
 import { getChandigarhOfficeCardById } from './pages/chandigarh/chandigarhData';
 import ChennaiPage from './pages/chennai/Chennai';
+import ChennaiOfficeDetail from './pages/chennai/ChennaiOfficeDetail';
+import { getChennaiOfficeCardById } from './pages/chennai/chennaiData';
 import CoimbatorePage from './pages/coimbatore/Coimbatore';
 import CoimbatoreOfficeDetail from './pages/coimbatore/CoimbatoreOfficeDetail';
 import { getCoimbatoreOfficeCardById } from './pages/coimbatore/coimbatoreData';
@@ -41,6 +43,8 @@ import KochiOfficeDetail from './pages/kochi/KochiOfficeDetail';
 import { getKochiOfficeCardById } from './pages/kochi/kochiData';
 import KolkataPage from './pages/kolkata/Kolkata';
 import LucknowPage from './pages/lucknow/Lucknow';
+import LucknowOfficeDetail from './pages/lucknow/LucknowOfficeDetail';
+import { getLucknowOfficeCardById } from './pages/lucknow/lucknowData';
 import MumbaiPage from './pages/mumbai/Mumbai';
 import MumbaiOfficeDetail from './pages/mumbai/MumbaiOfficeDetail';
 import { getMumbaiOfficeCardById } from './pages/mumbai/mumbaiData';
@@ -71,6 +75,8 @@ const OfficeRoute = () => {
   if (getCoimbatoreOfficeCardById(id)) return <CoimbatoreOfficeDetail />;
   if (getBhubaneshwarOfficeCardById(id)) return <BhubaneshwarOfficeDetail />;
   if (getNoidaOfficeCardById(id)) return <NoidaOfficeDetail />;
+  if (getChennaiOfficeCardById(id)) return <ChennaiOfficeDetail />;
+  if (getLucknowOfficeCardById(id)) return <LucknowOfficeDetail />;
   return <Homepage />;
 };
 
@@ -91,6 +97,7 @@ const App = () => {
         <Route path="/coworking/chandigarh" element={<ChandigarhPage />} />
         <Route path="/coworking/chandigarh/:id" element={<ChandigarhOfficeDetail />} />
         <Route path="/coworking/chennai" element={<ChennaiPage />} />
+        <Route path="/coworking/chennai/:id" element={<ChennaiOfficeDetail />} />
         <Route path="/coworking/coimbatore" element={<CoimbatorePage />} />
         <Route path="/coworking/delhi" element={<DelhiPage />} />
         <Route path="/coworking/delhi/:id" element={<DelhiOfficeDetails />} />
@@ -107,6 +114,7 @@ const App = () => {
         <Route path="/coworking/kochi/:id" element={<KochiOfficeDetail />} />
         <Route path="/coworking/kolkata" element={<KolkataPage />} />
         <Route path="/coworking/lucknow" element={<LucknowPage />} />
+        <Route path="/coworking/lucknow/:id" element={<LucknowOfficeDetail />} />
         <Route path="/coworking/mumbai" element={<MumbaiPage />} />
         <Route path="/coworking/noida" element={<NoidaPage />} />
         <Route path="/coworking/noida/:id" element={<NoidaOfficeDetail />} />
