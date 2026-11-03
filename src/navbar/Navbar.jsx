@@ -40,11 +40,12 @@ const Navbar = () => {
               key={city.name}
               type="button"
               onClick={() => handleCityClick(city.name, tabName)}
+              aria-label={isVirtual ? `Virtual office in ${city.name}` : `Coworking spaces in ${city.name}`}
               className="flex flex-col items-center gap-1.5 group cursor-pointer focus:outline-none"
             >
               <img
                 src={city.image}
-                alt={city.name}
+                alt={`${city.name} city skyline`}
                 loading="lazy"
                 className={isVirtual
                   ? 'w-14 h-14 rounded-xl object-cover border-2 border-blue-100 group-hover:border-blue-500 group-hover:scale-105 transition-all'
@@ -91,10 +92,11 @@ const Navbar = () => {
         {/* 2. Far Left: Logo */}
         <Link 
           to="/" 
+          aria-label="MyCoworking home"
           onClick={closeMenu}
           className="flex items-center cursor-pointer shrink-0"
         >
-          <img src={logo} alt="mycoworking" className="h-12 sm:h-20 w-auto object-contain" />
+          <img src={logo} alt="MyCoworking - Coworking and Virtual Office Spaces in India" className="h-12 sm:h-20 w-auto object-contain" />
         </Link>
 
         {/* 3. Desktop Contact Info Box: visible on large screens (lg+) */}
@@ -155,6 +157,7 @@ const Navbar = () => {
           {/* Orange "List of Services" button - always visible */}
           <Link
             to="/#services"
+            aria-label="View our list of services"
             onClick={closeMenu}
             className="shrink-0 cursor-pointer"
           >
@@ -187,7 +190,7 @@ const Navbar = () => {
 
       {/* 5. Dropdown/Drawer Menu: Opens downwards when hamburger is clicked, containing all hidden tabs & contact details */}
       {isOpen && (
-        <div className="lg:hidden w-full bg-white border-t border-slate-100 shadow-xl px-4 py-3 flex flex-col divide-y divide-slate-100 animate-in fade-in slide-in-from-top-1 duration-200">
+        <nav aria-label="Mobile navigation" className="lg:hidden w-full bg-white border-t border-slate-100 shadow-xl px-4 py-3 flex flex-col divide-y divide-slate-100 animate-in fade-in slide-in-from-top-1 duration-200">
           {/* All 4 Navigation Tabs */}
           {navItems.map((item) => {
             const isExpanded = mobileExpandedTab === item.name;
@@ -246,7 +249,7 @@ const Navbar = () => {
               </a>
             </div>
           </div>
-        </div>
+        </nav>
       )}
     </header>
   );

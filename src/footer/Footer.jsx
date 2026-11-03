@@ -18,7 +18,7 @@ const Footer = ({ onCityClick }) => {
           
           {/* Left (wide): transparent logo straight on the black footer + platform summary */}
           <div className="flex flex-col items-start">
-            <img src={footerLogo} alt="MyCoworking" className="h-24 sm:h-28 w-auto object-contain mb-3" />
+            <img src={footerLogo} alt="MyCoworking - Coworking and Virtual Office Spaces in India" className="h-24 sm:h-28 w-auto object-contain mb-3" />
             <p className="text-xs sm:text-sm text-slate-400 font-normal leading-relaxed max-w-none">
               {footerQuickLinksData.brand.description}
             </p>
@@ -63,6 +63,7 @@ const Footer = ({ onCityClick }) => {
                 <button
                   type="button"
                   onClick={() => onCityClick(cityName)}
+                  aria-label={`Coworking spaces in ${cityName}`}
                   className="hover:text-white hover:underline transition-colors cursor-pointer focus:outline-none"
                 >
                   {cityName}
