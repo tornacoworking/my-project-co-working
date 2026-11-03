@@ -150,7 +150,16 @@ const buildOfficeSeo = ({ card, city }) => {
   const area = card.area || (card.location ? card.location.split(',')[0].trim() : '');
   const place = area ? `${area}, ${city.label}` : city.label;
   const price = card.priceFormatted || '';
+  const image = Array.isArray(card.images) ? card.images[0] : card.image;
   return {
+    structuredData: {
+      '@context': 'https://schema.org',
+      '@type': 'LocalBusiness',
+      name: card.name,
+      description: `Coworking space in ${place}`,
+      ...(image ? { image } : {}),
+      address: { '@type': 'PostalAddress', addressLocality: city.label, streetAddress: card.location || place, addressCountry: 'IN' },
+    },
     title: `${card.name} - Coworking Space in ${place} | ${SITE_NAME}`,
     description: `Book ${card.name}, a coworking space in ${place}${price ? ` starting at ${price}` : ''}. View photos, amenities, plans and location, and get a free quote from ${SITE_NAME}.`,
   };
@@ -205,7 +214,7 @@ const SeoManager = () => {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    const { title, description } = resolveSeo(pathname);
+    const { title, description, structuredData } = resolveSeo(pathname);
     const canonical = `${window.location.origin}${pathname === '/' ? '/' : pathname.replace(/\/+$/, '')}`;
 
     document.title = title;
@@ -216,6 +225,15 @@ const SeoManager = () => {
     upsertHeadTag('meta[property="og:url"]', 'meta', { property: 'og:url', content: canonical });
     upsertHeadTag('meta[property="og:type"]', 'meta', { property: 'og:type', content: 'website' });
     upsertHeadTag('meta[property="og:site_name"]', 'meta', { property: 'og:site_name', content: SITE_NAME });
+
+    document.head.querySelector('script[data-seo-ld]')?.remove();
+    if (structuredData) {
+      const script = document.createElement('script');
+      script.type = 'application/ld+json';
+      script.setAttribute('data-seo-ld', 'true');
+      script.textContent = JSON.stringify(structuredData);
+      document.head.appendChild(script);
+    }
   }, [pathname]);
 
   return null;

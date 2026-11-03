@@ -1,6 +1,10 @@
 import fs from 'fs';
 import path from 'path';
 import { pathToFileURL } from 'url';
+import { register } from 'node:module';
+
+// Image imports (jpg/png/svg) only make sense in Vite, so Node gets an empty string for them.
+register('data:text/javascript,' + encodeURIComponent("export async function load(url, context, next) { if (/\.(jpe?g|png|svg|webp)$/.test(url)) return { format: 'module', source: 'export default \"\"', shortCircuit: true }; return next(url, context); }"));
 
 const SITE_URL = (process.env.SITE_URL || 'https://www.mycoworking.in').replace(/\/+$/, '');
 const pagesDir = path.resolve('src/pages');
@@ -25,9 +29,9 @@ for (const dir of fs.readdirSync(pagesDir, { withFileTypes: true }).filter((e) =
   for (const card of data[cardsKey]) add(data[slugKey](card), '0.6');
 }
 
-const homeData = await import(pathToFileURL(path.resolve('src/virtual/virtual.js')).href).catch(() => null);
-if (homeData) {
-  for (const city of homeData.virtualOfficeCities) add(homeData.virtualOfficePath(city.name), '0.7');
+const virtualData = await import(pathToFileURL(path.resolve('src/virtual/virtual.js')).href).catch(() => null);
+if (virtualData) {
+  for (const city of virtualData.virtualOfficeCities) add(virtualData.virtualOfficePath(city.name), '0.7');
 }
 
 const xml = [
