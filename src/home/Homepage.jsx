@@ -260,7 +260,7 @@ const Homepage = () => {
   // 3. UI RENDERING (Mapped dynamically from centralized homedata store)
   // =========================================================================
   return (
-    <main className="w-full min-h-[calc(100dvh-4rem)] sm:min-h-[calc(100dvh-5rem)] overflow-x-hidden bg-[#f8fafc] flex flex-col antialiased font-sans select-none">
+    <section className="w-full min-h-[calc(100dvh-4rem)] sm:min-h-[calc(100dvh-5rem)] overflow-x-hidden bg-[#f8fafc] flex flex-col antialiased font-sans select-none">
       
       {/* =================================================================== */}
       {/* SECTION 1: PRIMARY HERO FOLD (LEFT SEARCH & RIGHT ENQUIRY FORM)    */}
@@ -484,7 +484,7 @@ const Homepage = () => {
         onSelectSpace={handleSpaceSelectionFromPopup}
         spaceOptions={availableSpaceTypes}
       />
-    </main>
+    </section>
   );
 };
 

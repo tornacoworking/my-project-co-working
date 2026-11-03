@@ -185,7 +185,7 @@ const QuoteModal = ({ space, onClose }) => {
           )}
 
           <div className="flex items-center gap-3 mt-5">
-            <img src={expertImg} alt="Space expert" className="w-14 h-14 rounded-full object-cover object-top shrink-0 border border-slate-200" />
+            <img src={expertImg} alt="MyCoworking space expert" className="w-14 h-14 rounded-full object-cover object-top shrink-0 border border-slate-200" />
             <div className="flex flex-col min-w-0">
               <span className="text-xs sm:text-sm text-slate-600 font-medium">Speak To our space expert</span>
               <a href="tel:+919028760011" className="text-sm font-bold text-slate-900 hover:text-orange-600">+91 9028760011</a>

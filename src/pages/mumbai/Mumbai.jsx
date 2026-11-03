@@ -317,7 +317,7 @@ const Mumbai = () => {
 
 
   return (
-    <main className="w-full min-h-screen bg-[#fafbfc] px-4 py-4 sm:px-8 sm:py-6 lg:px-12 antialiased font-sans">
+    <section className="w-full min-h-screen bg-[#fafbfc] px-4 py-4 sm:px-8 sm:py-6 lg:px-12 antialiased font-sans">
       {/* Breadcrumb Navigation */}
       <nav aria-label="Breadcrumb" className="mb-4">
         <ol className="flex items-center gap-1.5 text-xs text-slate-500">
@@ -683,7 +683,7 @@ const Mumbai = () => {
           })}
         </div>
       </section>
-    </main>
+    </section>
   );
 };
 

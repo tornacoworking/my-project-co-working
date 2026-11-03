@@ -38,10 +38,10 @@ const VirtualOfficePage = ({ citySlug }) => {
 
   if (!city) {
     return (
-      <main className="w-full min-h-[60vh] flex flex-col items-center justify-center gap-4 px-4 text-center">
+      <section className="w-full min-h-[60vh] flex flex-col items-center justify-center gap-4 px-4 text-center">
         <h1 className="text-2xl font-bold text-slate-900">Virtual office city not found</h1>
         <Link to="/" className="text-orange-600 font-semibold hover:underline">Back to home</Link>
-      </main>
+      </section>
     );
   }
 
@@ -73,7 +73,7 @@ const VirtualOfficePage = ({ citySlug }) => {
   };
 
   return (
-    <main className="w-full bg-white antialiased font-sans flex flex-col">
+    <section className="w-full bg-white antialiased font-sans flex flex-col">
       {/* ================= HERO ================= */}
       <section
         className="relative w-full bg-slate-900 bg-cover bg-center"
@@ -171,7 +171,7 @@ const VirtualOfficePage = ({ citySlug }) => {
             )}
 
             <div className="flex items-center gap-3 mt-5">
-              <img src={expertImg} alt="Space expert" className="w-12 h-12 rounded-full object-cover object-top border border-slate-200 shrink-0" />
+              <img src={expertImg} alt="MyCoworking space expert" className="w-12 h-12 rounded-full object-cover object-top border border-slate-200 shrink-0" />
               <div className="flex flex-col min-w-0">
                 <span className="text-xs sm:text-sm text-slate-600 font-medium">{content.form.expertLabel}</span>
                 <a href={`tel:${content.form.phone.replace(/\s/g, '')}`} className="text-sm font-bold text-slate-900 hover:text-orange-600">
@@ -292,7 +292,7 @@ const VirtualOfficePage = ({ citySlug }) => {
       </section>
 
       {quoteSpace && <QuoteModal space={quoteSpace} onClose={() => setQuoteSpace(null)} />}
-    </main>
+    </section>
   );
 };
 

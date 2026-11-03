@@ -928,7 +928,7 @@ const Section = ({ onCategoryCardClick, onCitySelect }) => {
                         <div className="flex items-center gap-3">
                           <img
                             src={item.avatar}
-                            alt={item.name}
+                            alt={`${item.name} - ${item.location || item.area || 'coworking space'}`}
                             loading="lazy"
                             className="w-12 h-12 rounded-full object-cover ring-2 ring-blue-500/20 group-hover:ring-blue-500/50 transition-all shrink-0"
                           />
