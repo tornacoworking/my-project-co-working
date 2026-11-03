@@ -40,7 +40,7 @@ import JaipurOfficeDetail from './pages/jaipur/JaipurOfficeDetail';
 import { getJaipurOfficeCardById } from './pages/jaipur/jaipurData';
 import KochiPage from './pages/kochi/Kochi';
 import KochiOfficeDetail from './pages/kochi/KochiOfficeDetail';
-import { getKochiOfficeCardById } from './pages/kochi/kochiData';
+import { getKochOfficeCardById } from './pages/kochi/kochiData';
 import KolkataPage from './pages/kolkata/Kolkata';
 import LucknowPage from './pages/lucknow/Lucknow';
 import LucknowOfficeDetail from './pages/lucknow/LucknowOfficeDetail';
