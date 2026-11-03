@@ -617,11 +617,7 @@ const OfficeDetail = () => {
 
               {/* Connect with our space expert */}
               <div className="flex items-center gap-3 pt-3.5 border-t border-blue-200/60 mt-3.5">
-<<<<<<< HEAD
-                <img src={expertImg} alt="MyCoworking space expert" className="w-12 h-12 rounded-full object-cover object-top shrink-0 shadow-xs border border-slate-200" />
-=======
-                <img referrerPolicy="no-referrer" src={expertImg} alt="Space expert" className="w-12 h-12 rounded-full object-cover object-top shrink-0 shadow-xs border border-slate-200" />
->>>>>>> a16d7e4f90b793b5d72643e7b28d27286c95e2f0
+                <img referrerPolicy="no-referrer" src={expertImg} alt="MyCoworking space expert" className="w-12 h-12 rounded-full object-cover object-top shrink-0 shadow-xs border border-slate-200" />
                 <div className="flex flex-col min-w-0">
                   <span className="text-[11px] sm:text-xs text-slate-600 font-medium">
                     Speak To our space expert
@@ -916,15 +912,9 @@ const OfficeDetail = () => {
                 >
                   {/* Card Image */}
                   <div className="w-full aspect-[16/10] rounded-2xl overflow-hidden bg-slate-100 shadow-2xs group-hover:shadow-md transition-shadow">
-<<<<<<< HEAD
-                    <img
-                      src={(Array.isArray(item.images) && item.images[0]) || item.image || 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80'}
-                      alt={`${item.name} - ${item.location || item.area || 'coworking space'}`}
-=======
                     <img referrerPolicy="no-referrer"
                       src={resizeNoidaImage((Array.isArray(item.images) && item.images[0]) || item.image, 600, 400) || 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80'}
-                      alt={item.name}
->>>>>>> a16d7e4f90b793b5d72643e7b28d27286c95e2f0
+                      alt={`${item.name} - ${item.location || item.area || 'coworking space'}`}
                       loading="lazy"
                       className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
                     />
@@ -1087,11 +1077,7 @@ const OfficeDetail = () => {
                     activeImageIndex === idx ? 'ring-2 ring-[#007bff] scale-105 opacity-100' : 'opacity-40 hover:opacity-85'
                   }`}
                 >
-<<<<<<< HEAD
-                  <img src={imgUrl} alt={`${space.name} thumbnail ${idx + 1}`} className="w-full h-full object-cover" />
-=======
-                  <img referrerPolicy="no-referrer" src={imgUrl} alt={`Thumb ${idx + 1}`} className="w-full h-full object-cover" />
->>>>>>> a16d7e4f90b793b5d72643e7b28d27286c95e2f0
+                  <img referrerPolicy="no-referrer" src={imgUrl} alt={`${space.name} thumbnail ${idx + 1}`} className="w-full h-full object-cover" />
                 </button>
               ))}
             </div>
