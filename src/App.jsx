@@ -58,6 +58,35 @@ import PuneOfficeDetail from './pages/pune/PuneOfficeDetail';
 import BhubaneshwarOfficeDetail from './pages/bhubaneswar/BhubaneshwarOfficeDetail';
 import AhmedabadOfficeDetails from './pages/ahmedabad/AhmedabadOfficeDetails';
 import { getAhmedabadOfficeCardById } from './pages/ahmedabad/ahmedabadData';
+import AgraPage from './pages/agra/Agra';
+import AgraOfficeDetail from './pages/agra/AgraOfficeDetail';
+import { getAgraOfficeCardById } from './pages/agra/agraData';
+import AhmednagarPage from './pages/ahmednagar/Ahmednagar';
+import AhmednagarOfficeDetail from './pages/ahmednagar/AhmednagarOfficeDetail';
+import { getAhmednagarOfficeCardById } from './pages/ahmednagar/ahmednagarData';
+import AjmerPage from './pages/ajmer/Ajmer';
+import AjmerOfficeDetail from './pages/ajmer/AjmerOfficeDetail';
+import { getAjmerOfficeCardById } from './pages/ajmer/ajmerData';
+import AlwarBhiwadiPage from './pages/alwar-bhiwadi/AlwarBhiwadi';
+import AlwarBhiwadiOfficeDetail from './pages/alwar-bhiwadi/AlwarBhiwadiOfficeDetail';
+import { getAlwarBhiwadiOfficeCardById } from './pages/alwar-bhiwadi/alwarBhiwadiData';
+import AmbalaPage from './pages/ambala/Ambala';
+import AmbalaOfficeDetail from './pages/ambala/AmbalaOfficeDetail';
+import { getAmbalaOfficeCardById } from './pages/ambala/ambalaData';
+import AmaravatiPage from './pages/amravati/Amaravati';
+import AmaravatiOfficeDetail from './pages/amravati/AmaravatiOfficeDetail';
+import { getAmaravatiOfficeCardById } from './pages/amravati/amaravatiData';
+import AmritsarPage from './pages/amritsar/Amritsar';
+import AmritsarOfficeDetail from './pages/amritsar/AmritsarOfficeDetail';
+import { getAmritsarOfficeCardById } from './pages/amritsar/amritsarData';
+import AnandPage from './pages/anand/Anand';
+import AnandOfficeDetail from './pages/anand/AnandOfficeDetail';
+import { getAnandOfficeCardById } from './pages/anand/anandData';
+import AyodhyaPage from './pages/ayodhya/Ayodhya';
+import AyodhyaOfficeDetail from './pages/ayodhya/AyodhyaOfficeDetail';
+import { getAyodhyaOfficeCardById } from './pages/ayodhya/ayodhyaData';
+import KolkataOfficeDetail from './pages/kolkata/KolkataOfficeDetail';
+import { getKolkataOfficeCardById } from './pages/kolkata/kolkataData';
 
 const SITE_NAME = 'MyCoworking';
 
@@ -81,10 +110,20 @@ const OFFICE_CITIES = [
   { key: 'noida', label: 'Noida', getCard: getNoidaOfficeCardById, Detail: NoidaOfficeDetail },
   { key: 'chennai', label: 'Chennai', getCard: getChennaiOfficeCardById, Detail: ChennaiOfficeDetail },
   { key: 'lucknow', label: 'Lucknow', getCard: getLucknowOfficeCardById, Detail: LucknowOfficeDetail },
+  { key: 'agra', label: 'Agra', getCard: getAgraOfficeCardById, Detail: AgraOfficeDetail },
+  { key: 'ahmednagar', label: 'Ahmednagar', getCard: getAhmednagarOfficeCardById, Detail: AhmednagarOfficeDetail },
+  { key: 'ajmer', label: 'Ajmer', getCard: getAjmerOfficeCardById, Detail: AjmerOfficeDetail },
+  { key: 'alwar-bhiwadi', label: 'Alwar & Bhiwadi', getCard: getAlwarBhiwadiOfficeCardById, Detail: AlwarBhiwadiOfficeDetail },
+  { key: 'ambala', label: 'Ambala', getCard: getAmbalaOfficeCardById, Detail: AmbalaOfficeDetail },
+  { key: 'amaravati', label: 'Amravati', getCard: getAmaravatiOfficeCardById, Detail: AmaravatiOfficeDetail },
+  { key: 'amritsar', label: 'Amritsar', getCard: getAmritsarOfficeCardById, Detail: AmritsarOfficeDetail },
+  { key: 'anand', label: 'Anand', getCard: getAnandOfficeCardById, Detail: AnandOfficeDetail },
+  { key: 'ayodhya', label: 'Ayodhya', getCard: getAyodhyaOfficeCardById, Detail: AyodhyaOfficeDetail },
+  { key: 'kolkata', label: 'Kolkata', getCard: getKolkataOfficeCardById, Detail: KolkataOfficeDetail },
 ];
 
 // The route is spelled both ways; the data files use "bhubaneswar".
-const normalizeCityKey = (slug = '') => (slug === 'bhubaneshwar' ? 'bhubaneswar' : slug);
+const normalizeCityKey = (slug = '') => ({ bhubaneshwar: 'bhubaneswar', amravati: 'amaravati' }[slug] || slug);
 
 const titleCaseSlug = (slug = '') =>
   slug.split('-').filter(Boolean).map((word) => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
@@ -212,9 +251,11 @@ const App = () => {
           <Route path="/coworking/chennai" element={<ChennaiPage />} />
           <Route path="/coworking/chennai/:id" element={<ChennaiOfficeDetail />} />
           <Route path="/coworking/coimbatore" element={<CoimbatorePage />} />
+          <Route path="/coworking/coimbatore/:id" element={<CoimbatoreOfficeDetail />} />
           <Route path="/coworking/delhi" element={<DelhiPage />} />
           <Route path="/coworking/delhi/:id" element={<DelhiOfficeDetails />} />
           <Route path="/coworking/goa" element={<GoaPage />} />
+          <Route path="/coworking/goa/:id" element={<GoaOfficeDetail />} />
           <Route path="/coworking/gurugram" element={<GurugramPage />} />
           <Route path="/coworking/gurugram/:id" element={<GurugramOfficeDetail />} />
           <Route path="/coworking/hyderabad" element={<HyderabadPage />} />
@@ -229,10 +270,32 @@ const App = () => {
           <Route path="/coworking/lucknow" element={<LucknowPage />} />
           <Route path="/coworking/lucknow/:id" element={<LucknowOfficeDetail />} />
           <Route path="/coworking/mumbai" element={<MumbaiPage />} />
+          <Route path="/coworking/mumbai/:id" element={<MumbaiOfficeDetail />} />
           <Route path="/coworking/noida" element={<NoidaPage />} />
           <Route path="/coworking/noida/:id" element={<NoidaOfficeDetail />} />
           <Route path="/coworking/pune" element={<PunePage />} />
           <Route path="/coworking/pune/:id" element={<PuneOfficeDetail />} />
+          <Route path="/coworking/agra" element={<AgraPage />} />
+          <Route path="/coworking/agra/:id" element={<AgraOfficeDetail />} />
+          <Route path="/coworking/ahmednagar" element={<AhmednagarPage />} />
+          <Route path="/coworking/ahmednagar/:id" element={<AhmednagarOfficeDetail />} />
+          <Route path="/coworking/ajmer" element={<AjmerPage />} />
+          <Route path="/coworking/ajmer/:id" element={<AjmerOfficeDetail />} />
+          <Route path="/coworking/alwar-bhiwadi" element={<AlwarBhiwadiPage />} />
+          <Route path="/coworking/alwar-bhiwadi/:id" element={<AlwarBhiwadiOfficeDetail />} />
+          <Route path="/coworking/ambala" element={<AmbalaPage />} />
+          <Route path="/coworking/ambala/:id" element={<AmbalaOfficeDetail />} />
+          <Route path="/coworking/amaravati" element={<AmaravatiPage />} />
+          <Route path="/coworking/amaravati/:id" element={<AmaravatiOfficeDetail />} />
+          <Route path="/coworking/amravati" element={<AmaravatiPage />} />
+          <Route path="/coworking/amravati/:id" element={<AmaravatiOfficeDetail />} />
+          <Route path="/coworking/amritsar" element={<AmritsarPage />} />
+          <Route path="/coworking/amritsar/:id" element={<AmritsarOfficeDetail />} />
+          <Route path="/coworking/anand" element={<AnandPage />} />
+          <Route path="/coworking/anand/:id" element={<AnandOfficeDetail />} />
+          <Route path="/coworking/ayodhya" element={<AyodhyaPage />} />
+          <Route path="/coworking/ayodhya/:id" element={<AyodhyaOfficeDetail />} />
+          <Route path="/coworking/kolkata/:id" element={<KolkataOfficeDetail />} />
           <Route path="/virtual-office/:city" element={<VirtualOffice />} />
           <Route path="/:id" element={<OfficeRoute />} />
           <Route path="*" element={<Homepage />} />
