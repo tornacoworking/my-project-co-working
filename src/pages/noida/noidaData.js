@@ -1928,13 +1928,52 @@ export const noidaAreas = [
 export const similarNoidaOfficeCards = noidaOfficeCards;
 export const allNoidaOfficeCards = noidaOfficeCards;
 
-// "Explore Top Coworking Locations" tiles on the detail page: one per area, with a photo from one of its spaces.
-export const topNoidaCoworkingLocations = noidaAreas
-  .filter((area) => area !== 'All')
-  .map((area, index) => {
-    const withImage = noidaOfficeCards.find((card) => normalizeNoidaArea(card.area) === area && card.images && card.images.length > 0);
-    return { id: index + 1, name: area, image: withImage ? withImage.images[0] : '', ctaText: 'Explore Spaces' };
-  });
+// Google Maps photo links are served at 1600px; asking for a smaller size keeps the listing light enough that Google does not throttle it.
+export const resizeNoidaImage = (url, width = 800, height = 533) =>
+  typeof url === 'string' && url.includes('googleusercontent.com')
+    ? url.replace(/=w\d+-h\d+-k-no$/, `=w${width}-h${height}-k-no`)
+    : url;
+
+// Filter pills (the "All" pill is rendered separately).
+export const noidaNeighborhoods = noidaAreas.filter((area) => area !== 'All');
+
+// "Explore Top Coworking Locations" tiles: one per area, with a photo from one of its spaces.
+export const topNoidaCoworkingLocations = noidaNeighborhoods.map((area, index) => {
+  const withImage = noidaOfficeCards.find((card) => normalizeNoidaArea(card.area) === area && card.images && card.images.length > 0);
+  return {
+    id: `loc-${index + 1}`,
+    name: area,
+    title: `Coworking Space in ${area}`,
+    image: withImage ? resizeNoidaImage(withImage.images[0], 600, 400) : '',
+    ctaText: 'Explore Spaces'
+  };
+});
+
+export const perfectWorkspaceBanner = {
+  title: 'Discover your perfect workspace with Mycoworking',
+  subtitle: 'Explore Flexible Coworking Solutions, Premium Amenities, and Prime Locations Across India',
+  ctaText: 'Enquire Now',
+  bgImage: 'https://img.cofynd.com/images/latest_images_2024/28f41de2ee6c67528d528dc3b55fc7ad2801dcbc.webp'
+};
+
+export const customizedOfficeBanner = {
+  title: 'Customized office solutions for your team',
+  features: [
+    { id: 1, text: 'Customized Office Spaces' },
+    { id: 2, text: 'Prime Locations' },
+    { id: 3, text: 'Free Guided Tours' },
+    { id: 4, text: 'Perfect for 50+ Team Size' }
+  ],
+  ctaText: 'Enquire Now',
+  bgImage: 'https://img.cofynd.com/images/latest_images_2024/83bb813890447d5d3d6bda55c7133a5fd48cdbc5.webp'
+};
+
+export const stillNotFindingBanner = {
+  title: 'Still not able to find coworking space?',
+  subtitle: 'Our space experts will help you find the perfect coworking space in prime locations',
+  ctaText: 'Enquire Now',
+  bgImage: 'https://img.cofynd.com/images/latest_images_2024/406c83ccb0729b57d9beb973b7e4088ab7640ef3.webp'
+};
 
 export const getNoidaOfficeCardById = (id) => findOfficeBySlug(allNoidaOfficeCards, id, 'noida');
 export const getNoidaOfficeSlug = (space) => officePath(allNoidaOfficeCards, space, 'noida');

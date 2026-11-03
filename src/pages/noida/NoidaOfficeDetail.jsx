@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useMemo } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import expertImg from '../../assets/expert.jpg';
-import { getNoidaOfficeCardById, getNoidaOfficeSlug, allNoidaOfficeCards, topNoidaCoworkingLocations } from './noidaData.js';
+import { getNoidaOfficeCardById, getNoidaOfficeSlug, allNoidaOfficeCards, topNoidaCoworkingLocations, resizeNoidaImage } from './noidaData.js';
 
 /**
  * Coworking Office Details Page
@@ -149,9 +149,9 @@ const OfficeDetail = () => {
     }
   }, [id]);
 
-  const singleImage = (Array.isArray(space?.images) && space.images[0]) || space?.image || '';
+  const singleImage = resizeNoidaImage((Array.isArray(space?.images) && space.images[0]) || space?.image || '', 1200, 800);
   const images = (Array.isArray(space?.images) && space.images.length > 0)
-    ? space.images
+    ? space.images.map((imageUrl) => resizeNoidaImage(imageUrl, 1200, 800))
     : (singleImage ? [singleImage] : []);
 
   const openCarousel = (index = 0) => {
@@ -330,7 +330,7 @@ const OfficeDetail = () => {
             onClick={() => openCarousel(0)}
             className="group relative md:col-span-6 h-full min-h-0 rounded-2xl overflow-hidden cursor-pointer bg-slate-100 shadow-2xs"
           >
-            <img
+            <img referrerPolicy="no-referrer"
               src={images[0] || singleImage}
               alt={`${space.name} - ${space.location} coworking space, photo 1`}
               className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
@@ -346,7 +346,7 @@ const OfficeDetail = () => {
                 onClick={() => openCarousel(images[idx] ? idx : 0)}
                 className="group relative h-full min-h-0 rounded-xl md:rounded-2xl overflow-hidden cursor-pointer bg-slate-100 shadow-2xs"
               >
-                <img
+                <img referrerPolicy="no-referrer"
                   src={images[idx] || images[0] || singleImage}
                   alt={`${space.name} - ${space.location} coworking space, photo ${idx + 1}`}
                   className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
@@ -361,7 +361,7 @@ const OfficeDetail = () => {
             onClick={() => openCarousel(images[3] ? 3 : 0)}
             className="group relative md:col-span-3 h-full min-h-0 rounded-2xl overflow-hidden cursor-pointer bg-slate-100 shadow-2xs"
           >
-            <img
+            <img referrerPolicy="no-referrer"
               src={images[3] || images[0] || singleImage}
               alt={`${space.name} - ${space.location} coworking space, photo 4`}
               className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
@@ -434,7 +434,7 @@ const OfficeDetail = () => {
                 >
                   {/* Left Plan Image */}
                   <div className="w-full sm:w-44 h-32 sm:h-28 rounded-lg overflow-hidden bg-slate-100 shrink-0">
-                    <img
+                    <img referrerPolicy="no-referrer"
                       src={plan.image}
                       alt={`${plan.title} at ${space.name}`}
                       className="w-full h-full object-cover"
@@ -617,7 +617,11 @@ const OfficeDetail = () => {
 
               {/* Connect with our space expert */}
               <div className="flex items-center gap-3 pt-3.5 border-t border-blue-200/60 mt-3.5">
+<<<<<<< HEAD
                 <img src={expertImg} alt="MyCoworking space expert" className="w-12 h-12 rounded-full object-cover object-top shrink-0 shadow-xs border border-slate-200" />
+=======
+                <img referrerPolicy="no-referrer" src={expertImg} alt="Space expert" className="w-12 h-12 rounded-full object-cover object-top shrink-0 shadow-xs border border-slate-200" />
+>>>>>>> a16d7e4f90b793b5d72643e7b28d27286c95e2f0
                 <div className="flex flex-col min-w-0">
                   <span className="text-[11px] sm:text-xs text-slate-600 font-medium">
                     Speak To our space expert
@@ -912,9 +916,15 @@ const OfficeDetail = () => {
                 >
                   {/* Card Image */}
                   <div className="w-full aspect-[16/10] rounded-2xl overflow-hidden bg-slate-100 shadow-2xs group-hover:shadow-md transition-shadow">
+<<<<<<< HEAD
                     <img
                       src={(Array.isArray(item.images) && item.images[0]) || item.image || 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80'}
                       alt={`${item.name} - ${item.location || item.area || 'coworking space'}`}
+=======
+                    <img referrerPolicy="no-referrer"
+                      src={resizeNoidaImage((Array.isArray(item.images) && item.images[0]) || item.image, 600, 400) || 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80'}
+                      alt={item.name}
+>>>>>>> a16d7e4f90b793b5d72643e7b28d27286c95e2f0
                       loading="lazy"
                       className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
                     />
@@ -977,7 +987,7 @@ const OfficeDetail = () => {
               >
                 {/* Location Image */}
                 <div className="relative h-32 sm:h-36 w-full overflow-hidden bg-slate-100">
-                  <img
+                  <img referrerPolicy="no-referrer"
                     src={location.image}
                     alt={`Coworking spaces in ${location.name}`}
                     loading="lazy"
@@ -1046,7 +1056,7 @@ const OfficeDetail = () => {
 
             {/* Standardized Image Stage: Fits 100% on screen in uniform format */}
             <div className="w-full h-full max-h-[66vh] sm:max-h-[70vh] flex items-center justify-center px-10 sm:px-16 overflow-hidden">
-              <img
+              <img referrerPolicy="no-referrer"
                 src={images[activeImageIndex] || singleImage}
                 alt={`${space.name} - ${space.location} coworking space, photo ${activeImageIndex + 1}`}
                 className="max-h-full max-w-full w-auto h-auto object-contain rounded-xl shadow-2xl select-none"
@@ -1077,7 +1087,11 @@ const OfficeDetail = () => {
                     activeImageIndex === idx ? 'ring-2 ring-[#007bff] scale-105 opacity-100' : 'opacity-40 hover:opacity-85'
                   }`}
                 >
+<<<<<<< HEAD
                   <img src={imgUrl} alt={`${space.name} thumbnail ${idx + 1}`} className="w-full h-full object-cover" />
+=======
+                  <img referrerPolicy="no-referrer" src={imgUrl} alt={`Thumb ${idx + 1}`} className="w-full h-full object-cover" />
+>>>>>>> a16d7e4f90b793b5d72643e7b28d27286c95e2f0
                 </button>
               ))}
             </div>
