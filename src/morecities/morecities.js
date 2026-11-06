@@ -75,7 +75,9 @@ const rawMoreCityNames = [
   'Moradabad', 'Gorakhpur', 'Jhansi', 'Ayodhya', 'Bhavnagar', 'Jamnagar', 'Anand',
   'Vapi', 'Bharuch', 'Kolhapur', 'Solapur', 'Satara', 'Sangli', 'Ahmednagar',
   'Jalgaon', 'Amravati', 'Nanded', 'Ratnagiri', 'Belagavi / Belgaum',
-  'Ballari / Bellary', 'Kalaburagi / Gulbarga'
+  'Ballari / Bellary', 'Kalaburagi / Gulbarga',
+  // Photos (Wikimedia Commons): agartala.jpg by Sharada Prasad CS, CC BY 2.0; aizawl.jpg by GeoEvan, CC BY 4.0.
+  'Agartala', 'Aizawl'
 ];
 
 // Spelling variants of homepage cities, so e.g. "Bhubaneswar" matches "Bhubaneshwar"

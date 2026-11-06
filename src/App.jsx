@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { Routes, Route, useParams, useLocation, matchPath } from 'react-router-dom';
+import { Routes, Route, Navigate, useParams, useLocation, matchPath } from 'react-router-dom';
 import Homepage from './home/Homepage';
 import Navbar from './navbar/Navbar';
 import { getDehliOfficeCardById } from './pages/delhi/delhiData';
@@ -326,6 +326,8 @@ const App = () => {
           <Route path="/coworking/ayodhya" element={<AyodhyaPage />} />
           <Route path="/coworking/ayodhya/:id" element={<AyodhyaOfficeDetail />} />
           <Route path="/coworking/aurangabad" element={<AurangabadPage />} />
+          {/* The More Cities entry "Chhatrapati Sambhaji Nagar / Aurangabad" links here. */}
+          <Route path="/coworking/chhatrapati sambhaji nagar / aurangabad" element={<Navigate to="/coworking/aurangabad" replace />} />
           <Route path="/coworking/aurangabad/:id" element={<AurangabadOfficeDetail />} />
           <Route path="/coworking/agartala" element={<AgartalaPage />} />
           <Route path="/coworking/agartala/:id" element={<AgartalaOfficeDetail />} />
