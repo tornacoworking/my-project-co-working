@@ -2,6 +2,7 @@ import { findOfficeBySlug, officePath } from "../../common/slug.js";
 
 // Agartala (Tripura) coworking spaces — MyBranch, Qdesq and Office Hub listing data, fetched Nov 6, 2026.
 // Ratings, review counts and phone numbers are left out because no source gave a verifiable figure. Qdesq's number is its own sales line.
+// deskPrice / cabinPrice are per-seat monthly rates from the listings above; null shows "On request" on the detail page.
 
 export const agartalaSpaces = [
   {
@@ -17,6 +18,8 @@ export const agartalaSpaces = [
     price: '₹9,000',
     period: '/ month',
     priceFormatted: '₹9,000 / month',
+    deskPrice: '₹9,000',
+    cabinPrice: '₹9,500',
     priceNote: 'Per desk, Qdesq listing (Office Hub ₹9,500)',
     ctaText: 'Get Quote',
     website: 'https://www.mybranch.co.in/coworking-space-in-agartala-madhyapara',
@@ -41,6 +44,8 @@ export const agartalaSpaces = [
     price: 'On request',
     period: '',
     priceFormatted: 'Price on request',
+    deskPrice: null,
+    cabinPrice: null,
     ctaText: 'Get Quote',
     images: [
       'https://ik.imagekit.io/qdesq/qdesq/77d0687c5ec120f37be0a72a3b51640f_n_NiNwRAv.jpg',

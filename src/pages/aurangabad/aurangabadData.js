@@ -4,6 +4,7 @@ import { findOfficeBySlug, officePath } from "../../common/slug.js";
 // Prices are the Qdesq per-desk rate; other listings differ, so priceNote says so. Confirm with each operator before publishing.
 // Excluded: Connect Enterprises (photos carry another brand's watermark); SCALE Coworking and Kaarobaar (no usable photos found).
 // Ratings, review counts and phone numbers are left out because no source gave a verifiable figure. Qdesq's number is its own sales line.
+// deskPrice / cabinPrice are per-seat monthly rates from the listings above; null shows "On request" on the detail page.
 
 export const aurangabadSpaces = [
   {
@@ -19,6 +20,8 @@ export const aurangabadSpaces = [
     price: '₹5,000',
     period: '/ month',
     priceFormatted: '₹5,000 / month',
+    deskPrice: '₹5,000',
+    cabinPrice: '₹3,000',
     priceNote: 'Per desk, Qdesq listing (myHQ ₹6,000, CoworkingCafe ₹7,500)',
     ctaText: 'Get Quote',
     images: [
@@ -42,6 +45,8 @@ export const aurangabadSpaces = [
     price: '₹3,000',
     period: '/ month',
     priceFormatted: '₹3,000 / month',
+    deskPrice: '₹3,000',
+    cabinPrice: '₹5,000',
     priceNote: 'Per desk, Qdesq listing (myHQ ₹6,000, CoworkingCafe ₹7,500)',
     ctaText: 'Get Quote',
     images: [
@@ -64,6 +69,8 @@ export const aurangabadSpaces = [
     price: '₹2,999',
     period: '/ month',
     priceFormatted: '₹2,999 / month',
+    deskPrice: '₹2,999',
+    cabinPrice: '₹7,500',
     priceNote: 'Per desk, Qdesq and myHQ listings',
     ctaText: 'Get Quote',
     images: [
@@ -86,6 +93,8 @@ export const aurangabadSpaces = [
     price: '₹4,500',
     period: '/ month',
     priceFormatted: '₹4,500 / month',
+    deskPrice: '₹4,500',
+    cabinPrice: '₹4,000',
     priceNote: 'Per desk, Qdesq listing',
     ctaText: 'Get Quote',
     images: [

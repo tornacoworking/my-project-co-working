@@ -264,22 +264,22 @@ const OfficeDetail = () => {
     {
       title: 'Dedicated Desk',
       description: 'Fixed workspace in a Coworking Office with all amenities',
-      seating: space.capacity ? `Seating : 1 - ${space.capacity} Seats` : 'Seating : 1 - 100+ Seats',
-      price: hasListedPrice(space) ? `${space.price}/* seat` : 'On request',
+      seating: space.capacity ? `Seating : 1 - ${space.capacity} Seats` : 'Seating : On request',
+      price: space.deskPrice ? `${space.deskPrice}/* seat` : 'On request',
       image: images[1] || images[0] || singleImage
     },
     {
       title: 'Private Cabin',
       description: 'Ready to move fully furnished private office with all amenities',
-      seating: 'Seating : 4, 6, 8, 10+ (Customization Available)',
-      price: '₹9,999/* seat',
+      seating: 'Seating : On request',
+      price: space.cabinPrice ? `${space.cabinPrice}/* seat` : 'On request',
       image: images[2] || images[0] || singleImage
     },
     {
       title: 'Virtual Office',
       description: 'Build your Company presence with Virtual Office in any city across India',
       seating: 'Company Registration & Mailing Address',
-      price: '₹19,999/* year',
+      price: 'On request',
       image: images[3] || images[0] || singleImage
     }
   ];
@@ -437,25 +437,15 @@ const OfficeDetail = () => {
                 <span className="text-amber-500">★</span> {space.rating} / 5.0 Rating
               </span>
             )}
-            <span className="text-slate-400">•</span>
-            <span>Verified Coworking Space</span>
           </div>
 
         </section>
 
         {/* Top Trust Ribbon */}
         <section className="bg-white rounded-xl border border-slate-200/80 px-4 sm:px-6 py-3 flex flex-wrap items-center justify-between gap-3 shadow-2xs">
-          <div className="flex items-center gap-2">
-            <span className="text-amber-500 text-base sm:text-lg">👑</span>
-            <span className="font-bold text-slate-800 text-xs sm:text-sm">Premium Coworking</span>
-          </div>
           <p className="text-xs sm:text-sm font-semibold text-slate-700 text-center flex-1 min-w-[200px]">
             The Largest Network of Flex Workspaces in India
           </p>
-          <div className="flex items-center gap-1.5 text-xs sm:text-sm font-bold text-slate-800">
-            <span>5.0</span>
-            <span className="text-amber-400 tracking-tight">★★★★★</span>
-          </div>
         </section>
 
         {/* Main 2-Column Area: Seating Plans (Left) & Enquiry Form (Right) */}
@@ -865,16 +855,16 @@ const OfficeDetail = () => {
               </div>
               <div className="flex flex-col">
                 <h4 className="text-base sm:text-lg font-bold text-slate-900 leading-tight">
-                  {space.name.split(' ')[0]}
+                  {space.name}
                 </h4>
                 <p className="text-xs text-slate-500 mt-0.5 font-medium">
-                  Trusted by Clients Across Every Corner of India
+                  Coworking space in {space.location}
                 </p>
               </div>
             </div>
 
             <p className={`text-xs sm:text-sm text-slate-600 leading-relaxed ${!isAboutExpanded ? 'line-clamp-3 sm:line-clamp-none' : ''}`}>
-              {space.name} helps businesses with the largest flexible workspaces all over India, ranging from single seats to multiple seats. Coworking space solutions by {space.name} are present in 48 micro markets in India, covering the topmost 16 cities. They provide a wide spectrum of solutions to help all types of industries be it startups, small companies (SMEs), or large corporations. {space.name} Coworking solutions are interactive and uniquely designed to enhance productivity so that your business can grow in the target market.
+              {space.name} is a coworking space in {space.location}{space.capacity ? ` with room for up to ${space.capacity} people` : ''}. Contact MyCoworking for current availability, plans and pricing.
             </p>
 
             <button

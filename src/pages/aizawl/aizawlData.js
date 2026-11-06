@@ -2,6 +2,7 @@ import { findOfficeBySlug, officePath } from "../../common/slug.js";
 
 // Aizawl (Mizoram) coworking spaces — MyBranch, Qdesq, CoworkingCafe and Office Hub listing data, fetched Nov 6, 2026.
 // Ratings, review counts and phone numbers are left out because no source gave a verifiable figure. Qdesq's number is its own sales line.
+// deskPrice / cabinPrice are per-seat monthly rates from the listings above; null shows "On request" on the detail page.
 
 export const aizawlSpaces = [
   {
@@ -17,6 +18,8 @@ export const aizawlSpaces = [
     price: '₹9,500',
     period: '/ month',
     priceFormatted: '₹9,500 / month',
+    deskPrice: null,
+    cabinPrice: '₹9,500',
     priceNote: '1-person private office, Office Hub listing (12-month term)',
     ctaText: 'Get Quote',
     website: 'https://www.mybranch.co.in/coworking-space-in-aizawl-varte-plaza',
@@ -40,6 +43,8 @@ export const aizawlSpaces = [
     price: '₹9,500',
     period: '/ month',
     priceFormatted: '₹9,500 / month',
+    deskPrice: '₹9,500',
+    cabinPrice: null,
     priceNote: 'Per desk, Qdesq listing',
     ctaText: 'Get Quote',
     images: [
