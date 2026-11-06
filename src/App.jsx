@@ -94,6 +94,39 @@ import { getAgartalaOfficeCardById } from './pages/agartala/agartalaData';
 import AizawlPage from './pages/aizawl/Aizawl';
 import AizawlOfficeDetail from './pages/aizawl/AizawlOfficeDetail';
 import { getAizawlOfficeCardById } from './pages/aizawl/aizawlData';
+import AligarhPage from './pages/aligarh/Aligarh';
+import AligarhOfficeDetail from './pages/aligarh/AligarhOfficeDetail';
+import { getAligarhOfficeCardById } from './pages/aligarh/aligarhData';
+import BallariPage from './pages/ballari/Ballari';
+import BallariOfficeDetail from './pages/ballari/BallariOfficeDetail';
+import { getBallariOfficeCardById } from './pages/ballari/ballariData';
+import BareillyPage from './pages/bareilly/Bareilly';
+import BareillyOfficeDetail from './pages/bareilly/BareillyOfficeDetail';
+import { getBareillyOfficeCardById } from './pages/bareilly/bareillyData';
+import BelagaviPage from './pages/belagavi/Belagavi';
+import BelagaviOfficeDetail from './pages/belagavi/BelagaviOfficeDetail';
+import { getBelagaviOfficeCardById } from './pages/belagavi/belagaviData';
+import BharuchPage from './pages/bharuch/Bharuch';
+import BharuchOfficeDetail from './pages/bharuch/BharuchOfficeDetail';
+import { getBharuchOfficeCardById } from './pages/bharuch/bharuchData';
+import BhatindaPage from './pages/bhatinda/Bhatinda';
+import BhatindaOfficeDetail from './pages/bhatinda/BhatindaOfficeDetail';
+import { getBhatindaOfficeCardById } from './pages/bhatinda/bhatindaData';
+import BhavnagarPage from './pages/bhavnagar/Bhavnagar';
+import BhavnagarOfficeDetail from './pages/bhavnagar/BhavnagarOfficeDetail';
+import { getBhavnagarOfficeCardById } from './pages/bhavnagar/bhavnagarData';
+import BhilwaraPage from './pages/bhilwara/Bhilwara';
+import BhilwaraOfficeDetail from './pages/bhilwara/BhilwaraOfficeDetail';
+import { getBhilwaraOfficeCardById } from './pages/bhilwara/bhilwaraData';
+import BhopalPage from './pages/bhopal/Bhopal';
+import BhopalOfficeDetail from './pages/bhopal/BhopalOfficeDetail';
+import { getBhopalOfficeCardById } from './pages/bhopal/bhopalData';
+import BikanerPage from './pages/bikaner/Bikaner';
+import BikanerOfficeDetail from './pages/bikaner/BikanerOfficeDetail';
+import { getBikanerOfficeCardById } from './pages/bikaner/bikanerData';
+import BirBillingPage from './pages/bir-billing/BirBilling';
+import BirBillingOfficeDetail from './pages/bir-billing/BirBillingOfficeDetail';
+import { getBirBillingOfficeCardById } from './pages/bir-billing/birBillingData';
 import KolkataOfficeDetail from './pages/kolkata/KolkataOfficeDetail';
 import { getKolkataOfficeCardById } from './pages/kolkata/kolkataData';
 
@@ -131,6 +164,17 @@ const OFFICE_CITIES = [
   { key: 'aurangabad', label: 'Aurangabad', getCard: getAurangabadOfficeCardById, Detail: AurangabadOfficeDetail },
   { key: 'agartala', label: 'Agartala', getCard: getAgartalaOfficeCardById, Detail: AgartalaOfficeDetail },
   { key: 'aizawl', label: 'Aizawl', getCard: getAizawlOfficeCardById, Detail: AizawlOfficeDetail },
+  { key: 'aligarh', label: 'Aligarh', getCard: getAligarhOfficeCardById, Detail: AligarhOfficeDetail },
+  { key: 'ballari', label: 'Ballari', getCard: getBallariOfficeCardById, Detail: BallariOfficeDetail },
+  { key: 'bareilly', label: 'Bareilly', getCard: getBareillyOfficeCardById, Detail: BareillyOfficeDetail },
+  { key: 'belagavi', label: 'Belagavi', getCard: getBelagaviOfficeCardById, Detail: BelagaviOfficeDetail },
+  { key: 'bharuch', label: 'Bharuch', getCard: getBharuchOfficeCardById, Detail: BharuchOfficeDetail },
+  { key: 'bhatinda', label: 'Bhatinda', getCard: getBhatindaOfficeCardById, Detail: BhatindaOfficeDetail },
+  { key: 'bhavnagar', label: 'Bhavnagar', getCard: getBhavnagarOfficeCardById, Detail: BhavnagarOfficeDetail },
+  { key: 'bhilwara', label: 'Bhilwara', getCard: getBhilwaraOfficeCardById, Detail: BhilwaraOfficeDetail },
+  { key: 'bhopal', label: 'Bhopal', getCard: getBhopalOfficeCardById, Detail: BhopalOfficeDetail },
+  { key: 'bikaner', label: 'Bikaner', getCard: getBikanerOfficeCardById, Detail: BikanerOfficeDetail },
+  { key: 'bir-billing', label: 'Bir Billing', getCard: getBirBillingOfficeCardById, Detail: BirBillingOfficeDetail },
   { key: 'kolkata', label: 'Kolkata', getCard: getKolkataOfficeCardById, Detail: KolkataOfficeDetail },
 ];
 
@@ -139,6 +183,19 @@ const normalizeCityKey = (slug = '') => ({ bhubaneshwar: 'bhubaneswar', amravati
 
 const titleCaseSlug = (slug = '') =>
   slug.split('-').filter(Boolean).map((word) => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+
+// Every city's data file, used to build each city page's SEO from its real listings.
+const cityDataModules = import.meta.glob('./pages/*/*Data.js', { eager: true });
+
+// Returns a city's listings without repeated ids, plus its slug helper. Folders are matched like URLs ("amravati" -> "amaravati").
+const getCityListings = (cityKey) => {
+  const [, data = {}] = Object.entries(cityDataModules).find(([file]) => normalizeCityKey(file.split('/')[2]) === cityKey) || [];
+  const cardsKey = Object.keys(data).find((key) => /^all\w*OfficeCards$/.test(key));
+  const slugKey = Object.keys(data).find((key) => /^get\w*OfficeSlug$/.test(key));
+  const seen = new Set();
+  const cards = (data[cardsKey] || []).filter((card) => !seen.has(card.id) && seen.add(card.id));
+  return { cards, getSlug: data[slugKey] };
+};
 
 // Finds an office by slug, trying the city named in the URL first and then every other city.
 const findOffice = (id, cityKey) => {
@@ -155,14 +212,15 @@ const findOffice = (id, cityKey) => {
 
 const HOME_SEO = {
   title: `Coworking Space in India | Private Offices, Dedicated Desks & Virtual Offices | ${SITE_NAME}`,
-  description: 'Find and book coworking spaces, private offices, dedicated desks, meeting rooms and virtual offices across 18+ cities in India. Compare prices and get a free quote with MyCoworking.',
+  description: `Find and book coworking spaces, private offices, dedicated desks, meeting rooms and virtual offices across ${OFFICE_CITIES.length}+ cities in India. Compare prices and get a free quote with MyCoworking.`,
 };
 
 const buildOfficeSeo = ({ card, city }) => {
   const area = card.area || (card.location ? card.location.split(',')[0].trim() : '');
   const place = area ? `${area}, ${city.label}` : city.label;
-  const price = card.priceFormatted || '';
+  const price = /\d/.test(String(card.price ?? '')) ? card.priceFormatted : '';
   const image = Array.isArray(card.images) ? card.images[0] : card.image;
+  const lead = `Book ${card.name}, a coworking space in ${place}${price ? ` from ${price}` : ''}.`;
   return {
     structuredData: {
       '@context': 'https://schema.org',
@@ -170,17 +228,58 @@ const buildOfficeSeo = ({ card, city }) => {
       name: card.name,
       description: `Coworking space in ${place}`,
       ...(image ? { image } : {}),
-      address: { '@type': 'PostalAddress', addressLocality: city.label, streetAddress: card.location || place, addressCountry: 'IN' },
+      ...(card.phone ? { telephone: card.phone } : {}),
+      address: { '@type': 'PostalAddress', addressLocality: city.label, streetAddress: card.address || card.location || place, addressCountry: 'IN' },
     },
-    title: `${card.name} - Coworking Space in ${place} | ${SITE_NAME}`,
-    description: `Book ${card.name}, a coworking space in ${place}${price ? ` starting at ${price}` : ''}. View photos, amenities, plans and location, and get a free quote from ${SITE_NAME}.`,
+    title: /coworking space/i.test(card.name)
+      ? `${card.name} - ${place} | ${SITE_NAME}`
+      : `${card.name} - Coworking Space in ${place} | ${SITE_NAME}`,
+    description: `${lead} ${lead.length > 105 ? 'Get a free quote.' : 'View photos, plans and location, and get a free quote.'}`,
   };
 };
 
-const buildCitySeo = (cityLabel) => ({
-  title: `Coworking Space in ${cityLabel} | Shared Desks, Private Offices & Meeting Rooms | ${SITE_NAME}`,
-  description: `Explore the best coworking spaces in ${cityLabel}. Compare prices, amenities and locations for shared desks, private cabins and managed offices, and book a free site visit with ${SITE_NAME}.`,
-});
+// Builds a city page's title, description and listing schema from the spaces shown on that page.
+const buildCitySeo = (cityKey) => {
+  const label = OFFICE_CITIES.find((city) => city.key === cityKey)?.label || titleCaseSlug(cityKey);
+  const { cards, getSlug } = getCityListings(cityKey);
+  if (cards.length === 0) {
+    return {
+      title: `Coworking Space in ${label} | Shared Desks, Private Offices & Meeting Rooms | ${SITE_NAME}`,
+      description: `Looking for a coworking space in ${label}? Tell us what you need and get a free quote from ${SITE_NAME}.`,
+    };
+  }
+
+  const areaCounts = cards.reduce((counts, card) => {
+    if (card.area && card.area !== label) counts[card.area] = (counts[card.area] || 0) + 1;
+    return counts;
+  }, {});
+  const topAreas = Object.entries(areaCounts).sort((a, b) => b[1] - a[1]).slice(0, 3).map(([area]) => area);
+  const areas = topAreas.length > 0 ? ` ${topAreas.length === 1 ? 'at' : 'across'} ${topAreas.join(', ')}` : '';
+  // Only monthly prices count. Anything under ₹2,000 is skipped: those entries look like placeholders or day-pass rates.
+  const monthlyPrices = cards
+    .filter((card) => /month/i.test(card.period || '') && /\d/.test(String(card.price ?? '')))
+    .map((card) => Number(String(card.price).replace(/\D/g, '')))
+    .filter((price) => price >= 2000);
+  const fromPrice = monthlyPrices.length > 0 ? `₹${Math.min(...monthlyPrices).toLocaleString('en-IN')}` : '';
+  const spaces = `${cards.length} coworking ${cards.length === 1 ? 'space' : 'spaces'}`;
+
+  return {
+    title: `Coworking Space in ${label} | ${cards.length} ${cards.length === 1 ? 'Workspace' : 'Workspaces'}${fromPrice ? ` from ${fromPrice}` : ''} | ${SITE_NAME}`,
+    description: `${cards.length === 1 ? 'Explore' : 'Compare'} ${spaces} in ${label}${areas}${fromPrice ? `, from ${fromPrice} a month` : ''}. Get a free quote from ${SITE_NAME}.`,
+    structuredData: {
+      '@context': 'https://schema.org',
+      '@type': 'ItemList',
+      name: `Coworking spaces in ${label}`,
+      numberOfItems: cards.length,
+      itemListElement: cards.slice(0, 10).map((card, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        name: card.name,
+        ...(getSlug ? { url: `${window.location.origin}${getSlug(card)}` } : {}),
+      })),
+    },
+  };
+};
 
 const buildVirtualSeo = (cityName) => ({
   title: `Virtual Office in ${cityName} | GST & Company Registration Address | ${SITE_NAME}`,
@@ -201,11 +300,11 @@ const resolveSeo = (pathname) => {
   if (cityOffice) {
     const cityKey = normalizeCityKey(cityOffice.params.city);
     const found = findOffice(cityOffice.params.id, cityKey);
-    return found ? buildOfficeSeo(found) : buildCitySeo(titleCaseSlug(cityKey));
+    return found ? buildOfficeSeo(found) : buildCitySeo(cityKey);
   }
 
   const cityPage = matchPath('/coworking/:city', pathname);
-  if (cityPage) return buildCitySeo(titleCaseSlug(normalizeCityKey(cityPage.params.city)));
+  if (cityPage) return buildCitySeo(normalizeCityKey(cityPage.params.city));
 
   const rootOffice = matchPath('/:id', pathname);
   const found = rootOffice ? findOffice(rootOffice.params.id) : null;
@@ -333,6 +432,33 @@ const App = () => {
           <Route path="/coworking/agartala/:id" element={<AgartalaOfficeDetail />} />
           <Route path="/coworking/aizawl" element={<AizawlPage />} />
           <Route path="/coworking/aizawl/:id" element={<AizawlOfficeDetail />} />
+          <Route path="/coworking/aligarh" element={<AligarhPage />} />
+          <Route path="/coworking/aligarh/:id" element={<AligarhOfficeDetail />} />
+          <Route path="/coworking/ballari" element={<BallariPage />} />
+          <Route path="/coworking/ballari/:id" element={<BallariOfficeDetail />} />
+          <Route path="/coworking/bareilly" element={<BareillyPage />} />
+          <Route path="/coworking/bareilly/:id" element={<BareillyOfficeDetail />} />
+          <Route path="/coworking/belagavi" element={<BelagaviPage />} />
+          <Route path="/coworking/belagavi/:id" element={<BelagaviOfficeDetail />} />
+          <Route path="/coworking/bharuch" element={<BharuchPage />} />
+          <Route path="/coworking/bharuch/:id" element={<BharuchOfficeDetail />} />
+          <Route path="/coworking/bhatinda" element={<BhatindaPage />} />
+          <Route path="/coworking/bhatinda/:id" element={<BhatindaOfficeDetail />} />
+          <Route path="/coworking/bhavnagar" element={<BhavnagarPage />} />
+          <Route path="/coworking/bhavnagar/:id" element={<BhavnagarOfficeDetail />} />
+          <Route path="/coworking/bhilwara" element={<BhilwaraPage />} />
+          <Route path="/coworking/bhilwara/:id" element={<BhilwaraOfficeDetail />} />
+          <Route path="/coworking/bhopal" element={<BhopalPage />} />
+          <Route path="/coworking/bhopal/:id" element={<BhopalOfficeDetail />} />
+          <Route path="/coworking/bikaner" element={<BikanerPage />} />
+          <Route path="/coworking/bikaner/:id" element={<BikanerOfficeDetail />} />
+          <Route path="/coworking/bir-billing" element={<BirBillingPage />} />
+          <Route path="/coworking/bir-billing/:id" element={<BirBillingOfficeDetail />} />
+          {/* More Cities entries whose names don't match their page URL. */}
+          <Route path="/coworking/alwar / bhiwadi" element={<Navigate to="/coworking/alwar-bhiwadi" replace />} />
+          <Route path="/coworking/ballari / bellary" element={<Navigate to="/coworking/ballari" replace />} />
+          <Route path="/coworking/belagavi / belgaum" element={<Navigate to="/coworking/belagavi" replace />} />
+          <Route path="/coworking/bir billing" element={<Navigate to="/coworking/bir-billing" replace />} />
           <Route path="/coworking/kolkata/:id" element={<KolkataOfficeDetail />} />
           <Route path="/virtual-office/:city" element={<VirtualOffice />} />
           <Route path="/:id" element={<OfficeRoute />} />
