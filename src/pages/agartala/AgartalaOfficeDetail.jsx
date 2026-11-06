@@ -373,7 +373,7 @@ const OfficeDetail = () => {
           >
             <img referrerPolicy="no-referrer"
               src={images[0] || singleImage}
-              alt={`${space.name} - ${space.location} coworking space, photo 1`}
+              alt={`${space.name} coworking space and private office in ${space.location} - interior photo 1`}
               className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors pointer-events-none" />
@@ -389,7 +389,7 @@ const OfficeDetail = () => {
               >
                 <img referrerPolicy="no-referrer"
                   src={images[idx] || images[0] || singleImage}
-                  alt={`${space.name} - ${space.location} coworking space, photo ${idx + 1}`}
+                  alt={`${space.name} coworking space and private office in ${space.location} - interior photo ${idx + 1}`}
                   className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors pointer-events-none" />
@@ -404,7 +404,7 @@ const OfficeDetail = () => {
           >
             <img referrerPolicy="no-referrer"
               src={images[3] || images[0] || singleImage}
-              alt={`${space.name} - ${space.location} coworking space, photo 4`}
+              alt={`${space.name} coworking space and private office in ${space.location} - interior photo 4`}
               className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors pointer-events-none" />
@@ -477,7 +477,7 @@ const OfficeDetail = () => {
                   <div className="w-full sm:w-44 h-32 sm:h-28 rounded-lg overflow-hidden bg-slate-100 shrink-0">
                     <img referrerPolicy="no-referrer"
                       src={plan.image}
-                      alt={`${plan.title} at ${space.name}`}
+                      alt={`${plan.title} at ${space.name} coworking space in Agartala`}
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -941,7 +941,7 @@ const OfficeDetail = () => {
                   <div className="w-full aspect-[16/10] rounded-2xl overflow-hidden bg-slate-100 shadow-2xs group-hover:shadow-md transition-shadow">
                     <img referrerPolicy="no-referrer"
                       src={(Array.isArray(item.images) && item.images[0]) || item.image || 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80'}
-                      alt={`${item.name} - ${item.location || item.area || 'coworking space'}`}
+                      alt={`${item.name} coworking space in ${item.location || item.area || 'Agartala'}`}
                       loading="lazy"
                       className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
                     />
@@ -1011,7 +1011,7 @@ const OfficeDetail = () => {
                 <div className="relative h-32 sm:h-36 w-full overflow-hidden bg-slate-100">
                   <img referrerPolicy="no-referrer"
                     src={location.image}
-                    alt={`Coworking spaces in ${location.name}`}
+                    alt={`Coworking spaces and shared offices in ${location.name}, Agartala`}
                     loading="lazy"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
@@ -1080,7 +1080,7 @@ const OfficeDetail = () => {
             <div className="w-full h-full max-h-[66vh] sm:max-h-[70vh] flex items-center justify-center px-10 sm:px-16 overflow-hidden">
               <img referrerPolicy="no-referrer"
                 src={images[activeImageIndex] || singleImage}
-                alt={`${space.name} - ${space.location} coworking space, photo ${activeImageIndex + 1}`}
+                alt={`${space.name} coworking space and private office in ${space.location} - interior photo ${activeImageIndex + 1}`}
                 className="max-h-full max-w-full w-auto h-auto object-contain rounded-xl shadow-2xl select-none"
               />
             </div>
@@ -1109,7 +1109,7 @@ const OfficeDetail = () => {
                     activeImageIndex === idx ? 'ring-2 ring-[#007bff] scale-105 opacity-100' : 'opacity-40 hover:opacity-85'
                   }`}
                 >
-                  <img referrerPolicy="no-referrer" src={imgUrl} alt={`${space.name} thumbnail ${idx + 1}`} className="w-full h-full object-cover" />
+                  <img referrerPolicy="no-referrer" src={imgUrl} alt={`${space.name} coworking space in Agartala - thumbnail photo ${idx + 1}`} className="w-full h-full object-cover" />
                 </button>
               ))}
             </div>

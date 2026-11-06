@@ -112,7 +112,7 @@ const OfficeCard = ({ space }) => {
               <img
                 key={`${space.id}-img-${imageIndex}`}
                 src={imageUrl}
-                alt={`${space.name} - ${space.area}, Agartala workspace interior view ${displayIndex}`}
+                alt={`${space.name} coworking space and shared office in ${space.area}, Agartala - interior photo ${displayIndex}`}
                 loading="lazy"
                 referrerPolicy="no-referrer"
                 className="w-full h-full shrink-0 object-cover pointer-events-none"
@@ -479,7 +479,7 @@ const Agartala = () => {
                 <div className="relative h-32 sm:h-36 w-full overflow-hidden bg-slate-100">
                   <img
                     src={location.image}
-                    alt={`Coworking spaces in ${location.name}`}
+                    alt={`Coworking spaces and shared offices in ${location.name}, Agartala`}
                     loading="lazy"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
