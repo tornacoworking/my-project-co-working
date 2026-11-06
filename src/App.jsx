@@ -85,6 +85,15 @@ import { getAnandOfficeCardById } from './pages/anand/anandData';
 import AyodhyaPage from './pages/ayodhya/Ayodhya';
 import AyodhyaOfficeDetail from './pages/ayodhya/AyodhyaOfficeDetail';
 import { getAyodhyaOfficeCardById } from './pages/ayodhya/ayodhyaData';
+import AurangabadPage from './pages/aurangabad/Aurangabad';
+import AurangabadOfficeDetail from './pages/aurangabad/AurangabadOfficeDetail';
+import { getAurangabadOfficeCardById } from './pages/aurangabad/aurangabadData';
+import AgartalaPage from './pages/agartala/Agartala';
+import AgartalaOfficeDetail from './pages/agartala/AgartalaOfficeDetail';
+import { getAgartalaOfficeCardById } from './pages/agartala/agartalaData';
+import AizawlPage from './pages/aizawl/Aizawl';
+import AizawlOfficeDetail from './pages/aizawl/AizawlOfficeDetail';
+import { getAizawlOfficeCardById } from './pages/aizawl/aizawlData';
 import KolkataOfficeDetail from './pages/kolkata/KolkataOfficeDetail';
 import { getKolkataOfficeCardById } from './pages/kolkata/kolkataData';
 
@@ -119,6 +128,9 @@ const OFFICE_CITIES = [
   { key: 'amritsar', label: 'Amritsar', getCard: getAmritsarOfficeCardById, Detail: AmritsarOfficeDetail },
   { key: 'anand', label: 'Anand', getCard: getAnandOfficeCardById, Detail: AnandOfficeDetail },
   { key: 'ayodhya', label: 'Ayodhya', getCard: getAyodhyaOfficeCardById, Detail: AyodhyaOfficeDetail },
+  { key: 'aurangabad', label: 'Aurangabad', getCard: getAurangabadOfficeCardById, Detail: AurangabadOfficeDetail },
+  { key: 'agartala', label: 'Agartala', getCard: getAgartalaOfficeCardById, Detail: AgartalaOfficeDetail },
+  { key: 'aizawl', label: 'Aizawl', getCard: getAizawlOfficeCardById, Detail: AizawlOfficeDetail },
   { key: 'kolkata', label: 'Kolkata', getCard: getKolkataOfficeCardById, Detail: KolkataOfficeDetail },
 ];
 
@@ -313,6 +325,12 @@ const App = () => {
           <Route path="/coworking/anand/:id" element={<AnandOfficeDetail />} />
           <Route path="/coworking/ayodhya" element={<AyodhyaPage />} />
           <Route path="/coworking/ayodhya/:id" element={<AyodhyaOfficeDetail />} />
+          <Route path="/coworking/aurangabad" element={<AurangabadPage />} />
+          <Route path="/coworking/aurangabad/:id" element={<AurangabadOfficeDetail />} />
+          <Route path="/coworking/agartala" element={<AgartalaPage />} />
+          <Route path="/coworking/agartala/:id" element={<AgartalaOfficeDetail />} />
+          <Route path="/coworking/aizawl" element={<AizawlPage />} />
+          <Route path="/coworking/aizawl/:id" element={<AizawlOfficeDetail />} />
           <Route path="/coworking/kolkata/:id" element={<KolkataOfficeDetail />} />
           <Route path="/virtual-office/:city" element={<VirtualOffice />} />
           <Route path="/:id" element={<OfficeRoute />} />
