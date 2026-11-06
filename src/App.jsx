@@ -127,6 +127,9 @@ import { getBikanerOfficeCardById } from './pages/bikaner/bikanerData';
 import BirBillingPage from './pages/bir-billing/BirBilling';
 import BirBillingOfficeDetail from './pages/bir-billing/BirBillingOfficeDetail';
 import { getBirBillingOfficeCardById } from './pages/bir-billing/birBillingData';
+import WarangalPage from './pages/warangal/Warangal';
+import WarangalOfficeDetail from './pages/warangal/WarangalOfficeDetail';
+import { getWarangalOfficeCardById } from './pages/warangal/warangalData';
 import KolkataOfficeDetail from './pages/kolkata/KolkataOfficeDetail';
 import { getKolkataOfficeCardById } from './pages/kolkata/kolkataData';
 
@@ -175,6 +178,7 @@ const OFFICE_CITIES = [
   { key: 'bhopal', label: 'Bhopal', getCard: getBhopalOfficeCardById, Detail: BhopalOfficeDetail },
   { key: 'bikaner', label: 'Bikaner', getCard: getBikanerOfficeCardById, Detail: BikanerOfficeDetail },
   { key: 'bir-billing', label: 'Bir Billing', getCard: getBirBillingOfficeCardById, Detail: BirBillingOfficeDetail },
+  { key: 'warangal', label: 'Warangal', getCard: getWarangalOfficeCardById, Detail: WarangalOfficeDetail },
   { key: 'kolkata', label: 'Kolkata', getCard: getKolkataOfficeCardById, Detail: KolkataOfficeDetail },
 ];
 
@@ -454,6 +458,10 @@ const App = () => {
           <Route path="/coworking/bikaner/:id" element={<BikanerOfficeDetail />} />
           <Route path="/coworking/bir-billing" element={<BirBillingPage />} />
           <Route path="/coworking/bir-billing/:id" element={<BirBillingOfficeDetail />} />
+          <Route path="/coworking/warangal" element={<WarangalPage />} />
+          <Route path="/coworking/warangal/:id" element={<WarangalOfficeDetail />} />
+          <Route path="/coworking/hanamkonda" element={<Navigate to="/coworking/warangal" replace />} />
+          <Route path="/coworking/hanumakonda" element={<Navigate to="/coworking/warangal" replace />} />
           {/* More Cities entries whose names don't match their page URL. */}
           <Route path="/coworking/alwar / bhiwadi" element={<Navigate to="/coworking/alwar-bhiwadi" replace />} />
           <Route path="/coworking/ballari / bellary" element={<Navigate to="/coworking/ballari" replace />} />
