@@ -94,24 +94,12 @@ import { getAgartalaOfficeCardById } from './pages/agartala/agartalaData';
 import AizawlPage from './pages/aizawl/Aizawl';
 import AizawlOfficeDetail from './pages/aizawl/AizawlOfficeDetail';
 import { getAizawlOfficeCardById } from './pages/aizawl/aizawlData';
-import AligarhPage from './pages/aligarh/Aligarh';
-import AligarhOfficeDetail from './pages/aligarh/AligarhOfficeDetail';
-import { getAligarhOfficeCardById } from './pages/aligarh/aligarhData';
-import BallariPage from './pages/ballari/Ballari';
-import BallariOfficeDetail from './pages/ballari/BallariOfficeDetail';
-import { getBallariOfficeCardById } from './pages/ballari/ballariData';
 import BareillyPage from './pages/bareilly/Bareilly';
 import BareillyOfficeDetail from './pages/bareilly/BareillyOfficeDetail';
 import { getBareillyOfficeCardById } from './pages/bareilly/bareillyData';
-import BelagaviPage from './pages/belagavi/Belagavi';
-import BelagaviOfficeDetail from './pages/belagavi/BelagaviOfficeDetail';
-import { getBelagaviOfficeCardById } from './pages/belagavi/belagaviData';
 import BharuchPage from './pages/bharuch/Bharuch';
 import BharuchOfficeDetail from './pages/bharuch/BharuchOfficeDetail';
 import { getBharuchOfficeCardById } from './pages/bharuch/bharuchData';
-import BhatindaPage from './pages/bhatinda/Bhatinda';
-import BhatindaOfficeDetail from './pages/bhatinda/BhatindaOfficeDetail';
-import { getBhatindaOfficeCardById } from './pages/bhatinda/bhatindaData';
 import BhavnagarPage from './pages/bhavnagar/Bhavnagar';
 import BhavnagarOfficeDetail from './pages/bhavnagar/BhavnagarOfficeDetail';
 import { getBhavnagarOfficeCardById } from './pages/bhavnagar/bhavnagarData';
@@ -121,9 +109,6 @@ import { getBhilwaraOfficeCardById } from './pages/bhilwara/bhilwaraData';
 import BhopalPage from './pages/bhopal/Bhopal';
 import BhopalOfficeDetail from './pages/bhopal/BhopalOfficeDetail';
 import { getBhopalOfficeCardById } from './pages/bhopal/bhopalData';
-import BikanerPage from './pages/bikaner/Bikaner';
-import BikanerOfficeDetail from './pages/bikaner/BikanerOfficeDetail';
-import { getBikanerOfficeCardById } from './pages/bikaner/bikanerData';
 import BirBillingPage from './pages/bir-billing/BirBilling';
 import BirBillingOfficeDetail from './pages/bir-billing/BirBillingOfficeDetail';
 import { getBirBillingOfficeCardById } from './pages/bir-billing/birBillingData';
@@ -167,16 +152,11 @@ const OFFICE_CITIES = [
   { key: 'aurangabad', label: 'Aurangabad', getCard: getAurangabadOfficeCardById, Detail: AurangabadOfficeDetail },
   { key: 'agartala', label: 'Agartala', getCard: getAgartalaOfficeCardById, Detail: AgartalaOfficeDetail },
   { key: 'aizawl', label: 'Aizawl', getCard: getAizawlOfficeCardById, Detail: AizawlOfficeDetail },
-  { key: 'aligarh', label: 'Aligarh', getCard: getAligarhOfficeCardById, Detail: AligarhOfficeDetail },
-  { key: 'ballari', label: 'Ballari', getCard: getBallariOfficeCardById, Detail: BallariOfficeDetail },
   { key: 'bareilly', label: 'Bareilly', getCard: getBareillyOfficeCardById, Detail: BareillyOfficeDetail },
-  { key: 'belagavi', label: 'Belagavi', getCard: getBelagaviOfficeCardById, Detail: BelagaviOfficeDetail },
   { key: 'bharuch', label: 'Bharuch', getCard: getBharuchOfficeCardById, Detail: BharuchOfficeDetail },
-  { key: 'bhatinda', label: 'Bhatinda', getCard: getBhatindaOfficeCardById, Detail: BhatindaOfficeDetail },
   { key: 'bhavnagar', label: 'Bhavnagar', getCard: getBhavnagarOfficeCardById, Detail: BhavnagarOfficeDetail },
   { key: 'bhilwara', label: 'Bhilwara', getCard: getBhilwaraOfficeCardById, Detail: BhilwaraOfficeDetail },
   { key: 'bhopal', label: 'Bhopal', getCard: getBhopalOfficeCardById, Detail: BhopalOfficeDetail },
-  { key: 'bikaner', label: 'Bikaner', getCard: getBikanerOfficeCardById, Detail: BikanerOfficeDetail },
   { key: 'bir-billing', label: 'Bir Billing', getCard: getBirBillingOfficeCardById, Detail: BirBillingOfficeDetail },
   { key: 'warangal', label: 'Warangal', getCard: getWarangalOfficeCardById, Detail: WarangalOfficeDetail },
   { key: 'kolkata', label: 'Kolkata', getCard: getKolkataOfficeCardById, Detail: KolkataOfficeDetail },
@@ -436,26 +416,16 @@ const App = () => {
           <Route path="/coworking/agartala/:id" element={<AgartalaOfficeDetail />} />
           <Route path="/coworking/aizawl" element={<AizawlPage />} />
           <Route path="/coworking/aizawl/:id" element={<AizawlOfficeDetail />} />
-          <Route path="/coworking/aligarh" element={<AligarhPage />} />
-          <Route path="/coworking/aligarh/:id" element={<AligarhOfficeDetail />} />
-          <Route path="/coworking/ballari" element={<BallariPage />} />
-          <Route path="/coworking/ballari/:id" element={<BallariOfficeDetail />} />
           <Route path="/coworking/bareilly" element={<BareillyPage />} />
           <Route path="/coworking/bareilly/:id" element={<BareillyOfficeDetail />} />
-          <Route path="/coworking/belagavi" element={<BelagaviPage />} />
-          <Route path="/coworking/belagavi/:id" element={<BelagaviOfficeDetail />} />
           <Route path="/coworking/bharuch" element={<BharuchPage />} />
           <Route path="/coworking/bharuch/:id" element={<BharuchOfficeDetail />} />
-          <Route path="/coworking/bhatinda" element={<BhatindaPage />} />
-          <Route path="/coworking/bhatinda/:id" element={<BhatindaOfficeDetail />} />
           <Route path="/coworking/bhavnagar" element={<BhavnagarPage />} />
           <Route path="/coworking/bhavnagar/:id" element={<BhavnagarOfficeDetail />} />
           <Route path="/coworking/bhilwara" element={<BhilwaraPage />} />
           <Route path="/coworking/bhilwara/:id" element={<BhilwaraOfficeDetail />} />
           <Route path="/coworking/bhopal" element={<BhopalPage />} />
           <Route path="/coworking/bhopal/:id" element={<BhopalOfficeDetail />} />
-          <Route path="/coworking/bikaner" element={<BikanerPage />} />
-          <Route path="/coworking/bikaner/:id" element={<BikanerOfficeDetail />} />
           <Route path="/coworking/bir-billing" element={<BirBillingPage />} />
           <Route path="/coworking/bir-billing/:id" element={<BirBillingOfficeDetail />} />
           <Route path="/coworking/warangal" element={<WarangalPage />} />
@@ -464,8 +434,6 @@ const App = () => {
           <Route path="/coworking/hanumakonda" element={<Navigate to="/coworking/warangal" replace />} />
           {/* More Cities entries whose names don't match their page URL. */}
           <Route path="/coworking/alwar / bhiwadi" element={<Navigate to="/coworking/alwar-bhiwadi" replace />} />
-          <Route path="/coworking/ballari / bellary" element={<Navigate to="/coworking/ballari" replace />} />
-          <Route path="/coworking/belagavi / belgaum" element={<Navigate to="/coworking/belagavi" replace />} />
           <Route path="/coworking/bir billing" element={<Navigate to="/coworking/bir-billing" replace />} />
           <Route path="/coworking/kolkata/:id" element={<KolkataOfficeDetail />} />
           <Route path="/virtual-office/:city" element={<VirtualOffice />} />

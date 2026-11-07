@@ -70,12 +70,12 @@ const rawMoreCityNames = [
   'Siliguri', 'Dharamshala / McLeod Ganj', 'Manali', 'Shimla', 'Kasol / Parvati Valley',
   'Bir Billing', 'Rishikesh', 'Haridwar', 'Nainital', 'Mussoorie',
   'Pondicherry / Puducherry', 'Shillong', 'Gangtok', 'Jammu', 'Srinagar', 'Panipat',
-  'Sonipat', 'Karnal', 'Rohtak', 'Hisar', 'Ambala', 'Bhatinda', 'Pathankot',
-  'Alwar / Bhiwadi', 'Ajmer', 'Bikaner', 'Bhilwara', 'Mathura', 'Aligarh', 'Bareilly',
+  'Sonipat', 'Karnal', 'Rohtak', 'Hisar', 'Ambala', 'Pathankot',
+  'Alwar / Bhiwadi', 'Ajmer', 'Bhilwara', 'Mathura', 'Bareilly',
   'Moradabad', 'Gorakhpur', 'Jhansi', 'Ayodhya', 'Bhavnagar', 'Jamnagar', 'Anand',
   'Vapi', 'Bharuch', 'Kolhapur', 'Solapur', 'Satara', 'Sangli', 'Ahmednagar',
-  'Jalgaon', 'Amravati', 'Nanded', 'Ratnagiri', 'Belagavi / Belgaum',
-  'Ballari / Bellary', 'Kalaburagi / Gulbarga',
+  'Jalgaon', 'Amravati', 'Nanded', 'Ratnagiri',
+  'Kalaburagi / Gulbarga',
   // Photos (Wikimedia Commons): agartala.jpg by Sharada Prasad CS, CC BY 2.0; aizawl.jpg by GeoEvan, CC BY 4.0.
   'Agartala', 'Aizawl'
 ];
