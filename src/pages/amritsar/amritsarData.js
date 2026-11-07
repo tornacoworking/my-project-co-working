@@ -176,6 +176,73 @@ export const amritsarSpaces = [
       'https://lh3.googleusercontent.com/grass-cs/AABkmLc9EpLZU-8u7Hgptx0D06RCUCwUzFRxckMKDUx-K3CnflYd53LBOPJrBrOLG6CVRZ-g4IFHSsWfaSb0NBfL2wd0T_rxLquP3opWcdWr7eQSXq5hgipmIxo26bWyxUPuExz9VUtnBY_qS_jU=s4800-w800-h600',
       'https://lh3.googleusercontent.com/grass-cs/AABkmLcqXE_w0H5psAPE4qDZ3qIRUDyxzQx9aX_e3ZnDhk5-B-8kz91pf1c-OiN_xI-AAbHw-3fof8fAB8gxS11w_EeorycwjedKC16aE2mSweG0H2pbESK42AU4kb4ALOdwuVrektcklczz_3xi=s4800-w800-h600'
     ]
+  },
+  {
+    id: 8,
+    name: 'Timeless Amritsar',
+    area: 'INA Colony',
+    location: 'INA Colony, Amritsar',
+    address: 'Near Country Inn & Suites, INA Colony, Amritsar, Punjab',
+    phone: null,
+    hours: '10:00 AM – 8:00 PM, Mon–Sat',
+    amenities: ['High Speed WiFi', 'Meeting Rooms', 'Mail Handling'],
+    capacity: 40,
+    price: '₹3,500',
+    period: '/ month',
+    priceFormatted: '₹3,500 / month',
+    deskPrice: '₹3,500',
+    cabinPrice: null,
+    priceNote: 'Per desk, Qdesq listing',
+    ctaText: 'Get Quote',
+    images: [
+      'https://qdesq.imagekit.io/image/upload/tr=w-782,h-408,cm-pad_resize,bg-F3F3F3/v1673004783/jrshedwepezevvg6wnvs.webp',
+      'https://qdesq.imagekit.io/image/upload/tr=w-782,h-408,cm-pad_resize,bg-F3F3F3/v1672988947/ndd6wmj1ksvi4aj9ysu0.jpg'
+    ]
+  },
+  {
+    // Qdesq lists this as a coworking space despite the hotel name. Confirm with the operator.
+    id: 9,
+    name: 'Hotel BackPackers Nest',
+    area: 'Cooper Road',
+    location: 'Cooper Road, Amritsar',
+    address: 'Near RS Tower, Cooper Road, Amritsar, Punjab',
+    phone: null,
+    hours: '9:00 AM – 7:00 PM, daily',
+    amenities: ['High Speed WiFi', 'Air Conditioning', 'Tea/Coffee'],
+    capacity: 35,
+    price: '₹3,500',
+    period: '/ month',
+    priceFormatted: '₹3,500 / month',
+    deskPrice: '₹3,500',
+    cabinPrice: '₹8,000',
+    priceNote: 'Per desk, Qdesq listing',
+    ctaText: 'Get Quote',
+    images: [
+      'https://ik.imagekit.io/qdesq/qdesq/e3ea02bfa07e3b51b77a473081ee010e_go7tXF4a1S.JPG',
+      'https://ik.imagekit.io/qdesq/qdesq/2f20561d39ab05250dee3138e99c87de_N16huL0Vb.JPG',
+      'https://ik.imagekit.io/qdesq/qdesq/fb38eb3d83ec9fd84165b1bf1055f1fe_roM6vt4eD.JPG'
+    ]
+  },
+  {
+    // The listing page shows no confirmed price, so it stays on request.
+    id: 10,
+    name: 'The Work Cell - Hall Bazar',
+    area: 'Hall Bazar',
+    location: 'Hall Bazar, Amritsar',
+    address: 'Hall Bazar, Katra Ahluwalia, Amritsar, Punjab',
+    phone: null,
+    hours: '24 hours, daily',
+    amenities: ['High Speed WiFi', 'Air Conditioning', 'Printer', 'Tea/Coffee', 'Car / Bike Parking'],
+    price: 'On request',
+    period: '',
+    priceFormatted: 'Price on request',
+    deskPrice: null,
+    cabinPrice: null,
+    ctaText: 'Get Quote',
+    images: [
+      'https://coworkingers.com/wp-content/uploads/2023/08/IMG_20211017_104638-min.jpg',
+      'https://coworkingers.com/wp-content/uploads/2023/08/2021-10-16-min.jpg'
+    ]
   }
 ];
 

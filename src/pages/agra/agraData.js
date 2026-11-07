@@ -217,6 +217,51 @@ export const agraSpaces = [
       'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Sf3DfmlQYKwIaLZoPq2El3MGI7Y_hYKdk-BFEkSIQskrcAnMZJRwdWo0CGeJ9jsNl-fa9syVOxktpuUvQt9IWvaP0s6fGy58ATjYzFo8N84I-QPMavW1NhvSaJ_SvnVDNo3TMesLWvVCps=w1600-h1067-k-no',
       'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SC_vrxPMHkAtz7a0AS4I0KydFxYCwkgnt_bF7LHNBmXOZwUlAqeynLWUA-pPPkt2bo6uQFqLHaM7NXGEn20V1gEhBRyDPx1vprlebLnCYxq2avkyRg83VTS3C4IbAB00_FkcFqzQ=w1600-h1067-k-no'
     ]
+  },
+  {
+    // Qdesq listing; it marks the desk option as not available, so confirm before publishing.
+    id: 11,
+    name: 'Urban Studios',
+    area: 'Sanjay Place',
+    location: 'Sanjay Place, Agra',
+    address: 'Near Corporate Park, Sanjay Place, Agra, Uttar Pradesh',
+    phone: null,
+    hours: '9:00 AM – 7:00 PM, Mon–Sat',
+    amenities: ['High Speed WiFi', 'Air Conditioning', 'Lounge', 'Printer'],
+    price: '₹6,000',
+    period: '/ month',
+    priceFormatted: '₹6,000 / month',
+    deskPrice: '₹6,000',
+    cabinPrice: '₹10,000',
+    priceNote: 'Per desk, Qdesq listing',
+    ctaText: 'Get Quote',
+    images: [
+      'https://qdesq.imagekit.io/image/upload/tr=w-782,h-408,cm-pad_resize,bg-F3F3F3/v1640685342/a5b5kdzagqenqwzhuskv.jpg'
+    ]
+  },
+  {
+    // Qdesq listing.
+    id: 12,
+    name: 'Space n Mugs',
+    area: 'Basai Khurd',
+    location: 'Basai Khurd, Agra',
+    address: 'Near Radisson Hotel, Basai Khurd, Agra, Uttar Pradesh',
+    phone: null,
+    hours: '10:00 AM – 8:00 PM, Mon–Sat',
+    amenities: ['High Speed WiFi', 'Air Conditioning', 'Tea/Coffee'],
+    capacity: 35,
+    price: '₹8,000',
+    period: '/ month',
+    priceFormatted: '₹8,000 / month',
+    deskPrice: '₹8,000',
+    cabinPrice: null,
+    priceNote: 'Per desk, Qdesq listing',
+    ctaText: 'Get Quote',
+    images: [
+      'https://qdesq.imagekit.io/image/upload/tr=w-782,h-408,cm-pad_resize,bg-F3F3F3/v1612338507/s0rtcev2mprvyullanry.jpg',
+      'https://qdesq.imagekit.io/image/upload/tr=w-782,h-408,cm-pad_resize,bg-F3F3F3/v1612338507/tqydo0iuhwmnfgr8eyww.jpg',
+      'https://qdesq.imagekit.io/image/upload/tr=w-782,h-408,cm-pad_resize,bg-F3F3F3/v1612338507/kja0cki0diz7ro2tup94.jpg'
+    ]
   }
 ];
 

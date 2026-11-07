@@ -187,6 +187,159 @@ export const bhopalSpaces = [
       'https://qdesq.imagekit.io/image/upload/tr=w-782,h-408,cm-pad_resize,bg-F3F3F3/v1640329711/hyhcbgi32x957grx7owt.png',
       'https://qdesq.imagekit.io/image/upload/tr=w-782,h-408,cm-pad_resize,bg-F3F3F3/v1640329711/wryhq8xhs3xeqwzuont4.png'
     ]
+  },
+  {
+    // The listing page shows no confirmed price, so it stays on request.
+    id: 9,
+    name: 'AIC-AARTECH',
+    area: 'Arera Colony',
+    location: 'Arera Colony, Bhopal',
+    address: 'E-2/57, Arera Colony, Bhopal, Madhya Pradesh 462016',
+    phone: null,
+    hours: null,
+    amenities: ['High Speed WiFi', 'Air Conditioning', 'Printer', 'Car / Bike Parking'],
+    price: 'On request',
+    period: '',
+    priceFormatted: 'Price on request',
+    deskPrice: null,
+    cabinPrice: null,
+    ctaText: 'Get Quote',
+    images: [
+      'https://coworkingers.com/wp-content/uploads/2020/07/AIC-AARTECH-003-min.jpg'
+    ]
+  },
+  {
+    id: 10,
+    name: 'S.PACE',
+    area: 'Arera Colony',
+    location: 'Arera Colony, Bhopal',
+    address: 'E-3/114, 10 Number, Arera Colony, Bhopal, Madhya Pradesh 462016',
+    phone: null,
+    hours: null,
+    amenities: ['Meeting Rooms'],
+    price: '₹5,000',
+    period: '/ month',
+    priceFormatted: '₹5,000 / month',
+    deskPrice: '₹5,000',
+    cabinPrice: null,
+    priceNote: 'Coworkingers listing, plans ₹4,000–₹6,000',
+    ctaText: 'Get Quote',
+    images: [
+      'https://coworkingers.com/wp-content/uploads/2020/07/S.PACE-Bhopal-001-min.jpg',
+      'https://coworkingers.com/wp-content/uploads/2020/07/S.PACE-Bhopal-003-min.jpg',
+      'https://coworkingers.com/wp-content/uploads/2020/07/S.PACE-Bhopal-002-min.jpg'
+    ]
+  },
+  {
+    // Second WorkPad address. Amenities are taken from the same operator's other Bhopal listing.
+    id: 11,
+    name: 'The WorkPad - Arera Colony',
+    area: 'Arera Colony',
+    location: 'Arera Colony, Bhopal',
+    address: '3rd Floor, E-3/45, 10 Cross Road, Arera Colony, Bhopal, Madhya Pradesh 462039',
+    phone: null,
+    hours: null,
+    amenities: ['High Speed WiFi', 'Lounge', 'Car / Bike Parking'],
+    price: '₹3,999',
+    period: '/ month',
+    priceFormatted: '₹3,999 / month',
+    deskPrice: '₹3,999',
+    cabinPrice: null,
+    priceNote: 'Coworkingers listing',
+    ctaText: 'Get Quote',
+    images: [
+      'https://coworkingers.com/wp-content/uploads/2020/07/The-WorkPad-Co-working-Space-001-min.jpg',
+      'https://coworkingers.com/wp-content/uploads/2020/07/The-WorkPad-Co-working-Space-002-min.jpg',
+      'https://coworkingers.com/wp-content/uploads/2020/07/The-WorkPad-Co-working-Space-003-min.jpg'
+    ]
+  },
+  {
+    // The listing page shows no confirmed price, so it stays on request.
+    id: 12,
+    name: 'WorkdotSpace',
+    area: 'Arera Colony',
+    location: 'Arera Colony, Bhopal',
+    address: 'Exclusive Residency, E-4, Arera Colony, Bhopal, Madhya Pradesh',
+    phone: null,
+    hours: null,
+    amenities: ['High Speed WiFi', 'Air Conditioning', 'Printer', 'Pantry', 'Car / Bike Parking'],
+    price: 'On request',
+    period: '',
+    priceFormatted: 'Price on request',
+    deskPrice: null,
+    cabinPrice: null,
+    ctaText: 'Get Quote',
+    images: [
+      'https://coworkingers.com/wp-content/uploads/2023/08/DSC_8041-min.jpg',
+      'https://coworkingers.com/wp-content/uploads/2023/08/DSC_8024-min.jpg',
+      'https://coworkingers.com/wp-content/uploads/2023/08/2021-01-21-min-1.jpg'
+    ]
+  },
+  {
+    // The listing page shows no confirmed price, so it stays on request.
+    id: 13,
+    name: 'Thrive Workspace',
+    area: 'MP Nagar',
+    location: 'MP Nagar, Bhopal',
+    address: '232, Zone-II, near Sargam Cinema, MP Nagar, Bhopal, Madhya Pradesh 462023',
+    phone: null,
+    hours: null,
+    amenities: ['High Speed WiFi', 'Air Conditioning', 'Printer', 'Tea/Coffee', 'Lounge', 'Car / Bike Parking'],
+    price: 'On request',
+    period: '',
+    priceFormatted: 'Price on request',
+    deskPrice: null,
+    cabinPrice: null,
+    ctaText: 'Get Quote',
+    images: [
+      'https://coworkingers.com/wp-content/uploads/2023/08/image00004-min.jpeg',
+      'https://coworkingers.com/wp-content/uploads/2023/08/image00014-min.jpeg',
+      'https://coworkingers.com/wp-content/uploads/2023/08/eul468710ejdbzq7txki-min.png'
+    ]
+  },
+  {
+    // GoFloaters gives the locality only and doesn't itemise amenities.
+    id: 14,
+    name: 'CynergX Coworking Space',
+    area: 'Arera Colony',
+    location: 'Arera Colony, Bhopal',
+    address: 'Arera Colony, Bhopal, Madhya Pradesh',
+    phone: null,
+    hours: null,
+    amenities: ['Dedicated Desks'],
+    price: '₹3,350',
+    period: '/ month',
+    priceFormatted: '₹3,350 / month',
+    deskPrice: '₹3,350',
+    cabinPrice: null,
+    priceNote: 'Open desk, GoFloaters listing (dedicated desk ₹3,750)',
+    ctaText: 'Get Quote',
+    images: [
+      'https://cdn.app.gofloaters.com/.%2Fimages%252FFlexDesk_1692042850544%3Falt%3Dmedia%26token%3Dc7381334-f622-4f34-866e-2dbbff5ccc99.webp?alt=media&token=bf5c4d76-e0df-4502-a617-ffdaaa9a314d',
+      'https://cdn.app.gofloaters.com/images%2FDedicated-Desks_1692042956504.webp?alt=media&token=7dd6edc8-7e32-44ba-ab13-63e21195a3f6'
+    ]
+  },
+  {
+    // GoFloaters gives the locality only. Cabin price is its ₹34,000 four-seater divided by 4.
+    id: 15,
+    name: 'Oneworx Coworking Space',
+    area: 'Bagmugaliya',
+    location: 'Bagmugaliya, Bhopal',
+    address: 'Bagmugaliya, Bhopal, Madhya Pradesh',
+    phone: null,
+    hours: null,
+    amenities: ['Dedicated Desks', 'Private Cabins'],
+    price: '₹7,780',
+    period: '/ month',
+    priceFormatted: '₹7,780 / month',
+    deskPrice: '₹7,780',
+    cabinPrice: '₹8,500',
+    priceNote: 'Open desk, GoFloaters listing',
+    ctaText: 'Get Quote',
+    images: [
+      'https://cdn.app.gofloaters.com/.%2Fimages%252FOpen%2520Desks_1750943781611%3Falt%3Dmedia%26token%3D95e3f649-2283-44c6-ae17-f5a3d1a779a7.webp?alt=media&token=dd7b4a7c-0cc8-4bd1-8e04-27a226833523',
+      'https://cdn.app.gofloaters.com/.%2Fimages%252F4%2520Seater%2520Private%2520Cabin_1750943847104%3Falt%3Dmedia%26token%3Db57d0317-4c55-4afa-bc24-5a989471af16.webp?alt=media&token=6edf24f8-6005-46ce-b28e-3a5c377df10e'
+    ]
   }
 ];
 

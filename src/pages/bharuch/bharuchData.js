@@ -1,10 +1,30 @@
 import { findOfficeBySlug, officePath } from "../../common/slug.js";
 
-// Bharuch: no coworking listing with a verifiable operator, address and photo was found on Nov 6, 2026 (the one listing looked like a whole-unit office rental).
-// The page still opens with the enquiry banners. Add real spaces to this list when they are confirmed.
+// Bharuch district coworking listings. Bharuch city itself had no verifiable listing on Nov 7, 2026.
 // deskPrice / cabinPrice are per-seat monthly rates from the listings above; null shows "On request" on the detail page.
 
-export const bharuchSpaces = [];
+export const bharuchSpaces = [
+  {
+    // In Ankleshwar, about 15 km from Bharuch city. Sources disagree on price (₹6,999–₹13,000 a seat), so it stays on request.
+    id: 1,
+    name: 'MyBranch Ankleshwar',
+    area: 'Ankleshwar',
+    location: 'Station Road, Ankleshwar',
+    address: 'FF-97, 1st Floor, Omkar II, Station Road, Ankleshwar, Bharuch district, Gujarat',
+    phone: null,
+    hours: null,
+    amenities: ['Air Conditioning', 'Housekeeping', 'Tea/Coffee', 'Car / Bike Parking'],
+    price: 'On request',
+    period: '',
+    priceFormatted: 'Price on request',
+    deskPrice: null,
+    cabinPrice: null,
+    ctaText: 'Get Quote',
+    images: [
+      'https://bisdesk.com/uploads/facility/images/image_1643713300.jpg'
+    ]
+  }
+];
 
 export default bharuchSpaces;
 

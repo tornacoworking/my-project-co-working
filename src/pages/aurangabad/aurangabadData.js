@@ -2,7 +2,7 @@ import { findOfficeBySlug, officePath } from "../../common/slug.js";
 
 // Aurangabad (Chhatrapati Sambhajinagar, Maharashtra) coworking spaces — Qdesq, CoworkingCafe, Coworker and myHQ listing data, fetched Nov 6, 2026.
 // Prices are the Qdesq per-desk rate; other listings differ, so priceNote says so. Confirm with each operator before publishing.
-// Excluded: Connect Enterprises (photos carry another brand's watermark); SCALE Coworking and Kaarobaar (no usable photos found).
+// Excluded: Connect Enterprises (photos carry another brand's watermark); Kaarobaar Inception (temporarily closed); Apple Study Center (photos show study cubicles, not offices).
 // Ratings, review counts and phone numbers are left out because no source gave a verifiable figure. Qdesq's number is its own sales line.
 // deskPrice / cabinPrice are per-seat monthly rates from the listings above; null shows "On request" on the detail page.
 
@@ -103,6 +103,97 @@ export const aurangabadSpaces = [
       'https://qdesq.imagekit.io/image/upload/tr=w-782,h-408,cm-pad_resize,bg-F3F3F3/v1718709913/sxr8ordmlnze7y5sy7fb.webp',
       'https://qdesq.imagekit.io/image/upload/tr=w-782,h-408,cm-pad_resize,bg-F3F3F3/v1718709913/uttgvwakvesjmqrtgl43.webp',
       'https://qdesq.imagekit.io/image/upload/tr=w-782,h-408,cm-pad_resize,bg-F3F3F3/v1718709913/ryocfikuzgxrqf5rlh8f.webp'
+    ]
+  },
+  {
+    // The listing page shows no confirmed price, so it stays on request.
+    id: 5,
+    name: 'Kaarobaar Bloom',
+    area: 'Vedant Nagar',
+    location: 'Vedant Nagar, Aurangabad',
+    address: 'Siddharth Arcade, Vedant Nagar, Chhatrapati Sambhajinagar (Aurangabad), Maharashtra',
+    phone: null,
+    hours: null,
+    amenities: ['High Speed WiFi', 'Air Conditioning', 'Printer'],
+    price: 'On request',
+    period: '',
+    priceFormatted: 'Price on request',
+    deskPrice: null,
+    cabinPrice: null,
+    ctaText: 'Get Quote',
+    images: [
+      'https://coworkingers.com/wp-content/uploads/2023/07/2023-02-16.jpg',
+      'https://coworkingers.com/wp-content/uploads/2023/07/IMG-20220831-WA0058.jpg',
+      'https://coworkingers.com/wp-content/uploads/2023/07/IMG-20220831-WA0040.jpg',
+      'https://coworkingers.com/wp-content/uploads/2023/07/2022-09-03.jpg'
+    ]
+  },
+  {
+    id: 6,
+    name: 'Kaarobaar Orchard',
+    area: 'Konkanwadi',
+    location: 'Konkanwadi, Aurangabad',
+    address: 'Mauli Building, Panchavati Road, Samadhan Colony, Konkanwadi, Chhatrapati Sambhajinagar (Aurangabad), Maharashtra',
+    phone: null,
+    hours: null,
+    amenities: ['High Speed WiFi', 'Air Conditioning', 'Printer', 'Car / Bike Parking'],
+    price: '₹4,500',
+    period: '/ month',
+    priceFormatted: '₹4,500 / month',
+    deskPrice: '₹4,500',
+    cabinPrice: null,
+    priceNote: 'Per desk, myHQ quoted price (negotiable)',
+    ctaText: 'Get Quote',
+    images: [
+      'https://coworkingers.com/wp-content/uploads/2023/07/IMG-20221018-WA0002.jpg',
+      'https://coworkingers.com/wp-content/uploads/2023/07/2022-10-21-1.jpg',
+      'https://coworkingers.com/wp-content/uploads/2023/07/IMG-20221018-WA0004.jpg',
+      'https://coworkingers.com/wp-content/uploads/2023/07/2022-10-21.jpg'
+    ]
+  },
+  {
+    id: 7,
+    name: 'SCALE Coworking',
+    area: 'Prozone Mall Area',
+    location: 'Near Prozone Mall, Aurangabad',
+    address: '213, Golden City Center, near Prozone Mall, Chhatrapati Sambhajinagar (Aurangabad), Maharashtra',
+    phone: null,
+    hours: null,
+    amenities: ['High Speed WiFi', 'Air Conditioning', 'Car / Bike Parking'],
+    price: '₹4,500',
+    period: '/ month',
+    priceFormatted: '₹4,500 / month',
+    deskPrice: '₹4,500',
+    cabinPrice: null,
+    priceNote: 'Per desk, myHQ quoted price (negotiable)',
+    ctaText: 'Get Quote',
+    images: [
+      'https://coworkingers.com/wp-content/uploads/2023/07/WhatsApp-Image-2021-10-25-at-3.43.40-PM-4.jpg',
+      'https://coworkingers.com/wp-content/uploads/2023/07/2022-02-23-1.jpg',
+      'https://coworkingers.com/wp-content/uploads/2023/07/Scale-exterior.jpg'
+    ]
+  },
+  {
+    // Sold by the day on the operator's website, so no monthly desk rate is shown.
+    id: 8,
+    name: 'Network Coworking',
+    area: 'Rokadiya Hanuman Colony',
+    location: 'Rokadiya Hanuman Colony, Aurangabad',
+    address: '311, Yash Tower, Rokadiya Hanuman Colony, Shivaji High School Road, Chhatrapati Sambhajinagar (Aurangabad), Maharashtra 431001',
+    phone: '+91 81499 10977',
+    hours: null,
+    amenities: ['High Speed WiFi', 'Air Conditioning', 'Meeting Rooms', 'Tea/Coffee', 'Housekeeping', 'Storage', 'Car / Bike Parking'],
+    price: '₹470',
+    period: '/ day',
+    priceFormatted: '₹470 / day',
+    deskPrice: null,
+    cabinPrice: null,
+    priceNote: 'Workstation per day, operator website',
+    ctaText: 'Get Quote',
+    website: 'https://networkcoworking.net/',
+    images: [
+      'https://networkcoworking.net/web/image/1287-f2e91bf3/6.webp',
+      'https://networkcoworking.net/web/image/1288-8b3b1de4/4.webp'
     ]
   }
 ];
