@@ -115,6 +115,24 @@ import { getBirBillingOfficeCardById } from './pages/bir-billing/birBillingData'
 import WarangalPage from './pages/warangal/Warangal';
 import WarangalOfficeDetail from './pages/warangal/WarangalOfficeDetail';
 import { getWarangalOfficeCardById } from './pages/warangal/warangalData';
+import VisakhapatnamPage from './pages/visakhapatnam/Visakhapatnam';
+import VisakhapatnamOfficeDetail from './pages/visakhapatnam/VisakhapatnamOfficeDetail';
+import { getVisakhapatnamOfficeCardById } from './pages/visakhapatnam/visakhapatnamData';
+import VijayawadaPage from './pages/vijayawada/Vijayawada';
+import VijayawadaOfficeDetail from './pages/vijayawada/VijayawadaOfficeDetail';
+import { getVijayawadaOfficeCardById } from './pages/vijayawada/vijayawadaData';
+import VaranasiPage from './pages/varanasi/Varanasi';
+import VaranasiOfficeDetail from './pages/varanasi/VaranasiOfficeDetail';
+import { getVaranasiOfficeCardById } from './pages/varanasi/varanasiData';
+import VapiPage from './pages/vapi/Vapi';
+import VapiOfficeDetail from './pages/vapi/VapiOfficeDetail';
+import { getVapiOfficeCardById } from './pages/vapi/vapiData';
+import VadodaraPage from './pages/vadodara/Vadodara';
+import VadodaraOfficeDetail from './pages/vadodara/VadodaraOfficeDetail';
+import { getVadodaraOfficeCardById } from './pages/vadodara/vadodaraData';
+import UdaipurPage from './pages/udaipur/Udaipur';
+import UdaipurOfficeDetail from './pages/udaipur/UdaipurOfficeDetail';
+import { getUdaipurOfficeCardById } from './pages/udaipur/udaipurData';
 import KolkataOfficeDetail from './pages/kolkata/KolkataOfficeDetail';
 import { getKolkataOfficeCardById } from './pages/kolkata/kolkataData';
 
@@ -159,6 +177,12 @@ const OFFICE_CITIES = [
   { key: 'bhopal', label: 'Bhopal', getCard: getBhopalOfficeCardById, Detail: BhopalOfficeDetail },
   { key: 'bir-billing', label: 'Bir Billing', getCard: getBirBillingOfficeCardById, Detail: BirBillingOfficeDetail },
   { key: 'warangal', label: 'Warangal', getCard: getWarangalOfficeCardById, Detail: WarangalOfficeDetail },
+  { key: 'visakhapatnam', label: 'Visakhapatnam', getCard: getVisakhapatnamOfficeCardById, Detail: VisakhapatnamOfficeDetail },
+  { key: 'vijayawada', label: 'Vijayawada', getCard: getVijayawadaOfficeCardById, Detail: VijayawadaOfficeDetail },
+  { key: 'varanasi', label: 'Varanasi', getCard: getVaranasiOfficeCardById, Detail: VaranasiOfficeDetail },
+  { key: 'vapi', label: 'Vapi', getCard: getVapiOfficeCardById, Detail: VapiOfficeDetail },
+  { key: 'vadodara', label: 'Vadodara', getCard: getVadodaraOfficeCardById, Detail: VadodaraOfficeDetail },
+  { key: 'udaipur', label: 'Udaipur', getCard: getUdaipurOfficeCardById, Detail: UdaipurOfficeDetail },
   { key: 'kolkata', label: 'Kolkata', getCard: getKolkataOfficeCardById, Detail: KolkataOfficeDetail },
 ];
 
@@ -432,6 +456,22 @@ const App = () => {
           <Route path="/coworking/warangal/:id" element={<WarangalOfficeDetail />} />
           <Route path="/coworking/hanamkonda" element={<Navigate to="/coworking/warangal" replace />} />
           <Route path="/coworking/hanumakonda" element={<Navigate to="/coworking/warangal" replace />} />
+          <Route path="/coworking/visakhapatnam" element={<VisakhapatnamPage />} />
+          <Route path="/coworking/visakhapatnam/:id" element={<VisakhapatnamOfficeDetail />} />
+          <Route path="/coworking/vijayawada" element={<VijayawadaPage />} />
+          <Route path="/coworking/vijayawada/:id" element={<VijayawadaOfficeDetail />} />
+          <Route path="/coworking/varanasi" element={<VaranasiPage />} />
+          <Route path="/coworking/varanasi/:id" element={<VaranasiOfficeDetail />} />
+          <Route path="/coworking/vapi" element={<VapiPage />} />
+          <Route path="/coworking/vapi/:id" element={<VapiOfficeDetail />} />
+          <Route path="/coworking/vadodara" element={<VadodaraPage />} />
+          <Route path="/coworking/vadodara/:id" element={<VadodaraOfficeDetail />} />
+          <Route path="/coworking/udaipur" element={<UdaipurPage />} />
+          <Route path="/coworking/udaipur/:id" element={<UdaipurOfficeDetail />} />
+          <Route path="/coworking/vizag" element={<Navigate to="/coworking/visakhapatnam" replace />} />
+          <Route path="/coworking/vishakhapatnam" element={<Navigate to="/coworking/visakhapatnam" replace />} />
+          <Route path="/coworking/vijaywada" element={<Navigate to="/coworking/vijayawada" replace />} />
+          <Route path="/coworking/baroda" element={<Navigate to="/coworking/vadodara" replace />} />
           {/* More Cities entries whose names don't match their page URL. */}
           <Route path="/coworking/alwar / bhiwadi" element={<Navigate to="/coworking/alwar-bhiwadi" replace />} />
           <Route path="/coworking/bir billing" element={<Navigate to="/coworking/bir-billing" replace />} />
