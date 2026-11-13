@@ -94,6 +94,57 @@ import { getAgartalaOfficeCardById } from './pages/agartala/agartalaData';
 import AizawlPage from './pages/aizawl/Aizawl';
 import AizawlOfficeDetail from './pages/aizawl/AizawlOfficeDetail';
 import { getAizawlOfficeCardById } from './pages/aizawl/aizawlData';
+import DehradunPage from './pages/dehradun/Dehradun';
+import DehradunOfficeDetail from './pages/dehradun/DehradunOfficeDetail';
+import { getDehradunOfficeCardById } from './pages/dehradun/dehradunData';
+import DharamshalaMcleodGanjPage from './pages/dharamshala-mcleod-ganj/DharamshalaMcleodGanj';
+import DharamshalaMcleodGanjOfficeDetail from './pages/dharamshala-mcleod-ganj/DharamshalaMcleodGanjOfficeDetail';
+import { getDharamshalaMcleodGanjOfficeCardById } from './pages/dharamshala-mcleod-ganj/dharamshalaMcleodGanjData';
+import FaridabadPage from './pages/faridabad/Faridabad';
+import FaridabadOfficeDetail from './pages/faridabad/FaridabadOfficeDetail';
+import { getFaridabadOfficeCardById } from './pages/faridabad/faridabadData';
+import GandhinagarPage from './pages/gandhinagar/Gandhinagar';
+import GandhinagarOfficeDetail from './pages/gandhinagar/GandhinagarOfficeDetail';
+import { getGandhinagarOfficeCardById } from './pages/gandhinagar/gandhinagarData';
+import GangtokPage from './pages/gangtok/Gangtok';
+import GangtokOfficeDetail from './pages/gangtok/GangtokOfficeDetail';
+import { getGangtokOfficeCardById } from './pages/gangtok/gangtokData';
+import GhaziabadPage from './pages/ghaziabad/Ghaziabad';
+import GhaziabadOfficeDetail from './pages/ghaziabad/GhaziabadOfficeDetail';
+import { getGhaziabadOfficeCardById } from './pages/ghaziabad/ghaziabadData';
+import GorakhpurPage from './pages/gorakhpur/Gorakhpur';
+import GorakhpurOfficeDetail from './pages/gorakhpur/GorakhpurOfficeDetail';
+import { getGorakhpurOfficeCardById } from './pages/gorakhpur/gorakhpurData';
+import GreaterNoidaPage from './pages/greater-noida/GreaterNoida';
+import GreaterNoidaOfficeDetail from './pages/greater-noida/GreaterNoidaOfficeDetail';
+import { getGreaterNoidaOfficeCardById } from './pages/greater-noida/greaterNoidaData';
+import GuwahatiPage from './pages/guwahati/Guwahati';
+import GuwahatiOfficeDetail from './pages/guwahati/GuwahatiOfficeDetail';
+import { getGuwahatiOfficeCardById } from './pages/guwahati/guwahatiData';
+import GwaliorPage from './pages/gwalior/Gwalior';
+import GwaliorOfficeDetail from './pages/gwalior/GwaliorOfficeDetail';
+import { getGwaliorOfficeCardById } from './pages/gwalior/gwaliorData';
+import HubballiDharwadPage from './pages/hubballi-dharwad/HubballiDharwad';
+import HubballiDharwadOfficeDetail from './pages/hubballi-dharwad/HubballiDharwadOfficeDetail';
+import { getHubballiDharwadOfficeCardById } from './pages/hubballi-dharwad/hubballiDharwadData';
+import JabalpurPage from './pages/jabalpur/Jabalpur';
+import JabalpurOfficeDetail from './pages/jabalpur/JabalpurOfficeDetail';
+import { getJabalpurOfficeCardById } from './pages/jabalpur/jabalpurData';
+import JalandharPage from './pages/jalandhar/Jalandhar';
+import JalandharOfficeDetail from './pages/jalandhar/JalandharOfficeDetail';
+import { getJalandharOfficeCardById } from './pages/jalandhar/jalandharData';
+import JammuPage from './pages/jammu/Jammu';
+import JammuOfficeDetail from './pages/jammu/JammuOfficeDetail';
+import { getJammuOfficeCardById } from './pages/jammu/jammuData';
+import JamnagarPage from './pages/jamnagar/Jamnagar';
+import JamnagarOfficeDetail from './pages/jamnagar/JamnagarOfficeDetail';
+import { getJamnagarOfficeCardById } from './pages/jamnagar/jamnagarData';
+import JamshedpurPage from './pages/jamshedpur/Jamshedpur';
+import JamshedpurOfficeDetail from './pages/jamshedpur/JamshedpurOfficeDetail';
+import { getJamshedpurOfficeCardById } from './pages/jamshedpur/jamshedpurData';
+import JodhpurPage from './pages/jodhpur/Jodhpur';
+import JodhpurOfficeDetail from './pages/jodhpur/JodhpurOfficeDetail';
+import { getJodhpurOfficeCardById } from './pages/jodhpur/jodhpurData';
 import BareillyPage from './pages/bareilly/Bareilly';
 import BareillyOfficeDetail from './pages/bareilly/BareillyOfficeDetail';
 import { getBareillyOfficeCardById } from './pages/bareilly/bareillyData';
@@ -170,6 +221,23 @@ const OFFICE_CITIES = [
   { key: 'aurangabad', label: 'Aurangabad', getCard: getAurangabadOfficeCardById, Detail: AurangabadOfficeDetail },
   { key: 'agartala', label: 'Agartala', getCard: getAgartalaOfficeCardById, Detail: AgartalaOfficeDetail },
   { key: 'aizawl', label: 'Aizawl', getCard: getAizawlOfficeCardById, Detail: AizawlOfficeDetail },
+  { key: 'dehradun', label: 'Dehradun', getCard: getDehradunOfficeCardById, Detail: DehradunOfficeDetail },
+  { key: 'dharamshala-mcleod-ganj', label: 'Dharamshala & McLeod Ganj', getCard: getDharamshalaMcleodGanjOfficeCardById, Detail: DharamshalaMcleodGanjOfficeDetail },
+  { key: 'faridabad', label: 'Faridabad', getCard: getFaridabadOfficeCardById, Detail: FaridabadOfficeDetail },
+  { key: 'gandhinagar', label: 'Gandhinagar', getCard: getGandhinagarOfficeCardById, Detail: GandhinagarOfficeDetail },
+  { key: 'gangtok', label: 'Gangtok', getCard: getGangtokOfficeCardById, Detail: GangtokOfficeDetail },
+  { key: 'ghaziabad', label: 'Ghaziabad', getCard: getGhaziabadOfficeCardById, Detail: GhaziabadOfficeDetail },
+  { key: 'gorakhpur', label: 'Gorakhpur', getCard: getGorakhpurOfficeCardById, Detail: GorakhpurOfficeDetail },
+  { key: 'greater-noida', label: 'Greater Noida', getCard: getGreaterNoidaOfficeCardById, Detail: GreaterNoidaOfficeDetail },
+  { key: 'guwahati', label: 'Guwahati', getCard: getGuwahatiOfficeCardById, Detail: GuwahatiOfficeDetail },
+  { key: 'gwalior', label: 'Gwalior', getCard: getGwaliorOfficeCardById, Detail: GwaliorOfficeDetail },
+  { key: 'hubballi-dharwad', label: 'Hubballi-Dharwad', getCard: getHubballiDharwadOfficeCardById, Detail: HubballiDharwadOfficeDetail },
+  { key: 'jabalpur', label: 'Jabalpur', getCard: getJabalpurOfficeCardById, Detail: JabalpurOfficeDetail },
+  { key: 'jalandhar', label: 'Jalandhar', getCard: getJalandharOfficeCardById, Detail: JalandharOfficeDetail },
+  { key: 'jammu', label: 'Jammu', getCard: getJammuOfficeCardById, Detail: JammuOfficeDetail },
+  { key: 'jamnagar', label: 'Jamnagar', getCard: getJamnagarOfficeCardById, Detail: JamnagarOfficeDetail },
+  { key: 'jamshedpur', label: 'Jamshedpur', getCard: getJamshedpurOfficeCardById, Detail: JamshedpurOfficeDetail },
+  { key: 'jodhpur', label: 'Jodhpur', getCard: getJodhpurOfficeCardById, Detail: JodhpurOfficeDetail },
   { key: 'bareilly', label: 'Bareilly', getCard: getBareillyOfficeCardById, Detail: BareillyOfficeDetail },
   { key: 'bharuch', label: 'Bharuch', getCard: getBharuchOfficeCardById, Detail: BharuchOfficeDetail },
   { key: 'bhavnagar', label: 'Bhavnagar', getCard: getBhavnagarOfficeCardById, Detail: BhavnagarOfficeDetail },
@@ -440,6 +508,43 @@ const App = () => {
           <Route path="/coworking/agartala/:id" element={<AgartalaOfficeDetail />} />
           <Route path="/coworking/aizawl" element={<AizawlPage />} />
           <Route path="/coworking/aizawl/:id" element={<AizawlOfficeDetail />} />
+          <Route path="/coworking/dehradun" element={<DehradunPage />} />
+          <Route path="/coworking/dehradun/:id" element={<DehradunOfficeDetail />} />
+          <Route path="/coworking/dharamshala-mcleod-ganj" element={<DharamshalaMcleodGanjPage />} />
+          <Route path="/coworking/dharamshala-mcleod-ganj/:id" element={<DharamshalaMcleodGanjOfficeDetail />} />
+          <Route path="/coworking/faridabad" element={<FaridabadPage />} />
+          <Route path="/coworking/faridabad/:id" element={<FaridabadOfficeDetail />} />
+          <Route path="/coworking/gandhinagar" element={<GandhinagarPage />} />
+          <Route path="/coworking/gandhinagar/:id" element={<GandhinagarOfficeDetail />} />
+          <Route path="/coworking/gangtok" element={<GangtokPage />} />
+          <Route path="/coworking/gangtok/:id" element={<GangtokOfficeDetail />} />
+          <Route path="/coworking/ghaziabad" element={<GhaziabadPage />} />
+          <Route path="/coworking/ghaziabad/:id" element={<GhaziabadOfficeDetail />} />
+          <Route path="/coworking/gorakhpur" element={<GorakhpurPage />} />
+          <Route path="/coworking/gorakhpur/:id" element={<GorakhpurOfficeDetail />} />
+          <Route path="/coworking/greater-noida" element={<GreaterNoidaPage />} />
+          <Route path="/coworking/greater-noida/:id" element={<GreaterNoidaOfficeDetail />} />
+          <Route path="/coworking/guwahati" element={<GuwahatiPage />} />
+          <Route path="/coworking/guwahati/:id" element={<GuwahatiOfficeDetail />} />
+          <Route path="/coworking/gwalior" element={<GwaliorPage />} />
+          <Route path="/coworking/gwalior/:id" element={<GwaliorOfficeDetail />} />
+          <Route path="/coworking/hubballi-dharwad" element={<HubballiDharwadPage />} />
+          <Route path="/coworking/hubballi-dharwad/:id" element={<HubballiDharwadOfficeDetail />} />
+          <Route path="/coworking/jabalpur" element={<JabalpurPage />} />
+          <Route path="/coworking/jabalpur/:id" element={<JabalpurOfficeDetail />} />
+          <Route path="/coworking/jalandhar" element={<JalandharPage />} />
+          <Route path="/coworking/jalandhar/:id" element={<JalandharOfficeDetail />} />
+          <Route path="/coworking/jammu" element={<JammuPage />} />
+          <Route path="/coworking/jammu/:id" element={<JammuOfficeDetail />} />
+          <Route path="/coworking/jamnagar" element={<JamnagarPage />} />
+          <Route path="/coworking/jamnagar/:id" element={<JamnagarOfficeDetail />} />
+          <Route path="/coworking/jamshedpur" element={<JamshedpurPage />} />
+          <Route path="/coworking/jamshedpur/:id" element={<JamshedpurOfficeDetail />} />
+          <Route path="/coworking/jodhpur" element={<JodhpurPage />} />
+          <Route path="/coworking/jodhpur/:id" element={<JodhpurOfficeDetail />} />
+          {/* More Cities entries (D–J) whose names don't match their page URL. */}
+          <Route path="/coworking/dharamshala / mcleod ganj" element={<Navigate to="/coworking/dharamshala-mcleod-ganj" replace />} />
+          <Route path="/coworking/greater noida" element={<Navigate to="/coworking/greater-noida" replace />} />
           <Route path="/coworking/bareilly" element={<BareillyPage />} />
           <Route path="/coworking/bareilly/:id" element={<BareillyOfficeDetail />} />
           <Route path="/coworking/bharuch" element={<BharuchPage />} />
