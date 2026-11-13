@@ -520,6 +520,24 @@ export const bangaloreSpaces  = [
     ]
   },
   {
+    id: 158,
+    name: 'WorkX',
+    badge: null,
+    rating: 4.0,
+    area: 'HSR Layout',
+    location: 'HSR Layout, Bangalore',
+    price: '₹5,999',
+    period: '/ Month',
+    priceFormatted: '₹5,999 / Month',
+    ctaText: 'Get Quote',
+    images: [
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdUUHe_cUYmOxJin9zfo8pAe2cJHlpaOnlc8Lq2SVpz8CRZ5zAYE6eBcPHaIFTqYlZwvDBgUhRySFsZsxho9bH_BSbbK9-A2ZiPC77-9c0sA5lrg1Rx7JTAuCBk-emI85dGqehp=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLfLQMTUq7RRDiQ8y9uQtzfn4CMQ5GDye40YA9HzEbBEuFXpSA6J56rjr88xThIiusqy1miAzzVqsUtNbqzixGKMmKdnxr4C8G1uGNuwrTD_u4sy56Gpe5wSlZgDwKGFaQMdRwAZ4w=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLcbfrxz40GUvZlm7qk3g1dMR5zr0z85BU3oru_YK74eZ4e-YMbWfdip_bcOvBoUaZj-ebPXemm8LnETVDi444tBhRmGSXP7Dt3BfNaSgQT1THWU3LNyuxSpmE8HQvLEEmPzSe0CgQ=s4800-w800-h600",
+      "https://lh3.googleusercontent.com/grass-cs/AABkmLdj3xLN-sQcZIT5m7HBK_d9AeGiFZSpXG7NQK47haOsiNVGSZVHFkPX3tNaS1Cw1gfB0cmUV8SZjYP233FIkhNvxK8G8urOCXcxCmd-DbG4DYv9x5WNYVVl3O7Y48J1kOD9Hwrf=s4800-w800-h600"
+    ]
+  },
+  {
     id: 159,
     name: '365 Spaces Nova',
     badge: 'Popular',
@@ -4085,6 +4103,27 @@ export const bangaloreSpaces  = [
       'https://img.cofynd.com/images/latest_images_2024/5ab97f718cce4a87b70b2e5a0932ce5c39464d99.webp',
       'https://img.cofynd.com/images/latest_images_2024/324fd2a158f5ea0d71bdc5dd179564273d905506.webp',
       'https://img.cofynd.com/images/latest_images_2024/17df90a30c01301e1dae4fc4e257c61ab0a1bb25.webp'
+    ]
+  },
+  // Photos added 13 Nov 2026 from https://houssed.com/property/evolve-work-studio-raj-complex-co-working-space-in-jayanagar-bangalore-5279
+  {
+    // NOTE: Jayanagar centre — same name as the Whitefield "Evolve Work Studio" card; separate listing
+    id: 355,
+    name: 'Evolve Work Studio',
+    badge: 'Premium',
+    rating: 4.5,
+    area: 'Jayanagar',
+    location: 'Jayanagar, Bangalore',
+    price: '₹7,999',
+    period: '/ Month',
+    priceFormatted: '₹7,999 / Month',
+    ctaText: 'Get Quote',
+    images: [
+      'https://imgcdn.houssed.com/assets/Files/Projects/147029/Project%20Image/1-1755407993.webp',
+      'https://imgcdn.houssed.com/assets/Files/Projects/147029/Project%20Image/2-1755407993.webp',
+      'https://imgcdn.houssed.com/assets/Files/Projects/147029/Project%20Image/3-1755407993.webp',
+      'https://imgcdn.houssed.com/assets/Files/Projects/147029/Project%20Image/4-1755407993.webp',
+      'https://imgcdn.houssed.com/assets/Files/Projects/147029/Project%20Image/5-1755407993.webp'
     ]
   },
   {

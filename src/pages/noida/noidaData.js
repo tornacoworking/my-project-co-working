@@ -282,6 +282,27 @@ export const noidaOfficeCards = [
       'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Qqtvu_WBzTXp3xigpTtd-MxRRXctqEIkua1rcLIg7tEGowZ3uOOGFKbOJukunZLMmRvZo0e1YqqHnJeaDQjRaIZ9CEN0F_MrBGyuwVP6EULhlUWvTXbelPD2kPu_cbrTqtw-KDEw=w1600-h1067-k-no'
     ]
   },
+  // Photos added 13 Nov 2026 from https://www.coworkingcafe.com/coworking-property/in/up/noida/supremework-coworking-sector-16-126/
+  {
+    id: 15,
+    name: 'SupremeWork',
+    badge: 'Premium',
+    rating: 4.5,
+    area: 'Sector 16',
+    location: 'Sector 16, Noida',
+    price: '₹9,999',
+    period: '/ month',
+    priceFormatted: '₹9,999 / month',
+    ctaText: 'Get Quote',
+    googleMapsUrl: null,
+    images: [
+      'https://cdn.coworkingcafe.com/images/D1745AC7-0E08-4FA2-B63F-F7D94202F139/92797.jpg',
+      'https://cdn.coworkingcafe.com/images/7D0E39EC-731D-4097-B203-9B7778618206/92797.jpg',
+      'https://cdn.coworkingcafe.com/images/BB65EC06-5DBB-447F-8C06-CE8CED1B2CD9/92797.jpg',
+      'https://cdn.coworkingcafe.com/images/22748A6D-3BF6-44E5-9A10-33637BAFAF07/92797.jpg',
+      'https://cdn.coworkingcafe.com/images/B8E1F7D9-4B56-441C-8085-0644251EB920/92797.jpg'
+    ]
+  },
   {
     id: 16,
     name: 'Regus World Trade Tower',
@@ -437,6 +458,23 @@ export const noidaOfficeCards = [
       'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TzezSAgItzOtCY2F92_AANeNQewuNLDjkFW107D0auD6oqnggojRMftMyacVPQMEfdyEo_Xj-KYnOJ9k5WvKMrB-KXIzB4QDsraZrCD5L7OoWGRU_VYuxFW-IHbuCJtJ9_huS9Gk0Ft-Xq=w1600-h1067-k-no',
       'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Tn9KUgb-JS8qsybqxhtvoYw05slily31UxpV9IW453ZdiX4NOK10DW5gMpOd75Hoz244Rq_gI1CXAY58AoRsJzihOAkNrEYyTz1SHw1xtAQDYkN59KsWP4gJ2WEAYoZJX1R7EM=w1600-h1067-k-no',
       'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TRrSCGnA61gq7LljH9maqE1UCwPKbmyj4oL_oBaQvqvM7PqPRdSNfOef_qndIEsj8DZ7Sa7S2MnDV7_23XCeMG-cD5SzTHX08cJMmWoFv2I9GfEir5pi-ire4xLZJ1XOmmvcow=w1600-h1067-k-no'
+    ]
+  },
+  // Photos added 13 Nov 2026 from https://www.coworkingcafe.com/coworking-property/in/up/noida/awfis-bhutani-technopark/
+  {
+    id: 24,
+    name: 'Awfis Bhutani Technopark',
+    badge: 'Premium',
+    rating: 5.0,
+    area: 'Sector 127',
+    location: 'Sector 127, Noida',
+    price: '₹7,999',
+    period: '/ month',
+    priceFormatted: '₹7,999 / month',
+    ctaText: 'Get Quote',
+    googleMapsUrl: 'https://maps.google.com/?cid=12810277232449995846',
+    images: [
+      'https://cdn.coworkingcafe.com/images/150F87FF-7193-4BFA-B5C7-4D2C890D3B4E/87407.jpg'
     ]
   },
   {
@@ -1206,6 +1244,26 @@ export const noidaOfficeCards = [
       'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RXbBSWY8PRDgDq094UuXOV4B10DZRtc1KNz8KyfxxiIctRYJkM9pJ6PgLqw6iBj6lzLRqBPKtOVeg7vILRDqmGML4TeorWJOUDEYte4Cizl9Htptk8lLpduxJslIhlyODX0WDY=w1600-h1067-k-no'
     ]
   },
+  // Photos added 13 Nov 2026 from https://www.coworkingcafe.com/coworking-property/in/up/noida/wizworks-ks-corporate-tower
+  {
+    id: 64,
+    name: 'Wizworks KS Corporate Tower',
+    badge: 'Popular',
+    rating: 4.2,
+    area: 'Sector 16',
+    location: 'Sector 16, Noida',
+    price: '₹9,999',
+    period: '/ month',
+    priceFormatted: '₹9,999 / month',
+    ctaText: 'Get Quote',
+    googleMapsUrl: 'https://maps.google.com/?cid=2096928397403875240',
+    images: [
+      'https://cdn.coworkingcafe.com/images/BF78BAC3-618E-471C-9BD9-6D18C8878A5E/77017.jpg',
+      'https://cdn.coworkingcafe.com/images/A4D4B480-51F7-4ACF-B9EB-904B14D4C6C2/77017.jpg',
+      'https://cdn.coworkingcafe.com/images/BC0BCF4A-F6FC-4211-89B1-2F696B9DD607/77017.jpg',
+      'https://cdn.coworkingcafe.com/images/E07ABC3F-E211-4907-A49E-0AB15CF99767/77017.jpg'
+    ]
+  },
   {
     id: 65,
     name: 'Sharkspace',
@@ -1736,6 +1794,20 @@ export const noidaOfficeCards = [
       'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Sy2CUhFiLOMBmnFmn5B2pUZTMf3PTCztMPYCZmN4nXSKioE0Um-PyjncmdueVDdQwMnzKjb1jHVSGasPFecDMbv5Twqzf1CJSMjc2XlySCpgmWRRhsOHvQ2ioHWWLI-C22fTguL6Xf4-jM=w1600-h1067-k-no',
       'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SyPvL94-HeqB_SAjRN1JH7eyLJazOTreA-NCrHnk-VMvMHe-pTSpO-_lprACe040HOGuAW2mIei_TogfMUZlXe0joOmZJfgiSGCSrV_c48V-sPkvQ2BfdtfLBfzNPaqrcMBrG-wiK4tOQN=w1600-h1067-k-no'
     ]
+  },
+  {
+    id: 92,
+    name: 'Office Craft Sector 73 Noida',
+    badge: 'Premium',
+    rating: 4.9,
+    area: 'Sector 73',
+    location: 'Sector 73 Noida',
+    price: '',
+    period: '',
+    priceFormatted: '',
+    ctaText: 'Get Quote',
+    googleMapsUrl: null,
+    images: []
   },
   {
     id: 93,
