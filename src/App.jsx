@@ -94,6 +94,96 @@ import { getAgartalaOfficeCardById } from './pages/agartala/agartalaData';
 import AizawlPage from './pages/aizawl/Aizawl';
 import AizawlOfficeDetail from './pages/aizawl/AizawlOfficeDetail';
 import { getAizawlOfficeCardById } from './pages/aizawl/aizawlData';
+import KanpurPage from './pages/kanpur/Kanpur';
+import KanpurOfficeDetail from './pages/kanpur/KanpurOfficeDetail';
+import { getKanpurOfficeCardById } from './pages/kanpur/kanpurData';
+import KolhapurPage from './pages/kolhapur/Kolhapur';
+import KolhapurOfficeDetail from './pages/kolhapur/KolhapurOfficeDetail';
+import { getKolhapurOfficeCardById } from './pages/kolhapur/kolhapurData';
+import KozhikodeCalicutPage from './pages/kozhikode-calicut/KozhikodeCalicut';
+import KozhikodeCalicutOfficeDetail from './pages/kozhikode-calicut/KozhikodeCalicutOfficeDetail';
+import { getKozhikodeCalicutOfficeCardById } from './pages/kozhikode-calicut/kozhikodeCalicutData';
+import LudhianaPage from './pages/ludhiana/Ludhiana';
+import LudhianaOfficeDetail from './pages/ludhiana/LudhianaOfficeDetail';
+import { getLudhianaOfficeCardById } from './pages/ludhiana/ludhianaData';
+import MaduraiPage from './pages/madurai/Madurai';
+import MaduraiOfficeDetail from './pages/madurai/MaduraiOfficeDetail';
+import { getMaduraiOfficeCardById } from './pages/madurai/maduraiData';
+import MangaluruMangalorePage from './pages/mangaluru-mangalore/MangaluruMangalore';
+import MangaluruMangaloreOfficeDetail from './pages/mangaluru-mangalore/MangaluruMangaloreOfficeDetail';
+import { getMangaluruMangaloreOfficeCardById } from './pages/mangaluru-mangalore/mangaluruMangaloreData';
+import MeerutPage from './pages/meerut/Meerut';
+import MeerutOfficeDetail from './pages/meerut/MeerutOfficeDetail';
+import { getMeerutOfficeCardById } from './pages/meerut/meerutData';
+import MohaliPage from './pages/mohali/Mohali';
+import MohaliOfficeDetail from './pages/mohali/MohaliOfficeDetail';
+import { getMohaliOfficeCardById } from './pages/mohali/mohaliData';
+import MysuruMysorePage from './pages/mysuru-mysore/MysuruMysore';
+import MysuruMysoreOfficeDetail from './pages/mysuru-mysore/MysuruMysoreOfficeDetail';
+import { getMysuruMysoreOfficeCardById } from './pages/mysuru-mysore/mysuruMysoreData';
+import NagpurPage from './pages/nagpur/Nagpur';
+import NagpurOfficeDetail from './pages/nagpur/NagpurOfficeDetail';
+import { getNagpurOfficeCardById } from './pages/nagpur/nagpurData';
+import NashikPage from './pages/nashik/Nashik';
+import NashikOfficeDetail from './pages/nashik/NashikOfficeDetail';
+import { getNashikOfficeCardById } from './pages/nashik/nashikData';
+import NaviMumbaiPage from './pages/navi-mumbai/NaviMumbai';
+import NaviMumbaiOfficeDetail from './pages/navi-mumbai/NaviMumbaiOfficeDetail';
+import { getNaviMumbaiOfficeCardById } from './pages/navi-mumbai/naviMumbaiData';
+import PanajiPage from './pages/panaji/Panaji';
+import PanajiOfficeDetail from './pages/panaji/PanajiOfficeDetail';
+import { getPanajiOfficeCardById } from './pages/panaji/panajiData';
+import PanchkulaPage from './pages/panchkula/Panchkula';
+import PanchkulaOfficeDetail from './pages/panchkula/PanchkulaOfficeDetail';
+import { getPanchkulaOfficeCardById } from './pages/panchkula/panchkulaData';
+import PatnaPage from './pages/patna/Patna';
+import PatnaOfficeDetail from './pages/patna/PatnaOfficeDetail';
+import { getPatnaOfficeCardById } from './pages/patna/patnaData';
+import PimpriChinchwadPage from './pages/pimpri-chinchwad/PimpriChinchwad';
+import PimpriChinchwadOfficeDetail from './pages/pimpri-chinchwad/PimpriChinchwadOfficeDetail';
+import { getPimpriChinchwadOfficeCardById } from './pages/pimpri-chinchwad/pimpriChinchwadData';
+import PondicherryPuducherryPage from './pages/pondicherry-puducherry/PondicherryPuducherry';
+import PondicherryPuducherryOfficeDetail from './pages/pondicherry-puducherry/PondicherryPuducherryOfficeDetail';
+import { getPondicherryPuducherryOfficeCardById } from './pages/pondicherry-puducherry/pondicherryPuducherryData';
+import PrayagrajPage from './pages/prayagraj/Prayagraj';
+import PrayagrajOfficeDetail from './pages/prayagraj/PrayagrajOfficeDetail';
+import { getPrayagrajOfficeCardById } from './pages/prayagraj/prayagrajData';
+import RaipurPage from './pages/raipur/Raipur';
+import RaipurOfficeDetail from './pages/raipur/RaipurOfficeDetail';
+import { getRaipurOfficeCardById } from './pages/raipur/raipurData';
+import RajkotPage from './pages/rajkot/Rajkot';
+import RajkotOfficeDetail from './pages/rajkot/RajkotOfficeDetail';
+import { getRajkotOfficeCardById } from './pages/rajkot/rajkotData';
+import RanchiPage from './pages/ranchi/Ranchi';
+import RanchiOfficeDetail from './pages/ranchi/RanchiOfficeDetail';
+import { getRanchiOfficeCardById } from './pages/ranchi/ranchiData';
+import SalemPage from './pages/salem/Salem';
+import SalemOfficeDetail from './pages/salem/SalemOfficeDetail';
+import { getSalemOfficeCardById } from './pages/salem/salemData';
+import ShillongPage from './pages/shillong/Shillong';
+import ShillongOfficeDetail from './pages/shillong/ShillongOfficeDetail';
+import { getShillongOfficeCardById } from './pages/shillong/shillongData';
+import ShimlaPage from './pages/shimla/Shimla';
+import ShimlaOfficeDetail from './pages/shimla/ShimlaOfficeDetail';
+import { getShimlaOfficeCardById } from './pages/shimla/shimlaData';
+import SiliguriPage from './pages/siliguri/Siliguri';
+import SiliguriOfficeDetail from './pages/siliguri/SiliguriOfficeDetail';
+import { getSiliguriOfficeCardById } from './pages/siliguri/siliguriData';
+import SrinagarPage from './pages/srinagar/Srinagar';
+import SrinagarOfficeDetail from './pages/srinagar/SrinagarOfficeDetail';
+import { getSrinagarOfficeCardById } from './pages/srinagar/srinagarData';
+import SuratPage from './pages/surat/Surat';
+import SuratOfficeDetail from './pages/surat/SuratOfficeDetail';
+import { getSuratOfficeCardById } from './pages/surat/suratData';
+import ThanePage from './pages/thane/Thane';
+import ThaneOfficeDetail from './pages/thane/ThaneOfficeDetail';
+import { getThaneOfficeCardById } from './pages/thane/thaneData';
+import ThiruvananthapuramPage from './pages/thiruvananthapuram/Thiruvananthapuram';
+import ThiruvananthapuramOfficeDetail from './pages/thiruvananthapuram/ThiruvananthapuramOfficeDetail';
+import { getThiruvananthapuramOfficeCardById } from './pages/thiruvananthapuram/thiruvananthapuramData';
+import TiruchirappalliTrichyPage from './pages/tiruchirappalli-trichy/TiruchirappalliTrichy';
+import TiruchirappalliTrichyOfficeDetail from './pages/tiruchirappalli-trichy/TiruchirappalliTrichyOfficeDetail';
+import { getTiruchirappalliTrichyOfficeCardById } from './pages/tiruchirappalli-trichy/tiruchirappalliTrichyData';
 import DehradunPage from './pages/dehradun/Dehradun';
 import DehradunOfficeDetail from './pages/dehradun/DehradunOfficeDetail';
 import { getDehradunOfficeCardById } from './pages/dehradun/dehradunData';
@@ -221,6 +311,36 @@ const OFFICE_CITIES = [
   { key: 'aurangabad', label: 'Aurangabad', getCard: getAurangabadOfficeCardById, Detail: AurangabadOfficeDetail },
   { key: 'agartala', label: 'Agartala', getCard: getAgartalaOfficeCardById, Detail: AgartalaOfficeDetail },
   { key: 'aizawl', label: 'Aizawl', getCard: getAizawlOfficeCardById, Detail: AizawlOfficeDetail },
+  { key: 'kanpur', label: 'Kanpur', getCard: getKanpurOfficeCardById, Detail: KanpurOfficeDetail },
+  { key: 'kolhapur', label: 'Kolhapur', getCard: getKolhapurOfficeCardById, Detail: KolhapurOfficeDetail },
+  { key: 'kozhikode-calicut', label: 'Kozhikode', getCard: getKozhikodeCalicutOfficeCardById, Detail: KozhikodeCalicutOfficeDetail },
+  { key: 'ludhiana', label: 'Ludhiana', getCard: getLudhianaOfficeCardById, Detail: LudhianaOfficeDetail },
+  { key: 'madurai', label: 'Madurai', getCard: getMaduraiOfficeCardById, Detail: MaduraiOfficeDetail },
+  { key: 'mangaluru-mangalore', label: 'Mangaluru', getCard: getMangaluruMangaloreOfficeCardById, Detail: MangaluruMangaloreOfficeDetail },
+  { key: 'meerut', label: 'Meerut', getCard: getMeerutOfficeCardById, Detail: MeerutOfficeDetail },
+  { key: 'mohali', label: 'Mohali', getCard: getMohaliOfficeCardById, Detail: MohaliOfficeDetail },
+  { key: 'mysuru-mysore', label: 'Mysuru', getCard: getMysuruMysoreOfficeCardById, Detail: MysuruMysoreOfficeDetail },
+  { key: 'nagpur', label: 'Nagpur', getCard: getNagpurOfficeCardById, Detail: NagpurOfficeDetail },
+  { key: 'nashik', label: 'Nashik', getCard: getNashikOfficeCardById, Detail: NashikOfficeDetail },
+  { key: 'navi-mumbai', label: 'Navi Mumbai', getCard: getNaviMumbaiOfficeCardById, Detail: NaviMumbaiOfficeDetail },
+  { key: 'panaji', label: 'Panaji', getCard: getPanajiOfficeCardById, Detail: PanajiOfficeDetail },
+  { key: 'panchkula', label: 'Panchkula', getCard: getPanchkulaOfficeCardById, Detail: PanchkulaOfficeDetail },
+  { key: 'patna', label: 'Patna', getCard: getPatnaOfficeCardById, Detail: PatnaOfficeDetail },
+  { key: 'pimpri-chinchwad', label: 'Pimpri-Chinchwad', getCard: getPimpriChinchwadOfficeCardById, Detail: PimpriChinchwadOfficeDetail },
+  { key: 'pondicherry-puducherry', label: 'Puducherry', getCard: getPondicherryPuducherryOfficeCardById, Detail: PondicherryPuducherryOfficeDetail },
+  { key: 'prayagraj', label: 'Prayagraj', getCard: getPrayagrajOfficeCardById, Detail: PrayagrajOfficeDetail },
+  { key: 'raipur', label: 'Raipur', getCard: getRaipurOfficeCardById, Detail: RaipurOfficeDetail },
+  { key: 'rajkot', label: 'Rajkot', getCard: getRajkotOfficeCardById, Detail: RajkotOfficeDetail },
+  { key: 'ranchi', label: 'Ranchi', getCard: getRanchiOfficeCardById, Detail: RanchiOfficeDetail },
+  { key: 'salem', label: 'Salem', getCard: getSalemOfficeCardById, Detail: SalemOfficeDetail },
+  { key: 'shillong', label: 'Shillong', getCard: getShillongOfficeCardById, Detail: ShillongOfficeDetail },
+  { key: 'shimla', label: 'Shimla', getCard: getShimlaOfficeCardById, Detail: ShimlaOfficeDetail },
+  { key: 'siliguri', label: 'Siliguri', getCard: getSiliguriOfficeCardById, Detail: SiliguriOfficeDetail },
+  { key: 'srinagar', label: 'Srinagar', getCard: getSrinagarOfficeCardById, Detail: SrinagarOfficeDetail },
+  { key: 'surat', label: 'Surat', getCard: getSuratOfficeCardById, Detail: SuratOfficeDetail },
+  { key: 'thane', label: 'Thane', getCard: getThaneOfficeCardById, Detail: ThaneOfficeDetail },
+  { key: 'thiruvananthapuram', label: 'Thiruvananthapuram', getCard: getThiruvananthapuramOfficeCardById, Detail: ThiruvananthapuramOfficeDetail },
+  { key: 'tiruchirappalli-trichy', label: 'Tiruchirappalli', getCard: getTiruchirappalliTrichyOfficeCardById, Detail: TiruchirappalliTrichyOfficeDetail },
   { key: 'dehradun', label: 'Dehradun', getCard: getDehradunOfficeCardById, Detail: DehradunOfficeDetail },
   { key: 'dharamshala-mcleod-ganj', label: 'Dharamshala & McLeod Ganj', getCard: getDharamshalaMcleodGanjOfficeCardById, Detail: DharamshalaMcleodGanjOfficeDetail },
   { key: 'faridabad', label: 'Faridabad', getCard: getFaridabadOfficeCardById, Detail: FaridabadOfficeDetail },
@@ -508,6 +628,73 @@ const App = () => {
           <Route path="/coworking/agartala/:id" element={<AgartalaOfficeDetail />} />
           <Route path="/coworking/aizawl" element={<AizawlPage />} />
           <Route path="/coworking/aizawl/:id" element={<AizawlOfficeDetail />} />
+          <Route path="/coworking/kanpur" element={<KanpurPage />} />
+          <Route path="/coworking/kanpur/:id" element={<KanpurOfficeDetail />} />
+          <Route path="/coworking/kolhapur" element={<KolhapurPage />} />
+          <Route path="/coworking/kolhapur/:id" element={<KolhapurOfficeDetail />} />
+          <Route path="/coworking/kozhikode-calicut" element={<KozhikodeCalicutPage />} />
+          <Route path="/coworking/kozhikode-calicut/:id" element={<KozhikodeCalicutOfficeDetail />} />
+          <Route path="/coworking/ludhiana" element={<LudhianaPage />} />
+          <Route path="/coworking/ludhiana/:id" element={<LudhianaOfficeDetail />} />
+          <Route path="/coworking/madurai" element={<MaduraiPage />} />
+          <Route path="/coworking/madurai/:id" element={<MaduraiOfficeDetail />} />
+          <Route path="/coworking/mangaluru-mangalore" element={<MangaluruMangalorePage />} />
+          <Route path="/coworking/mangaluru-mangalore/:id" element={<MangaluruMangaloreOfficeDetail />} />
+          <Route path="/coworking/meerut" element={<MeerutPage />} />
+          <Route path="/coworking/meerut/:id" element={<MeerutOfficeDetail />} />
+          <Route path="/coworking/mohali" element={<MohaliPage />} />
+          <Route path="/coworking/mohali/:id" element={<MohaliOfficeDetail />} />
+          <Route path="/coworking/mysuru-mysore" element={<MysuruMysorePage />} />
+          <Route path="/coworking/mysuru-mysore/:id" element={<MysuruMysoreOfficeDetail />} />
+          <Route path="/coworking/nagpur" element={<NagpurPage />} />
+          <Route path="/coworking/nagpur/:id" element={<NagpurOfficeDetail />} />
+          <Route path="/coworking/nashik" element={<NashikPage />} />
+          <Route path="/coworking/nashik/:id" element={<NashikOfficeDetail />} />
+          <Route path="/coworking/navi-mumbai" element={<NaviMumbaiPage />} />
+          <Route path="/coworking/navi-mumbai/:id" element={<NaviMumbaiOfficeDetail />} />
+          <Route path="/coworking/panaji" element={<PanajiPage />} />
+          <Route path="/coworking/panaji/:id" element={<PanajiOfficeDetail />} />
+          <Route path="/coworking/panchkula" element={<PanchkulaPage />} />
+          <Route path="/coworking/panchkula/:id" element={<PanchkulaOfficeDetail />} />
+          <Route path="/coworking/patna" element={<PatnaPage />} />
+          <Route path="/coworking/patna/:id" element={<PatnaOfficeDetail />} />
+          <Route path="/coworking/pimpri-chinchwad" element={<PimpriChinchwadPage />} />
+          <Route path="/coworking/pimpri-chinchwad/:id" element={<PimpriChinchwadOfficeDetail />} />
+          <Route path="/coworking/pondicherry-puducherry" element={<PondicherryPuducherryPage />} />
+          <Route path="/coworking/pondicherry-puducherry/:id" element={<PondicherryPuducherryOfficeDetail />} />
+          <Route path="/coworking/prayagraj" element={<PrayagrajPage />} />
+          <Route path="/coworking/prayagraj/:id" element={<PrayagrajOfficeDetail />} />
+          <Route path="/coworking/raipur" element={<RaipurPage />} />
+          <Route path="/coworking/raipur/:id" element={<RaipurOfficeDetail />} />
+          <Route path="/coworking/rajkot" element={<RajkotPage />} />
+          <Route path="/coworking/rajkot/:id" element={<RajkotOfficeDetail />} />
+          <Route path="/coworking/ranchi" element={<RanchiPage />} />
+          <Route path="/coworking/ranchi/:id" element={<RanchiOfficeDetail />} />
+          <Route path="/coworking/salem" element={<SalemPage />} />
+          <Route path="/coworking/salem/:id" element={<SalemOfficeDetail />} />
+          <Route path="/coworking/shillong" element={<ShillongPage />} />
+          <Route path="/coworking/shillong/:id" element={<ShillongOfficeDetail />} />
+          <Route path="/coworking/shimla" element={<ShimlaPage />} />
+          <Route path="/coworking/shimla/:id" element={<ShimlaOfficeDetail />} />
+          <Route path="/coworking/siliguri" element={<SiliguriPage />} />
+          <Route path="/coworking/siliguri/:id" element={<SiliguriOfficeDetail />} />
+          <Route path="/coworking/srinagar" element={<SrinagarPage />} />
+          <Route path="/coworking/srinagar/:id" element={<SrinagarOfficeDetail />} />
+          <Route path="/coworking/surat" element={<SuratPage />} />
+          <Route path="/coworking/surat/:id" element={<SuratOfficeDetail />} />
+          <Route path="/coworking/thane" element={<ThanePage />} />
+          <Route path="/coworking/thane/:id" element={<ThaneOfficeDetail />} />
+          <Route path="/coworking/thiruvananthapuram" element={<ThiruvananthapuramPage />} />
+          <Route path="/coworking/thiruvananthapuram/:id" element={<ThiruvananthapuramOfficeDetail />} />
+          <Route path="/coworking/tiruchirappalli-trichy" element={<TiruchirappalliTrichyPage />} />
+          <Route path="/coworking/tiruchirappalli-trichy/:id" element={<TiruchirappalliTrichyOfficeDetail />} />
+          {/* More Cities entries (K–T) whose names don't match their page URL. */}
+          <Route path="/coworking/kozhikode / calicut" element={<Navigate to="/coworking/kozhikode-calicut" replace />} />
+          <Route path="/coworking/mangaluru / mangalore" element={<Navigate to="/coworking/mangaluru-mangalore" replace />} />
+          <Route path="/coworking/mysuru / mysore" element={<Navigate to="/coworking/mysuru-mysore" replace />} />
+          <Route path="/coworking/navi mumbai" element={<Navigate to="/coworking/navi-mumbai" replace />} />
+          <Route path="/coworking/pondicherry / puducherry" element={<Navigate to="/coworking/pondicherry-puducherry" replace />} />
+          <Route path="/coworking/tiruchirappalli / trichy" element={<Navigate to="/coworking/tiruchirappalli-trichy" replace />} />
           <Route path="/coworking/dehradun" element={<DehradunPage />} />
           <Route path="/coworking/dehradun/:id" element={<DehradunOfficeDetail />} />
           <Route path="/coworking/dharamshala-mcleod-ganj" element={<DharamshalaMcleodGanjPage />} />
