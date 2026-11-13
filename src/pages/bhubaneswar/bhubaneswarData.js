@@ -293,8 +293,7 @@ export const moreBhubaneshwarOfficeCards = [
       'https://img.cofynd.com/images/original/a66b445acc0289ae0963ad538d0746493fd8d63e.jpg',
       'https://img.cofynd.com/images/original/1703440355547dcef25292b55f25574d3b3a3e8f.jpg',
       'https://img.cofynd.com/images/original/7f0957ea57a5ccd2605c1da7ea26f425b4a79e01.jpg',
-      'https://img.cofynd.com/images/original/871d8e049fad0c094b1c8185e59e204604039a7b.jpg',
-      'https://img.cofynd.com/images/original/aee85bcd0c073c049c03c7a6c710aca2c07a852a.jpg'
+      'https://img.cofynd.com/images/original/871d8e049fad0c094b1c8185e59e204604039a7b.jpg'
     ]
   },
   // 6. Workloop - Saheed Nagar

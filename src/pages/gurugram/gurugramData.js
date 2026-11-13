@@ -873,23 +873,6 @@ export const gurugramSpaces = [
     ]
   },
   // 42. Truworx - DLF Phase 1
-  {
-    id: 42,
-    name: 'Truworx',
-    badge: 'Popular',
-    rating: 4.5,
-    area: 'DLF Phase 1',
-    location: 'DLF Phase 1, Gurgaon',
-    price: '₹8,999',
-    period: '/ Month',
-    priceFormatted: '₹8,999 / Month',
-    ctaText: 'Get Quote',
-    images: [
-      'https://backend.truworx.in/uploads/01_49e481b13a.png',
-      'https://backend.truworx.in/uploads/The_Platina_6795a0922c.png',
-      'https://backend.truworx.in/uploads/Golf_Course_Road_f896cd8653.png'
-    ]
-  },
   // 43. MiQB - Sector 18
   {
     id: 43,
@@ -1038,19 +1021,6 @@ export const gurugramSpaces = [
     ]
   },
   // 50. Shulin Enterprises - Sector 3
-  {
-    id: 50,
-    name: 'Shulin Enterprises',
-    badge: 'Special Offer',
-    rating: 3.8,
-    area: 'Sector 3',
-    location: 'Sector 3, Gurgaon',
-    price: '₹9,999',
-    period: '/ Month',
-    priceFormatted: '₹9,999 / Month',
-    ctaText: 'Get Quote',
-    images: [] // TODO: add images
-  },
   // 51. Altrade Platina Building - MG Road
   {
     id: 51,
@@ -1651,19 +1621,6 @@ export const gurugramSpaces = [
     ]
   },
   // 79. One Culture Tech Garden - Sector 35
-  {
-    id: 79,
-    name: 'One Culture Tech Garden',
-    badge: 'Popular',
-    rating: 4.0,
-    area: 'Sector 35',
-    location: 'Sector 35, Gurgaon',
-    price: '₹7,999',
-    period: '/ Month',
-    priceFormatted: '₹7,999 / Month',
-    ctaText: 'Get Quote',
-    images: [] // TODO: add images
-  },
   // 80. Oahfeo Workspaces Backyard - Sector 39
   {
     id: 80,
@@ -1942,19 +1899,6 @@ export const gurugramSpaces = [
     ]
   },
   // 94. Green Gold 56 - Golf Course Road
-  {
-    id: 94,
-    name: 'Green Gold 56',
-    badge: 'Popular',
-    rating: 5.0,
-    area: 'Golf Course Road',
-    location: 'Golf Course Road, Gurgaon',
-    price: '₹9,999',
-    period: '/ Month',
-    priceFormatted: '₹9,999 / Month',
-    ctaText: 'Get Quote',
-    images: [] // TODO: add images
-  },
   // 95. SupremeWork Ocus Technopolies - Golf Course Road
   {
     id: 95,
@@ -2376,19 +2320,6 @@ export const gurugramSpaces = [
     ]
   },
   // 116. GC Towers - Udyog Vihar
-  {
-    id: 116,
-    name: 'GC Towers',
-    badge: 'Popular',
-    rating: 5.0,
-    area: 'Udyog Vihar',
-    location: 'Udyog Vihar, Gurgaon',
-    price: '₹6,999',
-    period: '/ Month',
-    priceFormatted: '₹6,999 / Month',
-    ctaText: 'Get Quote',
-    images: [] // TODO: add images
-  },
   // 117. Infrapro Spaces - Sector 44
   {
     id: 117,
@@ -2432,19 +2363,6 @@ export const gurugramSpaces = [
     ]
   },
   // 119. Easy Works Space - Sector 48
-  {
-    id: 119,
-    name: 'Easy Works Space',
-    badge: 'Premium',
-    rating: 4.3,
-    area: 'Sector 48',
-    location: 'Sector 48, Gurgaon',
-    price: '₹5,900',
-    period: '/ Month',
-    priceFormatted: '₹5,900 / Month',
-    ctaText: 'Get Quote',
-    images: [] // TODO: add images
-  },
   // 120. Quest Coworks - Sector 51
   {
     id: 120,
@@ -2544,19 +2462,6 @@ export const gurugramSpaces = [
     ]
   },
   // 125. OTS Solutions - Sector 47
-  {
-    id: 125,
-    name: 'OTS Solutions',
-    badge: 'Premium',
-    rating: 4.5,
-    area: 'Sector 47',
-    location: 'Sector 47, Gurgaon',
-    price: '₹4,999',
-    period: '/ Month',
-    priceFormatted: '₹4,999 / Month',
-    ctaText: 'Get Quote',
-    images: [] // TODO: add images
-  },
   // 126. CorporatEdge Two Horizon Centre - Golf Course Road
   {
     id: 126,
@@ -2597,24 +2502,6 @@ export const gurugramSpaces = [
     ] 
   },
   // 128. Livance Coworking - Udyog Vihar
-  {
-    id: 128,
-    name: 'Livance Coworking',
-    badge: 'Near Metro',
-    rating: null,
-    area: 'Udyog Vihar',
-    location: 'Udyog Vihar, Gurgaon',
-    price: '₹5,999',
-    period: '/ Month',
-    priceFormatted: '₹5,999 / Month',
-    ctaText: 'Get Quote',
-    images: [
-      'https://livance.co.in/images/ghitorni-lounge-view.jpg',
-      'https://livance.co.in/images/udyog-vihar-1.jpg',
-      'https://livance.co.in/images/ghitorni-boardroom.jpg',
-      'https://livance.co.in/images/ghitorni-cabin.jpg'
-    ]
-  },
   // 129. IREP Workspaces Splendor Spectrum One - Golf Course Extension Road
   {
     id: 129,
@@ -2732,33 +2619,7 @@ export const gurugramSpaces = [
     ]
   },
   // 135. Mugz Cafe & Co-working - Gwal Pahari
-  {
-    id: 135,
-    name: 'Mugz Cafe & Co-working',
-    badge: 'Premium',
-    rating: 4.7,
-    area: 'Gwal Pahari',
-    location: 'Gwal Pahari, Gurugram, Bandhwari',
-    price: '₹7,999',
-    period: '/ Month',
-    priceFormatted: '₹7,999 / Month',
-    ctaText: 'Get Quote',
-    images: [] // TODO: add images
-  },
   // 136. Webelio Workspace - Gurugram
-  {
-    id: 136,
-    name: 'Webelio Workspace',
-    badge: 'Popular',
-    rating: 4.9,
-    area: 'Gurugram',
-    location: 'Gurugram, Haryana',
-    price: '₹4,999',
-    period: '/ Month',
-    priceFormatted: '₹4,999 / Month',
-    ctaText: 'Get Quote',
-    images: [] // TODO: add images
-  }
 ];
 
 // Content of the "Discover your perfect workspace" banner (title, subtitle, button text, background photo).

@@ -520,24 +520,6 @@ export const bangaloreSpaces  = [
     ]
   },
   {
-    id: 158,
-    name: 'WorkX',
-    badge: null,
-    rating: 4.0,
-    area: 'HSR Layout',
-    location: 'HSR Layout, Bangalore',
-    price: '₹5,999',
-    period: '/ Month',
-    priceFormatted: '₹5,999 / Month',
-    ctaText: 'Get Quote',
-    images: [
-      "https://lh3.googleusercontent.com/grass-cs/AABkmLdUUHe_cUYmOxJin9zfo8pAe2cJHlpaOnlc8Lq2SVpz8CRZ5zAYE6eBcPHaIFTqYlZwvDBgUhRySFsZsxho9bH_BSbbK9-A2ZiPC77-9c0sA5lrg1Rx7JTAuCBk-emI85dGqehp=s4800-w800-h600",
-      "https://lh3.googleusercontent.com/grass-cs/AABkmLfLQMTUq7RRDiQ8y9uQtzfn4CMQ5GDye40YA9HzEbBEuFXpSA6J56rjr88xThIiusqy1miAzzVqsUtNbqzixGKMmKdnxr4C8G1uGNuwrTD_u4sy56Gpe5wSlZgDwKGFaQMdRwAZ4w=s4800-w800-h600",
-      "https://lh3.googleusercontent.com/grass-cs/AABkmLcbfrxz40GUvZlm7qk3g1dMR5zr0z85BU3oru_YK74eZ4e-YMbWfdip_bcOvBoUaZj-ebPXemm8LnETVDi444tBhRmGSXP7Dt3BfNaSgQT1THWU3LNyuxSpmE8HQvLEEmPzSe0CgQ=s4800-w800-h600",
-      "https://lh3.googleusercontent.com/grass-cs/AABkmLdj3xLN-sQcZIT5m7HBK_d9AeGiFZSpXG7NQK47haOsiNVGSZVHFkPX3tNaS1Cw1gfB0cmUV8SZjYP233FIkhNvxK8G8urOCXcxCmd-DbG4DYv9x5WNYVVl3O7Y48J1kOD9Hwrf=s4800-w800-h600"
-    ]
-  },
-  {
     id: 159,
     name: '365 Spaces Nova',
     badge: 'Popular',
@@ -4103,25 +4085,6 @@ export const bangaloreSpaces  = [
       'https://img.cofynd.com/images/latest_images_2024/5ab97f718cce4a87b70b2e5a0932ce5c39464d99.webp',
       'https://img.cofynd.com/images/latest_images_2024/324fd2a158f5ea0d71bdc5dd179564273d905506.webp',
       'https://img.cofynd.com/images/latest_images_2024/17df90a30c01301e1dae4fc4e257c61ab0a1bb25.webp'
-    ]
-  },
-  {
-    // NOTE: Jayanagar centre — same name as the Whitefield "Evolve Work Studio" card; separate listing
-    id: 355,
-    name: 'Evolve Work Studio',
-    badge: 'Premium',
-    rating: 4.5,
-    area: 'Jayanagar',
-    location: 'Jayanagar, Bangalore',
-    price: '₹7,999',
-    period: '/ Month',
-    priceFormatted: '₹7,999 / Month',
-    ctaText: 'Get Quote',
-    images: [
-      "https://lh3.googleusercontent.com/grass-cs/AABkmLfBqM5i-6nCSegFMcodxv3KDnhjwKwgg8qnvGDbeLUBqz0-_z4Q9gY8PfaoUolzJMYGsT-AN5GqUQhSOOPo79nt-D8fANmxFPiWq_lm3_unH81wD4ICcgDMiq3ogalf7i0YWML4=s4800-w800-h600",
-      "https://lh3.googleusercontent.com/grass-cs/AABkmLdDXJVxOrsjFyilCuHdD8kZrJ8bWDI7RcPExWjNdzBblddT_klDJ8M_RZGL9VLzSwcz0Xfgjqpl_AOYxrH_fYt4yAM20R05yUq5pxOugyrO-sAar3LHW4vLNXc9ixe3FmdhqwICVQ=s4800-w800-h600",
-      "https://lh3.googleusercontent.com/grass-cs/AABkmLdxGB73XCtFVzUeZPMwqRFhVVD2qIMEU03rh9NdbK_Yg3q_0cwgQOFxvPCwj4qFcMnebR5b7paQpfiBv2F7bJWQHQtX9CKfZ73Z5krNLLalp18PEp5fT3tGjb_dyf-rwLkR_te9IA=s4800-w800-h600",
-      "https://lh3.googleusercontent.com/grass-cs/AABkmLdzY7n2Xa4jp-cTAO0L7hpBoMN1eicx1spA6Dml3uhRzhBhH0xsQWH7FTIp9hStcqOC6DvcjUwpSt0ADUl5cAYWQbeKWb4WRaNGgj49arcY_BaswK2oa3HExS-tmbzcrYI6-iXp=s4800-w800-h600"
     ]
   },
   {

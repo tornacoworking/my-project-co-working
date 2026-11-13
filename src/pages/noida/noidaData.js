@@ -283,20 +283,6 @@ export const noidaOfficeCards = [
     ]
   },
   {
-    id: 15,
-    name: 'SupremeWork',
-    badge: 'Premium',
-    rating: 4.5,
-    area: 'Sector 16',
-    location: 'Sector 16, Noida',
-    price: '₹9,999',
-    period: '/ month',
-    priceFormatted: '₹9,999 / month',
-    ctaText: 'Get Quote',
-    googleMapsUrl: null,
-    images: []
-  },
-  {
     id: 16,
     name: 'Regus World Trade Tower',
     badge: 'Premium',
@@ -452,20 +438,6 @@ export const noidaOfficeCards = [
       'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Tn9KUgb-JS8qsybqxhtvoYw05slily31UxpV9IW453ZdiX4NOK10DW5gMpOd75Hoz244Rq_gI1CXAY58AoRsJzihOAkNrEYyTz1SHw1xtAQDYkN59KsWP4gJ2WEAYoZJX1R7EM=w1600-h1067-k-no',
       'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TRrSCGnA61gq7LljH9maqE1UCwPKbmyj4oL_oBaQvqvM7PqPRdSNfOef_qndIEsj8DZ7Sa7S2MnDV7_23XCeMG-cD5SzTHX08cJMmWoFv2I9GfEir5pi-ire4xLZJ1XOmmvcow=w1600-h1067-k-no'
     ]
-  },
-  {
-    id: 24,
-    name: 'Awfis Bhutani Technopark',
-    badge: 'Premium',
-    rating: 5.0,
-    area: 'Sector 127',
-    location: 'Sector 127, Noida',
-    price: '₹7,999',
-    period: '/ month',
-    priceFormatted: '₹7,999 / month',
-    ctaText: 'Get Quote',
-    googleMapsUrl: 'https://maps.google.com/?cid=12810277232449995846',
-    images: []
   },
   {
     id: 25,
@@ -1235,20 +1207,6 @@ export const noidaOfficeCards = [
     ]
   },
   {
-    id: 64,
-    name: 'Wizworks KS Corporate Tower',
-    badge: 'Popular',
-    rating: 4.2,
-    area: 'Sector 16',
-    location: 'Sector 16, Noida',
-    price: '₹9,999',
-    period: '/ month',
-    priceFormatted: '₹9,999 / month',
-    ctaText: 'Get Quote',
-    googleMapsUrl: 'https://maps.google.com/?cid=2096928397403875240',
-    images: []
-  },
-  {
     id: 65,
     name: 'Sharkspace',
     badge: 'Popular',
@@ -1714,7 +1672,6 @@ export const noidaOfficeCards = [
     ctaText: 'Get Quote',
     googleMapsUrl: 'https://maps.google.com/?cid=5993201844787914294',
     images: [
-      'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SV9LOj1eMyIrooE1eXRjNOzVQC0V7A-mAn1cmIEzy6rr_4AIf_RqJKygK5OxTN3ryIRL98yBpDZgvJh-6Wk7r02WKdw2Pbb0E6KTIglFIPtuEaPuMoE-4lwVhqL68aLEVGFu4IyxRhVS0=w1600-h1067-k-no',
       'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TKc_LA7QZooqDpagSYsr7YyO1lGVQaBOdAF9WvqFlFMMxllPMgkL7MYwijUpeN_GqYkiZ2YZdWi4TtG8Il5jYVcciSPZLyWXaMIzzeOswPLJm5hL9aB76K0MLMWAsakx75pNxh7U5iI7mA=w1600-h1067-k-no',
       'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T7ufAUSju44xcfIeSuXSETdxpnjPoinb7_sQ84cbwcHYTrlMnyC9zlRqDeyWJ-zDas4OQjME-zMkJMvYqUlZW3bVMSEa0PZFVdZ03SSlToSNohPEWCDMYgLANAaqicagZcxVNEoBUh8Cs=w1600-h1067-k-no',
       'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SN9OHJgI7M7024hO5Ndd2ES5ijEPRkfbcivygQ3ZUQfDNjEfTcnuQRDLfP1Jnnme7x2rpXdD4sKuWQyf4J2Hyt_rPsO5OAPsi_sObpt5lypgX-cYikPsT552s5wV3oNdY-9tmoIDGlah8y=w1600-h1067-k-no',
@@ -1779,20 +1736,6 @@ export const noidaOfficeCards = [
       'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Sy2CUhFiLOMBmnFmn5B2pUZTMf3PTCztMPYCZmN4nXSKioE0Um-PyjncmdueVDdQwMnzKjb1jHVSGasPFecDMbv5Twqzf1CJSMjc2XlySCpgmWRRhsOHvQ2ioHWWLI-C22fTguL6Xf4-jM=w1600-h1067-k-no',
       'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SyPvL94-HeqB_SAjRN1JH7eyLJazOTreA-NCrHnk-VMvMHe-pTSpO-_lprACe040HOGuAW2mIei_TogfMUZlXe0joOmZJfgiSGCSrV_c48V-sPkvQ2BfdtfLBfzNPaqrcMBrG-wiK4tOQN=w1600-h1067-k-no'
     ]
-  },
-  {
-    id: 92,
-    name: 'Office Craft Sector 73 Noida',
-    badge: 'Premium',
-    rating: 4.9,
-    area: 'Sector 73',
-    location: 'Sector 73 Noida',
-    price: '',
-    period: '',
-    priceFormatted: '',
-    ctaText: 'Get Quote',
-    googleMapsUrl: null,
-    images: []
   },
   {
     id: 93,

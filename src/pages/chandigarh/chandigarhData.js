@@ -373,7 +373,6 @@ export const finalChandigarhOfficeCards = [
     priceFormatted: "₹5,189 / Month",
     ctaText: "Get Quote",
     images: [
-      "https://img.cofynd.com/images/original/e6e1f4df159c1b209173020aa9b3aa5dac05d715.jpg",
       "https://img.cofynd.com/images/original/d270d82e4a847ee76b6f5d53eb05e714fa4d0c77.jpg",
       "https://img.cofynd.com/images/original/91bb6a1c7572d3e5f27d8302a1a5feadad1cb1e9.jpg",
       "https://img.cofynd.com/images/original/235c7df74077052086d13e71579bc8adb60a8209.jpg",

@@ -873,11 +873,7 @@ export const pageTwoMorePuneOfficeCards = [
     priceFormatted: '₹6,500 / month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/original/ee864fd84b6a8c54cad355429958fec57cddde5c.jpg',
-      'https://img.cofynd.com/images/original/03ae317926b42b6a9a01662c1148419614457788.jpg',
-      'https://img.cofynd.com/images/original/ae12c9b1368625902b665be5d398939c36417758.jpg',
-      'https://img.cofynd.com/images/original/02316e1074e2d36378fbdf303d7dbad849bc5244.jpg',
-      'https://img.cofynd.com/images/original/94c4dd8dbf4e0c4e747ee83a54d6560965e94b28.jpg'
+      'https://img.cofynd.com/images/original/ee864fd84b6a8c54cad355429958fec57cddde5c.jpg'
     ]
   },
   // 2. Quick Office - Hinjewadi-Wakad Road, Pune
@@ -893,11 +889,7 @@ export const pageTwoMorePuneOfficeCards = [
     priceFormatted: '₹6,499 / month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/original/d9c9de21fde512d1abf3c2de44a3ca2c56d75712.jpg',
-      'https://img.cofynd.com/images/original/c4146a81b3793ae793e25b0cb13c32b5756cb865.jpg',
-      'https://img.cofynd.com/images/original/f7466184511d7f02d41b619e075051aa12bc12eb.jpg',
-      'https://img.cofynd.com/images/original/f9e80193cfcf64f331cf11e4bf5b741ca12431cf.jpg',
-      'https://img.cofynd.com/images/original/55486c750b28414ba491a92e105e466ce78d2c67.jpg'
+      'https://img.cofynd.com/images/original/d9c9de21fde512d1abf3c2de44a3ca2c56d75712.jpg'
     ]
   },
   // 3. Bootstart Coworking – Clover Hills Plaza - NIBM, Pune
@@ -913,11 +905,7 @@ export const pageTwoMorePuneOfficeCards = [
     priceFormatted: '₹7,000 / month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/bb629c8a53d66f187aeb5bf553ad5e279af05a5c.webp',
-      'https://img.cofynd.com/images/latest_images_2024/1a29582d9217eb74a62174c6020573ae0c78a08d.webp',
-      'https://img.cofynd.com/images/latest_images_2024/60655a15a0c32900fa75fe66b89691cb5ee4e0bc.webp',
-      'https://img.cofynd.com/images/latest_images_2024/5b2ca024c0d02b5fc20f8fe6413247ea795d3fa9.webp',
-      'https://img.cofynd.com/images/latest_images_2024/76cfa7b3feaa5574519f71c4c1a9657b98d9c228.webp'
+      'https://img.cofynd.com/images/latest_images_2024/bb629c8a53d66f187aeb5bf553ad5e279af05a5c.webp'
     ]
   },
   // 4. Bootstart Coworking – VCC Vantage Baner - Baner, Pune
@@ -933,11 +921,7 @@ export const pageTwoMorePuneOfficeCards = [
     priceFormatted: '₹8,000 / month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/1622dedd6662b77bb61099f9979f10dea0b8818d.webp',
-      'https://img.cofynd.com/images/latest_images_2024/b732da45143a5951d08e54bf48d8885b54fc17bf.webp',
-      'https://img.cofynd.com/images/latest_images_2024/7efb19e99551c6e1ffcf82bbfb772c914bfba544.webp',
-      'https://img.cofynd.com/images/latest_images_2024/856697b099f66bb6c4dbfe849e7555e16ae306a7.webp',
-      'https://img.cofynd.com/images/latest_images_2024/855d0458df81c810fb594b281aa06a1420d2cb2f.webp'
+      'https://img.cofynd.com/images/latest_images_2024/1622dedd6662b77bb61099f9979f10dea0b8818d.webp'
     ]
   },
   // 5. The Living Desk - Pimple Saudagar, Pune
@@ -953,11 +937,7 @@ export const pageTwoMorePuneOfficeCards = [
     priceFormatted: '₹4,999 / month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/4f906129fc19084e952849d33f5bbd29d844f076.webp',
-      'https://img.cofynd.com/images/latest_images_2024/7bebe47c0a876798a01103c812d1b8273a0058b7.webp',
-      'https://img.cofynd.com/images/latest_images_2024/d97607a049fae21f47847beceae4b16752d56a31.webp',
-      'https://img.cofynd.com/images/latest_images_2024/2f8080ddb777a459b128522e84c9873f272a0f82.webp',
-      'https://img.cofynd.com/images/latest_images_2024/88c641496c21a415ff67be50d3a54b38bf2137be.webp'
+      'https://img.cofynd.com/images/latest_images_2024/4f906129fc19084e952849d33f5bbd29d844f076.webp'
     ]
   },
   // 6. CreateX - Ashok Nagar, Kharadi, Pune
@@ -973,11 +953,7 @@ export const pageTwoMorePuneOfficeCards = [
     priceFormatted: '₹6,999 / month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/original/ba093deda85778f9f720eac4409625ef1cba8f9f.jpg',
-      'https://img.cofynd.com/images/original/a03dfa74d271ba3f560d26fb511b81832049964e.jpg',
-      'https://img.cofynd.com/images/original/405fe42fc3a633a699c2d139e6a9ee865c3bb084.jpg',
-      'https://img.cofynd.com/images/original/f28945cf4ea827179069ec6d817ceba3c90e0c05.jpg',
-      'https://img.cofynd.com/images/original/23ee3a2fa6f338d77a83424d85600c3b5d2780e0.jpg'
+      'https://img.cofynd.com/images/original/ba093deda85778f9f720eac4409625ef1cba8f9f.jpg'
     ]
   },
   // 7. Kontor Space - Fatima Nagar, Wanowrie, Pune
@@ -993,11 +969,7 @@ export const pageTwoMorePuneOfficeCards = [
     priceFormatted: '₹5,500 / month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/84defb26448d63bd51f9935a13db918b8c83b5d0.webp',
-      'https://img.cofynd.com/images/latest_images_2024/29598218177fe7da5f5db3e843818e69e4ce03cb.webp',
-      'https://img.cofynd.com/images/latest_images_2024/2b7a4a905a960fb5ce147f12e2c8427f711e7413.webp',
-      'https://img.cofynd.com/images/latest_images_2024/314e1a067dd09c647b744fe610ca5efd373be5c2.webp',
-      'https://img.cofynd.com/images/latest_images_2024/2d2e1c66e927bbcc7492c102df0e61d8713d288d.webp'
+      'https://img.cofynd.com/images/latest_images_2024/84defb26448d63bd51f9935a13db918b8c83b5d0.webp'
     ]
   },
   // 8. Cowerkz - Baner, Pune
@@ -1013,11 +985,7 @@ export const pageTwoMorePuneOfficeCards = [
     priceFormatted: '₹6,499 / month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/51ee565b91eea36c875c7ddf996652b81ba22d8b.webp',
-      'https://img.cofynd.com/images/latest_images_2024/09c488ee273cba93322d8e48b813155734cecfd5.webp',
-      'https://img.cofynd.com/images/latest_images_2024/a309e390c58742880c9e6bb075787f7a7daae40b.webp',
-      'https://img.cofynd.com/images/latest_images_2024/d62bc5a6f2cf38a4b6555ccdf66f7fbb6b7e53f1.webp',
-      'https://img.cofynd.com/images/latest_images_2024/914ca385f0ef386bb0fb27c593fa8e5cc6946766.webp'
+      'https://img.cofynd.com/images/latest_images_2024/51ee565b91eea36c875c7ddf996652b81ba22d8b.webp'
     ]
   }
 ];
@@ -1044,11 +1012,7 @@ export const pageTwoFinalPuneOfficeCards = [
     priceFormatted: '₹7,999 / month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/75c99a42549db958c07069acd879e75aa5f112ed.webp',
-      'https://img.cofynd.com/images/latest_images_2024/222d4dd62d04a62174c83f982be0532cf2b5a198.webp',
-      'https://img.cofynd.com/images/latest_images_2024/9ef1671fc659779df3df80f339f4d1c1cf6ecae0.webp',
-      'https://img.cofynd.com/images/latest_images_2024/fa704c3e86c04f98129486c990a1f0a1ea396a5b.webp',
-      'https://img.cofynd.com/images/latest_images_2024/fbe554bfd53457183e29f3d9f187422f6764506c.webp'
+      'https://img.cofynd.com/images/latest_images_2024/75c99a42549db958c07069acd879e75aa5f112ed.webp'
     ]
   },
   // 2. Sprint Epicentre - Shivaji Nagar, Pune
@@ -1064,11 +1028,7 @@ export const pageTwoFinalPuneOfficeCards = [
     priceFormatted: '₹8,499 / month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/161abf6511e6b987f78cb460b8dc78f9a47cff41.webp',
-      'https://img.cofynd.com/images/latest_images_2024/be352613cf58bb0702d765873995874da605f63d.webp',
-      'https://img.cofynd.com/images/latest_images_2024/7ec8942b036bf62bc1c5fae446864fe78a6ff607.webp',
-      'https://img.cofynd.com/images/latest_images_2024/18a20d4f6c4067ef9280d0d5b4a9235e80721200.webp',
-      'https://img.cofynd.com/images/latest_images_2024/ef3327b3b7548fae1f6e077051db55805562776c.webp'
+      'https://img.cofynd.com/images/latest_images_2024/161abf6511e6b987f78cb460b8dc78f9a47cff41.webp'
     ]
   },
   // 3. Sprint Antaaya - Balewadi, Pune
@@ -1084,11 +1044,7 @@ export const pageTwoFinalPuneOfficeCards = [
     priceFormatted: '₹7,999 / month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/01669a959ca243a0ace85d5cb3d35ad7a0fa0069.webp',
-      'https://img.cofynd.com/images/latest_images_2024/00bc4a460b721ea7f7d142b7811776ceee388a1e.webp',
-      'https://img.cofynd.com/images/latest_images_2024/8c7ce8970e70f6d61001ff991d90fc921a2a4b3d.webp',
-      'https://img.cofynd.com/images/latest_images_2024/7fa3b7fbba5e6e3ce010a30b65fb74ebf4ff843a.webp',
-      'https://img.cofynd.com/images/latest_images_2024/804a806c9e05ceabdf06c04f9104b2b3a9bb7c24.webp'
+      'https://img.cofynd.com/images/latest_images_2024/01669a959ca243a0ace85d5cb3d35ad7a0fa0069.webp'
     ]
   },
   // 4. Divine Coworking Cosmos - Cosmos gardens, Pune
@@ -1104,11 +1060,7 @@ export const pageTwoFinalPuneOfficeCards = [
     priceFormatted: '₹6,999 / month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/original/874e8a3fc6fa04771cc22b68f8c70a64552ee734.jpg',
-      'https://img.cofynd.com/images/original/6c5be75fe5d634db8be1fa70f8072ba00bb70562.jpg',
-      'https://img.cofynd.com/images/original/2cbcf812bc8527a20c5713ca2be06b9b1e84a278.jpg',
-      'https://img.cofynd.com/images/original/fe74e7c7a52e909da48fe97475d4be1ea70c14b7.jpg',
-      'https://img.cofynd.com/images/original/4e84b80e55da08d132ce3a00f274cb7e39a3f2d0.jpg'
+      'https://img.cofynd.com/images/original/874e8a3fc6fa04771cc22b68f8c70a64552ee734.jpg'
     ]
   },
   // 5. ccw pune coworking space - Balewadi, Pune
@@ -1124,11 +1076,7 @@ export const pageTwoFinalPuneOfficeCards = [
     priceFormatted: '₹1,000 / hour',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/0849fb3bf5b76c8c877c9f8eaa670dbe58b24c4c.webp',
-      'https://img.cofynd.com/images/latest_images_2024/76aeae659b85c35ff613768407d4b4dd52b821ae.webp',
-      'https://img.cofynd.com/images/latest_images_2024/1d717f96b27e4c76ba2e31ea2dd2604724a350eb.webp',
-      'https://img.cofynd.com/images/latest_images_2024/e9069dfb4cfec1b7e4115fdb9f214251239c43d5.webp',
-      'https://img.cofynd.com/images/latest_images_2024/aaeb5c5553e83f5c531d0447fae3f16ff36e9ff0.webp'
+      'https://img.cofynd.com/images/latest_images_2024/0849fb3bf5b76c8c877c9f8eaa670dbe58b24c4c.webp'
     ]
   },
   // 6. Excella Coworking Space - DS Ikon - Baner, Pune
@@ -1164,11 +1112,7 @@ export const pageTwoFinalPuneOfficeCards = [
     priceFormatted: '₹5,499 / month',
     ctaText: 'Get Quote',
     images: [
-      'https://img.cofynd.com/images/latest_images_2024/d61bec0eb50cc1da6c442d4c97de383c393b46cc.webp',
-      'https://img.cofynd.com/images/latest_images_2024/30d2fcdae19197c83f982924ba95593849767858.webp',
-      'https://img.cofynd.com/images/latest_images_2024/49156b1424756543b5ce40bc63d0c411440f8981.webp',
-      'https://img.cofynd.com/images/latest_images_2024/67e2a9b3a3ca7eeb789c0aa38562dff783637c37.webp',
-      'https://img.cofynd.com/images/latest_images_2024/7dd58ec0e767439fa8a1bf18db35b44d3c6902ca.webp'
+      'https://img.cofynd.com/images/latest_images_2024/d61bec0eb50cc1da6c442d4c97de383c393b46cc.webp'
     ]
   },
   // 8. ScaleUp CoWork - BMCC Road, Pune
@@ -1216,9 +1160,6 @@ export const pageTwoFeaturedPuneOfficeCards = [
     ctaText: 'Get Quote',
     images: [
       'https://img.cofynd.com/images/latest_images_2024/8e38d64e483da95f8222e8c0f9c3d8bee9b188b4.webp',
-      'https://img.cofynd.com/images/latest_images_2024/fa704c3e86c04f98129486c990a1f0a1ea396a5b.webp',
-      'https://img.cofynd.com/images/latest_images_2024/9ef1671fc659779df3df80f339f4d1c1cf6ecae0.webp',
-      'https://img.cofynd.com/images/latest_images_2024/222d4dd62d04a62174c83f982be0532cf2b5a198.webp',
       'https://img.cofynd.com/images/latest_images_2024/75c99a42549db958c07069acd879e75aa5f112ed.webp'
     ]
   },
@@ -1256,9 +1197,6 @@ export const pageTwoFeaturedPuneOfficeCards = [
     ctaText: 'Get Quote',
     images: [
       'https://img.cofynd.com/images/latest_images_2024/14bab5b79e13634a0877bdc64d5bbf1d3b2be99f.webp',
-      'https://img.cofynd.com/images/latest_images_2024/e9069dfb4cfec1b7e4115fdb9f214251239c43d5.webp',
-      'https://img.cofynd.com/images/latest_images_2024/1d717f96b27e4c76ba2e31ea2dd2604724a350eb.webp',
-      'https://img.cofynd.com/images/latest_images_2024/76aeae659b85c35ff613768407d4b4dd52b821ae.webp',
       'https://img.cofynd.com/images/latest_images_2024/0849fb3bf5b76c8c877c9f8eaa670dbe58b24c4c.webp'
     ]
   },
@@ -1296,9 +1234,6 @@ export const pageTwoFeaturedPuneOfficeCards = [
     ctaText: 'Get Quote',
     images: [
       'https://img.cofynd.com/images/latest_images_2024/7990934854cccc27121ee476a22f714e26d131d3.webp',
-      'https://img.cofynd.com/images/latest_images_2024/aaeb5c5553e83f5c531d0447fae3f16ff36e9ff0.webp',
-      'https://img.cofynd.com/images/latest_images_2024/222d4dd62d04a62174c83f982be0532cf2b5a198.webp',
-      'https://img.cofynd.com/images/latest_images_2024/9ef1671fc659779df3df80f339f4d1c1cf6ecae0.webp',
       'https://img.cofynd.com/images/latest_images_2024/75c99a42549db958c07069acd879e75aa5f112ed.webp'
     ]
   },
@@ -1336,9 +1271,6 @@ export const pageTwoFeaturedPuneOfficeCards = [
     ctaText: 'Get Quote',
     images: [
       'https://img.cofynd.com/images/latest_images_2024/d1115009669a61c861c0397a5c542d1561574e8f.webp',
-      'https://img.cofynd.com/images/latest_images_2024/76cfa7b3feaa5574519f71c4c1a9657b98d9c228.webp',
-      'https://img.cofynd.com/images/latest_images_2024/5b2ca024c0d02b5fc20f8fe6413247ea795d3fa9.webp',
-      'https://img.cofynd.com/images/latest_images_2024/60655a15a0c32900fa75fe66b89691cb5ee4e0bc.webp',
       'https://img.cofynd.com/images/latest_images_2024/bb629c8a53d66f187aeb5bf553ad5e279af05a5c.webp'
     ]
   },
@@ -5650,8 +5582,6 @@ export const areaExtraOfficeCards = {
       "priceFormatted": "₹7,499 / Month",
       "ctaText": "Get Quote",
       "images": [
-        "https://img.cofynd.com/images/latest_images_2024/78bc4d88354587a176c6a31ab2ddba293b901b19.jpg",
-        "https://img.cofynd.com/images/latest_images_2024/c5a7db9b91dd6bf706976e9b22da4f55f4a0b025.jpg",
         "https://img.cofynd.com/images/latest_images_2024/4a80ca81d529f233d965d48c442a59eae81aeb8e.webp",
         "https://img.cofynd.com/images/latest_images_2024/18d01923b21937c81ece74720c4bb548da9e6923.webp"
       ]
@@ -5736,8 +5666,7 @@ export const areaExtraOfficeCards = {
       "priceFormatted": "₹6,499 / Month",
       "ctaText": "Get Quote",
       "images": [
-        "https://img.cofynd.com/images/latest_images_2024/84defb26448d63bd51f9935a13db918b8c83b5d0.webp",
-        "https://img.cofynd.com/images/latest_images_2024/29598218177fe7da5f5db3e843818e69e4ce03cb.webp"
+        "https://img.cofynd.com/images/latest_images_2024/84defb26448d63bd51f9935a13db918b8c83b5d0.webp"
       ]
     }
   ],
@@ -5853,8 +5782,7 @@ export const areaExtraOfficeCards = {
       "priceFormatted": "₹6,999 / Month",
       "ctaText": "Get Quote",
       "images": [
-        "https://img.cofynd.com/images/latest_images_2024/bb629c8a53d66f187aeb5bf553ad5e279af05a5c.webp",
-        "https://img.cofynd.com/images/latest_images_2024/1a29582d9217eb74a62174c6020573ae0c78a08d.webp"
+        "https://img.cofynd.com/images/latest_images_2024/bb629c8a53d66f187aeb5bf553ad5e279af05a5c.webp"
       ]
     },
     {
@@ -5951,8 +5879,7 @@ export const areaExtraOfficeCards = {
       "priceFormatted": "₹5,999 / Month",
       "ctaText": "Get Quote",
       "images": [
-        "https://img.cofynd.com/images/latest_images_2024/84defb26448d63bd51f9935a13db918b8c83b5d0.webp",
-        "https://img.cofynd.com/images/latest_images_2024/29598218177fe7da5f5db3e843818e69e4ce03cb.webp"
+        "https://img.cofynd.com/images/latest_images_2024/84defb26448d63bd51f9935a13db918b8c83b5d0.webp"
       ]
     },
     {
