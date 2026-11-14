@@ -94,6 +94,15 @@ import { getAgartalaOfficeCardById } from './pages/agartala/agartalaData';
 import AizawlPage from './pages/aizawl/Aizawl';
 import AizawlOfficeDetail from './pages/aizawl/AizawlOfficeDetail';
 import { getAizawlOfficeCardById } from './pages/aizawl/aizawlData';
+import MargaoPage from './pages/margao/Margao';
+import MargaoOfficeDetail from './pages/margao/MargaoOfficeDetail';
+import { getMargaoOfficeCardById } from './pages/margao/margaoData';
+import KarnalPage from './pages/karnal/Karnal';
+import KarnalOfficeDetail from './pages/karnal/KarnalOfficeDetail';
+import { getKarnalOfficeCardById } from './pages/karnal/karnalData';
+import MathuraPage from './pages/mathura/Mathura';
+import MathuraOfficeDetail from './pages/mathura/MathuraOfficeDetail';
+import { getMathuraOfficeCardById } from './pages/mathura/mathuraData';
 import KanpurPage from './pages/kanpur/Kanpur';
 import KanpurOfficeDetail from './pages/kanpur/KanpurOfficeDetail';
 import { getKanpurOfficeCardById } from './pages/kanpur/kanpurData';
@@ -248,6 +257,9 @@ const OFFICE_CITIES = [
   { key: 'aurangabad', label: 'Aurangabad', getCard: getAurangabadOfficeCardById, Detail: AurangabadOfficeDetail },
   { key: 'agartala', label: 'Agartala', getCard: getAgartalaOfficeCardById, Detail: AgartalaOfficeDetail },
   { key: 'aizawl', label: 'Aizawl', getCard: getAizawlOfficeCardById, Detail: AizawlOfficeDetail },
+  { key: 'margao', label: 'Margao', getCard: getMargaoOfficeCardById, Detail: MargaoOfficeDetail },
+  { key: 'karnal', label: 'Karnal', getCard: getKarnalOfficeCardById, Detail: KarnalOfficeDetail },
+  { key: 'mathura', label: 'Mathura', getCard: getMathuraOfficeCardById, Detail: MathuraOfficeDetail },
   { key: 'kanpur', label: 'Kanpur', getCard: getKanpurOfficeCardById, Detail: KanpurOfficeDetail },
   { key: 'kolhapur', label: 'Kolhapur', getCard: getKolhapurOfficeCardById, Detail: KolhapurOfficeDetail },
   { key: 'kozhikode-calicut', label: 'Kozhikode', getCard: getKozhikodeCalicutOfficeCardById, Detail: KozhikodeCalicutOfficeDetail },
@@ -544,6 +556,12 @@ const App = () => {
           <Route path="/coworking/agartala/:id" element={<AgartalaOfficeDetail />} />
           <Route path="/coworking/aizawl" element={<AizawlPage />} />
           <Route path="/coworking/aizawl/:id" element={<AizawlOfficeDetail />} />
+          <Route path="/coworking/margao" element={<MargaoPage />} />
+          <Route path="/coworking/margao/:id" element={<MargaoOfficeDetail />} />
+          <Route path="/coworking/karnal" element={<KarnalPage />} />
+          <Route path="/coworking/karnal/:id" element={<KarnalOfficeDetail />} />
+          <Route path="/coworking/mathura" element={<MathuraPage />} />
+          <Route path="/coworking/mathura/:id" element={<MathuraOfficeDetail />} />
           <Route path="/coworking/kanpur" element={<KanpurPage />} />
           <Route path="/coworking/kanpur/:id" element={<KanpurOfficeDetail />} />
           <Route path="/coworking/kolhapur" element={<KolhapurPage />} />
