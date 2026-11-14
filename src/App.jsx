@@ -94,6 +94,33 @@ import { getAgartalaOfficeCardById } from './pages/agartala/agartalaData';
 import AizawlPage from './pages/aizawl/Aizawl';
 import AizawlOfficeDetail from './pages/aizawl/AizawlOfficeDetail';
 import { getAizawlOfficeCardById } from './pages/aizawl/aizawlData';
+import KanpurPage from './pages/kanpur/Kanpur';
+import KanpurOfficeDetail from './pages/kanpur/KanpurOfficeDetail';
+import { getKanpurOfficeCardById } from './pages/kanpur/kanpurData';
+import KolhapurPage from './pages/kolhapur/Kolhapur';
+import KolhapurOfficeDetail from './pages/kolhapur/KolhapurOfficeDetail';
+import { getKolhapurOfficeCardById } from './pages/kolhapur/kolhapurData';
+import KozhikodeCalicutPage from './pages/kozhikode-calicut/KozhikodeCalicut';
+import KozhikodeCalicutOfficeDetail from './pages/kozhikode-calicut/KozhikodeCalicutOfficeDetail';
+import { getKozhikodeCalicutOfficeCardById } from './pages/kozhikode-calicut/kozhikodeCalicutData';
+import LudhianaPage from './pages/ludhiana/Ludhiana';
+import LudhianaOfficeDetail from './pages/ludhiana/LudhianaOfficeDetail';
+import { getLudhianaOfficeCardById } from './pages/ludhiana/ludhianaData';
+import MaduraiPage from './pages/madurai/Madurai';
+import MaduraiOfficeDetail from './pages/madurai/MaduraiOfficeDetail';
+import { getMaduraiOfficeCardById } from './pages/madurai/maduraiData';
+import MangaluruMangalorePage from './pages/mangaluru-mangalore/MangaluruMangalore';
+import MangaluruMangaloreOfficeDetail from './pages/mangaluru-mangalore/MangaluruMangaloreOfficeDetail';
+import { getMangaluruMangaloreOfficeCardById } from './pages/mangaluru-mangalore/mangaluruMangaloreData';
+import MeerutPage from './pages/meerut/Meerut';
+import MeerutOfficeDetail from './pages/meerut/MeerutOfficeDetail';
+import { getMeerutOfficeCardById } from './pages/meerut/meerutData';
+import MohaliPage from './pages/mohali/Mohali';
+import MohaliOfficeDetail from './pages/mohali/MohaliOfficeDetail';
+import { getMohaliOfficeCardById } from './pages/mohali/mohaliData';
+import MysuruMysorePage from './pages/mysuru-mysore/MysuruMysore';
+import MysuruMysoreOfficeDetail from './pages/mysuru-mysore/MysuruMysoreOfficeDetail';
+import { getMysuruMysoreOfficeCardById } from './pages/mysuru-mysore/mysuruMysoreData';
 import DehradunPage from './pages/dehradun/Dehradun';
 import DehradunOfficeDetail from './pages/dehradun/DehradunOfficeDetail';
 import { getDehradunOfficeCardById } from './pages/dehradun/dehradunData';
@@ -221,6 +248,15 @@ const OFFICE_CITIES = [
   { key: 'aurangabad', label: 'Aurangabad', getCard: getAurangabadOfficeCardById, Detail: AurangabadOfficeDetail },
   { key: 'agartala', label: 'Agartala', getCard: getAgartalaOfficeCardById, Detail: AgartalaOfficeDetail },
   { key: 'aizawl', label: 'Aizawl', getCard: getAizawlOfficeCardById, Detail: AizawlOfficeDetail },
+  { key: 'kanpur', label: 'Kanpur', getCard: getKanpurOfficeCardById, Detail: KanpurOfficeDetail },
+  { key: 'kolhapur', label: 'Kolhapur', getCard: getKolhapurOfficeCardById, Detail: KolhapurOfficeDetail },
+  { key: 'kozhikode-calicut', label: 'Kozhikode', getCard: getKozhikodeCalicutOfficeCardById, Detail: KozhikodeCalicutOfficeDetail },
+  { key: 'ludhiana', label: 'Ludhiana', getCard: getLudhianaOfficeCardById, Detail: LudhianaOfficeDetail },
+  { key: 'madurai', label: 'Madurai', getCard: getMaduraiOfficeCardById, Detail: MaduraiOfficeDetail },
+  { key: 'mangaluru-mangalore', label: 'Mangaluru', getCard: getMangaluruMangaloreOfficeCardById, Detail: MangaluruMangaloreOfficeDetail },
+  { key: 'meerut', label: 'Meerut', getCard: getMeerutOfficeCardById, Detail: MeerutOfficeDetail },
+  { key: 'mohali', label: 'Mohali', getCard: getMohaliOfficeCardById, Detail: MohaliOfficeDetail },
+  { key: 'mysuru-mysore', label: 'Mysuru', getCard: getMysuruMysoreOfficeCardById, Detail: MysuruMysoreOfficeDetail },
   { key: 'dehradun', label: 'Dehradun', getCard: getDehradunOfficeCardById, Detail: DehradunOfficeDetail },
   { key: 'dharamshala-mcleod-ganj', label: 'Dharamshala & McLeod Ganj', getCard: getDharamshalaMcleodGanjOfficeCardById, Detail: DharamshalaMcleodGanjOfficeDetail },
   { key: 'faridabad', label: 'Faridabad', getCard: getFaridabadOfficeCardById, Detail: FaridabadOfficeDetail },
@@ -508,6 +544,28 @@ const App = () => {
           <Route path="/coworking/agartala/:id" element={<AgartalaOfficeDetail />} />
           <Route path="/coworking/aizawl" element={<AizawlPage />} />
           <Route path="/coworking/aizawl/:id" element={<AizawlOfficeDetail />} />
+          <Route path="/coworking/kanpur" element={<KanpurPage />} />
+          <Route path="/coworking/kanpur/:id" element={<KanpurOfficeDetail />} />
+          <Route path="/coworking/kolhapur" element={<KolhapurPage />} />
+          <Route path="/coworking/kolhapur/:id" element={<KolhapurOfficeDetail />} />
+          <Route path="/coworking/kozhikode-calicut" element={<KozhikodeCalicutPage />} />
+          <Route path="/coworking/kozhikode-calicut/:id" element={<KozhikodeCalicutOfficeDetail />} />
+          <Route path="/coworking/ludhiana" element={<LudhianaPage />} />
+          <Route path="/coworking/ludhiana/:id" element={<LudhianaOfficeDetail />} />
+          <Route path="/coworking/madurai" element={<MaduraiPage />} />
+          <Route path="/coworking/madurai/:id" element={<MaduraiOfficeDetail />} />
+          <Route path="/coworking/mangaluru-mangalore" element={<MangaluruMangalorePage />} />
+          <Route path="/coworking/mangaluru-mangalore/:id" element={<MangaluruMangaloreOfficeDetail />} />
+          <Route path="/coworking/meerut" element={<MeerutPage />} />
+          <Route path="/coworking/meerut/:id" element={<MeerutOfficeDetail />} />
+          <Route path="/coworking/mohali" element={<MohaliPage />} />
+          <Route path="/coworking/mohali/:id" element={<MohaliOfficeDetail />} />
+          <Route path="/coworking/mysuru-mysore" element={<MysuruMysorePage />} />
+          <Route path="/coworking/mysuru-mysore/:id" element={<MysuruMysoreOfficeDetail />} />
+          {/* More Cities entries (K–M) whose names don't match their page URL. */}
+          <Route path="/coworking/kozhikode / calicut" element={<Navigate to="/coworking/kozhikode-calicut" replace />} />
+          <Route path="/coworking/mangaluru / mangalore" element={<Navigate to="/coworking/mangaluru-mangalore" replace />} />
+          <Route path="/coworking/mysuru / mysore" element={<Navigate to="/coworking/mysuru-mysore" replace />} />
           <Route path="/coworking/dehradun" element={<DehradunPage />} />
           <Route path="/coworking/dehradun/:id" element={<DehradunOfficeDetail />} />
           <Route path="/coworking/dharamshala-mcleod-ganj" element={<DharamshalaMcleodGanjPage />} />
