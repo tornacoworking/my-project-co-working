@@ -94,6 +94,33 @@ import { getAgartalaOfficeCardById } from './pages/agartala/agartalaData';
 import AizawlPage from './pages/aizawl/Aizawl';
 import AizawlOfficeDetail from './pages/aizawl/AizawlOfficeDetail';
 import { getAizawlOfficeCardById } from './pages/aizawl/aizawlData';
+import NagpurPage from './pages/nagpur/Nagpur';
+import NagpurOfficeDetail from './pages/nagpur/NagpurOfficeDetail';
+import { getNagpurOfficeCardById } from './pages/nagpur/nagpurData';
+import NashikPage from './pages/nashik/Nashik';
+import NashikOfficeDetail from './pages/nashik/NashikOfficeDetail';
+import { getNashikOfficeCardById } from './pages/nashik/nashikData';
+import NaviMumbaiPage from './pages/navi-mumbai/NaviMumbai';
+import NaviMumbaiOfficeDetail from './pages/navi-mumbai/NaviMumbaiOfficeDetail';
+import { getNaviMumbaiOfficeCardById } from './pages/navi-mumbai/naviMumbaiData';
+import PanajiPage from './pages/panaji/Panaji';
+import PanajiOfficeDetail from './pages/panaji/PanajiOfficeDetail';
+import { getPanajiOfficeCardById } from './pages/panaji/panajiData';
+import PanchkulaPage from './pages/panchkula/Panchkula';
+import PanchkulaOfficeDetail from './pages/panchkula/PanchkulaOfficeDetail';
+import { getPanchkulaOfficeCardById } from './pages/panchkula/panchkulaData';
+import PatnaPage from './pages/patna/Patna';
+import PatnaOfficeDetail from './pages/patna/PatnaOfficeDetail';
+import { getPatnaOfficeCardById } from './pages/patna/patnaData';
+import PimpriChinchwadPage from './pages/pimpri-chinchwad/PimpriChinchwad';
+import PimpriChinchwadOfficeDetail from './pages/pimpri-chinchwad/PimpriChinchwadOfficeDetail';
+import { getPimpriChinchwadOfficeCardById } from './pages/pimpri-chinchwad/pimpriChinchwadData';
+import PondicherryPuducherryPage from './pages/pondicherry-puducherry/PondicherryPuducherry';
+import PondicherryPuducherryOfficeDetail from './pages/pondicherry-puducherry/PondicherryPuducherryOfficeDetail';
+import { getPondicherryPuducherryOfficeCardById } from './pages/pondicherry-puducherry/pondicherryPuducherryData';
+import PrayagrajPage from './pages/prayagraj/Prayagraj';
+import PrayagrajOfficeDetail from './pages/prayagraj/PrayagrajOfficeDetail';
+import { getPrayagrajOfficeCardById } from './pages/prayagraj/prayagrajData';
 import MargaoPage from './pages/margao/Margao';
 import MargaoOfficeDetail from './pages/margao/MargaoOfficeDetail';
 import { getMargaoOfficeCardById } from './pages/margao/margaoData';
@@ -257,6 +284,15 @@ const OFFICE_CITIES = [
   { key: 'aurangabad', label: 'Aurangabad', getCard: getAurangabadOfficeCardById, Detail: AurangabadOfficeDetail },
   { key: 'agartala', label: 'Agartala', getCard: getAgartalaOfficeCardById, Detail: AgartalaOfficeDetail },
   { key: 'aizawl', label: 'Aizawl', getCard: getAizawlOfficeCardById, Detail: AizawlOfficeDetail },
+  { key: 'nagpur', label: 'Nagpur', getCard: getNagpurOfficeCardById, Detail: NagpurOfficeDetail },
+  { key: 'nashik', label: 'Nashik', getCard: getNashikOfficeCardById, Detail: NashikOfficeDetail },
+  { key: 'navi-mumbai', label: 'Navi Mumbai', getCard: getNaviMumbaiOfficeCardById, Detail: NaviMumbaiOfficeDetail },
+  { key: 'panaji', label: 'Panaji', getCard: getPanajiOfficeCardById, Detail: PanajiOfficeDetail },
+  { key: 'panchkula', label: 'Panchkula', getCard: getPanchkulaOfficeCardById, Detail: PanchkulaOfficeDetail },
+  { key: 'patna', label: 'Patna', getCard: getPatnaOfficeCardById, Detail: PatnaOfficeDetail },
+  { key: 'pimpri-chinchwad', label: 'Pimpri-Chinchwad', getCard: getPimpriChinchwadOfficeCardById, Detail: PimpriChinchwadOfficeDetail },
+  { key: 'pondicherry-puducherry', label: 'Puducherry', getCard: getPondicherryPuducherryOfficeCardById, Detail: PondicherryPuducherryOfficeDetail },
+  { key: 'prayagraj', label: 'Prayagraj', getCard: getPrayagrajOfficeCardById, Detail: PrayagrajOfficeDetail },
   { key: 'margao', label: 'Margao', getCard: getMargaoOfficeCardById, Detail: MargaoOfficeDetail },
   { key: 'karnal', label: 'Karnal', getCard: getKarnalOfficeCardById, Detail: KarnalOfficeDetail },
   { key: 'mathura', label: 'Mathura', getCard: getMathuraOfficeCardById, Detail: MathuraOfficeDetail },
@@ -556,6 +592,27 @@ const App = () => {
           <Route path="/coworking/agartala/:id" element={<AgartalaOfficeDetail />} />
           <Route path="/coworking/aizawl" element={<AizawlPage />} />
           <Route path="/coworking/aizawl/:id" element={<AizawlOfficeDetail />} />
+          <Route path="/coworking/nagpur" element={<NagpurPage />} />
+          <Route path="/coworking/nagpur/:id" element={<NagpurOfficeDetail />} />
+          <Route path="/coworking/nashik" element={<NashikPage />} />
+          <Route path="/coworking/nashik/:id" element={<NashikOfficeDetail />} />
+          <Route path="/coworking/navi-mumbai" element={<NaviMumbaiPage />} />
+          <Route path="/coworking/navi-mumbai/:id" element={<NaviMumbaiOfficeDetail />} />
+          <Route path="/coworking/panaji" element={<PanajiPage />} />
+          <Route path="/coworking/panaji/:id" element={<PanajiOfficeDetail />} />
+          <Route path="/coworking/panchkula" element={<PanchkulaPage />} />
+          <Route path="/coworking/panchkula/:id" element={<PanchkulaOfficeDetail />} />
+          <Route path="/coworking/patna" element={<PatnaPage />} />
+          <Route path="/coworking/patna/:id" element={<PatnaOfficeDetail />} />
+          <Route path="/coworking/pimpri-chinchwad" element={<PimpriChinchwadPage />} />
+          <Route path="/coworking/pimpri-chinchwad/:id" element={<PimpriChinchwadOfficeDetail />} />
+          <Route path="/coworking/pondicherry-puducherry" element={<PondicherryPuducherryPage />} />
+          <Route path="/coworking/pondicherry-puducherry/:id" element={<PondicherryPuducherryOfficeDetail />} />
+          <Route path="/coworking/prayagraj" element={<PrayagrajPage />} />
+          <Route path="/coworking/prayagraj/:id" element={<PrayagrajOfficeDetail />} />
+          {/* More Cities entries (N–P) whose names don't match their page URL. */}
+          <Route path="/coworking/navi mumbai" element={<Navigate to="/coworking/navi-mumbai" replace />} />
+          <Route path="/coworking/pondicherry / puducherry" element={<Navigate to="/coworking/pondicherry-puducherry" replace />} />
           <Route path="/coworking/margao" element={<MargaoPage />} />
           <Route path="/coworking/margao/:id" element={<MargaoOfficeDetail />} />
           <Route path="/coworking/karnal" element={<KarnalPage />} />
