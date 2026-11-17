@@ -11,24 +11,10 @@
  */
 import heroImage from '../assets/images/virtual-office-bg.jpg';
 import { cityNames } from '../home/homedata.js';
-import { ahmedabadAreas, ahmedabadSpaces } from '../pages/ahmedabad/ahmedabadData.js';
 import { bangaloreAreas, bangaloreSpaces } from '../pages/bangalore/bangaloreData.js';
 import { bhubaneshwarNeighborhoods, allBhubaneshwarOfficeCards } from '../pages/bhubaneswar/bhubaneswarData.js';
-import { chandigarhAreas, chandigarhSpaces } from '../pages/chandigarh/chandigarhData.js';
-import { chennaiAreas, chennaiSpaces } from '../pages/chennai/chennaiData.js';
-import { coimbatoreAreas, coimbatoreSpaces } from '../pages/coimbatore/coimbatoreData.js';
-import { dehliNeighborhoods, allDehliOfficeCards } from '../pages/delhi/delhiData.js';
-import { goaAreas, goaSpaces } from '../pages/goa/goaData.js';
 import { gurugramAreas, gurugramSpaces } from '../pages/gurugram/gurugramData.js';
 import { hyderabadAreas, hyderabadSpaces } from '../pages/hyderabad/hyderabadData.js';
-import { indoreNeighborhoods, allIndoreOfficeCards } from '../pages/indore/indoreData.js';
-import { jaipurAreas, jaipurSpaces } from '../pages/jaipur/jaipurData.js';
-import { kochiAreas, kochiSpaces } from '../pages/kochi/kochiData.js';
-import { kolkataAreas, kolkataSpaces } from '../pages/kolkata/kolkataData.js';
-import { lucknowAreas, lucknowSpaces } from '../pages/lucknow/lucknowData.js';
-import { mumbaiAreas, mumbaiSpaces } from '../pages/mumbai/mumbaiData.js';
-import { noidaAreas, noidaSpaces } from '../pages/noida/noidaData.js';
-import { puneNeighborhoods, allPuneOfficeCards } from '../pages/pune/puneData.js';
 
 export const virtualOfficeHeroImage = heroImage;
 
@@ -39,21 +25,7 @@ const cityDetails = {
   Gurugram: { state: 'Haryana', districts: ['Golf Course Road', 'Cyber City', 'MG Road', 'Udyog Vihar', 'Sohna Road'] },
   Bhubaneswar: { state: 'Odisha', districts: ['Jaydev Vihar', 'Patia (Infocity)', 'Saheed Nagar', 'Chandrasekharpur', 'Nayapalli'] },
   Bangalore: { state: 'Karnataka', districts: ['MG Road', 'Koramangala', 'Indiranagar', 'Whitefield', 'HSR Layout'] },
-  Hyderabad: { state: 'Telangana', districts: ['HITEC City', 'Gachibowli', 'Banjara Hills', 'Madhapur', 'Jubilee Hills'] },
-  Chennai: { state: 'Tamil Nadu', districts: ['Guindy', 'Nungambakkam', 'T. Nagar', 'OMR', 'Anna Salai'] },
-  Lucknow: { state: 'Uttar Pradesh', districts: ['Hazratganj', 'Gomti Nagar', 'Vibhuti Khand', 'Aliganj', 'Indira Nagar'] },
-  Pune: { state: 'Maharashtra', districts: ['Koregaon Park', 'Baner', 'Viman Nagar', 'Hinjewadi', 'Kalyani Nagar'] },
-  Noida: { state: 'Uttar Pradesh', districts: ['Sector 62', 'Sector 63', 'Sector 18', 'Sector 132', 'Sector 125'] },
-  Delhi: { state: 'Delhi', districts: ['Connaught Place', 'Nehru Place', 'Saket', 'Aerocity', 'Karol Bagh'] },
-  Indore: { state: 'Madhya Pradesh', districts: ['Vijay Nagar', 'Palasia', 'AB Road', 'Race Course Road', 'MR 10'] },
-  Ahmedabad: { state: 'Gujarat', districts: ['SG Highway', 'Prahlad Nagar', 'CG Road', 'Navrangpura', 'GIFT City'] },
-  Jaipur: { state: 'Rajasthan', districts: ['C-Scheme', 'Malviya Nagar', 'Vaishali Nagar', 'Mansarovar', 'Tonk Road'] },
-  Chandigarh: { state: 'Chandigarh (UT)', districts: ['Sector 17', 'Sector 34', 'Industrial Area Phase 1', 'Rajiv Gandhi IT Park', 'Sector 8'] },
-  Kochi: { state: 'Kerala', districts: ['MG Road', 'Kakkanad (Infopark)', 'Edappally', 'Marine Drive', 'Panampilly Nagar'] },
-  Kolkata: { state: 'West Bengal', districts: ['Salt Lake Sector V', 'Park Street', 'New Town', 'Camac Street', 'Ballygunge'] },
-  Coimbatore: { state: 'Tamil Nadu', districts: ['RS Puram', 'Race Course', 'Peelamedu', 'Avinashi Road', 'Saibaba Colony'] },
-  Goa: { state: 'Goa', districts: ['Panaji', 'Porvorim', 'Margao', 'Mapusa', 'Dona Paula'] },
-  Mumbai: { state: 'Maharashtra', districts: ['BKC', 'Andheri East', 'Lower Parel', 'Nariman Point', 'Powai'] }
+  Hyderabad: { state: 'Telangana', districts: ['HITEC City', 'Gachibowli', 'Banjara Hills', 'Madhapur', 'Jubilee Hills'] }
 };
 
 // Sub-locations come from each city's own data file: its area list plus the area of every listed space.
@@ -62,21 +34,7 @@ const citySubLocations = {
   Gurugram: [gurugramAreas, gurugramSpaces],
   Bhubaneswar: [bhubaneshwarNeighborhoods, allBhubaneshwarOfficeCards],
   Bangalore: [bangaloreAreas, bangaloreSpaces],
-  Hyderabad: [hyderabadAreas, hyderabadSpaces],
-  Chennai: [chennaiAreas, chennaiSpaces],
-  Lucknow: [lucknowAreas, lucknowSpaces],
-  Pune: [puneNeighborhoods, allPuneOfficeCards],
-  Noida: [noidaAreas, noidaSpaces],
-  Delhi: [dehliNeighborhoods, allDehliOfficeCards],
-  Indore: [indoreNeighborhoods, allIndoreOfficeCards],
-  Ahmedabad: [ahmedabadAreas, ahmedabadSpaces],
-  Jaipur: [jaipurAreas, jaipurSpaces],
-  Chandigarh: [chandigarhAreas, chandigarhSpaces],
-  Kochi: [kochiAreas, kochiSpaces],
-  Kolkata: [kolkataAreas, kolkataSpaces],
-  Coimbatore: [coimbatoreAreas, coimbatoreSpaces],
-  Goa: [goaAreas, goaSpaces],
-  Mumbai: [mumbaiAreas, mumbaiSpaces]
+  Hyderabad: [hyderabadAreas, hyderabadSpaces]
 };
 
 const buildSubLocations = (cityName) => {
