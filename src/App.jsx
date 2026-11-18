@@ -247,6 +247,51 @@ import { getVadodaraOfficeCardById } from './pages/vadodara/vadodaraData';
 import UdaipurPage from './pages/udaipur/Udaipur';
 import UdaipurOfficeDetail from './pages/udaipur/UdaipurOfficeDetail';
 import { getUdaipurOfficeCardById } from './pages/udaipur/udaipurData';
+import RaipurPage from './pages/raipur/Raipur';
+import RaipurOfficeDetail from './pages/raipur/RaipurOfficeDetail';
+import { getRaipurOfficeCardById } from './pages/raipur/raipurData';
+import RohtakPage from './pages/rohtak/Rohtak';
+import RohtakOfficeDetail from './pages/rohtak/RohtakOfficeDetail';
+import { getRohtakOfficeCardById } from './pages/rohtak/rohtakData';
+import RishikeshPage from './pages/rishikesh/Rishikesh';
+import RishikeshOfficeDetail from './pages/rishikesh/RishikeshOfficeDetail';
+import { getRishikeshOfficeCardById } from './pages/rishikesh/rishikeshData';
+import RanchiPage from './pages/ranchi/Ranchi';
+import RanchiOfficeDetail from './pages/ranchi/RanchiOfficeDetail';
+import { getRanchiOfficeCardById } from './pages/ranchi/ranchiData';
+import RajkotPage from './pages/rajkot/Rajkot';
+import RajkotOfficeDetail from './pages/rajkot/RajkotOfficeDetail';
+import { getRajkotOfficeCardById } from './pages/rajkot/rajkotData';
+import SalemPage from './pages/salem/Salem';
+import SalemOfficeDetail from './pages/salem/SalemOfficeDetail';
+import { getSalemOfficeCardById } from './pages/salem/salemData';
+import SangliPage from './pages/sangli/Sangli';
+import SangliOfficeDetail from './pages/sangli/SangliOfficeDetail';
+import { getSangliOfficeCardById } from './pages/sangli/sangliData';
+import ShimlaPage from './pages/shimla/Shimla';
+import ShimlaOfficeDetail from './pages/shimla/ShimlaOfficeDetail';
+import { getShimlaOfficeCardById } from './pages/shimla/shimlaData';
+import SiliguriPage from './pages/siliguri/Siliguri';
+import SiliguriOfficeDetail from './pages/siliguri/SiliguriOfficeDetail';
+import { getSiliguriOfficeCardById } from './pages/siliguri/siliguriData';
+import SolapurPage from './pages/solapur/Solapur';
+import SolapurOfficeDetail from './pages/solapur/SolapurOfficeDetail';
+import { getSolapurOfficeCardById } from './pages/solapur/solapurData';
+import SonipatPage from './pages/sonipat/Sonipat';
+import SonipatOfficeDetail from './pages/sonipat/SonipatOfficeDetail';
+import { getSonipatOfficeCardById } from './pages/sonipat/sonipatData';
+import SrinagarPage from './pages/srinagar/Srinagar';
+import SrinagarOfficeDetail from './pages/srinagar/SrinagarOfficeDetail';
+import { getSrinagarOfficeCardById } from './pages/srinagar/srinagarData';
+import SuratPage from './pages/surat/Surat';
+import SuratOfficeDetail from './pages/surat/SuratOfficeDetail';
+import { getSuratOfficeCardById } from './pages/surat/suratData';
+import ThanePage from './pages/thane/Thane';
+import ThaneOfficeDetail from './pages/thane/ThaneOfficeDetail';
+import { getThaneOfficeCardById } from './pages/thane/thaneData';
+import TiruchirappalliPage from './pages/tiruchirappalli/Tiruchirappalli';
+import TiruchirappalliOfficeDetail from './pages/tiruchirappalli/TiruchirappalliOfficeDetail';
+import { getTiruchirappalliOfficeCardById } from './pages/tiruchirappalli/tiruchirappalliData';
 import KolkataOfficeDetail from './pages/kolkata/KolkataOfficeDetail';
 import { getKolkataOfficeCardById } from './pages/kolkata/kolkataData';
 
@@ -335,6 +380,21 @@ const OFFICE_CITIES = [
   { key: 'vapi', label: 'Vapi', getCard: getVapiOfficeCardById, Detail: VapiOfficeDetail },
   { key: 'vadodara', label: 'Vadodara', getCard: getVadodaraOfficeCardById, Detail: VadodaraOfficeDetail },
   { key: 'udaipur', label: 'Udaipur', getCard: getUdaipurOfficeCardById, Detail: UdaipurOfficeDetail },
+  { key: 'raipur', label: 'Raipur', getCard: getRaipurOfficeCardById, Detail: RaipurOfficeDetail },
+  { key: 'rohtak', label: 'Rohtak', getCard: getRohtakOfficeCardById, Detail: RohtakOfficeDetail },
+  { key: 'rishikesh', label: 'Rishikesh', getCard: getRishikeshOfficeCardById, Detail: RishikeshOfficeDetail },
+  { key: 'ranchi', label: 'Ranchi', getCard: getRanchiOfficeCardById, Detail: RanchiOfficeDetail },
+  { key: 'rajkot', label: 'Rajkot', getCard: getRajkotOfficeCardById, Detail: RajkotOfficeDetail },
+  { key: 'salem', label: 'Salem', getCard: getSalemOfficeCardById, Detail: SalemOfficeDetail },
+  { key: 'sangli', label: 'Sangli', getCard: getSangliOfficeCardById, Detail: SangliOfficeDetail },
+  { key: 'shimla', label: 'Shimla', getCard: getShimlaOfficeCardById, Detail: ShimlaOfficeDetail },
+  { key: 'siliguri', label: 'Siliguri', getCard: getSiliguriOfficeCardById, Detail: SiliguriOfficeDetail },
+  { key: 'solapur', label: 'Solapur', getCard: getSolapurOfficeCardById, Detail: SolapurOfficeDetail },
+  { key: 'sonipat', label: 'Sonipat', getCard: getSonipatOfficeCardById, Detail: SonipatOfficeDetail },
+  { key: 'srinagar', label: 'Srinagar', getCard: getSrinagarOfficeCardById, Detail: SrinagarOfficeDetail },
+  { key: 'surat', label: 'Surat', getCard: getSuratOfficeCardById, Detail: SuratOfficeDetail },
+  { key: 'thane', label: 'Thane', getCard: getThaneOfficeCardById, Detail: ThaneOfficeDetail },
+  { key: 'tiruchirappalli', label: 'Tiruchirappalli', getCard: getTiruchirappalliOfficeCardById, Detail: TiruchirappalliOfficeDetail },
   { key: 'kolkata', label: 'Kolkata', getCard: getKolkataOfficeCardById, Detail: KolkataOfficeDetail },
 ];
 
@@ -706,6 +766,36 @@ const App = () => {
           <Route path="/coworking/vadodara/:id" element={<VadodaraOfficeDetail />} />
           <Route path="/coworking/udaipur" element={<UdaipurPage />} />
           <Route path="/coworking/udaipur/:id" element={<UdaipurOfficeDetail />} />
+          <Route path="/coworking/raipur" element={<RaipurPage />} />
+          <Route path="/coworking/raipur/:id" element={<RaipurOfficeDetail />} />
+          <Route path="/coworking/rohtak" element={<RohtakPage />} />
+          <Route path="/coworking/rohtak/:id" element={<RohtakOfficeDetail />} />
+          <Route path="/coworking/rishikesh" element={<RishikeshPage />} />
+          <Route path="/coworking/rishikesh/:id" element={<RishikeshOfficeDetail />} />
+          <Route path="/coworking/ranchi" element={<RanchiPage />} />
+          <Route path="/coworking/ranchi/:id" element={<RanchiOfficeDetail />} />
+          <Route path="/coworking/rajkot" element={<RajkotPage />} />
+          <Route path="/coworking/rajkot/:id" element={<RajkotOfficeDetail />} />
+          <Route path="/coworking/salem" element={<SalemPage />} />
+          <Route path="/coworking/salem/:id" element={<SalemOfficeDetail />} />
+          <Route path="/coworking/sangli" element={<SangliPage />} />
+          <Route path="/coworking/sangli/:id" element={<SangliOfficeDetail />} />
+          <Route path="/coworking/shimla" element={<ShimlaPage />} />
+          <Route path="/coworking/shimla/:id" element={<ShimlaOfficeDetail />} />
+          <Route path="/coworking/siliguri" element={<SiliguriPage />} />
+          <Route path="/coworking/siliguri/:id" element={<SiliguriOfficeDetail />} />
+          <Route path="/coworking/solapur" element={<SolapurPage />} />
+          <Route path="/coworking/solapur/:id" element={<SolapurOfficeDetail />} />
+          <Route path="/coworking/sonipat" element={<SonipatPage />} />
+          <Route path="/coworking/sonipat/:id" element={<SonipatOfficeDetail />} />
+          <Route path="/coworking/srinagar" element={<SrinagarPage />} />
+          <Route path="/coworking/srinagar/:id" element={<SrinagarOfficeDetail />} />
+          <Route path="/coworking/surat" element={<SuratPage />} />
+          <Route path="/coworking/surat/:id" element={<SuratOfficeDetail />} />
+          <Route path="/coworking/thane" element={<ThanePage />} />
+          <Route path="/coworking/thane/:id" element={<ThaneOfficeDetail />} />
+          <Route path="/coworking/tiruchirappalli" element={<TiruchirappalliPage />} />
+          <Route path="/coworking/tiruchirappalli/:id" element={<TiruchirappalliOfficeDetail />} />
           <Route path="/coworking/vizag" element={<Navigate to="/coworking/visakhapatnam" replace />} />
           <Route path="/coworking/vishakhapatnam" element={<Navigate to="/coworking/visakhapatnam" replace />} />
           <Route path="/coworking/vijaywada" element={<Navigate to="/coworking/vijayawada" replace />} />
