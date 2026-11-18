@@ -16,13 +16,17 @@ import { bangaloreAreas, bangaloreSpaces } from '../pages/bangalore/bangaloreDat
 import { bhubaneshwarNeighborhoods, allBhubaneshwarOfficeCards } from '../pages/bhubaneswar/bhubaneswarData.js';
 import { chandigarhAreas, chandigarhSpaces } from '../pages/chandigarh/chandigarhData.js';
 import { chennaiAreas, chennaiSpaces } from '../pages/chennai/chennaiData.js';
+import { coimbatoreAreas, coimbatoreSpaces } from '../pages/coimbatore/coimbatoreData.js';
 import { dehliNeighborhoods, allDehliOfficeCards } from '../pages/delhi/delhiData.js';
+import { goaAreas, goaSpaces } from '../pages/goa/goaData.js';
 import { gurugramAreas, gurugramSpaces } from '../pages/gurugram/gurugramData.js';
 import { hyderabadAreas, hyderabadSpaces } from '../pages/hyderabad/hyderabadData.js';
 import { indoreNeighborhoods, allIndoreOfficeCards } from '../pages/indore/indoreData.js';
 import { jaipurAreas, jaipurSpaces } from '../pages/jaipur/jaipurData.js';
 import { kochiAreas, kochiSpaces } from '../pages/kochi/kochiData.js';
+import { kolkataAreas, kolkataSpaces } from '../pages/kolkata/kolkataData.js';
 import { lucknowAreas, lucknowSpaces } from '../pages/lucknow/lucknowData.js';
+import { mumbaiAreas, mumbaiSpaces } from '../pages/mumbai/mumbaiData.js';
 import { noidaAreas, noidaSpaces } from '../pages/noida/noidaData.js';
 import { puneNeighborhoods, allPuneOfficeCards } from '../pages/pune/puneData.js';
 
@@ -45,7 +49,11 @@ const cityDetails = {
   Ahmedabad: { state: 'Gujarat', districts: ['SG Highway', 'Prahlad Nagar', 'CG Road', 'Navrangpura', 'GIFT City'] },
   Jaipur: { state: 'Rajasthan', districts: ['C-Scheme', 'Malviya Nagar', 'Vaishali Nagar', 'Mansarovar', 'Tonk Road'] },
   Chandigarh: { state: 'Chandigarh (UT)', districts: ['Sector 17', 'Sector 34', 'Industrial Area Phase 1', 'Rajiv Gandhi IT Park', 'Sector 8'] },
-  Kochi: { state: 'Kerala', districts: ['MG Road', 'Kakkanad (Infopark)', 'Edappally', 'Marine Drive', 'Panampilly Nagar'] }
+  Kochi: { state: 'Kerala', districts: ['MG Road', 'Kakkanad (Infopark)', 'Edappally', 'Marine Drive', 'Panampilly Nagar'] },
+  Kolkata: { state: 'West Bengal', districts: ['Salt Lake Sector V', 'Park Street', 'New Town', 'Camac Street', 'Ballygunge'] },
+  Coimbatore: { state: 'Tamil Nadu', districts: ['RS Puram', 'Race Course', 'Peelamedu', 'Avinashi Road', 'Saibaba Colony'] },
+  Goa: { state: 'Goa', districts: ['Panaji', 'Porvorim', 'Margao', 'Mapusa', 'Dona Paula'] },
+  Mumbai: { state: 'Maharashtra', districts: ['BKC', 'Andheri East', 'Lower Parel', 'Nariman Point', 'Powai'] }
 };
 
 // Sub-locations come from each city's own data file: its area list plus the area of every listed space.
@@ -64,7 +72,11 @@ const citySubLocations = {
   Ahmedabad: [ahmedabadAreas, ahmedabadSpaces],
   Jaipur: [jaipurAreas, jaipurSpaces],
   Chandigarh: [chandigarhAreas, chandigarhSpaces],
-  Kochi: [kochiAreas, kochiSpaces]
+  Kochi: [kochiAreas, kochiSpaces],
+  Kolkata: [kolkataAreas, kolkataSpaces],
+  Coimbatore: [coimbatoreAreas, coimbatoreSpaces],
+  Goa: [goaAreas, goaSpaces],
+  Mumbai: [mumbaiAreas, mumbaiSpaces]
 };
 
 const buildSubLocations = (cityName) => {
