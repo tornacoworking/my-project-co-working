@@ -11,7 +11,37 @@
  */
 import heroImage from '../assets/images/virtual-office-bg.jpg';
 import { cityNames } from '../home/homedata.js';
+import agartalaImage from '../morecities/images/agartala.jpg';
+import agraImage from '../morecities/images/agra.jpg';
+import ahmednagarImage from '../morecities/images/ahmednagar.jpg';
+import aizawlImage from '../morecities/images/aizawl.jpg';
+import ajmerImage from '../morecities/images/ajmer.jpg';
+import alwarBhiwadiImage from '../morecities/images/alwar-bhiwadi.jpg';
+import ambalaImage from '../morecities/images/ambala.jpg';
+import amritsarImage from '../morecities/images/amritsar.jpg';
+import anandImage from '../morecities/images/anand.jpg';
+import ayodhyaImage from '../morecities/images/ayodhya.jpg';
+import bareillyImage from '../morecities/images/bareilly.jpg';
+import bharuchImage from '../morecities/images/bharuch.jpg';
+import bhavnagarImage from '../morecities/images/bhavnagar.jpg';
+import bhilwaraImage from '../morecities/images/bhilwara.png';
+import bhopalImage from '../morecities/images/bhopal.jpg';
+import { agartalaAreas, agartalaSpaces } from '../pages/agartala/agartalaData.js';
+import { agraAreas, agraSpaces } from '../pages/agra/agraData.js';
 import { ahmedabadAreas, ahmedabadSpaces } from '../pages/ahmedabad/ahmedabadData.js';
+import { ahmednagarAreas, ahmednagarSpaces } from '../pages/ahmednagar/ahmednagarData.js';
+import { aizawlAreas, aizawlSpaces } from '../pages/aizawl/aizawlData.js';
+import { ajmerAreas, ajmerSpaces } from '../pages/ajmer/ajmerData.js';
+import { alwarBhiwadiAreas, alwarBhiwadiSpaces } from '../pages/alwar-bhiwadi/alwarBhiwadiData.js';
+import { ambalaAreas, ambalaSpaces } from '../pages/ambala/ambalaData.js';
+import { amritsarAreas, amritsarSpaces } from '../pages/amritsar/amritsarData.js';
+import { anandAreas, anandSpaces } from '../pages/anand/anandData.js';
+import { ayodhyaAreas, ayodhyaSpaces } from '../pages/ayodhya/ayodhyaData.js';
+import { bareillyAreas, bareillySpaces } from '../pages/bareilly/bareillyData.js';
+import { bharuchAreas, bharuchSpaces } from '../pages/bharuch/bharuchData.js';
+import { bhavnagarAreas, bhavnagarSpaces } from '../pages/bhavnagar/bhavnagarData.js';
+import { bhilwaraAreas, bhilwaraSpaces } from '../pages/bhilwara/bhilwaraData.js';
+import { bhopalAreas, bhopalSpaces } from '../pages/bhopal/bhopalData.js';
 import { bangaloreAreas, bangaloreSpaces } from '../pages/bangalore/bangaloreData.js';
 import { bhubaneshwarNeighborhoods, allBhubaneshwarOfficeCards } from '../pages/bhubaneswar/bhubaneswarData.js';
 import { chandigarhAreas, chandigarhSpaces } from '../pages/chandigarh/chandigarhData.js';
@@ -53,8 +83,43 @@ const cityDetails = {
   Kolkata: { state: 'West Bengal', districts: ['Salt Lake Sector V', 'Park Street', 'New Town', 'Camac Street', 'Ballygunge'] },
   Coimbatore: { state: 'Tamil Nadu', districts: ['RS Puram', 'Race Course', 'Peelamedu', 'Avinashi Road', 'Saibaba Colony'] },
   Goa: { state: 'Goa', districts: ['Panaji', 'Porvorim', 'Margao', 'Mapusa', 'Dona Paula'] },
-  Mumbai: { state: 'Maharashtra', districts: ['BKC', 'Andheri East', 'Lower Parel', 'Nariman Point', 'Powai'] }
+  Mumbai: { state: 'Maharashtra', districts: ['BKC', 'Andheri East', 'Lower Parel', 'Nariman Point', 'Powai'] },
+  // More Cities (not on the homepage grid)
+  Agartala: { state: 'Tripura', districts: ['Mantribari Road', 'Indranagar'] },
+  Agra: { state: 'Uttar Pradesh', districts: ['Sanjay Place', 'Sikandra', 'Civil Lines', 'Tajganj', 'Sadar Bazar'] },
+  Ahmednagar: { state: 'Maharashtra', districts: ['Sahakar Nagar'] },
+  Aizawl: { state: 'Mizoram', districts: ['Zarkawt', 'Bungkawn Veng'] },
+  Ajmer: { state: 'Rajasthan', districts: ['Aravali Vihar', 'Ana Sagar', 'Vaishali Nagar'] },
+  'Alwar / Bhiwadi': { state: 'Rajasthan', districts: ['Alwar Bypass Road', 'Daudpur', 'Katori Wala Tibara'] },
+  Ambala: { state: 'Haryana', districts: ['Patti Mehar', 'Sadar Bazar', 'Model Town'] },
+  Amritsar: { state: 'Punjab', districts: ['Ranjit Avenue', 'Mall Road', 'INA Colony', 'Cooper Road', 'Hall Bazar'] },
+  Anand: { state: 'Gujarat', districts: ['Railway Station Road', 'Vallabh Vidyanagar'] },
+  Ayodhya: { state: 'Uttar Pradesh', districts: ['Deokali', 'Saketpuri'] },
+  Bareilly: { state: 'Uttar Pradesh', districts: ['Ekta Nagar'] },
+  Bharuch: { state: 'Gujarat', districts: ['Ankleshwar'] },
+  Bhavnagar: { state: 'Gujarat', districts: ['Shastrinagar'] },
+  Bhilwara: { state: 'Rajasthan', districts: ['Subhash Nagar'] },
+  Bhopal: { state: 'Madhya Pradesh', districts: ['MP Nagar', 'Arera Colony', 'Maharana Pratap Nagar', 'Malviya Nagar', 'Kasturba Nagar'] }
 };
+
+// More Cities that have a virtual office page. Images are stored locally in src/morecities/images.
+const moreVirtualCities = [
+  { name: 'Agartala', image: agartalaImage },
+  { name: 'Agra', image: agraImage },
+  { name: 'Ahmednagar', image: ahmednagarImage },
+  { name: 'Aizawl', image: aizawlImage },
+  { name: 'Ajmer', image: ajmerImage },
+  { name: 'Alwar / Bhiwadi', image: alwarBhiwadiImage },
+  { name: 'Ambala', image: ambalaImage },
+  { name: 'Amritsar', image: amritsarImage },
+  { name: 'Anand', image: anandImage },
+  { name: 'Ayodhya', image: ayodhyaImage },
+  { name: 'Bareilly', image: bareillyImage },
+  { name: 'Bharuch', image: bharuchImage },
+  { name: 'Bhavnagar', image: bhavnagarImage },
+  { name: 'Bhilwara', image: bhilwaraImage },
+  { name: 'Bhopal', image: bhopalImage }
+];
 
 // Sub-locations come from each city's own data file: its area list plus the area of every listed space.
 // Add an area (or a space in a new area) to the city file and a new card appears automatically.
@@ -76,12 +141,39 @@ const citySubLocations = {
   Kolkata: [kolkataAreas, kolkataSpaces],
   Coimbatore: [coimbatoreAreas, coimbatoreSpaces],
   Goa: [goaAreas, goaSpaces],
-  Mumbai: [mumbaiAreas, mumbaiSpaces]
+  Mumbai: [mumbaiAreas, mumbaiSpaces],
+  Agartala: [agartalaAreas, agartalaSpaces],
+  Agra: [agraAreas, agraSpaces],
+  Ahmednagar: [ahmednagarAreas, ahmednagarSpaces],
+  Aizawl: [aizawlAreas, aizawlSpaces],
+  Ajmer: [ajmerAreas, ajmerSpaces],
+  'Alwar / Bhiwadi': [alwarBhiwadiAreas, alwarBhiwadiSpaces],
+  Ambala: [ambalaAreas, ambalaSpaces],
+  Amritsar: [amritsarAreas, amritsarSpaces],
+  Anand: [anandAreas, anandSpaces],
+  Ayodhya: [ayodhyaAreas, ayodhyaSpaces],
+  Bareilly: [bareillyAreas, bareillySpaces],
+  Bharuch: [bharuchAreas, bharuchSpaces],
+  Bhavnagar: [bhavnagarAreas, bhavnagarSpaces],
+  Bhilwara: [bhilwaraAreas, bhilwaraSpaces],
+  Bhopal: [bhopalAreas, bhopalSpaces]
+};
+
+// Virtual-office-only locations: verified operators that are not coworking spaces, so they
+// are not in the city's coworking data. Add only locations confirmed on the operator's or a
+// marketplace listing, with the source noted here.
+const extraVirtualLocations = {
+  // myHQ listing "Virtual Office in Sadar Bazar, Agra" (operator: Connect 2 Business, Maa Pitambara Complex,
+  // Dwarika Green Phase 2, Bamroli Road). The listing's pincode is inconsistent, so confirm it before quoting.
+  Agra: ['Sadar Bazar'],
+  // Cofynd "Virtual office in Bhopal" page lists these localities (Baghmugalia is already in the coworking data).
+  // The page gives prices from Rs 549 to Rs 799 a month but no street addresses.
+  Bhopal: ['Bypass Road', 'J K Road', 'Nehru Nagar', 'Gulmohar Colony', 'Hoshangabad Road']
 };
 
 const buildSubLocations = (cityName) => {
   const [areas = [], spaces = []] = citySubLocations[cityName] || [];
-  const names = [...areas, ...spaces.map((space) => space.area)];
+  const names = [...areas, ...spaces.map((space) => space.area), ...(extraVirtualLocations[cityName] || [])];
   const seen = new Set();
   return names.filter((name) => {
     const key = String(name || '').trim().toLowerCase();
@@ -91,9 +183,11 @@ const buildSubLocations = (cityName) => {
   }).map((name) => String(name).trim());
 };
 
-export const toVirtualSlug = (cityName) => cityName.trim().toLowerCase().replace(/\s+/g, '-');
+// "Alwar / Bhiwadi" -> "alwar-bhiwadi"
+export const toVirtualSlug = (cityName) =>
+  cityName.trim().toLowerCase().replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 
-export const virtualOfficeCities = cityNames
+export const virtualOfficeCities = [...cityNames, ...moreVirtualCities]
   .filter((city) => cityDetails[city.name])
   .map((city) => ({
     name: city.name,
