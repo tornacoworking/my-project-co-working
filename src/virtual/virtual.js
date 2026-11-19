@@ -42,6 +42,36 @@ import gwaliorImage from '../morecities/images/gwalior.jpg';
 import hubballiDharwadImage from '../morecities/images/hubballi-dharwad.jpg';
 import jabalpurImage from '../morecities/images/jabalpur.jpg';
 import jalandharImage from '../morecities/images/jalandhar.jpg';
+import jalgaonImage from '../morecities/images/jalgaon.jpg';
+import jammuImage from '../morecities/images/jammu.jpg';
+import jamnagarImage from '../morecities/images/jamnagar.jpg';
+import jamshedpurImage from '../morecities/images/jamshedpur.jpg';
+import jhansiImage from '../morecities/images/jhansi.jpg';
+import jodhpurImage from '../morecities/images/jodhpur.jpg';
+import kalaburagiGulbargaImage from '../morecities/images/kalaburagi-gulbarga.jpg';
+import kanpurImage from '../morecities/images/kanpur.jpg';
+import karnalImage from '../morecities/images/karnal.jpg';
+import kasolParvatiValleyImage from '../morecities/images/kasol-parvati-valley.jpg';
+import kolhapurImage from '../morecities/images/kolhapur.jpg';
+import kotaImage from '../morecities/images/kota.jpg';
+import kozhikodeCalicutImage from '../morecities/images/kozhikode-calicut.jpg';
+import ludhianaImage from '../morecities/images/ludhiana.jpg';
+import maduraiImage from '../morecities/images/madurai.jpg';
+import manaliImage from '../morecities/images/manali.jpg';
+import mangaluruMangaloreImage from '../morecities/images/mangaluru-mangalore.jpg';
+import margaoImage from '../morecities/images/margao.jpg';
+import mathuraImage from '../morecities/images/mathura.jpg';
+import meerutImage from '../morecities/images/meerut.jpg';
+import mohaliImage from '../morecities/images/mohali.png';
+import moradabadImage from '../morecities/images/moradabad.jpg';
+import mussoorieImage from '../morecities/images/mussoorie.jpg';
+import mysuruMysoreImage from '../morecities/images/mysuru-mysore.jpg';
+import nagpurImage from '../morecities/images/nagpur.jpg';
+import nainitalImage from '../morecities/images/nainital.jpg';
+import nandedImage from '../morecities/images/nanded.jpg';
+import nashikImage from '../morecities/images/nashik.jpg';
+import naviMumbaiImage from '../morecities/images/navi-mumbai.jpg';
+import panajiImage from '../morecities/images/panaji.jpg';
 import { agartalaAreas, agartalaSpaces } from '../pages/agartala/agartalaData.js';
 import { agraAreas, agraSpaces } from '../pages/agra/agraData.js';
 import { ahmedabadAreas, ahmedabadSpaces } from '../pages/ahmedabad/ahmedabadData.js';
@@ -74,6 +104,26 @@ import { gwaliorAreas, gwaliorSpaces } from '../pages/gwalior/gwaliorData.js';
 import { hubballiDharwadAreas, hubballiDharwadSpaces } from '../pages/hubballi-dharwad/hubballiDharwadData.js';
 import { jabalpurAreas, jabalpurSpaces } from '../pages/jabalpur/jabalpurData.js';
 import { jalandharAreas, jalandharSpaces } from '../pages/jalandhar/jalandharData.js';
+import { jammuAreas, allJammuOfficeCards } from '../pages/jammu/jammuData.js';
+import { jamnagarAreas, allJamnagarOfficeCards } from '../pages/jamnagar/jamnagarData.js';
+import { jamshedpurAreas, allJamshedpurOfficeCards } from '../pages/jamshedpur/jamshedpurData.js';
+import { jodhpurAreas, allJodhpurOfficeCards } from '../pages/jodhpur/jodhpurData.js';
+import { kanpurAreas, allKanpurOfficeCards } from '../pages/kanpur/kanpurData.js';
+import { karnalAreas, allKarnalOfficeCards } from '../pages/karnal/karnalData.js';
+import { kolhapurAreas, allKolhapurOfficeCards } from '../pages/kolhapur/kolhapurData.js';
+import { kozhikodeCalicutAreas, allKozhikodeCalicutOfficeCards } from '../pages/kozhikode-calicut/kozhikodeCalicutData.js';
+import { ludhianaAreas, allLudhianaOfficeCards } from '../pages/ludhiana/ludhianaData.js';
+import { maduraiAreas, allMaduraiOfficeCards } from '../pages/madurai/maduraiData.js';
+import { mangaluruMangaloreAreas, allMangaluruMangaloreOfficeCards } from '../pages/mangaluru-mangalore/mangaluruMangaloreData.js';
+import { margaoAreas, allMargaoOfficeCards } from '../pages/margao/margaoData.js';
+import { mathuraAreas, allMathuraOfficeCards } from '../pages/mathura/mathuraData.js';
+import { meerutAreas, allMeerutOfficeCards } from '../pages/meerut/meerutData.js';
+import { mohaliAreas, allMohaliOfficeCards } from '../pages/mohali/mohaliData.js';
+import { mysuruMysoreAreas, allMysuruMysoreOfficeCards } from '../pages/mysuru-mysore/mysuruMysoreData.js';
+import { nagpurAreas, allNagpurOfficeCards } from '../pages/nagpur/nagpurData.js';
+import { nashikAreas, allNashikOfficeCards } from '../pages/nashik/nashikData.js';
+import { naviMumbaiAreas, allNaviMumbaiOfficeCards } from '../pages/navi-mumbai/naviMumbaiData.js';
+import { panajiAreas, allPanajiOfficeCards } from '../pages/panaji/panajiData.js';
 import { bangaloreAreas, bangaloreSpaces } from '../pages/bangalore/bangaloreData.js';
 import { bhubaneshwarNeighborhoods, allBhubaneshwarOfficeCards } from '../pages/bhubaneswar/bhubaneswarData.js';
 import { chandigarhAreas, chandigarhSpaces } from '../pages/chandigarh/chandigarhData.js';
@@ -148,7 +198,37 @@ const cityDetails = {
   Gwalior: { state: 'Madhya Pradesh', districts: ['Kampoo', 'City Center', 'Tulsi Vihar Colony', 'Panchwati Vastra Nagar'] },
   'Hubballi-Dharwad': { state: 'Karnataka', districts: ['Deshpande Nagar', 'Gokul Road'] },
   Jabalpur: { state: 'Madhya Pradesh', districts: ['Gorakhpur Main Road'] },
-  Jalandhar: { state: 'Punjab', districts: ['PUDA Complex', 'Moti Nagar', 'Urban Estate'] }
+  Jalandhar: { state: 'Punjab', districts: ['PUDA Complex', 'Moti Nagar', 'Urban Estate'] },
+  Jalgaon: { state: 'Maharashtra', districts: ['Navi Peth', 'Jilha Peth', 'Station Road', 'Ring Road', 'MIDC Area'] },
+  Jammu: { state: 'Jammu and Kashmir', districts: ['Residency Road', 'Trikuta Nagar', 'Ajit Nagar'] },
+  Jamnagar: { state: 'Gujarat', districts: ['Park Colony'] },
+  Jamshedpur: { state: 'Jharkhand', districts: ['Bistupur'] },
+  Jhansi: { state: 'Uttar Pradesh', districts: ['Sadar Bazar', 'Civil Lines', 'Sipri Bazar', 'Elite Chauraha', 'Gwalior Road'] },
+  Jodhpur: { state: 'Rajasthan', districts: ['Cyber Park', 'Sardarpura', 'Shastri Nagar', 'HI Area Phase II', 'Sangaria Industrial Area'] },
+  'Kalaburagi / Gulbarga': { state: 'Karnataka', districts: ['Super Market', 'Station Road', 'Jewargi Road', 'Sedam Road', 'Aland Road'] },
+  Kanpur: { state: 'Uttar Pradesh', districts: ['Civil Lines', 'Shyam Nagar', 'Arya Nagar', 'Mall Road', 'Tilak nagar'] },
+  Karnal: { state: 'Haryana', districts: ['Sector 7'] },
+  'Kasol / Parvati Valley': { state: 'Himachal Pradesh', districts: ['Kasol', 'Manikaran', 'Tosh', 'Kalga', 'Jari'] },
+  Kolhapur: { state: 'Maharashtra', districts: ['Poorvarang'] },
+  Kota: { state: 'Rajasthan', districts: ['Talwandi', 'Indra Vihar', 'Dadabari', 'Mahaveer Nagar', 'Gumanpura'] },
+  'Kozhikode / Calicut': { state: 'Kerala', districts: ['West Hill', 'Polpaya Mana', 'Vandipetta', 'Kuttichira', 'Pushpa Junction'] },
+  Ludhiana: { state: 'Punjab', districts: ['Gurdev Nagar', 'Mall Enclave', 'F-Block SBS Nagar', 'Bhai Randhir Singh Nagar'] },
+  Madurai: { state: 'Tamil Nadu', districts: ['Anna Nagar', 'P.P Chavadi', 'Villapuram Colony', 'Chokkalinga Nagar', 'Managiri'] },
+  Manali: { state: 'Himachal Pradesh', districts: ['Mall Road', 'Old Manali', 'Vashisht', 'Aleo', 'Model Town'] },
+  'Mangaluru / Mangalore': { state: 'Karnataka', districts: ['Inland Ornate', 'Yeyyadi', 'Bejai', 'Mallikatte', 'Ballalbagh'] },
+  Margao: { state: 'Goa', districts: ['Gogol'] },
+  Mathura: { state: 'Uttar Pradesh', districts: ['Masani Road'] },
+  Meerut: { state: 'Uttar Pradesh', districts: ['Roorkee Road', 'Garh Road', 'Mangal Pandey Nagar', 'Shastri Nagar', 'Ajanta Colony'] },
+  Mohali: { state: 'Punjab', districts: ['Sector 75', 'Mohali', 'JLPL Industrial Area', 'Industrial Area', 'Sector 74'] },
+  Moradabad: { state: 'Uttar Pradesh', districts: ['Civil Lines', 'Ram Ganga Vihar', 'Kanth Road', 'Delhi Road', 'Budh Bazar'] },
+  Mussoorie: { state: 'Uttarakhand', districts: ['Mall Road', 'Library Chowk', 'Landour', 'Kulri Bazaar', 'Picture Palace'] },
+  'Mysuru / Mysore': { state: 'Karnataka', districts: ['Saraswathipuram', 'Indira nagar', 'Indiranagar Extension', 'Jayalakshmipuram', 'Vani Vilas Mohalla'] },
+  Nagpur: { state: 'Maharashtra', districts: ['Sitabuldi', 'Ganeshpeth Colony', 'Tilak Nagar', 'Manish Nagar', 'Hanuman Nagar'] },
+  Nainital: { state: 'Uttarakhand', districts: ['Mall Road', 'Mallital', 'Tallital', 'Sukhatal', 'Bhowali Road'] },
+  Nanded: { state: 'Maharashtra', districts: ['Vazirabad', 'Shivaji Nagar', 'Taroda', 'Workshop Corner', 'CIDCO'] },
+  Nashik: { state: 'Maharashtra', districts: ['Anandwan Colony', 'Bhabha Nagar', 'Tilakwadi', 'Tidke Colony', 'Shanti Nagar'] },
+  'Navi Mumbai': { state: 'Maharashtra', districts: ['MIDC Industrial Area', 'Nerul', 'CBD Belapur', 'MIDC', 'Sector 14'] },
+  Panaji: { state: 'Goa', districts: ['Panjim', 'Panaji CBD (Central Business District)', 'Patto Centre', 'Patto', 'MG Road'] }
 };
 
 // More Cities that have a virtual office page. Images are stored locally in src/morecities/images.
@@ -183,7 +263,37 @@ const moreVirtualCities = [
   { name: 'Gwalior', image: gwaliorImage },
   { name: 'Hubballi-Dharwad', image: hubballiDharwadImage },
   { name: 'Jabalpur', image: jabalpurImage },
-  { name: 'Jalandhar', image: jalandharImage }
+  { name: 'Jalandhar', image: jalandharImage },
+  { name: 'Jalgaon', image: jalgaonImage },
+  { name: 'Jammu', image: jammuImage },
+  { name: 'Jamnagar', image: jamnagarImage },
+  { name: 'Jamshedpur', image: jamshedpurImage },
+  { name: 'Jhansi', image: jhansiImage },
+  { name: 'Jodhpur', image: jodhpurImage },
+  { name: 'Kalaburagi / Gulbarga', image: kalaburagiGulbargaImage },
+  { name: 'Kanpur', image: kanpurImage },
+  { name: 'Karnal', image: karnalImage },
+  { name: 'Kasol / Parvati Valley', image: kasolParvatiValleyImage },
+  { name: 'Kolhapur', image: kolhapurImage },
+  { name: 'Kota', image: kotaImage },
+  { name: 'Kozhikode / Calicut', image: kozhikodeCalicutImage },
+  { name: 'Ludhiana', image: ludhianaImage },
+  { name: 'Madurai', image: maduraiImage },
+  { name: 'Manali', image: manaliImage },
+  { name: 'Mangaluru / Mangalore', image: mangaluruMangaloreImage },
+  { name: 'Margao', image: margaoImage },
+  { name: 'Mathura', image: mathuraImage },
+  { name: 'Meerut', image: meerutImage },
+  { name: 'Mohali', image: mohaliImage },
+  { name: 'Moradabad', image: moradabadImage },
+  { name: 'Mussoorie', image: mussoorieImage },
+  { name: 'Mysuru / Mysore', image: mysuruMysoreImage },
+  { name: 'Nagpur', image: nagpurImage },
+  { name: 'Nainital', image: nainitalImage },
+  { name: 'Nanded', image: nandedImage },
+  { name: 'Nashik', image: nashikImage },
+  { name: 'Navi Mumbai', image: naviMumbaiImage },
+  { name: 'Panaji', image: panajiImage }
 ];
 
 // Sub-locations come from each city's own data file: its area list plus the area of every listed space.
@@ -237,7 +347,27 @@ const citySubLocations = {
   Gwalior: [gwaliorAreas, gwaliorSpaces],
   'Hubballi-Dharwad': [hubballiDharwadAreas, hubballiDharwadSpaces],
   Jabalpur: [jabalpurAreas, jabalpurSpaces],
-  Jalandhar: [jalandharAreas, jalandharSpaces]
+  Jalandhar: [jalandharAreas, jalandharSpaces],
+  Jammu: [jammuAreas, allJammuOfficeCards],
+  Jamnagar: [jamnagarAreas, allJamnagarOfficeCards],
+  Jamshedpur: [jamshedpurAreas, allJamshedpurOfficeCards],
+  Jodhpur: [jodhpurAreas, allJodhpurOfficeCards],
+  Kanpur: [kanpurAreas, allKanpurOfficeCards],
+  Karnal: [karnalAreas, allKarnalOfficeCards],
+  Kolhapur: [kolhapurAreas, allKolhapurOfficeCards],
+  'Kozhikode / Calicut': [kozhikodeCalicutAreas, allKozhikodeCalicutOfficeCards],
+  Ludhiana: [ludhianaAreas, allLudhianaOfficeCards],
+  Madurai: [maduraiAreas, allMaduraiOfficeCards],
+  'Mangaluru / Mangalore': [mangaluruMangaloreAreas, allMangaluruMangaloreOfficeCards],
+  Margao: [margaoAreas, allMargaoOfficeCards],
+  Mathura: [mathuraAreas, allMathuraOfficeCards],
+  Meerut: [meerutAreas, allMeerutOfficeCards],
+  Mohali: [mohaliAreas, allMohaliOfficeCards],
+  'Mysuru / Mysore': [mysuruMysoreAreas, allMysuruMysoreOfficeCards],
+  Nagpur: [nagpurAreas, allNagpurOfficeCards],
+  Nashik: [nashikAreas, allNashikOfficeCards],
+  'Navi Mumbai': [naviMumbaiAreas, allNaviMumbaiOfficeCards],
+  Panaji: [panajiAreas, allPanajiOfficeCards]
 };
 
 // Virtual-office-only locations: verified operators that are not coworking spaces, so they
@@ -272,7 +402,8 @@ const extraVirtualLocations = {
 };
 
 const buildSubLocations = (cityName) => {
-  const [areas = [], spaces = []] = citySubLocations[cityName] || [];
+  // Cities without a coworking data file fall back to their listed main areas.
+  const [areas = [], spaces = []] = citySubLocations[cityName] || [cityDetails[cityName]?.districts || [], []];
   const names = [...areas, ...spaces.map((space) => space.area), ...(extraVirtualLocations[cityName] || [])];
   const seen = new Set();
   return names.filter((name) => {
