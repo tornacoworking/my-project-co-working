@@ -4,7 +4,7 @@ import { cityNames } from '../home/homedata';
 import logo from './company-logo.png';
 import label from './label.jpg';
 import { navItems } from './navLinks';
-import { virtualOfficePath, getVirtualOfficeCity, toVirtualSlug } from '../virtual/virtual';
+import { virtualOfficePath, virtualOfficeCities } from '../virtual/virtual';
 import { moreCities } from '../morecities/morecities';
 
 // Tabs whose dropdown shows the city picker
@@ -36,9 +36,9 @@ const Navbar = () => {
           {isVirtual ? 'Virtual Office in your city' : 'Coworking Spaces in your city'}
         </p>
         {/* Virtual Office box also lists the More Cities after the homepage cities, in a scrollable area.
-            More Cities with a virtual office page open it; the rest are shown as icons only. */}
+            More Cities open their page only once they have a virtual office page; the rest stay icon-only. */}
         <div className={`${cols === 6 ? 'grid grid-cols-6 gap-x-3 gap-y-4' : 'grid grid-cols-3 gap-x-2 gap-y-3'}${isVirtual ? ' max-h-80 overflow-y-auto pr-1' : ''}`}>
-          {(isVirtual ? [...cityNames, ...moreCities.map((city) => ({ ...city, iconOnly: !getVirtualOfficeCity(toVirtualSlug(city.name)) }))] : cityNames).map((city) => (
+          {(isVirtual ? [...cityNames, ...moreCities.map((city) => ({ ...city, iconOnly: !virtualOfficeCities.some((v) => v.name === city.name) }))] : cityNames).map((city) => (
             <button
               key={city.name}
               type="button"
