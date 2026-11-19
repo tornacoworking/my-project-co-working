@@ -5,6 +5,7 @@ import logo from './company-logo.png';
 import label from './label.jpg';
 import { navItems } from './navLinks';
 import { virtualOfficePath } from '../virtual/virtual';
+import { moreCities } from '../morecities/morecities';
 
 // Tabs whose dropdown shows the city picker
 const CITY_TABS = ['Coworking', 'Virtual Office'];
@@ -34,12 +35,14 @@ const Navbar = () => {
         <p className={`text-xs font-bold uppercase tracking-wide mb-3 ${isVirtual ? 'text-blue-700' : 'text-orange-600'}`}>
           {isVirtual ? 'Virtual Office in your city' : 'Coworking Spaces in your city'}
         </p>
-        <div className={cols === 6 ? 'grid grid-cols-6 gap-x-3 gap-y-4' : 'grid grid-cols-3 gap-x-2 gap-y-3'}>
-          {cityNames.map((city) => (
+        {/* Virtual Office box also lists the More Cities after the homepage cities, in a scrollable area.
+            Those extra cities are shown as icons only and don't open a page. */}
+        <div className={`${cols === 6 ? 'grid grid-cols-6 gap-x-3 gap-y-4' : 'grid grid-cols-3 gap-x-2 gap-y-3'}${isVirtual ? ' max-h-80 overflow-y-auto pr-1' : ''}`}>
+          {(isVirtual ? [...cityNames, ...moreCities.map((city) => ({ ...city, iconOnly: true }))] : cityNames).map((city) => (
             <button
               key={city.name}
               type="button"
-              onClick={() => handleCityClick(city.name, tabName)}
+              onClick={city.iconOnly ? undefined : () => handleCityClick(city.name, tabName)}
               aria-label={isVirtual ? `Virtual office in ${city.name}` : `Coworking spaces in ${city.name}`}
               className="flex flex-col items-center gap-1.5 group cursor-pointer focus:outline-none"
             >
