@@ -29,6 +29,15 @@ import { lucknowAreas, lucknowSpaces } from '../pages/lucknow/lucknowData.js';
 import { mumbaiAreas, mumbaiSpaces } from '../pages/mumbai/mumbaiData.js';
 import { noidaAreas, noidaSpaces } from '../pages/noida/noidaData.js';
 import { puneNeighborhoods, allPuneOfficeCards } from '../pages/pune/puneData.js';
+import { moreCities } from '../morecities/morecities.js';
+import { agartalaAreas, allAgartalaOfficeCards } from '../pages/agartala/agartalaData.js';
+import { agraAreas, allAgraOfficeCards } from '../pages/agra/agraData.js';
+import { ahmednagarAreas, allAhmednagarOfficeCards } from '../pages/ahmednagar/ahmednagarData.js';
+import { aizawlAreas, allAizawlOfficeCards } from '../pages/aizawl/aizawlData.js';
+import { ajmerAreas, allAjmerOfficeCards } from '../pages/ajmer/ajmerData.js';
+import { alwarBhiwadiAreas, allAlwarBhiwadiOfficeCards } from '../pages/alwar-bhiwadi/alwarBhiwadiData.js';
+import { ambalaAreas, allAmbalaOfficeCards } from '../pages/ambala/ambalaData.js';
+import { amaravatiAreas, allAmaravatiOfficeCards } from '../pages/amravati/amravatiData.js';
 
 export const virtualOfficeHeroImage = heroImage;
 
@@ -53,7 +62,17 @@ const cityDetails = {
   Kolkata: { state: 'West Bengal', districts: ['Salt Lake Sector V', 'Park Street', 'New Town', 'Camac Street', 'Ballygunge'] },
   Coimbatore: { state: 'Tamil Nadu', districts: ['RS Puram', 'Race Course', 'Peelamedu', 'Avinashi Road', 'Saibaba Colony'] },
   Goa: { state: 'Goa', districts: ['Panaji', 'Porvorim', 'Margao', 'Mapusa', 'Dona Paula'] },
-  Mumbai: { state: 'Maharashtra', districts: ['BKC', 'Andheri East', 'Lower Parel', 'Nariman Point', 'Powai'] }
+  Mumbai: { state: 'Maharashtra', districts: ['BKC', 'Andheri East', 'Lower Parel', 'Nariman Point', 'Powai'] },
+  // More Cities with a virtual office page (keys match the More Cities names).
+  Agartala: { state: 'Tripura', districts: ['Mantribari Road', 'Indranagar', 'Krishnanagar', 'Banamalipur', 'Kunjaban'] },
+  Agra: { state: 'Uttar Pradesh', districts: ['Sanjay Place', 'Civil Lines', 'Tajganj', 'Sikandra', 'Fatehabad Road'] },
+  Ahmednagar: { state: 'Maharashtra', districts: ['Sahakar Nagar', 'Savedi', 'Station Road', 'Tarakpur', 'Pipeline Road'] },
+  Aizawl: { state: 'Mizoram', districts: ['Zarkawt', 'Bungkawn Veng', 'Dawrpui', 'Chanmari', 'Khatla'] },
+  Ajmer: { state: 'Rajasthan', districts: ['Vaishali Nagar', 'Aravali Vihar', 'Ana Sagar', 'Civil Lines', 'Jaipur Road'] },
+  'Alwar / Bhiwadi': { state: 'Rajasthan', districts: ['Alwar Bypass Road', 'Bhiwadi Industrial Area', 'Daudpur', 'Kali Mori', 'Manu Marg'] },
+  Ambala: { state: 'Haryana', districts: ['Sadar Bazar', 'Model Town', 'Patti Mehar', 'Ambala Cantt', 'Jagadhri Road'] },
+  // The project's Amravati coworking page covers the Amaravati / Vijayawada region, so this page follows it.
+  Amravati: { state: 'Andhra Pradesh', districts: ['Benz Circle', 'Labbipet', 'Governorpet', 'Krishna Nagar', 'Mangalagiri'] }
 };
 
 // Sub-locations come from each city's own data file: its area list plus the area of every listed space.
@@ -76,7 +95,15 @@ const citySubLocations = {
   Kolkata: [kolkataAreas, kolkataSpaces],
   Coimbatore: [coimbatoreAreas, coimbatoreSpaces],
   Goa: [goaAreas, goaSpaces],
-  Mumbai: [mumbaiAreas, mumbaiSpaces]
+  Mumbai: [mumbaiAreas, mumbaiSpaces],
+  Agartala: [agartalaAreas, allAgartalaOfficeCards],
+  Agra: [agraAreas, allAgraOfficeCards],
+  Ahmednagar: [ahmednagarAreas, allAhmednagarOfficeCards],
+  Aizawl: [aizawlAreas, allAizawlOfficeCards],
+  Ajmer: [ajmerAreas, allAjmerOfficeCards],
+  'Alwar / Bhiwadi': [alwarBhiwadiAreas, allAlwarBhiwadiOfficeCards],
+  Ambala: [ambalaAreas, allAmbalaOfficeCards],
+  Amravati: [amaravatiAreas, allAmaravatiOfficeCards]
 };
 
 const buildSubLocations = (cityName) => {
@@ -91,9 +118,11 @@ const buildSubLocations = (cityName) => {
   }).map((name) => String(name).trim());
 };
 
-export const toVirtualSlug = (cityName) => cityName.trim().toLowerCase().replace(/\s+/g, '-');
+// Same result as before for the homepage cities; also turns "Alwar / Bhiwadi" into "alwar-bhiwadi".
+export const toVirtualSlug = (cityName) => cityName.trim().toLowerCase().replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 
-export const virtualOfficeCities = cityNames
+// Homepage cities first, then any More Cities that have details above.
+export const virtualOfficeCities = [...cityNames, ...moreCities]
   .filter((city) => cityDetails[city.name])
   .map((city) => ({
     name: city.name,
