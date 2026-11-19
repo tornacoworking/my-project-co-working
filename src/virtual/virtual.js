@@ -29,7 +29,16 @@ import { lucknowAreas, lucknowSpaces } from '../pages/lucknow/lucknowData.js';
 import { mumbaiAreas, mumbaiSpaces } from '../pages/mumbai/mumbaiData.js';
 import { noidaAreas, noidaSpaces } from '../pages/noida/noidaData.js';
 import { puneNeighborhoods, allPuneOfficeCards } from '../pages/pune/puneData.js';
-import { moreCities } from '../morecities/morecities.js';
+// More Cities images are imported directly (not via morecities.js, which uses Vite-only import.meta.glob),
+// so the sitemap script can still read this file in Node.
+import agartalaImg from '../morecities/images/agartala.jpg';
+import agraImg from '../morecities/images/agra.jpg';
+import ahmednagarImg from '../morecities/images/ahmednagar.jpg';
+import aizawlImg from '../morecities/images/aizawl.jpg';
+import ajmerImg from '../morecities/images/ajmer.jpg';
+import alwarBhiwadiImg from '../morecities/images/alwar-bhiwadi.jpg';
+import ambalaImg from '../morecities/images/ambala.jpg';
+import amravatiImg from '../morecities/images/amravati.jpg';
 import { agartalaAreas, allAgartalaOfficeCards } from '../pages/agartala/agartalaData.js';
 import { agraAreas, allAgraOfficeCards } from '../pages/agra/agraData.js';
 import { ahmednagarAreas, allAhmednagarOfficeCards } from '../pages/ahmednagar/ahmednagarData.js';
@@ -121,8 +130,20 @@ const buildSubLocations = (cityName) => {
 // Same result as before for the homepage cities; also turns "Alwar / Bhiwadi" into "alwar-bhiwadi".
 export const toVirtualSlug = (cityName) => cityName.trim().toLowerCase().replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 
-// Homepage cities first, then any More Cities that have details above.
-export const virtualOfficeCities = [...cityNames, ...moreCities]
+// More Cities that have a virtual office page (names match the More Cities list).
+const moreVirtualCities = [
+  { name: 'Agartala', image: agartalaImg },
+  { name: 'Agra', image: agraImg },
+  { name: 'Ahmednagar', image: ahmednagarImg },
+  { name: 'Aizawl', image: aizawlImg },
+  { name: 'Ajmer', image: ajmerImg },
+  { name: 'Alwar / Bhiwadi', image: alwarBhiwadiImg },
+  { name: 'Ambala', image: ambalaImg },
+  { name: 'Amravati', image: amravatiImg }
+];
+
+// Homepage cities first, then the More Cities above.
+export const virtualOfficeCities = [...cityNames, ...moreVirtualCities]
   .filter((city) => cityDetails[city.name])
   .map((city) => ({
     name: city.name,
