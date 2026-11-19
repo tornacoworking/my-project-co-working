@@ -26,6 +26,21 @@ import bharuchImage from '../morecities/images/bharuch.jpg';
 import bhavnagarImage from '../morecities/images/bhavnagar.jpg';
 import bhilwaraImage from '../morecities/images/bhilwara.png';
 import bhopalImage from '../morecities/images/bhopal.jpg';
+import birBillingImage from '../morecities/images/bir-billing.jpg';
+import aurangabadImage from '../morecities/images/chhatrapati-sambhaji-nagar-aurangabad.jpg';
+import dehradunImage from '../morecities/images/dehradun.jpg';
+import dharamshalaImage from '../morecities/images/dharamshala-mcleod-ganj.jpg';
+import faridabadImage from '../morecities/images/faridabad.jpg';
+import gandhinagarImage from '../morecities/images/gandhinagar.jpg';
+import gangtokImage from '../morecities/images/gangtok.jpg';
+import ghaziabadImage from '../morecities/images/ghaziabad.jpg';
+import gorakhpurImage from '../morecities/images/gorakhpur.jpg';
+import greaterNoidaImage from '../morecities/images/greater-noida.jpg';
+import guwahatiImage from '../morecities/images/guwahati.jpg';
+import gwaliorImage from '../morecities/images/gwalior.jpg';
+import hubballiDharwadImage from '../morecities/images/hubballi-dharwad.jpg';
+import jabalpurImage from '../morecities/images/jabalpur.jpg';
+import jalandharImage from '../morecities/images/jalandhar.jpg';
 import { agartalaAreas, agartalaSpaces } from '../pages/agartala/agartalaData.js';
 import { agraAreas, agraSpaces } from '../pages/agra/agraData.js';
 import { ahmedabadAreas, ahmedabadSpaces } from '../pages/ahmedabad/ahmedabadData.js';
@@ -42,6 +57,21 @@ import { bharuchAreas, bharuchSpaces } from '../pages/bharuch/bharuchData.js';
 import { bhavnagarAreas, bhavnagarSpaces } from '../pages/bhavnagar/bhavnagarData.js';
 import { bhilwaraAreas, bhilwaraSpaces } from '../pages/bhilwara/bhilwaraData.js';
 import { bhopalAreas, bhopalSpaces } from '../pages/bhopal/bhopalData.js';
+import { birBillingAreas, birBillingSpaces } from '../pages/bir-billing/birBillingData.js';
+import { aurangabadAreas, aurangabadSpaces } from '../pages/aurangabad/aurangabadData.js';
+import { dehradunAreas, dehradunSpaces } from '../pages/dehradun/dehradunData.js';
+import { dharamshalaMcleodGanjAreas, dharamshalaMcleodGanjSpaces } from '../pages/dharamshala-mcleod-ganj/dharamshalaMcleodGanjData.js';
+import { faridabadAreas, faridabadSpaces } from '../pages/faridabad/faridabadData.js';
+import { gandhinagarAreas, gandhinagarSpaces } from '../pages/gandhinagar/gandhinagarData.js';
+import { gangtokAreas, gangtokSpaces } from '../pages/gangtok/gangtokData.js';
+import { ghaziabadAreas, ghaziabadSpaces } from '../pages/ghaziabad/ghaziabadData.js';
+import { gorakhpurAreas, gorakhpurSpaces } from '../pages/gorakhpur/gorakhpurData.js';
+import { greaterNoidaAreas, greaterNoidaSpaces } from '../pages/greater-noida/greaterNoidaData.js';
+import { guwahatiAreas, guwahatiSpaces } from '../pages/guwahati/guwahatiData.js';
+import { gwaliorAreas, gwaliorSpaces } from '../pages/gwalior/gwaliorData.js';
+import { hubballiDharwadAreas, hubballiDharwadSpaces } from '../pages/hubballi-dharwad/hubballiDharwadData.js';
+import { jabalpurAreas, jabalpurSpaces } from '../pages/jabalpur/jabalpurData.js';
+import { jalandharAreas, jalandharSpaces } from '../pages/jalandhar/jalandharData.js';
 import { bangaloreAreas, bangaloreSpaces } from '../pages/bangalore/bangaloreData.js';
 import { bhubaneshwarNeighborhoods, allBhubaneshwarOfficeCards } from '../pages/bhubaneswar/bhubaneswarData.js';
 import { chandigarhAreas, chandigarhSpaces } from '../pages/chandigarh/chandigarhData.js';
@@ -99,7 +129,22 @@ const cityDetails = {
   Bharuch: { state: 'Gujarat', districts: ['Ankleshwar'] },
   Bhavnagar: { state: 'Gujarat', districts: ['Shastrinagar'] },
   Bhilwara: { state: 'Rajasthan', districts: ['Subhash Nagar'] },
-  Bhopal: { state: 'Madhya Pradesh', districts: ['MP Nagar', 'Arera Colony', 'Maharana Pratap Nagar', 'Malviya Nagar', 'Kasturba Nagar'] }
+  Bhopal: { state: 'Madhya Pradesh', districts: ['MP Nagar', 'Arera Colony', 'Maharana Pratap Nagar', 'Malviya Nagar', 'Kasturba Nagar'] },
+  'Bir Billing': { state: 'Himachal Pradesh', districts: ['Bir Colony'] },
+  'Chhatrapati Sambhaji Nagar / Aurangabad': { state: 'Maharashtra', districts: ['Beed Bypass Road', 'Silk Mill Colony', 'CIDCO', 'Prozone', 'Vedant Nagar'] },
+  Dehradun: { state: 'Uttarakhand', districts: ['Chukkuwala', 'Sahastradhara Road', 'Rajpur Road', 'Jakhan', 'Dalanwala'] },
+  'Dharamshala / McLeod Ganj': { state: 'Himachal Pradesh', districts: ['Sham Nagar', 'Chilgari', 'Upper Bhagsu', 'Rakkar'] },
+  Faridabad: { state: 'Haryana', districts: ['Mathura Road', 'Sector 15A', 'Sector 16', 'Sector 20B', 'Sector 87'] },
+  Gandhinagar: { state: 'Gujarat', districts: ['Infocity', 'Sector 26'] },
+  Gangtok: { state: 'Sikkim', districts: ['Development Area', 'Deorali Bazar'] },
+  Ghaziabad: { state: 'Uttar Pradesh', districts: ['Indirapuram', 'RDC', 'Govindpuram', 'Civil Lines', 'Pratap Vihar'] },
+  Gorakhpur: { state: 'Uttar Pradesh', districts: ['Miyan Bazar'] },
+  'Greater Noida': { state: 'Uttar Pradesh', districts: ['Knowledge Park III', 'Knowledge Park II', 'Alpha I', 'Greater Noida West'] },
+  Guwahati: { state: 'Assam', districts: ['Christian Basti', 'Ulubari', 'Bhangagarh', 'GS Road', 'Sree Nagar'] },
+  Gwalior: { state: 'Madhya Pradesh', districts: ['Kampoo', 'City Center', 'Tulsi Vihar Colony', 'Panchwati Vastra Nagar'] },
+  'Hubballi-Dharwad': { state: 'Karnataka', districts: ['Deshpande Nagar', 'Gokul Road'] },
+  Jabalpur: { state: 'Madhya Pradesh', districts: ['Gorakhpur Main Road'] },
+  Jalandhar: { state: 'Punjab', districts: ['PUDA Complex', 'Moti Nagar', 'Urban Estate'] }
 };
 
 // More Cities that have a virtual office page. Images are stored locally in src/morecities/images.
@@ -118,7 +163,22 @@ const moreVirtualCities = [
   { name: 'Bharuch', image: bharuchImage },
   { name: 'Bhavnagar', image: bhavnagarImage },
   { name: 'Bhilwara', image: bhilwaraImage },
-  { name: 'Bhopal', image: bhopalImage }
+  { name: 'Bhopal', image: bhopalImage },
+  { name: 'Bir Billing', image: birBillingImage },
+  { name: 'Chhatrapati Sambhaji Nagar / Aurangabad', image: aurangabadImage },
+  { name: 'Dehradun', image: dehradunImage },
+  { name: 'Dharamshala / McLeod Ganj', image: dharamshalaImage },
+  { name: 'Faridabad', image: faridabadImage },
+  { name: 'Gandhinagar', image: gandhinagarImage },
+  { name: 'Gangtok', image: gangtokImage },
+  { name: 'Ghaziabad', image: ghaziabadImage },
+  { name: 'Gorakhpur', image: gorakhpurImage },
+  { name: 'Greater Noida', image: greaterNoidaImage },
+  { name: 'Guwahati', image: guwahatiImage },
+  { name: 'Gwalior', image: gwaliorImage },
+  { name: 'Hubballi-Dharwad', image: hubballiDharwadImage },
+  { name: 'Jabalpur', image: jabalpurImage },
+  { name: 'Jalandhar', image: jalandharImage }
 ];
 
 // Sub-locations come from each city's own data file: its area list plus the area of every listed space.
@@ -156,7 +216,22 @@ const citySubLocations = {
   Bharuch: [bharuchAreas, bharuchSpaces],
   Bhavnagar: [bhavnagarAreas, bhavnagarSpaces],
   Bhilwara: [bhilwaraAreas, bhilwaraSpaces],
-  Bhopal: [bhopalAreas, bhopalSpaces]
+  Bhopal: [bhopalAreas, bhopalSpaces],
+  'Bir Billing': [birBillingAreas, birBillingSpaces],
+  'Chhatrapati Sambhaji Nagar / Aurangabad': [aurangabadAreas, aurangabadSpaces],
+  Dehradun: [dehradunAreas, dehradunSpaces],
+  'Dharamshala / McLeod Ganj': [dharamshalaMcleodGanjAreas, dharamshalaMcleodGanjSpaces],
+  Faridabad: [faridabadAreas, faridabadSpaces],
+  Gandhinagar: [gandhinagarAreas, gandhinagarSpaces],
+  Gangtok: [gangtokAreas, gangtokSpaces],
+  Ghaziabad: [ghaziabadAreas, ghaziabadSpaces],
+  Gorakhpur: [gorakhpurAreas, gorakhpurSpaces],
+  'Greater Noida': [greaterNoidaAreas, greaterNoidaSpaces],
+  Guwahati: [guwahatiAreas, guwahatiSpaces],
+  Gwalior: [gwaliorAreas, gwaliorSpaces],
+  'Hubballi-Dharwad': [hubballiDharwadAreas, hubballiDharwadSpaces],
+  Jabalpur: [jabalpurAreas, jabalpurSpaces],
+  Jalandhar: [jalandharAreas, jalandharSpaces]
 };
 
 // Virtual-office-only locations: verified operators that are not coworking spaces, so they
@@ -166,9 +241,28 @@ const extraVirtualLocations = {
   // myHQ listing "Virtual Office in Sadar Bazar, Agra" (operator: Connect 2 Business, Maa Pitambara Complex,
   // Dwarika Green Phase 2, Bamroli Road). The listing's pincode is inconsistent, so confirm it before quoting.
   Agra: ['Sadar Bazar'],
-  // Cofynd "Virtual office in Bhopal" page lists these localities (Baghmugalia is already in the coworking data).
-  // The page gives prices from Rs 549 to Rs 799 a month but no street addresses.
-  Bhopal: ['Bypass Road', 'J K Road', 'Nehru Nagar', 'Gulmohar Colony', 'Hoshangabad Road']
+  // Hoshangabad Road: named by Cofynd's Bhopal virtual-office FAQ (OneWorx Hoshangabad Road) and offered by Bhopal
+  // virtual office vendors. Other Cofynd localities (J K Road, Nehru Nagar, Gulmohar Colony, Bypass Road) could not be
+  // confirmed by any operator listing, so they are left out.
+  Bhopal: ['Hoshangabad Road'],
+  // Doon IT Park, Sahastradhara Road: Regus 44A IT Park, myHQ (Office Spaze, iKSANA CPL-1 Tower) virtual office listings.
+  Dehradun: ['Doon IT Park'],
+  // myHQ virtual office listings: Space Center, Parsvnath City Mall (Sector 12) and WorkWorm (Sector 32).
+  Faridabad: ['Sector 12', 'Sector 32'],
+  // Regus Khinvasara Headquarters, Plot 16, MIDC Chikalthana, opp. airport, 431006 (virtual office listed on Regus / Office-Hub).
+  'Chhatrapati Sambhaji Nagar / Aurangabad': ['Chikalthana'],
+  // Regus Gandhinagar virtual offices: GIFT City (Kavyaratna Narmada, 382050) and Sargasan (Swagat Holiday Mall, 382421).
+  Gandhinagar: ['GIFT City', 'Sargasan'],
+  // Regus and Spaces virtual office pages for Ghaziabad name Kaushambi and Vaishali (Raj Nagar is already listed as RDC).
+  Ghaziabad: ['Kaushambi', 'Vaishali'],
+  // Regus Global Business Square, Plot C-10, Wipro Chowk, Delta I, Greater Noida 201310 (business address / virtual office).
+  'Greater Noida': ['Delta I'],
+  // myHQ virtual office listings: Schange Spaces (Lalmati) and Spanish Square (R G Baruah Road, opposite Assam State Zoo).
+  Guwahati: ['Lalmati', 'R G Baruah Road'],
+  // Regus Jabalpur (South Avenue Mall, Narmada Road / Gwarighat Road, 482008). Sources differ on the exact address, so confirm before quoting.
+  Jabalpur: ['Narmada Road'],
+  // Regus PPR Mall, Mithapur Road, Urban Estate Phase II, Jalandhar 144011 (virtual office, listed on Regus, Workin.space and Office-Hub).
+  Jalandhar: ['Mithapur Road']
 };
 
 const buildSubLocations = (cityName) => {
