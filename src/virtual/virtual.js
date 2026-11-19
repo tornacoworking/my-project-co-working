@@ -37,7 +37,7 @@ import { aizawlAreas, allAizawlOfficeCards } from '../pages/aizawl/aizawlData.js
 import { ajmerAreas, allAjmerOfficeCards } from '../pages/ajmer/ajmerData.js';
 import { alwarBhiwadiAreas, allAlwarBhiwadiOfficeCards } from '../pages/alwar-bhiwadi/alwarBhiwadiData.js';
 import { ambalaAreas, allAmbalaOfficeCards } from '../pages/ambala/ambalaData.js';
-import { amaravatiAreas, allAmaravatiOfficeCards } from '../pages/amravati/amravatiData.js';
+import { amaravatiAreas, allAmaravatiOfficeCards } from '../pages/amravati/amaravatiData.js';
 
 export const virtualOfficeHeroImage = heroImage;
 
