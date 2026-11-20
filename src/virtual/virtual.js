@@ -72,6 +72,13 @@ import nandedImage from '../morecities/images/nanded.jpg';
 import nashikImage from '../morecities/images/nashik.jpg';
 import naviMumbaiImage from '../morecities/images/navi-mumbai.jpg';
 import panajiImage from '../morecities/images/panaji.jpg';
+import panchkulaImage from '../morecities/images/panchkula.jpg';
+import panipatImage from '../morecities/images/panipat.jpg';
+import pathankotImage from '../morecities/images/pathankot.jpg';
+import patnaImage from '../morecities/images/patna.jpg';
+import pimpriChinchwadImage from '../morecities/images/pimpri-chinchwad.jpg';
+import pondicherryPuducherryImage from '../morecities/images/pondicherry-puducherry.jpg';
+import prayagrajImage from '../morecities/images/prayagraj.jpg';
 import { agartalaAreas, agartalaSpaces } from '../pages/agartala/agartalaData.js';
 import { agraAreas, agraSpaces } from '../pages/agra/agraData.js';
 import { ahmedabadAreas, ahmedabadSpaces } from '../pages/ahmedabad/ahmedabadData.js';
@@ -124,6 +131,10 @@ import { nagpurAreas, allNagpurOfficeCards } from '../pages/nagpur/nagpurData.js
 import { nashikAreas, allNashikOfficeCards } from '../pages/nashik/nashikData.js';
 import { naviMumbaiAreas, allNaviMumbaiOfficeCards } from '../pages/navi-mumbai/naviMumbaiData.js';
 import { panajiAreas, allPanajiOfficeCards } from '../pages/panaji/panajiData.js';
+import { panchkulaAreas, allPanchkulaOfficeCards } from '../pages/panchkula/panchkulaData.js';
+import { patnaAreas, allPatnaOfficeCards } from '../pages/patna/patnaData.js';
+import { pondicherryPuducherryAreas, allPondicherryPuducherryOfficeCards } from '../pages/pondicherry-puducherry/pondicherryPuducherryData.js';
+import { prayagrajAreas, allPrayagrajOfficeCards } from '../pages/prayagraj/prayagrajData.js';
 import { bangaloreAreas, bangaloreSpaces } from '../pages/bangalore/bangaloreData.js';
 import { bhubaneshwarNeighborhoods, allBhubaneshwarOfficeCards } from '../pages/bhubaneswar/bhubaneswarData.js';
 import { chandigarhAreas, chandigarhSpaces } from '../pages/chandigarh/chandigarhData.js';
@@ -228,7 +239,14 @@ const cityDetails = {
   Nanded: { state: 'Maharashtra', districts: ['Vazirabad', 'Shivaji Nagar', 'Taroda', 'Workshop Corner', 'CIDCO'] },
   Nashik: { state: 'Maharashtra', districts: ['Anandwan Colony', 'Bhabha Nagar', 'Tilakwadi', 'Tidke Colony', 'Shanti Nagar'] },
   'Navi Mumbai': { state: 'Maharashtra', districts: ['MIDC Industrial Area', 'Nerul', 'CBD Belapur', 'MIDC', 'Sector 14'] },
-  Panaji: { state: 'Goa', districts: ['Panjim', 'Panaji CBD (Central Business District)', 'Patto Centre', 'Patto', 'MG Road'] }
+  Panaji: { state: 'Goa', districts: ['Panjim', 'Panaji CBD (Central Business District)', 'Patto Centre', 'Patto', 'MG Road'] },
+  Panchkula: { state: 'Haryana', districts: ['Sector 20', 'Sector 8', 'Sector 5', 'Sector 22', 'Dhakoli'] },
+  Panipat: { state: 'Haryana', districts: ['GT Road', 'Model Town', 'Samalkha'] },
+  Pathankot: { state: 'Punjab', districts: ['Dhangu Road', 'Mission Road', 'Gandhi Chowk'] },
+  Patna: { state: 'Bihar', districts: ['Kankarbagh', 'Patliputra Colony', 'Boring Road', 'Rukanpura'] },
+  'Pimpri-Chinchwad': { state: 'Maharashtra', districts: ['Pimpri', 'Chinchwad', 'Akurdi', 'Nigdi'] },
+  'Pondicherry / Puducherry': { state: 'Puducherry', districts: ['MG Road Area', 'Colas Nagar', 'Mudaliarpet', 'Aurobindo Street', 'Ellaipillaichavady'] },
+  Prayagraj: { state: 'Uttar Pradesh', districts: ['Civil Lines'] }
 };
 
 // More Cities that have a virtual office page. Images are stored locally in src/morecities/images.
@@ -293,7 +311,14 @@ const moreVirtualCities = [
   { name: 'Nanded', image: nandedImage },
   { name: 'Nashik', image: nashikImage },
   { name: 'Navi Mumbai', image: naviMumbaiImage },
-  { name: 'Panaji', image: panajiImage }
+  { name: 'Panaji', image: panajiImage },
+  { name: 'Panchkula', image: panchkulaImage },
+  { name: 'Panipat', image: panipatImage },
+  { name: 'Pathankot', image: pathankotImage },
+  { name: 'Patna', image: patnaImage },
+  { name: 'Pimpri-Chinchwad', image: pimpriChinchwadImage },
+  { name: 'Pondicherry / Puducherry', image: pondicherryPuducherryImage },
+  { name: 'Prayagraj', image: prayagrajImage }
 ];
 
 // Sub-locations come from each city's own data file: its area list plus the area of every listed space.
@@ -367,7 +392,11 @@ const citySubLocations = {
   Nagpur: [nagpurAreas, allNagpurOfficeCards],
   Nashik: [nashikAreas, allNashikOfficeCards],
   'Navi Mumbai': [naviMumbaiAreas, allNaviMumbaiOfficeCards],
-  Panaji: [panajiAreas, allPanajiOfficeCards]
+  Panaji: [panajiAreas, allPanajiOfficeCards],
+  Panchkula: [panchkulaAreas, allPanchkulaOfficeCards],
+  Patna: [patnaAreas, allPatnaOfficeCards],
+  'Pondicherry / Puducherry': [pondicherryPuducherryAreas, allPondicherryPuducherryOfficeCards],
+  Prayagraj: [prayagrajAreas, allPrayagrajOfficeCards]
 };
 
 // Virtual-office-only locations: verified operators that are not coworking spaces, so they
