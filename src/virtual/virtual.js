@@ -72,6 +72,23 @@ import nandedImage from '../morecities/images/nanded.jpg';
 import nashikImage from '../morecities/images/nashik.jpg';
 import naviMumbaiImage from '../morecities/images/navi-mumbai.jpg';
 import panajiImage from '../morecities/images/panaji.jpg';
+import warangalImage from '../morecities/images/warangal.jpg';
+import visakhapatnamImage from '../morecities/images/visakhapatnam.jpg';
+import vijayawadaImage from '../morecities/images/vijayawada.jpg';
+import varanasiImage from '../morecities/images/varanasi.jpg';
+import vapiImage from '../morecities/images/vapi.jpg';
+import vadodaraImage from '../morecities/images/vadodara.jpg';
+import udaipurImage from '../morecities/images/udaipur.jpg';
+import tiruchirappalliImage from '../morecities/images/tiruchirappalli-trichy.jpg';
+import thaneImage from '../morecities/images/thane.jpg';
+import suratImage from '../morecities/images/surat.jpg';
+import panchkulaImage from '../morecities/images/panchkula.jpg';
+import patnaImage from '../morecities/images/patna.jpg';
+import pimpriChinchwadImage from '../morecities/images/pimpri-chinchwad.jpg';
+import pondicherryPuducherryImage from '../morecities/images/pondicherry-puducherry.jpg';
+import prayagrajImage from '../morecities/images/prayagraj.jpg';
+import raipurImage from '../morecities/images/raipur.jpg';
+import rajkotImage from '../morecities/images/rajkot.jpg';
 import { agartalaAreas, agartalaSpaces } from '../pages/agartala/agartalaData.js';
 import { agraAreas, agraSpaces } from '../pages/agra/agraData.js';
 import { ahmedabadAreas, ahmedabadSpaces } from '../pages/ahmedabad/ahmedabadData.js';
@@ -124,6 +141,23 @@ import { nagpurAreas, allNagpurOfficeCards } from '../pages/nagpur/nagpurData.js
 import { nashikAreas, allNashikOfficeCards } from '../pages/nashik/nashikData.js';
 import { naviMumbaiAreas, allNaviMumbaiOfficeCards } from '../pages/navi-mumbai/naviMumbaiData.js';
 import { panajiAreas, allPanajiOfficeCards } from '../pages/panaji/panajiData.js';
+import { warangalAreas, warangalSpaces } from '../pages/warangal/warangalData.js';
+import { visakhapatnamAreas, visakhapatnamSpaces } from '../pages/visakhapatnam/visakhapatnamData.js';
+import { vijayawadaAreas, vijayawadaSpaces } from '../pages/vijayawada/vijayawadaData.js';
+import { varanasiAreas, varanasiSpaces } from '../pages/varanasi/varanasiData.js';
+import { vapiAreas, vapiSpaces } from '../pages/vapi/vapiData.js';
+import { vadodaraAreas, vadodaraSpaces } from '../pages/vadodara/vadodaraData.js';
+import { udaipurAreas, udaipurSpaces } from '../pages/udaipur/udaipurData.js';
+import { tiruchirappalliAreas, tiruchirappalliSpaces } from '../pages/tiruchirappalli/tiruchirappalliData.js';
+import { thaneAreas, thaneSpaces } from '../pages/thane/thaneData.js';
+import { suratAreas, suratSpaces } from '../pages/surat/suratData.js';
+import { panchkulaAreas, panchkulaSpaces } from '../pages/panchkula/panchkulaData.js';
+import { patnaAreas, patnaSpaces } from '../pages/patna/patnaData.js';
+import { pimpriChinchwadAreas, pimpriChinchwadSpaces } from '../pages/pimpri-chinchwad/pimpriChinchwadData.js';
+import { pondicherryPuducherryAreas, pondicherryPuducherrySpaces } from '../pages/pondicherry-puducherry/pondicherryPuducherryData.js';
+import { prayagrajAreas, prayagrajSpaces } from '../pages/prayagraj/prayagrajData.js';
+import { raipurAreas, raipurSpaces } from '../pages/raipur/raipurData.js';
+import { rajkotAreas, rajkotSpaces } from '../pages/rajkot/rajkotData.js';
 import { bangaloreAreas, bangaloreSpaces } from '../pages/bangalore/bangaloreData.js';
 import { bhubaneshwarNeighborhoods, allBhubaneshwarOfficeCards } from '../pages/bhubaneswar/bhubaneswarData.js';
 import { chandigarhAreas, chandigarhSpaces } from '../pages/chandigarh/chandigarhData.js';
@@ -228,7 +262,24 @@ const cityDetails = {
   Nanded: { state: 'Maharashtra', districts: ['Vazirabad', 'Shivaji Nagar', 'Taroda', 'Workshop Corner', 'CIDCO'] },
   Nashik: { state: 'Maharashtra', districts: ['Anandwan Colony', 'Bhabha Nagar', 'Tilakwadi', 'Tidke Colony', 'Shanti Nagar'] },
   'Navi Mumbai': { state: 'Maharashtra', districts: ['MIDC Industrial Area', 'Nerul', 'CBD Belapur', 'MIDC', 'Sector 14'] },
-  Panaji: { state: 'Goa', districts: ['Panjim', 'Panaji CBD (Central Business District)', 'Patto Centre', 'Patto', 'MG Road'] }
+  Panaji: { state: 'Goa', districts: ['Panjim', 'Panaji CBD (Central Business District)', 'Patto Centre', 'Patto', 'MG Road'] },
+  Warangal: { state: 'Telangana', districts: ['Naim Nagar', 'Pochamma Maidan', 'Nakkalagutta', 'KU Cross Road'] },
+  Visakhapatnam: { state: 'Andhra Pradesh', districts: ['Dwaraka Nagar', 'Siripuram', 'Ram Nagar', 'Asilmetta', 'Balaji Nagar'] },
+  Vijayawada: { state: 'Andhra Pradesh', districts: ['Benz Circle', 'Moghalrajpuram', 'Guru Nanak Colony', 'Brindavan Colony', 'Kanuru'] },
+  Varanasi: { state: 'Uttar Pradesh', districts: ['Sigra', 'Cantonment', 'Lahartara', 'BHU'] },
+  Vapi: { state: 'Gujarat', districts: ['GIDC'] },
+  Vadodara: { state: 'Gujarat', districts: ['Alkapuri', 'Vadiwadi', 'Genda Circle', 'Subhanpura', 'Karelibaug'] },
+  Udaipur: { state: 'Rajasthan', districts: ['Hiran Magri', 'Shobhagpura', 'Bhupalpura', 'University Road', 'Fatehpura'] },
+  'Tiruchirappalli / Trichy': { state: 'Tamil Nadu', districts: ['Salai Road', 'West Thillai Nagar'] },
+  Thane: { state: 'Maharashtra', districts: ['Wagle Estate', 'Hiranandani Estate', 'Thane West', 'Cadbury Junction', 'Chirak Nagar'] },
+  Surat: { state: 'Gujarat', districts: ['Vesu', 'Adajan', 'Nanpura', 'Pal', 'Athwa'] },
+  Panchkula: { state: 'Haryana', districts: ['Sector 20', 'Sector 5', 'Sector 22', 'Sector 8', 'Dhakoli'] },
+  Patna: { state: 'Bihar', districts: ['Kankarbagh', 'Fraser Road', 'Boring Road', 'Bailey Road', 'Patliputra Colony'] },
+  'Pimpri-Chinchwad': { state: 'Maharashtra', districts: ['Akurdi', 'Nigdi', 'Bhosari', 'Chinchwad Station'] },
+  'Pondicherry / Puducherry': { state: 'Puducherry (UT)', districts: ['Mudaliarpet', 'Ellaipillaichavady', 'Sokkanathan Pet', 'Aurobindo Street', 'Colas Nagar'] },
+  Prayagraj: { state: 'Uttar Pradesh', districts: ['Civil Lines', 'Allenganj', 'Naini', 'Katra'] },
+  Raipur: { state: 'Chhattisgarh', districts: ['Shankar Nagar', 'Bhatagaon', 'Telibandha', 'Civil Lines', 'Kamal Vihar'] },
+  Rajkot: { state: 'Gujarat', districts: ['Sardar Nagar', 'Raiya Road', 'Kalawad Road', 'Mavdi', 'Nana Mava'] }
 };
 
 // More Cities that have a virtual office page. Images are stored locally in src/morecities/images.
@@ -293,7 +344,24 @@ const moreVirtualCities = [
   { name: 'Nanded', image: nandedImage },
   { name: 'Nashik', image: nashikImage },
   { name: 'Navi Mumbai', image: naviMumbaiImage },
-  { name: 'Panaji', image: panajiImage }
+  { name: 'Panaji', image: panajiImage },
+  { name: 'Warangal', image: warangalImage },
+  { name: 'Visakhapatnam', image: visakhapatnamImage },
+  { name: 'Vijayawada', image: vijayawadaImage },
+  { name: 'Varanasi', image: varanasiImage },
+  { name: 'Vapi', image: vapiImage },
+  { name: 'Vadodara', image: vadodaraImage },
+  { name: 'Udaipur', image: udaipurImage },
+  { name: 'Tiruchirappalli / Trichy', image: tiruchirappalliImage },
+  { name: 'Thane', image: thaneImage },
+  { name: 'Surat', image: suratImage },
+  { name: 'Panchkula', image: panchkulaImage },
+  { name: 'Patna', image: patnaImage },
+  { name: 'Pimpri-Chinchwad', image: pimpriChinchwadImage },
+  { name: 'Pondicherry / Puducherry', image: pondicherryPuducherryImage },
+  { name: 'Prayagraj', image: prayagrajImage },
+  { name: 'Raipur', image: raipurImage },
+  { name: 'Rajkot', image: rajkotImage }
 ];
 
 // Sub-locations come from each city's own data file: its area list plus the area of every listed space.
@@ -367,7 +435,24 @@ const citySubLocations = {
   Nagpur: [nagpurAreas, allNagpurOfficeCards],
   Nashik: [nashikAreas, allNashikOfficeCards],
   'Navi Mumbai': [naviMumbaiAreas, allNaviMumbaiOfficeCards],
-  Panaji: [panajiAreas, allPanajiOfficeCards]
+  Panaji: [panajiAreas, allPanajiOfficeCards],
+  Warangal: [warangalAreas, warangalSpaces],
+  Visakhapatnam: [visakhapatnamAreas, visakhapatnamSpaces],
+  Vijayawada: [vijayawadaAreas, vijayawadaSpaces],
+  Varanasi: [varanasiAreas, varanasiSpaces],
+  Vapi: [vapiAreas, vapiSpaces],
+  Vadodara: [vadodaraAreas, vadodaraSpaces],
+  Udaipur: [udaipurAreas, udaipurSpaces],
+  'Tiruchirappalli / Trichy': [tiruchirappalliAreas, tiruchirappalliSpaces],
+  Thane: [thaneAreas, thaneSpaces],
+  Surat: [suratAreas, suratSpaces],
+  Panchkula: [panchkulaAreas, panchkulaSpaces],
+  Patna: [patnaAreas, patnaSpaces],
+  'Pimpri-Chinchwad': [pimpriChinchwadAreas, pimpriChinchwadSpaces],
+  'Pondicherry / Puducherry': [pondicherryPuducherryAreas, pondicherryPuducherrySpaces],
+  Prayagraj: [prayagrajAreas, prayagrajSpaces],
+  Raipur: [raipurAreas, raipurSpaces],
+  Rajkot: [rajkotAreas, rajkotSpaces]
 };
 
 // Virtual-office-only locations: verified operators that are not coworking spaces, so they
@@ -401,17 +486,74 @@ const extraVirtualLocations = {
   Jalandhar: ['Mithapur Road']
 };
 
+// Fillers for cities whose coworking data gives fewer than 5 locations, so every page lists at least 5.
+// These are well-known commercial / business localities of the city. Unlike extraVirtualLocations they are NOT
+// confirmed virtual-office addresses: no operator listing was found for them, so confirm the address before quoting.
+// They were added from general knowledge of each city (Google Maps could not be queried), not from a listing.
+// Each list is only as long as needed to reach 5; names already present are removed by the de-duplication below.
+const supplementaryLocalities = {
+  Agartala: ['Battala', 'Krishnanagar', 'Melarmath'],
+  Ahmednagar: ['Savedi', 'Station Road', 'Tilak Road', 'Kedgaon'],
+  Aizawl: ['Chanmari', 'Dawrpui', 'Khatla'],
+  Ajmer: ['Civil Lines', 'Jaipur Road'],
+  'Alwar / Bhiwadi': ['Hope Circus', 'Chopanki'],
+  Ambala: ['Ambala Cantt', 'Baldev Nagar'],
+  Anand: ['Amul Dairy Road', 'Karamsad', 'Mogri'],
+  Ayodhya: ['Civil Lines', 'Rakabganj', 'Naya Ghat'],
+  Bareilly: ['Civil Lines', 'Pilibhit Bypass Road', 'Rajendra Nagar', 'Subhash Nagar'],
+  Bharuch: ['Zadeshwar', 'Station Road', 'Dahej', 'Panchbatti'],
+  Bhavnagar: ['Kaliyabid', 'Ghogha Circle', 'Waghawadi Road', 'Sardarnagar'],
+  Bhilwara: ['Pur Road', 'Azad Nagar', 'Shastri Nagar', 'R.C. Vyas Colony'],
+  'Bir Billing': ['Billing', 'Chaugan', 'Tibetan Colony', 'Rajgundha'],
+  'Dharamshala / McLeod Ganj': ['Dharamkot'],
+  Gandhinagar: ['Kudasan'],
+  Gangtok: ['MG Marg', 'Tadong', 'Sichey'],
+  Gorakhpur: ['Golghar', 'Civil Lines', 'Taramandal', 'Medical College Road'],
+  Gwalior: ['Thatipur'],
+  'Hubballi-Dharwad': ['Vidyanagar', 'Keshwapur', 'Navanagar'],
+  Jabalpur: ['Napier Town', 'Civil Lines', 'Wright Town'],
+  Jalandhar: ['Model Town'],
+  Jammu: ['Gandhi Nagar', 'Channi Himmat'],
+  Jamnagar: ['Pandit Nehru Marg', 'Ranjit Road', 'Digjam Circle', 'Patel Colony'],
+  Jamshedpur: ['Sakchi', 'Sonari', 'Kadma', 'Adityapur'],
+  Karnal: ['Model Town', 'Sector 13', 'Sector 12', 'Sector 9'],
+  Kolhapur: ['Rajarampuri', 'Tarabai Park', 'Shahupuri', 'Shiroli MIDC'],
+  Ludhiana: ['Sarabha Nagar'],
+  Margao: ['Fatorda', 'Borda', 'Pajifond', 'Aquem'],
+  Mathura: ['Krishna Nagar', 'Civil Lines', 'Holi Gate', 'Bhuteshwar'],
+  'Pimpri-Chinchwad': ['Akurdi', 'Nigdi', 'Bhosari', 'Chinchwad Station', 'Moshi'],
+  Prayagraj: ['Allenganj', 'Naini', 'Katra', 'Lukerganj'],
+  'Tiruchirappalli / Trichy': ['Cantonment', 'Srirangam', 'K.K. Nagar'],
+  Warangal: ['Hanamkonda'],
+  Varanasi: ['Lanka'],
+  Vapi: ['Chala', 'Charvada', 'Char Rasta', 'Silvassa Road']
+};
+
+const MIN_LOCATIONS = 5;
+
+// Entries in a city's coworking data that name a different city, so they must not become cards here.
+const hiddenLocations = {
+  'Pimpri-Chinchwad': ['Pune']
+};
+
 const buildSubLocations = (cityName) => {
   // Cities without a coworking data file fall back to their listed main areas.
   const [areas = [], spaces = []] = citySubLocations[cityName] || [cityDetails[cityName]?.districts || [], []];
   const names = [...areas, ...spaces.map((space) => space.area), ...(extraVirtualLocations[cityName] || [])];
-  const seen = new Set();
-  return names.filter((name) => {
+  const seen = new Set((hiddenLocations[cityName] || []).map((name) => name.toLowerCase()));
+  const unique = (list) => list.filter((name) => {
     const key = String(name || '').trim().toLowerCase();
     if (!key || key === 'all' || key === cityName.toLowerCase() || seen.has(key)) return false;
     seen.add(key);
     return true;
   }).map((name) => String(name).trim());
+
+  const result = unique(names);
+  // Only cities below the minimum use the fillers, and only as many as are needed.
+  if (result.length < MIN_LOCATIONS) {
+    result.push(...unique(supplementaryLocalities[cityName] || []).slice(0, MIN_LOCATIONS - result.length));
+  }
+  return result;
 };
 
 // "Alwar / Bhiwadi" -> "alwar-bhiwadi"
