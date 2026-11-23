@@ -89,7 +89,7 @@ const Navbar = () => {
   return (
     <header ref={navRef} className="w-full sticky top-0 z-50 select-none px-2 sm:px-4 py-2">
       {/* 1. Mobile & Desktop Header: strictly single row, flex-row, justify-between, items-center */}
-      <div className="max-w-[1400px] mx-auto px-3 sm:px-5 h-14 sm:h-16 rounded-2xl bg-white/85 backdrop-blur-xl border border-white/70 shadow-[0_8px_30px_rgba(15,23,42,0.14)] flex flex-row justify-between items-center gap-3">
+      <div className="max-w-[1400px] mx-auto px-3 sm:px-5 h-14 sm:h-[4.5rem] rounded-2xl bg-white/85 backdrop-blur-xl border border-white/70 shadow-[0_8px_30px_rgba(15,23,42,0.14)] flex flex-row justify-start items-center gap-3 lg:gap-4 xl:gap-[1cm]">
         
         {/* 2. Far Left: Logo */}
         <Link 
@@ -98,7 +98,7 @@ const Navbar = () => {
           onClick={closeMenu}
           className="flex items-center cursor-pointer shrink-0"
         >
-          <img src={logo} alt="MyCoworking - Coworking and Virtual Office Spaces in India" className="h-9 sm:h-12 w-auto object-contain" />
+          <img src={logo} alt="MyCoworking - Coworking and Virtual Office Spaces in India" className="h-11 sm:h-16 w-auto object-contain" />
         </Link>
 
         {/* 3. Desktop Contact Info Box: visible on large screens (lg+) */}
@@ -113,7 +113,7 @@ const Navbar = () => {
         </div>
 
         {/* 3. Middle Tabs: Desktop only (hidden on mobile views, visible on lg and above) */}
-        <nav className="hidden lg:flex items-center space-x-2 xl:space-x-3 mx-2">
+        <nav className="hidden lg:flex items-center gap-4 xl:gap-[1cm]">
           {navItems.map((item) => (
             <div key={item.name} className="relative">
               <button
@@ -155,7 +155,7 @@ const Navbar = () => {
         </nav>
 
         {/* 2 & 4. Far Right: Blue "Contact Us" Button + Hamburger Menu Icon */}
-        <div className="flex items-center gap-2.5 sm:gap-3 shrink-0">
+        <div className="flex items-center gap-2.5 sm:gap-3 shrink-0 ml-auto">
           {/* Orange "List of Services" button - always visible */}
           <Link
             to="/#services"
