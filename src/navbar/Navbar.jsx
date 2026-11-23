@@ -99,7 +99,7 @@ const Navbar = () => {
           onClick={closeMenu}
           className="flex items-center cursor-pointer shrink-0"
         >
-          <img src={logo} alt="MyCoworking - Coworking and Virtual Office Spaces in India" className="h-12 sm:h-20 w-auto object-contain" />
+          <img src={logo} alt="MyCoworking - Coworking and Virtual Office Spaces in India" className="h-22 sm:h-20 w-auto object-contain" />
         </Link>
 
         {/* 3. Desktop Contact Info Box: visible on large screens (lg+) */}
