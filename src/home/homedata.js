@@ -102,15 +102,6 @@ export const heroSectionData = {
   // Decorative tagline above main headline
   tagline: "India's flexible workspace network",
 
-  // Supporting copy under the headline
-  description: "Coworking desks, private cabins and virtual offices across 1,000+ locations. Compare, tour and book in minutes, with zero brokerage.",
-
-  // Title of the popular-cities panel
-  cityPanelTitle: "Popular cities",
-
-  // Short reassurance points under the cities panel
-  trustPoints: ["Zero brokerage", "Free site visits", "Verified spaces"],
-
   // Main banner headline parts
   headline: {
     prefix: "Choose from",
@@ -154,10 +145,6 @@ export const heroSectionData = {
 export const enquiryFormConfig = {
   // Support email address where enquiries are mailed
   contactEmail: "info@mycoworking.in",
-
-  // Form card heading copy
-  heading: "Get a free callback",
-  subheading: "Tell us what you need. Our advisors reply within the hour.",
 
   // Default initial values when form is loaded or reset
   defaultValues: {
