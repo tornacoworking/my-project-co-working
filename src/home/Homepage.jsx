@@ -260,211 +260,201 @@ const Homepage = () => {
   // 3. UI RENDERING (Mapped dynamically from centralized homedata store)
   // =========================================================================
   return (
-    <section className="w-full min-h-[calc(100dvh-4rem)] sm:min-h-[calc(100dvh-5rem)] overflow-x-hidden bg-[#f8fafc] flex flex-col antialiased font-sans select-none">
+    <section className="w-full min-h-[calc(100dvh-4.5rem)] sm:min-h-[calc(100dvh-5rem)] overflow-x-hidden bg-[#f8fafc] flex flex-col antialiased font-sans select-none">
       
       {/* =================================================================== */}
       {/* SECTION 1: PRIMARY HERO FOLD (LEFT SEARCH & RIGHT ENQUIRY FORM)    */}
       {/* =================================================================== */}
-      <div className="w-full h-[calc(100dvh-4rem)] sm:h-[calc(100dvh-5rem)] min-h-[560px] flex flex-col md:flex-row overflow-hidden shrink-0">
-        
+      <div className="w-full md:h-[calc(100dvh-5rem)] md:min-h-[600px] flex flex-col md:flex-row overflow-hidden shrink-0">
+
         {/* ----------------------------------------------------------------- */}
-        {/* LEFT COLUMN: Heading, Filter Dropdowns, Search Button, Cities Grid */}
-        {/* Data Source: heroSectionData & availableCities from homedata.js    */}
+        {/* LEFT COLUMN: Heading, search pill and city tiles                   */}
         {/* ----------------------------------------------------------------- */}
-        <section className="w-full md:w-1/2 h-full px-5 py-3 sm:px-8 sm:py-4 lg:px-10 lg:py-5 flex flex-col justify-between overflow-hidden">
+        <section className="w-full md:w-1/2 md:h-full px-4 py-5 sm:px-8 sm:py-6 lg:px-10 lg:py-6 flex flex-col justify-between gap-4 overflow-hidden bg-gradient-to-br from-white via-slate-50 to-blue-50">
           <div className="flex flex-col">
             {/* Decorative Brand Accent Dot */}
-            <div className="w-7 h-7 bg-amber-400 rounded-full mb-2 sm:mb-2.5 shadow-[5px_5px_0_#0f172a]"></div>
-            
-            {/* Tagline from heroSectionData */}
-            <p className="text-[10px] sm:text-xs font-bold uppercase tracking-[0.2em] text-slate-500 mb-1 sm:mb-1.5">
+            <div className="w-6 h-6 bg-amber-400 rounded-full mb-2.5 shadow-[3px_3px_0_#0f172a]"></div>
+
+            <p className="text-[10px] sm:text-xs font-bold uppercase tracking-[0.2em] text-slate-500 mb-1.5">
               {heroSectionData.tagline}
             </p>
-            
-            {/* Main Headline from heroSectionData */}
-            <h1 className="text-2xl sm:text-3xl lg:text-[32px] xl:text-[35px] font-black text-slate-900 tracking-tight mb-2.5 sm:mb-3 leading-[1.12]">
-              {heroSectionData.headline.prefix} <span className="text-[#007bff]">{heroSectionData.headline.highlight1}</span><br />
-              {heroSectionData.headline.middleText} <span className="text-[#007bff]">{heroSectionData.headline.highlight2}</span>
+
+            <h1 className="text-2xl sm:text-3xl lg:text-[34px] xl:text-[38px] font-black text-slate-900 tracking-tight mb-4 leading-[1.12]">
+              {heroSectionData.headline.prefix} <span className="text-[#0a58ca]">{heroSectionData.headline.highlight1}</span><br />
+              {heroSectionData.headline.middleText} <span className="text-[#0a58ca]">{heroSectionData.headline.highlight2}</span>
             </h1>
 
-            {/* Quick Search Filter Dropdowns */}
-            <div className="grid grid-cols-2 gap-2.5 sm:gap-3 mb-2.5 sm:mb-3 max-w-xl">
-              {/* Space Type Selector Dropdown */}
-              <label className="border border-slate-200 rounded-xl px-2.5 py-1.5 flex flex-col bg-white shadow-xs">
+            {/* Search pill: space type | more cities | search button */}
+            <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-2.5 max-w-xl rounded-3xl sm:rounded-full bg-white p-2 shadow-[0_8px_30px_rgba(15,23,42,0.12)] ring-1 ring-slate-200/70">
+              <label className="flex-1 border border-slate-200 rounded-2xl sm:rounded-full px-4 py-1.5 flex flex-col bg-white">
                 <span className="text-[10px] font-semibold text-slate-400 leading-tight">
                   {heroSectionData.searchFilters.lookingForLabel}
                 </span>
-                <select 
-                  value={selectedSpaceType} 
+                <select
+                  value={selectedSpaceType}
                   onChange={(event) => selectSpaceType(event.target.value)}
-                  className="text-xs sm:text-sm font-medium text-slate-800 bg-transparent focus:outline-none cursor-pointer mt-0.5"
+                  className="text-xs sm:text-sm font-semibold text-slate-800 bg-transparent focus:outline-none cursor-pointer"
                 >
                   {availableSpaceTypes.map((option) => (
                     <option key={option} value={option}>{option}</option>
                   ))}
                 </select>
               </label>
-              
+
               {/* More Cities button + popup (src/morecities) */}
               <Morecities onCitySelect={(city) => selectCityAndOpenPopup(city, true)} />
-            </div>
 
-            {/* Primary Search Button */}
-            <button 
-              type="button" 
-              onClick={() => {
-                if (selectedSpaceType === 'Coworking Spaces') {
-                  navigate(`/coworking/${selectedCityName.toLowerCase()}`);
-                } else {
-                  selectCityAndOpenPopup(availableCities.find((city) => city.name === selectedCityName), true);
-                }
-              }} 
-              className="w-fit bg-[#007bff] hover:bg-blue-600 text-white font-semibold text-xs sm:text-sm px-5 py-2 sm:py-2.5 rounded-lg flex items-center gap-1.5 transition-colors mb-2.5 sm:mb-3 shadow-xs cursor-pointer active:scale-95"
-            >
-              {heroSectionData.searchFilters.searchButtonText} <span aria-hidden="true">{heroSectionData.searchFilters.searchButtonArrow}</span>
-            </button>
+              <button
+                type="button"
+                onClick={() => {
+                  if (selectedSpaceType === 'Coworking Spaces') {
+                    navigate(`/coworking/${selectedCityName.toLowerCase()}`);
+                  } else {
+                    selectCityAndOpenPopup(availableCities.find((city) => city.name === selectedCityName), true);
+                  }
+                }}
+                className="bg-gradient-to-r from-[#0a58ca] to-[#0d6efd] hover:from-[#0948a8] hover:to-[#0a58ca] text-white font-semibold text-xs sm:text-sm px-5 py-3 rounded-full flex items-center justify-center gap-1.5 shadow-md shadow-blue-500/30 transition-all cursor-pointer active:scale-95"
+              >
+                {heroSectionData.searchFilters.searchButtonText} <span aria-hidden="true">{heroSectionData.searchFilters.searchButtonArrow}</span>
+              </button>
+            </div>
           </div>
-          
-          {/* 18-City Circular Selection Grid */}
-          <CityGrid 
-            cities={availableCities} 
-            selectedCity={selectedCityName} 
-            onCitySelect={(city) => selectCityAndOpenPopup(city, true)} 
+
+          {/* City tiles */}
+          <CityGrid
+            cities={availableCities}
+            selectedCity={selectedCityName}
+            onCitySelect={(city) => selectCityAndOpenPopup(city, true)}
           />
         </section>
 
         {/* ----------------------------------------------------------------- */}
-        {/* RIGHT COLUMN: Hero Background, Statistics & Lead Enquiry Form     */}
-        {/* Data Source: heroSectionData & enquiryFormConfig from homedata.js */}
+        {/* RIGHT COLUMN: photo + glass card (stats and enquiry form)          */}
         {/* ----------------------------------------------------------------- */}
-        <section 
-          className="w-full md:w-1/2 h-full bg-cover bg-center relative flex flex-col items-center justify-center px-4 py-4 sm:px-6 lg:px-10 overflow-hidden" 
+        <section
+          className="w-full md:w-1/2 md:h-full min-h-[520px] bg-cover bg-center relative flex items-center justify-center px-4 py-6 sm:px-6 lg:px-10 overflow-hidden"
           style={{ backgroundImage: `url(${heroSectionData.backgroundImage})` }}
         >
-          {/* Subtle Dark Image Overlay */}
-          <div className="absolute inset-0 bg-slate-950/25"></div>
+          <div className="absolute inset-0 bg-slate-950/20"></div>
 
-          {/* Workspace Statistics Header (Mapped from heroSectionData.statistics) */}
-          <div className="relative z-10 flex items-center justify-center gap-5 sm:gap-8 text-white text-center mb-3 sm:mb-4 drop-shadow-md">
-            {heroSectionData.statistics.map((stat, index) => (
-              <div key={stat.id} className="flex items-center">
-                {index > 0 && <div className="w-px h-10 sm:h-12 bg-white/70 self-center mr-5 sm:mr-8" />}
-                <div>
-                  <h2 className="text-3xl sm:text-4xl font-black tracking-tight text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.85)] leading-tight">
-                    {stat.count}
-                  </h2>
-                  <p className="text-xs sm:text-base font-serif font-bold text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.85)] mt-0.5">
-                    {stat.label}
-                  </p>
+          <div className="relative z-10 w-full max-w-[430px] rounded-3xl bg-white/20 backdrop-blur-xl border border-white/40 shadow-[0_20px_60px_rgba(0,0,0,0.35)] p-4 sm:p-5">
+            {/* Statistics */}
+            <div className="flex items-center justify-center gap-5 sm:gap-8 text-white text-center mb-4">
+              {heroSectionData.statistics.map((stat, index) => (
+                <div key={stat.id} className="flex items-center">
+                  {index > 0 && <div className="w-px h-10 sm:h-12 bg-white/70 self-center mr-5 sm:mr-8" />}
+                  <div>
+                    <h2 className="text-2xl sm:text-3xl font-black tracking-tight drop-shadow-[0_2px_4px_rgba(0,0,0,0.6)] leading-tight">
+                      {stat.count}
+                    </h2>
+                    <p className="text-xs sm:text-sm font-bold drop-shadow-[0_2px_4px_rgba(0,0,0,0.6)] mt-0.5">
+                      {stat.label}
+                    </p>
+                  </div>
                 </div>
-              </div>
-            ))}
-          </div>
-          
-          {/* Lead Enquiry Contact Form (Configured via enquiryFormConfig) */}
-          <form onSubmit={handleFormSubmit} className="w-full max-w-[400px] sm:max-w-[430px] relative z-10 flex flex-col gap-2 sm:gap-2.5">
-            {/* Form Row 1: Name Input */}
-            <input 
-              type="text" 
-              name="name" 
-              placeholder={enquiryFormConfig.placeholders.name} 
-              value={enquiryFormData.name} 
-              onChange={handleFormFieldChange} 
-              required 
-              className="w-full h-9 sm:h-10 bg-white text-slate-800 placeholder-[#75848a] text-xs sm:text-sm border border-[#cfd4d9] rounded-[3px] px-3 shadow-xs focus:outline-none focus:border-[#007bff] focus:ring-1 focus:ring-[#007bff]" 
-            />
-            
-            {/* Form Row 2: Email & Phone Inputs */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-2.5">
-              <input 
-                type="email" 
-                name="email" 
-                placeholder={enquiryFormConfig.placeholders.email} 
-                value={enquiryFormData.email} 
-                onChange={handleFormFieldChange} 
-                required 
-                className="w-full h-9 sm:h-10 bg-white text-slate-800 placeholder-[#75848a] text-xs sm:text-sm border border-[#cfd4d9] rounded-[3px] px-3 shadow-xs focus:outline-none focus:border-[#007bff] focus:ring-1 focus:ring-[#007bff]" 
+              ))}
+            </div>
+
+            {/* Lead Enquiry Contact Form */}
+            <form onSubmit={handleFormSubmit} className="w-full flex flex-col gap-2.5">
+              <input
+                type="text"
+                name="name"
+                placeholder={enquiryFormConfig.placeholders.name}
+                value={enquiryFormData.name}
+                onChange={handleFormFieldChange}
+                required
+                className="w-full h-10 bg-white text-slate-800 placeholder-[#75848a] text-xs sm:text-sm border border-white/60 rounded-md px-3 shadow-xs focus:outline-none focus:ring-2 focus:ring-[#0d6efd]/50"
               />
-              
-              {/* Phone Input with Country Flag Indicator */}
-              <div className="flex items-center w-full h-9 sm:h-10 bg-white border border-[#cfd4d9] rounded-[3px] px-2.5 shadow-xs focus-within:border-[#007bff] focus-within:ring-1 focus-within:ring-[#007bff]">
-                <div className="flex items-center gap-1 pr-1.5 select-none shrink-0 cursor-pointer border-r border-slate-200">
-                  <svg className="w-4 h-3 rounded-[1px] shadow-xs" viewBox="0 0 24 16">
-                    <rect width="24" height="5.33" fill="#FF9933" />
-                    <rect y="5.33" width="24" height="5.33" fill="#FFFFFF" />
-                    <rect y="10.66" width="24" height="5.34" fill="#128807" />
-                    <circle cx="12" cy="8" r="2.2" fill="none" stroke="#000080" strokeWidth="0.6" />
-                    <circle cx="12" cy="8" r="0.6" fill="#000080" />
-                  </svg>
-                  <span className="text-[9px] text-slate-500">▼</span>
-                </div>
-                <input 
-                  type="tel" 
-                  name="phone" 
-                  placeholder={enquiryFormConfig.placeholders.phone} 
-                  value={enquiryFormData.phone} 
-                  onChange={handleFormFieldChange} 
-                  required 
-                  className="w-full h-full bg-transparent text-slate-800 placeholder-[#75848a] text-xs sm:text-sm pl-2 focus:outline-none" 
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder={enquiryFormConfig.placeholders.email}
+                  value={enquiryFormData.email}
+                  onChange={handleFormFieldChange}
+                  required
+                  className="w-full h-10 bg-white text-slate-800 placeholder-[#75848a] text-xs sm:text-sm border border-white/60 rounded-md px-3 shadow-xs focus:outline-none focus:ring-2 focus:ring-[#0d6efd]/50"
                 />
-              </div>
-            </div>
-            
-            {/* Form Row 3: Space Type Selector & City Input */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-2.5">
-              <div className="relative w-full">
-                <select 
-                  name="spaceType" 
-                  value={enquiryFormData.spaceType} 
-                  onChange={(event) => selectSpaceType(event.target.value)}
-                  className="w-full h-9 sm:h-10 bg-white text-slate-800 text-xs sm:text-sm border border-[#cfd4d9] rounded-[3px] px-3 pr-7 focus:outline-none focus:border-[#007bff] focus:ring-1 focus:ring-[#007bff] appearance-none cursor-pointer shadow-xs"
-                >
-                  <option value="">{enquiryFormConfig.placeholders.spaceType}</option>
-                  {availableSpaceTypes.map((option) => (
-                    <option key={option} value={option}>{option}</option>
-                  ))}
-                </select>
-                <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-slate-600">
-                  <span className="text-[9px]">▼</span>
+
+                <div className="flex items-center w-full h-10 bg-white border border-white/60 rounded-md px-2.5 shadow-xs focus-within:ring-2 focus-within:ring-[#0d6efd]/50">
+                  <div className="flex items-center gap-1 pr-1.5 select-none shrink-0 border-r border-slate-200">
+                    <svg className="w-4 h-3 rounded-[1px] shadow-xs" viewBox="0 0 24 16">
+                      <rect width="24" height="5.33" fill="#FF9933" />
+                      <rect y="5.33" width="24" height="5.33" fill="#FFFFFF" />
+                      <rect y="10.66" width="24" height="5.34" fill="#128807" />
+                      <circle cx="12" cy="8" r="2.2" fill="none" stroke="#000080" strokeWidth="0.6" />
+                      <circle cx="12" cy="8" r="0.6" fill="#000080" />
+                    </svg>
+                    <span className="text-[9px] text-slate-500">▼</span>
+                  </div>
+                  <input
+                    type="tel"
+                    name="phone"
+                    placeholder={enquiryFormConfig.placeholders.phone}
+                    value={enquiryFormData.phone}
+                    onChange={handleFormFieldChange}
+                    required
+                    className="w-full h-full bg-transparent text-slate-800 placeholder-[#75848a] text-xs sm:text-sm pl-2 focus:outline-none"
+                  />
                 </div>
               </div>
-              
-              <input 
-                type="text" 
-                name="city" 
-                placeholder={enquiryFormConfig.placeholders.city} 
-                value={enquiryFormData.city} 
-                onChange={handleFormFieldChange} 
-                list="city-options-list"
-                className="w-full h-9 sm:h-10 bg-white text-slate-800 placeholder-[#75848a] text-xs sm:text-sm border border-[#cfd4d9] rounded-[3px] px-3 shadow-xs focus:outline-none focus:border-[#007bff] focus:ring-1 focus:ring-[#007bff]" 
-              />
-              <datalist id="city-options-list">
-                {availableCities.map((city) => (
-                  <option key={city.name} value={city.name} />
-                ))}
-              </datalist>
-            </div>
-            
-            {/* Form Row 4: Submit Button */}
-            <button 
-              type="submit" 
-              className="w-fit bg-white hover:bg-slate-50 text-slate-800 text-xs sm:text-sm border border-[#cfd4d9] rounded-[3px] px-5 py-2 shadow-xs transition-colors cursor-pointer active:scale-95 mt-0.5"
-            >
-              {isFormSubmitted ? enquiryFormConfig.buttons.submitted : enquiryFormConfig.buttons.idle}
-            </button>
-            
-            {/* Submission Confirmation Banner (Fades out after 3 seconds) */}
-            {isFormSubmitted && (
-              <p
-                className={`text-xs font-semibold text-white bg-green-600/90 py-1.5 px-3 rounded-[3px] w-fit shadow-md transition-all duration-500 ease-out ${
-                  isMessageFading ? 'opacity-0 -translate-y-1' : 'opacity-100 translate-y-0'
-                }`}
-                role="status"
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                <div className="relative w-full">
+                  <select
+                    name="spaceType"
+                    value={enquiryFormData.spaceType}
+                    onChange={(event) => selectSpaceType(event.target.value)}
+                    className="w-full h-10 bg-white text-slate-800 text-xs sm:text-sm border border-white/60 rounded-md px-3 pr-7 focus:outline-none focus:ring-2 focus:ring-[#0d6efd]/50 appearance-none cursor-pointer shadow-xs"
+                  >
+                    <option value="">{enquiryFormConfig.placeholders.spaceType}</option>
+                    {availableSpaceTypes.map((option) => (
+                      <option key={option} value={option}>{option}</option>
+                    ))}
+                  </select>
+                  <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-slate-600">
+                    <span className="text-[9px]">▼</span>
+                  </div>
+                </div>
+
+                <input
+                  type="text"
+                  name="city"
+                  placeholder={enquiryFormConfig.placeholders.city}
+                  value={enquiryFormData.city}
+                  onChange={handleFormFieldChange}
+                  list="city-options-list"
+                  className="w-full h-10 bg-white text-slate-800 placeholder-[#75848a] text-xs sm:text-sm border border-white/60 rounded-md px-3 shadow-xs focus:outline-none focus:ring-2 focus:ring-[#0d6efd]/50"
+                />
+                <datalist id="city-options-list">
+                  {availableCities.map((city) => (
+                    <option key={city.name} value={city.name} />
+                  ))}
+                </datalist>
+              </div>
+
+              <button
+                type="submit"
+                className="w-full h-11 mt-1 bg-gradient-to-r from-[#0a58ca] to-[#2563eb] hover:from-[#0948a8] hover:to-[#1d4ed8] text-white text-sm font-semibold rounded-full shadow-lg shadow-blue-700/30 transition-all cursor-pointer active:scale-[0.98]"
               >
-                {enquiryFormConfig.feedback.getSuccessText(submittedName)}
-              </p>
-            )}
-          </form>
+                {isFormSubmitted ? enquiryFormConfig.buttons.submitted : enquiryFormConfig.buttons.idle}
+              </button>
+
+              {/* Submission Confirmation Banner (Fades out after 3 seconds) */}
+              {isFormSubmitted && (
+                <p
+                  className={`text-xs font-semibold text-white bg-green-600/90 py-1.5 px-3 rounded-md w-fit shadow-md transition-all duration-500 ease-out ${
+                    isMessageFading ? 'opacity-0 -translate-y-1' : 'opacity-100 translate-y-0'
+                  }`}
+                  role="status"
+                >
+                  {enquiryFormConfig.feedback.getSuccessText(submittedName)}
+                </p>
+              )}
+            </form>
+          </div>
         </section>
       </div>
 

@@ -2,7 +2,6 @@ import { useState, useRef, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { cityNames } from '../home/homedata';
 import logo from './company-logo.jpg';
-import label from './label.jpg';
 import { navItems } from './navLinks';
 import { virtualOfficePath, virtualOfficeCities } from '../virtual/virtual';
 import { moreCities } from '../morecities/morecities';
@@ -88,9 +87,9 @@ const Navbar = () => {
   }, []);
 
   return (
-    <header ref={navRef} className="w-full bg-white border-b border-gray-100 sticky top-0 z-50 select-none shadow-2xs">
+    <header ref={navRef} className="w-full sticky top-0 z-50 select-none px-2 sm:px-4 py-2">
       {/* 1. Mobile & Desktop Header: strictly single row, flex-row, justify-between, items-center */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 sm:h-28 flex flex-row justify-between items-center gap-4">
+      <div className="max-w-[1400px] mx-auto px-3 sm:px-5 h-14 sm:h-16 rounded-2xl bg-white/85 backdrop-blur-xl border border-white/70 shadow-[0_8px_30px_rgba(15,23,42,0.14)] flex flex-row justify-between items-center gap-3">
         
         {/* 2. Far Left: Logo */}
         <Link 
@@ -99,13 +98,13 @@ const Navbar = () => {
           onClick={closeMenu}
           className="flex items-center cursor-pointer shrink-0"
         >
-          <img src={logo} alt="MyCoworking - Coworking and Virtual Office Spaces in India" className="h-12 sm:h-20 w-auto object-contain" />
+          <img src={logo} alt="MyCoworking - Coworking and Virtual Office Spaces in India" className="h-9 sm:h-12 w-auto object-contain" />
         </Link>
 
         {/* 3. Desktop Contact Info Box: visible on large screens (lg+) */}
-        <div className="hidden lg:flex items-center border border-slate-200 rounded-lg px-4 py-2.5 space-x-3 text-base font-medium text-slate-700 shrink-0">
+        <div className="hidden lg:flex items-center bg-white border border-slate-200 rounded-full px-4 py-1.5 space-x-3 text-sm font-medium text-slate-700 shadow-sm shrink-0">
           <a href="tel:+919028760011" className="flex items-center space-x-1.5 hover:text-blue-600 transition-colors">
-            <svg className="w-5 h-5 text-blue-600 shrink-0" fill="currentColor" viewBox="0 0 24 24">
+            <svg className="w-4 h-4 text-blue-600 shrink-0" fill="currentColor" viewBox="0 0 24 24">
               <path d="M6.62 10.79a15.15 15.15 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.27 11.72 11.72 0 003.74.6 1 1 0 011 1v3.59a1 1 0 01-1 1A16 16 0 013 4a1 1 0 011-1h3.59a1 1 0 011 1 11.72 11.72 0 00.6 3.74 1 1 0 01-.27 1.1l-2.2 2.2z"/>
             </svg>
             <span className="font-semibold">+91 9028760011</span>
@@ -114,17 +113,17 @@ const Navbar = () => {
         </div>
 
         {/* 3. Middle Tabs: Desktop only (hidden on mobile views, visible on lg and above) */}
-        <nav className="hidden lg:flex items-center space-x-8 xl:space-x-12 mx-4 xl:mx-6">
+        <nav className="hidden lg:flex items-center space-x-2 xl:space-x-3 mx-2">
           {navItems.map((item) => (
             <div key={item.name} className="relative">
               <button
                 type="button"
                 onClick={() => toggleDropdown(item.name)}
-                className="flex items-center space-x-2 text-xl font-bold text-slate-800 hover:text-blue-600 transition-colors focus:outline-none cursor-pointer py-4 px-2 whitespace-nowrap"
+                className="flex items-center space-x-1.5 text-sm xl:text-base font-semibold text-slate-800 bg-white shadow-sm border border-slate-100 rounded-full hover:text-blue-600 transition-colors focus:outline-none cursor-pointer py-2 px-4 whitespace-nowrap"
               >
                 <span>{item.name}</span>
                 <svg 
-                  className={`w-5 h-5 text-slate-400 transition-transform duration-200 ${activeDropdown === item.name ? 'rotate-180 text-blue-600' : ''}`} 
+                  className={`w-4 h-4 text-slate-400 transition-transform duration-200 ${activeDropdown === item.name ? 'rotate-180 text-blue-600' : ''}`} 
                   fill="none" 
                   stroke="currentColor" 
                   strokeWidth="2.5" 
@@ -136,7 +135,7 @@ const Navbar = () => {
 
               {/* Desktop Dropdown Menu */}
               {activeDropdown === item.name && (
-                <div className={`absolute left-0 mt-1 bg-white border border-slate-100 rounded-xl shadow-xl z-50 animate-in fade-in slide-in-from-top-1 duration-150 ${CITY_TABS.includes(item.name) ? 'w-[620px] p-5' : 'w-64 py-2'}`}>
+                <div className={`absolute left-0 mt-3 bg-white border border-slate-100 rounded-xl shadow-xl z-50 animate-in fade-in slide-in-from-top-1 duration-150 ${CITY_TABS.includes(item.name) ? 'w-[620px] p-5' : 'w-64 py-2'}`}>
                   {CITY_TABS.includes(item.name) ? (
                 renderCityGrid(item.name, 6)
                   ) : item.links.map((link) => (
@@ -164,7 +163,7 @@ const Navbar = () => {
             onClick={closeMenu}
             className="shrink-0 cursor-pointer"
           >
-            <img src={label} alt="Discount offer - List of Services" className="h-14 sm:h-20 w-auto object-contain rounded-lg shadow-lg hover:scale-105 transition-transform" />
+            <span className="inline-flex items-center justify-center text-center rounded-full bg-gradient-to-r from-[#0a58ca] to-[#2563eb] text-white text-[10px] sm:text-xs font-extrabold leading-tight tracking-wide px-4 sm:px-5 py-2 shadow-lg shadow-blue-600/30 hover:scale-105 transition-transform">LIST YOUR<br />SPACE FREE</span>
           </Link>
 
           {/* 4. Hamburger Icon: three bars icon, visible on small screens (< lg) */}
@@ -193,7 +192,7 @@ const Navbar = () => {
 
       {/* 5. Dropdown/Drawer Menu: Opens downwards when hamburger is clicked, containing all hidden tabs & contact details */}
       {isOpen && (
-        <nav aria-label="Mobile navigation" className="lg:hidden w-full bg-white border-t border-slate-100 shadow-xl px-4 py-3 flex flex-col divide-y divide-slate-100 animate-in fade-in slide-in-from-top-1 duration-200">
+        <nav aria-label="Mobile navigation" className="lg:hidden max-w-[1400px] mx-auto mt-2 rounded-2xl max-h-[75dvh] overflow-y-auto bg-white border border-slate-100 shadow-xl px-4 py-3 flex flex-col divide-y divide-slate-100 animate-in fade-in slide-in-from-top-1 duration-200">
           {/* All 4 Navigation Tabs */}
           {navItems.map((item) => {
             const isExpanded = mobileExpandedTab === item.name;

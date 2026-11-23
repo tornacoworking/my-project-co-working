@@ -50,7 +50,7 @@ const Morecities = ({ onCitySelect }) => {
         type="button"
         onClick={() => setIsOpen(true)}
         aria-label={moreCitiesContent.buttonAriaLabel}
-        className="border border-slate-200 rounded-xl px-2.5 py-1.5 flex items-center gap-2 bg-white shadow-xs text-left cursor-pointer hover:border-[#007bff] transition-colors"
+        className="border border-slate-200 rounded-2xl sm:rounded-full px-4 py-1.5 flex items-center gap-2 bg-white text-left cursor-pointer hover:border-[#007bff] transition-colors"
       >
         <img src={indiaMapLogo} alt="" className="h-7 w-7 object-contain shrink-0" />
         <span className="text-xs sm:text-sm font-semibold text-slate-800">
