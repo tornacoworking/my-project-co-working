@@ -264,24 +264,22 @@ const Section = ({ onCategoryCardClick, onCitySelect }) => {
     <article
       key={card.id}
       onClick={() => onCategoryCardClick(card)}
-      className="relative rounded-2xl overflow-hidden bg-white border border-slate-100 shadow-xs hover:shadow-xl hover:-translate-y-0.5 hover:border-orange-200 transition-all duration-300 group cursor-pointer flex items-center justify-between min-h-[140px] sm:min-h-[148px] h-full"
+      className="relative rounded-3xl overflow-hidden bg-slate-900 shadow-lg hover:shadow-2xl hover:shadow-indigo-500/25 hover:-translate-y-1 transition-all duration-300 group cursor-pointer min-h-[150px] sm:min-h-[170px] h-full flex items-end"
     >
-      <div className="absolute inset-y-0 left-0 w-[58%] overflow-hidden bg-slate-100">
-        <img
-          src={card.image}
-          alt={`${card.titlePart1} ${card.titlePart2}`}
-          loading="lazy"
-          className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500 ease-out"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/40 to-white" />
-        <div className="absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-white to-transparent" />
-      </div>
-      <div className="relative z-10 pr-5 sm:pr-6 text-right ml-auto flex flex-col justify-center select-none">
-        <span className="text-lg sm:text-xl lg:text-[22px] font-light text-slate-600 tracking-tight leading-tight group-hover:text-orange-500 transition-colors">
-          {card.titlePart1}
-        </span>
-        <span className="text-xl sm:text-2xl lg:text-[26px] font-bold text-slate-900 tracking-tight leading-tight">
-          {card.titlePart2}
+      <img
+        src={card.image}
+        alt={`${card.titlePart1} ${card.titlePart2}`}
+        loading="lazy"
+        className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
+      />
+      <div className="absolute inset-0 bg-gradient-to-t from-[#0a0f2c]/90 via-[#1e1b6b]/40 to-transparent" />
+      <div className="relative z-10 w-full p-5 flex items-end justify-between select-none">
+        <div className="flex flex-col leading-tight">
+          <span className="text-base sm:text-lg font-medium text-indigo-100">{card.titlePart1}</span>
+          <span className="text-2xl sm:text-3xl font-black text-white tracking-tight">{card.titlePart2}</span>
+        </div>
+        <span className="w-10 h-10 rounded-full bg-white/15 backdrop-blur-md border border-white/30 text-white flex items-center justify-center group-hover:bg-amber-400 group-hover:text-slate-900 group-hover:translate-x-1 transition-all">
+          →
         </span>
       </div>
     </article>
@@ -442,58 +440,57 @@ const Section = ({ onCategoryCardClick, onCitySelect }) => {
       {/* SECTION 2: WORKSPACE CATEGORIES & "LIST FREE WITH COFYND" PROMO    */}
       {/* Data Source: homePromotionalData & perkIconSvgPaths from homedata.js */}
       {/* =================================================================== */}
-      <section 
-        aria-label="Workspace Categories and Property Listing" 
-        className="w-full bg-[#f8fafc] py-6 sm:py-8 px-4 sm:px-6 lg:px-8 border-t border-slate-200/60"
+      <section
+        aria-label="Workspace Categories and Property Listing"
+        className="relative w-full py-10 sm:py-14 px-4 sm:px-6 lg:px-8 overflow-hidden"
       >
-        <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[300px_1fr] xl:grid-cols-[320px_1fr] gap-4 sm:gap-5 items-stretch">
-            
-            {/* 1. LEFT COLUMN: Coworking Spaces & Virtual Offices */}
-            <div className="flex flex-col gap-4 sm:gap-4.5 justify-between">
+        <div className="absolute inset-0 dot-grid-dark opacity-60 pointer-events-none" aria-hidden="true" />
+        <div className="absolute -top-20 -left-20 w-72 h-72 rounded-full bg-indigo-300/25 blur-3xl pointer-events-none" aria-hidden="true" />
+        <div className="relative max-w-7xl mx-auto">
+          <div className="text-center max-w-2xl mx-auto mb-8 sm:mb-10">
+            <span className="inline-block text-[11px] sm:text-xs font-bold uppercase tracking-[0.2em] text-indigo-600 bg-indigo-50 px-3.5 py-1 rounded-full border border-indigo-100">
+              Explore workspaces
+            </span>
+            <h2 className="mt-3 text-2xl sm:text-3xl lg:text-4xl font-black text-slate-900 tracking-tight">
+              Find the space that <span className="gradient-text-brand">fits your team</span>
+            </h2>
+            <p className="mt-2 text-sm sm:text-base text-slate-500">
+              From a single hot desk to a full floor, pick the setup that matches how you work.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[320px_1fr] gap-5 items-stretch">
+
+            {/* LEFT: category cards */}
+            <div className="flex flex-col gap-5 justify-between">
               {[...homePromotionalData.leftCards, ...homePromotionalData.rightCards].map(renderPromoCard)}
             </div>
 
-            {/* 2. RIGHT COLUMN: "List Free with MyCoworking" Promotional Banner */}
-            <div className="md:col-span-2 lg:col-span-1 relative rounded-3xl overflow-hidden bg-gradient-to-br from-[#fff4e5] via-[#ffe9cc] to-[#ffd8a8] border border-orange-200 p-4 sm:p-5 lg:p-6 flex flex-col justify-between shadow-lg">
-              
-              <div className="absolute -top-16 -right-16 w-56 h-56 rounded-full bg-orange-400/20 pointer-events-none" />
-              <div className="absolute -bottom-20 -left-10 w-52 h-52 rounded-full bg-amber-300/25 pointer-events-none" />
+            {/* RIGHT: "List Free" banner */}
+            <div className="md:col-span-1 relative rounded-[28px] overflow-hidden bg-gradient-to-br from-[#1e1b6b] via-[#4338ca] to-[#7c3aed] p-5 sm:p-7 flex flex-col justify-between shadow-2xl shadow-indigo-900/30 text-white">
+              <div className="absolute -top-16 -right-16 w-60 h-60 rounded-full bg-fuchsia-400/25 blur-2xl pointer-events-none" />
+              <div className="absolute -bottom-20 -left-10 w-56 h-56 rounded-full bg-orange-400/25 blur-2xl pointer-events-none" />
+              <div className="absolute inset-0 dot-grid opacity-30 pointer-events-none" />
 
-              {/* Top / Main Banner Row */}
-              <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5 relative z-10">
-                
-                {/* Left Headline, Subtitle & CTA */}
+              <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 relative z-10">
                 <div className="flex flex-col items-start">
-                  
-                  {/* Title Row with "Free" Badge */}
                   <div className="flex items-center">
-                    <span className="text-2xl sm:text-3xl lg:text-4xl font-black text-slate-900 tracking-tight leading-none">
+                    <span className="text-2xl sm:text-3xl lg:text-4xl font-black tracking-tight leading-none">
                       {homePromotionalData.centerBanner.titlePrefix}
                     </span>
-                    
-                    {/* Free badge with spark decoration */}
-                    <div className="relative inline-flex items-center ml-2.5 -top-1">
-                      <svg className="absolute -top-3 left-1/2 -translate-x-1/2 w-4 h-3 text-[#ff6b8b]" viewBox="0 0 16 12" fill="none" stroke="currentColor" strokeWidth="2.2">
-                        <path d="M4 10L2 2M8 11V1M12 10l2-8" strokeLinecap="round" />
-                      </svg>
-                      <span className="bg-[#6c5ce7] text-white text-[10px] sm:text-[11px] font-black uppercase px-2 py-0.5 rounded shadow-xs transform -rotate-6 tracking-wide">
-                        {homePromotionalData.centerBanner.badgeText}
-                      </span>
-                    </div>
+                    <span className="ml-3 -rotate-6 bg-gradient-to-r from-amber-400 to-orange-500 text-slate-900 text-[11px] font-black uppercase px-2.5 py-1 rounded-md shadow-lg tracking-wide">
+                      {homePromotionalData.centerBanner.badgeText}
+                    </span>
                   </div>
 
-                  {/* Sub-headline: with Cofynd */}
-                  <h2 className="text-2xl sm:text-3xl lg:text-[42px] font-black text-slate-900 tracking-tight leading-tight mt-0.5">
+                  <h2 className="text-2xl sm:text-3xl lg:text-[40px] font-black tracking-tight leading-tight mt-1">
                     {homePromotionalData.centerBanner.titleSuffix}
                   </h2>
 
-                  {/* Subtitle description */}
-                  <p className="text-sm sm:text-[15px] text-slate-600 font-medium leading-snug mt-1.5 max-w-[340px]">
+                  <p className="text-sm sm:text-[15px] text-indigo-100 font-medium leading-snug mt-2 max-w-[360px]">
                     {homePromotionalData.centerBanner.subtitle}
                   </p>
 
-                  {/* "List Your Property" CTA Button */}
                   <button
                     type="button"
                     onClick={() => {
@@ -504,84 +501,50 @@ const Section = ({ onCategoryCardClick, onCitySelect }) => {
                         if (nameInput) nameInput.focus();
                       }
                     }}
-                    className="mt-3 bg-orange-500 hover:bg-orange-600 active:scale-95 text-white text-sm font-bold px-6 py-2.5 rounded-full flex items-center gap-2 shadow-xs transition-all duration-200 cursor-pointer w-fit group"
+                    className="mt-4 bg-white text-indigo-700 hover:bg-amber-300 hover:text-slate-900 active:scale-95 text-sm font-extrabold px-6 py-2.5 rounded-full flex items-center gap-2 shadow-lg transition-all duration-200 cursor-pointer w-fit group"
                   >
                     <span>{homePromotionalData.centerBanner.ctaText}</span>
-                    <span className="transition-transform duration-200 group-hover:translate-x-1 font-bold">→</span>
+                    <span className="transition-transform duration-200 group-hover:translate-x-1">→</span>
                   </button>
                 </div>
 
-                {/* Right Side: Custom Perspective Frame & Decorative Arrows */}
-                <div className="relative w-44 sm:w-52 lg:w-60 h-32 sm:h-36 lg:h-40 shrink-0 self-center sm:self-auto my-1 sm:my-0">
-                  
-                  {/* Yellow Ray Bursts Above Frame */}
-                  <div className="absolute -top-3.5 right-6 flex gap-1 text-amber-400 select-none pointer-events-none">
-                    <span className="inline-block transform -rotate-25 text-xs font-black">\</span>
-                    <span className="inline-block text-xs font-black">|</span>
-                    <span className="inline-block transform rotate-25 text-xs font-black">/</span>
+                {/* Preview image in a tilted frame */}
+                <div className="relative w-48 sm:w-56 lg:w-64 h-36 sm:h-40 lg:h-44 shrink-0 self-center sm:self-auto">
+                  <div className="absolute inset-0 translate-x-3 translate-y-3 rounded-3xl border-2 border-dashed border-amber-300/70" aria-hidden="true" />
+                  <div className="relative w-full h-full rounded-3xl overflow-hidden ring-4 ring-white/30 shadow-2xl rotate-2">
+                    <img
+                      src={homePromotionalData.centerBanner.previewImage}
+                      alt="Space Interior Preview"
+                      loading="lazy"
+                      className="w-full h-full object-cover"
+                    />
                   </div>
-
-                  {/* Yellow Curved Hand-Drawn Arrow 1 */}
-                  <svg className="absolute -top-3 left-4 w-9 h-9 text-amber-400 pointer-events-none z-10" viewBox="0 0 36 36" fill="none" stroke="currentColor" strokeWidth="2.8">
-                    <path d="M4 18 C12 8 20 8 26 14" strokeLinecap="round" />
-                    <path d="M21 15 L26 14 L24 9" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-
-                  {/* Yellow Curved Hand-Drawn Arrow 2 */}
-                  <svg className="absolute top-9 -left-4 w-10 h-10 text-amber-400 pointer-events-none z-20" viewBox="0 0 40 40" fill="none" stroke="currentColor" strokeWidth="2.8">
-                    <path d="M8 8 C8 24 16 28 26 28" strokeLinecap="round" />
-                    <path d="M21 24 L26 28 L21 32" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-
-                  {/* Outer Cyan Hexagonal Frame */}
-                  <div 
-                    className="relative w-full h-full p-[3px] bg-[#bae6fd] shadow-md overflow-hidden"
-                    style={{ clipPath: 'polygon(18% 0%, 100% 0%, 100% 100%, 14% 100%, 0% 50%)' }}
-                  >
-                    <div 
-                      className="w-full h-full overflow-hidden"
-                      style={{ clipPath: 'polygon(18% 0%, 100% 0%, 100% 100%, 14% 100%, 0% 50%)' }}
-                    >
-                      <img
-                        src={homePromotionalData.centerBanner.previewImage}
-                        alt="Space Interior Preview"
-                        loading="lazy"
-                        className="w-full h-full object-cover scale-105"
-                      />
-                    </div>
-                  </div>
-
-                  {/* "Your Space Here" Pill Badge Overlay */}
-                  <div className="absolute top-1/2 left-3 -translate-y-1/2 bg-white/95 backdrop-blur-xs rounded-xl px-3 py-1.5 shadow-md flex items-center gap-2 border border-slate-100 z-30">
-                    <div className="w-6 h-6 rounded-full bg-[#ffe4e6] flex items-center justify-center shrink-0 text-[#e11d48]">
-                      <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="absolute -bottom-3 -left-4 bg-white text-slate-900 rounded-xl px-3 py-1.5 shadow-xl flex items-center gap-2 z-10">
+                    <span className="w-6 h-6 rounded-full bg-rose-100 flex items-center justify-center text-rose-600">
+                      <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                         <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
                       </svg>
-                    </div>
-                    <div className="flex flex-col text-left">
-                      <span className="text-[11px] font-bold text-slate-800 leading-tight">
-                        {homePromotionalData.centerBanner.previewBadge?.line1 || 'Your Space'}
-                      </span>
-                      <span className="text-[10px] font-bold text-slate-700 leading-tight">
-                        {homePromotionalData.centerBanner.previewBadge?.line2 || 'Here'}
-                      </span>
-                    </div>
+                    </span>
+                    <span className="text-[11px] font-bold leading-tight">
+                      {homePromotionalData.centerBanner.previewBadge?.line1 || 'Your Space'}<br />
+                      {homePromotionalData.centerBanner.previewBadge?.line2 || 'Here'}
+                    </span>
                   </div>
                 </div>
               </div>
 
-              {/* Bottom Row: 3 Feature Benefit Badges */}
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 sm:gap-3 pt-3 mt-3 border-t border-[#f8e0be]/60 relative z-10">
+              {/* Perk chips */}
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-5 mt-6 border-t border-white/15 relative z-10">
                 {homePromotionalData.centerBanner.perks.map((perk) => (
-                  <div key={perk.id} className="flex items-center gap-2.5 bg-white/70 hover:bg-white border border-white rounded-xl px-3 py-2 shadow-sm transition-colors">
-                    <div className={`w-10 h-10 rounded-lg ${perk.bg} flex items-center justify-center shrink-0 shadow-2xs`}>
+                  <div key={perk.id} className="flex items-center gap-3 bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/20 rounded-2xl px-3 py-2.5 transition-colors">
+                    <div className={`w-10 h-10 rounded-xl ${perk.bg} flex items-center justify-center shrink-0`}>
                       <svg className={`w-5 h-5 ${perk.color}`} fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" d={perkIconSvgPaths[perk.icon]} />
                       </svg>
                     </div>
-                    <div className="flex flex-col text-xs sm:text-sm font-bold text-slate-800 leading-snug">
+                    <div className="flex flex-col text-xs sm:text-sm font-bold leading-snug">
                       <span>{perk.line1}</span>
-                      <span>{perk.line2}</span>
+                      <span className="text-indigo-100">{perk.line2}</span>
                     </div>
                   </div>
                 ))}
@@ -599,10 +562,10 @@ const Section = ({ onCategoryCardClick, onCitySelect }) => {
       <section
         aria-label="Book Your Virtual Office with MyCoworking"
         style={{ backgroundImage: `url(${virtualOfficeBg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
-        className="w-full bg-[#050505] relative overflow-hidden py-6 sm:py-8 px-4 sm:px-6 lg:px-12 border-t border-slate-900"
+        className="w-full bg-[#050505] relative overflow-hidden py-10 sm:py-14 px-4 sm:px-6 lg:px-12 border-t border-slate-900"
       >
         {/* Dark overlay keeps text readable over the background photo */}
-        <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/70 to-black/50 pointer-events-none" aria-hidden="true" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#0a0f2c]/95 via-[#1b1463]/85 to-[#0a0f2c]/70 pointer-events-none" aria-hidden="true" />
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
 
@@ -656,7 +619,7 @@ const Section = ({ onCategoryCardClick, onCitySelect }) => {
       {/* =================================================================== */}
       <section 
         aria-label="Trusted Companies"
-        className="w-full bg-[#fbfcfd] border-t border-b border-slate-200/60 py-5 sm:py-6 select-none overflow-hidden"
+        className="w-full bg-white border-t border-b border-slate-200/60 py-5 sm:py-6 select-none overflow-hidden"
         onMouseEnter={() => setIsCompanySliderPaused(true)}
         onMouseLeave={() => setIsCompanySliderPaused(false)}
       >
@@ -696,7 +659,7 @@ const Section = ({ onCategoryCardClick, onCitySelect }) => {
                     style={{ width: `${100 / visibleCompanyCardsCount}%` }}
                     className="shrink-0 px-1 sm:px-1.5"
                   >
-                    <div className="bg-white border border-slate-200/90 rounded-[6px] sm:rounded-lg shadow-2xs hover:shadow-xs px-2 sm:px-3 py-2 sm:py-3 h-14 sm:h-16 lg:h-18 flex items-center justify-center transition-all cursor-pointer hover:border-slate-300 group">
+                    <div className="bg-white border border-slate-200/90 rounded-2xl shadow-sm hover:shadow-xs px-2 sm:px-3 py-2 sm:py-3 h-14 sm:h-16 lg:h-18 flex items-center justify-center transition-all cursor-pointer hover:border-slate-300 group">
                       {renderCompanyLogo(company)}
                     </div>
                   </div>
@@ -743,44 +706,49 @@ const Section = ({ onCategoryCardClick, onCitySelect }) => {
       {/* SECTION 5: TOP COWORKING SPACES IN INDIA (18 CITIES)                */}
       {/* Data Source: topCoworkingCitiesData & availableCities from homedata */}
       {/* =================================================================== */}
-      <section 
-        aria-label="Top Coworking Spaces in India" 
-        className="w-full bg-[#fbf9f6] py-6 sm:py-8 px-4 sm:px-6 lg:px-8 border-t border-slate-200/60 select-none"
+      <section
+        aria-label="Top Coworking Spaces in India"
+        className="relative w-full py-10 sm:py-14 px-4 sm:px-6 lg:px-8 select-none overflow-hidden bg-gradient-to-b from-white to-[#f5f6fb]"
       >
-        <div className="max-w-7xl mx-auto">
-          
-          {/* Section Heading */}
-          <h2 className="text-2xl sm:text-3xl lg:text-[34px] font-black text-slate-900 tracking-tight text-center mb-5 sm:mb-6">
-            {topCoworkingCitiesData.title}
-          </h2>
+        <div className="absolute -right-24 top-10 w-80 h-80 rounded-full bg-pink-200/30 blur-3xl pointer-events-none" aria-hidden="true" />
+        <div className="relative max-w-7xl mx-auto">
 
-          {/* 18-City Coworking Spaces Card Grid */}
+          <div className="text-center max-w-2xl mx-auto mb-8 sm:mb-10">
+            <span className="inline-block text-[11px] sm:text-xs font-bold uppercase tracking-[0.2em] text-pink-600 bg-pink-50 px-3.5 py-1 rounded-full border border-pink-100">
+              Across India
+            </span>
+            <h2 className="mt-3 text-2xl sm:text-3xl lg:text-[38px] font-black text-slate-900 tracking-tight">
+              {topCoworkingCitiesData.title}
+            </h2>
+            <span className="mt-3 mx-auto block h-1 w-16 rounded-full bg-gradient-to-r from-indigo-500 via-pink-500 to-orange-400" />
+          </div>
+
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 lg:gap-3 xl:gap-4">
             {availableCities.map((city) => (
               <article
                 key={city.name}
                 onClick={() => onCitySelect(city.name)}
-                className="group relative h-48 sm:h-52 md:h-56 lg:h-44 rounded-[22px] overflow-hidden cursor-pointer shadow-xs hover:shadow-xl transition-all duration-300 hover:-translate-y-1 select-none bg-slate-900"
+                className="group relative h-48 sm:h-52 md:h-56 lg:h-48 rounded-3xl overflow-hidden cursor-pointer shadow-md hover:shadow-2xl hover:shadow-indigo-500/25 transition-all duration-300 hover:-translate-y-1.5 select-none bg-slate-900 ring-1 ring-slate-900/5"
               >
-                {/* City Workspace Image */}
                 <img
                   src={topCoworkingCitiesData.workspaceImages[city.name]}
                   alt={`Coworking spaces in ${city.name}`}
                   loading="lazy"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
                 />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0a0f2c]/90 via-[#0a0f2c]/30 to-transparent" />
+                <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-indigo-500 via-pink-500 to-orange-400 opacity-0 group-hover:opacity-100 transition-opacity" />
 
-                {/* Dark Gradient Overlay for optimal text readability */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-transparent" />
-
-                {/* Centered City Name & Nickname / Tagline */}
-                <div className="absolute inset-0 flex flex-col items-center justify-end pb-5 px-4 text-center z-10">
-                  <h3 className="text-lg sm:text-xl lg:text-base font-black text-white tracking-tight leading-snug drop-shadow-sm group-hover:text-blue-400 transition-colors">
+                <div className="absolute inset-0 flex flex-col items-start justify-end p-4 z-10">
+                  <h3 className="text-lg sm:text-xl lg:text-base font-black text-white tracking-tight leading-snug">
                     {city.name}
                   </h3>
-                  <p className="text-xs sm:text-[13px] lg:text-[11px] text-slate-200 font-medium tracking-tight mt-0.5 drop-shadow-sm">
+                  <p className="text-xs sm:text-[13px] lg:text-[11px] text-slate-200 font-medium tracking-tight mt-0.5">
                     {topCoworkingCitiesData.taglines[city.name] || topCoworkingCitiesData.defaultTagline}
                   </p>
+                  <span className="mt-2 inline-flex items-center gap-1 rounded-full bg-white/15 backdrop-blur-md border border-white/25 px-2.5 py-0.5 text-[10px] font-bold text-white translate-y-1 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
+                    Explore spaces <span aria-hidden="true">→</span>
+                  </span>
                 </div>
               </article>
             ))}
@@ -798,37 +766,39 @@ const Section = ({ onCategoryCardClick, onCitySelect }) => {
       {/* =================================================================== */}
       <section
         aria-label="Why choose mycoworking"
-        className="w-full relative overflow-hidden bg-gradient-to-br from-[#fff7ed] via-white to-[#eff6ff] py-6 sm:py-8 px-4 sm:px-6 lg:px-8 border-t border-slate-200/70 select-none"
+        className="w-full relative overflow-hidden bg-gradient-to-br from-[#0a0f2c] via-[#16206b] to-[#2a1670] py-12 sm:py-16 px-4 sm:px-6 lg:px-8 select-none"
       >
-        <div className="absolute -top-24 -right-24 w-72 h-72 rounded-full bg-orange-200/40 pointer-events-none" />
-        <div className="absolute -bottom-24 -left-24 w-72 h-72 rounded-full bg-blue-200/40 pointer-events-none" />
+        <div className="absolute inset-0 dot-grid opacity-40 pointer-events-none" aria-hidden="true" />
+        <div className="absolute -top-24 -right-24 w-80 h-80 rounded-full bg-fuchsia-500/25 blur-3xl pointer-events-none" />
+        <div className="absolute -bottom-24 -left-24 w-80 h-80 rounded-full bg-sky-500/20 blur-3xl pointer-events-none" />
         <div className="max-w-7xl mx-auto relative z-10">
-          {/* Section Heading */}
-          <div className="flex flex-col items-center text-center mb-6 sm:mb-8">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black text-slate-900 tracking-tight">
+          <div className="flex flex-col items-center text-center mb-8 sm:mb-10">
+            <span className="inline-block text-[11px] sm:text-xs font-bold uppercase tracking-[0.2em] text-amber-200 bg-white/10 px-3.5 py-1 rounded-full border border-white/15 backdrop-blur-md">
+              The MyCoworking edge
+            </span>
+            <h2 className="mt-3 text-2xl sm:text-3xl lg:text-4xl font-black text-white tracking-tight">
               {whyChooseData.title}
             </h2>
-            <span className="mt-2 h-1 w-16 rounded-full bg-gradient-to-r from-orange-500 to-amber-400" />
+            <span className="mt-3 h-1 w-16 rounded-full bg-gradient-to-r from-orange-400 to-pink-500" />
           </div>
 
-          {/* Value Proposition Card Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-5">
             {whyChooseData.features.map((feature, index) => (
               <div
                 key={feature.id}
-                className="relative flex items-start gap-4 sm:gap-5 bg-white rounded-2xl border border-slate-200/80 p-5 sm:p-6 shadow-sm hover:shadow-lg hover:-translate-y-0.5 hover:border-orange-300 transition-all duration-300 group overflow-hidden"
+                className="relative flex items-start gap-4 sm:gap-5 bg-white/[0.06] backdrop-blur-md rounded-3xl border border-white/10 p-5 sm:p-6 hover:bg-white/[0.1] hover:-translate-y-1 hover:border-orange-300/50 transition-all duration-300 group overflow-hidden"
               >
-                <span className="absolute top-2 right-4 text-5xl font-black text-slate-100 group-hover:text-orange-100 transition-colors leading-none">
+                <span className="absolute top-2 right-4 text-6xl font-black text-white/[0.06] group-hover:text-orange-300/20 transition-colors leading-none">
                   {String(index + 1).padStart(2, '0')}
                 </span>
-                <div className="shrink-0 w-14 h-14 sm:w-16 sm:h-16 rounded-2xl bg-gradient-to-br from-orange-500 to-amber-400 text-white flex items-center justify-center shadow-md group-hover:rotate-6 transition-transform duration-300 relative z-10">
+                <div className="shrink-0 w-14 h-14 sm:w-16 sm:h-16 rounded-2xl bg-gradient-to-br from-orange-500 to-pink-500 text-white flex items-center justify-center shadow-lg shadow-orange-500/30 group-hover:rotate-6 group-hover:scale-105 transition-transform duration-300 relative z-10">
                   {renderWhyChooseIcon(feature.icon)}
                 </div>
                 <div className="flex flex-col relative z-10">
-                  <h3 className="text-base sm:text-lg font-bold text-slate-900 tracking-tight mb-1.5 group-hover:text-orange-600 transition-colors">
+                  <h3 className="text-base sm:text-lg font-bold text-white tracking-tight mb-1.5">
                     {feature.title}
                   </h3>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
+                  <p className="text-xs sm:text-sm text-slate-300 leading-relaxed font-normal">
                     {feature.description}
                   </p>
                 </div>
@@ -836,7 +806,7 @@ const Section = ({ onCategoryCardClick, onCitySelect }) => {
             ))}
           </div>
         </div>
-      </section>  
+      </section>
 
 
       {/* =================================================================== */}
@@ -845,7 +815,7 @@ const Section = ({ onCategoryCardClick, onCitySelect }) => {
       {/* =================================================================== */}
       <section 
         aria-label="Customer Reviews and Testimonials" 
-        className="w-full bg-[#f8fafc] py-6 sm:py-8 px-4 sm:px-6 lg:px-8 border-t border-slate-200/70 select-none overflow-hidden"
+        className="w-full bg-gradient-to-b from-[#f5f6fb] to-white py-10 sm:py-14 px-4 sm:px-6 lg:px-8 border-t border-slate-200/70 select-none overflow-hidden"
         onMouseEnter={() => setIsReviewSliderPaused(true)}
         onMouseLeave={() => setIsReviewSliderPaused(false)}
       >
@@ -854,7 +824,7 @@ const Section = ({ onCategoryCardClick, onCitySelect }) => {
           {/* Section Header */}
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 sm:mb-10 gap-4">
             <div>
-              <span className="inline-block text-[11px] sm:text-xs font-bold uppercase tracking-[0.2em] text-[#007bff] bg-blue-50 px-3 py-1 rounded-full mb-2.5 border border-blue-100/80">
+              <span className="inline-block text-[11px] sm:text-xs font-bold uppercase tracking-[0.2em] text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full mb-2.5 border border-indigo-100">
                 {customerReviewsData.badge}
               </span>
               <h2 className="text-2xl sm:text-3xl lg:text-[34px] font-black text-slate-900 tracking-tight leading-tight">
@@ -920,7 +890,7 @@ const Section = ({ onCategoryCardClick, onCitySelect }) => {
                   style={{ width: `${100 / visibleReviewCardsCount}%` }}
                   className="shrink-0 px-2 sm:px-2.5 flex"
                 >
-                  <article className="w-full bg-white rounded-2xl p-5 sm:p-6 border border-slate-200/90 shadow-xs hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group flex flex-col justify-between hover:border-blue-400">
+                  <article className="w-full bg-white rounded-2xl p-5 sm:p-6 border border-slate-200/90 shadow-xs hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group flex flex-col justify-between hover:border-indigo-400">
                     
                     {/* Top Row: User Avatar, Name, Role, and Quote SVG */}
                     <div>
@@ -934,7 +904,7 @@ const Section = ({ onCategoryCardClick, onCitySelect }) => {
                           />
                           <div className="overflow-hidden">
                             <div className="flex items-center gap-1.5">
-                              <h3 className="text-sm sm:text-base font-bold text-slate-900 group-hover:text-blue-600 transition-colors truncate">
+                              <h3 className="text-sm sm:text-base font-bold text-slate-900 group-hover:text-indigo-600 transition-colors truncate">
                                 {item.name}
                               </h3>
                               <svg className="w-4 h-4 text-emerald-500 shrink-0 fill-current" viewBox="0 0 20 20" title="Verified Customer">
@@ -972,7 +942,7 @@ const Section = ({ onCategoryCardClick, onCitySelect }) => {
                             {item.rating}.0
                           </span>
                         </div>
-                        <span className="bg-blue-50 text-[#007bff] font-semibold text-[10px] sm:text-[11px] px-2.5 py-0.5 rounded-full border border-blue-100/60">
+                        <span className="bg-indigo-50 text-indigo-600 font-semibold text-[10px] sm:text-[11px] px-2.5 py-0.5 rounded-full border border-blue-100/60">
                           {item.spaceType}
                         </span>
                       </div>
@@ -1008,7 +978,7 @@ const Section = ({ onCategoryCardClick, onCitySelect }) => {
                   type="button"
                   onClick={() => setCurrentReviewIndex(index)}
                   className={`h-1.5 rounded-full transition-all duration-300 cursor-pointer ${
-                    isActive ? 'w-5 bg-blue-600' : 'w-1.5 bg-slate-300 hover:bg-slate-400'
+                    isActive ? 'w-5 bg-indigo-600' : 'w-1.5 bg-slate-300 hover:bg-slate-400'
                   }`}
                   aria-label={`Go to review page ${index + 1}`}
                 />
@@ -1029,13 +999,13 @@ const Section = ({ onCategoryCardClick, onCitySelect }) => {
       {/* =================================================================== */}
       <section 
         aria-label="Frequently Asked Questions" 
-        className="w-full bg-[#fbf9f6] py-6 sm:py-8 px-4 sm:px-6 lg:px-8 border-t border-slate-200/70 select-none"
+        className="w-full bg-white py-10 sm:py-14 px-4 sm:px-6 lg:px-8 border-t border-slate-200/70 select-none"
       >
         <div className="max-w-5xl mx-auto w-full">
           
           {/* Section Header */}
           <div className="text-center max-w-2xl mx-auto mb-6 sm:mb-8">
-            <span className="inline-block text-[11px] sm:text-xs font-bold uppercase tracking-[0.2em] text-[#007bff] bg-blue-50 px-3.5 py-1 rounded-full mb-3 border border-blue-100/80">
+            <span className="inline-block text-[11px] sm:text-xs font-bold uppercase tracking-[0.2em] text-indigo-600 bg-indigo-50 px-3.5 py-1 rounded-full mb-3 border border-indigo-100">
               {faqSectionData.badge}
             </span>
             <h2 className="text-2xl sm:text-3xl lg:text-[34px] font-black text-slate-900 tracking-tight leading-tight">
@@ -1055,7 +1025,7 @@ const Section = ({ onCategoryCardClick, onCitySelect }) => {
                   key={faq.id}
                   className={`w-full bg-white rounded-xl sm:rounded-2xl border transition-all duration-300 overflow-hidden shadow-2xs ${
                     isOpen
-                      ? 'border-blue-400 ring-2 ring-blue-500/10 shadow-sm'
+                      ? 'border-indigo-400 ring-2 ring-indigo-500/10 shadow-sm'
                       : 'border-slate-200/90 hover:border-slate-300 hover:shadow-xs'
                   }`}
                 >
@@ -1070,8 +1040,8 @@ const Section = ({ onCategoryCardClick, onCitySelect }) => {
                     <span
                       className={`w-8 h-8 sm:w-9 sm:h-9 rounded-full flex items-center justify-center shrink-0 transition-transform duration-300 ${
                         isOpen
-                          ? 'rotate-180 bg-[#007bff] text-white shadow-xs'
-                          : 'bg-slate-100 text-slate-600 group-hover:bg-blue-50 group-hover:text-[#007bff]'
+                          ? 'rotate-180 bg-indigo-600 text-white shadow-xs'
+                          : 'bg-slate-100 text-slate-600 group-hover:bg-indigo-50 group-hover:text-indigo-600'
                       }`}
                     >
                       <svg
@@ -1089,7 +1059,7 @@ const Section = ({ onCategoryCardClick, onCitySelect }) => {
                     {/* Question text */}
                     <span
                       className={`text-sm sm:text-base lg:text-[17px] font-bold tracking-tight transition-colors flex-1 leading-snug ${
-                        isOpen ? 'text-[#007bff]' : 'text-slate-900 group-hover:text-[#007bff]'
+                        isOpen ? 'text-indigo-600' : 'text-slate-900 group-hover:text-indigo-600'
                       }`}
                     >
                       {faq.question}
