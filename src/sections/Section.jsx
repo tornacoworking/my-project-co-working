@@ -19,7 +19,7 @@ import {
 // Enquiries are mailed to enquiryFormConfig.contactEmail.
 // ----------------------------------------------------------------------------
 const enquiryCardInputClass =
-  'w-full h-10 sm:h-11 bg-white text-slate-800 placeholder-slate-400 text-xs sm:text-sm border border-slate-200 rounded-lg px-3 focus:outline-none focus:border-orange-500 focus:ring-1 focus:ring-orange-500';
+  'w-full h-10 sm:h-11 bg-white text-slate-800 placeholder-slate-400 text-xs sm:text-sm border border-slate-200 rounded-lg px-3 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500';
 
 const emptyEnquiryForm = { name: '', email: '', phone: '', spaceType: '', city: '' };
 
@@ -56,9 +56,9 @@ const EnquiryCard = ({ heading = 'Get a Free Quote' }) => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="w-full bg-white rounded-2xl shadow-2xl p-5 sm:p-6 flex flex-col gap-3"
+      className="w-full bg-white/15 backdrop-blur-xl border border-white/30 rounded-2xl shadow-2xl p-5 sm:p-6 flex flex-col gap-3"
     >
-      <h3 className="text-lg sm:text-xl font-extrabold text-slate-900 tracking-tight">
+      <h3 className="text-lg sm:text-xl font-extrabold text-white tracking-tight">
         {heading}
       </h3>
 
@@ -120,7 +120,7 @@ const EnquiryCard = ({ heading = 'Get a Free Quote' }) => {
 
       <button
         type="submit"
-        className="w-full bg-orange-500 hover:bg-orange-600 active:scale-[0.98] text-white text-sm font-bold rounded-lg py-2.5 transition-all cursor-pointer"
+        className="w-full bg-gradient-to-r from-[#0a58ca] to-[#2563eb] hover:from-[#0948a8] hover:to-[#1d4ed8] shadow-lg shadow-blue-600/30 active:scale-[0.98] text-white text-sm font-bold rounded-lg py-2.5 transition-all cursor-pointer"
       >
         {enquiryFormConfig.buttons.idle}
       </button>
@@ -264,7 +264,7 @@ const Section = ({ onCategoryCardClick, onCitySelect }) => {
     <article
       key={card.id}
       onClick={() => onCategoryCardClick(card)}
-      className="relative rounded-2xl overflow-hidden bg-white border border-slate-100 shadow-xs hover:shadow-xl hover:-translate-y-0.5 hover:border-orange-200 transition-all duration-300 group cursor-pointer flex items-center justify-between min-h-[140px] sm:min-h-[148px] h-full"
+      className="relative rounded-2xl overflow-hidden bg-white border border-slate-100 shadow-xs hover:shadow-xl hover:-translate-y-0.5 hover:border-blue-200 transition-all duration-300 group cursor-pointer flex items-center justify-between min-h-[140px] sm:min-h-[148px] h-full"
     >
       <div className="absolute inset-y-0 left-0 w-[58%] overflow-hidden bg-slate-100">
         <img
@@ -277,7 +277,7 @@ const Section = ({ onCategoryCardClick, onCitySelect }) => {
         <div className="absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-white to-transparent" />
       </div>
       <div className="relative z-10 pr-5 sm:pr-6 text-right ml-auto flex flex-col justify-center select-none">
-        <span className="text-lg sm:text-xl lg:text-[22px] font-light text-slate-600 tracking-tight leading-tight group-hover:text-orange-500 transition-colors">
+        <span className="text-lg sm:text-xl lg:text-[22px] font-light text-slate-600 tracking-tight leading-tight group-hover:text-blue-600 transition-colors">
           {card.titlePart1}
         </span>
         <span className="text-xl sm:text-2xl lg:text-[26px] font-bold text-slate-900 tracking-tight leading-tight">
@@ -455,10 +455,10 @@ const Section = ({ onCategoryCardClick, onCitySelect }) => {
             </div>
 
             {/* 2. RIGHT COLUMN: "List Free with MyCoworking" Promotional Banner */}
-            <div className="md:col-span-2 lg:col-span-1 relative rounded-3xl overflow-hidden bg-gradient-to-br from-[#fff4e5] via-[#ffe9cc] to-[#ffd8a8] border border-orange-200 p-4 sm:p-5 lg:p-6 flex flex-col justify-between shadow-lg">
+            <div className="md:col-span-2 lg:col-span-1 relative rounded-3xl overflow-hidden bg-gradient-to-br from-[#e3f2fd] via-[#dbeafe] to-[#c9d8f3] border border-white/80 p-4 sm:p-5 lg:p-6 flex flex-col justify-between shadow-lg">
               
-              <div className="absolute -top-16 -right-16 w-56 h-56 rounded-full bg-orange-400/20 pointer-events-none" />
-              <div className="absolute -bottom-20 -left-10 w-52 h-52 rounded-full bg-amber-300/25 pointer-events-none" />
+              <div className="absolute -top-16 -right-16 w-56 h-56 rounded-full bg-blue-400/20 pointer-events-none" />
+              <div className="absolute -bottom-20 -left-10 w-52 h-52 rounded-full bg-sky-300/30 pointer-events-none" />
 
               {/* Top / Main Banner Row */}
               <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5 relative z-10">
@@ -504,7 +504,7 @@ const Section = ({ onCategoryCardClick, onCitySelect }) => {
                         if (nameInput) nameInput.focus();
                       }
                     }}
-                    className="mt-3 bg-orange-500 hover:bg-orange-600 active:scale-95 text-white text-sm font-bold px-6 py-2.5 rounded-full flex items-center gap-2 shadow-xs transition-all duration-200 cursor-pointer w-fit group"
+                    className="mt-3 bg-gradient-to-r from-[#0a58ca] to-[#2563eb] hover:from-[#0948a8] hover:to-[#1d4ed8] shadow-lg shadow-blue-600/30 active:scale-95 text-white text-sm font-bold px-6 py-2.5 rounded-full flex items-center gap-2 shadow-xs transition-all duration-200 cursor-pointer w-fit group"
                   >
                     <span>{homePromotionalData.centerBanner.ctaText}</span>
                     <span className="transition-transform duration-200 group-hover:translate-x-1 font-bold">→</span>
@@ -571,9 +571,9 @@ const Section = ({ onCategoryCardClick, onCitySelect }) => {
               </div>
 
               {/* Bottom Row: 3 Feature Benefit Badges */}
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 sm:gap-3 pt-3 mt-3 border-t border-[#f8e0be]/60 relative z-10">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 sm:gap-3 pt-3 mt-3 border-t border-white/70 relative z-10">
                 {homePromotionalData.centerBanner.perks.map((perk) => (
-                  <div key={perk.id} className="flex items-center gap-2.5 bg-white/70 hover:bg-white border border-white rounded-xl px-3 py-2 shadow-sm transition-colors">
+                  <div key={perk.id} className="flex items-center gap-2.5 bg-white/60 hover:bg-white/90 backdrop-blur-md border border-white/80 rounded-xl px-3 py-2 shadow-sm transition-colors">
                     <div className={`w-10 h-10 rounded-lg ${perk.bg} flex items-center justify-center shrink-0 shadow-2xs`}>
                       <svg className={`w-5 h-5 ${perk.color}`} fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" d={perkIconSvgPaths[perk.icon]} />
@@ -610,14 +610,14 @@ const Section = ({ onCategoryCardClick, onCitySelect }) => {
             <div className="lg:col-span-7 flex flex-col">
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black text-white tracking-tight leading-tight">
                 {virtualOfficeShowcaseData.headline}{' '}
-                <span className="text-orange-500">{virtualOfficeShowcaseData.highlight}</span>
+                <span className="text-[#2f7bff]">{virtualOfficeShowcaseData.highlight}</span>
               </h2>
 
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 mt-6 sm:mt-8">
                 {virtualOfficeShowcaseData.points.map((point) => (
                   <li key={point.id} className="flex items-center gap-3">
-                    <span className="w-10 h-10 rounded-lg bg-orange-500/15 border border-orange-500/30 flex items-center justify-center shrink-0">
-                      <svg className="w-5 h-5 text-orange-400" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24">
+                    <span className="w-10 h-10 rounded-lg bg-blue-500/15 border border-blue-400/30 flex items-center justify-center shrink-0">
+                      <svg className="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" d={point.icon} />
                       </svg>
                     </span>
@@ -627,14 +627,14 @@ const Section = ({ onCategoryCardClick, onCitySelect }) => {
               </ul>
 
               <div className="flex flex-wrap items-center gap-x-6 gap-y-2 mt-7 text-sm text-white/90">
-                <a href={`tel:${virtualOfficeShowcaseData.phone.replace(/\s/g, '')}`} className="flex items-center gap-2 hover:text-orange-400 transition-colors">
-                  <svg className="w-4 h-4 text-orange-400" fill="currentColor" viewBox="0 0 24 24">
+                <a href={`tel:${virtualOfficeShowcaseData.phone.replace(/\s/g, '')}`} className="flex items-center gap-2 hover:text-blue-400 transition-colors">
+                  <svg className="w-4 h-4 text-blue-400" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M6.62 10.79a15.15 15.15 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.27 11.72 11.72 0 003.74.6 1 1 0 011 1v3.59a1 1 0 01-1 1A16 16 0 013 4a1 1 0 011-1h3.59a1 1 0 011 1 11.72 11.72 0 00.6 3.74 1 1 0 01-.27 1.1l-2.2 2.2z" />
                   </svg>
                   {virtualOfficeShowcaseData.phone}
                 </a>
-                <a href={`mailto:${virtualOfficeShowcaseData.email}`} className="flex items-center gap-2 hover:text-orange-400 transition-colors">
-                  <svg className="w-4 h-4 text-orange-400" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                <a href={`mailto:${virtualOfficeShowcaseData.email}`} className="flex items-center gap-2 hover:text-blue-400 transition-colors">
+                  <svg className="w-4 h-4 text-blue-400" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                   {virtualOfficeShowcaseData.email}
