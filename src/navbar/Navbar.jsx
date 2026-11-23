@@ -89,7 +89,7 @@ const Navbar = () => {
   return (
     <header ref={navRef} className="w-full sticky top-0 z-50 select-none px-2 sm:px-4 py-2">
       {/* 1. Mobile & Desktop Header: strictly single row, flex-row, justify-between, items-center */}
-      <div className="max-w-[1400px] mx-auto px-3 sm:px-5 h-14 sm:h-[4.5rem] rounded-2xl bg-white/85 backdrop-blur-xl border border-white/70 shadow-[0_8px_30px_rgba(15,23,42,0.14)] flex flex-row justify-start items-center gap-3 lg:gap-4 xl:gap-[1cm]">
+      <div className="max-w-[1400px] mx-auto px-3 sm:px-5 h-[4.5rem] sm:h-28 rounded-2xl bg-white/85 backdrop-blur-xl border border-white/70 shadow-[0_8px_30px_rgba(15,23,42,0.14)] flex flex-row justify-start items-center gap-3 lg:gap-4 xl:gap-[1cm]">
         
         {/* 2. Far Left: Logo */}
         <Link 
@@ -98,7 +98,7 @@ const Navbar = () => {
           onClick={closeMenu}
           className="flex items-center cursor-pointer shrink-0"
         >
-          <img src={logo} alt="MyCoworking - Coworking and Virtual Office Spaces in India" className="h-11 sm:h-16 w-auto object-contain" />
+          <img src={logo} alt="MyCoworking - Coworking and Virtual Office Spaces in India" className="h-14 sm:h-24 w-auto object-contain" />
         </Link>
 
         {/* 3. Desktop Contact Info Box: visible on large screens (lg+) */}

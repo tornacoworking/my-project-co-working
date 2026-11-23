@@ -260,12 +260,12 @@ const Homepage = () => {
   // 3. UI RENDERING (Mapped dynamically from centralized homedata store)
   // =========================================================================
   return (
-    <section className="w-full min-h-[calc(100dvh-4.5rem)] sm:min-h-[calc(100dvh-5.5rem)] overflow-x-hidden bg-[#f8fafc] flex flex-col antialiased font-sans select-none">
+    <section className="w-full min-h-[calc(100dvh-5.5rem)] sm:min-h-[calc(100dvh-8rem)] overflow-x-hidden bg-[#f8fafc] flex flex-col antialiased font-sans select-none">
       
       {/* =================================================================== */}
       {/* SECTION 1: PRIMARY HERO FOLD (LEFT SEARCH & RIGHT ENQUIRY FORM)    */}
       {/* =================================================================== */}
-      <div className="w-full md:h-[calc(100dvh-5.5rem)] md:min-h-[600px] flex flex-col md:flex-row overflow-hidden shrink-0">
+      <div className="w-full md:h-[calc(100dvh-8rem)] md:min-h-[600px] flex flex-col md:flex-row overflow-hidden shrink-0">
 
         {/* ----------------------------------------------------------------- */}
         {/* LEFT COLUMN: Heading, search pill and city tiles                   */}
