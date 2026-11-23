@@ -26,7 +26,7 @@
 // ============================================================================
 // 1. ACTIVE CITY IMAGE IMPORTS & HERO BACKGROUND
 // ============================================================================
-import heroBackgroundImage from './images/cityimages/navbarimage.png';
+import heroBackgroundImage from './images/cityimages/form-image.png';
 import gurugramImg from './images/cityimages/gurugram.png';
 import bhubaneshwar from './images/cityimages/bhubaneshwar.png';
 import banglore from './images/cityimages/banglore.png';
