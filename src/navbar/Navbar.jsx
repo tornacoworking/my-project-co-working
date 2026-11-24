@@ -29,31 +29,49 @@ const Navbar = () => {
   // City picker for the Coworking / Virtual Office tabs; each tab has its own heading and style
   const renderCityGrid = (tabName, cols) => {
     const isVirtual = tabName === 'Virtual Office';
+    const list = isVirtual ? [...cityNames, ...moreCities.map((city) => ({ ...city, iconOnly: !virtualOfficeCities.some((v) => v.name === city.name) }))] : cityNames;
     return (
-      <div className={isVirtual ? 'rounded-lg bg-blue-50/60 p-3' : ''}>
-        <p className={`text-xs font-bold uppercase tracking-wide mb-3 ${isVirtual ? 'text-blue-700' : 'text-orange-600'}`}>
-          {isVirtual ? 'Virtual Office in your city' : 'Coworking Spaces in your city'}
-        </p>
+      <div className={`relative overflow-hidden rounded-2xl border p-4 ${isVirtual ? 'border-blue-100 bg-gradient-to-br from-blue-50 via-white to-sky-50' : 'border-orange-100 bg-gradient-to-br from-orange-50 via-white to-amber-50'}`}>
+        <div className={`absolute inset-x-0 top-0 h-1 bg-gradient-to-r ${isVirtual ? 'from-blue-600 via-sky-400 to-blue-300' : 'from-orange-500 via-amber-400 to-orange-300'}`} />
+        <div className={`mb-4 mt-1 flex items-center justify-between gap-3 border-b pb-3 ${isVirtual ? 'border-blue-100' : 'border-orange-100'}`}>
+          <div className="flex items-center gap-3">
+            <span className={`flex h-9 w-9 items-center justify-center rounded-xl text-white shadow-md ${isVirtual ? 'bg-gradient-to-br from-blue-600 to-sky-500 shadow-blue-600/30' : 'bg-gradient-to-br from-orange-500 to-amber-400 shadow-orange-500/30'}`}>
+              <svg className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a2 2 0 01-2.828 0l-4.243-4.243a8 8 0 1111.314 0z" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+            </span>
+            <div>
+              <p className="text-sm font-extrabold leading-tight text-slate-900">
+                {isVirtual ? 'Virtual Office' : 'Coworking Spaces'}
+              </p>
+              <p className="text-[11px] font-medium text-slate-500">Choose your city to explore</p>
+            </div>
+          </div>
+          <span className={`rounded-full px-2.5 py-1 text-[11px] font-bold ${isVirtual ? 'bg-blue-100 text-blue-700' : 'bg-orange-100 text-orange-700'}`}>
+            {list.length} cities
+          </span>
+        </div>
         {/* Virtual Office box also lists the More Cities after the homepage cities, in a scrollable area.
             More Cities open their page only once they have a virtual office page; the rest stay icon-only. */}
-        <div className={`${cols === 6 ? 'grid grid-cols-6 gap-x-3 gap-y-4' : 'grid grid-cols-3 gap-x-2 gap-y-3'}${isVirtual ? ' max-h-80 overflow-y-auto pr-1' : ''}`}>
-          {(isVirtual ? [...cityNames, ...moreCities.map((city) => ({ ...city, iconOnly: !virtualOfficeCities.some((v) => v.name === city.name) }))] : cityNames).map((city) => (
+        <div className={`${cols === 6 ? 'grid grid-cols-6 gap-2' : 'grid grid-cols-3 gap-2'}${isVirtual ? ' max-h-80 overflow-y-auto pr-1' : ''}`}>
+          {list.map((city) => (
             <button
               key={city.name}
               type="button"
               onClick={city.iconOnly ? undefined : () => handleCityClick(city.name, tabName)}
               aria-label={isVirtual ? `Virtual office in ${city.name}` : `Coworking spaces in ${city.name}`}
-              className="flex flex-col items-center gap-1.5 group cursor-pointer focus:outline-none"
+              className={`group flex min-w-0 cursor-pointer flex-col items-center gap-2 rounded-xl border bg-white px-1 py-2.5 shadow-sm transition-all duration-200 hover:-translate-y-1 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 ${isVirtual ? 'border-blue-100/70 hover:border-blue-300 hover:shadow-blue-900/10 focus-visible:ring-blue-400' : 'border-orange-100/70 hover:border-orange-300 hover:shadow-orange-900/10 focus-visible:ring-orange-400'}`}
             >
               <img
                 src={city.image}
                 alt={`${city.name} city skyline`}
                 loading="lazy"
-                className={isVirtual
-                  ? 'w-14 h-14 rounded-xl object-cover border-2 border-blue-100 group-hover:border-blue-500 group-hover:scale-105 transition-all'
-                  : 'w-14 h-14 rounded-full object-cover border-2 border-slate-100 group-hover:border-orange-400 group-hover:scale-105 transition-all'}
+                className={`h-12 w-12 object-cover shadow-sm transition-all duration-200 group-hover:scale-105 sm:h-14 sm:w-14 ${isVirtual
+                  ? 'rounded-xl border-2 border-blue-100 group-hover:border-blue-400'
+                  : 'rounded-full border-2 border-slate-100 group-hover:border-orange-400'}`}
               />
-              <span className={`text-[11px] font-semibold text-slate-700 text-center leading-tight ${isVirtual ? 'group-hover:text-blue-600' : 'group-hover:text-orange-600'}`}>{city.name}</span>
+              <span className={`text-center text-[10px] font-semibold leading-tight text-slate-700 sm:text-[11px] ${isVirtual ? 'group-hover:text-blue-700' : 'group-hover:text-orange-700'}`}>{city.name}</span>
             </button>
           ))}
         </div>
@@ -135,7 +153,7 @@ const Navbar = () => {
 
               {/* Desktop Dropdown Menu */}
               {activeDropdown === item.name && (
-                <div className={`absolute left-0 mt-3 bg-white border border-slate-100 rounded-xl shadow-xl z-50 animate-in fade-in slide-in-from-top-1 duration-150 ${CITY_TABS.includes(item.name) ? 'w-[620px] p-5' : 'w-64 py-2'}`}>
+                <div className={`absolute left-0 mt-3 bg-white border border-slate-100 rounded-xl shadow-xl z-50 animate-in fade-in slide-in-from-top-1 duration-150 ${CITY_TABS.includes(item.name) ? 'w-[640px] p-3 !rounded-2xl !border-slate-200/80 shadow-[0_24px_60px_rgba(15,23,42,0.22)]' : 'w-64 py-2'}`}>
                   {CITY_TABS.includes(item.name) ? (
                 renderCityGrid(item.name, 6)
                   ) : item.links.map((link) => (
