@@ -443,6 +443,7 @@ const Section = ({ onCategoryCardClick, onCitySelect }) => {
       {/* Data Source: homePromotionalData & perkIconSvgPaths from homedata.js */}
       {/* =================================================================== */}
       <section 
+        id="list-your-space" style={{ scrollMarginTop: "7rem" }}
         aria-label="Workspace Categories and Property Listing" 
         className="w-full bg-[#f8fafc] py-6 sm:py-8 px-4 sm:px-6 lg:px-8 border-t border-slate-200/60"
       >
@@ -597,6 +598,7 @@ const Section = ({ onCategoryCardClick, onCitySelect }) => {
       {/* Data Source: virtualOfficeShowcaseData from common.js               */}
       {/* =================================================================== */}
       <section
+        id="virtual-office" style={{ scrollMarginTop: "7rem" }}
         aria-label="Book Your Virtual Office with MyCoworking"
         style={{ backgroundImage: `url(${virtualOfficeBg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
         className="w-full bg-[#050505] relative overflow-hidden py-6 sm:py-8 px-4 sm:px-6 lg:px-12 border-t border-slate-900"

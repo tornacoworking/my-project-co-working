@@ -1,3 +1,5 @@
+import { stats, BRAND_NAME } from '../data/stats.js';
+
 // ============================================================================
 // SHARED OPTIONS: CITY NAMES, SPACE TYPES & ENQUIRY FORM CONFIG
 // Used by Section.jsx (top cities grid, Virtual Office enquiry card)
@@ -82,7 +84,7 @@ export const homePromotionalData = {
     titlePrefix: 'List',
     badgeText: 'Free',
     titleSuffix: 'with MyCoworking',
-    subtitle: 'Reach 10,00,000+ users looking for space across India',
+    subtitle: `Reach ${stats.reach} users looking for space across India`,
     ctaText: 'List Your Property Free',
     previewBadge: {
       line1: 'Your Space',
@@ -164,7 +166,7 @@ export const virtualOfficeShowcaseData = {
 // Used by Homepage.jsx (Interactive logo slider)
 // ============================================================================
 export const trustedCompaniesData = {
-  title: "Trusted by more than 500+ Companies",
+  title: `Trusted by ${stats.companies} companies`,
   autoScrollIntervalMs: 3000,
   companies: [
     { id: "tribe", name: "TRIBE", type: "tribe" },
@@ -237,7 +239,7 @@ export const topCoworkingCitiesData = {
 // Used by Homepage.jsx (6 value proposition cards on royal blue background)
 // ============================================================================
 export const whyChooseData = {
-  title: "Why choose mycoworking?",
+  title: `Why choose ${BRAND_NAME}?`,
   features: [
     {
       id: "zero-brokerage",
@@ -254,7 +256,7 @@ export const whyChooseData = {
     {
       id: "largest-network",
       title: "Largest network of Coworking Spaces",
-      description: "India's largest network of verified office spaces, spanning 30+ cities, 5,000+ properties and 5M+ square feet in area.",
+      description: `One of India's largest networks of verified office spaces: ${stats.workSpaces} workspaces across ${stats.cities} cities.`,
       icon: "network"
     },
     {
@@ -278,10 +280,10 @@ export const whyChooseData = {
 export const customerReviewsData = {
   badge: "CUSTOMER TESTIMONIALS",
   title: "What Our Members Say",
-  subtitle: "Trusted by 10,000+ happy founders, remote teams, and freelancers across India",
+  subtitle: `Trusted by ${stats.members} founders, remote teams, and freelancers across India`,
   ratingSummary: {
-    averageRating: "4.9",
-    totalReviews: "2,500+",
+    averageRating: stats.rating,
+    totalReviews: stats.ratingCount,
     satisfactionRate: "98%"
   },
   reviews: [
@@ -443,7 +445,7 @@ export const faqSectionData = {
     {
       id: "faq-7",
       question: "Can I access workspaces in multiple cities with a single plan?",
-      answer: "Yes, our multi-city roaming pass allows you to work from any partner coworking hub across 18+ Indian cities including Pune, Bangalore, Mumbai, Delhi, Gurugram, Hyderabad, and more without purchasing separate subscriptions."
+      answer: `Yes, our multi-city roaming pass allows you to work from any partner coworking hub across ${stats.cities} Indian cities including Pune, Bangalore, Mumbai, Delhi, Gurugram, Hyderabad, and more without purchasing separate subscriptions.`
     }
   ]
 };

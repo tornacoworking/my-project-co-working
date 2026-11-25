@@ -1,13 +1,15 @@
 // ============================================================================
+import { BRAND_NAME, stats } from '../data/stats.js';
+
 // QUICK LINKS: NAVBAR TABS & LINK HELPERS
 // Used by Footer.jsx (Quick links columns)
 // ============================================================================
 // Navbar tabs and their links, shared by the navbar and the footer "Quick links"
 export const navItems = [
-  { name: 'Coworking'},
-  { name: 'Virtual Office'},
-  { name: 'Business Plans'},
-  { name: 'List Your Space Free'}
+  { name: 'Coworking', targetId: 'top-cities' },
+  { name: 'Virtual Office', targetId: 'virtual-office' },
+  { name: 'Business Plans', targetId: 'enquiry-form' },
+  { name: 'List Your Space Free', targetId: 'list-your-space' }
 ];
 
 export const navLinkLabel = (link) =>
@@ -24,8 +26,8 @@ export const navLinkTarget = (item, link) => (item.name === 'Coworking' ? '/cowo
 // ============================================================================
 export const footerQuickLinksData = {
   brand: {
-    name: "MyCoworking",
-    description: "Mycoworking stands as India’s leading and fastest-growing marketplace for flexible workspaces, delivering tailored, ready-to-move-in office solutions to corporate occupiers nationwide. Our extensive network features over 6,000 listed centres across 140+ cities, providing unparalleled pan-India coverage. Currently, we facilitate a monthly booking run rate of 6,500 desks and proudly support more than 10,000 corporate clients every year."
+    name: BRAND_NAME,
+    description: `${BRAND_NAME} helps teams find coworking spaces, private offices and virtual offices across ${stats.cities} Indian cities, with zero brokerage.`
   },
   columns: [
     {
@@ -66,3 +68,20 @@ export const footerQuickLinksData = {
     }
   ]
 };
+
+// Footer link groups. A link with href: null is skipped until its page exists (no dead links).
+export const footerQuickLinks = [
+  { label: 'Coworking', href: '/#top-cities' },
+  { label: 'Virtual Office', href: '/#virtual-office' },
+  { label: 'Business Plans', href: '/#enquiry-form' },
+  { label: 'List Your Space Free', href: '/#list-your-space' },
+  { label: 'About', href: null }, // no About page yet
+  { label: 'Contact', href: '/#enquiry-form' },
+  { label: 'Blog', href: null }, // no Blog yet
+];
+
+export const footerLegalLinks = [
+  { label: 'Privacy Policy', href: null }, // add the page, then set '/privacy-policy'
+  { label: 'Terms', href: null }, // add the page, then set '/terms'
+  { label: 'Sitemap', href: '/sitemap.xml' },
+];

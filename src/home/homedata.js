@@ -26,25 +26,27 @@
 // ============================================================================
 // 1. ACTIVE CITY IMAGE IMPORTS & HERO BACKGROUND
 // ============================================================================
-import heroBackgroundImage from './images/cityimages/form-image.jpg';
-import gurugramImg from './images/cityimages/gurugram.png';
-import bhubaneshwar from './images/cityimages/bhubaneshwar.png';
-import banglore from './images/cityimages/banglore.png';
-import hydrabad from './images/cityimages/hydrabad.png';
-import chennai from './images/cityimages/chennai.png';
-import lukhnow from './images/cityimages/lukhnow.png';
-import pune from './images/cityimages/pune.png';
-import noida from './images/cityimages/noida.jpg';
-import delhi from './images/cityimages/delhi.webp';
-import indore from './images/cityimages/indore.png';
-import jaipur from './images/cityimages/jaipur.png';
-import ahemdabad from './images/cityimages/ahemdabad.jpg';
-import chandigadh from './images/cityimages/chandigadh.jpg';
-import kochi from './images/cityimages/kochi.jpg';
-import kolkatta from './images/cityimages/kolkatta.png';
-import koimbatore from './images/cityimages/koimbatore.png';
-import goa from './images/cityimages/goa.png';
-import mumbai from './images/cityimages/mumbai.png';
+import heroBackgroundImage from './images/cityimages/form-image.jpg?w=1200&format=webp';
+import gurugramImg from './images/cityimages/gurugram.png?w=400&format=webp';
+import bhubaneshwar from './images/cityimages/bhubaneshwar.png?w=400&format=webp';
+import banglore from './images/cityimages/banglore.png?w=400&format=webp';
+import hydrabad from './images/cityimages/hydrabad.png?w=400&format=webp';
+import chennai from './images/cityimages/chennai.png?w=400&format=webp';
+import lukhnow from './images/cityimages/lukhnow.png?w=400&format=webp';
+import pune from './images/cityimages/pune.png?w=400&format=webp';
+import noida from './images/cityimages/noida.jpg?w=400&format=webp';
+import delhi from './images/cityimages/delhi.webp?w=400&format=webp';
+import indore from './images/cityimages/indore.png?w=400&format=webp';
+import jaipur from './images/cityimages/jaipur.png?w=400&format=webp';
+import ahemdabad from './images/cityimages/ahemdabad.jpg?w=400&format=webp';
+import chandigadh from './images/cityimages/chandigadh.jpg?w=400&format=webp';
+import kochi from './images/cityimages/kochi.jpg?w=400&format=webp';
+import kolkatta from './images/cityimages/kolkatta.png?w=400&format=webp';
+import koimbatore from './images/cityimages/koimbatore.png?w=400&format=webp';
+import goa from './images/cityimages/goa.png?w=400&format=webp';
+import mumbai from './images/cityimages/mumbai.png?w=400&format=webp';
+
+import { stats, tagline } from '../data/stats.js';
 
 // Re-export hero background image so Homepage can obtain it from homedata
 export { heroBackgroundImage };
@@ -100,12 +102,12 @@ export const heroSectionData = {
   backgroundImage: heroBackgroundImage,
 
   // Decorative tagline above main headline
-  tagline: "India's flexible workspace network",
+  tagline,
 
   // Main banner headline parts
   headline: {
     prefix: "Choose from",
-    highlight1: "10,000+",
+    highlight1: stats.workSpaces,
     middleText: "spaces to",
     highlight2: "Work"
   },
@@ -122,12 +124,12 @@ export const heroSectionData = {
   statistics: [
     {
       id: "workspaces",
-      count: "10,000+",
+      count: stats.workSpaces,
       label: "Work Spaces"
     },
     {
       id: "locations",
-      count: "1,000+",
+      count: stats.locations,
       label: "Locations"
     }
   ]
@@ -175,3 +177,6 @@ export const enquiryFormConfig = {
     fadeTransitionMs: 500
   }
 };
+
+// The 8 cities shown as quick picks in the hero (names must exist in cityNames).
+export const popularCityNames = ['Bangalore', 'Mumbai', 'Delhi', 'Pune', 'Hyderabad', 'Gurugram', 'Noida', 'Chennai'];

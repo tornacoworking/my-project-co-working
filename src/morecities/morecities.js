@@ -25,6 +25,7 @@ export { indiaMapLogo };
 // All local city images, keyed by file name (slug), e.g. "./images/jodhpur.jpg"
 const cityImageFiles = import.meta.glob('./images/*.{jpg,png}', {
   eager: true,
+  query: '?w=400&format=webp',
   import: 'default'
 });
 

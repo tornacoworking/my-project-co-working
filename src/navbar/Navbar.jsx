@@ -1,277 +1,389 @@
-import { useState, useRef, useEffect } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import { cityNames } from '../home/homedata';
-import logo from './company-logo.jpg';
-import { navItems } from './navLinks';
-import { virtualOfficePath, virtualOfficeCities } from '../virtual/virtual';
-import { moreCities } from '../morecities/morecities';
+import { useEffect, useRef, useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
+import { ChevronDown, Mail, Menu, MessageCircle, Phone, X } from 'lucide-react';
+import Container from '../components/Container.jsx';
+import cityIndex from '../data/cityIndex.json';
+import logo from './company-logo.jpg?h=192&format=webp';
+import { menuSections, drawerCities, dropdownCities } from './navMenu.js';
+import { CONTACT, whatsappLink } from '../data/stats.js';
 
-// Tabs whose dropdown shows the city picker
-const CITY_TABS = ['Coworking', 'Virtual Office'];
+const cityLink = (name, kind) => {
+  const city = cityIndex.find((c) => c.name === name);
+  if (!city || (kind === 'virtual' && !city.virtual)) return null;
+  return { name, to: kind === 'virtual' ? `/virtual-office/${city.slug}` : `/coworking/${city.slug}` };
+};
+const chipsFor = (kind, names) => names.map((name) => cityLink(name, kind)).filter(Boolean);
+
+const focusRing = 'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2';
+
+/** Icon tile + title + one-line description, shared by the desktop panels and the drawer. */
+const MenuItem = ({ item, onNavigate, className = '' }) => {
+  const Icon = item.icon;
+  return (
+    <Link to={item.to} onClick={onNavigate} className={`group flex items-start gap-3 rounded-xl p-3 transition-colors hover:bg-blue-50/70 ${focusRing} ${className}`}>
+      <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-blue-50 text-blue-700 transition-colors group-hover:bg-blue-700 group-hover:text-white" aria-hidden="true">
+        <Icon className="h-5 w-5" strokeWidth={1.9} />
+      </span>
+      <span className="min-w-0">
+        <span className="block text-sm font-semibold text-slate-900">{item.title}</span>
+        <span className="block text-xs leading-snug text-slate-600">{item.description}</span>
+      </span>
+    </Link>
+  );
+};
+
+const CityChips = ({ chips, onNavigate }) => (
+  <ul className="flex flex-wrap gap-2">
+    {chips.map((chip) => (
+      <li key={chip.to}>
+        <Link
+          to={chip.to}
+          onClick={onNavigate}
+          aria-label={`${chip.to.startsWith('/virtual') ? 'Virtual office' : 'Coworking space'} in ${chip.name}`}
+          className={`inline-flex min-h-9 items-center rounded-full border border-slate-200 bg-white px-3.5 text-sm font-medium text-slate-700 transition-colors hover:border-blue-300 hover:bg-blue-50 hover:text-blue-800 ${focusRing}`}
+        >
+          {chip.name}
+        </Link>
+      </li>
+    ))}
+  </ul>
+);
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const [activeDropdown, setActiveDropdown] = useState(null);
-  const [mobileExpandedTab, setMobileExpandedTab] = useState(null);
-  const navRef = useRef(null);
-  const navigate = useNavigate();
+  const location = useLocation();
+  const [locationKey, setLocationKey] = useState(location.key);
+  const [drawerOpen, setDrawerOpen] = useState(false);
+  const [drawerSection, setDrawerSection] = useState(null); // accordion: one open at a time
+  const [openMenu, setOpenMenu] = useState(null); // desktop dropdown
+  const headerRef = useRef(null);
+  const drawerRef = useRef(null);
+  const closeButtonRef = useRef(null);
+  const hamburgerRef = useRef(null);
+  const hoverOpened = useRef(null);
+  const hoverTimer = useRef(null);
 
-  // Same behaviour as clicking a city on the home page: open that city's space-type popup
-  const handleCityClick = (cityName, tabName) => {
-    closeMenu();
-    if (tabName === 'Virtual Office') {
-      navigate(virtualOfficePath(cityName));
-      return;
-    }
-    navigate('/', { state: { openCity: cityName } });
+  // Any navigation closes the drawer and the dropdowns.
+  if (locationKey !== location.key) {
+    setLocationKey(location.key);
+    setDrawerOpen(false);
+    setOpenMenu(null);
+  }
+
+  const closeAll = () => {
+    setDrawerOpen(false);
+    setOpenMenu(null);
   };
 
-  // City picker for the Coworking / Virtual Office tabs; each tab has its own heading and style
-  const renderCityGrid = (tabName, cols) => {
-    const isVirtual = tabName === 'Virtual Office';
-    const list = isVirtual ? [...cityNames, ...moreCities.map((city) => ({ ...city, iconOnly: !virtualOfficeCities.some((v) => v.name === city.name) }))] : cityNames;
-    return (
-      <div className={`relative overflow-hidden rounded-2xl border p-4 ${isVirtual ? 'border-blue-100 bg-gradient-to-br from-blue-50 via-white to-sky-50' : 'border-orange-100 bg-gradient-to-br from-orange-50 via-white to-amber-50'}`}>
-        <div className={`absolute inset-x-0 top-0 h-1 bg-gradient-to-r ${isVirtual ? 'from-blue-600 via-sky-400 to-blue-300' : 'from-orange-500 via-amber-400 to-orange-300'}`} />
-        <div className={`mb-4 mt-1 flex items-center justify-between gap-3 border-b pb-3 ${isVirtual ? 'border-blue-100' : 'border-orange-100'}`}>
-          <div className="flex items-center gap-3">
-            <span className={`flex h-9 w-9 items-center justify-center rounded-xl text-white shadow-md ${isVirtual ? 'bg-gradient-to-br from-blue-600 to-sky-500 shadow-blue-600/30' : 'bg-gradient-to-br from-orange-500 to-amber-400 shadow-orange-500/30'}`}>
-              <svg className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a2 2 0 01-2.828 0l-4.243-4.243a8 8 0 1111.314 0z" />
-                <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-              </svg>
-            </span>
-            <div>
-              <p className="text-sm font-extrabold leading-tight text-slate-900">
-                {isVirtual ? 'Virtual Office' : 'Coworking Spaces'}
-              </p>
-              <p className="text-[11px] font-medium text-slate-500">Choose your city to explore</p>
-            </div>
-          </div>
-          <span className={`rounded-full px-2.5 py-1 text-[11px] font-bold ${isVirtual ? 'bg-blue-100 text-blue-700' : 'bg-orange-100 text-orange-700'}`}>
-            {list.length} cities
-          </span>
-        </div>
-        {/* Virtual Office box also lists the More Cities after the homepage cities, in a scrollable area.
-            More Cities open their page only once they have a virtual office page; the rest stay icon-only. */}
-        <div className={`${cols === 6 ? 'grid grid-cols-6 gap-2' : 'grid grid-cols-3 gap-2'}${isVirtual ? ' max-h-80 overflow-y-auto pr-1' : ''}`}>
-          {list.map((city) => (
-            <button
-              key={city.name}
-              type="button"
-              onClick={city.iconOnly ? undefined : () => handleCityClick(city.name, tabName)}
-              aria-label={isVirtual ? `Virtual office in ${city.name}` : `Coworking spaces in ${city.name}`}
-              className={`group flex min-w-0 cursor-pointer flex-col items-center gap-2 rounded-xl border bg-white px-1 py-2.5 shadow-sm transition-all duration-200 hover:-translate-y-1 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 ${isVirtual ? 'border-blue-100/70 hover:border-blue-300 hover:shadow-blue-900/10 focus-visible:ring-blue-400' : 'border-orange-100/70 hover:border-orange-300 hover:shadow-orange-900/10 focus-visible:ring-orange-400'}`}
-            >
-              <img
-                src={city.image}
-                alt={`${city.name} city skyline`}
-                loading="lazy"
-                className={`h-12 w-12 object-cover shadow-sm transition-all duration-200 group-hover:scale-105 sm:h-14 sm:w-14 ${isVirtual
-                  ? 'rounded-xl border-2 border-blue-100 group-hover:border-blue-400'
-                  : 'rounded-full border-2 border-slate-100 group-hover:border-orange-400'}`}
-              />
-              <span className={`text-center text-[10px] font-semibold leading-tight text-slate-700 sm:text-[11px] ${isVirtual ? 'group-hover:text-blue-700' : 'group-hover:text-orange-700'}`}>{city.name}</span>
-            </button>
-          ))}
-        </div>
-      </div>
-    );
-  };
-
-  const toggleDropdown = (menu) => {
-    setActiveDropdown(activeDropdown === menu ? null : menu);
-  };
-
-  const toggleMobileTab = (menu) => {
-    setMobileExpandedTab(mobileExpandedTab === menu ? null : menu);
-  };
-
-  const closeMenu = () => {
-    setIsOpen(false);
-    setActiveDropdown(null);
-    setMobileExpandedTab(null);
-  };
-
-  // Close dropdown on click outside
+  // ---------------------------------------------------------------- drawer behaviour
   useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (navRef.current && !navRef.current.contains(event.target)) {
-        closeMenu();
+    if (!drawerOpen) return undefined;
+    const drawer = drawerRef.current;
+    const hamburger = hamburgerRef.current;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden'; // lock page scroll
+    document.documentElement.dataset.drawerOpen = 'true'; // lets CSS hide the sticky bottom bar
+
+    const focusable = () =>
+      [...drawer.querySelectorAll('a[href], button:not([disabled])')].filter((el) => !el.closest('[inert]'));
+
+    const onKeyDown = (event) => {
+      if (event.key === 'Escape') {
+        event.preventDefault();
+        setDrawerOpen(false);
+        return;
+      }
+      if (event.key !== 'Tab') return;
+      const items = focusable();
+      if (items.length === 0) return;
+      const first = items[0];
+      const last = items[items.length - 1];
+      if (!drawer.contains(document.activeElement)) {
+        event.preventDefault();
+        first.focus();
+      } else if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
       }
     };
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => document.removeEventListener('mousedown', handleClickOutside);
+    document.addEventListener('keydown', onKeyDown);
+
+    const desktop = window.matchMedia('(min-width: 1024px)');
+    const onBreakpoint = () => desktop.matches && setDrawerOpen(false);
+    desktop.addEventListener('change', onBreakpoint);
+
+    // Wait a beat: the drawer is still visibility:hidden on the first frame of its slide-in, and hidden elements cannot take focus.
+    const focusTimer = setTimeout(() => closeButtonRef.current?.focus(), 60);
+
+    return () => {
+      document.removeEventListener('keydown', onKeyDown);
+      desktop.removeEventListener('change', onBreakpoint);
+      clearTimeout(focusTimer);
+      document.body.style.overflow = previousOverflow;
+      delete document.documentElement.dataset.drawerOpen;
+      hamburger?.focus(); // hand focus back to the button that opened it
+    };
+  }, [drawerOpen]);
+
+  // ---------------------------------------------------------------- desktop dropdown behaviour
+  useEffect(() => {
+    const onPointerDown = (event) => {
+      if (headerRef.current && !headerRef.current.contains(event.target)) setOpenMenu(null);
+    };
+    document.addEventListener('mousedown', onPointerDown);
+    return () => document.removeEventListener('mousedown', onPointerDown);
   }, []);
 
+  const triggerId = (id) => `nav-trigger-${id}`;
+  const panelId = (id) => `nav-panel-${id}`;
+  const focusPanelLink = (id) => {
+    requestAnimationFrame(() => document.getElementById(panelId(id))?.querySelector('a')?.focus());
+  };
+
+  const onTriggerClick = (id) => {
+    if (hoverOpened.current === id) {
+      hoverOpened.current = null; // the hover already opened it; this click should not close it again
+      return;
+    }
+    setOpenMenu((current) => (current === id ? null : id));
+  };
+
+  const onTriggerKeyDown = (event, id) => {
+    if (event.key === 'ArrowDown') {
+      event.preventDefault();
+      setOpenMenu(id);
+      focusPanelLink(id);
+    } else if (event.key === 'Escape') {
+      setOpenMenu(null);
+    }
+  };
+
+  const onPanelKeyDown = (event, id) => {
+    const links = [...event.currentTarget.querySelectorAll('a')];
+    const index = links.indexOf(document.activeElement);
+    const move = { ArrowDown: index + 1, ArrowUp: index - 1, Home: 0, End: links.length - 1 }[event.key];
+    if (move !== undefined) {
+      event.preventDefault();
+      links[(move + links.length) % links.length]?.focus();
+    } else if (event.key === 'Escape') {
+      event.preventDefault();
+      setOpenMenu(null);
+      document.getElementById(triggerId(id))?.focus();
+    }
+  };
+
+  const hoverOpen = (id) => {
+    clearTimeout(hoverTimer.current);
+    if (openMenu !== id) {
+      hoverOpened.current = id;
+      setOpenMenu(id);
+    }
+  };
+  const hoverClose = () => {
+    clearTimeout(hoverTimer.current);
+    hoverTimer.current = setTimeout(() => {
+      hoverOpened.current = null;
+      setOpenMenu(null);
+    }, 150);
+  };
+
   return (
-    <header ref={navRef} className="w-full sticky top-0 z-50 select-none px-2 sm:px-4 py-2">
-      {/* 1. Mobile & Desktop Header: strictly single row, flex-row, justify-between, items-center */}
-      <div className="max-w-[1400px] mx-auto px-3 sm:px-5 h-[4.5rem] sm:h-28 rounded-2xl bg-white/85 backdrop-blur-xl border border-white/70 shadow-[0_8px_30px_rgba(15,23,42,0.14)] flex flex-row justify-start items-center gap-3 lg:gap-4 xl:gap-[1cm]">
-        
-        {/* 2. Far Left: Logo */}
-        <Link 
-          to="/" 
-          aria-label="MyCoworking home"
-          onClick={closeMenu}
-          className="flex items-center cursor-pointer shrink-0"
-        >
-          <img src={logo} alt="MyCoworking - Coworking and Virtual Office Spaces in India" className="h-14 sm:h-24 w-auto object-contain" />
-        </Link>
+    <>
+      <header ref={headerRef} className="sticky top-0 z-50 select-none py-2">
+        <Container>
+          <div className="flex h-[4.5rem] flex-row items-center justify-start gap-3 rounded-2xl border border-white/70 bg-white/95 px-3 shadow-[0_8px_30px_rgba(15,23,42,0.14)] backdrop-blur-xl sm:h-28 sm:px-5 lg:gap-4 xl:gap-8">
+            <Link to="/" aria-label="MyCoworking home" onClick={closeAll} className={`flex shrink-0 cursor-pointer items-center rounded-lg ${focusRing}`}>
+              <img src={logo} alt="MyCoworking - Coworking and Virtual Office Spaces in India" width="189" height="192" className="h-14 w-auto object-contain mix-blend-multiply sm:h-24" />
+            </Link>
 
-        {/* 3. Desktop Contact Info Box: visible on large screens (lg+) */}
-        <div className="hidden lg:flex items-center bg-white border border-slate-200 rounded-full px-4 py-1.5 space-x-3 text-sm font-medium text-slate-700 shadow-sm shrink-0">
-          <a href="tel:+919028760011" className="flex items-center space-x-1.5 hover:text-blue-600 transition-colors">
-            <svg className="w-4 h-4 text-blue-600 shrink-0" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M6.62 10.79a15.15 15.15 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.27 11.72 11.72 0 003.74.6 1 1 0 011 1v3.59a1 1 0 01-1 1A16 16 0 013 4a1 1 0 011-1h3.59a1 1 0 011 1 11.72 11.72 0 00.6 3.74 1 1 0 01-.27 1.1l-2.2 2.2z"/>
-            </svg>
-            <span className="font-semibold">+91 9028760011</span>
-          </a>
-        
-        </div>
-
-        {/* 3. Middle Tabs: Desktop only (hidden on mobile views, visible on lg and above) */}
-        <nav className="hidden lg:flex items-center gap-4 xl:gap-[1cm]">
-          {navItems.map((item) => (
-            <div key={item.name} className="relative">
-              <button
-                type="button"
-                onClick={() => toggleDropdown(item.name)}
-                className="flex items-center space-x-1.5 text-sm xl:text-base font-semibold text-slate-800 bg-white shadow-sm border border-slate-100 rounded-full hover:text-blue-600 transition-colors focus:outline-none cursor-pointer py-2 px-4 whitespace-nowrap"
-              >
-                <span>{item.name}</span>
-                <svg 
-                  className={`w-4 h-4 text-slate-400 transition-transform duration-200 ${activeDropdown === item.name ? 'rotate-180 text-blue-600' : ''}`} 
-                  fill="none" 
-                  stroke="currentColor" 
-                  strokeWidth="2.5" 
-                  viewBox="0 0 24 24"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7"/>
-                </svg>
-              </button>
-
-              {/* Desktop Dropdown Menu */}
-              {activeDropdown === item.name && (
-                <div className={`absolute left-0 mt-3 bg-white border border-slate-100 rounded-xl shadow-xl z-50 animate-in fade-in slide-in-from-top-1 duration-150 ${CITY_TABS.includes(item.name) ? 'w-[640px] p-3 !rounded-2xl !border-slate-200/80 shadow-[0_24px_60px_rgba(15,23,42,0.22)]' : 'w-64 py-2'}`}>
-                  {CITY_TABS.includes(item.name) ? (
-                renderCityGrid(item.name, 6)
-                  ) : item.links.map((link) => (
-                    <Link
-                      key={link}
-                      to={item.name === 'Coworking' ? '/coworking' : link}
-                      className="block px-5 py-3.5 text-base font-medium text-slate-600 hover:bg-slate-50 hover:text-blue-600 transition-colors"
-                      onClick={closeMenu}
-                    >
-                      {link.replace('#', '').replace('-', ' ').replace(/\b\w/g, (c) => c.toUpperCase())}
-                    </Link>
-                  ))}
-                </div>
-              )}
+            {/* Desktop phone pill */}
+            <div className="hidden shrink-0 items-center rounded-full border border-slate-200 bg-white px-4 py-1.5 text-sm font-medium text-slate-700 shadow-sm lg:flex">
+              <a href={`tel:${CONTACT.phoneTel}`} className={`flex items-center gap-1.5 rounded-full hover:text-blue-700 ${focusRing}`}>
+                <Phone className="h-4 w-4 shrink-0 text-blue-700" aria-hidden="true" />
+                <span className="font-semibold">{CONTACT.phoneDisplay}</span>
+              </a>
             </div>
-          ))}
-        </nav>
 
-        {/* 2 & 4. Far Right: Blue "Contact Us" Button + Hamburger Menu Icon */}
-        <div className="flex items-center gap-2.5 sm:gap-3 shrink-0 ml-auto">
-          {/* Orange "List of Services" button - always visible */}
-          <Link
-            to="/#services"
-            aria-label="View our list of services"
-            onClick={closeMenu}
-            className="shrink-0 cursor-pointer"
-          >
-            <span className="inline-flex items-center justify-center text-center rounded-full bg-gradient-to-r from-[#0a58ca] to-[#2563eb] text-white text-[10px] sm:text-xs font-extrabold leading-tight tracking-wide px-4 sm:px-5 py-2 shadow-lg shadow-blue-600/30 hover:scale-105 transition-transform">LIST YOUR<br />SPACE FREE</span>
+            {/* Desktop dropdowns: open on hover, click or keyboard */}
+            <nav aria-label="Main" className="hidden items-center gap-3 lg:flex xl:gap-6">
+              {menuSections.map((section, index) => {
+                const open = openMenu === section.id;
+                const chips = section.cities ? chipsFor(section.cities, dropdownCities) : [];
+                const alignRight = index === menuSections.length - 1;
+                return (
+                  <div
+                    key={section.id}
+                    className="relative"
+                    onMouseEnter={() => hoverOpen(section.id)}
+                    onMouseLeave={hoverClose}
+                    onBlur={(event) => {
+                      if (!event.currentTarget.contains(event.relatedTarget)) setOpenMenu((current) => (current === section.id ? null : current));
+                    }}
+                  >
+                    <button
+                      type="button"
+                      id={triggerId(section.id)}
+                      aria-haspopup="true"
+                      aria-expanded={open}
+                      aria-controls={panelId(section.id)}
+                      onClick={() => onTriggerClick(section.id)}
+                      onKeyDown={(event) => onTriggerKeyDown(event, section.id)}
+                      className={`flex min-h-11 cursor-pointer items-center gap-1.5 whitespace-nowrap rounded-full border border-slate-100 bg-white px-4 text-sm font-semibold shadow-sm transition-colors hover:text-blue-700 xl:text-base ${open ? 'text-blue-700' : 'text-slate-800'} ${focusRing}`}
+                    >
+                      {section.name}
+                      <ChevronDown className={`h-4 w-4 transition-transform duration-200 ${open ? 'rotate-180 text-blue-700' : 'text-slate-400'}`} aria-hidden="true" />
+                    </button>
+
+                    <div
+                      id={panelId(section.id)}
+                      role="group"
+                      aria-label={`${section.name} menu`}
+                      inert={!open}
+                      onKeyDown={(event) => onPanelKeyDown(event, section.id)}
+                      className={`absolute top-full z-50 mt-2 w-[30rem] origin-top rounded-2xl border border-slate-200/80 bg-white p-3 shadow-xl transition duration-150 ease-out motion-reduce:transition-none ${alignRight ? 'right-0' : 'left-0'} ${open ? 'visible translate-y-0 scale-100 opacity-100' : 'invisible -translate-y-1 scale-95 opacity-0'}`}
+                    >
+                      <ul className="grid grid-cols-2 gap-1">
+                        {section.items.map((item) => (
+                          <li key={item.title}><MenuItem item={item} onNavigate={closeAll} /></li>
+                        ))}
+                      </ul>
+                      {chips.length > 0 && (
+                        <div className="mt-2 border-t border-slate-100 px-3 pb-1 pt-3">
+                          <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-slate-600">Popular cities</p>
+                          <CityChips chips={chips} onNavigate={closeAll} />
+                          <Link to="/#top-cities" onClick={closeAll} className={`mt-3 inline-flex min-h-9 items-center rounded-md text-sm font-bold text-blue-700 hover:underline ${focusRing}`}>
+                            Browse all cities <span aria-hidden="true">&nbsp;→</span>
+                          </Link>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                );
+              })}
+            </nav>
+
+            <div className="ml-auto flex shrink-0 items-center gap-2.5 sm:gap-3">
+              {/* Hidden below 380px: the same action sits at the bottom of the drawer */}
+              <Link to="/#list-your-space" onClick={closeAll} className={`shrink-0 cursor-pointer rounded-full max-[379px]:hidden ${focusRing}`}>
+                <span className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-[#0a58ca] to-[#2563eb] px-4 py-2 text-center text-[10px] font-extrabold leading-tight tracking-wide text-white shadow-lg shadow-blue-600/30 sm:px-5 sm:text-xs">
+                  LIST YOUR<br />SPACE FREE
+                </span>
+              </Link>
+
+              <button
+                ref={hamburgerRef}
+                type="button"
+                onClick={() => setDrawerOpen(true)}
+                aria-label="Open menu"
+                aria-expanded={drawerOpen}
+                aria-controls="mobile-drawer"
+                className={`flex h-11 w-11 shrink-0 cursor-pointer items-center justify-center rounded-xl border border-slate-200 text-slate-800 transition-colors hover:bg-slate-100 lg:hidden ${focusRing}`}
+              >
+                <Menu className="h-5 w-5" aria-hidden="true" />
+              </button>
+            </div>
+          </div>
+        </Container>
+      </header>
+
+      {/* ------------------------------------------------------------------ mobile drawer */}
+      <div
+        onClick={() => setDrawerOpen(false)}
+        aria-hidden="true"
+        className={`fixed inset-0 z-[65] bg-slate-900/50 backdrop-blur-sm transition-[opacity,visibility] duration-[250ms] ease-out motion-reduce:transition-none lg:hidden ${drawerOpen ? 'visible opacity-100' : 'invisible opacity-0'}`}
+      />
+      <aside
+        ref={drawerRef}
+        id="mobile-drawer"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Site menu"
+        inert={!drawerOpen}
+        className={`fixed inset-y-0 right-0 z-[70] flex w-[88%] max-w-sm flex-col bg-white shadow-2xl transition-[transform,opacity,visibility] duration-[250ms] ease-out motion-reduce:transition-none lg:hidden ${drawerOpen ? 'visible translate-x-0 opacity-100' : 'invisible translate-x-full opacity-0'}`}
+      >
+        <div className="flex items-center justify-between border-b border-slate-100 px-4 py-2">
+          <Link to="/" onClick={closeAll} aria-label="MyCoworking home" className={`rounded-lg ${focusRing}`}>
+            <img src={logo} alt="MyCoworking" width="189" height="192" className="h-14 w-auto object-contain mix-blend-multiply" />
           </Link>
-
-          {/* 4. Hamburger Icon: three bars icon, visible on small screens (< lg) */}
           <button
+            ref={closeButtonRef}
             type="button"
-            onClick={() => setIsOpen((prev) => !prev)}
-            aria-label="Toggle navigation menu"
-            aria-expanded={isOpen}
-            className="lg:hidden w-10 h-10 flex items-center justify-center rounded-lg border border-slate-200 text-slate-700 hover:text-slate-900 hover:bg-slate-100 transition-colors cursor-pointer focus:outline-none shrink-0"
+            onClick={() => setDrawerOpen(false)}
+            aria-label="Close menu"
+            className={`flex h-11 w-11 cursor-pointer items-center justify-center rounded-xl text-slate-700 hover:bg-slate-100 ${focusRing}`}
           >
-            {isOpen ? (
-              /* Close (X) icon when open */
-              <svg className="w-5 h-5 text-slate-800" fill="none" stroke="currentColor" strokeWidth="2.2" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            ) : (
-              /* Standard Hamburger (three bars) icon */
-              <svg className="w-5 h-5 text-slate-800" fill="none" stroke="currentColor" strokeWidth="2.2" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
-            )}
+            <X className="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
 
-      </div>
-
-      {/* 5. Dropdown/Drawer Menu: Opens downwards when hamburger is clicked, containing all hidden tabs & contact details */}
-      {isOpen && (
-        <nav aria-label="Mobile navigation" className="lg:hidden max-w-[1400px] mx-auto mt-2 rounded-2xl max-h-[75dvh] overflow-y-auto bg-white border border-slate-100 shadow-xl px-4 py-3 flex flex-col divide-y divide-slate-100 animate-in fade-in slide-in-from-top-1 duration-200">
-          {/* All 4 Navigation Tabs */}
-          {navItems.map((item) => {
-            const isExpanded = mobileExpandedTab === item.name;
-            return (
-              <div key={item.name} className="py-2.5 first:pt-1 last:pb-2">
-                <button
-                  type="button"
-                  onClick={() => toggleMobileTab(item.name)}
-                  className="w-full flex items-center justify-between text-left text-sm font-semibold text-slate-800 py-1 focus:outline-none cursor-pointer"
-                >
-                  <span>{item.name}</span>
-                  <svg
-                    className={`w-4 h-4 text-slate-400 transition-transform duration-200 ${isExpanded ? 'rotate-180 text-[#007bff]' : ''}`}
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2.5"
-                    viewBox="0 0 24 24"
+        <nav aria-label="Mobile" className="flex-1 overflow-y-auto overscroll-contain px-4 py-3">
+          <ul className="divide-y divide-slate-100">
+            {menuSections.map((section) => {
+              const open = drawerSection === section.id;
+              return (
+                <li key={section.id}>
+                  <h2>
+                    <button
+                      type="button"
+                      id={`drawer-trigger-${section.id}`}
+                      aria-expanded={open}
+                      aria-controls={`drawer-panel-${section.id}`}
+                      onClick={() => setDrawerSection(open ? null : section.id)}
+                      className={`flex min-h-12 w-full cursor-pointer items-center justify-between rounded-lg text-left text-base font-semibold text-slate-900 ${focusRing}`}
+                    >
+                      {section.name}
+                      <ChevronDown className={`h-5 w-5 transition-transform duration-200 ${open ? 'rotate-180 text-blue-700' : 'text-slate-400'}`} aria-hidden="true" />
+                    </button>
+                  </h2>
+                  <div
+                    id={`drawer-panel-${section.id}`}
+                    role="region"
+                    aria-labelledby={`drawer-trigger-${section.id}`}
+                    className={`grid transition-[grid-template-rows] duration-[250ms] ease-out motion-reduce:transition-none ${open ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'}`}
                   >
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-
-                {/* Sub-links dropdown */}
-                {isExpanded && (
-                  <div className={CITY_TABS.includes(item.name) ? 'pt-3 pb-1' : 'pl-3 pt-2 pb-1 flex flex-col space-y-2'}>
-                    {CITY_TABS.includes(item.name) ? (
-                renderCityGrid(item.name, 3)
-                    ) : item.links.map((link) => (
-                      <Link
-                        key={link}
-                        to={item.name === 'Coworking' ? '/coworking' : link}
-                        onClick={closeMenu}
-                        className="text-xs text-slate-600 hover:text-[#007bff] py-1 font-medium transition-colors block"
-                      >
-                        {link.replace('#', '').replace('-', ' ').replace(/\b\w/g, (c) => c.toUpperCase())}
-                      </Link>
-                    ))}
+                    <div className="min-h-0 overflow-hidden" inert={!open}>
+                      <ul className="pb-3">
+                        {section.items.map((item) => (
+                          <li key={item.title}><MenuItem item={item} onNavigate={closeAll} /></li>
+                        ))}
+                      </ul>
+                    </div>
                   </div>
-                )}
-              </div>
-            );
-          })}
+                </li>
+              );
+            })}
+          </ul>
 
-          {/* Contact Details in Mobile Menu */}
-          <div className="pt-3 pb-1 flex flex-col gap-2 text-xs text-slate-600">
-            <div className="flex items-center gap-2">
-              <span className="text-[#007bff] font-bold">📞 Phone:</span>
-              <a href="tel:+919028760011" className="font-semibold text-slate-800 hover:text-blue-600">
-                +91 9028760011
-              </a>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="text-[#007bff] font-bold">✉️ Email:</span>
-              <a href="mailto:info@mycoworking.in" className="font-semibold text-slate-800 hover:text-blue-600">
-                info@mycoworking.in
-              </a>
-            </div>
+          <div className="mt-5">
+            <h2 className="mb-2.5 text-xs font-semibold uppercase tracking-wider text-slate-600">Popular cities</h2>
+            <CityChips chips={chipsFor('coworking', drawerCities)} onNavigate={closeAll} />
           </div>
         </nav>
-      )}
-    </header>
+
+        <div className="border-t border-slate-100 bg-white p-4 pb-[max(1rem,env(safe-area-inset-bottom))]">
+          <Link
+            to="/#list-your-space"
+            onClick={closeAll}
+            className={`flex min-h-12 w-full items-center justify-center rounded-xl bg-blue-700 px-4 text-base font-bold text-white shadow-lg shadow-blue-700/25 transition-colors hover:bg-blue-800 ${focusRing}`}
+          >
+            List your space free
+          </Link>
+          <div className="mt-3 grid grid-cols-2 gap-3">
+            <a href={`tel:${CONTACT.phoneTel}`} className={`flex min-h-12 items-center justify-center gap-2 rounded-xl border border-slate-300 bg-white text-sm font-bold text-slate-800 transition-colors hover:bg-slate-50 ${focusRing}`}>
+              <Phone className="h-[18px] w-[18px] text-blue-700" aria-hidden="true" />Call
+            </a>
+            <a href={whatsappLink()} target="_blank" rel="noopener noreferrer" className={`flex min-h-12 items-center justify-center gap-2 rounded-xl bg-[#0b6b38] text-sm font-bold text-white transition-colors hover:bg-[#095a2f] ${focusRing}`}>
+              <MessageCircle className="h-[18px] w-[18px]" aria-hidden="true" />WhatsApp
+            </a>
+          </div>
+          <a href={`mailto:${CONTACT.email}`} className={`mt-3 flex min-h-9 items-center justify-center gap-1.5 rounded-md text-xs text-slate-600 hover:text-blue-700 ${focusRing}`}>
+            <Mail className="h-3.5 w-3.5" aria-hidden="true" />{CONTACT.email}
+          </a>
+        </div>
+      </aside>
+    </>
   );
 };
 

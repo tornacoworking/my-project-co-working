@@ -10,6 +10,7 @@
  * ============================================================================
  */
 import heroImage from '../assets/images/virtual-office-bg.jpg';
+import { toVirtualSlug, virtualOfficePath } from './virtualPaths.js';
 import { cityNames } from '../home/homedata.js';
 import agartalaImage from '../morecities/images/agartala.jpg';
 import agraImage from '../morecities/images/agra.jpg';
@@ -560,9 +561,8 @@ const buildSubLocations = (cityName) => {
   return result;
 };
 
-// "Alwar / Bhiwadi" -> "alwar-bhiwadi"
-export const toVirtualSlug = (cityName) =>
-  cityName.trim().toLowerCase().replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+// Slug helpers live in virtualPaths.js so the homepage and navbar can use them without bundling this file.
+export { toVirtualSlug, virtualOfficePath };
 
 export const virtualOfficeCities = [...cityNames, ...moreVirtualCities]
   .filter((city) => cityDetails[city.name])
@@ -576,8 +576,6 @@ export const virtualOfficeCities = [...cityNames, ...moreVirtualCities]
 
 export const getVirtualOfficeCity = (slug) =>
   virtualOfficeCities.find((city) => city.slug === String(slug || '').toLowerCase());
-
-export const virtualOfficePath = (cityName) => `/virtual-office/${toVirtualSlug(cityName)}`;
 
 // ============================================================================
 // 2. SHARED PAGE COPY (templates take the city object)
